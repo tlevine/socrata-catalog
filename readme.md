@@ -17,6 +17,7 @@ The files will be in `./catalogs`, and the SQLite3 database will be in
 
 ```sql
 SELECT format, count(*) FROM catalog GROUP BY format ORDER BY count(*);
+SELECT portal, format, count(*) FROM catalog GROUP BY portal, format ORDER BY count(*);
 ```
 
 ## Analyses
