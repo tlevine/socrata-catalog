@@ -1,0 +1,2343 @@
+[ {
+  "accessLevel" : "Public",
+  "description" : "Lists the datasets for this domain.  The format should correspond to the spec at http://project-open-data.github.io/schema/",
+  "format" : "application/json",
+  "frequency" : "hourly",
+  "identifier" : "https://data.colorado.gov/data.json",
+  "modified" : "2013-08-28",
+  "title" : "Project Open Data, /data.json file",
+  "webService" : "https://data.colorado.gov/data.json"
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.SchoolView.org/",
+  "created" : "2012-03-26",
+  "description" : "A website for comparing and contrasting Colorado's schools, viewing process and determining the best facility for your child",
+  "format" : "application/octet-stream",
+  "identifier" : "tedy-p7a5",
+  "keyword" : "",
+  "license" : "Public Domain\nCDE(http://www.SchoolView.org/)",
+  "modified" : "2012-06-25",
+  "releaseDate" : "2012-03-26",
+  "title" : "Colorado Department of Education's School View",
+  "distribution" : [ {
+    "accessURL" : "http://www.SchoolView.org/",
+    "formats" : [ {
+      "label" : "open in new window",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.arcgis.com/home/item.html?id=357b67e80978450cbdef820d66d91564",
+  "created" : "2012-05-22",
+  "description" : "BlackBearHumanConflict is an ESRI SDE Feature Class showing human/bear conflict areas for Black Bear (Ursus americanus) in Colorado. Human/bear Conflict Areas are defined as that portion of the overall range where two or more confirmed black bear complaints per season were received which resulted in Colorado Division of Wildlife investigation, damage to persons or property (cabins, tents, vehicles, etc.), and/or the removal of the problem bear(s). This does not include damage caused by bears to livestock.This information was derived from field personnel. A variety of data capture techniques were used including drawing on mylar overlays at 1:50,000 scale USGS county mapsheets and implementation of the SmartBoard Interactive Whiteboard using stand-up, real-time digitizing at various scales (Cowardin, M., M. Flenner. March 2003. Maximizing Mapping Resources. GeoWorld 16(3):32-35).",
+  "format" : "text/html",
+  "identifier" : "22py-uutk",
+  "keyword" : "",
+  "modified" : "2012-05-29",
+  "releaseDate" : "2012-05-22",
+  "title" : "Black Bear Human Conflict Area",
+  "distribution" : [ {
+    "accessURL" : "http://www.arcgis.com/home/item.html?id=357b67e80978450cbdef820d66d91564",
+    "formats" : [ {
+      "label" : "html",
+      "value" : "text/html"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/views/2s8b-88bp/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-03-23",
+  "feed" : "https://data.colorado.gov/api/views/2s8b-88bp/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "2s8b-88bp",
+  "keyword" : "",
+  "modified" : "2012-05-16",
+  "releaseDate" : "2012-03-23",
+  "title" : "Colorado Governmental Agencies",
+  "webService" : "https://data.colorado.gov/resource/2s8b-88bp",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/views/2s8b-88bp/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/2s8b-88bp/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/2s8b-88bp/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/2s8b-88bp/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/2s8b-88bp/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/2s8b-88bp/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.ahrq.gov/data/dataresources.htm",
+  "created" : "2012-05-10",
+  "description" : "The Agency for Healthcare Research and Quality (AHRQ) offers robust data sources that may interest you if you're a researcher, clinician, purchaser, policymaker, or consumer. The following page is intended to assist you in understanding these sources and to get you to the data you seek.",
+  "format" : "text/html",
+  "identifier" : "quay-2b7z",
+  "keyword" : "",
+  "modified" : "2012-05-10",
+  "releaseDate" : "2012-05-10",
+  "title" : "AHRQ Data Resources",
+  "distribution" : [ {
+    "accessURL" : "http://www.ahrq.gov/data/dataresources.htm",
+    "formats" : [ {
+      "label" : "htm",
+      "value" : "text/html"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.cdc.gov/DataStatistics/",
+  "created" : "2012-05-10",
+  "description" : "Includes information on the following topics:\nAging, Alcohol, Arthritis,Asthma, Autism (ASD), Birth Defects, Births, Blood Disorders,  Breastfeeding, Cancer, Chronic Diseases, Deaths, Diabetes, Disease Classification, Foodborne Illness, Genomics, Growth Charts, Healthy Water, Heart Disease, HIV/AIDS, Immunizations, Injuries & Violence, Life Expectancy, Lyme Disease, MRSA, Oral Health, Overweight & Obesity, Physical Inactivity, reproductive Health, Smoking & Tobacco, STDs, Vital Signs, Workplace",
+  "format" : "application/octet-stream",
+  "identifier" : "c78j-uum2",
+  "keyword" : "",
+  "modified" : "2012-05-10",
+  "releaseDate" : "2012-05-10",
+  "title" : "Centers for Disease Control (CDC) Data & Statistics by Topic",
+  "distribution" : [ {
+    "accessURL" : "http://www.cdc.gov/DataStatistics/",
+    "formats" : [ {
+      "label" : "unknown",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.healthmetricsandevaluation.org/ghdx",
+  "created" : "2012-05-10",
+  "description" : "The GHDx, IHME's is a catalog of the world's health and demographic data. Use the GHDx to research population census data, surveys, registries, indicators and estimates, administrative health data, and financial data related to health.\n- Search, browse, and find information about datasets. \n- Find out who can provide the data. \n - Download IHME results and public-use datasets from other organizations.",
+  "format" : "application/octet-stream",
+  "identifier" : "3rgc-6zyp",
+  "keyword" : "",
+  "modified" : "2012-05-10",
+  "releaseDate" : "2012-05-10",
+  "title" : "GHDx - Global Health Data Exchange- Institute for health metrics and evaluation",
+  "distribution" : [ {
+    "accessURL" : "http://www.healthmetricsandevaluation.org/ghdx",
+    "formats" : [ {
+      "label" : "unknown",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.healthindicators.gov/",
+  "created" : "2012-05-10",
+  "description" : "Collection of health indicator data categorized by topic, geography, and initiative.\nFor developers, the HIW provides access to the underlying data through the use of an Application Programming Interface (API) which is designed to present information to systems with disparate architectures and underlying technologies.",
+  "format" : "application/octet-stream",
+  "identifier" : "uw26-atc3",
+  "keyword" : "",
+  "modified" : "2012-05-10",
+  "releaseDate" : "2012-05-10",
+  "title" : "Health Indicators Warehouse",
+  "distribution" : [ {
+    "accessURL" : "http://www.healthindicators.gov/",
+    "formats" : [ {
+      "label" : "unknown",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://wbi.meyouhealth.com/",
+  "created" : "2012-05-10",
+  "description" : "The Gallup-Healthways Well-Being Index is the first-ever daily assessment of U.S. residents' health and well-being. By interviewing at least 1,000 U.S. adults every day, the Well-Being Index provides real-time measurement and insights needed to improve health, increase productivity, and lower healthcare costs.\nMANY CSV DATA SET FILES HERE\n\nPublic and private sector leaders use data on life evaluation, physical health, emotional health, healthy behavior, work environment, and basic access to develop and prioritize strategies to help their communities thrive and grow. Journalists, academics, and medical experts benefit from this unprecedented resource of health statistics and behavioral economic data to inform their research and reporting.",
+  "format" : "application/octet-stream",
+  "identifier" : "hss4-d4bb",
+  "keyword" : "",
+  "modified" : "2012-05-10",
+  "releaseDate" : "2012-05-10",
+  "title" : "Well Being Index",
+  "distribution" : [ {
+    "accessURL" : "http://wbi.meyouhealth.com/",
+    "formats" : [ {
+      "label" : "unknown",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://intramural.nih.gov/search/index.taf?_UserReference=960829FE4098E9BE4F468FC3",
+  "created" : "2012-05-10",
+  "description" : "The NIH Intramural Data Base (NIDB) is a tool that makes intramural research information available online to the NIH community, to extramural collaborators, and to the public.",
+  "format" : "application/octet-stream",
+  "identifier" : "gtby-gz6u",
+  "keyword" : "",
+  "modified" : "2012-05-10",
+  "releaseDate" : "2012-05-10",
+  "title" : "National Institute of Health (NIH) Intramural Research Reports",
+  "distribution" : [ {
+    "accessURL" : "http://intramural.nih.gov/search/index.taf?_UserReference=960829FE4098E9BE4F468FC3",
+    "formats" : [ {
+      "label" : "taf?_userreference=960829fe4098e9be4f468fc3",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.nlm.nih.gov/medlineplus/connect/overview.html",
+  "created" : "2012-05-10",
+  "description" : "MedlinePlus Connect is a free service of the National Library of Medicine (NLM), National Institutes of Health (NIH), and the Department of Health and Human Services (HHS). This service allows health organizations and health IT providers to link patient portals and electronic health record (EHR) systems to MedlinePlus, an authoritative up-to-date health information resource for patients, families, and health care providers.",
+  "format" : "text/html",
+  "identifier" : "9u8f-asik",
+  "keyword" : "",
+  "modified" : "2012-05-10",
+  "releaseDate" : "2012-05-10",
+  "title" : "MedLine Plus Connect – Administered by the National Library of Medicine",
+  "distribution" : [ {
+    "accessURL" : "http://www.nlm.nih.gov/medlineplus/connect/overview.html",
+    "formats" : [ {
+      "label" : "html",
+      "value" : "text/html"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.chd.dphe.state.co.us/cohid/Default.aspx",
+  "created" : "2012-05-10",
+  "description" : "Data sets from the Colorado Department of Public Health and Environment including: Birth, death, population estimates, behavioral risk factors, birth defect data, cancer incidence, pregnancy risk assessment, injury hospitalizations, environemental and other data.",
+  "format" : "application/octet-stream",
+  "identifier" : "gng2-28k6",
+  "keyword" : "",
+  "modified" : "2012-05-10",
+  "releaseDate" : "2012-05-10",
+  "title" : "Colorado Health Information DataSet (COHID)",
+  "distribution" : [ {
+    "accessURL" : "http://www.chd.dphe.state.co.us/cohid/Default.aspx",
+    "formats" : [ {
+      "label" : "aspx",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://coloradohealthinstitute.org/data-repository/county/",
+  "created" : "2012-05-10",
+  "description" : "Data repository to find basic facts, roll over counties on the map of a county to get a full profile with demographics, health coverage, and health workforce information, info for how to use the data etc.",
+  "format" : "application/octet-stream",
+  "identifier" : "tu9p-q8wu",
+  "keyword" : "",
+  "modified" : "2012-05-10",
+  "releaseDate" : "2012-05-10",
+  "title" : "Colorado Health Institute Data Repository",
+  "distribution" : [ {
+    "accessURL" : "http://coloradohealthinstitute.org/data-repository/county/",
+    "formats" : [ {
+      "label" : "unknown",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.cha.com/CHA/_Resources/New%20DataBank.aspx",
+  "created" : "2012-05-10",
+  "description" : "DATABANK is an online database program available only to licensed hospital associations and member hospitals. Since 1985, DATABANK has served as a centralized location for the collection and analysis of hospital utilization and financial data for health care facilities and their associations nationwide.\n\nThe secure, web-based, customizable database offers comparable sources of data such as average length of stay, outpatient statistics, charges and expenses per day or per stay, uncollected charges, number of days in accounts receivable gross, profitability and a number of personnel statistics. Data is collected through DATABANK every month to provide timely snapshots in key information categories.\n\nThe DATABANK program is currently licensed for use in more than 20 states. All members of the Colorado Hospital Association can access DATABANK as long as they submit the required monthly data. To sign up or for more information, please visit www.DATABANKinfo.org or contact Kevin Reed, CHA Senior Director, at 720-489-1630.",
+  "format" : "application/octet-stream",
+  "identifier" : "f8wz-4zdz",
+  "keyword" : "",
+  "modified" : "2012-05-10",
+  "releaseDate" : "2012-05-10",
+  "title" : "Colorado Hospital Association- Databank",
+  "distribution" : [ {
+    "accessURL" : "http://www.cha.com/CHA/_Resources/New%20DataBank.aspx",
+    "formats" : [ {
+      "label" : "aspx",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/views/rhr5-4mx3/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-05-10",
+  "description" : "This dataset ranks Colorado counties by health outcomes and factors for the year 2012.",
+  "feed" : "https://data.colorado.gov/api/views/rhr5-4mx3/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "rhr5-4mx3",
+  "keyword" : "heath outcomes,health factors",
+  "modified" : "2012-05-11",
+  "releaseDate" : "2012-05-10",
+  "title" : "2012 Health Outcomes And Factors Rankings",
+  "webService" : "https://data.colorado.gov/resource/rhr5-4mx3",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/views/rhr5-4mx3/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/rhr5-4mx3/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/rhr5-4mx3/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/rhr5-4mx3/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/rhr5-4mx3/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/rhr5-4mx3/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "heath outcomes", "health factors" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/nt9ikOYYKkcPVeikodv0NvVKpMq6B2NYxayBwn47N5g?filename=CO_SBDD_20120401.zip",
+  "created" : "2012-05-21",
+  "description" : "This file represent broadband coverage.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "ctf5-ck3r",
+  "keyword" : "broadband",
+  "modified" : "2012-09-28",
+  "releaseDate" : "2012-05-21",
+  "title" : "Colorado Broadband Coverage April, 2012 Delivery",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/nt9ikOYYKkcPVeikodv0NvVKpMq6B2NYxayBwn47N5g?filename=CO_SBDD_20120401.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "broadband" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.colorado.gov/oit/broadband",
+  "created" : "2012-05-22",
+  "description" : "This data set represents broadband coverage across the state of Colorado. It is developed by the CO Broadband Data and Development Program (CBDDP) within OIT for the broadband mapping grant from the National Telecommunications and Information Administration (NTIA) through the State Broadband Initiative (SBI). It contains several layers reflecting the methods of reporting coverage required by the NTIA. The NTIA requires census block less than 2 sq. mi. to have information about the service available in the block, including service provider, speed and technology platform. In block larger than 2 sq. mi. broadband service is shown on roads within that block. The data set also includes \"Community Anchor Institutions\" (CAIs) and their broadband service. The data is compiled by asking broadband service providers about their service. In addition, the CAIs provide their service information to OIT directly.",
+  "format" : "application/octet-stream",
+  "identifier" : "rkrh-jgz7",
+  "keyword" : "broadband",
+  "modified" : "2012-11-29",
+  "releaseDate" : "2012-05-22",
+  "title" : "Colorado Broadband Availability, April 2012 delivery",
+  "distribution" : [ {
+    "accessURL" : "http://www.colorado.gov/oit/broadband",
+    "formats" : [ {
+      "label" : "web page",
+      "value" : "application/octet-stream"
+    } ]
+  }, {
+    "accessURL" : "http://maps.co.gov/coloradobroadband",
+    "formats" : [ {
+      "label" : "web service",
+      "value" : "application/octet-stream"
+    } ]
+  } ],
+  "keywords" : [ "broadband" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cdss.state.co.us/Pages/CDSSHome.aspx",
+  "created" : "2012-05-22",
+  "description" : "Boundaries outlining the region for each Basin Committee.",
+  "format" : "application/octet-stream",
+  "identifier" : "xm86-kikq",
+  "keyword" : "",
+  "modified" : "2012-05-22",
+  "releaseDate" : "2012-05-22",
+  "title" : "Interbasin Compact Committee Basin Boundaries",
+  "distribution" : [ {
+    "accessURL" : "http://cdss.state.co.us/Pages/CDSSHome.aspx",
+    "formats" : [ {
+      "label" : "aspx",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://dnrwebcomapg.state.co.us/mg2010app/",
+  "created" : "2012-05-29",
+  "description" : "The Colorado Oil and Gas Conservation Commission (COGCC) PERMITS shapefile consists of over 6800 oil and gas well permit locations within the State of Colorado. The point data represent locations that are approved for drilling and/or recompletion. Permits are valid for two years. Once an Operator submits the required completion information to the COGCC documenting that the well has been drilled or recompleted, the permit point is deleted and replaced with a well point. Well IDs and other header information are provided as attributes. The COGCC is the official repository for Colorado's oil and gas information.",
+  "format" : "application/octet-stream",
+  "identifier" : "dqa8-fx6k",
+  "keyword" : "",
+  "modified" : "2012-05-29",
+  "releaseDate" : "2012-05-29",
+  "title" : "Permits",
+  "distribution" : [ {
+    "accessURL" : "http://dnrwebcomapg.state.co.us/mg2010app/",
+    "formats" : [ {
+      "label" : "unknown",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://dnrwebcomapg.state.co.us/mg2010app/",
+  "created" : "2012-05-29",
+  "description" : "The Colorado Oil and Gas Conservation Commission (COGCC) WELLS shapefile consists of over 98,000 oil and gas well locations within the State of Colorado. The well point data represent permitted locations, most of which have been drilled and completed, or drilled and abandoned. Some permitted locations were never drilled; these locations are also included in the shapefile. Well IDs and other header information are provided as attributes. The COGCC is the official repository for Colorado's oil and gas information.",
+  "format" : "application/octet-stream",
+  "identifier" : "284m-7z4p",
+  "keyword" : "",
+  "modified" : "2012-05-29",
+  "releaseDate" : "2012-05-29",
+  "title" : "Wells",
+  "distribution" : [ {
+    "accessURL" : "http://dnrwebcomapg.state.co.us/mg2010app/",
+    "formats" : [ {
+      "label" : "unknown",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/views/c2sf-deth/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-05-29",
+  "description" : "This dataset provides the location of health care service providers around the State of Colorado where the Colorado Telehealth Network (CTN) has installed new communications technology that will enable patients, providers and payers to improve the quality of care, reduce costs and increase access for health care services. By connecting patients and providers on a high speed and secure statewide private broadband network, the CTN provides increased access to educational, business process and clinical care products.",
+  "feed" : "https://data.colorado.gov/api/views/c2sf-deth/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "c2sf-deth",
+  "keyword" : "telehealth",
+  "modified" : "2012-05-30",
+  "releaseDate" : "2012-05-29",
+  "title" : "Colorado Telehealth Network Locations",
+  "webService" : "https://data.colorado.gov/resource/c2sf-deth",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/views/c2sf-deth/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/c2sf-deth/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/c2sf-deth/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/c2sf-deth/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/c2sf-deth/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/c2sf-deth/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "telehealth" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/views/j9qm-cw7a/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-05-29",
+  "feed" : "https://data.colorado.gov/api/views/j9qm-cw7a/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "j9qm-cw7a",
+  "keyword" : "",
+  "modified" : "2012-05-30",
+  "releaseDate" : "2012-05-29",
+  "title" : "Templates",
+  "webService" : "https://data.colorado.gov/resource/templates",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/views/j9qm-cw7a/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/j9qm-cw7a/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/j9qm-cw7a/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/j9qm-cw7a/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/j9qm-cw7a/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/j9qm-cw7a/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.arcgis.com/home/item.html?id=c30504c600424097bd93b6cdcc0cbe03",
+  "created" : "2012-05-29",
+  "description" : "The Colorado Ownership and Management and Protection (COMaP) dataset is a compilation of many disparate spatial datasets from around Colorado. Current contributors to the project include: U.S. Forest Service, National Park Service, Bureau of Land Management, Fish and Wildlife Service, Colorado State Parks, Colorado State Land Board, Colorado Division of Wildlife, and The Nature Conservancy.",
+  "format" : "application/octet-stream",
+  "identifier" : "d944-wvkz",
+  "keyword" : "",
+  "modified" : "2012-05-31",
+  "releaseDate" : "2012-05-29",
+  "title" : "Colorado Public Access to Public Lands V.8.0",
+  "distribution" : [ {
+    "accessURL" : "http://www.arcgis.com/home/item.html?id=c30504c600424097bd93b6cdcc0cbe03",
+    "formats" : [ {
+      "label" : "open dataset source in new window",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://ndis.nrel.colostate.edu/huntingatlas/index.html",
+  "created" : "2012-05-29",
+  "description" : "The Hunter Resource Report allows hunters to create a list of important emergency and contact information, field office locations, campgrounds, CDOW license agents & more. Annotation tools allow you to customize your printable maps and a variety of search options mean you should be able to find reference maps, Township, Range and Sections and place locations for almost any natural feature in Colorado.",
+  "format" : "application/octet-stream",
+  "identifier" : "4d3w-y648",
+  "keyword" : "",
+  "modified" : "2012-05-31",
+  "releaseDate" : "2012-05-29",
+  "title" : "Colorado Hunting Atlas",
+  "distribution" : [ {
+    "accessURL" : "http://ndis.nrel.colostate.edu/huntingatlas/index.html",
+    "formats" : [ {
+      "label" : "open dataset source in new window",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.arcgis.com/home/item.html?id=32687e3f2a95432dbc6428f5bde7af29",
+  "created" : "2012-05-29",
+  "description" : "These data provide a biological tool for planning in the event of human development in sage-grouse habitats. These maps depict Priority and General Habitats within occupied range in Colorado.  Also depicted are linkages between sage-grouse populations that provide connectivity across the greater sage-grouse range in Colorado.",
+  "format" : "application/octet-stream",
+  "identifier" : "jgrx-2v4k",
+  "keyword" : "",
+  "modified" : "2012-05-31",
+  "releaseDate" : "2012-05-29",
+  "title" : "Colorado Greater Sage Grouse Priority Habitat/Linkages",
+  "distribution" : [ {
+    "accessURL" : "http://www.arcgis.com/home/item.html?id=32687e3f2a95432dbc6428f5bde7af29",
+    "formats" : [ {
+      "label" : "open dataset source in new window",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.arcgis.com/home/item.html?id=190573c5aba643a0bc058e6f7f0510b7",
+  "created" : "2012-05-29",
+  "description" : "This is a layer package created by the Colorado Parks and Wildlife GIS Unit for distributing Colorado wildlife GIS data in a File Geodatabase (9.3.1 and 10.0 compatible) format for public distribution.",
+  "format" : "application/octet-stream",
+  "identifier" : "7ijd-4q29",
+  "keyword" : "",
+  "modified" : "2012-05-31",
+  "releaseDate" : "2012-05-29",
+  "title" : "All Colorado Parks and Wildlife Species Activity Mapping Data",
+  "distribution" : [ {
+    "accessURL" : "http://www.arcgis.com/home/item.html?id=190573c5aba643a0bc058e6f7f0510b7",
+    "formats" : [ {
+      "label" : "open dataset source in new window",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://apps.coloradodot.info/dataaccess/GeoData/index.cfm?fuseaction=GeoDataMain&MenuType=GeoData",
+  "created" : "2012-05-30",
+  "description" : "Features in this dataset represent public roads under local jurisdiction that are functionally classified as arterials or collectors. Features are represented by polyline (linear) geographic shapes.",
+  "format" : "application/octet-stream",
+  "identifier" : "pvbu-btrk",
+  "keyword" : "",
+  "modified" : "2012-05-31",
+  "releaseDate" : "2012-05-30",
+  "title" : "Major_Roads",
+  "distribution" : [ {
+    "accessURL" : "http://apps.coloradodot.info/dataaccess/GeoData/index.cfm?fuseaction=GeoDataMain&MenuType=GeoData",
+    "formats" : [ {
+      "label" : "open dataset source in new window",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://apps.coloradodot.info/dataaccess/GeoData/index.cfm?fuseaction=GeoDataMain&MenuType=GeoData",
+  "created" : "2012-05-30",
+  "description" : "Features in this dataset represent the legal incorporation boundaries of all incorporated cities in the State of Colorado. Features are represented by polygon geographic shapes.",
+  "format" : "application/octet-stream",
+  "identifier" : "tefj-g49n",
+  "keyword" : "",
+  "modified" : "2012-05-31",
+  "releaseDate" : "2012-05-30",
+  "title" : "Cities",
+  "distribution" : [ {
+    "accessURL" : "http://apps.coloradodot.info/dataaccess/GeoData/index.cfm?fuseaction=GeoDataMain&MenuType=GeoData",
+    "formats" : [ {
+      "label" : "open dataset source in new window",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://apps.coloradodot.info/dataaccess/GeoData/index.cfm?fuseaction=GeoDataMain&MenuType=GeoData",
+  "created" : "2012-05-30",
+  "description" : "Features in this dataset represent public roads under local jurisdiction that are functionally classified as local. Features are represented by polyline (linear) geographic shapes.",
+  "format" : "application/octet-stream",
+  "identifier" : "v5hk-yyh4",
+  "keyword" : "",
+  "modified" : "2012-05-31",
+  "releaseDate" : "2012-05-30",
+  "title" : "Local_Roads",
+  "distribution" : [ {
+    "accessURL" : "http://apps.coloradodot.info/dataaccess/GeoData/index.cfm?fuseaction=GeoDataMain&MenuType=GeoData",
+    "formats" : [ {
+      "label" : "open dataset source in new window",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://apps.coloradodot.info/dataaccess/GeoData/index.cfm?fuseaction=GeoDataMain&MenuType=GeoData",
+  "created" : "2012-05-30",
+  "description" : "Features in this dataset represent the boundaries of each county in the State of Colorado. Features are represented by polygon geographic shapes. As of October, 2009 this dataset carries demographics data.",
+  "format" : "application/octet-stream",
+  "identifier" : "6gz9-fypg",
+  "keyword" : "",
+  "modified" : "2012-05-31",
+  "releaseDate" : "2012-05-30",
+  "title" : "Counties",
+  "distribution" : [ {
+    "accessURL" : "http://apps.coloradodot.info/dataaccess/GeoData/index.cfm?fuseaction=GeoDataMain&MenuType=GeoData",
+    "formats" : [ {
+      "label" : "open dataset source in new window",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://gis.drcog.org/datacatalog/content/municipal-boundaries-2012",
+  "created" : "2012-05-30",
+  "description" : "Municipal boundaries of the DRCOG area.",
+  "format" : "application/octet-stream",
+  "identifier" : "yqgq-scwe",
+  "keyword" : "",
+  "modified" : "2012-05-31",
+  "releaseDate" : "2012-05-30",
+  "title" : "Municipal Boundaries (2012)",
+  "distribution" : [ {
+    "accessURL" : "http://gis.drcog.org/datacatalog/content/municipal-boundaries-2012",
+    "formats" : [ {
+      "label" : "open dataset source in new window",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://gis.drcog.org/datacatalog/content/block-groups-census-2010",
+  "created" : "2012-05-30",
+  "description" : "2010 Census Block Groups for the state of Colorado. This data also includes Census 2010 Demographic Information.",
+  "format" : "application/octet-stream",
+  "identifier" : "ky4i-ajvb",
+  "keyword" : "",
+  "modified" : "2012-05-31",
+  "releaseDate" : "2012-05-30",
+  "title" : "Block Groups (Census 2010)",
+  "distribution" : [ {
+    "accessURL" : "http://gis.drcog.org/datacatalog/content/block-groups-census-2010",
+    "formats" : [ {
+      "label" : "open dataset source in new window",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://gis.drcog.org/datacatalog/content/2035-metro-vision-base-rapid-transit-network",
+  "created" : "2012-05-30",
+  "description" : "Base Rapid Transit from the 2035 Metro Vision Scenario, as derived from the DRCOG Linear Referencing Sysetm (LRS)",
+  "format" : "application/octet-stream",
+  "identifier" : "9dsu-d5wu",
+  "keyword" : "",
+  "modified" : "2012-05-31",
+  "releaseDate" : "2012-05-30",
+  "title" : "2035 Metro Vision Base Rapid Transit Network",
+  "distribution" : [ {
+    "accessURL" : "http://gis.drcog.org/datacatalog/content/2035-metro-vision-base-rapid-transit-network",
+    "formats" : [ {
+      "label" : "open dataset source in new window",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://gis.drcog.org/datacatalog/content/2035-metro-vision-road-network",
+  "created" : "2012-05-30",
+  "description" : "2035 Metro Vision roadway network, as derived from the DRCOG Linear Referencing Sysetm (LRS)",
+  "format" : "application/octet-stream",
+  "identifier" : "wmbc-saet",
+  "keyword" : "",
+  "modified" : "2012-05-31",
+  "releaseDate" : "2012-05-30",
+  "title" : "2035 Metro Vision Road Network",
+  "distribution" : [ {
+    "accessURL" : "http://gis.drcog.org/datacatalog/content/2035-metro-vision-road-network",
+    "formats" : [ {
+      "label" : "open dataset source in new window",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://gis.drcog.org/datacatalog/content/bicycle-facility-inventory",
+  "created" : "2012-05-30",
+  "description" : "Regional inventory of bicycle route data collected from DRCOG member governments.",
+  "format" : "application/octet-stream",
+  "identifier" : "q2hm-c2z6",
+  "keyword" : "",
+  "modified" : "2012-05-31",
+  "releaseDate" : "2012-05-30",
+  "title" : "Bicycle Facility Inventory",
+  "distribution" : [ {
+    "accessURL" : "http://gis.drcog.org/datacatalog/content/bicycle-facility-inventory",
+    "formats" : [ {
+      "label" : "open dataset source in new window",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://gis.drcog.org/datacatalog/content/regional-traffic-counts",
+  "created" : "2012-05-30",
+  "description" : "Multiple year traffic counts from a variety of points in the DRCOG region",
+  "format" : "application/octet-stream",
+  "identifier" : "w6pw-w3y8",
+  "keyword" : "linear referencing system,roads,transportation",
+  "modified" : "2012-05-31",
+  "releaseDate" : "2012-05-30",
+  "title" : "Regional Traffic Counts",
+  "distribution" : [ {
+    "accessURL" : "http://gis.drcog.org/datacatalog/content/regional-traffic-counts",
+    "formats" : [ {
+      "label" : "open dataset source in new window",
+      "value" : "application/octet-stream"
+    } ]
+  } ],
+  "keywords" : [ "linear referencing system", "roads", "transportation" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://gis.drcog.org/datacatalog/content/drcog-crash-data-points-2006",
+  "created" : "2012-05-30",
+  "description" : "This file contains a record for each reported traffic crash in the Region. The crash record provides information on the date, time, collision type, vehicle type, driver demographics, and contributing factors for each crash. The data originates from State of Colorado Traffic Accident Report Forms.",
+  "format" : "application/octet-stream",
+  "identifier" : "ihhr-267b",
+  "keyword" : "",
+  "modified" : "2012-05-31",
+  "releaseDate" : "2012-05-30",
+  "title" : "DRCOG Crash Data Points 2006",
+  "distribution" : [ {
+    "accessURL" : "http://gis.drcog.org/datacatalog/content/drcog-crash-data-points-2006",
+    "formats" : [ {
+      "label" : "open dataset source in new window",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://gis.drcog.org/datacatalog/content/greenprint-data-parks-open-space",
+  "created" : "2012-05-30",
+  "description" : "Publicly Accessible Open Space Inventory - Denver Metro Green Space Study. (Copyright 2011. The Trust for Public Land. All Rights Reserved) In 2011, The Trust for Public Land (TPL) partnered with Great Outdoors Colorado (GOCO) to examine conservation priorities for children's access to green spaces, protecting riparian habitats, and enhancing regional trail connectivity across the 8-county Denver Metropolitan region. The study area for this project includes all or portions of the following counties: Adams, Arapahoe, Jefferson, Denver, Douglas, Weld, Broomfield, and Boulder. Study area boundaries were defined to encompass the Denver Regional 2035 Urban Growth boundary, using the MPO boundary to the east and the mountain backdrop to the west. A fundamental milestone for this project was to create an up-to-date inventory of publicly accessible parks, green space, and trails. The dataset depicts publicly access parks and open space, with over 30 jurisdictions and organizations contributing data including: Counties: Adams Arapahoe Jefferson Denver Douglas Weld Broomfield Boulder Cities and Local Jurisdictions: Arvada Aurora Boulder Brighton Castle Rock Commerce City Golden Greenwood Village Highlands Ranch Ken Caryl Lakewood Littleton Longmont Louisville Parker Thornton Westminster Wheat Ridge Foot Hills Recreation District South Suburban Parks and Recreation Other Partners: Learning Landscapes DRCOG COMAP State of Colorado Colorado Open Lands",
+  "format" : "application/octet-stream",
+  "identifier" : "2kpn-brzd",
+  "keyword" : "",
+  "modified" : "2012-05-31",
+  "releaseDate" : "2012-05-30",
+  "title" : "Greenprint Data - Parks & Open Space",
+  "distribution" : [ {
+    "accessURL" : "http://gis.drcog.org/datacatalog/content/greenprint-data-parks-open-space",
+    "formats" : [ {
+      "label" : "open dataset source in new window",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/views/f3na-xjup/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-05-16",
+  "description" : "A comprehensive list of all bills signed by Governor Hickenlooper from the 2012 Legislative Session.  Note that this list does not include some bills which the Governor has not yet signed, nor those bills passed during the special legislative session.",
+  "feed" : "https://data.colorado.gov/api/views/f3na-xjup/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "f3na-xjup",
+  "keyword" : "",
+  "modified" : "2013-07-26",
+  "releaseDate" : "2012-05-16",
+  "title" : "2012 Signed Bills",
+  "webService" : "https://data.colorado.gov/resource/f3na-xjup",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/views/f3na-xjup/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/f3na-xjup/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/f3na-xjup/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/f3na-xjup/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/f3na-xjup/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/f3na-xjup/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.juvenileis.org/pilot_colorado.html",
+  "created" : "2012-06-26",
+  "description" : "The Colorado Children and Youth Information Sharing is a collaborative effort initiated by the Colorado Collaborative Management Program State Steering Committee and the Colorado Prevention Leadership Council in 2007",
+  "format" : "text/html",
+  "identifier" : "hmvr-qdtz",
+  "keyword" : "",
+  "modified" : "2012-07-16",
+  "releaseDate" : "2012-06-26",
+  "title" : "Colorado Children and Youth Information Sharing Collaborative",
+  "distribution" : [ {
+    "accessURL" : "http://www.juvenileis.org/pilot_colorado.html",
+    "formats" : [ {
+      "label" : "html",
+      "value" : "text/html"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/views/273u-phzh/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-06-30",
+  "description" : "Configuration file for the demonstration mobile app.",
+  "feed" : "https://data.colorado.gov/api/views/273u-phzh/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "273u-phzh",
+  "keyword" : "",
+  "modified" : "2012-07-19",
+  "releaseDate" : "2012-06-30",
+  "title" : "Mobile App Configuration",
+  "webService" : "https://data.colorado.gov/resource/273u-phzh",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/views/273u-phzh/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/273u-phzh/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/273u-phzh/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/273u-phzh/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/273u-phzh/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/273u-phzh/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://highered.colorado.gov/i3/Statewide.aspx",
+  "created" : "2012-07-24",
+  "description" : "A website that includes Colorado state Post-Secondary Preparation, Post-Secondary Summary and Post-Secondary Success data.",
+  "format" : "application/octet-stream",
+  "identifier" : "vytt-vdym",
+  "keyword" : "",
+  "license" : "Public Domain\nCDHE(http://highered.colorado.gov)",
+  "modified" : "2012-07-24",
+  "releaseDate" : "2012-07-24",
+  "title" : "Colorado Higher Education Summary",
+  "distribution" : [ {
+    "accessURL" : "http://highered.colorado.gov/i3/Statewide.aspx",
+    "formats" : [ {
+      "label" : "open link in new window",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/views/gs5c-mx8w/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-05-11",
+  "description" : "Useful information about the locations of social services from the Colorado Department of Human Services within the State of Colorado.",
+  "feed" : "https://data.colorado.gov/api/views/gs5c-mx8w/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "gs5c-mx8w",
+  "keyword" : "social services",
+  "modified" : "2012-08-10",
+  "releaseDate" : "2012-05-11",
+  "title" : "CDHS Locations",
+  "webService" : "https://data.colorado.gov/resource/gs5c-mx8w",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/views/gs5c-mx8w/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/gs5c-mx8w/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/gs5c-mx8w/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/gs5c-mx8w/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/gs5c-mx8w/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/gs5c-mx8w/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "social services" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.statesperform.org/DataBuilder.aspx?utm_source=States+Perform+8.21&utm_campaign=States+Perform+8.21&utm_medium=email",
+  "created" : "2012-08-28",
+  "description" : "States Perform provides users with access to interactive, customizable and up-to-date comparative performance measurement data for 50 states in six key areas: fiscal and economic, public safety and justice, energy and environment, transportation, health and human services, and education.",
+  "format" : "text/html",
+  "identifier" : "7zct-exbj",
+  "keyword" : "",
+  "modified" : "2012-09-11",
+  "releaseDate" : "2012-08-28",
+  "title" : "The  Council of State Governments",
+  "distribution" : [ {
+    "accessURL" : "http://www.statesperform.org/DataBuilder.aspx?utm_source=States+Perform+8.21&utm_campaign=States+Perform+8.21&utm_medium=email",
+    "formats" : [ {
+      "label" : "html",
+      "value" : "text/html"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/views/59yk-kunn/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-09-12",
+  "description" : "A listing of the State of Colorado Office of Information Technology - Technology Standards",
+  "feed" : "https://data.colorado.gov/api/views/59yk-kunn/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "59yk-kunn",
+  "keyword" : "oit technology standards,oit,technology standards,colorado technology standards",
+  "modified" : "2012-11-26",
+  "releaseDate" : "2012-09-12",
+  "title" : "OIT Standards - Technology Standards Catalog",
+  "webService" : "https://data.colorado.gov/resource/59yk-kunn",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/views/59yk-kunn/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/59yk-kunn/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/59yk-kunn/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/59yk-kunn/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/59yk-kunn/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/59yk-kunn/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "oit technology standards", "oit", "technology standards", "colorado technology standards" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/views/pu6f-rdxf/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-09-20",
+  "description" : "Substance Use Disorder Treatment Providers  locations including types of treatments provided.",
+  "feed" : "https://data.colorado.gov/api/views/pu6f-rdxf/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "pu6f-rdxf",
+  "keyword" : "cdhs,division of behavioral health,dbh",
+  "modified" : "2012-09-20",
+  "releaseDate" : "2012-09-20",
+  "title" : "Substance Use Disorder Treatment Providers",
+  "webService" : "https://data.colorado.gov/resource/pu6f-rdxf",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/views/pu6f-rdxf/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/pu6f-rdxf/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/pu6f-rdxf/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/pu6f-rdxf/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/pu6f-rdxf/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/pu6f-rdxf/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "cdhs", "division of behavioral health", "dbh" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/q78qn4qe54JGWsi0XItvWtK5pzBJCOPvATZPUcdUcBE?filename=CBMS_Report+to+JBC_June_2012.txt",
+  "created" : "2012-10-22",
+  "description" : "Colorado Benefits Management System (CBMS) June 2012 quarterly report to the State of Colorado Legislature Joint Budget Committee describing operations, improvements, and planning with a focus on system improvements to technology and service.",
+  "format" : "text/plain; charset=iso-8859-1",
+  "identifier" : "28we-rbaa",
+  "keyword" : "colorado,benefits,management,cbms,jbc",
+  "modified" : "2012-12-12",
+  "releaseDate" : "2012-10-22",
+  "title" : "CBMS - Report to JBC - June 2012",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/q78qn4qe54JGWsi0XItvWtK5pzBJCOPvATZPUcdUcBE?filename=CBMS_Report+to+JBC_June_2012.txt",
+    "formats" : [ {
+      "label" : "text/plain; charset=iso-8859-1",
+      "value" : "text/plain; charset=iso-8859-1"
+    } ]
+  } ],
+  "keywords" : [ "colorado", "benefits", "management", "cbms", "jbc" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/CKh9NB1HcLeTrJgSSpCo5hrqultXMqMkkefE0JEP91w?filename=Colorado_Congresstional_Moreno_South_Shapefiles.zip",
+  "created" : "2012-10-23",
+  "description" : "These shape files were contributed to data.colorado.gov from Zack Wimberly.\r\n\r\n(This zip archive containing the shape files can be downloaded by clicking on the button above.)",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "qkge-gmdc",
+  "keyword" : "",
+  "modified" : "2012-12-04",
+  "releaseDate" : "2012-10-23",
+  "title" : "Colorado Congressional Moreno South Shapefiles",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/CKh9NB1HcLeTrJgSSpCo5hrqultXMqMkkefE0JEP91w?filename=Colorado_Congresstional_Moreno_South_Shapefiles.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/HYoCb3vJsxO3pwzw5SBjIvXXuWR1CPZ-JklA1nEUyMg?filename=Mobile+Devices-2012v2.pdf",
+  "created" : "2012-10-29",
+  "description" : "In accordance with §24-­‐37.5-­‐105(9), the State of Colorado Chief Technology Officer (CTO) adopts the following standard to guide the procurement and use of Mobile Devices for use in all applicable State of Colorado Applications. This Standard shall be titled “MobileDevices-­‐2012v1”.",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "dcfs-kg4r",
+  "keyword" : "mobile,device,management,colorado,cto",
+  "modified" : "2012-12-12",
+  "releaseDate" : "2012-10-29",
+  "title" : "OIT Standards - Mobile Devices-2012v1",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/HYoCb3vJsxO3pwzw5SBjIvXXuWR1CPZ-JklA1nEUyMg?filename=Mobile+Devices-2012v2.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "mobile", "device", "management", "colorado", "cto" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/iqZqptbrDk0M3HAdg7-WLvrmMqmCJinDS2CEgpnM6qs?filename=Standard_Web_Services_20120615.pdf",
+  "created" : "2012-10-29",
+  "description" : "In accordance with §24-37.5-105(9), the office of the Chief Technology Officer (CTO)  has adopted  a Web Services standard to guide the creation and utilization of Web Services for use in all applicable State Applications. This Standard shall be titled “Web Services-2012v1”.",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "hjsj-hgp2",
+  "keyword" : "oit,standard,web,services,colorado,cto,applications",
+  "modified" : "2012-12-12",
+  "releaseDate" : "2012-10-29",
+  "title" : "OIT Standards - Web Services 2012v1",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/iqZqptbrDk0M3HAdg7-WLvrmMqmCJinDS2CEgpnM6qs?filename=Standard_Web_Services_20120615.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "oit", "standard", "web", "services", "colorado", "cto", "applications" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/RbWFhwldYKV6GNkBXr5aFhYIbABhGTBElWpi0HfvNdI?filename=Standard_Web_Browsers_20120615.pdf",
+  "created" : "2012-10-29",
+  "description" : "In accordance with §24-37.5-105(9), the office of the State of Colorado Chief Technology Officer adopts the following standard to guide browser usage within the State’s Enterprise Applications. This standard shall be defined as \"Web Browsers 2012v1\".",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "5gjp-ybch",
+  "keyword" : "oit,standard,web,browser,guide,enterprise,applications",
+  "modified" : "2013-01-28",
+  "releaseDate" : "2012-10-29",
+  "title" : "OIT Standards - Web Browsers 2012v1",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/RbWFhwldYKV6GNkBXr5aFhYIbABhGTBElWpi0HfvNdI?filename=Standard_Web_Browsers_20120615.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "oit", "standard", "web", "browser", "guide", "enterprise", "applications" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/C-hPlh9xC6XDHI42r1tQOCL81XXQeD7Ntkd3N21TtOc?filename=OITMobileFirstStrategy2013.pdf",
+  "created" : "2012-11-26",
+  "description" : "The Mobile First Strategy will align State of Colorado Office of Information Technology (OIT) resources, designs, and applications around mobile platforms first, web browsers and other technology platforms secondly.",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "8nd5-akr5",
+  "keyword" : "state,colorado,information,technology,standards,mobile,first,oit,platform,laptop,smartphone,tablet,android,ios",
+  "modified" : "2012-12-12",
+  "releaseDate" : "2012-11-26",
+  "title" : "OIT Standards - Mobile First Strategy 2013",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/C-hPlh9xC6XDHI42r1tQOCL81XXQeD7Ntkd3N21TtOc?filename=OITMobileFirstStrategy2013.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "state", "colorado", "information", "technology", "standards", "mobile", "first", "oit", "platform", "laptop", "smartphone", "tablet", "android", "ios" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/aVWCsEB6WUKlUPYmo0cpeeb0sx9qeClpB2pjgnuRfHY?filename=LarimerCounty.mdb",
+  "created" : "2012-11-28",
+  "description" : "Address point geodatabase for Larimer County, CO",
+  "format" : "application/x-msaccess; charset=binary",
+  "identifier" : "rfet-7g5b",
+  "keyword" : "larimer,address",
+  "license" : "Public Domain\nLarimer County Government(http://www.larimer.org)",
+  "modified" : "2012-11-28",
+  "releaseDate" : "2012-11-28",
+  "title" : "Larimer County Address Points",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/aVWCsEB6WUKlUPYmo0cpeeb0sx9qeClpB2pjgnuRfHY?filename=LarimerCounty.mdb",
+    "formats" : [ {
+      "label" : "application/x-msaccess; charset=binary",
+      "value" : "application/x-msaccess; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "larimer", "address" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/GcS9cbAiYdNmr-zmzBxcZ6JQzeaXmVfvmlCcnvWRXTk?filename=CO_SBDD_20121001+-+datagov.zip",
+  "created" : "2012-11-29",
+  "description" : "This data set represents broadband coverage across the state of Colorado. It is developed by the CO Broadband Data and Development Program (CBDDP) within OIT for the broadband mapping grant from the National Telecommunications and Information Administration (NTIA) through the State Broadband Initiative (SBI). It contains several layers reflecting the methods of reporting coverage required by the NTIA. The NTIA requires census block less than 2 sq. mi. to have information about the service available in the block, including service provider, speed and technology platform. In block larger than 2 sq. mi. broadband service is shown on roads within that block. The data set also includes \"Community Anchor Institutions\" (CAIs) and their broadband service. The data is compiled by asking broadband service providers about their service. In addition, the CAIs provide their service information to OIT directly.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "2h8k-x9y5",
+  "keyword" : "broadband",
+  "license" : "Creative Commons 1.0 Universal\nColorado Governor's Office of information Technology, Colorado Broadband Data & Development Program(http://www.colorado.gov/oit/broadband)\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2012-11-29",
+  "releaseDate" : "2012-11-29",
+  "title" : "CO SBDD 20121001 - Datagov",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/GcS9cbAiYdNmr-zmzBxcZ6JQzeaXmVfvmlCcnvWRXTk?filename=CO_SBDD_20121001+-+datagov.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "broadband" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/WoCp7Dq358ktyU99KZVMl8yfAtcZH-qUKUcY8ParHJs?filename=ccc_addresses.zip",
+  "created" : "2012-11-30",
+  "description" : "Addresses for Clear Creek County",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "5n69-2agk",
+  "keyword" : "",
+  "modified" : "2012-11-30",
+  "releaseDate" : "2012-11-30",
+  "title" : "CCC Addresses",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/WoCp7Dq358ktyU99KZVMl8yfAtcZH-qUKUcY8ParHJs?filename=ccc_addresses.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/9h9ptli8KZxbL0gHXrKlirNhT2UBTBC6D581gMwJx10?filename=OIT+STANDARD_Mobile+Applications+Development-2012v1.pdf",
+  "created" : "2012-12-05",
+  "description" : "The State of Colorado office of the Chief Technology Officer (CTO) adopts the this standard to guide the creation and utilization of Web Services for use in all applicable State Applications. This standard defines acceptable mobile application platforms for application development",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "rryq-gkzh",
+  "keyword" : "oit,mobile,standard,standards,technology,cto,applications,platforms,web,services",
+  "modified" : "2012-12-12",
+  "releaseDate" : "2012-12-05",
+  "title" : "OIT Standards - Mobile Applications Development",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/9h9ptli8KZxbL0gHXrKlirNhT2UBTBC6D581gMwJx10?filename=OIT+STANDARD_Mobile+Applications+Development-2012v1.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "oit", "mobile", "standard", "standards", "technology", "cto", "applications", "platforms", "web", "services" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/bPbIlykKkP3lhJKVaDx68f_WBsF4qNZSpl09r2iK58A?filename=OIT+POLICY_Cloud+First+Policy+2012-13+FINAL.pdf",
+  "created" : "2012-12-05",
+  "description" : "This document lays out the principles and decision criteria for employing “cloud first” services in specific instances and differentiates the different service and delivery models that may be appropriate for different application scenarios. Given the state of the industry, Colorado’s IT infrastructure and footprint, and the opportunities that are available, Colorado is proceeding with a “cloud first” policy, mirroring the Federal government’s cloud policy.  To that end, Colorado is making a deliberate and explicit policy to “cloud first” services. The State will proceed with the presumption that new services, applications and major revisions to existing applications will be supported in a cloud based environment first, unless there are substantive reasons why they should be hosted on the State’s private infrastructure.",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "t7rj-xsmr",
+  "keyword" : "oit,standard,standards,technology,cloud,first,policy colorado,cto,services,applications,infrastructure",
+  "modified" : "2012-12-12",
+  "releaseDate" : "2012-12-05",
+  "title" : "OIT Standards - Cloud First Policy 2012-13",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/bPbIlykKkP3lhJKVaDx68f_WBsF4qNZSpl09r2iK58A?filename=OIT+POLICY_Cloud+First+Policy+2012-13+FINAL.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "oit", "standard", "standards", "technology", "cloud", "first", "policy colorado", "cto", "services", "applications", "infrastructure" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/SQyEE4YRC1UM8HpWDIfWJvQfb7D-XLfGmdh5uzdzM3I?filename=The+Compass-+Enterprise+Architecture+2011-2014.pdf",
+  "created" : "2013-01-07",
+  "description" : "The Compass: Enterprise Architecture 2011-2014 Technology Roadmap is a living document that will be reviewed on a quarterly basis and updated as necessary.  The goal of a living document is to obtain feedback from OIT agency partners and other functional area teams within the organization in an ongoing and collaborative way.  \r\n\r\nThe Chief Technology Officer (CTO) is the author primary author of The Compass: Enterprise Architecture 2011-2014 Technology Roadmap.  The CTO Enterprise Architecture (EA) Team will support the CTO in making quarterly updates,",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "c7se-rngd",
+  "keyword" : "oit technology standards,oit,technology standards,colorado technology standards,roadmap,compass,cto,enterprise,architecture",
+  "modified" : "2013-01-07",
+  "releaseDate" : "2013-01-07",
+  "title" : "OIT Standards - The Compass - Enterprise Architecture 2011-2014",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/SQyEE4YRC1UM8HpWDIfWJvQfb7D-XLfGmdh5uzdzM3I?filename=The+Compass-+Enterprise+Architecture+2011-2014.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "oit technology standards", "oit", "technology standards", "colorado technology standards", "roadmap", "compass", "cto", "enterprise", "architecture" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/tKSnaiGcZ3yQnefMjGyRlXoWMk3twuyPZlwZTIXk9Ks?filename=OIT_FY13_Playbook_Updated+Nov+2012.pdf",
+  "created" : "2013-01-08",
+  "description" : "The OIT FY13 Playbook defines OIT's priorities and provides a road-map for today and the future. It sets priorities around Customer Service, People, Innovation, Service Excellence, Trusted Partnerships and Information Security",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "eu9x-48ct",
+  "keyword" : "oit,goals,strategic,plan",
+  "modified" : "2013-01-18",
+  "releaseDate" : "2013-01-08",
+  "title" : "Strategic Plan - Governor's Office of Information Technology",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/tKSnaiGcZ3yQnefMjGyRlXoWMk3twuyPZlwZTIXk9Ks?filename=OIT_FY13_Playbook_Updated+Nov+2012.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "oit", "goals", "strategic", "plan" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/qgrvLKCfPfIm31HuTJlwVAd4TcWHhJNZkFVtNRTmxSc?filename=DOC_+SP__12-27-12_FINAL.pdf",
+  "created" : "2013-01-08",
+  "description" : "The Department’s 2013-2014 Strategic Plan continues to move us forward toward our vision of “building a safer Colorado for today and tomorrow”. Our new objectives focus on improving the delivery of quality mental health programs, implementing the new federal legislation for the Prison Rape Elimination Act, and applying the Lean process improvement system to achieve our strategic initiatives.",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "5san-74yu",
+  "keyword" : "strategic,plan,agenda,doc",
+  "modified" : "2013-01-08",
+  "releaseDate" : "2013-01-08",
+  "title" : "Strategic Plan – Department of Corrections",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/qgrvLKCfPfIm31HuTJlwVAd4TcWHhJNZkFVtNRTmxSc?filename=DOC_+SP__12-27-12_FINAL.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "strategic", "plan", "agenda", "doc" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/tyxpmS6TTpqaIATXJfqRY5WR9XBSiyGbThx5U7Zgn8w?filename=CDOT+FY14+CDOT+Strategic+Plan.pdf",
+  "created" : "2013-01-08",
+  "description" : "CDOT FY14 Strategic Plan to guide the strategic planning and budgeting processes, the Transportation Commission and Department have adopted mission and vision statements, core values, and operating principles. Components of the strategic plan, as required by Section 2-7-202(13)(a) (C.R.S. 2012) commencing with the State budget process for fiscal year 2012-13, are highlighted in bold.\r\nThe vision of the department is to enhance the quality of life and the environment of the citizens of Colorado by creating an integrated transportation system that focuses on safely moving people and goods and by offering convenient linkages among modal choices. It accomplishes this by relying on its core values of safety, people, respect, integrity, customer service, and excellence.\r\nCDOT’s mission is to provide the best multi-modal transportation system for Colorado that most effectively and safely moves people, goods and information. This mission is manifested in part through operating principles within Transportation Commission Policy Directive 13: customer focus, leadership, partnership, integrated regional and statewide priorities, financial responsibilities, balanced quality of life, environment, accessible connectivity and modal choices, and social responsibility.",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "pwex-ejkg",
+  "keyword" : "strategic,plan,agenda,dot,cdot",
+  "modified" : "2013-01-08",
+  "releaseDate" : "2013-01-08",
+  "title" : "Strategic Plan – Department of Transportation",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/tyxpmS6TTpqaIATXJfqRY5WR9XBSiyGbThx5U7Zgn8w?filename=CDOT+FY14+CDOT+Strategic+Plan.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "strategic", "plan", "agenda", "dot", "cdot" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/vfka7ZIWTeEP3pMRQOqmXqZIKrloMOM_p5LTFOOlCM8?filename=Final+Strategic+Plan+by+Goal+12-26-12.pdf",
+  "created" : "2013-01-15",
+  "description" : "Over the past year, an employee committee has been working with the Department's executive leadership team in developing a strategic plan that incorporates all aspects of the work we do to include: taxation, lottery, enforcement, and motor vehicles.\n\nAlthough it may seem that we perform diverse functions we really are similar in a lot of ways and we are all committed to the following five overarching goals:\n\n• Be respectful to our customers by providing processes that are clear, simple, timely, and convenient.\n\n• Provide responsible financial, resource, and project management that builds a sustainable foundation utilizing a high standard of care.\n\n• Promote fairness and consistency in the application of the law.\n\n• Recruit, develop, retain, and value a high-quality, diverse workforce in an environment that promotes collaboration, professional development, and employee innovation.\n\n• Maximize public trust through responsible stewardship and transparent processes.",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "6tmj-amaj",
+  "keyword" : "strategic,plan,dor,revenue,agenda",
+  "modified" : "2013-01-15",
+  "releaseDate" : "2013-01-15",
+  "title" : "Strategic Plan - Department of Revenue",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/vfka7ZIWTeEP3pMRQOqmXqZIKrloMOM_p5LTFOOlCM8?filename=Final+Strategic+Plan+by+Goal+12-26-12.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "strategic", "plan", "dor", "revenue", "agenda" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://dtdapps.coloradodot.info/Otis/ycd",
+  "created" : "2013-01-16",
+  "description" : "CDOT web site that shows HOW and WHERE CDOT spends transportation dollars plus more.",
+  "format" : "text/html",
+  "identifier" : "rpy4-9n8r",
+  "keyword" : "",
+  "modified" : "2013-01-16",
+  "releaseDate" : "2013-01-16",
+  "title" : "Strategic Plan - Department of Transportation Performance and Transportation Expenditures",
+  "distribution" : [ {
+    "accessURL" : "http://dtdapps.coloradodot.info/Otis/ycd",
+    "formats" : [ {
+      "label" : "html",
+      "value" : "text/html"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/T4458qyucA2INv4pVzuez58c8jLCidkoSUzQtF6zXp0?filename=Strategic+Plan+FY+2013-14+final+posted+to+website-1.pdf",
+  "created" : "2013-01-17",
+  "description" : "FY 2013-14 \nImplementation of the CDHS 2013-14 Strategic Plan will move us closer to achieving our goal of becoming the nation's most efficient and effective 21st century human services organization.  Last summer, the CDHS Executive Management Team fanned out across the state and met with community partners and stakeholders in 13 communities to seek their input on the plan.  As \"People who help people,\" we focus on keeping Colorado's families safe and healthy, and ensuring that the right people receive the right services at the right time.",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "5r9x-b6s7",
+  "keyword" : "strategic,plan,agenda,cdhs,services,transparency",
+  "modified" : "2013-01-17",
+  "releaseDate" : "2013-01-17",
+  "title" : "Strategic Plan - Department of Human Services",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/T4458qyucA2INv4pVzuez58c8jLCidkoSUzQtF6zXp0?filename=Strategic+Plan+FY+2013-14+final+posted+to+website-1.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "strategic", "plan", "agenda", "cdhs", "services", "transparency" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.coloradodot.info/business/process-improvement",
+  "created" : "2013-01-18",
+  "description" : "Lean is a compilation of world class practices that aims to reduce the activities in a process until only the minimum amount is left. Lean principles and tools are used to eliminate wasteful activities that do not add value to the customer so that a process does more with less. Lean principles, methods, and tools encourage employee creativity, innovation, and problem-solving. Benefits from this method include lower costs and improvements to productivity, quality, and value.",
+  "format" : "text/html",
+  "identifier" : "k2vn-eq27",
+  "keyword" : "lean,cdot,dot,government",
+  "modified" : "2013-01-18",
+  "releaseDate" : "2013-01-18",
+  "title" : "Lean Government - Department of Transportation",
+  "distribution" : [ {
+    "accessURL" : "http://www.coloradodot.info/business/process-improvement",
+    "formats" : [ {
+      "label" : "html",
+      "value" : "text/html"
+    } ]
+  } ],
+  "keywords" : [ "lean", "cdot", "dot", "government" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.coloradodot.info/business/process-improvement/lean-case-studies",
+  "created" : "2013-01-18",
+  "format" : "text/html",
+  "identifier" : "wd45-hyk2",
+  "keyword" : "lean,cdot,dot,government",
+  "modified" : "2013-01-18",
+  "releaseDate" : "2013-01-18",
+  "title" : "Lean Government - Department of Transportation Case Studies",
+  "distribution" : [ {
+    "accessURL" : "http://www.coloradodot.info/business/process-improvement/lean-case-studies",
+    "formats" : [ {
+      "label" : "html",
+      "value" : "text/html"
+    } ]
+  } ],
+  "keywords" : [ "lean", "cdot", "dot", "government" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.coloradodot.info/business/process-improvement/lean-in-green-map",
+  "created" : "2013-01-18",
+  "description" : "Pictured in green above are the state governments that use Lean to improve their processes. Click the links below for more information on Lean and the initiatives taking place in each stat",
+  "format" : "text/html",
+  "identifier" : "75ii-4kj5",
+  "keyword" : "lean,cdot,dot,government",
+  "modified" : "2013-01-18",
+  "releaseDate" : "2013-01-18",
+  "title" : "Lean Government - Department of Transportation Lean Map",
+  "distribution" : [ {
+    "accessURL" : "http://www.coloradodot.info/business/process-improvement/lean-in-green-map",
+    "formats" : [ {
+      "label" : "html",
+      "value" : "text/html"
+    } ]
+  } ],
+  "keywords" : [ "lean", "cdot", "dot", "government" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/RglheVXL8IVzFA0Xbr_6vh33Df_mTgBJv7D5dzKkd3I?filename=StrategicPlan2013-2014.pdf",
+  "created" : "2013-01-18",
+  "description" : "2013-2014 strategic plan for the  Department of Military and Veterans Affairs  five major program areas associated with its divisions. There are three under the division of the National Guard, and one each for the Civil Air Patrol and the Department of Veterans Affairs. These are National Guard Federal, National Guard State, National Guard Family, Civil Air Patrol, and Veterans Affairs.",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "ttnw-tcdn",
+  "keyword" : "oit,goals,strategic,plan,cdmva",
+  "modified" : "2013-01-18",
+  "releaseDate" : "2013-01-18",
+  "title" : "Strategic Plan - Department of  Military and Veterans Affairs",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/RglheVXL8IVzFA0Xbr_6vh33Df_mTgBJv7D5dzKkd3I?filename=StrategicPlan2013-2014.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "oit", "goals", "strategic", "plan", "cdmva" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/5GWgRnn_P10-I3JpK5Adk5GyiaVSuATOCjgCe3cRPQw?filename=HCPF+5-year+Strategy+Map.pdf",
+  "created" : "2013-01-22",
+  "description" : "HCPF 5-year Strategy Map\r\n\r\nImproving health care access and outcomes for the people we serve while demonstrating sound stewardship of financial resources.\r\n\r\nThe Department administers the Medicaid and Child Health Plan Plus programs as well as a variety of other programs for Colorado's low-income families, the elderly and persons with disabilities.",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "kq4d-emyr",
+  "keyword" : "strategic,plan,agenda,health care,policy,hcpf",
+  "modified" : "2013-01-22",
+  "releaseDate" : "2013-01-22",
+  "title" : "Strategic Plan –  Health Care Policy and Financing",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/5GWgRnn_P10-I3JpK5Adk5GyiaVSuATOCjgCe3cRPQw?filename=HCPF+5-year+Strategy+Map.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "strategic", "plan", "agenda", "health care", "policy", "hcpf" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/dEcONMxWqfw7bgqTUTI9gvac9ANVo9X437A2BRKwmC4?filename=FY13-14+DPA+Strategic+Plan+-+Smart+Submission.pdf",
+  "created" : "2013-01-22",
+  "description" : "DPA FY13-14\nIn accordance with the SMART Act (HB10-1119), the Department of Personnel & Administration has assembled the Department's strategic plan.  This strategic plan represents a considerable effort undertaken by Director Kathy Nesbitt and the DPA leadership team to prioritize and focus the Department's efforts and resources on the functions that will provide the greatest service to our customers and the citizens of Colorado.  It is important to note that the strategic plan represents a living document that, like any other, can only be improved through ongoing scrutiny and revision.  As a result, the Department is continuing to refine the information presented within the strategic plan.",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "3czw-3dzc",
+  "keyword" : "strategic,plan,agenda,personnel,dpa",
+  "modified" : "2013-01-22",
+  "releaseDate" : "2013-01-22",
+  "title" : "Strategic Plan – Department of Personnel and Administration Smart Submission",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/dEcONMxWqfw7bgqTUTI9gvac9ANVo9X437A2BRKwmC4?filename=FY13-14+DPA+Strategic+Plan+-+Smart+Submission.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "strategic", "plan", "agenda", "personnel", "dpa" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/dvX3_6QyGvApz6Oq-n7TZT00wwb1vVV_IzApo_5VW-4?filename=DOLA_FY2012-13_ANNUALREPORT_FINAL.pdf",
+  "created" : "2013-01-22",
+  "description" : "DOLA FY2012-13 ANNUAL REPORT FINAL\n\nWith the support of Governor John Hickenlooper and Colorado’s legislature, DOLA is your partner in assisting local governments and communities by providing funding to projects such as public facilities, transportation infrastructure, emergency response agencies, rural healthcare programs, rural economic development efforts, water and sewer systems, and community development. We also have subjectmatter experts who can provide technical assistance to help communities reach their goals.",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "8e5i-hah6",
+  "keyword" : "strategic,plan,dola,local affairs,agenda",
+  "modified" : "2013-01-22",
+  "releaseDate" : "2013-01-22",
+  "title" : "Strategic Plan - Department of Local Affairs",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/dvX3_6QyGvApz6Oq-n7TZT00wwb1vVV_IzApo_5VW-4?filename=DOLA_FY2012-13_ANNUALREPORT_FINAL.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "strategic", "plan", "dola", "local affairs", "agenda" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/gtRwmeDPD8oRB6YvPYnov34_lKzIJUt1-GWgR2pSviQ?filename=DORAMarketPlaceStratPlan.pdf",
+  "created" : "2013-01-22",
+  "description" : "Department of Regulatory Agencies’ (DORA) 2013 Strategic Plan. DORA was officially created as a department in 1968, however many of our divisions and programs have been protecting Colorado consumers since 1877! Currently, the department is charged with administering over 50 regulatory programs governing professions, occupations and businesses comprising nearly 700,000 individual licensees and approximately 37,000 businesses and institutions.",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "enx4-2k97",
+  "keyword" : "strategic,plan,dora,regulatory agencies,agenda",
+  "modified" : "2013-01-22",
+  "releaseDate" : "2013-01-22",
+  "title" : "Strategic Plan - Department of Regulatory Agencies",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/gtRwmeDPD8oRB6YvPYnov34_lKzIJUt1-GWgR2pSviQ?filename=DORAMarketPlaceStratPlan.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "strategic", "plan", "dora", "regulatory agencies", "agenda" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/wAkY8jt3bf1BGV9ylFAKAi6uHNFrDZ_ww5mKt2-OIgc?filename=2013-01-23+Strategic+Plan+Poster.pdf",
+  "created" : "2013-01-24",
+  "description" : "2013 CDLE Strategic Poster",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "re7w-azze",
+  "keyword" : "strategic,plan,agenda,cdle,labor,employment,poster",
+  "modified" : "2013-01-24",
+  "releaseDate" : "2013-01-24",
+  "title" : "Strategic Plan – Department of Labor and Employment Strategic Plan Poster",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/wAkY8jt3bf1BGV9ylFAKAi6uHNFrDZ_ww5mKt2-OIgc?filename=2013-01-23+Strategic+Plan+Poster.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "strategic", "plan", "agenda", "cdle", "labor", "employment", "poster" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/hP1rXHDtz3Hj1eaLaJoVyZTtfH_xN0HfMDOA3sJQ0Cc?filename=FY13-14+CDLE+Strategic+Plan+%281%29.pdf",
+  "created" : "2013-01-24",
+  "description" : "Our mission at the Colorado Department of Labor and Employment is to protect and promote the integrity and vitality of Colorado's employment environment. We have more than 1,000 employees advancing this mission through services to businesses and workers across Colorado. In good economies and bad, we are serving our customers to help our state’s workforce thrive, compete and succeed while supporting our business community with resource and information to help them save valuable time and money.",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "qg2a-scef",
+  "keyword" : "strategic,plan,agenda,cdle,labor,employment",
+  "modified" : "2013-02-05",
+  "releaseDate" : "2013-01-24",
+  "title" : "Strategic Plan – Department of Labor and Employment",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/hP1rXHDtz3Hj1eaLaJoVyZTtfH_xN0HfMDOA3sJQ0Cc?filename=FY13-14+CDLE+Strategic+Plan+%281%29.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "strategic", "plan", "agenda", "cdle", "labor", "employment" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/WcagksGwE02e7U-AwsysyNUr1ssAZnMDU3Vbk18T_Xo?filename=CDPHE+Strategic+Plan+10-23-12++.docx",
+  "created" : "2013-02-05",
+  "description" : "The mission of the Colorado Department of Public Health and Environment is to protect and preserve the health and environment of the people of Colorado. Dr. Chris Urbina serves as executive director and chief medical officer of the department.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "kei4-q4b4",
+  "keyword" : "strategic,plan,agenda,cdle,health,environment,public,cdphe",
+  "modified" : "2013-02-05",
+  "releaseDate" : "2013-02-05",
+  "title" : "Strategic Plan – Department of Public Health and Environment",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/WcagksGwE02e7U-AwsysyNUr1ssAZnMDU3Vbk18T_Xo?filename=CDPHE+Strategic+Plan+10-23-12++.docx",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "strategic", "plan", "agenda", "cdle", "health", "environment", "public", "cdphe" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/OdKl4km4Tbh8Q5hT92uBjsm7__hWo5I1KMBjMElfTMc?filename=CIM+Powerpoint+-+data.colorado.gov.pdf",
+  "created" : "2013-02-06",
+  "description" : "The Colorado Information Marketplace is a platform for data sharing and the transparency of public information.",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "58qm-6mm5",
+  "keyword" : "cim,information",
+  "modified" : "2013-02-06",
+  "releaseDate" : "2013-02-06",
+  "title" : "Colorado Information Marketplace Powerpoint",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/OdKl4km4Tbh8Q5hT92uBjsm7__hWo5I1KMBjMElfTMc?filename=CIM+Powerpoint+-+data.colorado.gov.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "cim", "information" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/To5rhYQ7h4vA8cRBkzzCXnzVnIV1BTKJJ2jMTp6LhmE?filename=CDA+SOP.pdf",
+  "created" : "2013-02-16",
+  "description" : "The mission of the Department of Agriculture is to strengthen and advance Colorado's agriculture industry; promote a safe, high quality, and sustainable food supply; and protect consumers, the environment, and natural resources.",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "aksc-s84p",
+  "keyword" : "strategic,plan,agenda,cda,agriculture,public",
+  "modified" : "2013-02-16",
+  "releaseDate" : "2013-02-16",
+  "title" : "Strategic Plan – Department of Agriculture",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/To5rhYQ7h4vA8cRBkzzCXnzVnIV1BTKJJ2jMTp6LhmE?filename=CDA+SOP.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "strategic", "plan", "agenda", "cda", "agriculture", "public" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.advancecolorado.com/site-selection/sites-and-buildings",
+  "created" : "2013-02-20",
+  "description" : "A comprehensive online search tool enables businesses to select locations throughout Colorado. We are expecting between 3-5,000 searches for available property each month. While the Denver Metro area’s available properties are well represented due to our partnership with Xceligent and the commercial brokers who use their listing service, we need help from economic developers throughout the state to populate the database with all available commercial property. By adding listings in your community to the statewide database, you are promoting your area and your assets on a much larger level.",
+  "format" : "text/html",
+  "identifier" : "3mfy-4fnp",
+  "keyword" : "",
+  "modified" : "2013-02-20",
+  "releaseDate" : "2013-02-20",
+  "title" : "Colorado InSite",
+  "distribution" : [ {
+    "accessURL" : "http://www.advancecolorado.com/site-selection/sites-and-buildings",
+    "formats" : [ {
+      "label" : "html",
+      "value" : "text/html"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/d9P4nkVpEl4CKO1i-pOyhEcjiQksQ4f6kr6eTwwTrCo?filename=2+CDPS+FY14+Strategic+Plan.pdf",
+  "created" : "2013-02-21",
+  "description" : "The Department’s 2013-2014 Strategic Plan:\n\nThe Colorado Department of Public Safety [CDPS] is the single, statewide law enforcement agency in Colorado. CDPS provides a broad range of public safety services throughout the state. Agencies within CDPS include; the Executive Director’s Office [EDO], the Colorado State Patrol [CSP], the Division of Fire Prevention and Control [DFPC], the Division of Homeland Security and Emergency Management [DHSEM], the Division of Criminal Justice [DCJ], and the Colorado Bureau of Investigation [CBI]",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "ft7r-fuj7",
+  "keyword" : "strategic,plan,agenda,doc,cdps,saftey,public safety",
+  "modified" : "2013-02-21",
+  "releaseDate" : "2013-02-21",
+  "title" : "Strategic Plan – Department of Public Safety",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/d9P4nkVpEl4CKO1i-pOyhEcjiQksQ4f6kr6eTwwTrCo?filename=2+CDPS+FY14+Strategic+Plan.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "strategic", "plan", "agenda", "doc", "cdps", "saftey", "public safety" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://floodlightproject.org/en/organizations/the-piton-foundation/",
+  "created" : "2013-03-11",
+  "description" : "The Piton Foundation is a private, operating foundation established in 1976 by Denver oil man Sam Gary. The foundation's name was derived from the steel spike - a piton - used by mountain climbers to secure their lifeline - an essential support as they ascend difficult terrain.The foundation is supported principally by contributions from The Gary-Williams Company and is considered the community investment division of the oil company. Piton's mission is to provide opportunities for children and their families to move from poverty and dependence to self reliance. Its vision is a better future for the low-income children of Denver.",
+  "format" : "application/octet-stream",
+  "identifier" : "wup4-nd4t",
+  "keyword" : "",
+  "modified" : "2013-03-11",
+  "releaseDate" : "2013-03-11",
+  "title" : "Piton Foundation",
+  "distribution" : [ {
+    "accessURL" : "http://floodlightproject.org/en/organizations/the-piton-foundation/",
+    "formats" : [ {
+      "label" : "httml",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://opencolorado.org/",
+  "created" : "2013-03-11",
+  "description" : "OpenColorado in collaboration with the Colorado Information Marketplace provides a data sharing platform that allows Colorado government organizations to make public data available and accessible to all Colorado constituents.  OpenColorado works closely with counties and municipalities whereas the Colorado Information Marketplace focuses on state data.",
+  "format" : "application/octet-stream",
+  "identifier" : "2swx-wraa",
+  "keyword" : "",
+  "modified" : "2013-03-11",
+  "releaseDate" : "2013-03-11",
+  "title" : "Open Colorado",
+  "distribution" : [ {
+    "accessURL" : "http://opencolorado.org/",
+    "formats" : [ {
+      "label" : "httml",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://openbike.co/",
+  "created" : "2013-03-11",
+  "description" : "OpenBike provides cyclists with more information about their bike routes. OpenBike collects information about bike routes on qualitative measures such as route safety, difficulty, and scenery from riders. In addition, the map shows bike accident and theft data from local agencies like the police and transportation departments. All the information is easily accessed on the map showing the areas to avoid and the secret routes you never knew. OpenBike is an interactive mapping platform that allows Front Range riders to view and provide meaningful feedback about the quality of a bike route in their community.",
+  "format" : "application/octet-stream",
+  "identifier" : "vrgq-v8vs",
+  "keyword" : "",
+  "modified" : "2013-03-11",
+  "releaseDate" : "2013-03-11",
+  "title" : "Open Bike",
+  "distribution" : [ {
+    "accessURL" : "http://openbike.co/",
+    "formats" : [ {
+      "label" : "httml",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://codataengine.org/",
+  "created" : "2013-03-11",
+  "description" : "Colorado Data Engine is an easy-to-use, open source hub designed to unlock public data to help organizations and individuals do more, faster. You can compare data sets, create visualizations and upload your own data for the common good.",
+  "format" : "application/octet-stream",
+  "identifier" : "8shv-zesu",
+  "keyword" : "",
+  "modified" : "2013-03-11",
+  "releaseDate" : "2013-03-11",
+  "title" : "Colorado Data Engine",
+  "distribution" : [ {
+    "accessURL" : "http://codataengine.org/",
+    "formats" : [ {
+      "label" : "httml",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/m34UkhQMKEDX-95ndM0_G1HonDJlAaPeUHr6UPpxEsU?filename=CDA+2012+Survey+%28Final+Report%29.pdf",
+  "created" : "2013-03-25",
+  "description" : "The online survey was conducted between November 7, 2012 and November 20, 2012 and generally replicated prior surveys conducted in 2010 and 2011.\n• Survey population consisted of 353 agriculture leaders including...\n– producer and staff leadership of industry associations and organizations.\n– CSU leadership.\n– Boards, Commissions, and Advisory Councils of the Colorado Department of Agriculture.\n• 118 completed surveys were recorded.\n• 33% completed response rate.\n– The typical response rate for external surveys is 10% to 15%.",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "vbg9-29rw",
+  "keyword" : "survey,agriculture",
+  "modified" : "2013-03-25",
+  "releaseDate" : "2013-03-25",
+  "title" : "Colorado Department of Agriculture 2012 Survey",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/m34UkhQMKEDX-95ndM0_G1HonDJlAaPeUHr6UPpxEsU?filename=CDA+2012+Survey+%28Final+Report%29.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "survey", "agriculture" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/INkiNo34TilNOyJjIkhntW63AVQw-SwE1fiHkiurVZw?filename=Mandatory+Disclaimers+V2+04132013.pdf",
+  "created" : "2013-04-18",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "6j9j-kwai",
+  "keyword" : "mandatory,disclaimers,consent,authorizations",
+  "modified" : "2013-04-19",
+  "releaseDate" : "2013-04-18",
+  "title" : "Mandatory Disclaimers V2 04132013",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/INkiNo34TilNOyJjIkhntW63AVQw-SwE1fiHkiurVZw?filename=Mandatory+Disclaimers+V2+04132013.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "mandatory", "disclaimers", "consent", "authorizations" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/HaFrqfYfq6AQtHi2OKEpyyUIMPbe2_YAmjCmrReTW3c?filename=Consolidated+Disclaimers+V2+04132013.pdf",
+  "created" : "2013-04-18",
+  "description" : "Consolidated Disclaimers for all record types included on Authorization / Consent Form.",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "pxbr-ezcm",
+  "keyword" : "consolidated,disclaimers,authorization,consent",
+  "modified" : "2013-04-19",
+  "releaseDate" : "2013-04-18",
+  "title" : "Consolidated Disclaimers V2 04132013",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/HaFrqfYfq6AQtHi2OKEpyyUIMPbe2_YAmjCmrReTW3c?filename=Consolidated+Disclaimers+V2+04132013.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "consolidated", "disclaimers", "authorization", "consent" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.nascio.org/Apps/browse.cfm?State=Colorado",
+  "created" : "2013-05-29",
+  "description" : "A current catalog of native, state government mobile apps for smart phones and tablets.",
+  "format" : "text/html",
+  "identifier" : "sa4x-har6",
+  "keyword" : "apps,mobile",
+  "modified" : "2013-05-30",
+  "releaseDate" : "2013-05-29",
+  "title" : "State government mobile applications",
+  "distribution" : [ {
+    "accessURL" : "http://www.nascio.org/Apps/browse.cfm?State=Colorado",
+    "formats" : [ {
+      "label" : "html",
+      "value" : "text/html"
+    } ]
+  } ],
+  "keywords" : [ "apps", "mobile" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/qnliGa8UBBgVrADwSpW1O71ViUc4NFfnBqHk7L6w4yM?filename=Colorado+Farmers%27+Markets.pdf",
+  "created" : "2013-05-30",
+  "description" : "Colorado Farmers' Markets Locations",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "v3x3-8uws",
+  "keyword" : "farmers market,agriculture",
+  "modified" : "2013-05-30",
+  "releaseDate" : "2013-05-30",
+  "title" : "Colorado Farmers' Markets 2013",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/qnliGa8UBBgVrADwSpW1O71ViUc4NFfnBqHk7L6w4yM?filename=Colorado+Farmers%27+Markets.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "farmers market", "agriculture" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/cIBnGzc5vdOXFRE0qcMp4w5je-jTzD5HZlb9vAxsU3k?filename=HIT+Architecture_final_4_1_13+-+Google+Drive.pdf",
+  "created" : "2013-06-03",
+  "description" : "Architecture Strategy for Health Information Technology solution development",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "sfv4-umrw",
+  "keyword" : "health,technology,architecture,strategy,oit,colorado,telemedicine,standards,electronic,records,devices",
+  "modified" : "2013-06-03",
+  "releaseDate" : "2013-06-03",
+  "title" : "Health Information Technology - OIT Architecture Strategy_April 2013",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/cIBnGzc5vdOXFRE0qcMp4w5je-jTzD5HZlb9vAxsU3k?filename=HIT+Architecture_final_4_1_13+-+Google+Drive.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "health", "technology", "architecture", "strategy", "oit", "colorado", "telemedicine", "standards", "electronic", "records", "devices" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/6NFWG9_Z3XO0sFwjDy-tXhTg3RaoXUj07za7Wvb1vLc?filename=Colorado+Information+Marketplace.pdf",
+  "created" : "2013-06-11",
+  "description" : "The Colorado Information Marketplaces addresses the need to shift focus from siloed data exchanges, which can be prone to misinterpretation, inaccuracy, and risk. Instead, the Colorado Information Marketplace relies on existing data standards, such as the National Information Exchange Model and a governance model to create a reusable source of information for both state, local, county, city, tribal and other external entities that qualify for access and use of the data. The CIM framework applies both consistency of data standards and governance for privacy and security, while improving data transparency and reuse. Mission critical information empowers people to make better decisions in a real time (or near real time) environment, rather than waiting months or, in some cases, years to get access to the right data. Information exchanges will benefit every agency with the State, which will in turn benefit every citizen.",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "n2ry-cyd2",
+  "keyword" : "data,information",
+  "modified" : "2013-06-11",
+  "releaseDate" : "2013-06-11",
+  "title" : "Colorado Information Marketplace",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/6NFWG9_Z3XO0sFwjDy-tXhTg3RaoXUj07za7Wvb1vLc?filename=Colorado+Information+Marketplace.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "data", "information" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/LIrcQzY_nL-WFWjvHGsqkCGxXK2_FchAb-1wVwGFNSM?filename=ConsentForm_7_10_13.pdf",
+  "created" : "2013-07-16",
+  "description" : "Authorization Consent to Release Information Form - with minor updates and improvements.",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "ek9p-8njy",
+  "keyword" : "authorization,consent,information,sharing information",
+  "modified" : "2013-07-19",
+  "releaseDate" : "2013-07-16",
+  "title" : "Consent Form 7 10 13",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/LIrcQzY_nL-WFWjvHGsqkCGxXK2_FchAb-1wVwGFNSM?filename=ConsentForm_7_10_13.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "authorization", "consent", "information", "sharing information" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/4PS7KAYH8VPZiXoUXggYbWsTtK08HNs9Ice5HD4Te5I?filename=DNR+FY13-14+Operational+Strategic+Plan+FINAL-012213.pdf",
+  "created" : "2013-07-18",
+  "description" : "The January 2013 publishing of a Strategic Operational Plan is the first effort at\r\noperational planning made by the Department of Natural Resources.  \r\n\r\nThe Department hopes to achieve several goals with the new format of the strategic plan, including:\r\n\r\n(1) General Information \r\n(2) More Performance Measures \r\n(3) Different Types of Performance Measures \r\n(4) Five Years of Performance Reporting \r\n(5) Customer Focus \r\n(6) SMART Act Audit\r\n \r\nThe Department of Natural Resources views the strategic planning process as iterative. Each year, the Department hopes to build on the experiences, legislative suggestions, employee and employee organization recommendations, and public input (good and bad) to help guide its strategic planning going forward. In this regard, the Department would very much appreciate hearing from legislators,\r\ninterested parties, and the general public about what they found helpful in the Strategic Operational Plan as well as what is missing from the Plan.",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "y67h-ftav",
+  "keyword" : "strategic,plan,dnr,natural,resources,agenda,transparency",
+  "modified" : "2013-07-18",
+  "releaseDate" : "2013-07-18",
+  "title" : "Strategic Plan FY13-14 - Department of Natural Resources",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/4PS7KAYH8VPZiXoUXggYbWsTtK08HNs9Ice5HD4Te5I?filename=DNR+FY13-14+Operational+Strategic+Plan+FINAL-012213.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "strategic", "plan", "dnr", "natural", "resources", "agenda", "transparency" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/LIrcQzY_nL-WFWjvHGsqkCGxXK2_FchAb-1wVwGFNSM?filename=ConsentForm_7_10_13.pdf",
+  "created" : "2013-07-18",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "fee6-egz2",
+  "keyword" : "consent",
+  "modified" : "2013-07-19",
+  "releaseDate" : "2013-07-18",
+  "title" : "Consent Form 7 10 13",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/LIrcQzY_nL-WFWjvHGsqkCGxXK2_FchAb-1wVwGFNSM?filename=ConsentForm_7_10_13.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "consent" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/ubC-v_Rzy8obAUNwfaCEVZ-YFnMEdrfRwXheBp8nrPQ?filename=nist.gov_itl_cloud_def-v15.pdf",
+  "created" : "2013-07-19",
+  "description" : "The State of Colorado Office of Information Technology (OIT) has adopted version 15 of the National Institute of Standards and Technology (NIST) definitions  related to cloud technology as an operating standard to enhance commonality in communications around cloud-based computing issues.",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "9jv7-9u6y",
+  "keyword" : "oit,standards,cloud,definitions,nist,colorado",
+  "modified" : "2013-07-19",
+  "releaseDate" : "2013-07-19",
+  "title" : "OIT Standards - NIST Definition of Cloud Computing",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/ubC-v_Rzy8obAUNwfaCEVZ-YFnMEdrfRwXheBp8nrPQ?filename=nist.gov_itl_cloud_def-v15.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "oit", "standards", "cloud", "definitions", "nist", "colorado" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/dTgNLg6mEMZUXfl34k3crp4_7Mf6woYINb1Nln_2TAk?filename=CDE-FY13-14StrategicPlanOSPBSubmission.pdf",
+  "created" : "2013-07-19",
+  "description" : "The department has four overarching goals with specific objectives tied to each of them. The objectives drive the performance measures, benchmarks, strategies and action plans of the department. As noted earlier, the goals and objectives aim to build an aligned education system (student, educator, schools/districts, state) focused on better results for all students.",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "pjpb-aski",
+  "keyword" : "strategic,plan,cde,education,transparency",
+  "modified" : "2013-07-19",
+  "releaseDate" : "2013-07-19",
+  "title" : "Strategic Plan FY13-14 - Department of Education",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/dTgNLg6mEMZUXfl34k3crp4_7Mf6woYINb1Nln_2TAk?filename=CDE-FY13-14StrategicPlanOSPBSubmission.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "strategic", "plan", "cde", "education", "transparency" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/FIthJShSsFscnxvEQTPO55uDJkGQJMDzH4Q3On6imtE?filename=DHE-FY13-14201314_HED_Strategic_Plan.pdf",
+  "created" : "2013-07-19",
+  "description" : "Higher education must fulfill its essential role in creating the conditions for a healthy state economy, a productive society and a high quality of life for the people of the state. While serving these greater societal needs, the department and the state’s institutions understand that their main purpose is the rigorous instruction of students. The department, working together with the state’s institutions of postsecondary education, seeks a future for Colorado in which its institutions are accountable for continued improvement in the quality, efficiency and results of postsecondary education and are adequately funded to do so.",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "jz3x-jtp2",
+  "keyword" : "strategic,plan,cdhe,higher,education,agenda,transparency",
+  "modified" : "2013-07-19",
+  "releaseDate" : "2013-07-19",
+  "title" : "Strategic Plan FY13-14 - Department of Higher Education",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/FIthJShSsFscnxvEQTPO55uDJkGQJMDzH4Q3On6imtE?filename=DHE-FY13-14201314_HED_Strategic_Plan.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "strategic", "plan", "cdhe", "higher", "education", "agenda", "transparency" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/LnHgS-mOfb3eRdybOvpKogSBCEsZM0XY_3QVq5hcHP0?filename=CEO+strategic+plan+FY14.pdf",
+  "created" : "2013-07-22",
+  "description" : "The vision of the Colorado Energy Office (CEO) is to promote sustainable economic development in Colorado through advancing the State’s energy market and industry to create jobs, increase energy security, lower long-term consumer costs, and protect our environment.  \n\nThe CEO has identified the following top priorities:\n\nContinue to address the gaps in the market concerning the pursuit of cost-effective investments in energy efficiency \n\nContinue to diversify the transportation fuels available and in use in Colorado\n\nPromote the further development of the state’s energy economy, across all sectors\n\nProvide leadership for continuous improvement of Colorado’s energy policies",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "ffxh-5cuv",
+  "keyword" : "strategic,plan,ceo,energy,office,agenda,transparency",
+  "modified" : "2013-07-22",
+  "releaseDate" : "2013-07-22",
+  "title" : "Strategic Plan FY13-14 - Colorado Energy Office",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/LnHgS-mOfb3eRdybOvpKogSBCEsZM0XY_3QVq5hcHP0?filename=CEO+strategic+plan+FY14.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "strategic", "plan", "ceo", "energy", "office", "agenda", "transparency" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/tsv7PdaHOtTJyghVTUGUhyxZ-lpcpvK8Nmvsf4IFwSA?filename=2012-OEDITAnnualReport.pdf",
+  "created" : "2013-07-22",
+  "description" : "The Colorado Office of Economic Development and International Trade (OEDIT) works to create a positive business climate, encourages dynamic economic development and is focused on building sustainable job growth across the state. We offer a host of programs and services tailored to support business growth at every level including business recruitment, retention and expansion services; business funding and incentive programs; the Colorado Tourism Office; the Colorado Creative Industries office; the Colorado International Trade Office; the Colorado Small Business Development Centers; the Office of Film, Television & Media; minority and women-owned business services and economic analysis and research.\r\n\r\nSince the final draft of the Colorado Blueprint was published in October 2011, OEDIT has executed a strategic plan focused on retention and growth in 14 key industries and aligning those industries across 14 regions throughout the state. The targeted industries represent almost 60 percent of the state’s jobs and an equivalent percentage of the state’s economic output. Our approach is simple: the most efficient and effective means of adding jobs is to drive growth in the industries which are already strong within the state.\r\n\r\nPlease refer to attachment to review the Colorado Blueprint.",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "inkt-udz9",
+  "keyword" : "strategic,plan,oedit,office,economic,development,international,trade,agenda,transparency",
+  "modified" : "2013-07-22",
+  "releaseDate" : "2013-07-22",
+  "title" : "Strategic Plan - Office of Economic Development and International Trade",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/tsv7PdaHOtTJyghVTUGUhyxZ-lpcpvK8Nmvsf4IFwSA?filename=2012-OEDITAnnualReport.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "strategic", "plan", "oedit", "office", "economic", "development", "international", "trade", "agenda", "transparency" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/views/5f5e-k5ic/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-07-22",
+  "description" : "A comprehensive list of all bills signed by Governor Hickenlooper from the 2013 Legislative Session.",
+  "feed" : "https://data.colorado.gov/api/views/5f5e-k5ic/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "5f5e-k5ic",
+  "keyword" : "bills,2013",
+  "modified" : "2013-07-22",
+  "releaseDate" : "2013-07-22",
+  "title" : "2013 Signed Bills",
+  "webService" : "https://data.colorado.gov/resource/5f5e-k5ic",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/views/5f5e-k5ic/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/5f5e-k5ic/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/5f5e-k5ic/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/5f5e-k5ic/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/5f5e-k5ic/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/5f5e-k5ic/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "bills", "2013" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/LW2jRv9IVbSrrMmwW0ycLWf_rgUxBNVCvRq0gcDcW6g?filename=Secure+Colorado+-+Final+-signed.pdf",
+  "created" : "2013-07-22",
+  "description" : "This strategic plan, known as Secure Colorado, is a three-year initiative focused on making strategic decisions and investments to protect the data Coloradans have entrusted to state government. Secure Colorado outlines the strategic goals and initiatives of the Colorado Information Security Program to safeguard the State’s information assets and assure the confidentiality, integrity, and availability of the information vital to achieve the State of Colorado’s mission.",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "m7hs-7343",
+  "keyword" : "secure,cyber",
+  "modified" : "2013-07-22",
+  "releaseDate" : "2013-07-22",
+  "title" : "Strategic Plan - Secure Colorado",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/LW2jRv9IVbSrrMmwW0ycLWf_rgUxBNVCvRq0gcDcW6g?filename=Secure+Colorado+-+Final+-signed.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "secure", "cyber" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/views/gqse-2qk8/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-05-11",
+  "description" : "Colorado's counties and their county seat along with EPA FIPS codes.",
+  "feed" : "https://data.colorado.gov/api/views/gqse-2qk8/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "gqse-2qk8",
+  "keyword" : "county seat,fips",
+  "modified" : "2013-07-29",
+  "releaseDate" : "2012-05-11",
+  "title" : "Colorado County Seats",
+  "webService" : "https://data.colorado.gov/resource/gqse-2qk8",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/views/gqse-2qk8/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/gqse-2qk8/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/gqse-2qk8/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/gqse-2qk8/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/gqse-2qk8/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/gqse-2qk8/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "county seat", "fips" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/file_data/PTa_WyNlkjwQrikEoJbCw4dHRW5SO6TaOYa9fDTxcwU?filename=FY14+OIT+Playbook+-+FINAL+August+2013.pdf",
+  "created" : "2013-08-12",
+  "description" : "The Office of Information Technology has six strategic priorities. We envision that these priorities will be in place for the long-term. What will change from year to year are the initiatives that we choose to pursue for each priority. The playbook describes OIT's plans for each of the priorities in FY14 and beyond as well as what we plan to specifically achieve this fiscal year.",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "6wjg-gnb3",
+  "keyword" : "playbook,oit,strategic plan",
+  "modified" : "2013-08-12",
+  "releaseDate" : "2013-08-12",
+  "title" : "OIT Playbook  - FY14",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/file_data/PTa_WyNlkjwQrikEoJbCw4dHRW5SO6TaOYa9fDTxcwU?filename=FY14+OIT+Playbook+-+FINAL+August+2013.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "playbook", "oit", "strategic plan" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/views/c86m-stcz/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-07-27",
+  "description" : "This schedule provides deployment release dates for CBMS.  Releases are categorized as minor or major.  Minor releases primarily address help desk tickets (depending on complexity).  Major releases typically include deployments of specific projects that introduce new functionality or changes to existing functionality.  Major releases could also include infrastructure or performance improvement changes.  \r\n\r\nThe specific content of each release is planned with the Program Areas (specifically HCPF and CDHS) and the State. The release information and dates are communicated in advance to the impacted counties.  This is to ensure coordination across entities and provide awareness prior to any system change.",
+  "feed" : "https://data.colorado.gov/api/views/c86m-stcz/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "c86m-stcz",
+  "keyword" : "cbms,human services,release dates",
+  "modified" : "2013-08-15",
+  "releaseDate" : "2012-07-27",
+  "title" : "CBMS - Release Dates",
+  "webService" : "https://data.colorado.gov/resource/c86m-stcz",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/views/c86m-stcz/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/c86m-stcz/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/c86m-stcz/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/c86m-stcz/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/c86m-stcz/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/c86m-stcz/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "cbms", "human services", "release dates" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.colorado.gov/api/views/87ya-z3h3/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-10-15",
+  "description" : "A month-by-month tally of page views by users of the Colorado Information Marketplace",
+  "feed" : "https://data.colorado.gov/api/views/87ya-z3h3/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "87ya-z3h3",
+  "keyword" : "colorado information marketplace,cim,colorado data",
+  "modified" : "2013-08-22",
+  "releaseDate" : "2012-10-15",
+  "title" : "Colorado Information Market Place_Page Views",
+  "webService" : "https://data.colorado.gov/resource/87ya-z3h3",
+  "distribution" : [ {
+    "accessURL" : "https://data.colorado.gov/api/views/87ya-z3h3/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/87ya-z3h3/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/87ya-z3h3/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/87ya-z3h3/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/87ya-z3h3/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.colorado.gov/api/views/87ya-z3h3/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "colorado information marketplace", "cim", "colorado data" ]
+} ]

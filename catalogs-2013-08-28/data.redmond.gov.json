@@ -1,0 +1,245 @@
+[ {
+  "accessLevel" : "Public",
+  "description" : "Lists the datasets for this domain.  The format should correspond to the spec at http://project-open-data.github.io/schema/",
+  "format" : "application/json",
+  "frequency" : "hourly",
+  "identifier" : "https://data.redmond.gov/data.json",
+  "modified" : "2013-08-28",
+  "title" : "Project Open Data, /data.json file",
+  "webService" : "https://data.redmond.gov/data.json"
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.redmond.gov/api/file_data/6CL2Zj0m4Dpz6UFoo5rtyNuzZXafjK7NR68hSMPs91M?filename=Neighborhoods.zip",
+  "created" : "2013-02-08",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "t4s2-2j9i",
+  "keyword" : "",
+  "modified" : "2013-05-10",
+  "releaseDate" : "2013-02-08",
+  "title" : "Redmond Neighborhood Boundaries",
+  "distribution" : [ {
+    "accessURL" : "https://data.redmond.gov/api/file_data/6CL2Zj0m4Dpz6UFoo5rtyNuzZXafjK7NR68hSMPs91M?filename=Neighborhoods.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.redmond.gov/api/file_data/mZU9MhuleuaMAPUbROeScRpYE2fzwVv3IxiWMopAnL8?filename=CityLimit.zip",
+  "created" : "2013-02-15",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "fhxi-6qwp",
+  "keyword" : "",
+  "license" : "Public Domain\nCity of Redmond(http://www.redmond.gov/Government/MapsGISservices/GISDataDownloadCenter/)",
+  "modified" : "2013-05-10",
+  "releaseDate" : "2013-02-15",
+  "title" : "City Limits",
+  "distribution" : [ {
+    "accessURL" : "https://data.redmond.gov/api/file_data/mZU9MhuleuaMAPUbROeScRpYE2fzwVv3IxiWMopAnL8?filename=CityLimit.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.redmond.gov/api/views/h54f-2ybz/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-19",
+  "feed" : "https://data.redmond.gov/api/views/h54f-2ybz/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "h54f-2ybz",
+  "keyword" : "",
+  "license" : "Public Domain\nPlanning Department",
+  "modified" : "2013-04-04",
+  "releaseDate" : "2013-03-19",
+  "title" : "Historic Redmond",
+  "webService" : "https://data.redmond.gov/resource/h54f-2ybz",
+  "distribution" : [ {
+    "accessURL" : "https://data.redmond.gov/api/views/h54f-2ybz/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.redmond.gov/api/views/h54f-2ybz/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.redmond.gov/api/views/h54f-2ybz/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.redmond.gov/api/views/h54f-2ybz/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.redmond.gov/api/views/h54f-2ybz/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.redmond.gov/api/views/h54f-2ybz/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.redmond.gov/api/views/7zus-64fj/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-20",
+  "feed" : "https://data.redmond.gov/api/views/7zus-64fj/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "7zus-64fj",
+  "keyword" : "",
+  "license" : "Public Domain\nInformation Services",
+  "modified" : "2013-03-26",
+  "releaseDate" : "2013-03-20",
+  "title" : "Redmond Facilities",
+  "webService" : "https://data.redmond.gov/resource/7zus-64fj",
+  "distribution" : [ {
+    "accessURL" : "https://data.redmond.gov/api/views/7zus-64fj/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.redmond.gov/api/views/7zus-64fj/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.redmond.gov/api/views/7zus-64fj/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.redmond.gov/api/views/7zus-64fj/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.redmond.gov/api/views/7zus-64fj/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.redmond.gov/api/views/7zus-64fj/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.redmond.gov/api/views/vqdz-eefx/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-20",
+  "feed" : "https://data.redmond.gov/api/views/vqdz-eefx/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "vqdz-eefx",
+  "keyword" : "",
+  "license" : "Public Domain",
+  "modified" : "2013-08-01",
+  "releaseDate" : "2013-03-20",
+  "title" : "Purchasing Card Transactions",
+  "webService" : "https://data.redmond.gov/resource/vqdz-eefx",
+  "distribution" : [ {
+    "accessURL" : "https://data.redmond.gov/api/views/vqdz-eefx/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.redmond.gov/api/views/vqdz-eefx/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.redmond.gov/api/views/vqdz-eefx/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.redmond.gov/api/views/vqdz-eefx/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.redmond.gov/api/views/vqdz-eefx/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.redmond.gov/api/views/vqdz-eefx/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.redmond.gov/api/views/7v22-4z3a/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-26",
+  "feed" : "https://data.redmond.gov/api/views/7v22-4z3a/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "7v22-4z3a",
+  "keyword" : "",
+  "license" : "Public Domain\nFinance Department(http://www.redmond.gov/Finance)",
+  "modified" : "2013-08-01",
+  "releaseDate" : "2013-03-26",
+  "title" : "Check Register",
+  "webService" : "https://data.redmond.gov/resource/7v22-4z3a",
+  "distribution" : [ {
+    "accessURL" : "https://data.redmond.gov/api/views/7v22-4z3a/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.redmond.gov/api/views/7v22-4z3a/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.redmond.gov/api/views/7v22-4z3a/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.redmond.gov/api/views/7v22-4z3a/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.redmond.gov/api/views/7v22-4z3a/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.redmond.gov/api/views/7v22-4z3a/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+} ]

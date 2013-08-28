@@ -1,0 +1,3201 @@
+[ {
+  "accessLevel" : "Public",
+  "description" : "Lists the datasets for this domain.  The format should correspond to the spec at http://project-open-data.github.io/schema/",
+  "format" : "application/json",
+  "frequency" : "hourly",
+  "identifier" : "https://finances.worldbank.org/data.json",
+  "modified" : "2013-08-28",
+  "title" : "Project Open Data, /data.json file",
+  "webService" : "https://finances.worldbank.org/data.json"
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/h9ga-h5eb/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-10-04",
+  "description" : "A Recipient-executed Grant is a Trust Fund Grant that is provided to a third party under a grant agreement, and for which the Bank plays an operational role - i.e., the Bank normally appraises and supervises activities financed by these funds. This dataset provides data on the amount of grant funds committed in the course of a fiscal year and payments made out of a Trust Fund account to eligible recipients, in accordance with the legal agreements.  In fulfilling its responsibilities, the World Bank as Trustee complies with all sanctions applicable to World Bank transactions. Data is provided at the individual Trust Fund level. All definitions should be regarded at present as provisional and not final, and are subject to revision at any time. Please refer to http://www.cfpto.org/TFGlossary2012/ for the Trust Fund Glossary.",
+  "feed" : "https://finances.worldbank.org/api/views/h9ga-h5eb/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "h9ga-h5eb",
+  "keyword" : "trust funds,country level,beneficiaries,grants,commitments,disbursements",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank Group\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-26",
+  "releaseDate" : "2011-10-04",
+  "title" : "Recipient-executed Grants -  Commitments and Disbursements",
+  "webService" : "https://finances.worldbank.org/resource/h9ga-h5eb",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/h9ga-h5eb/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/h9ga-h5eb/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/h9ga-h5eb/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/h9ga-h5eb/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/h9ga-h5eb/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/h9ga-h5eb/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "trust funds", "country level", "beneficiaries", "grants", "commitments", "disbursements" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://search.worldbank.org/api/projects/all.xml",
+  "created" : "2011-06-07",
+  "description" : "World Bank Projects & Operations provides access to basic information on all of the World Bank's lending projects from 1947 to the present. The dataset includes basic information such as the project title, task manager, country, project id, sector, themes, commitment amount, product line, and financing. It also provides links to publicly disclosed online documents.",
+  "format" : "text/xml",
+  "identifier" : "rnku-kcby",
+  "keyword" : "projects",
+  "modified" : "2012-01-10",
+  "releaseDate" : "2011-06-07",
+  "title" : "World Bank Projects & Operations",
+  "distribution" : [ {
+    "accessURL" : "http://search.worldbank.org/api/projects/all.xml",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "text/xml"
+    } ]
+  }, {
+    "accessURL" : "http://search.worldbank.org/api/projects/all.csv",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  } ],
+  "keywords" : [ "projects" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/9pv4-rtrm/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-06-09",
+  "description" : "Provides data from the IDA Statement of Cash Flows for the fiscal years ended June 30, 2010, June 30, 2009 and June 30, 2008. Sum of all cash flows represent the net changes in unrestricted cash.The values are expressed in millions of U.S. Dollars.",
+  "feed" : "https://finances.worldbank.org/api/views/9pv4-rtrm/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "9pv4-rtrm",
+  "keyword" : "ida,financial statements,statement of cash flows",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-04-08",
+  "releaseDate" : "2011-06-09",
+  "title" : "IDA Statement of Cash Flows, FY2010",
+  "webService" : "https://finances.worldbank.org/resource/9pv4-rtrm",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/9pv4-rtrm/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/9pv4-rtrm/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/9pv4-rtrm/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/9pv4-rtrm/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/9pv4-rtrm/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/9pv4-rtrm/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ida", "financial statements", "statement of cash flows" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/s3ey-mkx3/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-06-09",
+  "description" : "Provides data from the IDA Balance Sheetfor the fiscal years ended June 30, 2010 and June 30, 2009. The values are expressed in millions of U.S. Dollars.",
+  "feed" : "https://finances.worldbank.org/api/views/s3ey-mkx3/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "s3ey-mkx3",
+  "keyword" : "ida,financial statements,balance sheet",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank Group\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-07-15",
+  "releaseDate" : "2011-06-09",
+  "title" : "IDA Balance Sheet, FY2010",
+  "webService" : "https://finances.worldbank.org/resource/s3ey-mkx3",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/s3ey-mkx3/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/s3ey-mkx3/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/s3ey-mkx3/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/s3ey-mkx3/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/s3ey-mkx3/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/s3ey-mkx3/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ida", "financial statements", "balance sheet" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/kmwd-f4rk/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-06-09",
+  "description" : "Provides data from the IDA Statement of Income for the fiscal years ended June 30, 2010, June 30, 2009 and June 30, 2008. The values are expressed in millions of U.S. Dollars.",
+  "feed" : "https://finances.worldbank.org/api/views/kmwd-f4rk/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "kmwd-f4rk",
+  "keyword" : "ida,financial statements,statement of income",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank Group\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-07-15",
+  "releaseDate" : "2011-06-09",
+  "title" : "IDA Statement of Income, FY2010",
+  "webService" : "https://finances.worldbank.org/resource/kmwd-f4rk",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/kmwd-f4rk/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/kmwd-f4rk/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/kmwd-f4rk/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/kmwd-f4rk/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/kmwd-f4rk/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/kmwd-f4rk/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ida", "financial statements", "statement of income" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/e8yz-96c6/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-06-09",
+  "description" : "Provides data from the IBRD Balance Sheet for the fiscal years ended June 30, 2010 and June 30, 2009. The values are expressed in millions of U.S. Dollars",
+  "feed" : "https://finances.worldbank.org/api/views/e8yz-96c6/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "e8yz-96c6",
+  "keyword" : "ibrd,financial statements,balance sheet",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-04-08",
+  "releaseDate" : "2011-06-09",
+  "title" : "IBRD Balance Sheet, FY2010",
+  "webService" : "https://finances.worldbank.org/resource/e8yz-96c6",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/e8yz-96c6/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/e8yz-96c6/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/e8yz-96c6/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/e8yz-96c6/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/e8yz-96c6/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/e8yz-96c6/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ibrd", "financial statements", "balance sheet" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/pyda-ktbg/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-06-09",
+  "description" : "Provides data from the IBRD Statement of Income for the fiscal years ended June 30, 2010, June 30, 2009 and June 30, 2008. The values are expressed in millions of U.S. Dollars.",
+  "feed" : "https://finances.worldbank.org/api/views/pyda-ktbg/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "pyda-ktbg",
+  "keyword" : "ibrd,financial statements,statement of income",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-04-08",
+  "releaseDate" : "2011-06-09",
+  "title" : "IBRD Statement of Income, FY2010",
+  "webService" : "https://finances.worldbank.org/resource/pyda-ktbg",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/pyda-ktbg/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/pyda-ktbg/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/pyda-ktbg/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/pyda-ktbg/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/pyda-ktbg/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/pyda-ktbg/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ibrd", "financial statements", "statement of income" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/xs8h-cwh5/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-06-09",
+  "description" : "Provides data from the IBRD Statement of Cash Flows for the fiscal years ended June 30, 2010, June 30, 2009 and June 30, 2008. Sum of all cash flows represent the net changes in unrestricted cash. The values are expressed in millions of U.S. Dollars.",
+  "feed" : "https://finances.worldbank.org/api/views/xs8h-cwh5/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "xs8h-cwh5",
+  "keyword" : "ibrd,financial statements,statement of cash flows",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-04-08",
+  "releaseDate" : "2011-06-09",
+  "title" : "IBRD Statement of Cash Flows, FY2010",
+  "webService" : "https://finances.worldbank.org/resource/xs8h-cwh5",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/xs8h-cwh5/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/xs8h-cwh5/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/xs8h-cwh5/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/xs8h-cwh5/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/xs8h-cwh5/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/xs8h-cwh5/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ibrd", "financial statements", "statement of cash flows" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/4i57-byta/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-08-18",
+  "description" : "Provides data from the IBRD Balance Sheet for the fiscal years ended June 30, 2011 and June 30, 2010. The values are expressed in millions of U.S. Dollars. Where applicable, changes have been made to certain line items on the June 30, 2010 balance sheet to conform with the current year's presentation, but the comparable prior years' data sets have not been adjusted to reflect the reclassification impact of those changes.",
+  "feed" : "https://finances.worldbank.org/api/views/4i57-byta/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "4i57-byta",
+  "keyword" : "ibrd,financial statements,balance sheet",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-04-08",
+  "releaseDate" : "2011-08-18",
+  "title" : "IBRD Balance Sheet FY2011",
+  "webService" : "https://finances.worldbank.org/resource/4i57-byta",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/4i57-byta/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/4i57-byta/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/4i57-byta/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/4i57-byta/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/4i57-byta/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/4i57-byta/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ibrd", "financial statements", "balance sheet" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/eycy-ub35/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-08-18",
+  "description" : "Provides data from the IBRD Statement of Income for the fiscal years ended June 30, 2011, June 30, 2010 and June 30, 2009. The values are expressed in millions of U.S. Dollars. Where applicable, changes have been made to certain line items on FY 2010 income statement to conform with the current year's presentation, but the comparable prior years' data sets have not been adjusted to reflect the reclassification impact of those changes.",
+  "feed" : "https://finances.worldbank.org/api/views/eycy-ub35/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "eycy-ub35",
+  "keyword" : "ibrd,financial statements,statement of income",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-04-08",
+  "releaseDate" : "2011-08-18",
+  "title" : "IBRD Statement Of Income, FY2011",
+  "webService" : "https://finances.worldbank.org/resource/eycy-ub35",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/eycy-ub35/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/eycy-ub35/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/eycy-ub35/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/eycy-ub35/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/eycy-ub35/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/eycy-ub35/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ibrd", "financial statements", "statement of income" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/zyqx-8e4a/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-08-18",
+  "description" : "Provides data from the IBRD Statement of Cash Flows for the fiscal years ended June 30, 2011, June 30, 2010 and June 30, 2009. Sum of all cash flows represent the net changes in unrestricted cash. The values are expressed in millions of U.S. Dollars. Where applicable, changes have been made to certain line items on FY 2010 statement of cash flows to conform with the current year's presentation, but the comparable prior years' data sets have not been adjusted to reflect the reclassification impact of those changes.",
+  "feed" : "https://finances.worldbank.org/api/views/zyqx-8e4a/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "zyqx-8e4a",
+  "keyword" : "ibrd,financial statements,statement of cash flows",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-04-08",
+  "releaseDate" : "2011-08-18",
+  "title" : "IBRD Statement Of Cash Flows, FY2011",
+  "webService" : "https://finances.worldbank.org/resource/zyqx-8e4a",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/zyqx-8e4a/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/zyqx-8e4a/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/zyqx-8e4a/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/zyqx-8e4a/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/zyqx-8e4a/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/zyqx-8e4a/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ibrd", "financial statements", "statement of cash flows" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/wphw-pasx/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-09-12",
+  "description" : "Provides data from the IDA Statement of Income for the fiscal years ended June 30, 2011, June 30, 2010 and June 30, 2009. The values are expressed in millions of U.S. Dollars. Where applicable, changes have been made to certain line items on FY 2010 income statement to conform with the current year's presentation, but the comparable prior years' data sets have not been adjusted to reflect the reclassification impact of those changes.",
+  "feed" : "https://finances.worldbank.org/api/views/wphw-pasx/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "wphw-pasx",
+  "keyword" : "ida,financial statements,statement of income",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-22",
+  "releaseDate" : "2011-09-12",
+  "title" : "IDA Statement Of Income  FY2011",
+  "webService" : "https://finances.worldbank.org/resource/wphw-pasx",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/wphw-pasx/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/wphw-pasx/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/wphw-pasx/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/wphw-pasx/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/wphw-pasx/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/wphw-pasx/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ida", "financial statements", "statement of income" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/hcqu-nmwb/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-09-21",
+  "description" : "The World Bank Expenditure by Program data give the administrative expenditure for Bank (BB) funds and Reimbursable funds from FY06 to FY11.  These data are based on the World Bank Expenditure by Program - FY06-11 table from the Annual Report 2011 http://go.worldbank.org/D74CFKTQ80 .  \r\n\r\nBB funds are authorized by the Bank's Board of Directors for general purpose Bank operations.  Reimbursable funds are received from external sources as reimbursements for special purpose program outputs or other services provided by the Bank.\r\n\r\nAll data are presented in nominal amounts.",
+  "feed" : "https://finances.worldbank.org/api/views/hcqu-nmwb/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "hcqu-nmwb",
+  "keyword" : "budget",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-04-08",
+  "releaseDate" : "2011-09-21",
+  "title" : "World Bank Expenditures By Program",
+  "webService" : "https://finances.worldbank.org/resource/hcqu-nmwb",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/hcqu-nmwb/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/hcqu-nmwb/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/hcqu-nmwb/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/hcqu-nmwb/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/hcqu-nmwb/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/hcqu-nmwb/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "budget" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/gprm-cvxz/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-09-21",
+  "description" : "The World Bank Program Budget data give the administrative budget for Bank (BB) funds and Reimbursable funds as approved by the Board from FY09 to FY12 as well as indicative administrative budgets for FY13 and FY14.  These data are based on \"Annex B:  Program Cost Summary FY09-FY14\" in the World Bank's FY12 Budget Document http://go.worldbank.org/ZMGQ638IT0.\r\n\r\nData are for all \"above-the-line\" components for which management is responsible for work program delivery as well as all \"below-the-line\" components for which management is not solely responsible (e.g., grant-making facilities).\r\n\r\nBB funds are authorized by the Bank's Board of Directors for general purpose Bank operations.  Reimbursable funds are received from external sources as reimbursements for special purpose program outputs or other services provided by the Bank.",
+  "feed" : "https://finances.worldbank.org/api/views/gprm-cvxz/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "gprm-cvxz",
+  "keyword" : "program budget,budget",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-04-08",
+  "releaseDate" : "2011-09-21",
+  "title" : "World Bank Program Budget",
+  "webService" : "https://finances.worldbank.org/resource/gprm-cvxz",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/gprm-cvxz/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/gprm-cvxz/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/gprm-cvxz/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/gprm-cvxz/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/gprm-cvxz/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/gprm-cvxz/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "program budget", "budget" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/csrh-vv7b/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-09-21",
+  "description" : "The World Bank Components of VPU Budget data set compares resource allocations to Vice Presidential Units (VPUs) in FY11 and FY12 across all fund types.  Data for Bank (BB) funds and Reimbursable funds are based on budget allocations.  Data for Bank-Executed Trust Fund (BETF) funds are based on expenditure projections.\r\n\r\nData are for all \"above-the-line\" VPUs for which Bank management is responsible for work program delivery and are included in the Net Administrative Budget of the Bank.  Data for centrally-managed accounts and \"below-the-line\" components for which management is not solely responsible.\r\n\r\nBB funds are authorized by the Bank's Board of Directors for general purpose Bank operations.  Reimbursable funds are received from external sources as reimbursements for special purpose program outputs or other services provided by the Bank.  BETF funds are multi-year contributions from external sources for special purpose programs outputs or other services provided by the Bank.\r\n\r\nAll data are presented in FY11 $ millions.",
+  "feed" : "https://finances.worldbank.org/api/views/csrh-vv7b/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "csrh-vv7b",
+  "keyword" : "budget",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank Group\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-04-08",
+  "releaseDate" : "2011-09-21",
+  "title" : "The World Bank Components Of VPU Budget",
+  "webService" : "https://finances.worldbank.org/resource/csrh-vv7b",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/csrh-vv7b/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/csrh-vv7b/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/csrh-vv7b/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/csrh-vv7b/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/csrh-vv7b/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/csrh-vv7b/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "budget" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/ri54-wt6e/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-08-18",
+  "description" : "Provides data from the IDA Balance Sheet for the fiscal years ended June 30, 2011 and June 30, 2010. The values are expressed in millions of U.S. Dollars. Where applicable, changes have been made to certain line items on the June 30, 2010 balance sheet to conform with the current year's presentation, but the comparable prior years' data sets have not been adjusted to reflect the reclassification impact of those changes.",
+  "feed" : "https://finances.worldbank.org/api/views/ri54-wt6e/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ri54-wt6e",
+  "keyword" : "ida,financial statements,balance sheet",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-04-08",
+  "releaseDate" : "2011-08-18",
+  "title" : "IDA Balance Sheet, FY2011",
+  "webService" : "https://finances.worldbank.org/resource/ri54-wt6e",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/ri54-wt6e/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/ri54-wt6e/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/ri54-wt6e/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/ri54-wt6e/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/ri54-wt6e/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/ri54-wt6e/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ida", "financial statements", "balance sheet" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/wc6g-9zmq/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-06-24",
+  "description" : "Provides descriptions for the data elements of the World Bank Finances datasets.",
+  "feed" : "https://finances.worldbank.org/api/views/wc6g-9zmq/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "wc6g-9zmq",
+  "keyword" : "",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank Group\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-04-08",
+  "releaseDate" : "2011-06-24",
+  "title" : "World Bank Finances Data Dictionary",
+  "webService" : "https://finances.worldbank.org/resource/wc6g-9zmq",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/wc6g-9zmq/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/wc6g-9zmq/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/wc6g-9zmq/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/wc6g-9zmq/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/wc6g-9zmq/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/wc6g-9zmq/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/asw3-evym/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-03-05",
+  "description" : "This dataset represents the unaudited category schedule activity for the country of Moldova's current IBRD loans and IDA credits and grants. The Category Schedule is a view of all categories and sub-categories shown in the withdrawal schedule as agreed to in the related Loan/Credit/Grant Agreements.  The Category Schedule provides a description of the items to be financed, the allocation of funds, the disbursed amount and the undisbursed balance for each category. \r\n\r\nTo facilitate comparison, all category schedule data in this dataset is shown in USD. However, the commitment currency of many loans/credits/grants may be in a currency other than USD.\r\n\r\nInformation regarding Designated Accounts is shown under a special category listed as DA-X (e.g., DA-*, DA-A) which has been created to keep track of advanced funds.  The disbursed amount under a Designated Account shows the outstanding advance to the Designated Account.  When the advances to the Designated Account are being documented, the disbursed amount under the Designated Account category reduces as the eligible expenditures are charged to related categories. Financing Agreements with more details about the loan, credit, grant or trust fund are available here: http://documents.worldbank.org/curated/en/docsearch/country/82547 .  TIP: Search by Grant or Loan Agreement and by Financing Agreement.\r\n\r\nNOTE: This data is released as part of a pilot with the Government of Moldova and represents an unaudited snapshot as of the date on which this data was captured (see ???Data As Of??? date of this dataset). There are timing differences between the disbursements made by the Bank and when and how the funds are used for actual project expenditures. The World Bank complies with all sanctions applicable to World Bank \r\ntransactions.",
+  "feed" : "https://finances.worldbank.org/api/views/asw3-evym/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "asw3-evym",
+  "keyword" : "moldova,category schedule,disbursements,ida,ibrd,tf",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank Group\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-07-15",
+  "releaseDate" : "2012-03-05",
+  "title" : "Moldova Pilot - IBRD and IDA Expenditure Categories (unaudited) - PREVIEW",
+  "webService" : "https://finances.worldbank.org/resource/asw3-evym",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/asw3-evym/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/asw3-evym/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/asw3-evym/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/asw3-evym/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/asw3-evym/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/asw3-evym/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "moldova", "category schedule", "disbursements", "ida", "ibrd", "tf" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/m54j-ersw/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-09-20",
+  "description" : "A Trust Fund is a financing arrangement set up with contributions from one or more donor(s), and in some\r\ncases from the World Bank Group. A Trust Fund can be country-specific, regional, or global in its\r\ngeographic scope, and it can be free-standing or programmatic.  In fulfilling its responsibilities, the World Bank as Trustee complies with all sanctions applicable to World Bank transactions. This dataset  provides a summary of the contributions per fiscal year at the individual Trust Fund level. All definitions should be regarded at present as provisional and not final, and are subject to revision at any time. Please refer to http://www.cfpto.org/TFGlossary2012/ for the Trust Fund Glossary.",
+  "feed" : "https://finances.worldbank.org/api/views/m54j-ersw/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "m54j-ersw",
+  "keyword" : "trust funds,donors,contributions,country level,ifc",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank Group\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-13",
+  "releaseDate" : "2011-09-20",
+  "title" : "Total Contributions to IBRD/IDA/IFC Trust Funds - Summary based on FY of Agreement",
+  "webService" : "https://finances.worldbank.org/resource/m54j-ersw",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/m54j-ersw/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/m54j-ersw/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/m54j-ersw/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/m54j-ersw/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/m54j-ersw/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/m54j-ersw/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "trust funds", "donors", "contributions", "country level", "ifc" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/nh5z-5qch/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-09-21",
+  "description" : "This dataset provides a summary of the total funds received from donors for Trust Funds on the form of cash, promissory notes or other instruments acceptable to the World Bank Group entity administering the Trust Fund. The summary is based on the fiscal year of receipt. Data is provided at the individual Trust Fund level. All definitions should be regarded at present as provisional and not final, and are subject to revision at any time. Please refer to http://www.cfpto.org/TFGlossary2012/ for the Trust Fund Glossary. In fulfilling its responsibilities, the World Bank as Trustee complies with all sanctions applicable to World Bank transactions.",
+  "feed" : "https://finances.worldbank.org/api/views/nh5z-5qch/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "nh5z-5qch",
+  "keyword" : "trust funds,donors,contributions,country level,ifc",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank Group\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-14",
+  "releaseDate" : "2011-09-21",
+  "title" : "Paid In Contributions to IBRD/IDA/IFC Trust Funds based on FY of Receipt",
+  "webService" : "https://finances.worldbank.org/resource/nh5z-5qch",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/nh5z-5qch/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/nh5z-5qch/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/nh5z-5qch/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/nh5z-5qch/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/nh5z-5qch/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/nh5z-5qch/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "trust funds", "donors", "contributions", "country level", "ifc" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/g4sx-dwxc/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-10-24",
+  "description" : "Find or add Open Data events and announcements.  Feel free to share it or embed it on your site.",
+  "feed" : "https://finances.worldbank.org/api/views/g4sx-dwxc/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "g4sx-dwxc",
+  "keyword" : "",
+  "modified" : "2013-08-10",
+  "releaseDate" : "2011-10-24",
+  "title" : "Global Open Data Calendar",
+  "webService" : "https://finances.worldbank.org/resource/g4sx-dwxc",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/g4sx-dwxc/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/g4sx-dwxc/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/g4sx-dwxc/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/g4sx-dwxc/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/g4sx-dwxc/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/g4sx-dwxc/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/fjye-9bys/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-08",
+  "description" : "The Afghanistan Reconstruction Trust Fund (ARTF) generates a quarterly report to Donors. This dataset represents acronyms defined in the quarterly report, and are applicable to the ARTF program as a whole.",
+  "feed" : "https://finances.worldbank.org/api/views/fjye-9bys/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "fjye-9bys",
+  "keyword" : "artf,trust funds,borrower,donor",
+  "license" : "Creative Commons Attribution 3.0 Unported\nThe World Bank(http://web.worldbank.org/WBSITE/EXTERNAL/COUNTRIES/SOUTHASIAEXT/0,,contentMDK:20152008~pagePK:146736~piPK:146830~theSitePK:223547,00.html)\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-04-11",
+  "releaseDate" : "2013-03-08",
+  "title" : "Afghanistan Reconstruction Trust Fund Acronyms - Pilot",
+  "webService" : "https://finances.worldbank.org/resource/fjye-9bys",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/fjye-9bys/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/fjye-9bys/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/fjye-9bys/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/fjye-9bys/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/fjye-9bys/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/fjye-9bys/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "artf", "trust funds", "borrower", "donor" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/iww5-3sst/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-09-21",
+  "description" : "For IBRD/IDA and IFC Trust Funds, the World Bank Group is normally responsible for all financial and programmatic functions, including oversight of the operational use of the funding.  In fulfilling its responsibilities, the World Bank as Trustee complies with all sanctions applicable to World Bank transactions. The use of IBRD/IDA TFs is split between Bank-executed trust funds (BETFs), which are used in support of the Bank's work program, and Recipient-executed trust funds (RETFs), under which funds are provided to a third party, normally in the form of project financing, and supervised by the Bank. IFC manages the funds in support of IFC advisory services and donor-funded investments.",
+  "feed" : "https://finances.worldbank.org/api/views/iww5-3sst/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "iww5-3sst",
+  "keyword" : "trust funds,contributions,disbursements,donors,beneficiaries,ifc",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank Group\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-04-08",
+  "releaseDate" : "2011-09-21",
+  "title" : "IBRD/IDA/IFC Trust Funds - Annual Cash Contributions and Disbursements",
+  "webService" : "https://finances.worldbank.org/resource/iww5-3sst",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/iww5-3sst/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/iww5-3sst/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/iww5-3sst/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/iww5-3sst/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/iww5-3sst/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/iww5-3sst/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "trust funds", "contributions", "disbursements", "donors", "beneficiaries", "ifc" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/wdx8-uxce/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-27",
+  "description" : "IFC's Regional Departments are responsible for the overall strategy in their respective regions and client relations.  They also handle IFC's relationships with the relevant member countries' governments and local stakeholders-NGOs, media, and communities. Learn more at http://www1.ifc.org/wps/wcm/connect/region__ext_content/regions/regions/regions+landing+page .",
+  "feed" : "https://finances.worldbank.org/api/views/wdx8-uxce/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "wdx8-uxce",
+  "keyword" : "ifc,investment,region,annual report",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank Group\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-05-06",
+  "releaseDate" : "2013-02-27",
+  "title" : "IFC Investment By Region -  Annual Summary",
+  "webService" : "https://finances.worldbank.org/resource/wdx8-uxce",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/wdx8-uxce/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/wdx8-uxce/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/wdx8-uxce/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/wdx8-uxce/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/wdx8-uxce/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/wdx8-uxce/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ifc", "investment", "region", "annual report" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/59dm-bgyg/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-27",
+  "description" : "IFC Industries (Sectors) are in charge of processing IFC transactions. They also provide the Regional Departments with the expertise and knowledge needed to process new projects. Learn more at http://www1.ifc.org/wps/wcm/connect/industry_ext_content/ifc_external_corporate_site/industries .  \r\n\r\nFY10 data has been revised to be consistent with IFC's FY11 re-organizational changes across Industry departments.",
+  "feed" : "https://finances.worldbank.org/api/views/59dm-bgyg/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "59dm-bgyg",
+  "keyword" : "ifc,investment,industry,annual report",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank Group\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-07-08",
+  "releaseDate" : "2013-02-27",
+  "title" : "IFC Investment By Industry - Annual Summary",
+  "webService" : "https://finances.worldbank.org/resource/59dm-bgyg",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/59dm-bgyg/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/59dm-bgyg/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/59dm-bgyg/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/59dm-bgyg/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/59dm-bgyg/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/59dm-bgyg/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ifc", "investment", "industry", "annual report" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/4ahj-za8u/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-27",
+  "description" : "IFC continues to develop new financial products that enable companies to manage risk and broaden their access to foreign and domestic capital markets. Our broad suite of investment services can ease poverty and spur long-term growth by promoting sustainable enterprises, encouraging entrepreneurship, and mobilizing resources that wouldn’t otherwise be available. Learn more at http://www1.ifc.org/wps/wcm/connect/CORP_EXT_Content/IFC_External_Corporate_Site/What+We+Do/Investment+Services .",
+  "feed" : "https://finances.worldbank.org/api/views/4ahj-za8u/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "4ahj-za8u",
+  "keyword" : "ifc,products,annual report",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank Group\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2013-02-27",
+  "title" : "IFC Investment By Product - Annual Summary",
+  "webService" : "https://finances.worldbank.org/resource/4ahj-za8u",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/4ahj-za8u/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/4ahj-za8u/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/4ahj-za8u/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/4ahj-za8u/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/4ahj-za8u/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/4ahj-za8u/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ifc", "products", "annual report" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/8z8j-5kw3/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-15",
+  "description" : "Commitments are composed of funds to be provided by IFC for its own account and funds to be provided by participants through the purchase of an interest in IFC’s investment.",
+  "feed" : "https://finances.worldbank.org/api/views/8z8j-5kw3/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "8z8j-5kw3",
+  "keyword" : "ifc,commitments,annual report",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank Group\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-05-06",
+  "releaseDate" : "2012-11-15",
+  "title" : "IFC FY12 Statement Of Cumulative Gross Commitments",
+  "webService" : "https://finances.worldbank.org/resource/8z8j-5kw3",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/8z8j-5kw3/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/8z8j-5kw3/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/8z8j-5kw3/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/8z8j-5kw3/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/8z8j-5kw3/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/8z8j-5kw3/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ifc", "commitments", "annual report" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/he3k-et8a/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-27",
+  "description" : "Provides select metrics from IFC annual reports. You can access Annual Reports at http://www1.ifc.org/wps/wcm/connect/CORP_EXT_Content/IFC_External_Corporate_Site/Annual+Report/ .",
+  "feed" : "https://finances.worldbank.org/api/views/he3k-et8a/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "he3k-et8a",
+  "keyword" : "ifc,annual report",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank Group\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-07-01",
+  "releaseDate" : "2013-02-27",
+  "title" : "IFC Financial Highlights",
+  "webService" : "https://finances.worldbank.org/resource/he3k-et8a",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/he3k-et8a/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/he3k-et8a/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/he3k-et8a/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/he3k-et8a/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/he3k-et8a/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/he3k-et8a/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ifc", "annual report" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/y8jf-q7n2/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-14",
+  "description" : "Results of an Open Data Demand survey (http://bit.ly/OpenDataDemand) being conducted by the World Bank Open Finances (https://finances.worldbank.org) and the World Bank Institute's Open Government (www.open-contracting.org ) teams to better understand the demand for open data with a focus on financial information. Specifically, the research project seeks to understand the gap between supply and demand of information and to discover open data use cases with implications for an international development context. The results of the survey will continue to be shared in open format and also be used to design an offline open data feedback pilot.",
+  "feed" : "https://finances.worldbank.org/api/views/y8jf-q7n2/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "y8jf-q7n2",
+  "keyword" : "",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank Group Open Finances\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-07-15",
+  "releaseDate" : "2013-05-14",
+  "title" : "Open Financial Data Demand Survey Responses",
+  "webService" : "https://finances.worldbank.org/resource/y8jf-q7n2",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/y8jf-q7n2/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/y8jf-q7n2/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/y8jf-q7n2/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/y8jf-q7n2/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/y8jf-q7n2/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/y8jf-q7n2/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/fyqs-heff/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-10",
+  "description" : "This dataset contains metadata and links for all archive documents on the Afghanistan Reconstruction Trust Fund web site.",
+  "feed" : "https://finances.worldbank.org/api/views/fyqs-heff/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "fyqs-heff",
+  "keyword" : "artf,pilot,trust funds,tf,afghanistan,projects,documents",
+  "license" : "Creative Commons Attribution 3.0 Unported\nThe Afghanistan Reconstruction Trust Fund\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-06-17",
+  "releaseDate" : "2013-05-10",
+  "title" : "Afghanistan Reconstruction Trust Fund (ARTF) Documents - BETA",
+  "webService" : "https://finances.worldbank.org/resource/fyqs-heff",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/fyqs-heff/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/fyqs-heff/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/fyqs-heff/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/fyqs-heff/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/fyqs-heff/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/fyqs-heff/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "artf", "pilot", "trust funds", "tf", "afghanistan", "projects", "documents" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/jeqz-f7mn/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-09-22",
+  "description" : "Provides summary data on IBRD and IDA commitments, disbursements, lending and other financial indicators. The data is provided for the fiscal years 2006 - 2011.",
+  "feed" : "https://finances.worldbank.org/api/views/jeqz-f7mn/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "jeqz-f7mn",
+  "keyword" : "ibrd,ida",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank Group\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-22",
+  "releaseDate" : "2011-09-22",
+  "title" : "IBRD and IDA Operational Summary",
+  "webService" : "https://finances.worldbank.org/resource/jeqz-f7mn",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/jeqz-f7mn/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/jeqz-f7mn/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/jeqz-f7mn/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/jeqz-f7mn/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/jeqz-f7mn/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/jeqz-f7mn/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ibrd", "ida" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/ax5s-vav5/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-05-26",
+  "description" : "Financial Intermediary Funds (FIFs) are multilateral financing arrangements for which the World Bank provides Trustee services that include committing and transferring funds to project implementers (generally international organizations such as multilateral development banks or UN agencies). In all cases the World Bank as Trustee is required to act in accordance with instructions of independent governing bodies.\r\n\r\nIn fulfilling its responsibilities, the World Bank as Trustee complies with all sanctions applicable to World Bank transactions. \r\n\r\nFunding Decisions represent amounts approved by the FIFs governing bodies for projects fees and administrative budgets. Funding to projects can be done through various financial products, including grants and concessional loans.",
+  "feed" : "https://finances.worldbank.org/api/views/ax5s-vav5/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ax5s-vav5",
+  "keyword" : "fifs,beneficiaries,country level",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-22",
+  "releaseDate" : "2011-05-26",
+  "title" : "Financial Intermediary Funds Funding Decisions",
+  "webService" : "https://finances.worldbank.org/resource/ax5s-vav5",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/ax5s-vav5/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/ax5s-vav5/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/ax5s-vav5/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/ax5s-vav5/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/ax5s-vav5/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/ax5s-vav5/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "fifs", "beneficiaries", "country level" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/kdui-wcs3/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-05-02",
+  "description" : "This set of contract awards includes data on commitments against contracts that were reviewed by the Bank before they were awarded (prior-reviewed Bank-funded contracts) under IDA/IBRD investment projects and related Trust Funds. This dataset does not list all contracts awarded by the Bank, and should be viewed only as a guide to determine the distribution of major contract commitments among the Bank's member countries. \"Supplier Country\" represents place of supplier registration, which may or not be the supplier's actual country of origin. Information does not include awards to subcontractors nor account for cofinancing. The Procurement Policy and Services Group does not guarantee the data included in this publication and accepts no responsibility whatsoever for any consequences of its use.  The World Bank complies with all sanctions applicable to World Bank transactions.",
+  "feed" : "https://finances.worldbank.org/api/views/kdui-wcs3/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "kdui-wcs3",
+  "keyword" : "procurement,contracts,projects",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-27",
+  "releaseDate" : "2012-05-02",
+  "title" : "Major Contract Awards",
+  "webService" : "https://finances.worldbank.org/resource/kdui-wcs3",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/kdui-wcs3/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/kdui-wcs3/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/kdui-wcs3/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/kdui-wcs3/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/kdui-wcs3/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/kdui-wcs3/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "procurement", "contracts", "projects" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/rcx4-r7xj/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-04-03",
+  "description" : "Statement of Subscriptions to Capital Stock and Voting Power.  Latest information about voting power is available at http://go.worldbank.org/VKVDQDUC10.  A portion of capital subscriptions paid in to IBRD has been paid in the national currencies of the members. These amounts, referred to as restricted currencies, are usable by IBRD in its lending and investment operations, only with consent of the respective members, and for administrative expenses.",
+  "feed" : "https://finances.worldbank.org/api/views/rcx4-r7xj/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "rcx4-r7xj",
+  "keyword" : "ibrd,voting power",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank Group(http://go.worldbank.org/VKVDQDUC10)\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2011-04-03",
+  "title" : "IBRD Statement of Subscriptions to Capital Stock and Voting Power",
+  "webService" : "https://finances.worldbank.org/resource/rcx4-r7xj",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/rcx4-r7xj/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/rcx4-r7xj/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/rcx4-r7xj/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/rcx4-r7xj/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/rcx4-r7xj/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/rcx4-r7xj/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ibrd", "voting power" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/v84d-dq44/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-06-10",
+  "description" : "Provides data on Members' Subscriptions and Contributions. Latest information on voting powers is available at http://go.worldbank.org/VKVDQDUC10. Prior to effectiveness, only a portion of the value Instruments of Commitment (IoCs) received as specified in the replenishment resolution is recorded as Subscriptions and Contributions committed. Upon effectiveness, the received is subsequently recorded as subscriptions and contributions committed remainder of the value of IoCs.",
+  "feed" : "https://finances.worldbank.org/api/views/v84d-dq44/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "v84d-dq44",
+  "keyword" : "ida,country level,voting power",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank Group(http://go.worldbank.org/VKVDQDUC10)\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2011-06-10",
+  "title" : "IDA Statement of Voting Power and Subscriptions and Contributions",
+  "webService" : "https://finances.worldbank.org/resource/v84d-dq44",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/v84d-dq44/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/v84d-dq44/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/v84d-dq44/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/v84d-dq44/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/v84d-dq44/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/v84d-dq44/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ida", "country level", "voting power" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/6ajy-n8cq/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-07",
+  "description" : "Afghanistan Reconstruction Trust Fund  (ARTF) - Donor Contributions: This data represents Donor contributions (pledges and paid-in amounts) towards the Afghanistan Reconstruction Trust Fund (ARTF).",
+  "feed" : "https://finances.worldbank.org/api/views/6ajy-n8cq/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "6ajy-n8cq",
+  "keyword" : "artf,pilot,trust funds,tf,afghanistan,projects,contributions,receipts",
+  "license" : "Creative Commons Attribution 3.0 Unported\nThe World Bank\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-22",
+  "releaseDate" : "2013-05-07",
+  "title" : "Afghanistan Reconstruction Trust Fund  (ARTF) - Donor Contributions - BETA",
+  "webService" : "https://finances.worldbank.org/resource/6ajy-n8cq",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/6ajy-n8cq/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/6ajy-n8cq/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/6ajy-n8cq/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/6ajy-n8cq/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/6ajy-n8cq/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/6ajy-n8cq/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "artf", "pilot", "trust funds", "tf", "afghanistan", "projects", "contributions", "receipts" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/79y4-tfzf/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-03",
+  "description" : "This data represents allocations from the ARTF to specific projects. This dataset is a source for the Monthly Administrator's Report on Financial Status.",
+  "feed" : "https://finances.worldbank.org/api/views/79y4-tfzf/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "79y4-tfzf",
+  "keyword" : "artf,pilot,trust funds,tf,afghanistan,commitments,disbursements,allocations,projects",
+  "license" : "Creative Commons Attribution 3.0 Unported\nThe World Bank Group\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-22",
+  "releaseDate" : "2013-05-03",
+  "title" : "Afghanistan Reconstruction Trust Fund  (ARTF) - Project Allocations and Disbursements - BETA",
+  "webService" : "https://finances.worldbank.org/resource/79y4-tfzf",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/79y4-tfzf/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/79y4-tfzf/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/79y4-tfzf/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/79y4-tfzf/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/79y4-tfzf/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/79y4-tfzf/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "artf", "pilot", "trust funds", "tf", "afghanistan", "commitments", "disbursements", "allocations", "projects" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/536v-dxib/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-05-25",
+  "description" : "Financial Intermediary Funds (FIFs) are multilateral financing arrangements for which the World Bank provides Trustee services that include committing and transferring funds to project implementers (generally international organizations such as multilateral development banks or UN agencies).  In all cases the World Bank as Trustee is required to act in accordance with instructions of independent governing bodies. \r\n\r\nIn fulfilling its responsibilities, the World Bank as Trustee complies with all sanctions applicable to  World Bank transactions.\r\n\r\n\r\nThe innovative financing and governance arrangements of FIFs enable funds to be raised from multiple sources, including from sovereign and private sources. FIF structures are customizable. For instance FIFs have been customized to receive contributions in the form of concessional loans in addition to traditional grant funds, and can provide funding to recipients using customized financial products.",
+  "feed" : "https://finances.worldbank.org/api/views/536v-dxib/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "536v-dxib",
+  "keyword" : "fifs,donors,country level",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-22",
+  "releaseDate" : "2011-05-25",
+  "title" : "Contributions to Financial Intermediary Funds",
+  "webService" : "https://finances.worldbank.org/resource/536v-dxib",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/536v-dxib/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/536v-dxib/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/536v-dxib/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/536v-dxib/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/536v-dxib/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/536v-dxib/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "fifs", "donors", "country level" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/fie8-6fxn/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-06-10",
+  "description" : "Financial Intermediary Funds (FIFs) are multilateral financing arrangements for which the World Bank provides Trustee services that include committing and transferring funds to project implementers (generally international organizations such as multilateral development banks or UN agencies). \r\n\r\nIn all cases the World Bank as Trustee is required to act in accordance with instructions of independent governing bodies. In fulfilling its responsibilities, the World Bank as Trustee complies with all sanctions applicable to World Bank transactions. \r\n\r\nThis dataset provides data on legal obligations to pay recipients of FIFs.",
+  "feed" : "https://finances.worldbank.org/api/views/fie8-6fxn/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "fie8-6fxn",
+  "keyword" : "fifs,beneficiaries,commitments,country level",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-13",
+  "releaseDate" : "2011-06-10",
+  "title" : "Financial Intermediary Funds Commitments",
+  "webService" : "https://finances.worldbank.org/resource/fie8-6fxn",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/fie8-6fxn/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/fie8-6fxn/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/fie8-6fxn/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/fie8-6fxn/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/fie8-6fxn/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/fie8-6fxn/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "fifs", "beneficiaries", "commitments", "country level" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/h4s8-nwev/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-06-03",
+  "description" : "Financial Intermediary Funds (FIFs) are multilateral financing arrangements for which the World Bank provides Trustee services that include committing and transferring funds to project implementers (generally international organizations such as multilateral development banks or UN agencies). \r\n\r\nIn all cases the World Bank as Trustee is required to act in accordance with instructions of independent governing bodies. In fulfilling its responsibilities, the World Bank as Trustee complies with all sanctions applicable to World Bank transactions.\r\n\r\nThis dataset provides data on FIFs cash transfers at the transaction detail level. Funds are channeled in a coordinated manner to a range of recipients in the public and private sectors through a variety of arrangements. FIF trusteeship involves holding, investing and transferring funds as directed by the FIF governing body. Trusteeship does not involve overseeing or supervising the use of funds; this is the role of other agencies that receive the funding and who are responsible for project or program implementation. Transfers are generally made by the Trustee to external agencies (other MDBs, UN agencies, etc.) for the implementation of activities.",
+  "feed" : "https://finances.worldbank.org/api/views/h4s8-nwev/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "h4s8-nwev",
+  "keyword" : "fifs,beneficiaries,country level",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-13",
+  "releaseDate" : "2011-06-03",
+  "title" : "Financial Intermediary Funds Cash Transfers",
+  "webService" : "https://finances.worldbank.org/resource/h4s8-nwev",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/h4s8-nwev/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/h4s8-nwev/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/h4s8-nwev/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/h4s8-nwev/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/h4s8-nwev/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/h4s8-nwev/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "fifs", "beneficiaries", "country level" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/zucq-nrc3/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-04-07",
+  "description" : "The International Bank for Reconstruction and Development (IBRD) loans are public and publicly guaranteed debt extended by the World Bank Group. IBRD loans are made to, or guaranteed by, countries that are members of IBRD. IBRD may also make loans to IFC. IBRD lends at market rates. Data are in U.S. dollars calculated using historical rates. This dataset contains historical snapshots of the Statement of Loans including the latest available snapshot. The World Bank complies with all sanctions applicable to World Bank transactions.",
+  "feed" : "https://finances.worldbank.org/api/views/zucq-nrc3/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "zucq-nrc3",
+  "keyword" : "ibrd,beneficiaries,loans,projects,country level,regional level",
+  "license" : "Creative Commons Attribution 3.0 Unported\nCTR(http://go.worldbank.org/E9HBDN9D10)\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-14",
+  "releaseDate" : "2011-04-07",
+  "title" : "IBRD Statement Of Loans - Historical Data",
+  "webService" : "https://finances.worldbank.org/resource/zucq-nrc3",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/zucq-nrc3/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/zucq-nrc3/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/zucq-nrc3/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/zucq-nrc3/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/zucq-nrc3/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/zucq-nrc3/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ibrd", "beneficiaries", "loans", "projects", "country level", "regional level" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/sfv5-tf7p/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-05-16",
+  "description" : "The International Bank for Reconstruction and Development (IBRD) loans are public and publicly guaranteed debt extended by the World Bank Group. IBRD loans are made to, or guaranteed by, countries that are members of IBRD. IBRD may also make loans to IFC. IBRD lends at market rates. Data are in U.S. dollars calculated using historical rates. This dataset contains the latest available snapshot of the Statement of Loans. The World Bank complies with all sanctions applicable to World Bank transactions.",
+  "feed" : "https://finances.worldbank.org/api/views/sfv5-tf7p/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "sfv5-tf7p",
+  "keyword" : "ibrd,beneficiaries,loans,projects,country level,region level",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank Group(http://go.worldbank.org/E9HBDN9D10)\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-23",
+  "releaseDate" : "2011-05-16",
+  "title" : "IBRD Statement of Loans - Latest Available Snapshot",
+  "webService" : "https://finances.worldbank.org/resource/sfv5-tf7p",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/sfv5-tf7p/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/sfv5-tf7p/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/sfv5-tf7p/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/sfv5-tf7p/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/sfv5-tf7p/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/sfv5-tf7p/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ibrd", "beneficiaries", "loans", "projects", "country level", "region level" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/tdwh-3krx/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-04-20",
+  "description" : "The International Development Association (IDA) credits are public and publicly guaranteed debt extended by the World Bank Group. IDA provides development credits, grants and guarantees to its recipient member countries to help meet their development needs. Credits from IDA are at concessional rates. Data are in U.S. dollars calculated using historical rates. This dataset contains historical snapshots of the IDA Statement of Credits and Grants including the latest available snapshot. The World Bank complies with all sanctions applicable to World Bank transactions.",
+  "feed" : "https://finances.worldbank.org/api/views/tdwh-3krx/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "tdwh-3krx",
+  "keyword" : "ida,beneficiaries,credits,grants,country level,region level,projects",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank(http://go.worldbank.org/E9HBDN9D10)\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-14",
+  "releaseDate" : "2011-04-20",
+  "title" : "IDA Statement Of Credits and Grants - Historical Data",
+  "webService" : "https://finances.worldbank.org/resource/tdwh-3krx",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/tdwh-3krx/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/tdwh-3krx/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/tdwh-3krx/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/tdwh-3krx/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/tdwh-3krx/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/tdwh-3krx/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ida", "beneficiaries", "credits", "grants", "country level", "region level", "projects" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/ebmi-69yj/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-05-16",
+  "description" : "The International Development Association (IDA) credits are public and publicly guaranteed debt extended by the World Bank Group. IDA provides development credits, grants and guarantees to its recipient member countries to help meet their development needs. Credits from IDA are at concessional rates. Data are in U.S. dollars calculated using historical rates. This dataset contains the latest available snapshot of the IDA Statement of Credits and Grants. The World Bank complies with all sanctions applicable to World Bank \r\ntransactions.",
+  "feed" : "https://finances.worldbank.org/api/views/ebmi-69yj/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ebmi-69yj",
+  "keyword" : "ida,beneficiaries,credits,grants,country level,region level,projects",
+  "license" : "Creative Commons Attribution-Noncommercial 3.0 Unported\nWorld Bank(http://go.worldbank.org/E9HBDN9D10)\nhttp://creativecommons.org/licenses/by-nc/3.0/legalcode",
+  "modified" : "2013-08-14",
+  "releaseDate" : "2011-05-16",
+  "title" : "IDA Statement of Credits and Grants  - Latest Available Snapshot",
+  "webService" : "https://finances.worldbank.org/resource/ebmi-69yj",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/ebmi-69yj/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/ebmi-69yj/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/ebmi-69yj/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/ebmi-69yj/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/ebmi-69yj/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/ebmi-69yj/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ida", "beneficiaries", "credits", "grants", "country level", "region level", "projects" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/p65j-3upu/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-05-19",
+  "description" : "Provides data on investment commercial credit exposure for IBRD and IDA. The values are shown net of collateral held. For IBRD, the decrease in credit exposure in FY2010 reflects a decrease in the size of the IBRD investment program due to decrease in liquidity held and a relatively smaller decrease in IBRD's net swap exposure.",
+  "feed" : "https://finances.worldbank.org/api/views/p65j-3upu/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "p65j-3upu",
+  "keyword" : "ibrd,ida",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank Group\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-22",
+  "releaseDate" : "2011-05-19",
+  "title" : "Commercial Credit Exposure by Counterparty Rating",
+  "webService" : "https://finances.worldbank.org/resource/p65j-3upu",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/p65j-3upu/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/p65j-3upu/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/p65j-3upu/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/p65j-3upu/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/p65j-3upu/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/p65j-3upu/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ibrd", "ida" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/ufdu-ykrn/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-18",
+  "description" : "Provides data from the IDA Statement of Income for the fiscal years ended June 30, 2012, June 30, 2011 and June 30, 2010. The values are expressed in millions of U.S. Dollars. Where applicable, changes have been made to certain line items on FY 2011 income statement to conform with the current year's presentation, but the comparable prior years' data sets have not been adjusted to reflect the reclassification impact of those changes.",
+  "feed" : "https://finances.worldbank.org/api/views/ufdu-ykrn/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ufdu-ykrn",
+  "keyword" : "ida,financial statements,statement of income",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-22",
+  "releaseDate" : "2013-08-18",
+  "title" : "IDA Statement Of Income  FY2012",
+  "webService" : "https://finances.worldbank.org/resource/ufdu-ykrn",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/ufdu-ykrn/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/ufdu-ykrn/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/ufdu-ykrn/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/ufdu-ykrn/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/ufdu-ykrn/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/ufdu-ykrn/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ida", "financial statements", "statement of income" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/tu2n-fsn2/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-18",
+  "description" : "Provides data from the IDA Statement of Income for the fiscal years ended June 30, 2013, June 30, 2012 and June 30, 2011. The values are expressed in millions of U.S. Dollars. Where applicable, changes have been made to certain line items on FY 2012 income statement to conform with the current year's presentation, but the comparable prior years' data sets have not been adjusted to reflect the reclassification impact of those changes.",
+  "feed" : "https://finances.worldbank.org/api/views/tu2n-fsn2/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "tu2n-fsn2",
+  "keyword" : "ida,financial statements,statement of income",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-22",
+  "releaseDate" : "2013-08-18",
+  "title" : "IDA Statement Of Income  FY2013",
+  "webService" : "https://finances.worldbank.org/resource/tu2n-fsn2",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/tu2n-fsn2/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/tu2n-fsn2/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/tu2n-fsn2/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/tu2n-fsn2/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/tu2n-fsn2/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/tu2n-fsn2/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ida", "financial statements", "statement of income" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/gt7f-f7vc/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-18",
+  "description" : "Provides data from the IDA Statement of Cash Flows for the fiscal years ended June 30, 2011, June 30, 2010 and June 30, 2009. Sum of all cash flows represent the net changes in unrestricted cash.The values are expressed in millions of U.S. Dollars. Amount in millions of US Dollars, rounded.",
+  "feed" : "https://finances.worldbank.org/api/views/gt7f-f7vc/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "gt7f-f7vc",
+  "keyword" : "ida,financial statements,statement of cash flows",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-22",
+  "releaseDate" : "2013-08-18",
+  "title" : "IDA Statement Of Cash Flows  FY2011",
+  "webService" : "https://finances.worldbank.org/resource/gt7f-f7vc",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/gt7f-f7vc/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/gt7f-f7vc/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/gt7f-f7vc/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/gt7f-f7vc/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/gt7f-f7vc/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/gt7f-f7vc/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ida", "financial statements", "statement of cash flows" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/i7ru-ngvc/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-18",
+  "description" : "Provides data from the IDA Statement of Cash Flows for the fiscal years ended June 30, 2012, June 30, 2011 and June 30, 2010. Sum of all cash flows represent the net changes in unrestricted cash.The values are expressed in millions of U.S. Dollars. Amount in millions of US Dollars, rounded.",
+  "feed" : "https://finances.worldbank.org/api/views/i7ru-ngvc/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "i7ru-ngvc",
+  "keyword" : "ida,financial statements,statement of cash flows",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-22",
+  "releaseDate" : "2013-08-18",
+  "title" : "IDA Statement Of Cash Flows  FY2012",
+  "webService" : "https://finances.worldbank.org/resource/i7ru-ngvc",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/i7ru-ngvc/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/i7ru-ngvc/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/i7ru-ngvc/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/i7ru-ngvc/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/i7ru-ngvc/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/i7ru-ngvc/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ida", "financial statements", "statement of cash flows" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/yvac-3k56/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-18",
+  "description" : "Provides data from the IDA Statement of Cash Flows for the fiscal years ended June 30, 2013, June 30, 2012 and June 30, 2011. Sum of all cash flows represent the net changes in unrestricted cash.The values are expressed in millions of U.S. Dollars. Amount in millions of US Dollars, rounded.",
+  "feed" : "https://finances.worldbank.org/api/views/yvac-3k56/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "yvac-3k56",
+  "keyword" : "ida,financial statements,statement of cash flows",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-22",
+  "releaseDate" : "2013-08-18",
+  "title" : "IDA Statement Of Cash Flows  FY2013",
+  "webService" : "https://finances.worldbank.org/resource/yvac-3k56",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/yvac-3k56/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/yvac-3k56/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/yvac-3k56/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/yvac-3k56/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/yvac-3k56/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/yvac-3k56/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ida", "financial statements", "statement of cash flows" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/eju8-ymgp/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-18",
+  "description" : "Provides data from the IDA Balance Sheet for the fiscal years ended June 30, 2012 and June 30, 2011. The values are expressed in millions of U.S. Dollars. Where applicable, changes have been made to certain line items on the June 30, 2011 balance sheet to conform with the current year's presentation, but the comparable prior years' data sets have not been adjusted to reflect the reclassification impact of those changes.",
+  "feed" : "https://finances.worldbank.org/api/views/eju8-ymgp/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "eju8-ymgp",
+  "keyword" : "ida,financial statements,balance sheet",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-22",
+  "releaseDate" : "2013-08-18",
+  "title" : "IDA Balance Sheet  FY2012",
+  "webService" : "https://finances.worldbank.org/resource/eju8-ymgp",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/eju8-ymgp/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/eju8-ymgp/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/eju8-ymgp/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/eju8-ymgp/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/eju8-ymgp/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/eju8-ymgp/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ida", "financial statements", "balance sheet" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/r97p-g693/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-19",
+  "description" : "Provides data from the IDA Balance Sheet for the fiscal years ended June 30, 2013 and June 30, 2012. The values are expressed in millions of U.S. Dollars. Where applicable, changes have been made to certain line items on the June 30, 2012 balance sheet to conform with the current year's presentation, but the comparable prior years' data sets have not been adjusted to reflect the reclassification impact of those changes.",
+  "feed" : "https://finances.worldbank.org/api/views/r97p-g693/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "r97p-g693",
+  "keyword" : "",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-22",
+  "releaseDate" : "2013-08-19",
+  "title" : "IDA Balance Sheet  FY2013",
+  "webService" : "https://finances.worldbank.org/resource/r97p-g693",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/r97p-g693/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/r97p-g693/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/r97p-g693/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/r97p-g693/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/r97p-g693/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/r97p-g693/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/uni3-qwsg/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-19",
+  "description" : "Provides data from the IBRD Balance Sheet for the fiscal years ended June 30, 2012 and June 30, 2011. The values are expressed in millions of U.S. Dollars. Where applicable, changes have been made to certain line items on the June 30, 2011 balance sheet to conform with the current year's presentation, but the comparable prior years' data sets have not been adjusted to reflect the reclassification impact of those changes.",
+  "feed" : "https://finances.worldbank.org/api/views/uni3-qwsg/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "uni3-qwsg",
+  "keyword" : "ibrd,financial statements,balance sheet",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-22",
+  "releaseDate" : "2013-08-19",
+  "title" : "IBRD Balance Sheet FY2012",
+  "webService" : "https://finances.worldbank.org/resource/uni3-qwsg",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/uni3-qwsg/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/uni3-qwsg/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/uni3-qwsg/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/uni3-qwsg/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/uni3-qwsg/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/uni3-qwsg/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ibrd", "financial statements", "balance sheet" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/cryz-p8hk/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-19",
+  "description" : "Provides data from the IBRD Balance Sheet for the fiscal years ended June 30, 2013 and June 30, 2012. The values are expressed in millions of U.S. Dollars. Where applicable, changes have been made to certain line items on the June 30, 2012 balance sheet to conform with the current year's presentation, but the comparable prior years' data sets have not been adjusted to reflect the reclassification impact of those changes.",
+  "feed" : "https://finances.worldbank.org/api/views/cryz-p8hk/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "cryz-p8hk",
+  "keyword" : "",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-22",
+  "releaseDate" : "2013-08-19",
+  "title" : "IBRD Balance Sheet FY2013",
+  "webService" : "https://finances.worldbank.org/resource/cryz-p8hk",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/cryz-p8hk/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/cryz-p8hk/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/cryz-p8hk/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/cryz-p8hk/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/cryz-p8hk/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/cryz-p8hk/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/cu2s-n87n/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-19",
+  "description" : "Provides data from the IBRD Statement of Income for the fiscal years ended June 30, 2012, June 30, 2011 and June 30, 2010. The values are expressed in millions of U.S. Dollars. Where applicable, changes have been made to certain line items on FY 2011 income statement to conform with the current year's presentation, but the comparable prior years' data sets have not been adjusted to reflect the reclassification impact of those changes.",
+  "feed" : "https://finances.worldbank.org/api/views/cu2s-n87n/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "cu2s-n87n",
+  "keyword" : "ibrd,financial statements,statement of income",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-22",
+  "releaseDate" : "2013-08-19",
+  "title" : "IBRD Statement Of Income  FY2012",
+  "webService" : "https://finances.worldbank.org/resource/cu2s-n87n",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/cu2s-n87n/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/cu2s-n87n/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/cu2s-n87n/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/cu2s-n87n/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/cu2s-n87n/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/cu2s-n87n/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ibrd", "financial statements", "statement of income" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/2pje-aayh/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-19",
+  "description" : "Provides data from the IBRD Statement of Cash Flows for the fiscal years ended June 30, 2012, June 30, 2011 and June 30, 2010. Sum of all cash flows represent the net changes in unrestricted cash. The values are expressed in millions of U.S. Dollars. Where applicable, changes have been made to certain line items on FY 2011 statement of cash flows to conform with the current year's presentation, but the comparable prior years' data sets have not been adjusted to reflect the reclassification impact of those changes.",
+  "feed" : "https://finances.worldbank.org/api/views/2pje-aayh/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "2pje-aayh",
+  "keyword" : "ibrd,financial statements,statement of cash flows",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-22",
+  "releaseDate" : "2013-08-19",
+  "title" : "IBRD Statement Of Cash Flows  FY2012",
+  "webService" : "https://finances.worldbank.org/resource/2pje-aayh",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/2pje-aayh/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/2pje-aayh/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/2pje-aayh/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/2pje-aayh/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/2pje-aayh/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/2pje-aayh/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ibrd", "financial statements", "statement of cash flows" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/bm98-s484/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-19",
+  "description" : "Provides data from the IBRD Statement of Cash Flows for the fiscal years ended June 30, 2013, June 30, 2012 and June 30, 2011. Sum of all cash flows represent the net changes in unrestricted cash. The values are expressed in millions of U.S. Dollars. Where applicable, changes have been made to certain line items on FY 2012 statement of cash flows to conform with the current year's presentation, but the comparable prior years' data sets have not been adjusted to reflect the reclassification impact of those changes.",
+  "feed" : "https://finances.worldbank.org/api/views/bm98-s484/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "bm98-s484",
+  "keyword" : "ibrd,financial statements,statement of cash flows",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-22",
+  "releaseDate" : "2013-08-19",
+  "title" : "IBRD Statement Of Cash Flows  FY2013",
+  "webService" : "https://finances.worldbank.org/resource/bm98-s484",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/bm98-s484/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/bm98-s484/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/bm98-s484/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/bm98-s484/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/bm98-s484/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/bm98-s484/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ibrd", "financial statements", "statement of cash flows" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/wjcp-yc3u/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-19",
+  "description" : "Provides data from the IBRD Statement of Income for the fiscal years ended June 30, 2013, June 30, 2012 and June 30, 2011. The values are expressed in millions of U.S. Dollars. Where applicable, changes have been made to certain line items on FY 2012 income statement to conform with the current year's presentation, but the comparable prior years' data sets have not been adjusted to reflect the reclassification impact of those changes.",
+  "feed" : "https://finances.worldbank.org/api/views/wjcp-yc3u/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "wjcp-yc3u",
+  "keyword" : "ibrd,financial statements,statement of income",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-27",
+  "releaseDate" : "2013-08-19",
+  "title" : "IBRD Statement Of Income  FY2013",
+  "webService" : "https://finances.worldbank.org/resource/wjcp-yc3u",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/wjcp-yc3u/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/wjcp-yc3u/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/wjcp-yc3u/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/wjcp-yc3u/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/wjcp-yc3u/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/wjcp-yc3u/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ibrd", "financial statements", "statement of income" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/gsdw-avpz/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-12",
+  "description" : "Provides data on Members' Subscriptions and Voting Power. Latest information on voting powers is available at http://go.worldbank.org/VKVDQDUC10",
+  "feed" : "https://finances.worldbank.org/api/views/gsdw-avpz/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "gsdw-avpz",
+  "keyword" : "ifc,voting power,country level",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank Group\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-22",
+  "releaseDate" : "2013-04-12",
+  "title" : "IFC Subscriptions and Voting Power",
+  "webService" : "https://finances.worldbank.org/resource/gsdw-avpz",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/gsdw-avpz/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/gsdw-avpz/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/gsdw-avpz/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/gsdw-avpz/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/gsdw-avpz/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/gsdw-avpz/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ifc", "voting power", "country level" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/g66a-y86t/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-21",
+  "description" : "This dataset contains raw response data to a nano-survey that was conducted in Indonesia and Kenya on the demand for open financial data. You can read more about the project here and participate directly here: (http://bit.ly/OpenDataDemand).",
+  "feed" : "https://finances.worldbank.org/api/views/g66a-y86t/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "g66a-y86t",
+  "keyword" : "open data,open finance,nano survey,indonesia,kenya,research,data",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank Group Open Finances\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-23",
+  "releaseDate" : "2013-08-21",
+  "title" : "Open Financial Data Demand Nano-Survey Responses",
+  "webService" : "https://finances.worldbank.org/resource/g66a-y86t",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/g66a-y86t/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/g66a-y86t/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/g66a-y86t/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/g66a-y86t/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/g66a-y86t/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/g66a-y86t/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "open data", "open finance", "nano survey", "indonesia", "kenya", "research", "data" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/b74b-t2z3/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-10-23",
+  "description" : "Private sector development requires more than just finance. Experience shows the powerful role advisory services can play in unlocking investment and helping businesses expand and create jobs.\r\n \r\nTo help the private sector in emerging markets, IFC provides advice, problem solving, and training to companies, industries, and governments. Our experience shows that companies need more than financial investment to thrive—they need a regulatory environment that enables entrepreneurship, and advice on business best practices. Our work includes advising national and local governments on how to improve their investment climate and strengthen basic infrastructure. Governments account for around half of our advisory projects. We also help investment clients improve corporate governance and become more sustainable.\r\n\r\n We offer advice through nearly 1,100 Advisory Services staff in 85 offices across 73 countries. Funding comes from donor partners, IFC, and client contributions. Learn more at http://www1.ifc.org/wps/wcm/connect/as_ext_content/what+we+do/advisory+services? .",
+  "feed" : "https://finances.worldbank.org/api/views/b74b-t2z3/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "b74b-t2z3",
+  "keyword" : "ifc,advisory,projects,country level",
+  "license" : "Creative Commons Attribution 3.0 Unported\nWorld Bank Group\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-27",
+  "releaseDate" : "2012-10-23",
+  "title" : "IFC Advisory Services Projects",
+  "webService" : "https://finances.worldbank.org/resource/b74b-t2z3",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/b74b-t2z3/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/b74b-t2z3/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/b74b-t2z3/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/b74b-t2z3/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/b74b-t2z3/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/b74b-t2z3/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ifc", "advisory", "projects", "country level" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://finances.worldbank.org/api/views/efin-cagm/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-04",
+  "description" : "IFC continues to develop new financial products that enable companies to manage risk and broaden their access to foreign and domestic capital markets. Our broad suite of investment services can ease poverty and spur long-term growth by promoting sustainable enterprises, encouraging entrepreneurship, and mobilizing resources that wouldn’t otherwise be available. \r\n\r\nLearn more about different financial products offered by IFC at IFC Investment Services page: \r\n\r\nhttp://www1.ifc.org/wps/wcm/connect/CORP_EXT_Content/IFC_External_Corporate_Site/What+We+Do/Investment+Services .",
+  "feed" : "https://finances.worldbank.org/api/views/efin-cagm/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "efin-cagm",
+  "keyword" : "ifc,investment,projects,country level",
+  "license" : "Creative Commons Attribution 3.0 Unported\nIFC\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2013-08-27",
+  "releaseDate" : "2013-04-04",
+  "title" : "IFC Investment Services Projects",
+  "webService" : "https://finances.worldbank.org/resource/efin-cagm",
+  "distribution" : [ {
+    "accessURL" : "https://finances.worldbank.org/api/views/efin-cagm/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/efin-cagm/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/efin-cagm/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/efin-cagm/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/efin-cagm/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://finances.worldbank.org/api/views/efin-cagm/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ifc", "investment", "projects", "country level" ]
+} ]

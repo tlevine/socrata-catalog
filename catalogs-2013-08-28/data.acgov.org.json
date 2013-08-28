@@ -1,0 +1,3621 @@
+[ {
+  "accessLevel" : "Public",
+  "description" : "Lists the datasets for this domain.  The format should correspond to the spec at http://project-open-data.github.io/schema/",
+  "format" : "application/json",
+  "frequency" : "hourly",
+  "identifier" : "https://data.acgov.org/data.json",
+  "modified" : "2013-08-28",
+  "title" : "Project Open Data, /data.json file",
+  "webService" : "https://data.acgov.org/data.json"
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/qPxcrOxUrr5GJrI91ffAYG7HLqIjZQY7eU4mwR37pwM?filename=UnifiedSchool.zip",
+  "created" : "2012-05-09",
+  "description" : "Alameda County Unified School District Boundaries",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "b4ug-2x6q",
+  "keyword" : "gis,education,school,boundaries",
+  "modified" : "2013-01-28",
+  "releaseDate" : "2012-05-09",
+  "title" : "Unified School District Boundaries",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/qPxcrOxUrr5GJrI91ffAYG7HLqIjZQY7eU4mwR37pwM?filename=UnifiedSchool.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "gis", "education", "school", "boundaries" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/NppfzC6G9t4J1X9MCb7w7HQEJtCdKXW-wbi8PSPoakw?filename=ACTransit.zip",
+  "created" : "2012-05-09",
+  "description" : "Alameda County Transit Boundaries",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "cxse-u3u4",
+  "keyword" : "transportation,boundaries,gis,alameda county,actransit",
+  "license" : "Public Domain\nRegistrar of Voters",
+  "modified" : "2013-05-09",
+  "releaseDate" : "2012-05-09",
+  "title" : "Alameda County Transit Boundaries",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/NppfzC6G9t4J1X9MCb7w7HQEJtCdKXW-wbi8PSPoakw?filename=ACTransit.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "transportation", "boundaries", "gis", "alameda county", "actransit" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/R0AX1cqu42ozunDLGTanAUwnsekNL3R7W4SjxMY1kvs?filename=Streets.zip",
+  "created" : "2012-05-09",
+  "description" : "Alameda County Streets",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "wxjd-fz3m",
+  "keyword" : "gis,transportation,streets,alameda county",
+  "license" : "Public Domain",
+  "modified" : "2012-07-19",
+  "releaseDate" : "2012-05-09",
+  "title" : "Alameda County Streets",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/R0AX1cqu42ozunDLGTanAUwnsekNL3R7W4SjxMY1kvs?filename=Streets.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "gis", "transportation", "streets", "alameda county" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/hhp3R4QH99JbEZz2fEZchhfWnFYWcIXufgW53sPYpiI?filename=City_Limits.zip",
+  "created" : "2012-05-09",
+  "description" : "City Boundaries in Alameda County",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "t746-w8c6",
+  "keyword" : "city limits,city boundaries,alameda county",
+  "license" : "Public Domain\nAlameda County(http://acgov.org/government/geospatial.htm)",
+  "modified" : "2012-11-14",
+  "releaseDate" : "2012-05-09",
+  "title" : "City Limits",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/hhp3R4QH99JbEZz2fEZchhfWnFYWcIXufgW53sPYpiI?filename=City_Limits.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "city limits", "city boundaries", "alameda county" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/9vignXDYMaRz3p8BRjx76HJb94WHfViypt5cfo2FO3Y?filename=County_Boundary.zip",
+  "created" : "2012-05-09",
+  "description" : "Alameda County Boundary",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "rygg-x9nr",
+  "keyword" : "county boundary",
+  "modified" : "2012-05-09",
+  "releaseDate" : "2012-05-09",
+  "title" : "County Boundary",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/9vignXDYMaRz3p8BRjx76HJb94WHfViypt5cfo2FO3Y?filename=County_Boundary.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "county boundary" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/ATVvL4k8EiFwJaZFSCO4c4q8kE8skhf332pUcUB2TKs?filename=Bike_Alameda.zip",
+  "created" : "2012-05-10",
+  "description" : "Bay Area Bikeways in Alameda county only",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "nmph-ksak",
+  "keyword" : "alameda county,bike,bike ways",
+  "license" : "Public Domain\nMetropolitan Transportation Commission (MTC)(http://www.mtc.ca.gov/maps_and_data/GIS/data.htm)",
+  "modified" : "2012-05-10",
+  "releaseDate" : "2012-05-10",
+  "title" : "Alameda County Bikeways",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/ATVvL4k8EiFwJaZFSCO4c4q8kE8skhf332pUcUB2TKs?filename=Bike_Alameda.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "bike", "bike ways" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/FxE0Jlr8mJE9_BNH4XQAY5weDloaMpQL0mUAqFWioy4?filename=CouncilDistricts.Zip",
+  "created" : "2012-05-10",
+  "description" : "Oakland City Council Districts",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "xjgj-6a36",
+  "keyword" : "oakland,city council,districts",
+  "license" : "Public Domain\nCode for Oakland(http://codeforoakland.org/data-sets/#oaklandcity)",
+  "modified" : "2013-01-28",
+  "releaseDate" : "2012-05-10",
+  "title" : "Oakland City Council Districts",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/FxE0Jlr8mJE9_BNH4XQAY5weDloaMpQL0mUAqFWioy4?filename=CouncilDistricts.Zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "oakland", "city council", "districts" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/y7e3RAisKV1LORWXUM95yX_aJuxh4G2BGV5TN2SnKDU?filename=alameda-blocks-2010.zip",
+  "created" : "2012-05-10",
+  "description" : "Alameda County Census Blocks 2010",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "asrp-h5k8",
+  "keyword" : "alameda county,census 2010,blocks",
+  "license" : "Public Domain\nCode for Oakland(http://codeforoakland.org/data-sets/#oaklandcity)",
+  "modified" : "2012-05-23",
+  "releaseDate" : "2012-05-10",
+  "title" : "Alameda County Census blocks 2010",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/y7e3RAisKV1LORWXUM95yX_aJuxh4G2BGV5TN2SnKDU?filename=alameda-blocks-2010.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "census 2010", "blocks" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/dWpWrOVQpA5HqnFYyMlK7fE0DvJl9Z6QR_lvM-FkG8M?filename=alameda-tracts-2010.zip",
+  "created" : "2012-05-10",
+  "description" : "Alameda County US Census Tracts 2010",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "v5tf-3bdj",
+  "keyword" : "alameda county,us census,tracts,2010",
+  "license" : "Public Domain\nCode for Oakland(http://codeforoakland.org/data-sets/#oaklandcity)",
+  "modified" : "2013-08-04",
+  "releaseDate" : "2012-05-10",
+  "title" : "Alameda County US Census Tracts 2010",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/dWpWrOVQpA5HqnFYyMlK7fE0DvJl9Z6QR_lvM-FkG8M?filename=alameda-tracts-2010.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "us census", "tracts", "2010" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/u5FCsBOiyAe9X6PYwF13XtHCAbkeFagXt2ElAcRrHfU?filename=AC_Hospitals.zip",
+  "created" : "2012-05-10",
+  "description" : "Alameda County Hospitals",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "87js-eyfm",
+  "keyword" : "alameda county,hospitals",
+  "license" : "Public Domain\nCode for Oakland(http://codeforoakland.org/data-sets/#oaklandcity)",
+  "modified" : "2012-06-01",
+  "releaseDate" : "2012-05-10",
+  "title" : "Alameda County Hospitals",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/u5FCsBOiyAe9X6PYwF13XtHCAbkeFagXt2ElAcRrHfU?filename=AC_Hospitals.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "hospitals" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/hVNSkn39WzFWA2_pAXDLfwlyBNwKYGpWY8xxhscT27I?filename=AC_HealthClinics.zip",
+  "created" : "2012-05-10",
+  "description" : "Alameda County Health Clinics",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "c5gz-fc3q",
+  "keyword" : "alameda county,health clinics",
+  "license" : "Public Domain\nCode for Oakland(http://codeforoakland.org/data-sets/#oaklandcity)",
+  "modified" : "2012-06-04",
+  "releaseDate" : "2012-05-10",
+  "title" : "Alameda County Health Clinics",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/hVNSkn39WzFWA2_pAXDLfwlyBNwKYGpWY8xxhscT27I?filename=AC_HealthClinics.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "health clinics" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/RS-UeAxGSdmfrBepKze9RDCSjMpoaY-ie41FEmWX78A?filename=geospatial.zip",
+  "created" : "2012-05-10",
+  "description" : "Parcel Boundaries in Alameda County",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "2m43-xsic",
+  "keyword" : "parcel boundaries,alameda county,assessor",
+  "license" : "Public Domain\nAlameda County, Assessor's Office(http://www.acgov.org/government/geospatial.htm)",
+  "modified" : "2013-07-31",
+  "releaseDate" : "2012-05-10",
+  "title" : "Alameda County Parcel Boundaries",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/RS-UeAxGSdmfrBepKze9RDCSjMpoaY-ie41FEmWX78A?filename=geospatial.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "parcel boundaries", "alameda county", "assessor" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/kMXX1qcXbzM9SQDjQ6VvK8dyzKz_ckjQAPSfdse9hvQ?filename=AC_Schools.zip",
+  "created" : "2012-05-10",
+  "description" : "Alameda County Schools",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "yza6-6jwu",
+  "keyword" : "alameda county,schools,education",
+  "license" : "Public Domain\nUS Department of Education",
+  "modified" : "2012-06-01",
+  "releaseDate" : "2012-05-10",
+  "title" : "Alameda County Schools",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/kMXX1qcXbzM9SQDjQ6VvK8dyzKz_ckjQAPSfdse9hvQ?filename=AC_Schools.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "schools", "education" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/fPNFQ466ANv5C-TmXSn2zAtvgTIVXjqfJDb9IZDQJh4?filename=AC_PsychClinics.zip",
+  "created" : "2012-05-10",
+  "description" : "Alameda County Psychiatric Health Clinics",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "5vwq-esaq",
+  "keyword" : "",
+  "license" : "Public Domain\nAlameda County Public Health Department(http://acgov.org)",
+  "modified" : "2012-05-10",
+  "releaseDate" : "2012-05-10",
+  "title" : "Alameda County Psychiatric Health Clinics",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/fPNFQ466ANv5C-TmXSn2zAtvgTIVXjqfJDb9IZDQJh4?filename=AC_PsychClinics.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/yF2n4GzwzjgXvJ8TOGqGytkeaUXKp63Ot2tfEYo53nY?filename=CensusEthnicTract.zip",
+  "created" : "2012-05-18",
+  "description" : "Alameda County US Census Results 2010",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "txj5-vdgk",
+  "keyword" : "alameda county,oakland,us census,2010,ethnicity",
+  "license" : "Public Domain\nUS Census",
+  "modified" : "2012-07-19",
+  "releaseDate" : "2012-05-18",
+  "title" : "Alameda County Census Tract Results 2010",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/yF2n4GzwzjgXvJ8TOGqGytkeaUXKp63Ot2tfEYo53nY?filename=CensusEthnicTract.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "oakland", "us census", "2010", "ethnicity" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/RVVj45Z7AD1Yjw2c0F0NfdpUBDS-c3L_bCbOoPDEmS0?filename=BOS_2011.zip",
+  "created" : "2012-05-25",
+  "description" : "Alameda County Board of Supervisor's Districts 2011",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "rpj3-if56",
+  "keyword" : "alameda county,board of supervisor's,districts,2011",
+  "license" : "Public Domain\nAlameda County acgov.org(http://acgovd.acgov.org/government/acdata/geospatial.htm)",
+  "modified" : "2012-05-25",
+  "releaseDate" : "2012-05-25",
+  "title" : "Alameda County Board of Supervisor's Districts 2011",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/RVVj45Z7AD1Yjw2c0F0NfdpUBDS-c3L_bCbOoPDEmS0?filename=BOS_2011.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "board of supervisor's", "districts", "2011" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/_ObCm1X6Gw-GU5XNmY5KjXWSkCvZwBNAdJGfTFS5FPA?filename=County.kml",
+  "created" : "2012-06-01",
+  "description" : "Alameda County Boundry",
+  "format" : "application/xml; charset=us-ascii",
+  "identifier" : "yugf-uvyy",
+  "keyword" : "alameda county,boundry",
+  "license" : "Public Domain\nAlameda County",
+  "modified" : "2012-06-01",
+  "releaseDate" : "2012-06-01",
+  "title" : "Alameda County Boundry",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/_ObCm1X6Gw-GU5XNmY5KjXWSkCvZwBNAdJGfTFS5FPA?filename=County.kml",
+    "formats" : [ {
+      "label" : "application/xml; charset=us-ascii",
+      "value" : "application/xml; charset=us-ascii"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "boundry" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/ngqwzEKwbtz0611kP-rsrWyppc6n4kwCnlZOlH6m_KI?filename=RecreationPark.zip",
+  "created" : "2012-06-01",
+  "description" : "Recreation and Park Districts within Alameda County",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "mr4m-fm9a",
+  "keyword" : "recreation and park districts,alameda county",
+  "license" : "Public Domain\nAlameda County Registrar Of Voters",
+  "modified" : "2013-01-28",
+  "releaseDate" : "2012-06-01",
+  "title" : "Recreation Park",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/ngqwzEKwbtz0611kP-rsrWyppc6n4kwCnlZOlH6m_KI?filename=RecreationPark.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "recreation and park districts", "alameda county" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/qJGLQ3JnYq-wKfFHIq-lOONTFO9NEJr66tA9HOIvAdE?filename=Sanitary.zip",
+  "created" : "2012-06-01",
+  "description" : "Sanitary Districts within Alameda County",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "u379-vzqt",
+  "keyword" : "sanitary districts,alameda county",
+  "license" : "Public Domain\nAlameda County Registrar Of Voters",
+  "modified" : "2013-01-28",
+  "releaseDate" : "2012-06-01",
+  "title" : "Sanitary Districts within Alameda County",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/qJGLQ3JnYq-wKfFHIq-lOONTFO9NEJr66tA9HOIvAdE?filename=Sanitary.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "sanitary districts", "alameda county" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/M4KH2et-45LjNq-u8O3u_ZQcZ_a58CMNnGrYrHxcmGM?filename=BART.zip",
+  "created" : "2012-06-01",
+  "description" : "Bay Area Rapid Transit (BART) District within Alameda County",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "ahan-9kyk",
+  "keyword" : "bay area rapid transit,bart,district,alameda county",
+  "license" : "Public Domain\nAlameda County Registrar Of Voters",
+  "modified" : "2013-01-28",
+  "releaseDate" : "2012-06-01",
+  "title" : "Bay Area Rapid Transit (BART) District within Alameda County",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/M4KH2et-45LjNq-u8O3u_ZQcZ_a58CMNnGrYrHxcmGM?filename=BART.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "bay area rapid transit", "bart", "district", "alameda county" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/m74iZDYEQDQ3dunrqBA36bScb4WgHXUZQGxVldRIw98?filename=Water.zip",
+  "created" : "2012-06-01",
+  "description" : "Alameda County Water District",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "na5s-cmfd",
+  "keyword" : "alameda county water district",
+  "license" : "Public Domain\nAlameda County Registrar Of Voters",
+  "modified" : "2013-01-28",
+  "releaseDate" : "2012-06-01",
+  "title" : "Alameda County Water District",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/m74iZDYEQDQ3dunrqBA36bScb4WgHXUZQGxVldRIw98?filename=Water.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "alameda county water district" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/awlFOeT1IDc-klS-W0Ew-DUiTlWZjl2EDUpN5vux-l4?filename=StateAssembly.zip",
+  "created" : "2012-06-01",
+  "description" : "State Assembly Districts within Alameda County",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "gj5f-c9ie",
+  "keyword" : "state assembly,districts,alameda county",
+  "license" : "Public Domain\nAlameda County Registrar Of Voters",
+  "modified" : "2012-06-01",
+  "releaseDate" : "2012-06-01",
+  "title" : "State Assembly Districts within Alameda County",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/awlFOeT1IDc-klS-W0Ew-DUiTlWZjl2EDUpN5vux-l4?filename=StateAssembly.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "state assembly", "districts", "alameda county" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/YU70VNKC2Z18TYyXRVTEBgkfo8Na70J7pI7kqmDxpYA?filename=StateSenatorial.zip",
+  "created" : "2012-06-01",
+  "description" : "State Senatorial Districts within Alameda County",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "v8wc-pb4q",
+  "keyword" : "state senatorial,districts,alameda county",
+  "license" : "Public Domain\nAlameda County Registrar Of Voters",
+  "modified" : "2012-06-01",
+  "releaseDate" : "2012-06-01",
+  "title" : "State Senatorial Districts within Alameda County",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/YU70VNKC2Z18TYyXRVTEBgkfo8Na70J7pI7kqmDxpYA?filename=StateSenatorial.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "state senatorial", "districts", "alameda county" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/zmUH94BJWEzozwkoztdv84BR9XW5rAK33l6LHI84MUg?filename=USCongressional.zip",
+  "created" : "2012-06-01",
+  "description" : "US Congressional Districts within Alameda County",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "92qk-wh4s",
+  "keyword" : "us congressional districts,alameda county",
+  "license" : "Public Domain\nAlameda County Registrar Of Voters",
+  "modified" : "2012-06-01",
+  "releaseDate" : "2012-06-01",
+  "title" : "US Congressional Districts within Alameda County",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/zmUH94BJWEzozwkoztdv84BR9XW5rAK33l6LHI84MUg?filename=USCongressional.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "us congressional districts", "alameda county" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/Suhla37-dIIFMO-M5JTeYv453eHtniv4ZCgPHBYHr88?filename=SeniorCentersCopy.zip",
+  "created" : "2012-06-04",
+  "description" : "Oakland Senior Centers",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "hpir-a9ra",
+  "keyword" : "oakland,senior centers",
+  "license" : "Public Domain\nCity of Oakland",
+  "modified" : "2012-06-04",
+  "releaseDate" : "2012-06-04",
+  "title" : "Oakland Senior Centers",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/Suhla37-dIIFMO-M5JTeYv453eHtniv4ZCgPHBYHr88?filename=SeniorCentersCopy.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "oakland", "senior centers" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/D8QeRYf1zclg4Ssu0YtMlwnXMWd-7iF6arci59NYO5g?filename=PharmaceuticalReturnCenterLocations.zip",
+  "created" : "2012-06-06",
+  "description" : "Alameda County, Pharmaceutical Take Back Locations",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "w622-twuq",
+  "keyword" : "alameda county,pharmaceutical take back locations,environmental health",
+  "license" : "Public Domain\nAlameda County Environmental Health",
+  "modified" : "2012-06-15",
+  "releaseDate" : "2012-06-06",
+  "title" : "Alameda County Pharmaceutical Take Back Locations",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/D8QeRYf1zclg4Ssu0YtMlwnXMWd-7iF6arci59NYO5g?filename=PharmaceuticalReturnCenterLocations.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "pharmaceutical take back locations", "environmental health" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/vCeN3_QV___C6AMfbFWO7lAACnhsTJ0QCd5Q9qq69lM?filename=RenewableGenerationLocations.zip",
+  "created" : "2012-06-06",
+  "description" : "Alameda County Renewable Generation Locations (Solar Energy)",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "aqnm-t6w4",
+  "keyword" : "alameda county,renewable generation locations,solar,energy,green",
+  "license" : "Public Domain\nAlameda County General Services Agency",
+  "modified" : "2012-07-17",
+  "releaseDate" : "2012-06-06",
+  "title" : "Alameda County Renewable Generation Locations",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/vCeN3_QV___C6AMfbFWO7lAACnhsTJ0QCd5Q9qq69lM?filename=RenewableGenerationLocations.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "renewable generation locations", "solar", "energy", "green" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/2aPdlvjibywh_j6huscjL14oAceUwcU5P8ueDy86SLg?filename=Pharmaceuticals_Disposal_6-2012-2.pdf",
+  "created" : "2012-06-12",
+  "description" : "Alameda County Pharmaceuticals Disposal Map\nJune 2012\n.pdf",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "6mga-sv8k",
+  "keyword" : "alameda county,pharmaceuticals disposal,map,environmental health,.pdf",
+  "license" : "Public Domain\nAlameda County Environmental Health",
+  "modified" : "2012-07-19",
+  "releaseDate" : "2012-06-12",
+  "title" : "Pharmaceuticals Disposal Map June 2012",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/2aPdlvjibywh_j6huscjL14oAceUwcU5P8ueDy86SLg?filename=Pharmaceuticals_Disposal_6-2012-2.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "pharmaceuticals disposal", "map", "environmental health", ".pdf" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/szq6-49eu/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-07-06",
+  "description" : "Alameda County Public Health Department Health Data\nThis dataset includes data on mortality, disease incidence, hospitalization and emergency department visits, and maternal and child health indicators. The data are presented at many levels of geography and include numbers, rates, and confidence intervals for the rates.",
+  "feed" : "https://data.acgov.org/api/views/szq6-49eu/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "szq6-49eu",
+  "keyword" : "alameda county,public health department,health data",
+  "license" : "Public Domain\nAlameda County Public Health Department",
+  "modified" : "2012-07-06",
+  "releaseDate" : "2012-07-06",
+  "title" : "Public Health Department Health Data",
+  "webService" : "https://data.acgov.org/resource/szq6-49eu",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/szq6-49eu/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/szq6-49eu/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/szq6-49eu/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/szq6-49eu/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/szq6-49eu/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/szq6-49eu/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "public health department", "health data" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/E6qbnVkTE-68B3fLeM6X3uWbIp-ARfm9LcB-4nHcNfM?filename=CertifiedGreenBusiness.zip",
+  "created" : "2012-07-11",
+  "description" : "Alameda County Certified Green Businesses",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "shn7-wzi2",
+  "keyword" : "alameda county,environmental health,certified green businesses",
+  "license" : "Public Domain\nAlameda County Environmental Health",
+  "modified" : "2012-07-11",
+  "releaseDate" : "2012-07-11",
+  "title" : "Certified Green Business",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/E6qbnVkTE-68B3fLeM6X3uWbIp-ARfm9LcB-4nHcNfM?filename=CertifiedGreenBusiness.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "environmental health", "certified green businesses" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/LFBQb8N2kJLeD0qDnvT8THXwlihjlGqy9_oaFdM1W2I?filename=BoardofEqualization.zip",
+  "created" : "2012-07-13",
+  "description" : "2nd Board of Equalization District within Alameda County",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "5gp3-3enb",
+  "keyword" : "alameda county,registrar of voters,board of equalization district",
+  "license" : "Public Domain\nAlameda County, Registrar of Voters",
+  "modified" : "2012-07-13",
+  "releaseDate" : "2012-07-13",
+  "title" : "2nd Board of Equalization District within Alameda County",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/LFBQb8N2kJLeD0qDnvT8THXwlihjlGqy9_oaFdM1W2I?filename=BoardofEqualization.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "registrar of voters", "board of equalization district" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/gbqYv-qqjiaFAcJ2vlQNvTttCwoONXdCYTEMTHLdoyY?filename=EmergencyMedicalService.zip",
+  "created" : "2012-07-13",
+  "description" : "Alameda County Emergency Medical Services",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "7ay3-aken",
+  "keyword" : "alameda county,registrar of voters,emergency medical services",
+  "license" : "Public Domain\nAlameda County Registrar of Voters",
+  "modified" : "2012-07-13",
+  "releaseDate" : "2012-07-13",
+  "title" : "Alameda County Emergency Medical Services",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/gbqYv-qqjiaFAcJ2vlQNvTttCwoONXdCYTEMTHLdoyY?filename=EmergencyMedicalService.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "registrar of voters", "emergency medical services" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/PliU4QZDdyQc6fk85QdvT-ajxB9M3HHbHTNcZkmqcjs?filename=Flood.zip",
+  "created" : "2012-07-13",
+  "description" : "Alameda County Flood Control District",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "6wyx-k57i",
+  "keyword" : "alameda county,registrar of voters,flood control district",
+  "license" : "Public Domain\nAlameda County Registrar of Voters",
+  "modified" : "2013-01-28",
+  "releaseDate" : "2012-07-13",
+  "title" : "Alameda County Flood Control District",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/PliU4QZDdyQc6fk85QdvT-ajxB9M3HHbHTNcZkmqcjs?filename=Flood.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "registrar of voters", "flood control district" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/U-Il6wUdcZQPuxp4bO2TjhZgiujcbaxv7-TaAL-l-vg?filename=Irrigation.zip",
+  "created" : "2012-07-13",
+  "description" : "Byron Bethany Irrigation District within Alameda County",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "kbxv-9apv",
+  "keyword" : "alameda county,registrar of voters,irrigation,water",
+  "license" : "Public Domain\nAlameda County Registrar Of Voters",
+  "modified" : "2012-07-13",
+  "releaseDate" : "2012-07-13",
+  "title" : "Byron Bethany Irrigation District within Alameda County",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/U-Il6wUdcZQPuxp4bO2TjhZgiujcbaxv7-TaAL-l-vg?filename=Irrigation.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "registrar of voters", "irrigation", "water" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/S9s9QoP37BNSaII6mxuAOBRKNtv0GpQk52oUijXnXMQ?filename=CityCouncil.zip",
+  "created" : "2012-07-13",
+  "description" : "City Council Districts within Alameda County",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "3awd-xbhj",
+  "keyword" : "city council districts,alameda county,registrar of voters",
+  "license" : "Public Domain\nAlameda County Registrar of Voters",
+  "modified" : "2012-07-13",
+  "releaseDate" : "2012-07-13",
+  "title" : "City Council Districts within Alameda County",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/S9s9QoP37BNSaII6mxuAOBRKNtv0GpQk52oUijXnXMQ?filename=CityCouncil.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "city council districts", "alameda county", "registrar of voters" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/cR1j8PMOu16-etMvu0hAku5AhKA0PE5qIfyRzB2s4Tk?filename=CommunityCollege.zip",
+  "created" : "2012-07-13",
+  "description" : "Community College Districts within Alameda County",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "bdqp-je9q",
+  "keyword" : "community college districts,alameda county,registrar of voters",
+  "license" : "Public Domain\nAlameda County Registrar of Voters",
+  "modified" : "2013-01-28",
+  "releaseDate" : "2012-07-13",
+  "title" : "Community College Districts within Alameda County",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/cR1j8PMOu16-etMvu0hAku5AhKA0PE5qIfyRzB2s4Tk?filename=CommunityCollege.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "community college districts", "alameda county", "registrar of voters" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/TKdId41RopZjyqdZzBeJQvDrbZA0VoPpfZLi8TPMNz8?filename=CommunityService.zip",
+  "created" : "2012-07-13",
+  "description" : "Community Service Districts within Alameda County",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "dcx9-mu9f",
+  "keyword" : "community service districts,alameda county,registrar of voters",
+  "license" : "Public Domain\nAlameda County Registrar of Voters",
+  "modified" : "2013-01-28",
+  "releaseDate" : "2012-07-13",
+  "title" : "Community Service Districts within Alameda County",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/TKdId41RopZjyqdZzBeJQvDrbZA0VoPpfZLi8TPMNz8?filename=CommunityService.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "community service districts", "alameda county", "registrar of voters" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/nGU11s2Cr1ib02cBmvn7kJVW8K3D0yfEPAc0n4PR56U?filename=Utility.zip",
+  "created" : "2012-07-13",
+  "description" : "East Bay Municipal Utility District within Alameda County",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "6wky-2dcd",
+  "keyword" : "east bay municipal utility district,alameda county,registrar of voters",
+  "license" : "Public Domain\nAlameda County Registrar of Voters",
+  "modified" : "2013-01-28",
+  "releaseDate" : "2012-07-13",
+  "title" : "East Bay Municipal Utility District within Alameda County",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/nGU11s2Cr1ib02cBmvn7kJVW8K3D0yfEPAc0n4PR56U?filename=Utility.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "east bay municipal utility district", "alameda county", "registrar of voters" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/k_xRkgHz6k1WEMCVlD9n0H6MuJSu1_7wiHIOn7g32xg?filename=ElementarySchool.zip",
+  "created" : "2012-07-13",
+  "description" : "Mountain House Elementary School District",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "42ni-x6cr",
+  "keyword" : "mountain house,elementary school district,alameda county,registrar of voters",
+  "license" : "Public Domain\nAlameda County Registrar of Voters",
+  "modified" : "2012-07-13",
+  "releaseDate" : "2012-07-13",
+  "title" : "Mountain House Elementary School District",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/k_xRkgHz6k1WEMCVlD9n0H6MuJSu1_7wiHIOn7g32xg?filename=ElementarySchool.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "mountain house", "elementary school district", "alameda county", "registrar of voters" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/pbcUAZtL8-QpHVnuPrluSwqERLvoZmJ-WhncT4kCEac?filename=RegionalPark.zip",
+  "created" : "2012-07-13",
+  "description" : "East Bay Regional Park District within Alameda County",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "e5tr-g9mg",
+  "keyword" : "east bay regional park district,alameda county,registrar of voters",
+  "license" : "Public Domain\nAlameda County Registrar of Voters",
+  "modified" : "2013-01-28",
+  "releaseDate" : "2012-07-13",
+  "title" : "East Bay Regional Park District within Alameda County",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/pbcUAZtL8-QpHVnuPrluSwqERLvoZmJ-WhncT4kCEac?filename=RegionalPark.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "east bay regional park district", "alameda county", "registrar of voters" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/nGBBjrCOT7MCHtjt5_MQUq8FXRHqHZEfLRVsE1Bw4kI?filename=BoardOfEducation_SanJoaquin.zip",
+  "created" : "2012-07-13",
+  "description" : "San Joaquin County Board of Education within Alameda County",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "7cp8-qmuf",
+  "keyword" : "san joaquin county board of education,alameda county,registrar of voters",
+  "license" : "Public Domain\nAlameda County Registrar of Voters",
+  "modified" : "2012-07-20",
+  "releaseDate" : "2012-07-13",
+  "title" : "San Joaquin County Board of Education within Alameda County",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/nGBBjrCOT7MCHtjt5_MQUq8FXRHqHZEfLRVsE1Bw4kI?filename=BoardOfEducation_SanJoaquin.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "san joaquin county board of education", "alameda county", "registrar of voters" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/JaMgh_yUWCW5khWxzLk8ZHXglpvNbVq_-G1FjwqE9iY?filename=SPAD.zip",
+  "created" : "2012-07-13",
+  "description" : "Alameda County Secondary Addresses",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "8e4s-7f4v",
+  "keyword" : "alameda county,secondary addresses",
+  "license" : "Public Domain\nAlameda County",
+  "modified" : "2012-07-13",
+  "releaseDate" : "2012-07-13",
+  "title" : "Alameda County Secondary Addresses",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/JaMgh_yUWCW5khWxzLk8ZHXglpvNbVq_-G1FjwqE9iY?filename=SPAD.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "secondary addresses" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/l_Ec_ZzzQlH1qbY1wq8Wa4RWu5nry2IehEBUtY3oSs4?filename=Streets.zip",
+  "created" : "2012-07-13",
+  "description" : "Alameda County Street Centerlines",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "wjre-3857",
+  "keyword" : "alameda county,street centerlines",
+  "license" : "Public Domain\nAlameda County",
+  "modified" : "2012-07-13",
+  "releaseDate" : "2012-07-13",
+  "title" : "Alameda County Street Centerlines",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/l_Ec_ZzzQlH1qbY1wq8Wa4RWu5nry2IehEBUtY3oSs4?filename=Streets.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "street centerlines" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/k32c-5y9a/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-07-17",
+  "description" : "GSA Child Care Program State Childcare Subsidy C3AP\r\nCalworks stage 3 child care",
+  "feed" : "https://data.acgov.org/api/views/k32c-5y9a/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "k32c-5y9a",
+  "keyword" : "alameda county,general services agency,child care program,calworks,c3ap",
+  "license" : "Public Domain\nAlameda County General Services Agency, Child Care Program",
+  "modified" : "2012-07-19",
+  "releaseDate" : "2012-07-17",
+  "title" : "Child Care Program State Childcare Subsidy C3AP",
+  "webService" : "https://data.acgov.org/resource/k32c-5y9a",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/k32c-5y9a/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/k32c-5y9a/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/k32c-5y9a/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/k32c-5y9a/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/k32c-5y9a/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/k32c-5y9a/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "general services agency", "child care program", "calworks", "c3ap" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/file_data/OJbqysr9S-92wwNbee5H-mPcxl6So17Asiz0tQDQiRg?filename=Precincts_AlamedaCounty.zip",
+  "created" : "2012-10-04",
+  "description" : "Alameda County home Precincts as of August 2012.  Some home Precincts are combined during an election to reduce the number of Precinct.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "q6ek-ybkr",
+  "keyword" : "registrar of voters,alameda county,voter precinct",
+  "modified" : "2012-11-21",
+  "releaseDate" : "2012-10-04",
+  "title" : "Alameda County Voter Precincts",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/file_data/OJbqysr9S-92wwNbee5H-mPcxl6So17Asiz0tQDQiRg?filename=Precincts_AlamedaCounty.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "registrar of voters", "alameda county", "voter precinct" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/n9wn-wt6q/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-20",
+  "description" : "2012 Alameda County City Arts Councils Commissions Associations List.\nInformation about each organization is provided by the organization's website or other sources. There is no official affiliation between Alameda County and the organizations listed.",
+  "feed" : "https://data.acgov.org/api/views/n9wn-wt6q/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "n9wn-wt6q",
+  "keyword" : "alameda county,art commission,2012,associations",
+  "license" : "Public Domain\nAlameda County",
+  "modified" : "2012-11-20",
+  "releaseDate" : "2012-11-20",
+  "title" : "Alameda County City Arts Councils Commissions Associations List",
+  "webService" : "https://data.acgov.org/resource/n9wn-wt6q",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/n9wn-wt6q/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/n9wn-wt6q/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/n9wn-wt6q/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/n9wn-wt6q/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/n9wn-wt6q/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/n9wn-wt6q/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "art commission", "2012", "associations" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/cav4-k67f/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-20",
+  "description" : "Fictitious Business Names recorded with County of Alameda Auditor Recorder Office between Jan 1, 2008 to Dec 31, 2011.       \r\nType filing abbreviation descriptions: BST = Business Trust; COP = Co-Partners; COR = Corporation; GEN = General Partnership; HUS = Husband & Wife; IND = Individual; JVT = Joint Venture; LIA = Limited Liability Company; LIM = Limited Partnership; LLP = Limited Liability Partnership; OTH = Other; SDP = State or Local Registered; TST = A Trust; UNI = Unincorporated Association",
+  "feed" : "https://data.acgov.org/api/views/cav4-k67f/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "cav4-k67f",
+  "keyword" : "fbn fictitious business names county of alameda auditor recorder office business trust co-partners corporation general partnership husband & wife individual joint venture company unincorporated association",
+  "license" : "Public Domain\nAlameda County Clerk Recorder's Office",
+  "modified" : "2012-11-21",
+  "releaseDate" : "2012-11-20",
+  "title" : "Alameda County Fictitious Business Names",
+  "webService" : "https://data.acgov.org/resource/cav4-k67f",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/cav4-k67f/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/cav4-k67f/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/cav4-k67f/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/cav4-k67f/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/cav4-k67f/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/cav4-k67f/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "fbn fictitious business names county of alameda auditor recorder office business trust co-partners corporation general partnership husband & wife individual joint venture company unincorporated association" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/czcz-h5ny/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-20",
+  "description" : "County of Alameda Auditor Recorder General Index of Public Records filed during the period of 1/1/2008 to 12/31/2011\r\nThis is a large data set.",
+  "feed" : "https://data.acgov.org/api/views/czcz-h5ny/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "czcz-h5ny",
+  "keyword" : "county alameda clerk recorder auditor general index public records",
+  "license" : "Public Domain\nAlameda County Clerk Recorder's Office",
+  "modified" : "2012-11-26",
+  "releaseDate" : "2012-11-20",
+  "title" : "Alameda County Clerk Recorder General Index of Public Records (2008-2011)",
+  "webService" : "https://data.acgov.org/resource/czcz-h5ny",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/czcz-h5ny/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/czcz-h5ny/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/czcz-h5ny/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/czcz-h5ny/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/czcz-h5ny/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/czcz-h5ny/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "county alameda clerk recorder auditor general index public records" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/tbsm-ih62/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-26",
+  "description" : "Assessor Use codes with brief descriptions",
+  "feed" : "https://data.acgov.org/api/views/tbsm-ih62/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "tbsm-ih62",
+  "keyword" : "alameda county assessor use codes",
+  "license" : "Public Domain\nAlameda County Assessor's Office",
+  "modified" : "2012-11-26",
+  "releaseDate" : "2012-11-26",
+  "title" : "Assessor's Office Use Codes",
+  "webService" : "https://data.acgov.org/resource/tbsm-ih62",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/tbsm-ih62/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/tbsm-ih62/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/tbsm-ih62/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/tbsm-ih62/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/tbsm-ih62/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/tbsm-ih62/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "alameda county assessor use codes" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/degr-c63g/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-26",
+  "description" : "Where the public can apply for welfare benefits including General Assistance, CalWORKs, Food Stamps and MediCal insurance.",
+  "feed" : "https://data.acgov.org/api/views/degr-c63g/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "degr-c63g",
+  "keyword" : "ssa,office,locations,programs",
+  "license" : "Public Domain\nAlameda County Social Services Agency",
+  "modified" : "2012-11-27",
+  "releaseDate" : "2012-11-26",
+  "title" : "SSA Office Locations",
+  "webService" : "https://data.acgov.org/resource/degr-c63g",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/degr-c63g/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/degr-c63g/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/degr-c63g/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/degr-c63g/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/degr-c63g/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/degr-c63g/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ssa", "office", "locations", "programs" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/jz3i-9m2x/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-26",
+  "description" : "Program runs January 12, 2013 through April 13, 2013.  Tax season hours for each site are Wednesdays, 5:30pm - 8:30pm; Saturdays 9:00am - 2:00pm. Provide free comprehensive tax preparation and financial education.",
+  "feed" : "https://data.acgov.org/api/views/jz3i-9m2x/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "jz3i-9m2x",
+  "keyword" : "ssa,tax preperation",
+  "license" : "Public Domain\nAlameda County Social Services Agency",
+  "modified" : "2012-11-27",
+  "releaseDate" : "2012-11-26",
+  "title" : "SSA Free Tax Preperartion",
+  "webService" : "https://data.acgov.org/resource/jz3i-9m2x",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/jz3i-9m2x/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/jz3i-9m2x/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/jz3i-9m2x/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/jz3i-9m2x/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/jz3i-9m2x/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/jz3i-9m2x/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ssa", "tax preperation" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/jdtg-zi2m/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-26",
+  "description" : "Season of Sharing provides emergency housing assistance and/or critical needs for those with a non-recurring crisis. Those who may be considered for assistance are: families with children under age 18 living in the home, individuals over the age of 60, and permanently disabled individuals in crisis who are currently residing in Alameda County for at least 6 continuous months. To initiate an inquiry, contact the automated pre-screening line at (510) 272-3700.",
+  "feed" : "https://data.acgov.org/api/views/jdtg-zi2m/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "jdtg-zi2m",
+  "keyword" : "ssa,season of sharing program,food,housing",
+  "license" : "Public Domain\nCounty Alameda Social Service Agency",
+  "modified" : "2012-11-27",
+  "releaseDate" : "2012-11-26",
+  "title" : "SSA Season Of Sharing Program",
+  "webService" : "https://data.acgov.org/resource/jdtg-zi2m",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/jdtg-zi2m/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/jdtg-zi2m/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/jdtg-zi2m/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/jdtg-zi2m/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/jdtg-zi2m/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/jdtg-zi2m/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ssa", "season of sharing program", "food", "housing" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/cegp-t28f/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-26",
+  "description" : "The Community Ambassadors Program engages volunteers in a variety of activities at the Social Services Agency. To participate, volunteers must be 15 years and older (enrolled in 10th grade or higher), not a current SSA client, and not a current employee of Alameda County Social Services Agency or the County of Alameda. Call to inquire about current opportunities or send an e-mail to ssavolunteer@acgov.org",
+  "feed" : "https://data.acgov.org/api/views/cegp-t28f/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "cegp-t28f",
+  "keyword" : "ssa,community ambassadors program",
+  "license" : "Public Domain\nAlameda County Social Services Agency",
+  "modified" : "2012-11-27",
+  "releaseDate" : "2012-11-26",
+  "title" : "SSA Community Ambassadors Program",
+  "webService" : "https://data.acgov.org/resource/cegp-t28f",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/cegp-t28f/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/cegp-t28f/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/cegp-t28f/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/cegp-t28f/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/cegp-t28f/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/cegp-t28f/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ssa", "community ambassadors program" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/7sbd-w6mc/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-02",
+  "description" : "US Census 2010 Poverty Statistics Alameda County by Census Tract",
+  "feed" : "https://data.acgov.org/api/views/7sbd-w6mc/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "7sbd-w6mc",
+  "keyword" : "us census 2010,poverty statistics,alameda county,census tract",
+  "license" : "Public Domain\nUS Federal Census",
+  "modified" : "2012-12-07",
+  "releaseDate" : "2012-08-02",
+  "title" : "US Census 2010 Poverty Statistics",
+  "webService" : "https://data.acgov.org/resource/7sbd-w6mc",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/7sbd-w6mc/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/7sbd-w6mc/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/7sbd-w6mc/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/7sbd-w6mc/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/7sbd-w6mc/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/7sbd-w6mc/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "us census 2010", "poverty statistics", "alameda county", "census tract" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/7mrx-kzsv/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-05-23",
+  "description" : "Alameda County Census 2010 Raw Data",
+  "feed" : "https://data.acgov.org/api/views/7mrx-kzsv/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "7mrx-kzsv",
+  "keyword" : "alameda county,census,2010,raw data,ethnicity",
+  "license" : "Public Domain\nUS Census",
+  "modified" : "2012-12-07",
+  "releaseDate" : "2012-05-23",
+  "title" : "Alameda County Census 2010 Raw Data",
+  "webService" : "https://data.acgov.org/resource/7mrx-kzsv",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/7mrx-kzsv/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/7mrx-kzsv/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/7mrx-kzsv/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/7mrx-kzsv/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/7mrx-kzsv/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/7mrx-kzsv/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "census", "2010", "raw data", "ethnicity" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/2y9p-458z/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-07-11",
+  "description" : "Beg Bug Requests for Service\r\nJune 1, 2006 to May 31, 2012\r\nThe data is not confirmed cases of bed bugs, just the number of calls requesting service.",
+  "feed" : "https://data.acgov.org/api/views/2y9p-458z/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "2y9p-458z",
+  "keyword" : "alameda county,environmental health,bed bugs,2006-2012",
+  "license" : "Public Domain\nAlameda County, Environmental Health",
+  "modified" : "2012-12-07",
+  "releaseDate" : "2012-07-11",
+  "title" : "Alameda County Bed Bug 2006 to 2012",
+  "webService" : "https://data.acgov.org/resource/2y9p-458z",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/2y9p-458z/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/2y9p-458z/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/2y9p-458z/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/2y9p-458z/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/2y9p-458z/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/2y9p-458z/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "environmental health", "bed bugs", "2006-2012" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/nc5b-x3uc/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-07-11",
+  "description" : "Alameda County Renewable Generation July 2011 To June 2012\r\nin 15 minute intervals",
+  "feed" : "https://data.acgov.org/api/views/nc5b-x3uc/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "nc5b-x3uc",
+  "keyword" : "alameda county,gsa,solar energy,solar panel,july 2011 to june 2012",
+  "license" : "Public Domain\nalameda county, General Services Agency, green",
+  "modified" : "2012-12-07",
+  "releaseDate" : "2012-07-11",
+  "title" : "Alameda County Renewable Generation July 2011 To June 2012",
+  "webService" : "https://data.acgov.org/resource/nc5b-x3uc",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/nc5b-x3uc/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/nc5b-x3uc/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/nc5b-x3uc/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/nc5b-x3uc/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/nc5b-x3uc/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/nc5b-x3uc/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "gsa", "solar energy", "solar panel", "july 2011 to june 2012" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/fda4-t4qm/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-07-30",
+  "description" : "HUD Housing Inventory 2007 HUD (Federal Office of Housing and Urban Development) is updated every seven years. Next update is 2014.",
+  "feed" : "https://data.acgov.org/api/views/fda4-t4qm/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "fda4-t4qm",
+  "keyword" : "alameda county community development agency,hud,federal office of housing and urban development",
+  "license" : "Public Domain\nAlameda County Community Development Agency, Housing & Community Development Department(http://www.acgov.org/cda/hcd/contactus.htm)",
+  "modified" : "2012-12-07",
+  "releaseDate" : "2012-07-30",
+  "title" : "HUD Housing Inventory 2007",
+  "webService" : "https://data.acgov.org/resource/fda4-t4qm",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/fda4-t4qm/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/fda4-t4qm/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/fda4-t4qm/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/fda4-t4qm/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/fda4-t4qm/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/fda4-t4qm/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "alameda county community development agency", "hud", "federal office of housing and urban development" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/cbck-2ta8/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-06-06",
+  "description" : "Alameda County Pharmaceutical Take Back Locations",
+  "feed" : "https://data.acgov.org/api/views/cbck-2ta8/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "cbck-2ta8",
+  "keyword" : "alameda county,pharmaceutical take back locations,environmental health",
+  "license" : "Public Domain\nAlameda County Environmental Health",
+  "modified" : "2012-12-07",
+  "releaseDate" : "2012-06-06",
+  "title" : "Alameda County Pharmaceutical Take Back Locations",
+  "webService" : "https://data.acgov.org/resource/cbck-2ta8",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/cbck-2ta8/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/cbck-2ta8/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/cbck-2ta8/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/cbck-2ta8/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/cbck-2ta8/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/cbck-2ta8/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "pharmaceutical take back locations", "environmental health" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/dgxy-buhh/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-07-17",
+  "description" : "GSA Child Care Program State Childcare Subsidy CSPP\r\nCalifornia state preschool program",
+  "feed" : "https://data.acgov.org/api/views/dgxy-buhh/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "dgxy-buhh",
+  "keyword" : "alameda county,general services agency,child care program,cspp",
+  "license" : "Public Domain\nAlameda County General Services Agency, Child Care Program",
+  "modified" : "2012-12-07",
+  "releaseDate" : "2012-07-17",
+  "title" : "Child Care Program State Childcare Subsidy CSPP",
+  "webService" : "https://data.acgov.org/resource/dgxy-buhh",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/dgxy-buhh/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/dgxy-buhh/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/dgxy-buhh/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/dgxy-buhh/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/dgxy-buhh/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/dgxy-buhh/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "general services agency", "child care program", "cspp" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/bsxd-ftbe/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-07-06",
+  "description" : "Environmental Health Solid Waste Inspections June 2011 to June 2012",
+  "feed" : "https://data.acgov.org/api/views/bsxd-ftbe/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "bsxd-ftbe",
+  "keyword" : "alameda county,environmental health,solid waste inspections,june 2011 to june 2012",
+  "license" : "Public Domain\nAlameda County Environmental Health",
+  "modified" : "2012-12-07",
+  "releaseDate" : "2012-07-06",
+  "title" : "Solid Waste Inspections June 2011 to June 2012",
+  "webService" : "https://data.acgov.org/resource/bsxd-ftbe",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/bsxd-ftbe/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/bsxd-ftbe/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/bsxd-ftbe/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/bsxd-ftbe/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/bsxd-ftbe/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/bsxd-ftbe/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "environmental health", "solid waste inspections", "june 2011 to june 2012" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/6c53-6ehz/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-07-17",
+  "description" : "GSA Child Care Program State Childcare Subsidy CFCC\r\nLicensed family child care network",
+  "feed" : "https://data.acgov.org/api/views/6c53-6ehz/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "6c53-6ehz",
+  "keyword" : "alameda county,general services agency,child care program,cfcc",
+  "license" : "Public Domain\nAlameda County General Services Agency, Child Care Program",
+  "modified" : "2012-12-07",
+  "releaseDate" : "2012-07-17",
+  "title" : "Child Care Program State Childcare Subsidy CFCC",
+  "webService" : "https://data.acgov.org/resource/6c53-6ehz",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/6c53-6ehz/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/6c53-6ehz/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/6c53-6ehz/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/6c53-6ehz/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/6c53-6ehz/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/6c53-6ehz/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "general services agency", "child care program", "cfcc" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/nf82-e7su/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-07-17",
+  "description" : "GSA Child Care Program State Childcare Subsidy CAPP\r\nAlternative payment program",
+  "feed" : "https://data.acgov.org/api/views/nf82-e7su/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "nf82-e7su",
+  "keyword" : "alameda county,general services agency,child care program,payments,capp",
+  "license" : "Public Domain\nAlameda County General Services Agency, Child Care Program",
+  "modified" : "2012-12-07",
+  "releaseDate" : "2012-07-17",
+  "title" : "Child Care Program State Childcare Subsidy CAPP",
+  "webService" : "https://data.acgov.org/resource/nf82-e7su",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/nf82-e7su/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/nf82-e7su/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/nf82-e7su/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/nf82-e7su/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/nf82-e7su/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/nf82-e7su/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "general services agency", "child care program", "payments", "capp" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/pdm2-ebz9/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-07-17",
+  "description" : "GSA Child Care Program State Childcare Subsidy CHAN\r\nState handicapped program",
+  "feed" : "https://data.acgov.org/api/views/pdm2-ebz9/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "pdm2-ebz9",
+  "keyword" : "alameda county,general services agency,child care program,chan,state",
+  "license" : "Public Domain\nAlameda County General Services Agency, Child Care Program",
+  "modified" : "2012-12-07",
+  "releaseDate" : "2012-07-17",
+  "title" : "Child Care Program State Childcare Subsidy CHAN",
+  "webService" : "https://data.acgov.org/resource/pdm2-ebz9",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/pdm2-ebz9/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/pdm2-ebz9/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/pdm2-ebz9/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/pdm2-ebz9/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/pdm2-ebz9/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/pdm2-ebz9/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "general services agency", "child care program", "chan", "state" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/pp3h-5w4e/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-07-17",
+  "description" : "GSA Child Care Program Child Care Provider FCCH Oct 2010\r\nFamily child care home (licensed facility)",
+  "feed" : "https://data.acgov.org/api/views/pp3h-5w4e/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "pp3h-5w4e",
+  "keyword" : "alameda county,general services agency,child care program,2010,licensed facility",
+  "license" : "Public Domain\nAlameda County General Services Agency, Child Care Program",
+  "modified" : "2012-12-07",
+  "releaseDate" : "2012-07-17",
+  "title" : "Child Care Program Child Care Provider FCCH 2010",
+  "webService" : "https://data.acgov.org/resource/pp3h-5w4e",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/pp3h-5w4e/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/pp3h-5w4e/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/pp3h-5w4e/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/pp3h-5w4e/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/pp3h-5w4e/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/pp3h-5w4e/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "general services agency", "child care program", "2010", "licensed facility" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/jjka-utye/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-07-17",
+  "description" : "GSA Child Care Program Child Care Provider CENTER Oct 2010 Center based, 3rd party program",
+  "feed" : "https://data.acgov.org/api/views/jjka-utye/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "jjka-utye",
+  "keyword" : "alameda county,general services agency,child care program,2010,center based program",
+  "license" : "Public Domain\nAlameda County General Services Agency, Child Care Program",
+  "modified" : "2012-12-07",
+  "releaseDate" : "2012-07-17",
+  "title" : "Child Care Program Child Care Provider CENTER 2010",
+  "webService" : "https://data.acgov.org/resource/jjka-utye",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/jjka-utye/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/jjka-utye/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/jjka-utye/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/jjka-utye/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/jjka-utye/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/jjka-utye/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "general services agency", "child care program", "2010", "center based program" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/jfz5-4uuc/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-20",
+  "description" : "Artist’s First Name, Artists Last Name, Artwork Title, Year Completed, Artwork Medium",
+  "feed" : "https://data.acgov.org/api/views/jfz5-4uuc/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "jfz5-4uuc",
+  "keyword" : "alameda county,art collection registry,name",
+  "license" : "Public Domain\nAlameda County",
+  "modified" : "2012-12-07",
+  "releaseDate" : "2012-11-20",
+  "title" : "Alameda County Artwork Collection Registry",
+  "webService" : "https://data.acgov.org/resource/jfz5-4uuc",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/jfz5-4uuc/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/jfz5-4uuc/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/jfz5-4uuc/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/jfz5-4uuc/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/jfz5-4uuc/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/jfz5-4uuc/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "art collection registry", "name" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/srhh-7pvb/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-07-17",
+  "description" : "GSA Child Care Program State Childcare Subsidy CCTR\r\nCenter based child care by residence of child",
+  "feed" : "https://data.acgov.org/api/views/srhh-7pvb/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "srhh-7pvb",
+  "keyword" : "alameda county,general services agency,child care program,child's residence",
+  "license" : "Public Domain\nAlameda County General Services Agency, Child Care Program",
+  "modified" : "2012-12-07",
+  "releaseDate" : "2012-07-17",
+  "title" : "Child Care Program State Childcare Subsidy CCTR",
+  "webService" : "https://data.acgov.org/resource/srhh-7pvb",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/srhh-7pvb/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/srhh-7pvb/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/srhh-7pvb/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/srhh-7pvb/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/srhh-7pvb/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/srhh-7pvb/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "general services agency", "child care program", "child's residence" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/f9bj-vr6k/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-20",
+  "description" : "Alameda County Arts Commission ARTSFUND Grantees 2002-2012\nList of Alameda County Non-Profit Organizations that have been awarded an ARTSFUND Grant from 2002 through 2012",
+  "feed" : "https://data.acgov.org/api/views/f9bj-vr6k/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "f9bj-vr6k",
+  "keyword" : "alameda county,art,artsfund,2002-2012,commission",
+  "license" : "Public Domain\nAlameda County",
+  "modified" : "2012-12-07",
+  "releaseDate" : "2012-11-20",
+  "title" : "Alameda County Arts Commission ARTSFUND Grantees 2002-2012",
+  "webService" : "https://data.acgov.org/resource/f9bj-vr6k",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/f9bj-vr6k/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/f9bj-vr6k/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/f9bj-vr6k/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/f9bj-vr6k/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/f9bj-vr6k/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/f9bj-vr6k/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "art", "artsfund", "2002-2012", "commission" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/tcdt-jf5i/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-07-17",
+  "description" : "GSA Child Care Program State Childcare Subsidy C2AP\r\nCalworks stage 2 child care",
+  "feed" : "https://data.acgov.org/api/views/tcdt-jf5i/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "tcdt-jf5i",
+  "keyword" : "alameda county,general services agency,child care program,calworks,c2ap",
+  "license" : "Public Domain\nAlameda County General Services Agency, Child Care Program",
+  "modified" : "2012-12-07",
+  "releaseDate" : "2012-07-17",
+  "title" : "Child Care Program State Childcare Subsidy C2AP",
+  "webService" : "https://data.acgov.org/resource/tcdt-jf5i",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/tcdt-jf5i/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/tcdt-jf5i/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/tcdt-jf5i/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/tcdt-jf5i/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/tcdt-jf5i/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/tcdt-jf5i/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "general services agency", "child care program", "calworks", "c2ap" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/v5vd-x8a2/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-07-17",
+  "description" : "GSA Child Care Program Child Care Provider EXEMPT Oct 2010\r\nLicensed exempt child care (family, friends, neighbors)",
+  "feed" : "https://data.acgov.org/api/views/v5vd-x8a2/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "v5vd-x8a2",
+  "keyword" : "alameda county,general services agency,child care program,2010,exempt",
+  "license" : "Public Domain\nAlameda County General Services Agency, Child Care Program",
+  "modified" : "2012-12-07",
+  "releaseDate" : "2012-07-17",
+  "title" : "Child Care Program Child Care Provider EXEMPT 2010",
+  "webService" : "https://data.acgov.org/resource/v5vd-x8a2",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/v5vd-x8a2/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/v5vd-x8a2/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/v5vd-x8a2/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/v5vd-x8a2/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/v5vd-x8a2/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/v5vd-x8a2/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "general services agency", "child care program", "2010", "exempt" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/k9se-aps6/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-12-03",
+  "description" : "Community Development Agency Alameda County Parks",
+  "feed" : "https://data.acgov.org/api/views/k9se-aps6/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "k9se-aps6",
+  "keyword" : "parks,community development agency,cda",
+  "license" : "Public Domain\nAlameda County Community Development Agency",
+  "modified" : "2012-12-08",
+  "releaseDate" : "2012-12-03",
+  "title" : "Alameda County Parks",
+  "webService" : "https://data.acgov.org/resource/k9se-aps6",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/k9se-aps6/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/k9se-aps6/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/k9se-aps6/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/k9se-aps6/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/k9se-aps6/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/k9se-aps6/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "parks", "community development agency", "cda" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/j7eb-4s9k/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-27",
+  "description" : "Alameda County Social Services Agency Contracts By Department FY 2012-13 (effective Nov 2012)",
+  "feed" : "https://data.acgov.org/api/views/j7eb-4s9k/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "j7eb-4s9k",
+  "keyword" : "alameda county social services agency contracts by department fy 2012-13",
+  "license" : "Public Domain\nAlameda County Social Services Agency",
+  "modified" : "2012-12-08",
+  "releaseDate" : "2012-11-27",
+  "title" : "SSA Contracts By Department FY 2012-13 (effective Nov 2012)",
+  "webService" : "https://data.acgov.org/resource/j7eb-4s9k",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/j7eb-4s9k/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/j7eb-4s9k/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/j7eb-4s9k/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/j7eb-4s9k/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/j7eb-4s9k/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/j7eb-4s9k/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "alameda county social services agency contracts by department fy 2012-13" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/2fkh-ffta/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-11",
+  "description" : "Alameda County Resource Directory",
+  "feed" : "https://data.acgov.org/api/views/2fkh-ffta/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "2fkh-ffta",
+  "keyword" : "alameda county resource directory,gsa",
+  "license" : "Public Domain\nAlameda County, GSA",
+  "modified" : "2013-01-11",
+  "releaseDate" : "2013-01-11",
+  "title" : "Alameda County Resource Directory",
+  "webService" : "https://data.acgov.org/resource/2fkh-ffta",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/2fkh-ffta/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/2fkh-ffta/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/2fkh-ffta/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/2fkh-ffta/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/2fkh-ffta/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/2fkh-ffta/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "alameda county resource directory", "gsa" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/uweu-u2c7/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-16",
+  "description" : "The Department of Child Support Services deals with cases involving the child support payments of one parent to the other.  \r\n\r\nThe data contained in the data set includes the role a parent plays in a child support case and the zip code they reside in. There are two rows in every case.  The first column indicates the parent’s role in a case as a Custodial Parent (CUS - the parent receiving support for the child) or the Non-Custodial Parent ( NCP – the parent providing support for the child).  The second column contains the zip code of that related parent.  Either parent may reside outside the county and at least one of the parents must reside in Alameda County.",
+  "feed" : "https://data.acgov.org/api/views/uweu-u2c7/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "uweu-u2c7",
+  "keyword" : "child support services",
+  "license" : "Public Domain\nAlameda County Department of Child Support Services",
+  "modified" : "2013-04-18",
+  "releaseDate" : "2013-04-16",
+  "title" : "Alameda County Department of Child Support Services - CP And NCP By ZIP Code",
+  "webService" : "https://data.acgov.org/resource/uweu-u2c7",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/uweu-u2c7/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/uweu-u2c7/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/uweu-u2c7/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/uweu-u2c7/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/uweu-u2c7/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/uweu-u2c7/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "child support services" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/s39x-u9ur/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-16",
+  "description" : "This dataset includes data on mortality. The data are presented for the county, cities/places, and include numbers, rates, and confidence intervals for the rates. The data is from 2008-2010.",
+  "feed" : "https://data.acgov.org/api/views/s39x-u9ur/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "s39x-u9ur",
+  "keyword" : "mortality",
+  "license" : "Public Domain\nAlameda County Health Care Services Agency",
+  "modified" : "2013-04-18",
+  "releaseDate" : "2013-04-16",
+  "title" : "Alameda County Mortality Stats by City 2008-2010",
+  "webService" : "https://data.acgov.org/resource/s39x-u9ur",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/s39x-u9ur/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/s39x-u9ur/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/s39x-u9ur/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/s39x-u9ur/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/s39x-u9ur/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/s39x-u9ur/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "mortality" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/xrpv-k7rv/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-15",
+  "description" : "Each tax roll year, the Alameda County Auditor has published a hardcopy Tax Rates book.  This table has the detail data used to create the book.  The tax rates are shown for each Fund within a Tax Rate Area where the rate is not zero.  This table contains data from 2005 to the current tax year.",
+  "feed" : "https://data.acgov.org/api/views/xrpv-k7rv/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "xrpv-k7rv",
+  "keyword" : "tax rate,tax rate area,tax roll year,auditor,levy",
+  "license" : "Public Domain\nCounty of Alameda Auditor",
+  "modified" : "2013-04-25",
+  "releaseDate" : "2013-04-15",
+  "title" : "Property Tax Rates",
+  "webService" : "https://data.acgov.org/resource/xrpv-k7rv",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/xrpv-k7rv/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/xrpv-k7rv/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/xrpv-k7rv/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/xrpv-k7rv/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/xrpv-k7rv/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/xrpv-k7rv/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "tax rate", "tax rate area", "tax roll year", "auditor", "levy" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/fiwq-h2mb/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-26",
+  "description" : "Deleted Parcel List - Roll Year 2012-2013.\r\nList of the parcels deleted from the Assessor records as a result of parcel splits and merges.",
+  "feed" : "https://data.acgov.org/api/views/fiwq-h2mb/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "fiwq-h2mb",
+  "keyword" : "alameda county,assessor's office deleted parcel list 2012 2013",
+  "license" : "Public Domain\nAlameda County Assessor's Office",
+  "modified" : "2013-04-18",
+  "releaseDate" : "2012-11-26",
+  "title" : "Assessor's Office Deleted Parcel List",
+  "webService" : "https://data.acgov.org/resource/fiwq-h2mb",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/fiwq-h2mb/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/fiwq-h2mb/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/fiwq-h2mb/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/fiwq-h2mb/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/fiwq-h2mb/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/fiwq-h2mb/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "assessor's office deleted parcel list 2012 2013" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/75yc-v7vd/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-26",
+  "description" : "Assessor's Office Secured Roll as of April 1, 2013.\r\nSecured Roll file with ownership names redacted: Assessed property values for the Alameda County residential and commercial properties.",
+  "feed" : "https://data.acgov.org/api/views/75yc-v7vd/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "75yc-v7vd",
+  "keyword" : "alameda county,assessor's office,secured roll,2012",
+  "license" : "Public Domain\nAlameda County Assessor's Office",
+  "modified" : "2013-04-19",
+  "releaseDate" : "2012-11-26",
+  "title" : "Assessor's Office Secured Tax Roll",
+  "webService" : "https://data.acgov.org/resource/75yc-v7vd",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/75yc-v7vd/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/75yc-v7vd/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/75yc-v7vd/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/75yc-v7vd/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/75yc-v7vd/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/75yc-v7vd/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "assessor's office", "secured roll", "2012" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/x2sn-ehce/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-26",
+  "description" : "Two Year Transfer List As Of April 14, 2013\r\nOwnership transfer records for Alameda County residential and commercial properties for the past 2 years.",
+  "feed" : "https://data.acgov.org/api/views/x2sn-ehce/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "x2sn-ehce",
+  "keyword" : "alameda county,assessor,ownership transfer list 2012",
+  "license" : "Public Domain\nAlameda County Assessor's Office",
+  "modified" : "2013-04-19",
+  "releaseDate" : "2012-11-26",
+  "title" : "Assessor's Office Ownership Transfer List",
+  "webService" : "https://data.acgov.org/resource/x2sn-ehce",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/x2sn-ehce/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/x2sn-ehce/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/x2sn-ehce/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/x2sn-ehce/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/x2sn-ehce/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/x2sn-ehce/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "assessor", "ownership transfer list 2012" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/2azf-7j5d/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-09-20",
+  "description" : "SSA Seniors Service Providers",
+  "feed" : "https://data.acgov.org/api/views/2azf-7j5d/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "2azf-7j5d",
+  "keyword" : "seniors service,providers,alameda county,ssa,aging",
+  "license" : "Public Domain\nAlameda County, Social Services Agency",
+  "modified" : "2013-04-25",
+  "releaseDate" : "2012-09-20",
+  "title" : "Seniors Service Providers",
+  "webService" : "https://data.acgov.org/resource/2azf-7j5d",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/2azf-7j5d/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/2azf-7j5d/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/2azf-7j5d/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/2azf-7j5d/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/2azf-7j5d/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/2azf-7j5d/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "seniors service", "providers", "alameda county", "ssa", "aging" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/tz9g-nsii/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-26",
+  "description" : "Community sites where Social Services staff are onsite to help people apply for MediCal health insurance and CalFresh (Food Stamps) benefits.",
+  "feed" : "https://data.acgov.org/api/views/tz9g-nsii/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "tz9g-nsii",
+  "keyword" : "ssa,clinics,medical",
+  "license" : "Public Domain\nAlameda County Social Services Agency",
+  "modified" : "2013-04-25",
+  "releaseDate" : "2012-11-26",
+  "title" : "Medi-Cal Outreach sites",
+  "webService" : "https://data.acgov.org/resource/tz9g-nsii",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/tz9g-nsii/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/tz9g-nsii/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/tz9g-nsii/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/tz9g-nsii/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/tz9g-nsii/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/tz9g-nsii/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ssa", "clinics", "medical" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/3536-rcma/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-26",
+  "description" : "SSA Eligibility Counts By Census March 2013.  This file shows how many children and adults were on welfare and MediCal programs in Alameda County during the month of March 2013.  The following programs are included: CalWORKs; which provides monthly cash assistance to very low income families with children; Food Stamps which provides benefits on a plastic card that can be swiped at stores to pay for food only; General Assistance provides monthly cash assistance to very low-income adults without children.  General Assistance (GA) clients who are considered employable are limited to 3 months of aid, while those consideren unemployable have no time limit.  Medi-Cal provides no cost or very low-cost health insurance to low income individuals and families.",
+  "feed" : "https://data.acgov.org/api/views/3536-rcma/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "3536-rcma",
+  "keyword" : "social services agency,eligibility census,march 2013",
+  "license" : "Public Domain\nAlameda County Social Services Agency",
+  "modified" : "2013-04-24",
+  "releaseDate" : "2012-11-26",
+  "title" : "SSA Eligibility Counts By Census",
+  "webService" : "https://data.acgov.org/resource/3536-rcma",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/3536-rcma/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/3536-rcma/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/3536-rcma/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/3536-rcma/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/3536-rcma/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/3536-rcma/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "social services agency", "eligibility census", "march 2013" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/sarn-h2py/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-24",
+  "description" : "Child Protective Services Report And Removals for 2012.  This file shows by city and zipcode the number of child abuse reports received by Alameda County Social Services Agency, and how many children were removed from their homes and place into foster care in calendar year 2012.  Rates per 1,000 children who live in the zipcode are also included.",
+  "feed" : "https://data.acgov.org/api/views/sarn-h2py/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "sarn-h2py",
+  "keyword" : "social services agency,child,chilren,cps",
+  "license" : "Public Domain\nAlameda County Social Services Agency",
+  "modified" : "2013-04-25",
+  "releaseDate" : "2013-04-24",
+  "title" : "SSA CPS Report And Removals 2012",
+  "webService" : "https://data.acgov.org/resource/sarn-h2py",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/sarn-h2py/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/sarn-h2py/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/sarn-h2py/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/sarn-h2py/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/sarn-h2py/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/sarn-h2py/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "social services agency", "child", "chilren", "cps" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/xpqi-zs6g/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-26",
+  "description" : "Child Protective Services Report And Removals for 2011.  This file shows by city and zipcode the number of child abuse reports received by Alameda County Social Services Agency, and how many children were removed from their homes and place into foster care in calendar year 2011.  Rates per 1,000 children who live in the zipcode are also included.",
+  "feed" : "https://data.acgov.org/api/views/xpqi-zs6g/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "xpqi-zs6g",
+  "keyword" : "social services agency,child,chilren,cps",
+  "license" : "Public Domain\nAlameda County Social Services Agency",
+  "modified" : "2013-04-24",
+  "releaseDate" : "2012-11-26",
+  "title" : "SSA CPS Report And Removals 2011",
+  "webService" : "https://data.acgov.org/resource/xpqi-zs6g",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/xpqi-zs6g/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/xpqi-zs6g/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/xpqi-zs6g/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/xpqi-zs6g/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/xpqi-zs6g/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/xpqi-zs6g/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "social services agency", "child", "chilren", "cps" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/92s8-4566/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-23",
+  "description" : "Current Medi-Cal Beneficiaries (of all types) assigned to Alameda County with Client Demographic and Aid Code Information",
+  "feed" : "https://data.acgov.org/api/views/92s8-4566/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "92s8-4566",
+  "keyword" : "medi-cal,health insurance,city,population data,welfare,zip code,aid code",
+  "license" : "Public Domain\nAlameda County Public Health Agency",
+  "modified" : "2013-04-25",
+  "releaseDate" : "2013-04-23",
+  "title" : "Alameda County Medi-Cal Beneficiaries April 2013",
+  "webService" : "https://data.acgov.org/resource/92s8-4566",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/92s8-4566/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/92s8-4566/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/92s8-4566/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/92s8-4566/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/92s8-4566/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/92s8-4566/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "medi-cal", "health insurance", "city", "population data", "welfare", "zip code", "aid code" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/skiz-252p/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-24",
+  "description" : "This data represents 2009-2012 Alameda County motor pool vehicles which are checked out by County employees to conduct routine business.",
+  "feed" : "https://data.acgov.org/api/views/skiz-252p/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "skiz-252p",
+  "keyword" : "alameda county,gsa motor vehicle fleet,motorpool,vehicle usage",
+  "license" : "Public Domain\nAlameda County General Services Agency",
+  "modified" : "2013-04-25",
+  "releaseDate" : "2013-04-24",
+  "title" : "Alameda County GSA Motor Vehicle Fleet",
+  "webService" : "https://data.acgov.org/resource/skiz-252p",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/skiz-252p/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/skiz-252p/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/skiz-252p/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/skiz-252p/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/skiz-252p/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/skiz-252p/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "gsa motor vehicle fleet", "motorpool", "vehicle usage" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/37xj-sa6z/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-23",
+  "description" : "Election results for Nov. 6 2012 General Election for Presidential race, proposition 30 and proposition 31",
+  "feed" : "https://data.acgov.org/api/views/37xj-sa6z/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "37xj-sa6z",
+  "keyword" : "election results,registrar of voters,rov,presidential race,proposition",
+  "license" : "Public Domain\nAlameda County Registrar of Voters",
+  "modified" : "2013-04-25",
+  "releaseDate" : "2013-04-23",
+  "title" : "Alameda County Nov 6, 2012 General Election results",
+  "webService" : "https://data.acgov.org/resource/37xj-sa6z",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/37xj-sa6z/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/37xj-sa6z/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/37xj-sa6z/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/37xj-sa6z/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/37xj-sa6z/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/37xj-sa6z/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "election results", "registrar of voters", "rov", "presidential race", "proposition" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/wu33-vg7m/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-24",
+  "description" : "In the event of a disaster, where large numbers of residents are displaced, the Social Services Agency is charged with providing workers for mass shelters in the unincorporated areas of Alameda County.\r\n\r\nThe data contained in the data set includes locations of potential shelter locations, with information on location, facility, and who to contact.  In the event of a disaster, shelter locations must be inspected for structural integrity and cleared for public use.  In addition, if the shelter is a school site, all students must be released before it can be opened for public shelter use.",
+  "feed" : "https://data.acgov.org/api/views/wu33-vg7m/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "wu33-vg7m",
+  "keyword" : "alameda county shelters locations disaster public",
+  "license" : "Public Domain\nAlameda County Social Services Agency",
+  "modified" : "2013-04-25",
+  "releaseDate" : "2013-04-24",
+  "title" : "Alameda County Shelters (Emergencies)",
+  "webService" : "https://data.acgov.org/resource/wu33-vg7m",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/wu33-vg7m/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/wu33-vg7m/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/wu33-vg7m/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/wu33-vg7m/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/wu33-vg7m/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/wu33-vg7m/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "alameda county shelters locations disaster public" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/mpyy-ti4q/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-26",
+  "description" : "This file lists the locations where EBT (Electronic Benefit Transaction) cards can be used at ATM machines and Point of Sale (POS) locations throughout Alameda County.  The Social Services Agency uses EBT cards to issue monthly cash and CalFresh benefits to eligible individuals of the following programs: CalWORKs, General Assistance and CalFresh (formerly called Food Stamps)",
+  "feed" : "https://data.acgov.org/api/views/mpyy-ti4q/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "mpyy-ti4q",
+  "keyword" : "ssa,ebt,atm,pos,electronic benefit transaction,social services agency",
+  "license" : "Public Domain\nAlameda County Social Services Agency",
+  "modified" : "2013-04-26",
+  "releaseDate" : "2013-04-26",
+  "title" : "SSA EBT ATM & POS device location and fees for 2013",
+  "webService" : "https://data.acgov.org/resource/mpyy-ti4q",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/mpyy-ti4q/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/mpyy-ti4q/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/mpyy-ti4q/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/mpyy-ti4q/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/mpyy-ti4q/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/mpyy-ti4q/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ssa", "ebt", "atm", "pos", "electronic benefit transaction", "social services agency" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/jp52-cy85/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-19",
+  "description" : "Inventory of streetlights in the unincorporated areas of Alameda County.  Data is from 2011 and earlier.",
+  "feed" : "https://data.acgov.org/api/views/jp52-cy85/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "jp52-cy85",
+  "keyword" : "unincorporated area streetlight inventory,pubic works agency",
+  "license" : "Public Domain\nAlameda County Public Works Agency",
+  "modified" : "2013-04-26",
+  "releaseDate" : "2013-04-19",
+  "title" : "Alameda County Unincorporated Area Streetlight Inventory",
+  "webService" : "https://data.acgov.org/resource/jp52-cy85",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/jp52-cy85/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/jp52-cy85/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/jp52-cy85/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/jp52-cy85/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/jp52-cy85/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/jp52-cy85/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "unincorporated area streetlight inventory", "pubic works agency" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/xzcz-7uep/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-12-03",
+  "description" : "Community Development Agency Alameda County Points of Interest",
+  "feed" : "https://data.acgov.org/api/views/xzcz-7uep/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "xzcz-7uep",
+  "keyword" : "points of interest,alameda county,community development agency,cda",
+  "license" : "Public Domain\nAlameda County Community Development Agency",
+  "modified" : "2013-04-27",
+  "releaseDate" : "2012-12-03",
+  "title" : "Alameda County Points of Interest",
+  "webService" : "https://data.acgov.org/resource/xzcz-7uep",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/xzcz-7uep/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/xzcz-7uep/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/xzcz-7uep/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/xzcz-7uep/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/xzcz-7uep/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/xzcz-7uep/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "points of interest", "alameda county", "community development agency", "cda" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/rccp-umip/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-24",
+  "description" : "Summarizes the Secured, Unsecured and State Utilities values by Tax Rate Area (TRA) broken out by Land, Improvements, Fixtures, Business Personal Property, Household Personal Property, Home Owner Exemption, Other Exemptions and Net Assessed Values.",
+  "feed" : "https://data.acgov.org/api/views/rccp-umip/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "rccp-umip",
+  "keyword" : "property,assessed value,tax rate area,tax roll,assessor,auditor",
+  "license" : "Public Domain\nCounty of Alameda Auditor",
+  "modified" : "2013-04-27",
+  "releaseDate" : "2013-04-24",
+  "title" : "Property Assessed Values by Tax Rate Area",
+  "webService" : "https://data.acgov.org/resource/rccp-umip",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/rccp-umip/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/rccp-umip/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/rccp-umip/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/rccp-umip/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/rccp-umip/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/rccp-umip/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "property", "assessed value", "tax rate area", "tax roll", "assessor", "auditor" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/atjk-7urv/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-07-03",
+  "description" : "Alameda County Certified Green Businesses",
+  "feed" : "https://data.acgov.org/api/views/atjk-7urv/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "atjk-7urv",
+  "keyword" : "alameda county,environmental health,certified green businesses",
+  "license" : "Public Domain\nAlameda County Environmental Health",
+  "modified" : "2013-06-03",
+  "releaseDate" : "2012-07-03",
+  "title" : "Certified Green Businesses",
+  "webService" : "https://data.acgov.org/resource/atjk-7urv",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/atjk-7urv/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/atjk-7urv/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/atjk-7urv/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/atjk-7urv/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/atjk-7urv/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/atjk-7urv/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "environmental health", "certified green businesses" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/8khs-56kk/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-02",
+  "description" : "Alameda County Sheriff Crime Reports from January 1, 2012 to present",
+  "feed" : "https://data.acgov.org/api/views/8khs-56kk/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "8khs-56kk",
+  "keyword" : "",
+  "license" : "Public Domain\nAlameda County Sheriff's Office",
+  "modified" : "2013-08-26",
+  "releaseDate" : "2013-04-02",
+  "title" : "Alameda County Sheriff Crime Reports",
+  "webService" : "https://data.acgov.org/resource/8khs-56kk",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/8khs-56kk/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/8khs-56kk/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/8khs-56kk/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/8khs-56kk/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/8khs-56kk/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/8khs-56kk/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.acgov.org/api/views/3d5b-2rnz/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-06-01",
+  "description" : "Alameda County Restaurants Inspections\r\nApril 30, 2012 to Current",
+  "feed" : "https://data.acgov.org/api/views/3d5b-2rnz/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "3d5b-2rnz",
+  "keyword" : "alameda county,environmental health,restaurants inspections",
+  "license" : "Public Domain\nAlameda County Environmental Health",
+  "modified" : "2013-08-26",
+  "releaseDate" : "2012-06-01",
+  "title" : "Alameda County Restaurants Inspections",
+  "webService" : "https://data.acgov.org/resource/3d5b-2rnz",
+  "distribution" : [ {
+    "accessURL" : "https://data.acgov.org/api/views/3d5b-2rnz/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/3d5b-2rnz/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/3d5b-2rnz/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/3d5b-2rnz/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/3d5b-2rnz/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.acgov.org/api/views/3d5b-2rnz/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "alameda county", "environmental health", "restaurants inspections" ]
+} ]

@@ -1,0 +1,1451 @@
+[ {
+  "accessLevel" : "Public",
+  "description" : "Lists the datasets for this domain.  The format should correspond to the spec at http://project-open-data.github.io/schema/",
+  "format" : "application/json",
+  "frequency" : "hourly",
+  "identifier" : "https://data.weatherfordtx.gov/data.json",
+  "modified" : "2013-08-28",
+  "title" : "Project Open Data, /data.json file",
+  "webService" : "https://data.weatherfordtx.gov/data.json"
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.weatherfordtx.gov/api/views/scg7-wbcw/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-30",
+  "description" : "Line item budget for the fiscal year beginning October 1, 2012, and ending September 30, 2013, as approved in September 2012.\r\n\r\nMunicipal Utility Fund items are approved by the Municipal Utility Board. All other funds are approved by the City Council.",
+  "feed" : "https://data.weatherfordtx.gov/api/views/scg7-wbcw/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "scg7-wbcw",
+  "keyword" : "budget,financial",
+  "license" : "Public Domain\nCity of Weatherford, Texas - Office of Management & Budget(http://www.weatherfordtx.gov/budget/)",
+  "modified" : "2012-12-04",
+  "releaseDate" : "2012-11-30",
+  "title" : "FY13 Adopted Budget",
+  "webService" : "https://data.weatherfordtx.gov/resource/scg7-wbcw",
+  "distribution" : [ {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/scg7-wbcw/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/scg7-wbcw/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/scg7-wbcw/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/scg7-wbcw/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/scg7-wbcw/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/scg7-wbcw/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "budget", "financial" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.weatherfordtx.gov/api/views/c68f-eup2/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-30",
+  "description" : "Full list of authorized vendors.",
+  "feed" : "https://data.weatherfordtx.gov/api/views/c68f-eup2/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "c68f-eup2",
+  "keyword" : "vendors,purchasing",
+  "license" : "Public Domain\nCity of Weatherford, Texas - Finance Department(http://www.weatherfordtx.gov/finance)",
+  "modified" : "2012-11-30",
+  "releaseDate" : "2012-11-30",
+  "title" : "Authorized Vendor List",
+  "webService" : "https://data.weatherfordtx.gov/resource/c68f-eup2",
+  "distribution" : [ {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/c68f-eup2/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/c68f-eup2/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/c68f-eup2/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/c68f-eup2/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/c68f-eup2/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/c68f-eup2/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "vendors", "purchasing" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.weatherfordtx.gov/api/views/vhv4-pkrx/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-12-26",
+  "description" : "A list of public City facilities, including type and location",
+  "feed" : "https://data.weatherfordtx.gov/api/views/vhv4-pkrx/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "vhv4-pkrx",
+  "keyword" : "",
+  "license" : "Public Domain",
+  "modified" : "2012-12-26",
+  "releaseDate" : "2012-12-26",
+  "title" : "City Facilities",
+  "webService" : "https://data.weatherfordtx.gov/resource/vhv4-pkrx",
+  "distribution" : [ {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/vhv4-pkrx/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/vhv4-pkrx/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/vhv4-pkrx/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/vhv4-pkrx/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/vhv4-pkrx/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/vhv4-pkrx/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.weatherfordtx.gov/api/views/cfuq-zji7/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-01",
+  "description" : "A summary of all closed code enforcement cases since January 2007. Includes dates opened and closed, type, officer, and description.",
+  "feed" : "https://data.weatherfordtx.gov/api/views/cfuq-zji7/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "cfuq-zji7",
+  "keyword" : "code",
+  "license" : "Public Domain\nCity of Weatherford - Municipal & Community Services",
+  "modified" : "2013-08-09",
+  "releaseDate" : "2013-02-01",
+  "title" : "Code Enforcement - Closed Cases",
+  "webService" : "https://data.weatherfordtx.gov/resource/code-enforcement-closed-cases",
+  "distribution" : [ {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/cfuq-zji7/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/cfuq-zji7/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/cfuq-zji7/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/cfuq-zji7/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/cfuq-zji7/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/cfuq-zji7/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "code" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.weatherfordtx.gov/api/views/idj9-c9dm/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-06",
+  "description" : "Original 2006 street condition survey conducted by IMS.",
+  "feed" : "https://data.weatherfordtx.gov/api/views/idj9-c9dm/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "idj9-c9dm",
+  "keyword" : "tpw,streets,infrastructure",
+  "license" : "Public Domain\nCity of Weatherford, Texas - Transportation & Public Works",
+  "modified" : "2013-02-06",
+  "releaseDate" : "2013-02-06",
+  "title" : "TPW - 2006 Street Condition Survey",
+  "webService" : "https://data.weatherfordtx.gov/resource/idj9-c9dm",
+  "distribution" : [ {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/idj9-c9dm/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/idj9-c9dm/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/idj9-c9dm/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/idj9-c9dm/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/idj9-c9dm/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/idj9-c9dm/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "tpw", "streets", "infrastructure" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.weatherfordtx.gov/api/views/bpma-ut4v/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-12",
+  "description" : "A monthly summary of some economic local and national indicators.",
+  "feed" : "https://data.weatherfordtx.gov/api/views/bpma-ut4v/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "bpma-ut4v",
+  "keyword" : "economics",
+  "modified" : "2013-02-26",
+  "releaseDate" : "2013-02-12",
+  "title" : "Local Economic Indicators",
+  "webService" : "https://data.weatherfordtx.gov/resource/local-economic-indicators",
+  "distribution" : [ {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/bpma-ut4v/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/bpma-ut4v/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/bpma-ut4v/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/bpma-ut4v/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/bpma-ut4v/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/bpma-ut4v/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "economics" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.weatherfordtx.gov/api/views/v6eu-rt9x/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-15",
+  "feed" : "https://data.weatherfordtx.gov/api/views/v6eu-rt9x/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "v6eu-rt9x",
+  "keyword" : "",
+  "modified" : "2013-02-15",
+  "releaseDate" : "2013-02-15",
+  "title" : "City Wide Fuel Purchases",
+  "webService" : "https://data.weatherfordtx.gov/resource/v6eu-rt9x",
+  "distribution" : [ {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/v6eu-rt9x/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/v6eu-rt9x/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/v6eu-rt9x/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/v6eu-rt9x/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/v6eu-rt9x/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/v6eu-rt9x/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.weatherfordtx.gov/api/views/32ak-r84i/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-04",
+  "description" : "A listing of all primary datasets and links to embed in the City's web site.",
+  "feed" : "https://data.weatherfordtx.gov/api/views/32ak-r84i/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "32ak-r84i",
+  "keyword" : "",
+  "license" : "Public Domain",
+  "modified" : "2013-02-16",
+  "releaseDate" : "2013-02-04",
+  "title" : "Primary Datasets",
+  "webService" : "https://data.weatherfordtx.gov/resource/primary-datasets",
+  "distribution" : [ {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/32ak-r84i/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/32ak-r84i/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/32ak-r84i/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/32ak-r84i/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/32ak-r84i/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/32ak-r84i/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.weatherfordtx.gov/api/views/3usd-zinv/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-22",
+  "description" : "Taken from the preliminary street funding study reported to Council on February 26, 2013. Includes the summary results at the end of each year for each scenario simulated.",
+  "feed" : "https://data.weatherfordtx.gov/api/views/3usd-zinv/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "3usd-zinv",
+  "keyword" : "tpw,streets,infrastructure,budget,simulations,research",
+  "license" : "Public Domain\nCity of Weatherford, Texas - Office of Management & Budget(http://weatherfordtx.gov/index.aspx?nid=1425)",
+  "modified" : "2013-02-22",
+  "releaseDate" : "2013-02-22",
+  "title" : "Results Of Preliminary Street Funding Study",
+  "webService" : "https://data.weatherfordtx.gov/resource/3usd-zinv",
+  "distribution" : [ {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/3usd-zinv/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/3usd-zinv/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/3usd-zinv/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/3usd-zinv/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/3usd-zinv/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/3usd-zinv/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "tpw", "streets", "infrastructure", "budget", "simulations", "research" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.weatherfordtx.gov/api/views/kwwr-agj9/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-12-21",
+  "description" : "Sum total consumption by month and utility, ranging back through FY2008.",
+  "feed" : "https://data.weatherfordtx.gov/api/views/kwwr-agj9/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "kwwr-agj9",
+  "keyword" : "utility consumption",
+  "modified" : "2013-03-06",
+  "releaseDate" : "2012-12-21",
+  "title" : "Utility Consumption",
+  "webService" : "https://data.weatherfordtx.gov/resource/kwwr-agj9",
+  "distribution" : [ {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/kwwr-agj9/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/kwwr-agj9/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/kwwr-agj9/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/kwwr-agj9/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/kwwr-agj9/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/kwwr-agj9/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "utility consumption" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.weatherfordtx.gov/api/views/cdyu-igpi/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-12-19",
+  "description" : "A history of Utilities Fund Revenues, Expenditures, and Encumbrances (both Budget and Actual, YTD and MTD)",
+  "feed" : "https://data.weatherfordtx.gov/api/views/cdyu-igpi/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "cdyu-igpi",
+  "keyword" : "utilities fund",
+  "modified" : "2013-03-06",
+  "releaseDate" : "2012-12-19",
+  "title" : "Utilities Fund History",
+  "webService" : "https://data.weatherfordtx.gov/resource/cdyu-igpi",
+  "distribution" : [ {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/cdyu-igpi/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/cdyu-igpi/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/cdyu-igpi/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/cdyu-igpi/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/cdyu-igpi/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/cdyu-igpi/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "utilities fund" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.weatherfordtx.gov/api/views/5t7p-7njb/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-12-19",
+  "description" : "Solid Waste Fund, Chandor Gardens Fund, and the Hotel Tax Fund history of budget and expenses.",
+  "feed" : "https://data.weatherfordtx.gov/api/views/5t7p-7njb/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "5t7p-7njb",
+  "keyword" : "",
+  "modified" : "2013-03-06",
+  "releaseDate" : "2012-12-19",
+  "title" : "Other Funds History",
+  "webService" : "https://data.weatherfordtx.gov/resource/5t7p-7njb",
+  "distribution" : [ {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/5t7p-7njb/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/5t7p-7njb/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/5t7p-7njb/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/5t7p-7njb/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/5t7p-7njb/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/5t7p-7njb/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.weatherfordtx.gov/api/views/88pd-2kqk/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-12-17",
+  "description" : "A history of General Fund budget and expenditures.",
+  "feed" : "https://data.weatherfordtx.gov/api/views/88pd-2kqk/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "88pd-2kqk",
+  "keyword" : "general fund",
+  "modified" : "2013-03-07",
+  "releaseDate" : "2012-12-17",
+  "title" : "General Fund History",
+  "webService" : "https://data.weatherfordtx.gov/resource/88pd-2kqk",
+  "distribution" : [ {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/88pd-2kqk/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/88pd-2kqk/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/88pd-2kqk/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/88pd-2kqk/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/88pd-2kqk/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/88pd-2kqk/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "general fund" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.weatherfordtx.gov/api/views/c4zr-3y7x/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-06",
+  "description" : "Monthly sales tax collections since 1990. Taxes collected by the city are shown separately beginning around 2007.",
+  "feed" : "https://data.weatherfordtx.gov/api/views/c4zr-3y7x/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "c4zr-3y7x",
+  "keyword" : "sales tax,finance",
+  "license" : "Public Domain",
+  "modified" : "2013-03-07",
+  "releaseDate" : "2013-02-06",
+  "title" : "Monthly Sales Tax Collections",
+  "webService" : "https://data.weatherfordtx.gov/resource/monthly-sales-tax",
+  "distribution" : [ {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/c4zr-3y7x/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/c4zr-3y7x/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/c4zr-3y7x/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/c4zr-3y7x/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/c4zr-3y7x/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/c4zr-3y7x/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "sales tax", "finance" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.weatherfordtx.gov/api/views/dy5q-p5dt/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-26",
+  "feed" : "https://data.weatherfordtx.gov/api/views/dy5q-p5dt/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "dy5q-p5dt",
+  "keyword" : "social media",
+  "license" : "Public Domain\nCity of Weatherford, Texas - Office of Management & Budget",
+  "modified" : "2013-03-26",
+  "releaseDate" : "2013-03-26",
+  "title" : "Weatherford Social Media Accounts",
+  "webService" : "https://data.weatherfordtx.gov/resource/dy5q-p5dt",
+  "distribution" : [ {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/dy5q-p5dt/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/dy5q-p5dt/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/dy5q-p5dt/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/dy5q-p5dt/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/dy5q-p5dt/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/dy5q-p5dt/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "social media" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.weatherfordtx.gov/api/views/pi2r-w2wn/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-26",
+  "description" : "Contains work order details for certain facilities, automatically published upon completion in the ParkMan application.",
+  "feed" : "https://data.weatherfordtx.gov/api/views/pi2r-w2wn/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "pi2r-w2wn",
+  "keyword" : "parks,work orders,parkman,maintenance",
+  "license" : "Public Domain\nCity of Weatherford, Texas - Parks & Recreation",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-03-26",
+  "title" : "Park Maintenance Work Orders",
+  "webService" : "https://data.weatherfordtx.gov/resource/pi2r-w2wn",
+  "distribution" : [ {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/pi2r-w2wn/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/pi2r-w2wn/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/pi2r-w2wn/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/pi2r-w2wn/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/pi2r-w2wn/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/pi2r-w2wn/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "parks", "work orders", "parkman", "maintenance" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.weatherfordtx.gov/api/views/e68q-zdjm/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-12-13",
+  "description" : "A history of Lake Weatherford's water level (in feet) from the USGS. Data are from an instantaneous service and therefore should not be considered final.",
+  "feed" : "https://data.weatherfordtx.gov/api/views/e68q-zdjm/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "e68q-zdjm",
+  "keyword" : "lake weatherford",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2012-12-13",
+  "title" : "Lake Levels",
+  "webService" : "https://data.weatherfordtx.gov/resource/e68q-zdjm",
+  "distribution" : [ {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/e68q-zdjm/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/e68q-zdjm/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/e68q-zdjm/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/e68q-zdjm/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/e68q-zdjm/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/e68q-zdjm/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "lake weatherford" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.weatherfordtx.gov/api/views/2ek5-qq7s/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-12-10",
+  "description" : "All animal cases since April 2007, including arrival and disposition date, status, type, breed, and other information.",
+  "feed" : "https://data.weatherfordtx.gov/api/views/2ek5-qq7s/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "2ek5-qq7s",
+  "keyword" : "animal shelter",
+  "license" : "Public Domain\nCity of Weatherford, Texas - Animal Services",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2012-12-10",
+  "title" : "Animal Shelter - All Animal Cases",
+  "webService" : "https://data.weatherfordtx.gov/resource/animal-shelter-all-animals",
+  "distribution" : [ {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/2ek5-qq7s/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/2ek5-qq7s/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/2ek5-qq7s/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/2ek5-qq7s/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/2ek5-qq7s/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/2ek5-qq7s/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "animal shelter" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.weatherfordtx.gov/api/views/ny9a-t4pz/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-30",
+  "description" : "All fuel purchases by city employees. This dataset is updated monthly.",
+  "feed" : "https://data.weatherfordtx.gov/api/views/ny9a-t4pz/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ny9a-t4pz",
+  "keyword" : "fuel",
+  "license" : "Public Domain\nCity of Weatherford, Texas - Fleet Management",
+  "modified" : "2013-05-06",
+  "releaseDate" : "2012-11-30",
+  "title" : "Fuel Purchases",
+  "webService" : "https://data.weatherfordtx.gov/resource/ny9a-t4pz",
+  "distribution" : [ {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/ny9a-t4pz/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/ny9a-t4pz/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/ny9a-t4pz/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/ny9a-t4pz/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/ny9a-t4pz/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/ny9a-t4pz/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "fuel" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.weatherfordtx.gov/api/views/5rrs-sgue/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-03",
+  "description" : "Logs of all larvacide treatments except for spraying",
+  "feed" : "https://data.weatherfordtx.gov/api/views/5rrs-sgue/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "5rrs-sgue",
+  "keyword" : "mosquito",
+  "license" : "Public Domain",
+  "modified" : "2013-07-05",
+  "releaseDate" : "2013-05-03",
+  "title" : "2013 Mosquito Treatments",
+  "webService" : "https://data.weatherfordtx.gov/resource/5rrs-sgue",
+  "distribution" : [ {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/5rrs-sgue/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/5rrs-sgue/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/5rrs-sgue/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/5rrs-sgue/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/5rrs-sgue/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/5rrs-sgue/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "mosquito" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.weatherfordtx.gov/api/views/4kr8-nw7w/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-01",
+  "description" : "For citizens to document potential concerns regarding mosquitos",
+  "feed" : "https://data.weatherfordtx.gov/api/views/4kr8-nw7w/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "4kr8-nw7w",
+  "keyword" : "mosquitos",
+  "license" : "Public Domain",
+  "modified" : "2013-08-07",
+  "releaseDate" : "2013-05-01",
+  "title" : "2013 Mosquito Complaints",
+  "webService" : "https://data.weatherfordtx.gov/resource/4kr8-nw7w",
+  "distribution" : [ {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/4kr8-nw7w/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/4kr8-nw7w/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/4kr8-nw7w/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/4kr8-nw7w/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/4kr8-nw7w/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/4kr8-nw7w/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "mosquitos" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.weatherfordtx.gov/api/views/k7b9-7zjb/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-07-27",
+  "description" : "2013 pavement condition survey conducted by IMS.",
+  "feed" : "https://data.weatherfordtx.gov/api/views/k7b9-7zjb/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "k7b9-7zjb",
+  "keyword" : "tpw,streets,infrastructure",
+  "license" : "Public Domain\nCity of Weatherford, Texas - Transportation & Public Works",
+  "modified" : "2013-07-27",
+  "releaseDate" : "2013-07-27",
+  "title" : "TPW - 2013 Street Condition Survey",
+  "webService" : "https://data.weatherfordtx.gov/resource/k7b9-7zjb",
+  "distribution" : [ {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/k7b9-7zjb/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/k7b9-7zjb/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/k7b9-7zjb/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/k7b9-7zjb/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/k7b9-7zjb/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/k7b9-7zjb/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "tpw", "streets", "infrastructure" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.weatherfordtx.gov/api/views/mvy8-6q2t/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-12-06",
+  "description" : "Solid waste operating information. Updated monthly.",
+  "feed" : "https://data.weatherfordtx.gov/api/views/mvy8-6q2t/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "mvy8-6q2t",
+  "keyword" : "",
+  "modified" : "2013-08-08",
+  "releaseDate" : "2012-12-06",
+  "title" : "Solid Waste Operating Statistics",
+  "webService" : "https://data.weatherfordtx.gov/resource/mvy8-6q2t",
+  "distribution" : [ {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/mvy8-6q2t/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/mvy8-6q2t/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/mvy8-6q2t/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/mvy8-6q2t/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/mvy8-6q2t/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/mvy8-6q2t/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.weatherfordtx.gov/api/views/rmvj-bpp5/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-01",
+  "description" : "Logging mosquito traps and results of testing for the 2013 mosquito season",
+  "feed" : "https://data.weatherfordtx.gov/api/views/rmvj-bpp5/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "rmvj-bpp5",
+  "keyword" : "mosquito",
+  "license" : "Public Domain",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-05-01",
+  "title" : "2013 Mosquito Testing",
+  "webService" : "https://data.weatherfordtx.gov/resource/rmvj-bpp5",
+  "distribution" : [ {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/rmvj-bpp5/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/rmvj-bpp5/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/rmvj-bpp5/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/rmvj-bpp5/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/rmvj-bpp5/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/rmvj-bpp5/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "mosquito" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.weatherfordtx.gov/api/views/n4m9-h86u/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-30",
+  "description" : "Weatherford Electric billing data by class, including number of customers, consumption, and amount billed.",
+  "feed" : "https://data.weatherfordtx.gov/api/views/n4m9-h86u/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "n4m9-h86u",
+  "keyword" : "electric,utilities,billing",
+  "license" : "Public Domain\nCity of Weatherford, Texas - Weatherford Electric(http://weatherfordtx.gov/index.aspx?NID=241)",
+  "modified" : "2013-08-09",
+  "releaseDate" : "2012-11-30",
+  "title" : "Electric Monthly Billing By Class",
+  "webService" : "https://data.weatherfordtx.gov/resource/electric-billing-by-class",
+  "distribution" : [ {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/n4m9-h86u/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/n4m9-h86u/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/n4m9-h86u/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/n4m9-h86u/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/n4m9-h86u/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/n4m9-h86u/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "electric", "utilities", "billing" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.weatherfordtx.gov/api/views/u2u7-hf87/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-30",
+  "description" : "Wastewater Department billing data by class, including number of customers, consumption, and amount billed.",
+  "feed" : "https://data.weatherfordtx.gov/api/views/u2u7-hf87/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "u2u7-hf87",
+  "keyword" : "wastewater,billing",
+  "license" : "Public Domain\nCity of Weatherford, Texas - Water/Wastewater Department",
+  "modified" : "2013-08-09",
+  "releaseDate" : "2012-11-30",
+  "title" : "Wastewater Monthly Billing By Class",
+  "webService" : "https://data.weatherfordtx.gov/resource/u2u7-hf87",
+  "distribution" : [ {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/u2u7-hf87/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/u2u7-hf87/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/u2u7-hf87/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/u2u7-hf87/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/u2u7-hf87/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/u2u7-hf87/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "wastewater", "billing" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.weatherfordtx.gov/api/views/ysfs-8f2v/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-30",
+  "description" : "Water Department billing data by class, including number of customers, consumption, and amount billed.",
+  "feed" : "https://data.weatherfordtx.gov/api/views/ysfs-8f2v/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ysfs-8f2v",
+  "keyword" : "water,billing",
+  "license" : "Public Domain\nCity of Weatherford, Texas - Water Department",
+  "modified" : "2013-08-09",
+  "releaseDate" : "2012-11-30",
+  "title" : "Water Monthly Billing By Class",
+  "webService" : "https://data.weatherfordtx.gov/resource/ysfs-8f2v",
+  "distribution" : [ {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/ysfs-8f2v/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/ysfs-8f2v/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/ysfs-8f2v/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/ysfs-8f2v/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/ysfs-8f2v/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/ysfs-8f2v/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "water", "billing" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.weatherfordtx.gov/api/views/fq45-73gh/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-28",
+  "description" : "All historical permits issued, including issue date, type, subtype, etc.",
+  "feed" : "https://data.weatherfordtx.gov/api/views/fq45-73gh/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "fq45-73gh",
+  "keyword" : "permits",
+  "license" : "Public Domain\nCity of Weatherford, Texas - Planning & Development",
+  "modified" : "2013-08-09",
+  "releaseDate" : "2013-02-28",
+  "title" : "Permits Issued",
+  "webService" : "https://data.weatherfordtx.gov/resource/fq45-73gh",
+  "distribution" : [ {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/fq45-73gh/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/fq45-73gh/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/fq45-73gh/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/fq45-73gh/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/fq45-73gh/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.weatherfordtx.gov/api/views/fq45-73gh/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "permits" ]
+} ]

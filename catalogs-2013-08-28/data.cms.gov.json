@@ -1,0 +1,2343 @@
+[ {
+  "accessLevel" : "Public",
+  "description" : "Lists the datasets for this domain.  The format should correspond to the spec at http://project-open-data.github.io/schema/",
+  "format" : "application/json",
+  "frequency" : "hourly",
+  "identifier" : "https://data.cms.gov/data.json",
+  "modified" : "2013-08-28",
+  "title" : "Project Open Data, /data.json file",
+  "webService" : "https://data.cms.gov/data.json"
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/ibqy-mswq/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-26",
+  "description" : "Non-exhaustive List of Essential Community Providers (ECPs)",
+  "feed" : "https://data.cms.gov/api/views/ibqy-mswq/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ibqy-mswq",
+  "keyword" : "non exhaustive list of essential community providers,ecp,ecps",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-03-26",
+  "title" : "Non-Exhaustive List of Essential Community Providers - ECPs",
+  "webService" : "https://data.cms.gov/resource/ibqy-mswq",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/ibqy-mswq/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/ibqy-mswq/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/ibqy-mswq/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/ibqy-mswq/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/ibqy-mswq/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/ibqy-mswq/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "non exhaustive list of essential community providers", "ecp", "ecps" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/97k6-zzx3/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-18",
+  "description" : "A provider level summary of Inpatient Prospective Payment System (IPPS) discharges, average charges and average Medicare payments for the Top 100 Diagnosis-Related Groups (DRG)",
+  "feed" : "https://data.cms.gov/api/views/97k6-zzx3/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "97k6-zzx3",
+  "keyword" : "medicare,cms,health care providers,inpatient,ipps,hospital referral region (hrr),state,100 diagnosis-related groups (drg)",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-04-18",
+  "title" : "Inpatient Prospective Payment System (IPPS) Provider Summary for the Top 100 Diagnosis-Related Groups (DRG)",
+  "webService" : "https://data.cms.gov/resource/97k6-zzx3",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/97k6-zzx3/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/97k6-zzx3/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/97k6-zzx3/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/97k6-zzx3/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/97k6-zzx3/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/97k6-zzx3/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "medicare", "cms", "health care providers", "inpatient", "ipps", "hospital referral region (hrr)", "state", "100 diagnosis-related groups (drg)" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/8j8s-q5gd/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-09-17",
+  "feed" : "https://data.cms.gov/api/views/8j8s-q5gd/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "8j8s-q5gd",
+  "keyword" : "",
+  "modified" : "2011-08-20",
+  "releaseDate" : "2010-09-17",
+  "title" : "1996 -2009 Hospital Cost Reports (zip file)",
+  "webService" : "https://data.cms.gov/resource/8j8s-q5gd",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/8j8s-q5gd/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/8j8s-q5gd/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/8j8s-q5gd/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/8j8s-q5gd/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/8j8s-q5gd/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/8j8s-q5gd/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/j4vd-hip5/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-05-08",
+  "description" : "Descriptions and project data (e.g. gross savings estimates, population served, etc.) are 3 year estimates provided by each organization and are based on budget submissions required by the Health Care Innovation Awards application process. While all projects are expected to produce cost savings beyond the 3 year grant award, some may not achieve net cost savings until after the initial 3-year period due to start-up-costs, change in care patterns and intervention effect on health status.",
+  "feed" : "https://data.cms.gov/api/views/j4vd-hip5/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "j4vd-hip5",
+  "keyword" : "health care innovation awards,hcia",
+  "license" : "Public Domain\nCenters for Medicare and Medicaid Services(http://innovations.cms.gov/initiatives/innovation-awards)",
+  "modified" : "2013-06-10",
+  "releaseDate" : "2012-05-08",
+  "title" : "Health Care Innovation Awards",
+  "webService" : "https://data.cms.gov/resource/j4vd-hip5",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/j4vd-hip5/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/j4vd-hip5/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/j4vd-hip5/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/j4vd-hip5/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/j4vd-hip5/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/j4vd-hip5/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "health care innovation awards", "hcia" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/ucun-6i4t/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-22",
+  "description" : "The Therapy Provider Phase Information dataset is a tool for providers to search by their National Provider Identifier (NPI) number to determine their phase for manual medical review of therapy claims.",
+  "feed" : "https://data.cms.gov/api/views/ucun-6i4t/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ucun-6i4t",
+  "keyword" : "npi,phase,therapy,manual medical review",
+  "modified" : "2013-08-26",
+  "releaseDate" : "2012-08-22",
+  "title" : "Therapy Provider Phase Information",
+  "webService" : "https://data.cms.gov/resource/ucun-6i4t",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/ucun-6i4t/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/ucun-6i4t/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/ucun-6i4t/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/ucun-6i4t/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/ucun-6i4t/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/ucun-6i4t/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "npi", "phase", "therapy", "manual medical review" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/mvd4-2t3p/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-10-25",
+  "description" : "Testing the efficacy of the patient-centered medical home among Federally Qualified Health Centers (FQHCs).",
+  "feed" : "https://data.cms.gov/api/views/mvd4-2t3p/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "mvd4-2t3p",
+  "keyword" : "",
+  "license" : "Public Domain\nCMS Innovation Center(http://innovation.cms.gov)",
+  "modified" : "2013-04-16",
+  "releaseDate" : "2011-10-25",
+  "title" : "FQHC Advanced Primary Care Practice Demonstration Participants",
+  "webService" : "https://data.cms.gov/resource/mvd4-2t3p",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/mvd4-2t3p/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/mvd4-2t3p/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/mvd4-2t3p/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/mvd4-2t3p/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/mvd4-2t3p/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/mvd4-2t3p/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/2d4k-5n3h/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-01-10",
+  "description" : "Individuals chosen by the Centers for Medicare and Medicaid Services as participants in the Innovation Advisors Program. More info at http://innovations.cms.gov/initiatives/innovation-advisors/.",
+  "feed" : "https://data.cms.gov/api/views/2d4k-5n3h/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "2d4k-5n3h",
+  "keyword" : "healthcare,health care,delivery,population health,patient safety,care improvement,care delivery models,local organizations",
+  "modified" : "2012-10-17",
+  "releaseDate" : "2012-01-10",
+  "title" : "CMS Innovation Advisors",
+  "webService" : "https://data.cms.gov/resource/2d4k-5n3h",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/2d4k-5n3h/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/2d4k-5n3h/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/2d4k-5n3h/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/2d4k-5n3h/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/2d4k-5n3h/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/2d4k-5n3h/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "healthcare", "health care", "delivery", "population health", "patient safety", "care improvement", "care delivery models", "local organizations" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/5b3y-9vj6/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-28",
+  "description" : "This release contains the Basic Stand Alone (BSA) Durable Medical Equipment (DME) Line Items Public Use Files (PUF) with information from Medicare DME claims. The CMS BSA DME Line Items PUF is a line item level file in which each record is a line item of a DME claim incurred by a 5% sample of Medicare beneficiaries (each claim is comprised of up to 13 line item services). Some demographic and line item related variables are provided in this PUF. However, as beneficiary identities are not provided, it is not possible to link claims that belong to the same beneficiary in the CMS BSA DME Line Items PUF. It is also not possible to link line item services that belong to the same claim.\r\n\r\nThe CMS BSA DME Line Items PUF originates from a 5% simple random sample of beneficiaries drawn (without replacement) from the 100% Beneficiary Summary File for the reference year. The sample that is used for the CMS BSA DME Line Items PUF is disjoint from the existing 5% CMS research sample in the sense that there is no overlap in terms of the beneficiaries in the CMS BSA DME Line Items PUF and the 5% CMS research sample. It is also disjoint from the other BSA PUFs that have been released so far. This property prevents users from linking data across multiple files for identification purposes.",
+  "feed" : "https://data.cms.gov/api/views/5b3y-9vj6/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "5b3y-9vj6",
+  "keyword" : "dme,durable medical equipment,claims,bsa",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2012-11-28",
+  "title" : "2010 Basic Stand Alone Durable Medical Equipment Line Items PUF",
+  "webService" : "https://data.cms.gov/resource/5b3y-9vj6",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/5b3y-9vj6/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/5b3y-9vj6/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/5b3y-9vj6/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/5b3y-9vj6/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/5b3y-9vj6/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/5b3y-9vj6/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "dme", "durable medical equipment", "claims", "bsa" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/txhd-mb2v/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-07",
+  "feed" : "https://data.cms.gov/api/views/txhd-mb2v/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "txhd-mb2v",
+  "keyword" : "",
+  "license" : "Public Domain",
+  "modified" : "2013-07-25",
+  "releaseDate" : "2013-02-07",
+  "title" : "PfP Pledge Database",
+  "webService" : "https://data.cms.gov/resource/txhd-mb2v",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/txhd-mb2v/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/txhd-mb2v/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/txhd-mb2v/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/txhd-mb2v/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/txhd-mb2v/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/txhd-mb2v/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/u3ig-yf7f/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-15",
+  "description" : "This initiative will test three evidence-based maternity care service approaches that aim to improve the health outcomes of pregnant women and newborns.",
+  "feed" : "https://data.cms.gov/api/views/u3ig-yf7f/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "u3ig-yf7f",
+  "keyword" : "medicaid,chip,cms",
+  "license" : "Public Domain\nCenter for Medicare & Medicaid Services(http://innovation.cms.gov/initiative/strong-start)",
+  "modified" : "2013-02-20",
+  "releaseDate" : "2013-02-15",
+  "title" : "Strong Start Awardees",
+  "webService" : "https://data.cms.gov/resource/u3ig-yf7f",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/u3ig-yf7f/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/u3ig-yf7f/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/u3ig-yf7f/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/u3ig-yf7f/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/u3ig-yf7f/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/u3ig-yf7f/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "medicaid", "chip", "cms" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/8wk5-pp5m/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-22",
+  "description" : "Database of HPSA and Low-Income ZIP Codes for Issuers Subject to the Alternate ECP Standard for the purposes of QHP Certification",
+  "feed" : "https://data.cms.gov/api/views/8wk5-pp5m/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "8wk5-pp5m",
+  "keyword" : "hpsa,low income zip codes,alternate ecp standard,qhp certification",
+  "modified" : "2013-04-17",
+  "releaseDate" : "2013-03-22",
+  "title" : "Database of HPSA and Low-Income ZIP Codes for Issuers Subject to the Alternate ECP Standard for the purposes of QHP Certification",
+  "webService" : "https://data.cms.gov/resource/8wk5-pp5m",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/8wk5-pp5m/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/8wk5-pp5m/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/8wk5-pp5m/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/8wk5-pp5m/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/8wk5-pp5m/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/8wk5-pp5m/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hpsa", "low income zip codes", "alternate ecp standard", "qhp certification" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/mw5h-fu5i/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-21",
+  "description" : "The Comprehensive Primary Care (CPC) initiative is a multi-payer initiative fostering collaboration between public and private health care payers to strengthen primary care. Medicare will work with commercial and State health insurance plans and offer bonus payments to primary care doctors who better coordinate care for their patients. Primary care practices that choose to participate in this initiative will be given resources to better coordinate primary care for their Medicare patients.",
+  "feed" : "https://data.cms.gov/api/views/mw5h-fu5i/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "mw5h-fu5i",
+  "keyword" : "health care,healthcare,primary care,medicaid,innovation",
+  "license" : "Public Domain\nCMS Innovation Center(http://innovation.cms.gov/initiatives/Comprehensive-Primary-Care-Initiative)",
+  "modified" : "2013-07-16",
+  "releaseDate" : "2012-08-21",
+  "title" : "CPC Initiative: Participating Primary Care Practices",
+  "webService" : "https://data.cms.gov/resource/mw5h-fu5i",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/mw5h-fu5i/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/mw5h-fu5i/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/mw5h-fu5i/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/mw5h-fu5i/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/mw5h-fu5i/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/mw5h-fu5i/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "health care", "healthcare", "primary care", "medicaid", "innovation" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/nwve-k4qu/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-26",
+  "description" : "List of Essential Community Providers (ECPs) that Provide Dental Services",
+  "feed" : "https://data.cms.gov/api/views/nwve-k4qu/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "nwve-k4qu",
+  "keyword" : "ecp,essential community providers that provide dental services",
+  "modified" : "2013-08-09",
+  "releaseDate" : "2013-03-26",
+  "title" : "List of Essential Community Providers (ECPs) that Provide Dental Services",
+  "webService" : "https://data.cms.gov/resource/nwve-k4qu",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/nwve-k4qu/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/nwve-k4qu/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/nwve-k4qu/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/nwve-k4qu/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/nwve-k4qu/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/nwve-k4qu/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ecp", "essential community providers that provide dental services" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/xvix-nd9s/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-27",
+  "description" : "This is a Public Use File from Hospice claims drawn from the 2010 Beneficiary Summary File of Medicare beneficiaries enrolled during the calendar year 2010, and their associated Medicare claims. The most important aspects of this file are as follow: 1. 5% simple random sample drawn without replacement from 100% 2010 Beneficiary Summary File. 2. This sample is disjoint from the existing 5% CMS Research Sample and the other 2010 PUFs.",
+  "feed" : "https://data.cms.gov/api/views/xvix-nd9s/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "xvix-nd9s",
+  "keyword" : "bsa,puf,claims,hospice",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2013-03-27",
+  "title" : "2010 Basic Stand Alone Hospice Beneficiary PUF",
+  "webService" : "https://data.cms.gov/resource/xvix-nd9s",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/xvix-nd9s/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/xvix-nd9s/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/xvix-nd9s/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/xvix-nd9s/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/xvix-nd9s/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/xvix-nd9s/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "bsa", "puf", "claims", "hospice" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/j9p6-bpgf/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-27",
+  "description" : "This is a Public Use File from Hospice claims drawn from the 2008 Beneficiary Summary File of Medicare beneficiaries enrolled during the calendar year 2008, and their associated Medicare claims. The most important aspects of this file are as follow: 1. 5% simple random sample drawn without replacement from 100% 2008 Beneficiary Summary File. 2. This sample is disjoint from the existing 5% CMS Research Sample and the other 2008 PUFs. 3. Sample contained 2,392,893 unique beneficiaries of which 53,071 had at least one hospice claim.",
+  "feed" : "https://data.cms.gov/api/views/j9p6-bpgf/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "j9p6-bpgf",
+  "keyword" : "bsa,2008,hospice,puf,claims",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2013-03-27",
+  "title" : "2008 Basic Stand Alone Hospice Beneficiary PUF",
+  "webService" : "https://data.cms.gov/resource/j9p6-bpgf",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/j9p6-bpgf/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/j9p6-bpgf/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/j9p6-bpgf/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/j9p6-bpgf/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/j9p6-bpgf/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/j9p6-bpgf/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "bsa", "2008", "hospice", "puf", "claims" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/3xc2-zz9k/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-27",
+  "description" : "This is a Public Use File of Inpatient Claims drawn from the 2008 Beneficiary Summary File of Medicare beneficiaries enrolled during the calendar year 2008, and their associated Medicare claims. The most important aspects of this file are as follow: 1. It contains claims for a simple random sample of 5% of the 2008 beneficiary population. Out of approximately 2.4 million beneficiaries in the 5% sample, about 350,000 had claims (after excluding a relatively small fraction of ineligible claims), resulting in a Public Use File of just under 590,000 claims. 2. It contains six (6) analytic variables (in addition to an encrypted claim key): Age, gender, base DRG code, ICD-9 code, claim cost, and length of inpatient stay. All of these variables, except gender, have been suitably aggregated or averaged in order to protect individuals from identification, while retaining the analytic value of the data. 3. A claim for a sampled beneficiary is only included in the PUF if the combination of all six (6) variables is shared by at least eleven (11) claims pertaining to at least eleven (11) distinct beneficiaries in the population (but not necessarily the sample). 4. Claims cannot be linked by beneficiary, and cannot be linked to any external data source by means of the claim ID. The claim ID is a cryptographic key specific to this Inpatient Claims PUF and not available elsewhere. The inpatient Claims PUF is sorted by this claim ID to ensure that the relative position of claims in the PUF and the original source data are totally uncorrelated.",
+  "feed" : "https://data.cms.gov/api/views/3xc2-zz9k/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "3xc2-zz9k",
+  "keyword" : "bsa,inpatient,claims,puf",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2013-03-27",
+  "title" : "2008 Basic Stand Alone Inpatient Claims PUF",
+  "webService" : "https://data.cms.gov/resource/3xc2-zz9k",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/3xc2-zz9k/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/3xc2-zz9k/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/3xc2-zz9k/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/3xc2-zz9k/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/3xc2-zz9k/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/3xc2-zz9k/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "bsa", "inpatient", "claims", "puf" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/4ypi-pds4/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-27",
+  "description" : "The CMS 2010 BSA Carrier Line Items PUF originates from a 5% simple random sample of beneficiaries drawn (without replacement) from the 100% Beneficiary Summary File for reference year 2010.",
+  "feed" : "https://data.cms.gov/api/views/4ypi-pds4/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "4ypi-pds4",
+  "keyword" : "carrier,2010,bsa,puf,claims",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2013-03-27",
+  "title" : "2010 Basic Stand Alone Carrier Line Items PUF",
+  "webService" : "https://data.cms.gov/resource/4ypi-pds4",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/4ypi-pds4/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/4ypi-pds4/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/4ypi-pds4/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/4ypi-pds4/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/4ypi-pds4/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/4ypi-pds4/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "carrier", "2010", "bsa", "puf", "claims" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/vdp8-ayy6/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-27",
+  "description" : "The CMS 2008 BSA HHA Beneficiary PUF originates from a 5% simple random sample of beneficiaries drawn (without replacement) from the 100% Beneficiary Summary File for reference year 2008. The sample that is used for the CMS 2008 BSA HHA Beneficiary PUF is disjoint from the existing 5% CMS research sample in the sense that there is no overlap in terms of the beneficiaries in the CMS 2008 BSA HHA Beneficiary PUF and the 5% CMS research sample.",
+  "feed" : "https://data.cms.gov/api/views/vdp8-ayy6/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "vdp8-ayy6",
+  "keyword" : "hha,home health,puf,bsa,2008,claims",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2013-03-27",
+  "title" : "2008 Basic Stand Alone Home Health Agency Beneficiary PUF",
+  "webService" : "https://data.cms.gov/resource/vdp8-ayy6",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/vdp8-ayy6/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/vdp8-ayy6/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/vdp8-ayy6/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/vdp8-ayy6/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/vdp8-ayy6/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/vdp8-ayy6/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hha", "home health", "puf", "bsa", "2008", "claims" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/96s9-fzwi/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-27",
+  "description" : "The CMS 2010 BSA HHA Beneficiary PUF originates from a 5% simple random sample of beneficiaries drawn (without replacement) from the 100% Beneficiary Summary File for reference year 2010. The sample that is used for the CMS 2010 BSA HHA Beneficiary PUF is disjoint from the existing 5% CMS research sample in the sense that there is no overlap in terms of the beneficiaries in the CMS 2010 BSA HHA Beneficiary PUF and the 5% CMS research sample.",
+  "feed" : "https://data.cms.gov/api/views/96s9-fzwi/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "96s9-fzwi",
+  "keyword" : "2010,bsa,home health,hha,puf,claims",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2013-03-27",
+  "title" : "2010 Basic Stand Alone Home Health Agency Beneficiary PUF",
+  "webService" : "https://data.cms.gov/resource/96s9-fzwi",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/96s9-fzwi/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/96s9-fzwi/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/96s9-fzwi/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/96s9-fzwi/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/96s9-fzwi/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/96s9-fzwi/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "2010", "bsa", "home health", "hha", "puf", "claims" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/tb9m-6kk7/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-27",
+  "description" : "The CMS 2010 BSA Outpatient Procedures PUF originates from a 5% simple random sample of beneficiaries drawn (without replacement) from the 100% Beneficiary Summary File for reference year 2010.",
+  "feed" : "https://data.cms.gov/api/views/tb9m-6kk7/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "tb9m-6kk7",
+  "keyword" : "outpatient,bsa,puf,2010,claims",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2013-03-27",
+  "title" : "2010 Basic Stand Alone Outpatient Procedures PUF",
+  "webService" : "https://data.cms.gov/resource/tb9m-6kk7",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/tb9m-6kk7/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/tb9m-6kk7/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/tb9m-6kk7/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/tb9m-6kk7/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/tb9m-6kk7/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/tb9m-6kk7/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "outpatient", "bsa", "puf", "2010", "claims" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/p9m2-muan/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-27",
+  "description" : "The CMS 2010 BSA SNF Beneficiary PUF originates from a 5% simple random sample of beneficiaries drawn (without replacement) from the 100% Beneficiary Summary File for reference year 2010. The sample that is used for the CMS 2010 BSA SNF Beneficiary PUF is disjoint from the existing 5% CMS research sample in the sense that there is no overlap in terms of the beneficiaries in the CMS 2010 BSA SNF Beneficiary PUF and the 5% CMS research sample.",
+  "feed" : "https://data.cms.gov/api/views/p9m2-muan/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "p9m2-muan",
+  "keyword" : "bsa,snf,2010,puf,claims,skilled nursing",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2013-03-27",
+  "title" : "2010 Basic Stand Alone Skilled Nursing Facility Beneficiary PUF",
+  "webService" : "https://data.cms.gov/resource/p9m2-muan",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/p9m2-muan/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/p9m2-muan/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/p9m2-muan/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/p9m2-muan/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/p9m2-muan/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/p9m2-muan/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "bsa", "snf", "2010", "puf", "claims", "skilled nursing" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/8bhb-ru7d/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-27",
+  "description" : "The 2008 Chronic Conditions PUF is an aggregated file in which each record is a profile or cell defined by the characteristics of Medicare beneficiaries. A profile is defined by all combinations of age category, gender, various chronic conditions, and dual-eligibility status of the beneficiaries. Hence, the number of rows (or records) in the CMS 2008 Chronic Conditions PUF represents the number of unique profiles in the Medicare population. For each profile many claim-related variables are provided in the form of averages. The CMS 2008 Chronic Conditions PUF represents 100% of the Medicare beneficiaries provided in the 100% Beneficiary Summary File for reference year 2008. The 100% Beneficiary Summary File is created annually and contains demographic, entitlement and enrollment data for beneficiaries who were: documented as being alive for some part of the reference year of the Beneficiary Summary File, are entitled to Medicare benefits during the reference year, and enrolled in Medicare Part A and/or Part B for at least one month in the reference year.",
+  "feed" : "https://data.cms.gov/api/views/8bhb-ru7d/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "8bhb-ru7d",
+  "keyword" : "chronic conditions,2008,puf,part a,part b",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2013-03-27",
+  "title" : "2008 Chronic Conditions PUF",
+  "webService" : "https://data.cms.gov/resource/8bhb-ru7d",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/8bhb-ru7d/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/8bhb-ru7d/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/8bhb-ru7d/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/8bhb-ru7d/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/8bhb-ru7d/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/8bhb-ru7d/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "chronic conditions", "2008", "puf", "part a", "part b" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/6v8q-a8k8/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-27",
+  "description" : "The CMS 2008 BSA SNF Beneficiary PUF originates from a 5% simple random sample of beneficiaries drawn (without replacement) from the 100% Beneficiary Summary File for reference year 2008. The sample that is used for the CMS 2008 BSA SNF Beneficiary PUF is disjoint from the existing 5% CMS research sample in the sense that there is no overlap in terms of the beneficiaries in the CMS 2008 BSA SNF Beneficiary PUF and the 5% CMS research sample.",
+  "feed" : "https://data.cms.gov/api/views/6v8q-a8k8/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "6v8q-a8k8",
+  "keyword" : "bsa,puf,2008,snf,skilled nursing,claims",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2013-03-27",
+  "title" : "2008 Basic Stand Alone Skilled Nursing Facility Beneficiary PUF",
+  "webService" : "https://data.cms.gov/resource/6v8q-a8k8",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/6v8q-a8k8/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/6v8q-a8k8/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/6v8q-a8k8/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/6v8q-a8k8/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/6v8q-a8k8/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/6v8q-a8k8/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "bsa", "puf", "2008", "snf", "skilled nursing", "claims" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/pjbb-a7v6/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-06",
+  "description" : "This is a new FQHC is Berks County, Reading PA. It opened in June 2013.",
+  "feed" : "https://data.cms.gov/api/views/pjbb-a7v6/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "pjbb-a7v6",
+  "keyword" : "federally qualified health center",
+  "license" : "Public Domain\nBerks community Health Center(http://www.berkschc.org)",
+  "modified" : "2013-04-06",
+  "releaseDate" : "2013-04-06",
+  "title" : "FQHC",
+  "webService" : "https://data.cms.gov/resource/pjbb-a7v6",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/pjbb-a7v6/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/pjbb-a7v6/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/pjbb-a7v6/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/pjbb-a7v6/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/pjbb-a7v6/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/pjbb-a7v6/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "federally qualified health center" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/yghp-5jrq/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-07-30",
+  "description" : "This data set is test of the federal policy guidance data set for Medicaid.gov",
+  "feed" : "https://data.cms.gov/api/views/yghp-5jrq/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "yghp-5jrq",
+  "keyword" : "",
+  "modified" : "2013-08-13",
+  "releaseDate" : "2012-07-30",
+  "title" : "Federal Policy Guidance",
+  "webService" : "https://data.cms.gov/resource/yghp-5jrq",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/yghp-5jrq/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/yghp-5jrq/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/yghp-5jrq/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/yghp-5jrq/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/yghp-5jrq/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/yghp-5jrq/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/7w3n-gdwy/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-09",
+  "description" : "This dataset identifies Indian health care providers nationally, so that qualified health plan issuers can identify the Indian health care provider organizations and sites that are located in the service areas of their QHPs.  It includes tribal providers, urban Indian organization providers, and Indian Health Service (IHS) facilities.",
+  "feed" : "https://data.cms.gov/api/views/7w3n-gdwy/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "7w3n-gdwy",
+  "keyword" : "fqhc,organization type,organization name,site name,site address,primary contact,tribal,tribal association/consortium,urban,ihs federal site",
+  "modified" : "2013-05-21",
+  "releaseDate" : "2013-04-09",
+  "title" : "Dataset of Indian Health Care Providers, Including Tribal, Urban Indian and Indian Health Service Facilities",
+  "webService" : "https://data.cms.gov/resource/7w3n-gdwy",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/7w3n-gdwy/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/7w3n-gdwy/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/7w3n-gdwy/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/7w3n-gdwy/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/7w3n-gdwy/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/7w3n-gdwy/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "fqhc", "organization type", "organization name", "site name", "site address", "primary contact", "tribal", "tribal association/consortium", "urban", "ihs federal site" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/9hxb-n5xb/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-13",
+  "description" : "The Percent of Estimated Eligible Uninsured People for Outreach Targeting",
+  "feed" : "https://data.cms.gov/api/views/9hxb-n5xb/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "9hxb-n5xb",
+  "keyword" : "percent of uninsured people",
+  "modified" : "2013-08-23",
+  "releaseDate" : "2012-08-13",
+  "title" : "The Percent of Estimated Eligible Uninsured People for Outreach Targeting",
+  "webService" : "https://data.cms.gov/resource/9hxb-n5xb",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/9hxb-n5xb/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/9hxb-n5xb/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/9hxb-n5xb/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/9hxb-n5xb/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/9hxb-n5xb/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/9hxb-n5xb/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "percent of uninsured people" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/pc88-ec56/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-13",
+  "feed" : "https://data.cms.gov/api/views/pc88-ec56/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "pc88-ec56",
+  "keyword" : "",
+  "modified" : "2013-08-26",
+  "releaseDate" : "2012-08-13",
+  "title" : "The Number of Estimated Eligible Uninsured People for Outreach Targeting",
+  "webService" : "https://data.cms.gov/resource/pc88-ec56",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/pc88-ec56/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/pc88-ec56/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/pc88-ec56/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/pc88-ec56/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/pc88-ec56/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/pc88-ec56/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/6i53-z8i8/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-05",
+  "feed" : "https://data.cms.gov/api/views/6i53-z8i8/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "6i53-z8i8",
+  "keyword" : "",
+  "modified" : "2013-05-05",
+  "releaseDate" : "2013-05-05",
+  "title" : "Catalog",
+  "webService" : "https://data.cms.gov/resource/datasets",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/6i53-z8i8/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/6i53-z8i8/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/6i53-z8i8/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/6i53-z8i8/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/6i53-z8i8/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/6i53-z8i8/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/3mrx-nc3p/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-05",
+  "feed" : "https://data.cms.gov/api/views/3mrx-nc3p/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "3mrx-nc3p",
+  "keyword" : "",
+  "modified" : "2013-05-05",
+  "releaseDate" : "2013-05-05",
+  "title" : "Templates",
+  "webService" : "https://data.cms.gov/resource/templates",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/3mrx-nc3p/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/3mrx-nc3p/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/3mrx-nc3p/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/3mrx-nc3p/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/3mrx-nc3p/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/3mrx-nc3p/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/yq65-zusc/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-07",
+  "description" : "Chicago PUMA Population",
+  "feed" : "https://data.cms.gov/api/views/yq65-zusc/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "yq65-zusc",
+  "keyword" : "application",
+  "modified" : "2013-05-08",
+  "releaseDate" : "2013-05-07",
+  "title" : "Navigator",
+  "webService" : "https://data.cms.gov/resource/yq65-zusc",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/yq65-zusc/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/yq65-zusc/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/yq65-zusc/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/yq65-zusc/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/yq65-zusc/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/yq65-zusc/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "application" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/jnya-rcgw/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-09",
+  "feed" : "https://data.cms.gov/api/views/jnya-rcgw/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "jnya-rcgw",
+  "keyword" : "health insurance exchanges,medicare,medicaid,tennessee,affordable care act",
+  "modified" : "2013-05-09",
+  "releaseDate" : "2013-05-09",
+  "title" : "health care",
+  "webService" : "https://data.cms.gov/resource/jnya-rcgw",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/jnya-rcgw/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/jnya-rcgw/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/jnya-rcgw/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/jnya-rcgw/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/jnya-rcgw/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/jnya-rcgw/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "health insurance exchanges", "medicare", "medicaid", "tennessee", "affordable care act" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/fqme-ek75/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-14",
+  "feed" : "https://data.cms.gov/api/views/fqme-ek75/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "fqme-ek75",
+  "keyword" : "",
+  "modified" : "2013-05-14",
+  "releaseDate" : "2013-05-14",
+  "title" : "Data CMS",
+  "webService" : "https://data.cms.gov/resource/fqme-ek75",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/fqme-ek75/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/fqme-ek75/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/fqme-ek75/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/fqme-ek75/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/fqme-ek75/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/fqme-ek75/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/m7bb-arqh/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-27",
+  "description" : "The 2010 Chronic Conditions PUF is an aggregated file in which each record is a profile or cell defined by the characteristics of Medicare beneficiaries. A profile is defined by all combinations of age category, gender, various chronic conditions, and dual-eligibility status of the beneficiaries. Hence, the number of rows (or records) in the CMS 2008 Chronic Conditions PUF represents the number of unique profiles in the Medicare population. For each profile many claim-related variables are provided in the form of averages. \r\n\r\nThe CMS 2008 Chronic Conditions PUF represents 100% of the Medicare beneficiaries provided in the 100% Beneficiary Summary File for reference year 2008. The 100% Beneficiary Summary File is created annually and contains demographic, entitlement and enrollment data for beneficiaries who were: documented as being alive for some part of the reference year of the Beneficiary Summary File, are entitled to Medicare benefits during the reference year, and enrolled in Medicare Part A and/or Part B for at least one month in the reference year.",
+  "feed" : "https://data.cms.gov/api/views/m7bb-arqh/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "m7bb-arqh",
+  "keyword" : "2010,chronic conditions,puf,part a,part b",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2013-03-27",
+  "title" : "2010 Chronic Conditions PUF",
+  "webService" : "https://data.cms.gov/resource/m7bb-arqh",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/m7bb-arqh/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/m7bb-arqh/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/m7bb-arqh/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/m7bb-arqh/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/m7bb-arqh/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/m7bb-arqh/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "2010", "chronic conditions", "puf", "part a", "part b" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/t8du-etpk/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-17",
+  "feed" : "https://data.cms.gov/api/views/t8du-etpk/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "t8du-etpk",
+  "keyword" : "texas uninsured",
+  "modified" : "2013-05-17",
+  "releaseDate" : "2013-05-17",
+  "title" : "Texas Uninsured",
+  "webService" : "https://data.cms.gov/resource/t8du-etpk",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/t8du-etpk/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/t8du-etpk/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/t8du-etpk/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/t8du-etpk/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/t8du-etpk/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/t8du-etpk/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "texas uninsured" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/4w4d-re4j/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-28",
+  "description" : "data.cms.gov\npatented analysis of hospital charges",
+  "feed" : "https://data.cms.gov/api/views/4w4d-re4j/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "4w4d-re4j",
+  "keyword" : "hospital,inpatient,outpatient,public use files",
+  "license" : "Open Database License\nHospitals, inpatient, outpatient, reimbursement methodologies",
+  "modified" : "2013-05-28",
+  "releaseDate" : "2013-05-28",
+  "title" : "data.cms.gov.052813",
+  "webService" : "https://data.cms.gov/resource/4w4d-re4j",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/4w4d-re4j/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/4w4d-re4j/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/4w4d-re4j/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/4w4d-re4j/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/4w4d-re4j/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/4w4d-re4j/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital", "inpatient", "outpatient", "public use files" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/sq7j-n2ta/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-01",
+  "description" : "A provider level summary of Outpatient Prospective Payment System (OPPS) average estimated submitted charges and average Medicare Payments for 30 selected Ambulatory Payment Classification  (APC) Groups",
+  "feed" : "https://data.cms.gov/api/views/sq7j-n2ta/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "sq7j-n2ta",
+  "keyword" : "medicare,cms,health care providers,outpatient,opps,hospital referral region (hrr),state,ambulatory payment classification  (apc)",
+  "modified" : "2013-08-07",
+  "releaseDate" : "2013-05-01",
+  "title" : "Outpatient Prospective Payment System (OPPS) Provider Summary for 30 Selected Ambulatory Payment Classification  (APC) Groups  - CY2011",
+  "webService" : "https://data.cms.gov/resource/sq7j-n2ta",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/sq7j-n2ta/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/sq7j-n2ta/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/sq7j-n2ta/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/sq7j-n2ta/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/sq7j-n2ta/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/sq7j-n2ta/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "medicare", "cms", "health care providers", "outpatient", "opps", "hospital referral region (hrr)", "state", "ambulatory payment classification  (apc)" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/sq86-vka3/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-07-02",
+  "description" : "test",
+  "feed" : "https://data.cms.gov/api/views/sq86-vka3/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "sq86-vka3",
+  "keyword" : "",
+  "license" : "Creative Commons 1.0 Universal\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-07-08",
+  "releaseDate" : "2013-07-02",
+  "title" : "CMS database test",
+  "webService" : "https://data.cms.gov/resource/sq86-vka3",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/sq86-vka3/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/sq86-vka3/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/sq86-vka3/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/sq86-vka3/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/sq86-vka3/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/sq86-vka3/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/ts97-2qbc/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-07-25",
+  "feed" : "https://data.cms.gov/api/views/ts97-2qbc/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ts97-2qbc",
+  "keyword" : "",
+  "modified" : "2013-07-26",
+  "releaseDate" : "2013-07-25",
+  "title" : "CMS Innovation Center Model Awardees",
+  "webService" : "https://data.cms.gov/resource/ts97-2qbc",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/ts97-2qbc/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/ts97-2qbc/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/ts97-2qbc/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/ts97-2qbc/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/ts97-2qbc/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/ts97-2qbc/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/r7vd-wcky/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-13",
+  "description" : "This data set presents information on webinars and forums relating to models involving the CMS Innovation Center.",
+  "feed" : "https://data.cms.gov/api/views/r7vd-wcky/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "r7vd-wcky",
+  "keyword" : "",
+  "modified" : "2013-08-05",
+  "releaseDate" : "2013-05-13",
+  "title" : "CMS Innovation Center Webinars and Forums",
+  "webService" : "https://data.cms.gov/resource/r7vd-wcky",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/r7vd-wcky/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/r7vd-wcky/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/r7vd-wcky/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/r7vd-wcky/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/r7vd-wcky/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/r7vd-wcky/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/2q5m-fnpb/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-01",
+  "description" : "List of the over 3,700 hospitals working within Hospital Engagement Networks (HENs) as part of the Partnership for Patients Initiative.",
+  "feed" : "https://data.cms.gov/api/views/2q5m-fnpb/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "2q5m-fnpb",
+  "keyword" : "patient safety,hospitals,innovation center",
+  "license" : "Public Domain\nCMS Innovation Center(http://innovation.cms.gov)",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2012-11-01",
+  "title" : "Hospitals in the Partnership for Patients&#x27; Hospital Engagement Networks (HENs)",
+  "webService" : "https://data.cms.gov/resource/2q5m-fnpb",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/2q5m-fnpb/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/2q5m-fnpb/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/2q5m-fnpb/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/2q5m-fnpb/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/2q5m-fnpb/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/2q5m-fnpb/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "patient safety", "hospitals", "innovation center" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/dpuq-z7nj/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-12-14",
+  "description" : "The Affordable Care Act created the new Pre-Existing Condition Insurance Plan (PCIP) program to make health insurance available to Americans denied coverage by private insurance companies because of a pre-existing condition.  Coverage for people living with such conditions as diabetes, asthma, cancer, and HIV/AIDS has often been priced out of the reach of most Americans who buy their own insurance, and this has resulted in a lack of coverage for millions. The temporary program covers a broad range of health benefits and is designed as a bridge for people with pre-existing conditions who cannot obtain health insurance coverage in today’s private insurance market. To learn more, visit PCIP.gov or HealthCare.gov.\r\n\r\nNote: * Massachusetts and Vermont are guarantee issue states that have already implemented many of the broader market reforms included in the Affordable Care Act that take effect in 2014.  Existing commercial plans offering guaranteed coverage at premiums comparable to PCIP are already available in both states.",
+  "feed" : "https://data.cms.gov/api/views/dpuq-z7nj/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "dpuq-z7nj",
+  "keyword" : "pcip,health care,pre-existing conditions,affordable care act,coverage,health insurance",
+  "license" : "Public Domain\nU.S. Department of Health & Human Services(http://www.healthcare.gov/law/features/choices/pre-existing-condition-insurance-plan/index.html)",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2012-12-14",
+  "title" : "Monthly Pre-Existing Condition Insurance Plan Enrollment (State by State)",
+  "webService" : "https://data.cms.gov/resource/dpuq-z7nj",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/dpuq-z7nj/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/dpuq-z7nj/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/dpuq-z7nj/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/dpuq-z7nj/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/dpuq-z7nj/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/dpuq-z7nj/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "pcip", "health care", "pre-existing conditions", "affordable care act", "coverage", "health insurance" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/6r8x-ah8z/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-08",
+  "feed" : "https://data.cms.gov/api/views/6r8x-ah8z/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "6r8x-ah8z",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-05-08",
+  "title" : "CMS Newsroom",
+  "webService" : "https://data.cms.gov/resource/6r8x-ah8z",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/6r8x-ah8z/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/6r8x-ah8z/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/6r8x-ah8z/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/6r8x-ah8z/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/6r8x-ah8z/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/6r8x-ah8z/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/hfpz-779i/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-05",
+  "description" : "This data set presents standardized summary information for CMS Innovation Center Models that are in varying stages of implementation.",
+  "feed" : "https://data.cms.gov/api/views/hfpz-779i/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "hfpz-779i",
+  "keyword" : "",
+  "license" : "Public Domain(http://innovation.cms.gov/initiatives/index.html)",
+  "modified" : "2013-08-27",
+  "releaseDate" : "2013-03-05",
+  "title" : "CMS Innovation Center Model Summary Information",
+  "webService" : "https://data.cms.gov/resource/hfpz-779i",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/hfpz-779i/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/hfpz-779i/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/hfpz-779i/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/hfpz-779i/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/hfpz-779i/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/hfpz-779i/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/s2wp-u7bu/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-05",
+  "description" : "This data set presents information on updates and milestones representing Models in varying stages of implementation at the CMS Innovation Center.",
+  "feed" : "https://data.cms.gov/api/views/s2wp-u7bu/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "s2wp-u7bu",
+  "keyword" : "",
+  "modified" : "2013-08-27",
+  "releaseDate" : "2013-03-05",
+  "title" : "CMS Innovation Center Milestones And Updates",
+  "webService" : "https://data.cms.gov/resource/s2wp-u7bu",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/s2wp-u7bu/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/s2wp-u7bu/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/s2wp-u7bu/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/s2wp-u7bu/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/s2wp-u7bu/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/s2wp-u7bu/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cms.gov/api/views/x8pc-u7ta/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-13",
+  "description" : "[Data Formatted for Mapping] The Innovation Center develops new payment and service delivery models in accordance with the requirements of section 1115A of the Social Security Act. Additionally, Congress has defined – both through the Affordable Care Act and previous legislation – a number of specific demonstrations to be conducted by CMS.",
+  "feed" : "https://data.cms.gov/api/views/x8pc-u7ta/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "x8pc-u7ta",
+  "keyword" : "",
+  "license" : "Public Domain(http://innovation.cms.gov)",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2012-11-13",
+  "title" : "CMS Innovation Center Model Participants",
+  "webService" : "https://data.cms.gov/resource/x8pc-u7ta",
+  "distribution" : [ {
+    "accessURL" : "https://data.cms.gov/api/views/x8pc-u7ta/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/x8pc-u7ta/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/x8pc-u7ta/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/x8pc-u7ta/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/x8pc-u7ta/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cms.gov/api/views/x8pc-u7ta/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+} ]

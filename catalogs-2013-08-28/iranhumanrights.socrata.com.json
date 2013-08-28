@@ -1,0 +1,404 @@
+[ {
+  "accessLevel" : "Public",
+  "description" : "Lists the datasets for this domain.  The format should correspond to the spec at http://project-open-data.github.io/schema/",
+  "format" : "application/json",
+  "frequency" : "hourly",
+  "identifier" : "https://iranhumanrights.socrata.com/data.json",
+  "modified" : "2013-08-28",
+  "title" : "Project Open Data, /data.json file",
+  "webService" : "https://iranhumanrights.socrata.com/data.json"
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://iranhumanrights.socrata.com/api/views/uqfx-z9cf/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-01-27",
+  "description" : "Detainees",
+  "feed" : "https://iranhumanrights.socrata.com/api/views/uqfx-z9cf/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "uqfx-z9cf",
+  "keyword" : "",
+  "modified" : "2011-08-20",
+  "releaseDate" : "2010-01-27",
+  "title" : "List of Prisoners of Conscience in Iran",
+  "webService" : "https://iranhumanrights.socrata.com/resource/uqfx-z9cf",
+  "distribution" : [ {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/uqfx-z9cf/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/uqfx-z9cf/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/uqfx-z9cf/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/uqfx-z9cf/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/uqfx-z9cf/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/uqfx-z9cf/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://iranhumanrights.socrata.com/api/views/f2r6-zwcn/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-02-05",
+  "feed" : "https://iranhumanrights.socrata.com/api/views/f2r6-zwcn/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "f2r6-zwcn",
+  "keyword" : "",
+  "modified" : "2011-08-20",
+  "releaseDate" : "2010-02-05",
+  "title" : "List of Those Detained Before June Elections",
+  "webService" : "https://iranhumanrights.socrata.com/resource/f2r6-zwcn",
+  "distribution" : [ {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/f2r6-zwcn/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/f2r6-zwcn/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/f2r6-zwcn/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/f2r6-zwcn/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/f2r6-zwcn/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/f2r6-zwcn/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://iranhumanrights.socrata.com/api/views/g376-4mxv/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-02-05",
+  "feed" : "https://iranhumanrights.socrata.com/api/views/g376-4mxv/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "g376-4mxv",
+  "keyword" : "",
+  "modified" : "2011-08-20",
+  "releaseDate" : "2010-02-05",
+  "title" : "Backup List of Prisoners of Conscience",
+  "webService" : "https://iranhumanrights.socrata.com/resource/g376-4mxv",
+  "distribution" : [ {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/g376-4mxv/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/g376-4mxv/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/g376-4mxv/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/g376-4mxv/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/g376-4mxv/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/g376-4mxv/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://iranhumanrights.socrata.com/api/views/kmzm-7p4t/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-11-15",
+  "description" : "Record of individual executions in Iran since January 1, 2009 to Present. Only officially reported executions are documented.",
+  "feed" : "https://iranhumanrights.socrata.com/api/views/kmzm-7p4t/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "kmzm-7p4t",
+  "keyword" : "",
+  "modified" : "2011-09-07",
+  "releaseDate" : "2010-11-15",
+  "title" : "Executions in Iran since 2009",
+  "webService" : "https://iranhumanrights.socrata.com/resource/kmzm-7p4t",
+  "distribution" : [ {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/kmzm-7p4t/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/kmzm-7p4t/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/kmzm-7p4t/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/kmzm-7p4t/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/kmzm-7p4t/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/kmzm-7p4t/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://iranhumanrights.socrata.com/api/views/59qa-vye5/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-08-23",
+  "feed" : "https://iranhumanrights.socrata.com/api/views/59qa-vye5/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "59qa-vye5",
+  "keyword" : "",
+  "modified" : "2011-08-26",
+  "releaseDate" : "2011-08-23",
+  "title" : "List of 32 Prosecuted Lawyers in Iran between June 12, 2009 and July 10, 2011",
+  "webService" : "https://iranhumanrights.socrata.com/resource/59qa-vye5",
+  "distribution" : [ {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/59qa-vye5/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/59qa-vye5/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/59qa-vye5/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/59qa-vye5/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/59qa-vye5/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/59qa-vye5/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://iranhumanrights.socrata.com/api/views/ystn-szsn/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-08-24",
+  "feed" : "https://iranhumanrights.socrata.com/api/views/ystn-szsn/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ystn-szsn",
+  "keyword" : "",
+  "modified" : "2011-08-25",
+  "releaseDate" : "2011-08-24",
+  "title" : "ليست وکلائى آزار و اذيت شده۲۲۲",
+  "webService" : "https://iranhumanrights.socrata.com/resource/ystn-szsn",
+  "distribution" : [ {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/ystn-szsn/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/ystn-szsn/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/ystn-szsn/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/ystn-szsn/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/ystn-szsn/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/ystn-szsn/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://iranhumanrights.socrata.com/api/views/sscc-u87f/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-08-25",
+  "feed" : "https://iranhumanrights.socrata.com/api/views/sscc-u87f/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "sscc-u87f",
+  "keyword" : "",
+  "modified" : "2011-08-25",
+  "releaseDate" : "2011-08-25",
+  "title" : "ليست وکلائى آزار و اذيت شده",
+  "webService" : "https://iranhumanrights.socrata.com/resource/sscc-u87f",
+  "distribution" : [ {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/sscc-u87f/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/sscc-u87f/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/sscc-u87f/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/sscc-u87f/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/sscc-u87f/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/sscc-u87f/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://iranhumanrights.socrata.com/api/views/junq-3iwy/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-08-25",
+  "feed" : "https://iranhumanrights.socrata.com/api/views/junq-3iwy/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "junq-3iwy",
+  "keyword" : "",
+  "modified" : "2011-08-26",
+  "releaseDate" : "2011-08-25",
+  "title" : "List of 10 Persecuted Lawyers between June 12, 2009 and July 10, 2011",
+  "webService" : "https://iranhumanrights.socrata.com/resource/junq-3iwy",
+  "distribution" : [ {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/junq-3iwy/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/junq-3iwy/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/junq-3iwy/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/junq-3iwy/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/junq-3iwy/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://iranhumanrights.socrata.com/api/views/junq-3iwy/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+} ]

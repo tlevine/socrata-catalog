@@ -1,0 +1,2443 @@
+[ {
+  "accessLevel" : "Public",
+  "description" : "Lists the datasets for this domain.  The format should correspond to the spec at http://project-open-data.github.io/schema/",
+  "format" : "application/json",
+  "frequency" : "hourly",
+  "identifier" : "https://www.data.act.gov.au/data.json",
+  "modified" : "2013-08-28",
+  "title" : "Project Open Data, /data.json file",
+  "webService" : "https://www.data.act.gov.au/data.json"
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.action.act.gov.au/googletransit/google_transit.zip",
+  "created" : "2012-06-27",
+  "description" : "Files in GTFS format for ACTION Bus routes and timetables.",
+  "format" : "application/zip",
+  "identifier" : "2acm-wq55",
+  "keyword" : "action,buses",
+  "license" : "Creative Commons Attribution 3.0 Australia\nTAMS Directorate(http://www.action.act.gov.au/googletransit/google_transit.zip)\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-09-19",
+  "releaseDate" : "2012-06-27",
+  "title" : "ACTION timetables - Google Transit Feed",
+  "distribution" : [ {
+    "accessURL" : "http://www.action.act.gov.au/googletransit/google_transit.zip",
+    "formats" : [ {
+      "label" : "zip",
+      "value" : "application/zip"
+    } ]
+  } ],
+  "keywords" : [ "action", "buses" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/hbbp-5izt/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-29",
+  "description" : "For each Public school in the ACT, the number in each class are reported in February and August each year.  Non-Government schools report only in February.",
+  "feed" : "https://www.data.act.gov.au/api/views/hbbp-5izt/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "hbbp-5izt",
+  "keyword" : "schools,census,public,non government",
+  "license" : "Creative Commons Attribution 3.0 Australia\nEducation and Training Directorate\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-09-13",
+  "releaseDate" : "2012-08-29",
+  "title" : "Census of all ACT Schools",
+  "webService" : "https://www.data.act.gov.au/resource/hbbp-5izt",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/hbbp-5izt/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/hbbp-5izt/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/hbbp-5izt/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/hbbp-5izt/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/hbbp-5izt/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/hbbp-5izt/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "schools", "census", "public", "non government" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/rz6b-wjn5/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-06-28",
+  "description" : "Schedule of current tenders for Capital Works",
+  "feed" : "https://www.data.act.gov.au/api/views/rz6b-wjn5/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "rz6b-wjn5",
+  "keyword" : "capital works,tenders",
+  "license" : "Creative Commons Attribution 3.0 Australia\nShared Services Procurement, Treasury Directorate\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-06-28",
+  "title" : "Call Tender Schedule - May 2012",
+  "webService" : "https://www.data.act.gov.au/resource/rz6b-wjn5",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/rz6b-wjn5/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/rz6b-wjn5/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/rz6b-wjn5/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/rz6b-wjn5/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/rz6b-wjn5/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/rz6b-wjn5/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "capital works", "tenders" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/guhm-5jrw/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-06-28",
+  "description" : "Statistics on employment in the ACT Government Public Service from 2007-present",
+  "feed" : "https://www.data.act.gov.au/api/views/guhm-5jrw/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "guhm-5jrw",
+  "keyword" : "actps,employment",
+  "license" : "Creative Commons Attribution 3.0 Australia\nCommissioner for Public Administration, Chief Minister and Cabinet Directorate\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-06-28",
+  "title" : "ACTPS Workforce Indicators",
+  "webService" : "https://www.data.act.gov.au/resource/guhm-5jrw",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/guhm-5jrw/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/guhm-5jrw/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/guhm-5jrw/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/guhm-5jrw/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/guhm-5jrw/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/guhm-5jrw/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "actps", "employment" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/y6fr-unp2/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-06-28",
+  "description" : "Twitter analysis of the first ACT Virtual Community Cabinet, held on 26 July 2011.",
+  "feed" : "https://www.data.act.gov.au/api/views/y6fr-unp2/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "y6fr-unp2",
+  "keyword" : "vcc,twitter",
+  "license" : "Creative Commons Attribution 3.0 Australia\nChief Minister and Cabinet Directorate\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-06-28",
+  "title" : "Tweets-first VCC",
+  "webService" : "https://www.data.act.gov.au/resource/y6fr-unp2",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/y6fr-unp2/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/y6fr-unp2/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/y6fr-unp2/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/y6fr-unp2/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/y6fr-unp2/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/y6fr-unp2/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "vcc", "twitter" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/a53h-ua8z/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-06-28",
+  "description" : "Twitter analysis of the second ACT Virtual Community Cabinet, held on 30 August 2011.",
+  "feed" : "https://www.data.act.gov.au/api/views/a53h-ua8z/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "a53h-ua8z",
+  "keyword" : "twitter,actvcc",
+  "license" : "Creative Commons Attribution 3.0 Australia\nChief Minister and Cabinet Directorate\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-06-28",
+  "title" : "Tweets-second VCC",
+  "webService" : "https://www.data.act.gov.au/resource/a53h-ua8z",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/a53h-ua8z/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/a53h-ua8z/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/a53h-ua8z/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/a53h-ua8z/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/a53h-ua8z/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/a53h-ua8z/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "twitter", "actvcc" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/9h98-mxf9/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-06-28",
+  "description" : "Twitter analysis of the fourth ACT Virtual Community Cabinet, held on 12 June 2012.",
+  "feed" : "https://www.data.act.gov.au/api/views/9h98-mxf9/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "9h98-mxf9",
+  "keyword" : "twitter,actvcc",
+  "license" : "Creative Commons Attribution 3.0 Australia\nChief Minister and Cabinet Directorate\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-06-28",
+  "title" : "Tweets-fourth VCC",
+  "webService" : "https://www.data.act.gov.au/resource/9h98-mxf9",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/9h98-mxf9/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/9h98-mxf9/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/9h98-mxf9/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/9h98-mxf9/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/9h98-mxf9/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/9h98-mxf9/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "twitter", "actvcc" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/9ef7-bhzn/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-06-28",
+  "description" : "Suburbs in which European Wasps Nests have been found.",
+  "feed" : "https://www.data.act.gov.au/api/views/9ef7-bhzn/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "9ef7-bhzn",
+  "keyword" : "european wasps",
+  "license" : "Creative Commons Attribution 3.0 Australia\nTerritory and Municipal Services Directorate(http://www.tams.act.gov.au/play/pcl/pestsandweeds/pestsandweeds3/wasps)\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-06-28",
+  "title" : "Location Of European Wasps Nests",
+  "webService" : "https://www.data.act.gov.au/resource/9ef7-bhzn",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/9ef7-bhzn/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/9ef7-bhzn/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/9ef7-bhzn/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/9ef7-bhzn/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/9ef7-bhzn/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/9ef7-bhzn/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "european wasps" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/22rs-ycdh/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-07-15",
+  "description" : "Individual bus stop locations where vehicles pick up or drop off passengers.",
+  "feed" : "https://www.data.act.gov.au/api/views/22rs-ycdh/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "22rs-ycdh",
+  "keyword" : "",
+  "license" : "Creative Commons Attribution 3.0 Australia\nACTION(http://www.action.act.gov.au/googletransit/default.html)\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2013-03-24",
+  "releaseDate" : "2012-07-15",
+  "title" : "Bus Stops",
+  "webService" : "https://www.data.act.gov.au/resource/22rs-ycdh",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/22rs-ycdh/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/22rs-ycdh/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/22rs-ycdh/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/22rs-ycdh/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/22rs-ycdh/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/22rs-ycdh/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/file_data/8UyUgAfg5tM3W6W2HgS7CQ4PZGp8a6kvrQjPSgxAdYI?filename=Admin_Boundaries_20120801.zip",
+  "created" : "2012-08-15",
+  "description" : "Administrative Boundaries for the ACT, based on LL-WGS84 coordinates",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "62s2-bs8d",
+  "keyword" : "administrative boundaries",
+  "license" : "Creative Commons Attribution 3.0 Australia\nACTPLA\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-08-15",
+  "title" : "Admin Boundaries 20120801",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/file_data/8UyUgAfg5tM3W6W2HgS7CQ4PZGp8a6kvrQjPSgxAdYI?filename=Admin_Boundaries_20120801.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "administrative boundaries" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/q8rt-q8cy/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-16",
+  "description" : "Addresses of ACT Government Schools",
+  "feed" : "https://www.data.act.gov.au/api/views/q8rt-q8cy/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "q8rt-q8cy",
+  "keyword" : "schools,addresses",
+  "license" : "Creative Commons Attribution 3.0 Australia\nEducation and Training Directorate\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2013-08-26",
+  "releaseDate" : "2012-08-16",
+  "title" : "ACT School Locations",
+  "webService" : "https://www.data.act.gov.au/resource/q8rt-q8cy",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/q8rt-q8cy/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/q8rt-q8cy/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/q8rt-q8cy/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/q8rt-q8cy/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/q8rt-q8cy/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/q8rt-q8cy/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "schools", "addresses" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/file_data/jrO5kwu371KSCquK11Z4sSLY9TfM1rwYOn-2cXiTqAA?filename=2012_Electoral_Boundaries.zip",
+  "created" : "2012-08-28",
+  "description" : "The 2012 Electoral Boundaries provided originally in ESRI shapefiles.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "uapx-j7cd",
+  "keyword" : "",
+  "license" : "Creative Commons Attribution 3.0 Australia\nACTPLA\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-08-28",
+  "title" : "2012 Electoral Boundaries",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/file_data/jrO5kwu371KSCquK11Z4sSLY9TfM1rwYOn-2cXiTqAA?filename=2012_Electoral_Boundaries.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/v64c-5t9x/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-09-03",
+  "description" : "Projections of the population of the ACT for the period 2009-2059",
+  "feed" : "https://www.data.act.gov.au/api/views/v64c-5t9x/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "v64c-5t9x",
+  "keyword" : "population,projection",
+  "license" : "Creative Commons Attribution 3.0 Australia\nChief Minister and Cabinet Directorate(http://www.cmd.act.gov.au/policystrategic/actstats/projections)\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-09-03",
+  "title" : "2009-2059 ACT Population Projections",
+  "webService" : "https://www.data.act.gov.au/resource/v64c-5t9x",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/v64c-5t9x/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/v64c-5t9x/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/v64c-5t9x/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/v64c-5t9x/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/v64c-5t9x/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/v64c-5t9x/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "population", "projection" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/2w3d-6k8b/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-10-18",
+  "description" : "A table of first preference votes for each electorate in the 2008 Legislative Assembly Election",
+  "feed" : "https://www.data.act.gov.au/api/views/2w3d-6k8b/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "2w3d-6k8b",
+  "keyword" : "2008 election,legislative assembly",
+  "license" : "Creative Commons Attribution 3.0 Australia\nElections ACT(http://elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2008_election)\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-18",
+  "releaseDate" : "2012-10-18",
+  "title" : "2008 Assembly Election - Summary of First Preference Votes by Electorate",
+  "webService" : "https://www.data.act.gov.au/resource/2w3d-6k8b",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/2w3d-6k8b/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/2w3d-6k8b/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/2w3d-6k8b/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/2w3d-6k8b/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/2w3d-6k8b/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/2w3d-6k8b/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "2008 election", "legislative assembly" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/b8tj-nsaa/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-10-18",
+  "description" : "A summary of votes by party and vote type in the 2008 Legislative Assembly Election",
+  "feed" : "https://www.data.act.gov.au/api/views/b8tj-nsaa/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "b8tj-nsaa",
+  "keyword" : "2008 election,legislative assembly",
+  "license" : "Creative Commons Attribution 3.0 Australia\nElections ACT(http://elections.act.gov.au/elections_and_voting/past_act_legislative_assembly_elections/2008_election)\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-18",
+  "releaseDate" : "2012-10-18",
+  "title" : "2008 Assembly Election - Summary of First Preference Votes by Party and Vote Type",
+  "webService" : "https://www.data.act.gov.au/resource/b8tj-nsaa",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/b8tj-nsaa/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/b8tj-nsaa/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/b8tj-nsaa/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/b8tj-nsaa/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/b8tj-nsaa/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/b8tj-nsaa/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "2008 election", "legislative assembly" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/file_data/h7XSaicHoymngjeZZqTT3_o-lBspIi3D6mcwobDJVYA?filename=ACTLegislativeAssemblypollingplaces.kml",
+  "created" : "2012-10-18",
+  "description" : "2012 ACT Election Polling places as published by Elections ACT.",
+  "format" : "application/xml; charset=us-ascii",
+  "identifier" : "grh6-mmqd",
+  "keyword" : "election,parliamentary",
+  "license" : "Creative Commons Attribution 3.0 Australia\nElections ACT(https://maps.google.com.au/maps/ms?ie=UTF8&authuser=0&msa=0&output=kml&msid=207039945778026635100.0004c53769a9ab9682c70)\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-18",
+  "releaseDate" : "2012-10-18",
+  "title" : "ACTLegislative Assemblypollingplaces",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/file_data/h7XSaicHoymngjeZZqTT3_o-lBspIi3D6mcwobDJVYA?filename=ACTLegislativeAssemblypollingplaces.kml",
+    "formats" : [ {
+      "label" : "application/xml; charset=us-ascii",
+      "value" : "application/xml; charset=us-ascii"
+    } ]
+  } ],
+  "keywords" : [ "election", "parliamentary" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/hqmw-s6ed/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-10-18",
+  "description" : "Enrolments in ACT Legislative Assembly Electorates in June 2011 and June 2012",
+  "feed" : "https://www.data.act.gov.au/api/views/hqmw-s6ed/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "hqmw-s6ed",
+  "keyword" : "enrolments,electorates",
+  "license" : "Creative Commons Attribution 3.0 Australia\nElections ACT(http://elections.act.gov.au/__data/assets/pdf_file/0019/8344/12annualreport.pdf)\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-18",
+  "releaseDate" : "2012-10-18",
+  "title" : "Enrolment by Age Group by ACT Electorate as at 30 June 2012",
+  "webService" : "https://www.data.act.gov.au/resource/hqmw-s6ed",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/hqmw-s6ed/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/hqmw-s6ed/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/hqmw-s6ed/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/hqmw-s6ed/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/hqmw-s6ed/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/hqmw-s6ed/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "enrolments", "electorates" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/af9i-gyct/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-10-18",
+  "description" : "Enrolments for ACT Legislative Assembly Elections by Age Group",
+  "feed" : "https://www.data.act.gov.au/api/views/af9i-gyct/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "af9i-gyct",
+  "keyword" : "enrolment,legislative assembly,election",
+  "license" : "Creative Commons Attribution 3.0 Australia\nElections ACT(http://elections.act.gov.au/__data/assets/pdf_file/0019/8344/12annualreport.pdf)\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-18",
+  "releaseDate" : "2012-10-18",
+  "title" : "Enrolment by Age Group",
+  "webService" : "https://www.data.act.gov.au/resource/af9i-gyct",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/af9i-gyct/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/af9i-gyct/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/af9i-gyct/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/af9i-gyct/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/af9i-gyct/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/af9i-gyct/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "enrolment", "legislative assembly", "election" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.courts.act.gov.au/magistrates/feed/xml/judgments",
+  "created" : "2012-06-27",
+  "description" : "Information on judgements made by the ACT Magistrates Court.",
+  "format" : "application/octet-stream",
+  "identifier" : "nn7n-3rdm",
+  "keyword" : "",
+  "license" : "Creative Commons Attribution 3.0 Australia\nJACS Directorate\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-06-27",
+  "title" : "ACT Magistrates Court - Judgements",
+  "distribution" : [ {
+    "accessURL" : "http://www.courts.act.gov.au/magistrates/feed/xml/judgments",
+    "formats" : [ {
+      "label" : "unknown",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.courts.act.gov.au/supreme/feed/xml/judgments",
+  "created" : "2012-06-27",
+  "description" : "Information on judgements made by the ACT Supreme Court.",
+  "format" : "application/octet-stream",
+  "identifier" : "y4x5-34pu",
+  "keyword" : "",
+  "license" : "Creative Commons Attribution 3.0 Australia\nJACS Directorate\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2013-02-18",
+  "releaseDate" : "2012-06-27",
+  "title" : "ACT Supreme Court - Judgements",
+  "distribution" : [ {
+    "accessURL" : "http://www.courts.act.gov.au/supreme/feed/xml/judgments",
+    "formats" : [ {
+      "label" : "unknown",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.courts.act.gov.au/supreme/feed/xml/sentences",
+  "created" : "2012-06-27",
+  "description" : "Information on sentences made by the ACT Supreme Court.",
+  "format" : "application/octet-stream",
+  "identifier" : "587u-b3cf",
+  "keyword" : "",
+  "license" : "Creative Commons Attribution 3.0 Australia\nJACS Directorate\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-06-27",
+  "title" : "ACT Supreme Court - Sentences",
+  "distribution" : [ {
+    "accessURL" : "http://www.courts.act.gov.au/supreme/feed/xml/sentences",
+    "formats" : [ {
+      "label" : "unknown",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.cmd.act.gov.au/open_government/functions/functionality/foi_rss",
+  "created" : "2012-06-28",
+  "description" : "Information provided to an applicant under Freedom of Information legislation, by the ACT Government.",
+  "format" : "application/octet-stream",
+  "identifier" : "yq97-a59a",
+  "keyword" : "",
+  "license" : "Creative Commons Attribution 3.0 Australia\nChief Minister and Cabinet Directorate\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2013-02-18",
+  "releaseDate" : "2012-06-28",
+  "title" : "Freedom of Information (FOI) Summaries",
+  "distribution" : [ {
+    "accessURL" : "http://www.cmd.act.gov.au/open_government/functions/functionality/foi_rss",
+    "formats" : [ {
+      "label" : "unknown",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.actpla.act.gov.au/tools_resources/legislation_plans_registers/plans/territory_plan/admin/rss/territory_plan_variations_approved_or_withdrawn_since_31_march_2008",
+  "created" : "2012-06-28",
+  "description" : "Updates to the ACT Government’s Territory Plan, provided as an RSS feed.",
+  "format" : "application/octet-stream",
+  "identifier" : "k5ar-8h7r",
+  "keyword" : "",
+  "license" : "Creative Commons Attribution 3.0 Australia\nCity Planning Division, Environment and Sustainabable Development Directorate\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-06-28",
+  "title" : "Territory Plan variations approved or withdrawn since 31 March 2008",
+  "distribution" : [ {
+    "accessURL" : "http://www.actpla.act.gov.au/tools_resources/legislation_plans_registers/plans/territory_plan/admin/rss/territory_plan_variations_approved_or_withdrawn_since_31_march_2008",
+    "formats" : [ {
+      "label" : "unknown",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/gypk-fkpc/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-06-28",
+  "description" : "Information about the terms of the ACT Legislative Assembly from 1989 to the present.",
+  "feed" : "https://www.data.act.gov.au/api/views/gypk-fkpc/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "gypk-fkpc",
+  "keyword" : "legislative assembly,terms",
+  "license" : "Creative Commons Attribution 3.0 Australia\nACT Legislative Assembly(http://www.parliament.act.gov.au/companion/A01.pdf)\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-06-28",
+  "title" : "ACT Legislative Assembly Terms",
+  "webService" : "https://www.data.act.gov.au/resource/gypk-fkpc",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/gypk-fkpc/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/gypk-fkpc/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/gypk-fkpc/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/gypk-fkpc/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/gypk-fkpc/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/gypk-fkpc/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "legislative assembly", "terms" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/syzw-3bqz/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-06-28",
+  "description" : "Terms of office of ACT Chief Ministers",
+  "feed" : "https://www.data.act.gov.au/api/views/syzw-3bqz/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "syzw-3bqz",
+  "keyword" : "chief ministers,terms",
+  "license" : "Creative Commons Attribution 3.0 Australia\nACT Legislative Assembly(http://www.parliament.act.gov.au/companion/A05.pdf)\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-06-28",
+  "title" : "ACT Chief Ministers' Terms",
+  "webService" : "https://www.data.act.gov.au/resource/syzw-3bqz",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/syzw-3bqz/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/syzw-3bqz/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/syzw-3bqz/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/syzw-3bqz/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/syzw-3bqz/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/syzw-3bqz/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "chief ministers", "terms" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/s8n7-y27s/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-06-27",
+  "description" : "Location of Campuses operated by the Canberra Institute of Technology",
+  "feed" : "https://www.data.act.gov.au/api/views/s8n7-y27s/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "s8n7-y27s",
+  "keyword" : "campus,cit,tafe",
+  "license" : "Creative Commons Attribution 3.0 Australia\nCanberra Institute of Technology\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-06-27",
+  "title" : "ACT TAFE Campus Locations",
+  "webService" : "https://www.data.act.gov.au/resource/s8n7-y27s",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/s8n7-y27s/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/s8n7-y27s/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/s8n7-y27s/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/s8n7-y27s/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/s8n7-y27s/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/s8n7-y27s/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "campus", "cit", "tafe" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/rux9-a9a9/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-09-06",
+  "description" : "This is a list of motor vehicle registrations from the 1950s and early 60s.  Name and address data has been removed in the interest of privacy.",
+  "feed" : "https://www.data.act.gov.au/api/views/rux9-a9a9/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "rux9-a9a9",
+  "keyword" : "vehicles,registration",
+  "license" : "Creative Commons Attribution 3.0 Australia\nTerritory Records Office\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-09-13",
+  "releaseDate" : "2012-09-06",
+  "title" : "Vehicle Registrations - 1950s",
+  "webService" : "https://www.data.act.gov.au/resource/rux9-a9a9",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/rux9-a9a9/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/rux9-a9a9/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/rux9-a9a9/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/rux9-a9a9/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/rux9-a9a9/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/rux9-a9a9/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "vehicles", "registration" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/hssi-h7fk/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-09-06",
+  "description" : "Location of public library banches in Libraries ACT",
+  "feed" : "https://www.data.act.gov.au/api/views/hssi-h7fk/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "hssi-h7fk",
+  "keyword" : "libraries",
+  "license" : "Creative Commons Attribution 3.0 Australia\nLibraries ACT(http://www.library.act.gov.au/library_services/library_locations_and_opening_hours)\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-09-06",
+  "title" : "Library Locations",
+  "webService" : "https://www.data.act.gov.au/resource/hssi-h7fk",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/hssi-h7fk/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/hssi-h7fk/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/hssi-h7fk/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/hssi-h7fk/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/hssi-h7fk/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/hssi-h7fk/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "libraries" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://data.gov.au/bye?http://www.esa.act.gov.au/feeds/currentincidents.xml",
+  "created" : "2012-06-27",
+  "description" : "A GEORSS feed of current incidents being attended by the ACT Emergency Services Agency",
+  "format" : "text/xml",
+  "identifier" : "59jb-5aq2",
+  "keyword" : "",
+  "license" : "Creative Commons Attribution 3.0 Australia\nACT Emergency Services Agency\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-06-27",
+  "title" : "ACT ESA Current Incidents",
+  "distribution" : [ {
+    "accessURL" : "http://data.gov.au/bye?http://www.esa.act.gov.au/feeds/currentincidents.xml",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "text/xml"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://esa.act.gov.au/feed/",
+  "created" : "2012-06-27",
+  "description" : "News Alerts provided by the ACT Emergency Services Agency",
+  "format" : "application/octet-stream",
+  "identifier" : "wras-2wgj",
+  "keyword" : "",
+  "license" : "Creative Commons Attribution 3.0 Australia\nACT Emergency Agency\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-06-27",
+  "title" : "ACT ESA News Alerts",
+  "distribution" : [ {
+    "accessURL" : "http://esa.act.gov.au/feed/",
+    "formats" : [ {
+      "label" : "unknown",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.act.gov.au/feed",
+  "created" : "2012-06-27",
+  "description" : "ACT Government news, events and hot topics published on the ACT Government information portal",
+  "format" : "application/octet-stream",
+  "identifier" : "tqte-tscj",
+  "keyword" : "",
+  "license" : "Creative Commons Attribution 3.0 Australia\nCMC Directorate\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-06-27",
+  "title" : "ACT Government News and Events",
+  "distribution" : [ {
+    "accessURL" : "http://www.act.gov.au/feed",
+    "formats" : [ {
+      "label" : "unknown",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://data.gov.au/bye?http://www.cmd.act.gov.au/open_government/functions/functionality/cabinet_summaries_rss",
+  "created" : "2012-06-27",
+  "description" : "As part of the ACT Government’s Open Government commitment, these are public summaries of matters considered by Cabinet.",
+  "format" : "application/octet-stream",
+  "identifier" : "7w7u-efpd",
+  "keyword" : "",
+  "license" : "Creative Commons Attribution 3.0 Australia\nCMC Directorate\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-06-27",
+  "title" : "ACT Government Summary of Cabinet Outcomes",
+  "distribution" : [ {
+    "accessURL" : "http://data.gov.au/bye?http://www.cmd.act.gov.au/open_government/functions/functionality/cabinet_summaries_rss",
+    "formats" : [ {
+      "label" : "unknown",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.actpla.act.gov.au/latest_news/news/rss-feed",
+  "created" : "2012-06-27",
+  "description" : "Information on the latest news from the ACT Planning and Land Authority (ACTPLA).",
+  "format" : "application/octet-stream",
+  "identifier" : "8dgn-rysk",
+  "keyword" : "",
+  "license" : "Creative Commons Attribution 3.0 Australia\nESD Directorate\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-06-27",
+  "title" : "ACTPLA - Latest News",
+  "distribution" : [ {
+    "accessURL" : "http://www.actpla.act.gov.au/latest_news/news/rss-feed",
+    "formats" : [ {
+      "label" : "unknown",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.jobs.act.gov.au/rss_feeds/all_vacant_rss_feed",
+  "created" : "2012-06-28",
+  "description" : "Information on vacant permanent and temporary jobs that are available in the ACT Government and have been advertised on the ACT Government Jobs website.",
+  "format" : "application/octet-stream",
+  "identifier" : "vf94-th2f",
+  "keyword" : "",
+  "license" : "Creative Commons Attribution 3.0 Australia\nTreasury Directorate\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-06-28",
+  "title" : "Vacant ACT Government Jobs",
+  "distribution" : [ {
+    "accessURL" : "http://www.jobs.act.gov.au/rss_feeds/all_vacant_rss_feed",
+    "formats" : [ {
+      "label" : "unknown",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.timetotalk.act.gov.au/community-engagements/current/",
+  "created" : "2012-06-28",
+  "description" : "Current Community Engagement activities",
+  "format" : "application/octet-stream",
+  "identifier" : "y3pi-tbda",
+  "keyword" : "",
+  "license" : "Creative Commons Attribution 3.0 Australia\nChief Minister and Cabinet Directorate(http://www.timetotalk.act.gov.au/)\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-06-28",
+  "title" : "Community Engagement - Current Engagements",
+  "distribution" : [ {
+    "accessURL" : "http://www.timetotalk.act.gov.au/community-engagements/current/",
+    "formats" : [ {
+      "label" : "unknown",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.timetotalk.act.gov.au/news/",
+  "created" : "2012-06-28",
+  "description" : "News feed about Community Engagements",
+  "format" : "application/octet-stream",
+  "identifier" : "9q6q-8qsb",
+  "keyword" : "",
+  "license" : "Creative Commons Attribution 3.0 Australia\nChief Minister and Cabinet Directorate(http://www.timetotalk.act.gov.au/)\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-06-28",
+  "title" : "Community Engagement - News",
+  "distribution" : [ {
+    "accessURL" : "http://www.timetotalk.act.gov.au/news/",
+    "formats" : [ {
+      "label" : "unknown",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.cmd.act.gov.au/open_government/functions/functionality/media_release_rss_feeds/act_economic_development_directorate_media_releases_rss",
+  "created" : "2012-06-28",
+  "description" : "Media Releases from the Economic Development Directorate",
+  "format" : "application/octet-stream",
+  "identifier" : "7nn8-dpn5",
+  "keyword" : "",
+  "license" : "Creative Commons Attribution 3.0 Australia\nEconomic Development Directorate\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-06-28",
+  "title" : "EDD - Media Releases",
+  "distribution" : [ {
+    "accessURL" : "http://www.cmd.act.gov.au/open_government/functions/functionality/media_release_rss_feeds/act_economic_development_directorate_media_releases_rss",
+    "formats" : [ {
+      "label" : "unknown",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.economicdevelopment.act.gov.au/functionality/news_and_events",
+  "created" : "2012-06-28",
+  "description" : "Information about News and Events related to the Economic Development Directorate",
+  "format" : "application/octet-stream",
+  "identifier" : "tpeu-3ipy",
+  "keyword" : "",
+  "license" : "Creative Commons Attribution 3.0 Australia\nEconomic Development Directorate\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-06-28",
+  "title" : "EDD - News and Events",
+  "distribution" : [ {
+    "accessURL" : "http://www.economicdevelopment.act.gov.au/functionality/news_and_events",
+    "formats" : [ {
+      "label" : "unknown",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.library.act.gov.au/functions/rss/announcements",
+  "created" : "2012-06-28",
+  "description" : "Announcements from the ACT Library Service.  This data is provided as an RSS feed.",
+  "format" : "application/octet-stream",
+  "identifier" : "b9ad-bjvw",
+  "keyword" : "",
+  "license" : "Creative Commons Attribution 3.0 Australia\nTerritory and Municipal Services Directorate\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-06-28",
+  "title" : "Libraries ACT - Announcements",
+  "distribution" : [ {
+    "accessURL" : "http://www.library.act.gov.au/functions/rss/announcements",
+    "formats" : [ {
+      "label" : "unknown",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.cmd.act.gov.au/open_government/inform/act_government_media_releases/tamsd",
+  "created" : "2012-06-28",
+  "description" : "Media Releases from the Territory and Municipal Services Directorate, provided as an RSS feed.",
+  "format" : "application/octet-stream",
+  "identifier" : "yn6j-tgcm",
+  "keyword" : "",
+  "license" : "Creative Commons Attribution 3.0 Australia\nTerritory and Municipal Services Directorate\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-06-28",
+  "title" : "TAMS - Media Releases",
+  "distribution" : [ {
+    "accessURL" : "http://www.cmd.act.gov.au/open_government/inform/act_government_media_releases/tamsd",
+    "formats" : [ {
+      "label" : "unknown",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.tams.act.gov.au/rss_feeds/path-closures",
+  "created" : "2012-06-28",
+  "description" : "Information on temporary closures of cycle and pedestrian paths in the ACT, provided as an RSS feed.",
+  "format" : "application/octet-stream",
+  "identifier" : "xvax-hq3t",
+  "keyword" : "",
+  "license" : "Creative Commons Attribution 3.0 Australia\nTerritory and Municipal Services Directorate\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-06-28",
+  "title" : "Temporary ACT Community Path Closures",
+  "distribution" : [ {
+    "accessURL" : "http://www.tams.act.gov.au/rss_feeds/path-closures",
+    "formats" : [ {
+      "label" : "unknown",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.tams.act.gov.au/rss_feeds/temp-road-close",
+  "created" : "2012-06-28",
+  "description" : "Temporary road closure information for ACT public roads, provided as an RSS feed.",
+  "format" : "application/octet-stream",
+  "identifier" : "hu7h-cuvh",
+  "keyword" : "",
+  "license" : "Creative Commons Attribution 3.0 Australia\nTerritory and Municipal Services Directorate\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-06-28",
+  "title" : "Temporary ACT Public Road Closures",
+  "distribution" : [ {
+    "accessURL" : "http://www.tams.act.gov.au/rss_feeds/temp-road-close",
+    "formats" : [ {
+      "label" : "unknown",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/file_data/PWdw-luZ3vqLfzdun4AduqjKleVhicojzuBUKSbOmbs?filename=Border.zip",
+  "created" : "2012-08-29",
+  "description" : "The ACT Border, originally made available as ESRI shapefiles.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "ex6e-2nuq",
+  "keyword" : "",
+  "license" : "Creative Commons Attribution 3.0 Australia\nACTPLA\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-08-29",
+  "title" : "ACT Borders",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/file_data/PWdw-luZ3vqLfzdun4AduqjKleVhicojzuBUKSbOmbs?filename=Border.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/file_data/m0Ac2mCG3p3MrNn7f_OFH8AE6VWDLlNqx_bFBs1GxaE?filename=District.zip",
+  "created" : "2012-08-29",
+  "description" : "ACT Districts, provided originally in ESRI shapefiles.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "45vj-q7kx",
+  "keyword" : "",
+  "license" : "Creative Commons Attribution 3.0 Australia\nACTPLA\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-08-29",
+  "title" : "District",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/file_data/m0Ac2mCG3p3MrNn7f_OFH8AE6VWDLlNqx_bFBs1GxaE?filename=District.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/file_data/6RxO3wVrLzUJb-GsVa84a6Ap-6-WKmbsPR2RHM65aiQ?filename=Water_line.zip",
+  "created" : "2012-08-29",
+  "description" : "More water information about the ACT.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "ng3r-vwkx",
+  "keyword" : "",
+  "license" : "Creative Commons Attribution 3.0 Australia\nACTPLA\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-08-29",
+  "title" : "Water Line",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/file_data/6RxO3wVrLzUJb-GsVa84a6Ap-6-WKmbsPR2RHM65aiQ?filename=Water_line.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/file_data/yrXNwN4hJ1tJPxubyPxnb3SSB95yMjVd7YDvvmV7jFY?filename=Water_polygon.zip",
+  "created" : "2012-08-29",
+  "description" : "Water information for the ACT, originally provided as ESRI shapefiles.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "39ja-7ryn",
+  "keyword" : "",
+  "license" : "Creative Commons Attribution 3.0 Australia\nACTPLA\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-08-29",
+  "title" : "ACT Water Polygons",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/file_data/yrXNwN4hJ1tJPxubyPxnb3SSB95yMjVd7YDvvmV7jFY?filename=Water_polygon.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/98mz-y8zv/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-29",
+  "description" : "Call for Tender Schedule for the ACT Public Service - Aug 2012. Please note, for around 2/5 (40%) of tenders, no location data is available and thus they don't show up on the map. Please see full data set for all tenders.",
+  "feed" : "https://www.data.act.gov.au/api/views/98mz-y8zv/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "98mz-y8zv",
+  "keyword" : "tenders",
+  "license" : "Creative Commons Attribution 3.0 Australia\nShared Services Procurement, Treasury Directorate\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-08-29",
+  "title" : "Call Tender Schedule Aug 2012",
+  "webService" : "https://www.data.act.gov.au/resource/98mz-y8zv",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/98mz-y8zv/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/98mz-y8zv/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/98mz-y8zv/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/98mz-y8zv/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/98mz-y8zv/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/98mz-y8zv/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "tenders" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/mznp-3brd/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-29",
+  "description" : "NAPLAN testing scores for Classes 3,5,7 and 9 from 2008 - 2011.",
+  "feed" : "https://www.data.act.gov.au/api/views/mznp-3brd/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "mznp-3brd",
+  "keyword" : "naplan,testing",
+  "license" : "Creative Commons Attribution 3.0 Australia\nEducation and Training Directorate(http://www.det.act.gov.au/teaching_and_learning/assessment_and_reporting/national_assessment_program_nap)\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-08-29",
+  "title" : "ACT NAPLAN Scores",
+  "webService" : "https://www.data.act.gov.au/resource/mznp-3brd",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/mznp-3brd/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/mznp-3brd/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/mznp-3brd/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/mznp-3brd/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/mznp-3brd/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/mznp-3brd/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "naplan", "testing" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/3g6m-2a3j/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-29",
+  "description" : "NAPLAN testing scores for Classes 3,5,7 and 9 from 2008 - 2011, classified by the Aboriginal and Torres Strait Islander Status of the students undergoing the testing.",
+  "feed" : "https://www.data.act.gov.au/api/views/3g6m-2a3j/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "3g6m-2a3j",
+  "keyword" : "naplan,testing,atsi",
+  "license" : "Creative Commons Attribution 3.0 Australia\nEducation and Training Directorate(https://data.act.gov.au/Education/ACT-NAPLAN-Scores/mznp-3brd)\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-08-29",
+  "title" : "ACT NAPLAN Scores Classified by ATSI Status",
+  "webService" : "https://www.data.act.gov.au/resource/3g6m-2a3j",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/3g6m-2a3j/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/3g6m-2a3j/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/3g6m-2a3j/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/3g6m-2a3j/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/3g6m-2a3j/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/3g6m-2a3j/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "naplan", "testing", "atsi" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/file_data/BGg8-yG5DSWiT_oKAJY79Ge3z9hQu1QvLE5FKeoVluE?filename=2003_Bushfire_Data.zip",
+  "created" : "2012-09-03",
+  "description" : "Map-based data of damage caused by the 2003 Canberra Bushfires",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "8gwk-tw75",
+  "keyword" : "2003 bushfire",
+  "license" : "Creative Commons Attribution 3.0 Australia\nACTPLA\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-09-03",
+  "title" : "2003 Bushfire Data",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/file_data/BGg8-yG5DSWiT_oKAJY79Ge3z9hQu1QvLE5FKeoVluE?filename=2003_Bushfire_Data.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "2003 bushfire" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/7522-y6uc/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-09-03",
+  "description" : "Population projections for all persons for the ACT from 2009 to 2059; estimated population from 1971-2009.",
+  "feed" : "https://www.data.act.gov.au/api/views/7522-y6uc/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "7522-y6uc",
+  "keyword" : "population projection,persons",
+  "license" : "Creative Commons Attribution 3.0 Australia\nChief Minister and Cabinet Directorate(http://www.cmd.act.gov.au/policystrategic/actstats/projections/act)\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2013-04-04",
+  "releaseDate" : "2012-09-03",
+  "title" : "2009-2059 ACT Population Projections - Persons by Single Year of Age",
+  "webService" : "https://www.data.act.gov.au/resource/7522-y6uc",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/7522-y6uc/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/7522-y6uc/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/7522-y6uc/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/7522-y6uc/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/7522-y6uc/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/7522-y6uc/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "population projection", "persons" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/vexf-fxja/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-09-03",
+  "description" : "Population projections for males for the ACT from 2009 to 2059; estimated population from 1971-2009.",
+  "feed" : "https://www.data.act.gov.au/api/views/vexf-fxja/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "vexf-fxja",
+  "keyword" : "population projection,males",
+  "license" : "Creative Commons Attribution 3.0 Australia\nChief Minister and Cabinet Directorate(http://www.cmd.act.gov.au/policystrategic/actstats/projections/act)\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-09-03",
+  "title" : "2009-2059 ACT Population Projections - Males by Single Year of Age",
+  "webService" : "https://www.data.act.gov.au/resource/vexf-fxja",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/vexf-fxja/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/vexf-fxja/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/vexf-fxja/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/vexf-fxja/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/vexf-fxja/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/vexf-fxja/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "population projection", "males" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/k8qx-eb4x/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-09-03",
+  "description" : "Population projections for females for the ACT from 2009 to 2059; estimated population from 1971-2009.",
+  "feed" : "https://www.data.act.gov.au/api/views/k8qx-eb4x/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "k8qx-eb4x",
+  "keyword" : "population projection,females",
+  "license" : "Creative Commons Attribution 3.0 Australia\nChief Minister and Cabinet Directorate(http://www.cmd.act.gov.au/policystrategic/actstats/projections/act)\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-10-04",
+  "releaseDate" : "2012-09-03",
+  "title" : "2009-2059 ACT Population Projections - Females by Single Year of Age",
+  "webService" : "https://www.data.act.gov.au/resource/k8qx-eb4x",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/k8qx-eb4x/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/k8qx-eb4x/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/k8qx-eb4x/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/k8qx-eb4x/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/k8qx-eb4x/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/k8qx-eb4x/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "population projection", "females" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/file_data/fjZMsYolq_qjwefn2AJ3tEDfQnllXTMGtQFaLJMMXb8?filename=Gungahlin_Sample_Data.zip",
+  "created" : "2012-09-12",
+  "description" : "Sample data for the Gungahlin Town Centre.  Note that this data set has been superseded by https://www.data.act.gov.au/Property/Sample-Geographic-Data-for-the-Gungahlin-Town-Cent/irma-snrw",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "uc8a-9pb8",
+  "keyword" : "gungahlin",
+  "license" : "Creative Commons Attribution 3.0 Australia\nACTPLA, Environment and Sustainable Development Directorate\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-09-19",
+  "releaseDate" : "2012-09-12",
+  "title" : "Gungahlin Sample Geographic Data - Superseded",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/file_data/fjZMsYolq_qjwefn2AJ3tEDfQnllXTMGtQFaLJMMXb8?filename=Gungahlin_Sample_Data.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "gungahlin" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/file_data/JMS9Wa6sbg_3rx_NY-BRHaLMFPFdrF0va7oD_t7rnH8?filename=ACT_ESDD_gungahlin_dataACT_update.zip",
+  "created" : "2012-09-19",
+  "description" : "Superceded data, see January 2013 dataset. This data set indicates the range of data elements that may be published by the ACT Government.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "irma-snrw",
+  "keyword" : "gungahlin town centre,geographic data",
+  "license" : "Creative Commons Attribution 3.0 Australia\nACTPLA, Environment and Sustainable Development Directorate\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2013-01-28",
+  "releaseDate" : "2012-09-19",
+  "title" : "Sample Geographic Data for the Gungahlin Town Centre - Updated 20 September 2012",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/file_data/JMS9Wa6sbg_3rx_NY-BRHaLMFPFdrF0va7oD_t7rnH8?filename=ACT_ESDD_gungahlin_dataACT_update.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "gungahlin town centre", "geographic data" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/pj6q-ytqp/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-04",
+  "description" : "This is the ACT Government Call Tender Schedule. It will be appended with the latest information on a monthly basis.",
+  "feed" : "https://www.data.act.gov.au/api/views/pj6q-ytqp/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "pj6q-ytqp",
+  "keyword" : "procurement,tenders",
+  "license" : "Creative Commons Attribution 3.0 Australia\nTreasury\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-11-04",
+  "releaseDate" : "2012-11-04",
+  "title" : "Call Tender Schedule",
+  "webService" : "https://www.data.act.gov.au/resource/pj6q-ytqp",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/pj6q-ytqp/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/pj6q-ytqp/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/pj6q-ytqp/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/pj6q-ytqp/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/pj6q-ytqp/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/pj6q-ytqp/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "procurement", "tenders" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/vg7r-hyxk/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-13",
+  "description" : "Diversity in the ACTPS workforce from June 2012\n\nThe ACTPS continues to encourage voluntary disclosure by employees. Diversity percentages are based on total ACTPS headcount which assumes that all respondents do not identify as one or more of the diversity groups, which is likely to result in under-reporting of the actual proportion of diversity groups in the ACTPS.  \nDiversity statistics are also provided in Annual Reports and monitored through the ACTPS Respect, Equity and Diversity Framework.  Workforce data in this section has been presented in a way that protects the identity of individual employees. \n\nNote on Averages: Salary averages here are inclusive of part-time and casual employees. \n\nPlease see the attached document for additional notes.\n\n[State of the Service 2012]",
+  "feed" : "https://www.data.act.gov.au/api/views/vg7r-hyxk/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "vg7r-hyxk",
+  "keyword" : "sots,diversity,generations,gender",
+  "license" : "Creative Commons Attribution 3.0 Australia\nChief Minister and Cabinet\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-11-13",
+  "releaseDate" : "2012-11-13",
+  "title" : "Diversity in the ACTPS workforce [State of the Service 2012]",
+  "webService" : "https://www.data.act.gov.au/resource/vg7r-hyxk",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/vg7r-hyxk/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/vg7r-hyxk/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/vg7r-hyxk/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/vg7r-hyxk/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/vg7r-hyxk/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/vg7r-hyxk/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "sots", "diversity", "generations", "gender" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/iid9-3b44/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-26",
+  "description" : "Contract Register, Updated Monthly in this Dataset\n\nWhich contracts are registered in the Government Contracts Register?     \n\nIn accordance with the Government Procurement Act 2001, from 1 July 2012 (R17) ACT Government contracts with a value of $25,000 or above are publicly viewable on the Government Contracts Register. \n\nHow do I view contracts within the Government Contracts Register?\n\nUsing the 'Previous  ACT Government Contracts Register (July 2003 - July 2009)' link, contracts which were loaded onto the previous contract register may be viewed and searched. \n\nUsing the 'New  ACT Government Contracts Register' link, contracts loaded from the 1 August 2009 can be viewed and searched.\n\nWho do I contact regarding specific contracts within the Government Contracts Register?\n\nDetails of specific contracts can be obtained through the relevant department/agency.  For system related enquiries, please contact SharedServicesProcurement@act.gov.au.",
+  "feed" : "https://www.data.act.gov.au/api/views/iid9-3b44/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "iid9-3b44",
+  "keyword" : "",
+  "license" : "Creative Commons Attribution 3.0 Australia\nCommerce and Works, Shared Services Procurement\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2012-11-26",
+  "releaseDate" : "2012-11-26",
+  "title" : "Contract Register",
+  "webService" : "https://www.data.act.gov.au/resource/iid9-3b44",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/iid9-3b44/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/iid9-3b44/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/iid9-3b44/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/iid9-3b44/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/iid9-3b44/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/iid9-3b44/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/file_data/zhESsz9Mg7q79VJ7hBEkV0mzHtRF8adYrESPQV57nmU?filename=Gungahlin+%28Division%29.zip",
+  "created" : "2013-01-28",
+  "description" : "This data set indicates the range of data elements that may be published by the ACT Government.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "44v7-vj4e",
+  "keyword" : "gungahlin town centre,geographic data",
+  "license" : "Creative Commons Attribution 3.0 Australia\nACTPLA, Environment and Sustainable Development Directorate (ESDD)\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2013-02-21",
+  "releaseDate" : "2013-01-28",
+  "title" : "Sample Geographic Data for Gungahlin Town Centre - Updated 29/01/2013",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/file_data/zhESsz9Mg7q79VJ7hBEkV0mzHtRF8adYrESPQV57nmU?filename=Gungahlin+%28Division%29.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "gungahlin town centre", "geographic data" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/ch39-bukk/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-21",
+  "description" : "A dataset of public furniture (park benches, tables etc) in the ACT.",
+  "feed" : "https://www.data.act.gov.au/api/views/ch39-bukk/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ch39-bukk",
+  "keyword" : "tables,seats,park benches",
+  "license" : "Creative Commons Attribution 3.0 Australia\nTerritory and Municipal Services Directorate (TAMSD)\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2013-02-21",
+  "releaseDate" : "2013-02-21",
+  "title" : "Public Furniture in the ACT",
+  "webService" : "https://www.data.act.gov.au/resource/ch39-bukk",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/ch39-bukk/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/ch39-bukk/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/ch39-bukk/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/ch39-bukk/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/ch39-bukk/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/ch39-bukk/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "tables", "seats", "park benches" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/gk9r-4a8z/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-21",
+  "description" : "A dataset of public playgrounds (children's swings etc)  in the ACT.",
+  "feed" : "https://www.data.act.gov.au/api/views/gk9r-4a8z/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "gk9r-4a8z",
+  "keyword" : "playgrounds,parks,recreation",
+  "license" : "Creative Commons Attribution 3.0 Australia\nTerritory and Municipal Services Directorate (TAMSD)\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2013-02-21",
+  "releaseDate" : "2013-02-21",
+  "title" : "Playgrounds in the ACT",
+  "webService" : "https://www.data.act.gov.au/resource/gk9r-4a8z",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/gk9r-4a8z/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/gk9r-4a8z/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/gk9r-4a8z/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/gk9r-4a8z/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/gk9r-4a8z/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/gk9r-4a8z/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "playgrounds", "parks", "recreation" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/3tyf-txjn/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-21",
+  "description" : "A dataset of public toilets in the ACT.",
+  "feed" : "https://www.data.act.gov.au/api/views/3tyf-txjn/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "3tyf-txjn",
+  "keyword" : "toilet,lavatory,wc",
+  "license" : "Creative Commons Attribution 3.0 Australia\nTerritory and Municipal Services Directorate (TAMSD)\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2013-02-21",
+  "releaseDate" : "2013-02-21",
+  "title" : "Public Toilets in the ACT",
+  "webService" : "https://www.data.act.gov.au/resource/3tyf-txjn",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/3tyf-txjn/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/3tyf-txjn/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/3tyf-txjn/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/3tyf-txjn/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/3tyf-txjn/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/3tyf-txjn/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "toilet", "lavatory", "wc" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/file_data/mDg0MU8YH7qIYf7Vm0kgOhqPutCHyNZSo7lyx5S9dJs?filename=ReserveAndUrbanParkland.kml",
+  "created" : "2013-02-21",
+  "description" : "A list of reserves and open spaces in the ACT.",
+  "format" : "application/xml; charset=us-ascii",
+  "identifier" : "fwta-dhe3",
+  "keyword" : "park,reserve,public space,open land",
+  "license" : "Creative Commons Attribution 3.0 Australia\nTerritory and Municipal Services Directorate (TAMSD)\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2013-02-21",
+  "releaseDate" : "2013-02-21",
+  "title" : "Reserves And Urban Parklands",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/file_data/mDg0MU8YH7qIYf7Vm0kgOhqPutCHyNZSo7lyx5S9dJs?filename=ReserveAndUrbanParkland.kml",
+    "formats" : [ {
+      "label" : "application/xml; charset=us-ascii",
+      "value" : "application/xml; charset=us-ascii"
+    } ]
+  } ],
+  "keywords" : [ "park", "reserve", "public space", "open land" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/3if8-4tcz/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-23",
+  "description" : "This spread sheet shows all of the State Suburbs for the ACT and the % of the 15-64 year old population  within each Socio-Economic Indexes for Individuals (SEIFI) IRSD group.  The data used to create this information was the same as used in the research paper “Socio-Economic Indexes for Areas: Getting a handle on individual diversity within areas” by Phillip Wise and Rosalynn Mathews. It is advised that this paper is read to further develop an understanding of the concepts and caveats associated with the analytical output contained in the spreadsheet.\r\n\r\nGroup 1 – Approx. most disadvantage  20% of the 15-64 year old population \r\nGroup 2 – Approx. second most disadvantaged 20% of the 15- 64 population \r\nGroup 3 – Approx. second least disadvantaged 30% of the 15-64 year old population\r\nGroup 4 – Approx. least disadvantaged 30% of the 15-64 year old population \r\n\r\nPlease also note that not all ACT CDs have been included as their populations are below the ABS population count threshold (<3), those removed are:\r\n- 8013801 in Reid \r\n- 8012805 in Turner\r\n- 8014302 in Kingston\r\n- 8021701 in Unclassified ACT\r\n- 8010110 in Bonner\r\n- 8023401 in Tharwa\r\n- 8010103 in Unclassified ACT\r\n- 8014305 in Kingston\r\n- 8014803 in Forrest\r\n\r\nIt should be noted that multiple Compact Discs of data make up this dataset, as a result the data for each suburb is distributed across several discs. This cccounts for the multiple rows of data that appear for each suburb.",
+  "feed" : "https://www.data.act.gov.au/api/views/3if8-4tcz/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "3if8-4tcz",
+  "keyword" : "socio economic,disadvantage,diversity",
+  "license" : "Creative Commons Attribution 3.0 Australia\nChief Minister and Cabinet (CMTD) - ACT Government\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2013-07-01",
+  "releaseDate" : "2013-05-23",
+  "title" : "ACT Socio-economic Index for Individuals (SEIFI) 2011",
+  "webService" : "https://www.data.act.gov.au/resource/3if8-4tcz",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/3if8-4tcz/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/3if8-4tcz/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/3if8-4tcz/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/3if8-4tcz/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/3if8-4tcz/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/3if8-4tcz/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "socio economic", "disadvantage", "diversity" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/5way-g26f/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-30",
+  "description" : "A dataset of Centenary Events in the ACT for 2013. This dataset has been released for the GovHack event. \n\nThis dataset will not be regularly updated, if you require information about Canberra Centenary events in 2013, please refer to the 'Canberra 100' Website (http://www.canberra100.com.au/calendar/).",
+  "feed" : "https://www.data.act.gov.au/api/views/5way-g26f/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "5way-g26f",
+  "keyword" : "events,performances,celebration",
+  "license" : "Creative Commons Attribution 3.0 Australia\nCentenary of Canberra, Chief Minister and Treasury Directorate (CMTD)\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2013-06-01",
+  "releaseDate" : "2013-05-30",
+  "title" : "Canberra Centenerary Events 2013",
+  "webService" : "https://www.data.act.gov.au/resource/5way-g26f",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/5way-g26f/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/5way-g26f/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/5way-g26f/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/5way-g26f/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/5way-g26f/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/5way-g26f/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "events", "performances", "celebration" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/2mig-5zj2/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-07-29",
+  "description" : "Number of passenger trips on ACTION Buses by month, from 2004 to 2013. Dataset is incomplete, with missing data from years 2008, 2009 and January - June 2010.",
+  "feed" : "https://www.data.act.gov.au/api/views/2mig-5zj2/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "2mig-5zj2",
+  "keyword" : "ticketing,passenger,bus,public transport",
+  "license" : "Creative Commons Attribution 3.0 Australia\nTerritory and Municipal Services Directorate (TAMSD)\nhttp://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modified" : "2013-07-29",
+  "releaseDate" : "2013-07-29",
+  "title" : "ACTION Buses Ticketing Data 2004 - 2013",
+  "webService" : "https://www.data.act.gov.au/resource/2mig-5zj2",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/2mig-5zj2/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/2mig-5zj2/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/2mig-5zj2/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/2mig-5zj2/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/2mig-5zj2/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/2mig-5zj2/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "ticketing", "passenger", "bus", "public transport" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.data.act.gov.au/api/views/wepv-uhqp/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-07-31",
+  "description" : "Contract Register as at 01 August 2013",
+  "feed" : "https://www.data.act.gov.au/api/views/wepv-uhqp/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "wepv-uhqp",
+  "keyword" : "tenders",
+  "modified" : "2013-07-31",
+  "releaseDate" : "2013-07-31",
+  "title" : "Contract Register 20130801",
+  "webService" : "https://www.data.act.gov.au/resource/wepv-uhqp",
+  "distribution" : [ {
+    "accessURL" : "https://www.data.act.gov.au/api/views/wepv-uhqp/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/wepv-uhqp/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/wepv-uhqp/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/wepv-uhqp/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/wepv-uhqp/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://www.data.act.gov.au/api/views/wepv-uhqp/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "tenders" ]
+} ]

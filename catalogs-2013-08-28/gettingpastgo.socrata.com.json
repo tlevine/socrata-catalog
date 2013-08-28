@@ -1,0 +1,470 @@
+[ {
+  "accessLevel" : "Public",
+  "description" : "Lists the datasets for this domain.  The format should correspond to the spec at http://project-open-data.github.io/schema/",
+  "format" : "application/json",
+  "frequency" : "hourly",
+  "identifier" : "https://gettingpastgo.socrata.com/data.json",
+  "modified" : "2013-08-28",
+  "title" : "Project Open Data, /data.json file",
+  "webService" : "https://gettingpastgo.socrata.com/data.json"
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://gettingpastgo.socrata.com/api/views/xchn-te3a/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-03-18",
+  "description" : "State and system policies related to the funding of developmental education",
+  "feed" : "https://gettingpastgo.socrata.com/api/views/xchn-te3a/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "xchn-te3a",
+  "keyword" : "cost,funding,tuition,limits,funding levels",
+  "modified" : "2011-09-20",
+  "releaseDate" : "2010-03-18",
+  "title" : "Funding Policies",
+  "webService" : "https://gettingpastgo.socrata.com/resource/xchn-te3a",
+  "distribution" : [ {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/xchn-te3a/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/xchn-te3a/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/xchn-te3a/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/xchn-te3a/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/xchn-te3a/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/xchn-te3a/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "cost", "funding", "tuition", "limits", "funding levels" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://gettingpastgo.socrata.com/api/views/c5bm-whn4/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-03-18",
+  "description" : "State and system policies for holding institutions accountable for the delivery of developmental education. Includes performance measures, continuous improvement and performance funding.",
+  "feed" : "https://gettingpastgo.socrata.com/api/views/c5bm-whn4/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "c5bm-whn4",
+  "keyword" : "cost,accountability,performance,measures,benchmarks,continuous improvement,plans",
+  "modified" : "2012-05-15",
+  "releaseDate" : "2010-03-18",
+  "title" : "Accountability",
+  "webService" : "https://gettingpastgo.socrata.com/resource/c5bm-whn4",
+  "distribution" : [ {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/c5bm-whn4/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/c5bm-whn4/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/c5bm-whn4/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/c5bm-whn4/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/c5bm-whn4/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/c5bm-whn4/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "cost", "accountability", "performance", "measures", "benchmarks", "continuous improvement", "plans" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://gettingpastgo.socrata.com/api/views/hu3i-ates/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-03-18",
+  "description" : "Assessments and Cut Scores used to place students into developmental education",
+  "feed" : "https://gettingpastgo.socrata.com/api/views/hu3i-ates/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "hu3i-ates",
+  "keyword" : "assessment,placement,cut scores,remedial education,math,reading,writing,english",
+  "modified" : "2012-05-15",
+  "releaseDate" : "2010-03-18",
+  "title" : "Assessments and Placement Cutscores",
+  "webService" : "https://gettingpastgo.socrata.com/resource/hu3i-ates",
+  "distribution" : [ {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/hu3i-ates/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/hu3i-ates/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/hu3i-ates/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/hu3i-ates/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/hu3i-ates/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/hu3i-ates/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "assessment", "placement", "cut scores", "remedial education", "math", "reading", "writing", "english" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://gettingpastgo.socrata.com/api/views/xtjw-99i2/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-03-18",
+  "description" : "State and System Policies for Assessment, Placement and Completion of Developmental Education",
+  "feed" : "https://gettingpastgo.socrata.com/api/views/xtjw-99i2/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "xtjw-99i2",
+  "keyword" : "placement,completion,assessment,remedial education,developmental education",
+  "modified" : "2012-05-15",
+  "releaseDate" : "2010-03-18",
+  "title" : "Developmental Education Assessment, Placement and Completion Requirements",
+  "webService" : "https://gettingpastgo.socrata.com/resource/xtjw-99i2",
+  "distribution" : [ {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/xtjw-99i2/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/xtjw-99i2/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/xtjw-99i2/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/xtjw-99i2/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/xtjw-99i2/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/xtjw-99i2/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "placement", "completion", "assessment", "remedial education", "developmental education" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://gettingpastgo.socrata.com/api/views/dc8w-m9ey/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-03-18",
+  "description" : "State and System Reports on Developmental Education by major datapoints to include: participation, completion of developmental education courses, completion of college-level courses, retention, transfer, developmental education costs.",
+  "feed" : "https://gettingpastgo.socrata.com/api/views/dc8w-m9ey/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "dc8w-m9ey",
+  "keyword" : "reports,data,participation,completion,college success,cost,productivity",
+  "modified" : "2012-05-15",
+  "releaseDate" : "2010-03-18",
+  "title" : "State and System Reports by Datapoints",
+  "webService" : "https://gettingpastgo.socrata.com/resource/dc8w-m9ey",
+  "distribution" : [ {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/dc8w-m9ey/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/dc8w-m9ey/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/dc8w-m9ey/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/dc8w-m9ey/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/dc8w-m9ey/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/dc8w-m9ey/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "reports", "data", "participation", "completion", "college success", "cost", "productivity" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://gettingpastgo.socrata.com/api/views/7i45-63ta/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-03-18",
+  "description" : "Summaries of state and system reports on student participation, completion and subsequent success in higher education for students placed into developmental education. Also tracks whether reports track productivity and cost data.",
+  "feed" : "https://gettingpastgo.socrata.com/api/views/7i45-63ta/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "7i45-63ta",
+  "keyword" : "reports,data,participation,completion,college success,cost,productivity",
+  "modified" : "2012-05-15",
+  "releaseDate" : "2010-03-18",
+  "title" : "State and System Developmental Education Reports",
+  "webService" : "https://gettingpastgo.socrata.com/resource/7i45-63ta",
+  "distribution" : [ {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/7i45-63ta/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/7i45-63ta/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/7i45-63ta/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/7i45-63ta/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/7i45-63ta/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/7i45-63ta/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "reports", "data", "participation", "completion", "college success", "cost", "productivity" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://gettingpastgo.socrata.com/api/views/p2x5-yf6p/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-10-13",
+  "description" : "Database of policies that outline specific strategies for serving students enrolled in developmental education.",
+  "feed" : "https://gettingpastgo.socrata.com/api/views/p2x5-yf6p/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "p2x5-yf6p",
+  "keyword" : "instruction,interventions,developmental education,remedial education,postsecondary,higher education,delivery",
+  "license" : "Creative Commons 1.0 Universal\nEducation Commission of the States(http://gettingpastgo.org)\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2012-05-15",
+  "releaseDate" : "2010-10-13",
+  "title" : "Instructional Delivery Strategies",
+  "webService" : "https://gettingpastgo.socrata.com/resource/p2x5-yf6p",
+  "distribution" : [ {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/p2x5-yf6p/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/p2x5-yf6p/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/p2x5-yf6p/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/p2x5-yf6p/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/p2x5-yf6p/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/p2x5-yf6p/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "instruction", "interventions", "developmental education", "remedial education", "postsecondary", "higher education", "delivery" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://gettingpastgo.socrata.com/api/views/wpbi-473f/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-03-18",
+  "description" : "Polices limiting institutions ability to deliver developmental education.  Includes restrictions to four-year institutions to delivery developmental education.",
+  "feed" : "https://gettingpastgo.socrata.com/api/views/wpbi-473f/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "wpbi-473f",
+  "keyword" : "limits,four-year institutions,funding",
+  "modified" : "2012-05-15",
+  "releaseDate" : "2010-03-18",
+  "title" : "Institutional Limits for Delivery of Developmental Education",
+  "webService" : "https://gettingpastgo.socrata.com/resource/wpbi-473f",
+  "distribution" : [ {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/wpbi-473f/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/wpbi-473f/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/wpbi-473f/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/wpbi-473f/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/wpbi-473f/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/wpbi-473f/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "limits", "four-year institutions", "funding" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://gettingpastgo.socrata.com/api/views/5zve-3pvy/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-03-18",
+  "description" : "Summaries of State Policies on Developmental Education.  Sortable by policy level, policy type, year, state and agency",
+  "feed" : "https://gettingpastgo.socrata.com/api/views/5zve-3pvy/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "5zve-3pvy",
+  "keyword" : "policy,comprehensive,remedial education,higher education,community colleges",
+  "modified" : "2012-06-05",
+  "releaseDate" : "2010-03-18",
+  "title" : "State Developmental Education Policies",
+  "webService" : "https://gettingpastgo.socrata.com/resource/5zve-3pvy",
+  "distribution" : [ {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/5zve-3pvy/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/5zve-3pvy/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/5zve-3pvy/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/5zve-3pvy/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/5zve-3pvy/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://gettingpastgo.socrata.com/api/views/5zve-3pvy/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "policy", "comprehensive", "remedial education", "higher education", "community colleges" ]
+} ]

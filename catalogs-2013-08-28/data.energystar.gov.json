@@ -1,0 +1,1611 @@
+[ {
+  "accessLevel" : "Public",
+  "description" : "Lists the datasets for this domain.  The format should correspond to the spec at http://project-open-data.github.io/schema/",
+  "format" : "application/json",
+  "frequency" : "hourly",
+  "identifier" : "https://data.energystar.gov/data.json",
+  "modified" : "2013-08-28",
+  "title" : "Project Open Data, /data.json file",
+  "webService" : "https://data.energystar.gov/data.json"
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.energystar.gov/api/views/dgpf-upjt/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-07-17",
+  "description" : "Certified models meet all ENERGY STAR requirements as listed in the Version 4.1 ENERGY STAR Program Requirements for Residential Refrigerators and Freezers that are effective as of April 28, 2008 or the Version 5.0 ENERGY STAR Program Requirements for Residential Refrigerators and Freezers that are effective as of September 15, 2014. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=refrig.pr_crit_refrigerators",
+  "feed" : "https://data.energystar.gov/api/views/dgpf-upjt/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "dgpf-upjt",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-07-17",
+  "title" : "ENERGY STAR Certified Residential Refrigerators",
+  "webService" : "https://data.energystar.gov/resource/dgpf-upjt",
+  "distribution" : [ {
+    "accessURL" : "https://data.energystar.gov/api/views/dgpf-upjt/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/dgpf-upjt/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/dgpf-upjt/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/dgpf-upjt/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/dgpf-upjt/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/dgpf-upjt/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.energystar.gov/api/views/vtsv-aq9u/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-06-04",
+  "description" : "Certified models meet all ENERGY STAR requirements as listed in the Version 1.2 ENERGY STAR Program Requirements for Commercial Steam Cookers that are effective as of August 1, 2003. A detailed listing of key efficiency criteria are available at  http://www.energystar.gov/index.cfm?c=steamcookers.pr_crit_steamcookers",
+  "feed" : "https://data.energystar.gov/api/views/vtsv-aq9u/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "vtsv-aq9u",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-06-04",
+  "title" : "ENERGY STAR Certified Commercial Steam Cookers",
+  "webService" : "https://data.energystar.gov/resource/vtsv-aq9u",
+  "distribution" : [ {
+    "accessURL" : "https://data.energystar.gov/api/views/vtsv-aq9u/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/vtsv-aq9u/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/vtsv-aq9u/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/vtsv-aq9u/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/vtsv-aq9u/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/vtsv-aq9u/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.energystar.gov/api/views/a6ci-4jvy/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-09-03",
+  "description" : "Certified models meet all ENERGY STAR requirements as listed in the Version 2.2 ENERGY STAR Program Requirements for Telephony (cordless phones) that are effective as of November 1, 2008. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=phones.pr_crit_phones",
+  "feed" : "https://data.energystar.gov/api/views/a6ci-4jvy/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "a6ci-4jvy",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2012-09-03",
+  "title" : "ENERGY STAR Certified Cordless Phones",
+  "webService" : "https://data.energystar.gov/resource/a6ci-4jvy",
+  "distribution" : [ {
+    "accessURL" : "https://data.energystar.gov/api/views/a6ci-4jvy/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/a6ci-4jvy/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/a6ci-4jvy/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/a6ci-4jvy/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/a6ci-4jvy/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/a6ci-4jvy/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.energystar.gov/api/views/8dv7-nngq/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-01",
+  "description" : "Certified models meet all ENERGY STAR requirements as listed in the Version 3.2 ENERGY STAR Program Requirements for Ventilating Fans that are effective as of April 1, 2012. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=vent_fans.pr_crit_vent_fans",
+  "feed" : "https://data.energystar.gov/api/views/8dv7-nngq/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "8dv7-nngq",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-05-01",
+  "title" : "ENERGY STAR Certified Ventilating Fans",
+  "webService" : "https://data.energystar.gov/resource/8dv7-nngq",
+  "distribution" : [ {
+    "accessURL" : "https://data.energystar.gov/api/views/8dv7-nngq/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/8dv7-nngq/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/8dv7-nngq/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/8dv7-nngq/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/8dv7-nngq/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/8dv7-nngq/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.energystar.gov/api/views/2wic-jicu/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-01",
+  "description" : "Certified models meet all ENERGY STAR requirements as listed in the Version 6.0 ENERGY STAR Program Requirements for Displays that are effective as of June 1, 2013. A detailed listing of key efficiency criteria are available at https://www.energystar.gov/index.cfm?c=monitors.pr_crit_monitors.",
+  "feed" : "https://data.energystar.gov/api/views/2wic-jicu/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "2wic-jicu",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-01-01",
+  "title" : "ENERGY STAR Certified Displays",
+  "webService" : "https://data.energystar.gov/resource/2wic-jicu",
+  "distribution" : [ {
+    "accessURL" : "https://data.energystar.gov/api/views/2wic-jicu/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/2wic-jicu/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/2wic-jicu/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/2wic-jicu/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/2wic-jicu/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/2wic-jicu/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.energystar.gov/api/views/mvyi-jgae/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-03",
+  "description" : "Certified models meet all ENERGY STAR requirements as listed in the Version 3.0 ENERGY STAR Program Requirements for Dehumidifiers that are effective as of October 1, 2012. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=dehumid.pr_crit_dehumidifiers",
+  "feed" : "https://data.energystar.gov/api/views/mvyi-jgae/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "mvyi-jgae",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-05-03",
+  "title" : "ENERGY STAR Certified Dehumidifiers",
+  "webService" : "https://data.energystar.gov/resource/mvyi-jgae",
+  "distribution" : [ {
+    "accessURL" : "https://data.energystar.gov/api/views/mvyi-jgae/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/mvyi-jgae/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/mvyi-jgae/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/mvyi-jgae/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/mvyi-jgae/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/mvyi-jgae/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.energystar.gov/api/views/j624-u8ux/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-06-06",
+  "description" : "Certified models meet all ENERGY STAR requirements as listed in the Version 3.0 ENERGY STAR Program Requirements for Refrigerated Beverage Vending Machines that are effective as of March 1, 2013. A detailed listing of key efficiency criteria are available at",
+  "feed" : "https://data.energystar.gov/api/views/j624-u8ux/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "j624-u8ux",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-06-06",
+  "title" : "ENERGY STAR Certified Vending Machines",
+  "webService" : "https://data.energystar.gov/resource/j624-u8ux",
+  "distribution" : [ {
+    "accessURL" : "https://data.energystar.gov/api/views/j624-u8ux/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/j624-u8ux/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/j624-u8ux/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/j624-u8ux/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/j624-u8ux/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/j624-u8ux/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.energystar.gov/api/views/uc6q-9632/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-08",
+  "description" : "Certified models meet all ENERGY STAR requirements as listed in the Version 1.2 ENERGY STAR Program Requirements for Room Air Cleaners that are effective as of July 1, 2004. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=room_airclean.pr_crit_room_airclean",
+  "feed" : "https://data.energystar.gov/api/views/uc6q-9632/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "uc6q-9632",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-01-08",
+  "title" : "ENERGY STAR Certified Room Air Cleaners",
+  "webService" : "https://data.energystar.gov/resource/uc6q-9632",
+  "distribution" : [ {
+    "accessURL" : "https://data.energystar.gov/api/views/uc6q-9632/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/uc6q-9632/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/uc6q-9632/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/uc6q-9632/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/uc6q-9632/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/uc6q-9632/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.energystar.gov/api/views/wyw6-sr4d/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-06-06",
+  "description" : "Certified models meet all ENERGY STAR requirements as listed in the Version 2.0 ENERGY STAR Program Requirements for Commercial Hot Food Holding Cabinets that are effective as of October 1, 2011. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=hfhc.pr_crit_hfhc",
+  "feed" : "https://data.energystar.gov/api/views/wyw6-sr4d/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "wyw6-sr4d",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-06-06",
+  "title" : "ENERGY STAR Certified Commercial Hot Food Holding Cabinet",
+  "webService" : "https://data.energystar.gov/resource/wyw6-sr4d",
+  "distribution" : [ {
+    "accessURL" : "https://data.energystar.gov/api/views/wyw6-sr4d/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/wyw6-sr4d/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/wyw6-sr4d/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/wyw6-sr4d/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/wyw6-sr4d/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/wyw6-sr4d/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.energystar.gov/api/views/edi8-b5vk/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-06-04",
+  "description" : "Certified models meet all ENERGY STAR requirements as listed in the Version 2.0 ENERGY STAR Program Requirements for Commercial Fryers that are effective as of April 22, 2011. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=fryers.pr_crit_fryers",
+  "feed" : "https://data.energystar.gov/api/views/edi8-b5vk/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "edi8-b5vk",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-06-04",
+  "title" : "ENERGY STAR Certified Commercial Fryers",
+  "webService" : "https://data.energystar.gov/resource/edi8-b5vk",
+  "distribution" : [ {
+    "accessURL" : "https://data.energystar.gov/api/views/edi8-b5vk/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/edi8-b5vk/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/edi8-b5vk/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/edi8-b5vk/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/edi8-b5vk/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/edi8-b5vk/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.energystar.gov/api/views/cmae-djp4/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-09-05",
+  "description" : "Certified models meet all ENERGY STAR requirements as listed in the Version 6.1 ENERGY STAR Program Requirements for Clothes Washers that are effective as of February 1, 2013. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=clotheswash.pr_crit_clothes_washers",
+  "feed" : "https://data.energystar.gov/api/views/cmae-djp4/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "cmae-djp4",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2012-09-05",
+  "title" : "ENERGY STAR Certified Residential Clothes Washers",
+  "webService" : "https://data.energystar.gov/resource/cmae-djp4",
+  "distribution" : [ {
+    "accessURL" : "https://data.energystar.gov/api/views/cmae-djp4/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/cmae-djp4/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/cmae-djp4/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/cmae-djp4/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/cmae-djp4/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/cmae-djp4/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.energystar.gov/api/views/xsaq-9wt3/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-06-04",
+  "description" : "Certified models meet all ENERGY STAR requirements as listed in the Version 2.0 ENERGY STAR Program Requirements for Automatic Commercial Ice Makers that are effective as of February 1, 2013. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=comm_ice_machines.pr_crit_comm_ice_machines",
+  "feed" : "https://data.energystar.gov/api/views/xsaq-9wt3/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "xsaq-9wt3",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-06-04",
+  "title" : "ENERGY STAR Certified Commercial Ice Machines",
+  "webService" : "https://data.energystar.gov/resource/xsaq-9wt3",
+  "distribution" : [ {
+    "accessURL" : "https://data.energystar.gov/api/views/xsaq-9wt3/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/xsaq-9wt3/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/xsaq-9wt3/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/xsaq-9wt3/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/xsaq-9wt3/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/xsaq-9wt3/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.energystar.gov/api/views/58b3-559d/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-10-24",
+  "description" : "Certified models meet all ENERGY STAR requirements as listed in the Version 5.2 ENERGY STAR Program Requirements for Residential Dishwashers that are effective as of January 20, 2012. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=dishwash.pr_crit_dishwashers",
+  "feed" : "https://data.energystar.gov/api/views/58b3-559d/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "58b3-559d",
+  "keyword" : "",
+  "license" : "Public Domain",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2012-10-24",
+  "title" : "ENERGY STAR Certified Residential Dishwashers",
+  "webService" : "https://data.energystar.gov/resource/58b3-559d",
+  "distribution" : [ {
+    "accessURL" : "https://data.energystar.gov/api/views/58b3-559d/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/58b3-559d/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/58b3-559d/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/58b3-559d/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/58b3-559d/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/58b3-559d/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.energystar.gov/api/views/nw5s-r5ca/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-06-03",
+  "description" : "Certified models meet all ENERGY STAR requirements as listed in the Version 1.1 ENERGY STAR Program Requirements for Commercial Griddles that are effective as of May 8, 2009 or January 1, 2011. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=griddles.pr_crit_comm_griddles",
+  "feed" : "https://data.energystar.gov/api/views/nw5s-r5ca/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "nw5s-r5ca",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-06-03",
+  "title" : "ENERGY STAR Certified Commercial Griddles",
+  "webService" : "https://data.energystar.gov/resource/nw5s-r5ca",
+  "distribution" : [ {
+    "accessURL" : "https://data.energystar.gov/api/views/nw5s-r5ca/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/nw5s-r5ca/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/nw5s-r5ca/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/nw5s-r5ca/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/nw5s-r5ca/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/nw5s-r5ca/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.energystar.gov/api/views/e567-rku5/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-06-19",
+  "description" : "Certified models meet all ENERGY STAR requirements as listed in the Version 3.0 ENERGY STAR Program Requirements for Set-top Boxes that are effective as of September 1, 2011. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?fuseaction=find_a_product.showProductGroup&pgw_code=ST",
+  "feed" : "https://data.energystar.gov/api/views/e567-rku5/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "e567-rku5",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-06-19",
+  "title" : "ENERGY STAR Certified Set Top Boxes",
+  "webService" : "https://data.energystar.gov/resource/e567-rku5",
+  "distribution" : [ {
+    "accessURL" : "https://data.energystar.gov/api/views/e567-rku5/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/e567-rku5/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/e567-rku5/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/e567-rku5/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/e567-rku5/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/e567-rku5/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.energystar.gov/api/views/tjzj-25n7/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-14",
+  "description" : "Certified models meet all ENERGY STAR requirements as listed in the Version 2.1 ENERGY STAR Program Requirements for Room Air Conditioners that are effective as of November 16, 2005 or the Version 3.0 ENERGY STAR Program Requirements for Room Air Conditioners that are effective as of October 1, 2013. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=roomac.pr_crit_room_ac",
+  "feed" : "https://data.energystar.gov/api/views/tjzj-25n7/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "tjzj-25n7",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-02-14",
+  "title" : "ENERGY STAR Certified Room Air Conditioners",
+  "webService" : "https://data.energystar.gov/resource/tjzj-25n7",
+  "distribution" : [ {
+    "accessURL" : "https://data.energystar.gov/api/views/tjzj-25n7/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/tjzj-25n7/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/tjzj-25n7/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/tjzj-25n7/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/tjzj-25n7/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/tjzj-25n7/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.energystar.gov/api/views/x39k-wz7q/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-07-17",
+  "description" : "Certified models meet all ENERGY STAR requirements as listed in the Version 1.3 ENERGY STAR Program Requirements for Water Coolers that are effective as of January 22, 2010 or the Version 2.0 ENERGY STAR Program Requirements for Water Coolers that are effective as of February 1, 2014. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?fuseaction=find_a_product.showProductGroup&pgw_code=WA#specs",
+  "feed" : "https://data.energystar.gov/api/views/x39k-wz7q/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "x39k-wz7q",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-07-17",
+  "title" : "ENERGY STAR Certified Water Coolers",
+  "webService" : "https://data.energystar.gov/resource/x39k-wz7q",
+  "distribution" : [ {
+    "accessURL" : "https://data.energystar.gov/api/views/x39k-wz7q/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/x39k-wz7q/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/x39k-wz7q/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/x39k-wz7q/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/x39k-wz7q/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/x39k-wz7q/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.energystar.gov/api/views/3gp2-af4x/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-08",
+  "description" : "Certified models meet all ENERGY STAR requirements as listed in the Version 2.0 ENERGY STAR Program Requirements for Water Heaters that are effective as of July 1, 2013. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=water_heat.pr_crit_water_heaters",
+  "feed" : "https://data.energystar.gov/api/views/3gp2-af4x/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "3gp2-af4x",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-01-08",
+  "title" : "ENERGY STAR Certified Water Heaters",
+  "webService" : "https://data.energystar.gov/resource/3gp2-af4x",
+  "distribution" : [ {
+    "accessURL" : "https://data.energystar.gov/api/views/3gp2-af4x/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/3gp2-af4x/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/3gp2-af4x/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/3gp2-af4x/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/3gp2-af4x/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/3gp2-af4x/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.energystar.gov/api/views/6rww-hpns/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-07",
+  "description" : "Certified models meet all ENERGY STAR requirements as listed in the Version 2.1 ENERGY STAR Program Requirements for Boilers that are effective as of April 1, 2002. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?fuseaction=find_a_product.showProductGroup&pgw_code=BO",
+  "feed" : "https://data.energystar.gov/api/views/6rww-hpns/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "6rww-hpns",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-05-07",
+  "title" : "ENERGY STAR Certified Boilers",
+  "webService" : "https://data.energystar.gov/resource/6rww-hpns",
+  "distribution" : [ {
+    "accessURL" : "https://data.energystar.gov/api/views/6rww-hpns/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/6rww-hpns/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/6rww-hpns/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/6rww-hpns/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/6rww-hpns/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/6rww-hpns/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.energystar.gov/api/views/59dq-uw25/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-07-09",
+  "description" : "Certified models meet all ENERGY STAR requirements as listed in the Version 2.1 ENERGY STAR Program Requirements for Commercial Refrigerators and Freezers that are effective as of January 1, 2010. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=commer_refrig.pr_crit_commercial_refrigerators",
+  "feed" : "https://data.energystar.gov/api/views/59dq-uw25/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "59dq-uw25",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-07-09",
+  "title" : "ENERGY STAR Certified Commercial Refrigerators and Freezers",
+  "webService" : "https://data.energystar.gov/resource/59dq-uw25",
+  "distribution" : [ {
+    "accessURL" : "https://data.energystar.gov/api/views/59dq-uw25/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/59dq-uw25/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/59dq-uw25/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/59dq-uw25/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/59dq-uw25/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/59dq-uw25/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.energystar.gov/api/views/gp4i-t95q/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-27",
+  "description" : "Certified models meet all ENERGY STAR requirements as listed in the Version 2.3 ENERGY STAR Program Requirements for Roof Products that are effective as of July 1, 2012. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=roof_prods.pr_crit_roof_products",
+  "feed" : "https://data.energystar.gov/api/views/gp4i-t95q/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "gp4i-t95q",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-02-27",
+  "title" : "ENERGY STAR Certified Roof Products",
+  "webService" : "https://data.energystar.gov/resource/gp4i-t95q",
+  "distribution" : [ {
+    "accessURL" : "https://data.energystar.gov/api/views/gp4i-t95q/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/gp4i-t95q/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/gp4i-t95q/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/gp4i-t95q/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/gp4i-t95q/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/gp4i-t95q/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.energystar.gov/api/views/mj8j-2jhz/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-01",
+  "description" : "Certified models meet all ENERGY STAR requirements as listed in the Version 3.0 ENERGY STAR Program Requirements for Ceiling Fans that are effective as of April 1, 2012. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=ceiling_fans.pr_crit_ceiling_fans",
+  "feed" : "https://data.energystar.gov/api/views/mj8j-2jhz/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "mj8j-2jhz",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-05-01",
+  "title" : "ENERGY STAR Certified Ceiling Fans",
+  "webService" : "https://data.energystar.gov/resource/mj8j-2jhz",
+  "distribution" : [ {
+    "accessURL" : "https://data.energystar.gov/api/views/mj8j-2jhz/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/mj8j-2jhz/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/mj8j-2jhz/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/mj8j-2jhz/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/mj8j-2jhz/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/mj8j-2jhz/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.energystar.gov/api/views/2ppn-v3hp/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-02",
+  "description" : "Certified models meet all ENERGY STAR requirements as listed in the Version 1.0 ENERGY STAR Program Requirements for Pool Pumps that are effective as of February 15, 2013. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=poolpumps.pr_crit_poolpumps",
+  "feed" : "https://data.energystar.gov/api/views/2ppn-v3hp/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "2ppn-v3hp",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-05-02",
+  "title" : "ENERGY STAR Certified Pool Pumps",
+  "webService" : "https://data.energystar.gov/resource/2ppn-v3hp",
+  "distribution" : [ {
+    "accessURL" : "https://data.energystar.gov/api/views/2ppn-v3hp/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/2ppn-v3hp/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/2ppn-v3hp/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/2ppn-v3hp/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/2ppn-v3hp/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/2ppn-v3hp/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.energystar.gov/api/views/n6gj-5es2/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-09",
+  "description" : "Certified models meet all ENERGY STAR requirements as listed in the Version 6.0 ENERGY STAR Program Requirements for Televisions that are effective as of  June 1, 2013. A detailed listing of key efficiency criteria are available at https://www.energystar.gov/index.cfm?c=tv_vcr.pr_crit_tv_vcr.",
+  "feed" : "https://data.energystar.gov/api/views/n6gj-5es2/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "n6gj-5es2",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-01-09",
+  "title" : "ENERGY STAR Certified Televisions",
+  "webService" : "https://data.energystar.gov/resource/n6gj-5es2",
+  "distribution" : [ {
+    "accessURL" : "https://data.energystar.gov/api/views/n6gj-5es2/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/n6gj-5es2/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/n6gj-5es2/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/n6gj-5es2/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/n6gj-5es2/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/n6gj-5es2/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.energystar.gov/api/views/wyt9-72bp/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-30",
+  "description" : "Certified models meet all ENERGY STAR requirements as listed in the Version 1.2 ENERGY STAR Program Requirements for Luminaires. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?fuseaction=find_a_product.showProductGroup&pgw_code=LU#specs",
+  "feed" : "https://data.energystar.gov/api/views/wyt9-72bp/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "wyt9-72bp",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-04-30",
+  "title" : "ENERGY STAR Certified Light Fixtures",
+  "webService" : "https://data.energystar.gov/resource/wyt9-72bp",
+  "distribution" : [ {
+    "accessURL" : "https://data.energystar.gov/api/views/wyt9-72bp/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/wyt9-72bp/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/wyt9-72bp/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/wyt9-72bp/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/wyt9-72bp/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/wyt9-72bp/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.energystar.gov/api/views/9g6r-cpdt/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-07-16",
+  "description" : "Certified models meet all ENERGY STAR requirements as listed in the Version 6.1 ENERGY STAR Program Requirements for Clothes Washers that are effective as of February 1, 2013. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=clotheswash.pr_crit_clothes_washers",
+  "feed" : "https://data.energystar.gov/api/views/9g6r-cpdt/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "9g6r-cpdt",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-07-16",
+  "title" : "ENERGY STAR Certified Commercial Clothes Washers",
+  "webService" : "https://data.energystar.gov/resource/9g6r-cpdt",
+  "distribution" : [ {
+    "accessURL" : "https://data.energystar.gov/api/views/9g6r-cpdt/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/9g6r-cpdt/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/9g6r-cpdt/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/9g6r-cpdt/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/9g6r-cpdt/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/9g6r-cpdt/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.energystar.gov/api/views/28dp-wyst/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-06",
+  "description" : "Certified models meet all ENERGY STAR requirements as listed in the Version 4.0 ENERGY STAR Program Requirements for Furnaces that are effective as of February 1, 2013. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=furnaces.pr_crit_furnaces",
+  "feed" : "https://data.energystar.gov/api/views/28dp-wyst/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "28dp-wyst",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-05-06",
+  "title" : "ENERGY STAR Certified Furnaces",
+  "webService" : "https://data.energystar.gov/resource/28dp-wyst",
+  "distribution" : [ {
+    "accessURL" : "https://data.energystar.gov/api/views/28dp-wyst/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/28dp-wyst/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/28dp-wyst/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/28dp-wyst/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/28dp-wyst/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/28dp-wyst/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.energystar.gov/api/views/acvd-5wvz/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-14",
+  "description" : "Certified models meet all ENERGY STAR requirements as listed in the Version 3.0 ENERGY STAR Program Requirements for Geothermal Heat Pumps that are effective as of January 1, 2012. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=geo_heat.pr_crit_geo_heat_pumps",
+  "feed" : "https://data.energystar.gov/api/views/acvd-5wvz/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "acvd-5wvz",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-02-14",
+  "title" : "ENERGY STAR Certified Geothermal Heat Pumps",
+  "webService" : "https://data.energystar.gov/resource/acvd-5wvz",
+  "distribution" : [ {
+    "accessURL" : "https://data.energystar.gov/api/views/acvd-5wvz/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/acvd-5wvz/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/acvd-5wvz/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/acvd-5wvz/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/acvd-5wvz/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/acvd-5wvz/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.energystar.gov/api/views/pk8q-dim8/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-18",
+  "description" : "Certified models meet all ENERGY STAR requirements as listed in the Version 2.0 ENERGY STAR Program Requirements for Commercial Dishwashers that are effective as of February 1, 2013. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=comm_dishwashers.pr_crit_comm_dishwashers",
+  "feed" : "https://data.energystar.gov/api/views/pk8q-dim8/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "pk8q-dim8",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-03-18",
+  "title" : "ENERGY STAR Certified Commercial Dishwashers",
+  "webService" : "https://data.energystar.gov/resource/pk8q-dim8",
+  "distribution" : [ {
+    "accessURL" : "https://data.energystar.gov/api/views/pk8q-dim8/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/pk8q-dim8/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/pk8q-dim8/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/pk8q-dim8/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/pk8q-dim8/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/pk8q-dim8/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.energystar.gov/api/views/2wah-sjxr/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-07-17",
+  "description" : "Certified models meet all ENERGY STAR requirements as listed in the Version 4.1 ENERGY STAR Program Requirements for Residential Refrigerators and Freezers that are effective as of April 28, 2008 or the Version 5.0 ENERGY STAR Program Requirements for Residential Refrigerators and Freezers that are effective as of September 15, 2014. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=refrig.pr_crit_refrigerators",
+  "feed" : "https://data.energystar.gov/api/views/2wah-sjxr/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "2wah-sjxr",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-07-17",
+  "title" : "ENERGY STAR Certified Residential Freezers",
+  "webService" : "https://data.energystar.gov/resource/2wah-sjxr",
+  "distribution" : [ {
+    "accessURL" : "https://data.energystar.gov/api/views/2wah-sjxr/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/2wah-sjxr/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/2wah-sjxr/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/2wah-sjxr/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/2wah-sjxr/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/2wah-sjxr/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.energystar.gov/api/views/56yh-pcbu/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-06-05",
+  "description" : "Certified models meet all ENERGY STAR requirements as listed in the Version 1.0 ENERGY STAR Program Requirements for Commercial Water Heaters that are effective as of February 18, 2013. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?fuseaction=find_a_product.showProductGroup&pgw_code=CWH#specs",
+  "feed" : "https://data.energystar.gov/api/views/56yh-pcbu/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "56yh-pcbu",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-06-05",
+  "title" : "ENERGY STAR Certified Commercial Water Heaters",
+  "webService" : "https://data.energystar.gov/resource/56yh-pcbu",
+  "distribution" : [ {
+    "accessURL" : "https://data.energystar.gov/api/views/56yh-pcbu/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/56yh-pcbu/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/56yh-pcbu/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/56yh-pcbu/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/56yh-pcbu/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/56yh-pcbu/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.energystar.gov/api/views/8qjd-zcsy/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-26",
+  "description" : "Certified models meet all ENERGY STAR requirements as listed in the Version 4.3 ENERGY STAR Program Requirements for Compact Fluorescent Lamps (CFLs) that are effective as of December 2, 2008 or the Integral LED Lamps Version 1.4 Requirements that are effective as of August 31, 2010. Some data may not be available for products certified before January 1, 2011. A detailed listing of key efficiency criteria are available at http://www.energystar.gov/index.cfm?c=cfls.pr_crit_cfls or http://www.energystar.gov/index.cfm?c=iledl.pr_key_product",
+  "feed" : "https://data.energystar.gov/api/views/8qjd-zcsy/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "8qjd-zcsy",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-04-26",
+  "title" : "ENERGY STAR Certified Light Bulbs",
+  "webService" : "https://data.energystar.gov/resource/8qjd-zcsy",
+  "distribution" : [ {
+    "accessURL" : "https://data.energystar.gov/api/views/8qjd-zcsy/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/8qjd-zcsy/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/8qjd-zcsy/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/8qjd-zcsy/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/8qjd-zcsy/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.energystar.gov/api/views/8qjd-zcsy/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+} ]

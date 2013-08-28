@@ -1,0 +1,360 @@
+[ {
+  "accessLevel" : "Public",
+  "description" : "Lists the datasets for this domain.  The format should correspond to the spec at http://project-open-data.github.io/schema/",
+  "format" : "application/json",
+  "frequency" : "hourly",
+  "identifier" : "https://data.nfpa.org/data.json",
+  "modified" : "2013-08-28",
+  "title" : "Project Open Data, /data.json file",
+  "webService" : "https://data.nfpa.org/data.json"
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nfpa.org/api/views/6g2n-v4p9/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-03",
+  "feed" : "https://data.nfpa.org/api/views/6g2n-v4p9/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "6g2n-v4p9",
+  "keyword" : "",
+  "modified" : "2012-10-10",
+  "releaseDate" : "2012-08-03",
+  "title" : "Manufacturing Area of Origin",
+  "webService" : "https://data.nfpa.org/resource/6g2n-v4p9",
+  "distribution" : [ {
+    "accessURL" : "https://data.nfpa.org/api/views/6g2n-v4p9/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/6g2n-v4p9/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/6g2n-v4p9/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/6g2n-v4p9/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/6g2n-v4p9/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/6g2n-v4p9/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nfpa.org/api/views/i85h-825d/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-07-11",
+  "description" : "NFPA is providing customers with an easy to use graphical representation of the State Fire Marshals across North America.",
+  "feed" : "https://data.nfpa.org/api/views/i85h-825d/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "i85h-825d",
+  "keyword" : "fire marshal,marshal,state fire marshal,fire,fire service",
+  "license" : "Public Domain\nNational Fire Protection Association(http://www.nfpa.org)",
+  "modified" : "2012-08-20",
+  "releaseDate" : "2012-07-11",
+  "title" : "State Fire Marshal List- Socrata",
+  "webService" : "https://data.nfpa.org/resource/i85h-825d",
+  "distribution" : [ {
+    "accessURL" : "https://data.nfpa.org/api/views/i85h-825d/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/i85h-825d/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/i85h-825d/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/i85h-825d/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/i85h-825d/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/i85h-825d/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "fire marshal", "marshal", "state fire marshal", "fire", "fire service" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nfpa.org/api/views/tvpy-9n6m/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-06",
+  "description" : "Sparky's Wish List invites fire departments to create a Wish List of fire safety education materials for use during school visits and other community events. And then, community members, local businesses, and others can purchase requested materials which NFPA will send directly to the fire department.",
+  "feed" : "https://data.nfpa.org/api/views/tvpy-9n6m/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "tvpy-9n6m",
+  "keyword" : "fire prevention week,fpw,sparkys wish list,sparky's wish list",
+  "modified" : "2013-07-22",
+  "releaseDate" : "2012-08-06",
+  "title" : "Sparkys Wish List",
+  "webService" : "https://data.nfpa.org/resource/tvpy-9n6m",
+  "distribution" : [ {
+    "accessURL" : "https://data.nfpa.org/api/views/tvpy-9n6m/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/tvpy-9n6m/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/tvpy-9n6m/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/tvpy-9n6m/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/tvpy-9n6m/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/tvpy-9n6m/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "fire prevention week", "fpw", "sparkys wish list", "sparky's wish list" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nfpa.org/api/views/7cy4-j3u7/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-15",
+  "description" : "NFPA 70  National Electrical Code Adoption",
+  "feed" : "https://data.nfpa.org/api/views/7cy4-j3u7/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "7cy4-j3u7",
+  "keyword" : "",
+  "modified" : "2013-03-28",
+  "releaseDate" : "2012-08-15",
+  "title" : "NFPA 70  National Electrical Code Adoption",
+  "webService" : "https://data.nfpa.org/resource/7cy4-j3u7",
+  "distribution" : [ {
+    "accessURL" : "https://data.nfpa.org/api/views/7cy4-j3u7/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/7cy4-j3u7/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/7cy4-j3u7/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/7cy4-j3u7/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/7cy4-j3u7/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/7cy4-j3u7/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nfpa.org/api/views/6byn-mdj5/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-03",
+  "description" : "Map showing if each state is up to date in its NEC(R) adoption",
+  "feed" : "https://data.nfpa.org/api/views/6byn-mdj5/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "6byn-mdj5",
+  "keyword" : "",
+  "modified" : "2013-04-03",
+  "releaseDate" : "2013-04-03",
+  "title" : "NEC(R) Adoption Map as of April 2013",
+  "webService" : "https://data.nfpa.org/resource/6byn-mdj5",
+  "distribution" : [ {
+    "accessURL" : "https://data.nfpa.org/api/views/6byn-mdj5/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/6byn-mdj5/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/6byn-mdj5/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/6byn-mdj5/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/6byn-mdj5/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/6byn-mdj5/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nfpa.org/api/views/282p-4kc4/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-16",
+  "feed" : "https://data.nfpa.org/api/views/282p-4kc4/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "282p-4kc4",
+  "keyword" : "",
+  "modified" : "2013-04-16",
+  "releaseDate" : "2013-04-16",
+  "title" : "May Technical Committee Meetings ( Test)-2",
+  "webService" : "https://data.nfpa.org/resource/282p-4kc4",
+  "distribution" : [ {
+    "accessURL" : "https://data.nfpa.org/api/views/282p-4kc4/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/282p-4kc4/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/282p-4kc4/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/282p-4kc4/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/282p-4kc4/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/282p-4kc4/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nfpa.org/api/views/b5u9-qvvx/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-15",
+  "feed" : "https://data.nfpa.org/api/views/b5u9-qvvx/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "b5u9-qvvx",
+  "keyword" : "",
+  "modified" : "2013-05-20",
+  "releaseDate" : "2013-05-15",
+  "title" : "NEC State Adoption As Of 5-15-2013",
+  "webService" : "https://data.nfpa.org/resource/b5u9-qvvx",
+  "distribution" : [ {
+    "accessURL" : "https://data.nfpa.org/api/views/b5u9-qvvx/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/b5u9-qvvx/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/b5u9-qvvx/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/b5u9-qvvx/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/b5u9-qvvx/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nfpa.org/api/views/b5u9-qvvx/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+} ]

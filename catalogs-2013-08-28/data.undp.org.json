@@ -1,0 +1,198 @@
+[ {
+  "accessLevel" : "Public",
+  "description" : "Lists the datasets for this domain.  The format should correspond to the spec at http://project-open-data.github.io/schema/",
+  "format" : "application/json",
+  "frequency" : "hourly",
+  "identifier" : "https://data.undp.org/data.json",
+  "modified" : "2013-08-28",
+  "title" : "Project Open Data, /data.json file",
+  "webService" : "https://data.undp.org/data.json"
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.undp.org/api/file_data/NEvZLid98npWYWh_kDrM76yc6ELZyixpG-9In5-SJNQ?filename=UNDP_IATI_Data+%282010+Expenditures%29.zip",
+  "created" : "2011-10-20",
+  "description" : "Development expenditures for the 2010 period in XML under the International Aid Transparency Initiative schema.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "f63q-4jaq",
+  "keyword" : "iati,aid,expenditures,xml",
+  "license" : "Creative Commons Attribution 3.0 Unported\nUnited Nations Development Programme(http://www.undp.org)\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2011-11-21",
+  "releaseDate" : "2011-10-20",
+  "title" : "UNDP IATI Data (2010 Expenditures)",
+  "distribution" : [ {
+    "accessURL" : "https://data.undp.org/api/file_data/NEvZLid98npWYWh_kDrM76yc6ELZyixpG-9In5-SJNQ?filename=UNDP_IATI_Data+%282010+Expenditures%29.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "iati", "aid", "expenditures", "xml" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.undp.org/api/views/ympg-hbwc/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-01-06",
+  "feed" : "https://data.undp.org/api/views/ympg-hbwc/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ympg-hbwc",
+  "keyword" : "partner",
+  "modified" : "2012-01-06",
+  "releaseDate" : "2012-01-06",
+  "title" : "MPTF Projects",
+  "webService" : "https://data.undp.org/resource/ympg-hbwc",
+  "distribution" : [ {
+    "accessURL" : "https://data.undp.org/api/views/ympg-hbwc/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.undp.org/api/views/ympg-hbwc/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.undp.org/api/views/ympg-hbwc/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.undp.org/api/views/ympg-hbwc/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.undp.org/api/views/ympg-hbwc/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.undp.org/api/views/ympg-hbwc/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "partner" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.undp.org/api/views/2dqv-um8n/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-29",
+  "feed" : "https://data.undp.org/api/views/2dqv-um8n/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "2dqv-um8n",
+  "keyword" : "",
+  "modified" : "2013-01-18",
+  "releaseDate" : "2012-11-29",
+  "title" : "UNDP Projects - 2010",
+  "webService" : "https://data.undp.org/resource/2dqv-um8n",
+  "distribution" : [ {
+    "accessURL" : "https://data.undp.org/api/views/2dqv-um8n/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.undp.org/api/views/2dqv-um8n/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.undp.org/api/views/2dqv-um8n/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.undp.org/api/views/2dqv-um8n/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.undp.org/api/views/2dqv-um8n/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.undp.org/api/views/2dqv-um8n/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.undp.org/api/file_data/NP9yDZ0kf0v570IKCfbj0HRWqMrIE0DVjFkDt7CQjU0?filename=UNDP_2011_dev_projects.xml+%281%29.zip",
+  "created" : "2012-11-29",
+  "description" : "Development expenditures for the 2011 period in XML under the International Aid Transparency Initiative schema.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "mbp2-idca",
+  "keyword" : "iati,aid,expenditures,xml",
+  "license" : "Creative Commons Attribution 3.0 Unported\nUnited Nations Development Programme(http://www.undp.org)\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+  "modified" : "2012-11-29",
+  "releaseDate" : "2012-11-29",
+  "title" : "UNDP IATI Data (2011 Expenditures)",
+  "distribution" : [ {
+    "accessURL" : "https://data.undp.org/api/file_data/NP9yDZ0kf0v570IKCfbj0HRWqMrIE0DVjFkDt7CQjU0?filename=UNDP_2011_dev_projects.xml+%281%29.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "iati", "aid", "expenditures", "xml" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.undp.org/api/views/jner-twha/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-09-20",
+  "feed" : "https://data.undp.org/api/views/jner-twha/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "jner-twha",
+  "keyword" : "",
+  "modified" : "2013-03-10",
+  "releaseDate" : "2011-09-20",
+  "title" : "UNDP Projects - 2011",
+  "webService" : "https://data.undp.org/resource/jner-twha",
+  "distribution" : [ {
+    "accessURL" : "https://data.undp.org/api/views/jner-twha/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.undp.org/api/views/jner-twha/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.undp.org/api/views/jner-twha/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.undp.org/api/views/jner-twha/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.undp.org/api/views/jner-twha/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.undp.org/api/views/jner-twha/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+} ]

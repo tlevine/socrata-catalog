@@ -1,0 +1,859 @@
+[ {
+  "accessLevel" : "Public",
+  "description" : "Lists the datasets for this domain.  The format should correspond to the spec at http://project-open-data.github.io/schema/",
+  "format" : "application/json",
+  "frequency" : "hourly",
+  "identifier" : "https://data.snostat.org/data.json",
+  "modified" : "2013-08-28",
+  "title" : "Project Open Data, /data.json file",
+  "webService" : "https://data.snostat.org/data.json"
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.snostat.org/api/views/cr4e-ewxf/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-29",
+  "description" : "Parks Locations, Acreage",
+  "feed" : "https://data.snostat.org/api/views/cr4e-ewxf/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "cr4e-ewxf",
+  "keyword" : "",
+  "license" : "Public Domain\nSnohomish County, WA(http://www.snoco.org)",
+  "modified" : "2013-02-12",
+  "releaseDate" : "2013-01-29",
+  "title" : "Snohomish County Parks Inventory",
+  "webService" : "https://data.snostat.org/resource/cr4e-ewxf",
+  "distribution" : [ {
+    "accessURL" : "https://data.snostat.org/api/views/cr4e-ewxf/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/cr4e-ewxf/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/cr4e-ewxf/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/cr4e-ewxf/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/cr4e-ewxf/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/cr4e-ewxf/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.snostat.org/api/views/pdma-n7bb/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-31",
+  "description" : "Real Property Facilities",
+  "feed" : "https://data.snostat.org/api/views/pdma-n7bb/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "pdma-n7bb",
+  "keyword" : "",
+  "license" : "Public Domain\nSnohomish County, WA(http://www.snoco.org)",
+  "modified" : "2013-02-12",
+  "releaseDate" : "2013-01-31",
+  "title" : "Snohomish County Buildings",
+  "webService" : "https://data.snostat.org/resource/pdma-n7bb",
+  "distribution" : [ {
+    "accessURL" : "https://data.snostat.org/api/views/pdma-n7bb/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/pdma-n7bb/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/pdma-n7bb/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/pdma-n7bb/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/pdma-n7bb/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/pdma-n7bb/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.snostat.org/api/file_data/V5jgrYmYkMyC3M9CB8hqnAABhUsujhqls5bgczuW2HU?filename=Hydro.zip",
+  "created" : "2013-02-01",
+  "description" : "Basins, body of water",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "wywv-nmjk",
+  "keyword" : "",
+  "license" : "Public Domain\nSnohomish County, WA(http://www.snoco.org)",
+  "modified" : "2013-02-01",
+  "releaseDate" : "2013-02-01",
+  "title" : "Snohomish County GIS Hydro Layers",
+  "distribution" : [ {
+    "accessURL" : "https://data.snostat.org/api/file_data/V5jgrYmYkMyC3M9CB8hqnAABhUsujhqls5bgczuW2HU?filename=Hydro.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.snostat.org/api/file_data/Cvf0Up8BHGmVo1dHbJxSCPTsnoDnnV9X5wXXtIwA0xc?filename=ParksTrails.zip",
+  "created" : "2013-02-01",
+  "description" : "Parks trails",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "e3k5-5qav",
+  "keyword" : "",
+  "license" : "Public Domain\nSnohomish County, WA(http://www.snoco.org)",
+  "modified" : "2013-02-01",
+  "releaseDate" : "2013-02-01",
+  "title" : "Snohomish County GIS Parks and Trails",
+  "distribution" : [ {
+    "accessURL" : "https://data.snostat.org/api/file_data/Cvf0Up8BHGmVo1dHbJxSCPTsnoDnnV9X5wXXtIwA0xc?filename=ParksTrails.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.snostat.org/api/file_data/VHWVaZwVThkdxmYzZqBOErI4xB_AmsKXZIPGeepsDhU?filename=cities.zip",
+  "created" : "2013-02-06",
+  "description" : "City boundaries",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "9wxp-sxyi",
+  "keyword" : "cities",
+  "license" : "Public Domain\nSnohomish County, WA(http://www.snoco.org)",
+  "modified" : "2013-02-06",
+  "releaseDate" : "2013-02-06",
+  "title" : "Snohomish County GIS Cities",
+  "distribution" : [ {
+    "accessURL" : "https://data.snostat.org/api/file_data/VHWVaZwVThkdxmYzZqBOErI4xB_AmsKXZIPGeepsDhU?filename=cities.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "cities" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.snostat.org/api/file_data/g_x2sDGkFmnGmFF1YuBpaGQkrAQ_71T8cKQmwam9We8?filename=congressdist.zip",
+  "created" : "2013-02-06",
+  "description" : "Snohomish County GIS Congressional Districits",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "eixv-zy6w",
+  "keyword" : "congressional districts",
+  "license" : "Public Domain\nSnohomish County, WA(http://www.snoco.org)",
+  "modified" : "2013-02-06",
+  "releaseDate" : "2013-02-06",
+  "title" : "Snohomish County GIS Congressional Districits",
+  "distribution" : [ {
+    "accessURL" : "https://data.snostat.org/api/file_data/g_x2sDGkFmnGmFF1YuBpaGQkrAQ_71T8cKQmwam9We8?filename=congressdist.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "congressional districts" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.snostat.org/api/file_data/MgwX431si-udH410OJvw6ukXgxfIdTVOOdN4bqKolEo?filename=councildist.zip",
+  "created" : "2013-02-06",
+  "description" : "Snohomish County GIS Council Districts",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "kdp6-hgmv",
+  "keyword" : "council districts",
+  "license" : "Public Domain\nSnohomish County, WA(http://www.snoco.org)",
+  "modified" : "2013-02-06",
+  "releaseDate" : "2013-02-06",
+  "title" : "Snohomish County GIS Council Districts",
+  "distribution" : [ {
+    "accessURL" : "https://data.snostat.org/api/file_data/MgwX431si-udH410OJvw6ukXgxfIdTVOOdN4bqKolEo?filename=councildist.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "council districts" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.snostat.org/api/file_data/KPiLyx8IMdbsiGGXxlTkmIGf5CYpiFbp-iX2wD4qql8?filename=county.zip",
+  "created" : "2013-02-06",
+  "description" : "County boundary",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "wb6j-y3v8",
+  "keyword" : "county boundary",
+  "license" : "Public Domain\nSnohomish County, WA(http://www.snoco.org)",
+  "modified" : "2013-02-06",
+  "releaseDate" : "2013-02-06",
+  "title" : "Snohomish County GIS County",
+  "distribution" : [ {
+    "accessURL" : "https://data.snostat.org/api/file_data/KPiLyx8IMdbsiGGXxlTkmIGf5CYpiFbp-iX2wD4qql8?filename=county.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "county boundary" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.snostat.org/api/file_data/Y_XHlcspgvL9z7-srE6C1cB1Nha-l77SZsWQGYq9y_Q?filename=courtdist.zip",
+  "created" : "2013-02-06",
+  "description" : "Snohomish County GIS Court Districts",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "umpn-rr43",
+  "keyword" : "court districts",
+  "license" : "Public Domain\nSnohomish County, WA(http://www.snoco.org)",
+  "modified" : "2013-02-06",
+  "releaseDate" : "2013-02-06",
+  "title" : "Snohomish County GIS Court Districts",
+  "distribution" : [ {
+    "accessURL" : "https://data.snostat.org/api/file_data/Y_XHlcspgvL9z7-srE6C1cB1Nha-l77SZsWQGYq9y_Q?filename=courtdist.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "court districts" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.snostat.org/api/file_data/Gt7Foj7E55t3uZ0JS8EWjeHRW5mSN1RKxxYZBsUI7LU?filename=firedist.zip",
+  "created" : "2013-02-06",
+  "description" : "Snohomish County GIS Fire Districts",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "c9iu-gc2f",
+  "keyword" : "fire districts",
+  "license" : "Public Domain\nSnohomish County, WA(http://www.snoco.org)",
+  "modified" : "2013-02-06",
+  "releaseDate" : "2013-02-06",
+  "title" : "Snohomish County GIS Fire Districts",
+  "distribution" : [ {
+    "accessURL" : "https://data.snostat.org/api/file_data/Gt7Foj7E55t3uZ0JS8EWjeHRW5mSN1RKxxYZBsUI7LU?filename=firedist.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "fire districts" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.snostat.org/api/file_data/0OxhVX_ZRvHL1KkMf9HyKqAoQ1jKGPLmzq2JjHvubz4?filename=hospitaldist.zip",
+  "created" : "2013-02-06",
+  "description" : "Hospital Districts",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "hvye-749j",
+  "keyword" : "hospital districts",
+  "license" : "Public Domain\nSnohomish County, WA(http://www.snoco.org)",
+  "modified" : "2013-02-06",
+  "releaseDate" : "2013-02-06",
+  "title" : "Snohomish County GIS Hospital Districts",
+  "distribution" : [ {
+    "accessURL" : "https://data.snostat.org/api/file_data/0OxhVX_ZRvHL1KkMf9HyKqAoQ1jKGPLmzq2JjHvubz4?filename=hospitaldist.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "hospital districts" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.snostat.org/api/file_data/U6RmJFvbm6v2QxM7_JcFcPVMuVBUOQxy43fJqmsnAcM?filename=legisdist.zip",
+  "created" : "2013-02-06",
+  "description" : "Legislative Districts",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "i32c-5qba",
+  "keyword" : "legislative districts",
+  "license" : "Public Domain\nSnohomish County, WA(http://www.snoco.org)",
+  "modified" : "2013-02-06",
+  "releaseDate" : "2013-02-06",
+  "title" : "Snohomish County GIS Legislative Districts",
+  "distribution" : [ {
+    "accessURL" : "https://data.snostat.org/api/file_data/U6RmJFvbm6v2QxM7_JcFcPVMuVBUOQxy43fJqmsnAcM?filename=legisdist.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "legislative districts" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.snostat.org/api/file_data/lqfdFtgfmfTCfJcYsWlmj42GebFvmXCUC4FSQeeYiq4?filename=librarydist.zip",
+  "created" : "2013-02-06",
+  "description" : "Library Districts",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "vzz2-8rkz",
+  "keyword" : "library districts",
+  "license" : "Public Domain\nSnohomish County, WA(http://www.snoco.org)",
+  "modified" : "2013-02-06",
+  "releaseDate" : "2013-02-06",
+  "title" : "Snohomish County GIS Library Districts",
+  "distribution" : [ {
+    "accessURL" : "https://data.snostat.org/api/file_data/lqfdFtgfmfTCfJcYsWlmj42GebFvmXCUC4FSQeeYiq4?filename=librarydist.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "library districts" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.snostat.org/api/file_data/4B09zGE8nKcHhl54Ik1bh9EmVHgy4ztmK4F-9r28Cfw?filename=parkdist.zip",
+  "created" : "2013-02-06",
+  "description" : "Park Districts",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "598t-wstn",
+  "keyword" : "park districts",
+  "license" : "Public Domain\nSnohomish County, WA(http://www.snoco.org)",
+  "modified" : "2013-02-06",
+  "releaseDate" : "2013-02-06",
+  "title" : "Snohomish County GIS Park Districts",
+  "distribution" : [ {
+    "accessURL" : "https://data.snostat.org/api/file_data/4B09zGE8nKcHhl54Ik1bh9EmVHgy4ztmK4F-9r28Cfw?filename=parkdist.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "park districts" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.snostat.org/api/file_data/D1_GDcC7cPXl8vfI1srZ9E3iKn8k2TixaBwTNnTM1qY?filename=portdist.zip",
+  "created" : "2013-02-06",
+  "description" : "Port Districts",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "d8dw-fwcu",
+  "keyword" : "port districts",
+  "license" : "Public Domain\nSnohomish County, WA(http://www.snoco.org)",
+  "modified" : "2013-02-06",
+  "releaseDate" : "2013-02-06",
+  "title" : "Snohomish County GIS Port Districts",
+  "distribution" : [ {
+    "accessURL" : "https://data.snostat.org/api/file_data/D1_GDcC7cPXl8vfI1srZ9E3iKn8k2TixaBwTNnTM1qY?filename=portdist.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "port districts" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.snostat.org/api/file_data/uCBNbibNioZyEnXSZMoCSKWY1Tl4EY7nVNjvNykKjJY?filename=schooldist.zip",
+  "created" : "2013-02-06",
+  "description" : "School Districts",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "qnen-mmdr",
+  "keyword" : "school districts",
+  "license" : "Public Domain\nSnohomish County, WA(http://www.snoco.org)",
+  "modified" : "2013-02-06",
+  "releaseDate" : "2013-02-06",
+  "title" : "Snohomish County GIS School Districts",
+  "distribution" : [ {
+    "accessURL" : "https://data.snostat.org/api/file_data/uCBNbibNioZyEnXSZMoCSKWY1Tl4EY7nVNjvNykKjJY?filename=schooldist.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "school districts" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.snostat.org/api/file_data/VyC-dZqDOS8zf0P8uzZSxar-BkYklz1Z55hcjYeeYnI?filename=sewerdist.zip",
+  "created" : "2013-02-06",
+  "description" : "Sewer Districts",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "5uug-smi3",
+  "keyword" : "sewer districts",
+  "license" : "Public Domain\nSnohomish County, WA(http://www.snoco.org)",
+  "modified" : "2013-02-06",
+  "releaseDate" : "2013-02-06",
+  "title" : "Snohomish County GIS Sewer Districts",
+  "distribution" : [ {
+    "accessURL" : "https://data.snostat.org/api/file_data/VyC-dZqDOS8zf0P8uzZSxar-BkYklz1Z55hcjYeeYnI?filename=sewerdist.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "sewer districts" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.snostat.org/api/file_data/DtJ1-Y6scgWjia8epND5kOhFs1Hkiy-lbVMs9DIETPE?filename=voteprecinct.zip",
+  "created" : "2013-02-06",
+  "description" : "Voter Precincts",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "hkax-yajb",
+  "keyword" : "voter precincts",
+  "license" : "Public Domain\nSnohomish County, WA(http://www.snoco.org)",
+  "modified" : "2013-02-06",
+  "releaseDate" : "2013-02-06",
+  "title" : "Snohomish County GIS Voter Precincts",
+  "distribution" : [ {
+    "accessURL" : "https://data.snostat.org/api/file_data/DtJ1-Y6scgWjia8epND5kOhFs1Hkiy-lbVMs9DIETPE?filename=voteprecinct.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "voter precincts" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.snostat.org/api/file_data/CrkmRWeB6F8aW8Qdk-98u_1clk3QfQvVU_FsfGOjyXI?filename=waterdist.zip",
+  "created" : "2013-02-06",
+  "description" : "Water Districts",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "k7ay-gduh",
+  "keyword" : "water districts",
+  "license" : "Public Domain\nSnohomish County, WA(http://www.snoco.org)",
+  "modified" : "2013-02-06",
+  "releaseDate" : "2013-02-06",
+  "title" : "Snohomish County GIS Water Districts",
+  "distribution" : [ {
+    "accessURL" : "https://data.snostat.org/api/file_data/CrkmRWeB6F8aW8Qdk-98u_1clk3QfQvVU_FsfGOjyXI?filename=waterdist.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "water districts" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.snostat.org/api/views/7kz9-w8pf/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-08",
+  "description" : "Snohomish County Planning and Development Services. All Permit Applications Received from 1/1/2007 through 2/7/2013.",
+  "feed" : "https://data.snostat.org/api/views/7kz9-w8pf/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "7kz9-w8pf",
+  "keyword" : "snohomish county,permits,planning and development services",
+  "license" : "Public Domain\nSnohomish County, Washington(http://www.snoco.org)",
+  "modified" : "2013-03-01",
+  "releaseDate" : "2013-02-08",
+  "title" : "Planning and Development Permit Applications (2007 - 2/7/2013)",
+  "webService" : "https://data.snostat.org/resource/7kz9-w8pf",
+  "distribution" : [ {
+    "accessURL" : "https://data.snostat.org/api/views/7kz9-w8pf/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/7kz9-w8pf/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/7kz9-w8pf/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/7kz9-w8pf/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/7kz9-w8pf/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/7kz9-w8pf/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "snohomish county", "permits", "planning and development services" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.snostat.org/api/views/sn24-xxit/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-30",
+  "description" : "County Budget Information 2011-2013 by dept",
+  "feed" : "https://data.snostat.org/api/views/sn24-xxit/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "sn24-xxit",
+  "keyword" : "budget,finance",
+  "license" : "Public Domain\nSnohomish County, WA(http://www.snoco.org)",
+  "modified" : "2013-02-20",
+  "releaseDate" : "2013-01-30",
+  "title" : "Budget Information 2011-2013",
+  "webService" : "https://data.snostat.org/resource/sn24-xxit",
+  "distribution" : [ {
+    "accessURL" : "https://data.snostat.org/api/views/sn24-xxit/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/sn24-xxit/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/sn24-xxit/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/sn24-xxit/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/sn24-xxit/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/sn24-xxit/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "budget", "finance" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.snostat.org/api/views/xn5u-y9xd/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-12",
+  "description" : "Inbound solid waste per transfer station (net tons)",
+  "feed" : "https://data.snostat.org/api/views/xn5u-y9xd/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "xn5u-y9xd",
+  "keyword" : "solid waste inbound",
+  "license" : "Public Domain\nSnohomish County, WA(http://www.snoco.org)",
+  "modified" : "2013-02-12",
+  "releaseDate" : "2013-02-12",
+  "title" : "Solid Waste Transfer Station Data (2012)",
+  "webService" : "https://data.snostat.org/resource/xn5u-y9xd",
+  "distribution" : [ {
+    "accessURL" : "https://data.snostat.org/api/views/xn5u-y9xd/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/xn5u-y9xd/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/xn5u-y9xd/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/xn5u-y9xd/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/xn5u-y9xd/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/xn5u-y9xd/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "solid waste inbound" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.snostat.org/api/views/ys28-sm29/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-13",
+  "feed" : "https://data.snostat.org/api/views/ys28-sm29/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ys28-sm29",
+  "keyword" : "",
+  "modified" : "2013-02-20",
+  "releaseDate" : "2013-02-13",
+  "title" : "Snohomish County Parks Inventory - copy",
+  "webService" : "https://data.snostat.org/resource/ys28-sm29",
+  "distribution" : [ {
+    "accessURL" : "https://data.snostat.org/api/views/ys28-sm29/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/ys28-sm29/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/ys28-sm29/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/ys28-sm29/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/ys28-sm29/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/ys28-sm29/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.snostat.org/api/views/ccgc-zayk/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-14",
+  "description" : "Recreation options such as waterfalls, parks, golf courses, and related businesses in Snohomish County, Washington",
+  "feed" : "https://data.snostat.org/api/views/ccgc-zayk/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ccgc-zayk",
+  "keyword" : "recreation outdoor parks golf waterfalls trails",
+  "license" : "Public Domain\nSnohomish County, WA(http://www.snoco.org)",
+  "modified" : "2013-02-15",
+  "releaseDate" : "2013-02-14",
+  "title" : "Snohomish County Outdoor Recreation",
+  "webService" : "https://data.snostat.org/resource/ccgc-zayk",
+  "distribution" : [ {
+    "accessURL" : "https://data.snostat.org/api/views/ccgc-zayk/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/ccgc-zayk/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/ccgc-zayk/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/ccgc-zayk/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/ccgc-zayk/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/ccgc-zayk/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "recreation outdoor parks golf waterfalls trails" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.snostat.org/api/views/42q3-junt/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-13",
+  "description" : "External and internal sources of data for Snohomish County, Washington",
+  "feed" : "https://data.snostat.org/api/views/42q3-junt/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "42q3-junt",
+  "keyword" : "snohomish county links",
+  "license" : "Public Domain\nSnohomish County, WA(http://www.snoco.org)",
+  "modified" : "2013-02-15",
+  "releaseDate" : "2013-02-13",
+  "title" : "Snohomish County Datasets and References",
+  "webService" : "https://data.snostat.org/resource/42q3-junt",
+  "distribution" : [ {
+    "accessURL" : "https://data.snostat.org/api/views/42q3-junt/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/42q3-junt/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/42q3-junt/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/42q3-junt/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/42q3-junt/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/42q3-junt/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "snohomish county links" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.snostat.org/api/views/r77x-yydf/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-11",
+  "description" : "Listing of Snohomish County food establishments with a link  to each food establishment online restaurant inspection summary report history.",
+  "feed" : "https://data.snostat.org/api/views/r77x-yydf/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "r77x-yydf",
+  "keyword" : "food,safety,health,restaurant,report,establishment,facility,permit,snohomish county",
+  "modified" : "2013-02-15",
+  "releaseDate" : "2013-02-11",
+  "title" : "Snohomish County Food Establishments",
+  "webService" : "https://data.snostat.org/resource/r77x-yydf",
+  "distribution" : [ {
+    "accessURL" : "https://data.snostat.org/api/views/r77x-yydf/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/r77x-yydf/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/r77x-yydf/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/r77x-yydf/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/r77x-yydf/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/r77x-yydf/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "food", "safety", "health", "restaurant", "report", "establishment", "facility", "permit", "snohomish county" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.snostat.org/api/views/5d8p-rp8p/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-19",
+  "feed" : "https://data.snostat.org/api/views/5d8p-rp8p/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "5d8p-rp8p",
+  "keyword" : "",
+  "modified" : "2013-02-19",
+  "releaseDate" : "2013-02-19",
+  "title" : "Templates",
+  "webService" : "https://data.snostat.org/resource/templates",
+  "distribution" : [ {
+    "accessURL" : "https://data.snostat.org/api/views/5d8p-rp8p/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/5d8p-rp8p/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/5d8p-rp8p/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/5d8p-rp8p/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/5d8p-rp8p/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.snostat.org/api/views/5d8p-rp8p/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+} ]

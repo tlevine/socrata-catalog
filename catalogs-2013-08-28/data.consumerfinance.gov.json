@@ -1,0 +1,314 @@
+[ {
+  "accessLevel" : "Public",
+  "description" : "Lists the datasets for this domain.  The format should correspond to the spec at http://project-open-data.github.io/schema/",
+  "format" : "application/json",
+  "frequency" : "hourly",
+  "identifier" : "https://data.consumerfinance.gov/data.json",
+  "modified" : "2013-08-28",
+  "title" : "Project Open Data, /data.json file",
+  "webService" : "https://data.consumerfinance.gov/data.json"
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.consumerfinance.gov/api/views/gjyk-gq6g/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-06-14",
+  "feed" : "https://data.consumerfinance.gov/api/views/gjyk-gq6g/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "gjyk-gq6g",
+  "keyword" : "",
+  "modified" : "2012-06-14",
+  "releaseDate" : "2012-06-14",
+  "title" : "Templates",
+  "webService" : "https://data.consumerfinance.gov/resource/templates",
+  "distribution" : [ {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/gjyk-gq6g/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/gjyk-gq6g/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/gjyk-gq6g/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/gjyk-gq6g/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/gjyk-gq6g/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/gjyk-gq6g/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.consumerfinance.gov/api/views/fjq8-pysg/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-05-04",
+  "description" : "Every six months the Consumer Financial Protection Bureau (and prior to 2012, the Federal Reserve System) surveys the terms of credit card plans offered by financial institutions and publishes a report of the findings. The report includes information from the largest credit card issuers in the country as well as other financial institutions that wish to participate in the survey. The credit terms shown in this list are as of January 31, 2012, and are subject to change. You should contact issuers for current rates and to learn about other credit card plans.\r\n\r\nInformation is collected in this survey on Form 2572. The survey was initiated on January 31, 1990; it was discontinued prior to the July 2000 reporting date pursuant to the Federal Reports Elimination and Sunset Act of 1995. The American Homeownership and Economic Opportunity Act of 2000 reinstated the survey, which began again in July 2001.",
+  "feed" : "https://data.consumerfinance.gov/api/views/fjq8-pysg/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "fjq8-pysg",
+  "keyword" : "credit cards",
+  "license" : "Public Domain\nFederal Reserve System",
+  "modified" : "2012-06-27",
+  "releaseDate" : "2012-05-04",
+  "title" : "Survey of Credit Card Plans as of January 31, 2012",
+  "webService" : "https://data.consumerfinance.gov/resource/fjq8-pysg",
+  "distribution" : [ {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/fjq8-pysg/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/fjq8-pysg/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/fjq8-pysg/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/fjq8-pysg/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/fjq8-pysg/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/fjq8-pysg/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "credit cards" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.consumerfinance.gov/api/views/r963-hvsf/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-10-15",
+  "description" : "As required by the Credit CARD Act of 2009, the CFPB collects information annually from credit card issuers who have marketing agreements with universities, colleges, or affiliated organizations such as alumni associations, sororities, fraternities, and foundations. We publish this information and write an annual report to Congress on the state of college credit card agreements.",
+  "feed" : "https://data.consumerfinance.gov/api/views/r963-hvsf/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "r963-hvsf",
+  "keyword" : "credit card,college,agreements",
+  "license" : "Public Domain\nConsumer Financial Protection Bureau(http://www.consumerfinance.gov)",
+  "modified" : "2012-10-15",
+  "releaseDate" : "2012-10-15",
+  "title" : "College Credit Card Agreements",
+  "webService" : "https://data.consumerfinance.gov/resource/r963-hvsf",
+  "distribution" : [ {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/r963-hvsf/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/r963-hvsf/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/r963-hvsf/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/r963-hvsf/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/r963-hvsf/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/r963-hvsf/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "credit card", "college", "agreements" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.consumerfinance.gov/api/views/25ei-6bcr/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-05-16",
+  "feed" : "https://data.consumerfinance.gov/api/views/25ei-6bcr/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "25ei-6bcr",
+  "keyword" : "",
+  "license" : "Public Domain",
+  "modified" : "2013-05-08",
+  "releaseDate" : "2012-05-16",
+  "title" : "Credit Card Complaints",
+  "webService" : "https://data.consumerfinance.gov/resource/25ei-6bcr",
+  "distribution" : [ {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/25ei-6bcr/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/25ei-6bcr/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/25ei-6bcr/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/25ei-6bcr/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/25ei-6bcr/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/25ei-6bcr/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.consumerfinance.gov/api/views/gme7-gkkr/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-09-17",
+  "description" : "The CFPB maintains historical data from the semi-annual survey of Credit Card Plans available from 1990. Information is collected in this survey on Form 2572. The survey was initiated on January 31, 1990; it was discontinued prior to the July 2000 reporting date pursuant to the Federal Reports Elimination and Sunset Act of 1995. The American Homeownership and Economic Opportunity Act of 2000 reinstated the survey, which began again in July 2001.",
+  "feed" : "https://data.consumerfinance.gov/api/views/gme7-gkkr/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "gme7-gkkr",
+  "keyword" : "credit,data,survey",
+  "license" : "Public Domain\nCFPB(http://www.consumerfinance.gov)",
+  "modified" : "2013-04-25",
+  "releaseDate" : "2012-09-17",
+  "title" : "Survey of Credit Card Plans",
+  "webService" : "https://data.consumerfinance.gov/resource/gme7-gkkr",
+  "distribution" : [ {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/gme7-gkkr/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/gme7-gkkr/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/gme7-gkkr/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/gme7-gkkr/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/gme7-gkkr/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/gme7-gkkr/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "credit", "data", "survey" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.consumerfinance.gov/api/views/x94z-ydhh/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-04",
+  "feed" : "https://data.consumerfinance.gov/api/views/x94z-ydhh/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "x94z-ydhh",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-03-04",
+  "title" : "Consumer Complaints",
+  "webService" : "https://data.consumerfinance.gov/resource/x94z-ydhh",
+  "distribution" : [ {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/x94z-ydhh/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/x94z-ydhh/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/x94z-ydhh/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/x94z-ydhh/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/x94z-ydhh/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.consumerfinance.gov/api/views/x94z-ydhh/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+} ]

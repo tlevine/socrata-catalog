@@ -1,0 +1,612 @@
+[ {
+  "accessLevel" : "Public",
+  "description" : "Lists the datasets for this domain.  The format should correspond to the spec at http://project-open-data.github.io/schema/",
+  "format" : "application/json",
+  "frequency" : "hourly",
+  "identifier" : "https://electionsdata.kingcounty.gov/data.json",
+  "modified" : "2013-08-28",
+  "title" : "Project Open Data, /data.json file",
+  "webService" : "https://electionsdata.kingcounty.gov/data.json"
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://electionsdata.kingcounty.gov/api/views/hyye-3d38/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-09-27",
+  "feed" : "https://electionsdata.kingcounty.gov/api/views/hyye-3d38/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "hyye-3d38",
+  "keyword" : "",
+  "modified" : "2012-09-27",
+  "releaseDate" : "2012-09-27",
+  "title" : "Templates",
+  "webService" : "https://electionsdata.kingcounty.gov/resource/templates",
+  "distribution" : [ {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/hyye-3d38/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/hyye-3d38/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/hyye-3d38/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/hyye-3d38/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/hyye-3d38/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/hyye-3d38/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://electionsdata.kingcounty.gov/api/views/y6bd-fzn2/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-10-04",
+  "feed" : "https://electionsdata.kingcounty.gov/api/views/y6bd-fzn2/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "y6bd-fzn2",
+  "keyword" : "",
+  "modified" : "2012-11-05",
+  "releaseDate" : "2012-10-04",
+  "title" : "Results lookup table",
+  "webService" : "https://electionsdata.kingcounty.gov/resource/y6bd-fzn2",
+  "distribution" : [ {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/y6bd-fzn2/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/y6bd-fzn2/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/y6bd-fzn2/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/y6bd-fzn2/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/y6bd-fzn2/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/y6bd-fzn2/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://electionsdata.kingcounty.gov/api/views/3fn4-vbk7/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-09-27",
+  "feed" : "https://electionsdata.kingcounty.gov/api/views/3fn4-vbk7/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "3fn4-vbk7",
+  "keyword" : "",
+  "modified" : "2013-02-12",
+  "releaseDate" : "2012-09-27",
+  "title" : "Qry Web Index",
+  "webService" : "https://electionsdata.kingcounty.gov/resource/3fn4-vbk7",
+  "distribution" : [ {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/3fn4-vbk7/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/3fn4-vbk7/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/3fn4-vbk7/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/3fn4-vbk7/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/3fn4-vbk7/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/3fn4-vbk7/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://electionsdata.kingcounty.gov/api/views/9mq2-w8xg/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-06",
+  "feed" : "https://electionsdata.kingcounty.gov/api/views/9mq2-w8xg/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "9mq2-w8xg",
+  "keyword" : "",
+  "modified" : "2013-02-06",
+  "releaseDate" : "2013-02-06",
+  "title" : "TEST",
+  "webService" : "https://electionsdata.kingcounty.gov/resource/9mq2-w8xg",
+  "distribution" : [ {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/9mq2-w8xg/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/9mq2-w8xg/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/9mq2-w8xg/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/9mq2-w8xg/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/9mq2-w8xg/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/9mq2-w8xg/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://electionsdata.kingcounty.gov/api/views/hstz-956q/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-28",
+  "feed" : "https://electionsdata.kingcounty.gov/api/views/hstz-956q/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "hstz-956q",
+  "keyword" : "",
+  "license" : "Public Domain\nKing County Elections(http://kingcounty.gov/elections)",
+  "modified" : "2013-02-26",
+  "releaseDate" : "2013-01-28",
+  "title" : "February 2013 Special Election",
+  "webService" : "https://electionsdata.kingcounty.gov/resource/hstz-956q",
+  "distribution" : [ {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/hstz-956q/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/hstz-956q/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/hstz-956q/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/hstz-956q/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/hstz-956q/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/hstz-956q/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://electionsdata.kingcounty.gov/api/views/dxfk-c3dj/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-18",
+  "description" : "Results data for April 23 special election in King County.",
+  "feed" : "https://electionsdata.kingcounty.gov/api/views/dxfk-c3dj/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "dxfk-c3dj",
+  "keyword" : "elections",
+  "license" : "Public Domain\nKing County Elections(http://kingcounty.gov/elections)",
+  "modified" : "2013-05-07",
+  "releaseDate" : "2013-03-18",
+  "title" : "April 23, 2013 Special Election Results",
+  "webService" : "https://electionsdata.kingcounty.gov/resource/dxfk-c3dj",
+  "distribution" : [ {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/dxfk-c3dj/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/dxfk-c3dj/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/dxfk-c3dj/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/dxfk-c3dj/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/dxfk-c3dj/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/dxfk-c3dj/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "elections" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://electionsdata.kingcounty.gov/api/views/64jz-hi7f/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-06-05",
+  "description" : "Results for June 25 2013 special election (Pacific mayor recall)",
+  "feed" : "https://electionsdata.kingcounty.gov/api/views/64jz-hi7f/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "64jz-hi7f",
+  "keyword" : "",
+  "license" : "Public Domain\nKing County Elections(http://kingcounty.gov/elections)",
+  "modified" : "2013-07-09",
+  "releaseDate" : "2013-06-05",
+  "title" : "June 25, 2013 Special Election",
+  "webService" : "https://electionsdata.kingcounty.gov/resource/64jz-hi7f",
+  "distribution" : [ {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/64jz-hi7f/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/64jz-hi7f/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/64jz-hi7f/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/64jz-hi7f/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/64jz-hi7f/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/64jz-hi7f/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://electionsdata.kingcounty.gov/api/views/cku2-5k9y/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-07-12",
+  "description" : "June 25 2013 special election - recall petition for Mayor of Pacific WA",
+  "feed" : "https://electionsdata.kingcounty.gov/api/views/cku2-5k9y/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "cku2-5k9y",
+  "keyword" : "elections,king county,voting",
+  "license" : "Public Domain\nKing County Elections(http://kingcounty.gov/elections)",
+  "modified" : "2013-07-15",
+  "releaseDate" : "2013-07-12",
+  "title" : "June 25 2013 special election ecanvass",
+  "webService" : "https://electionsdata.kingcounty.gov/resource/cku2-5k9y",
+  "distribution" : [ {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/cku2-5k9y/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/cku2-5k9y/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/cku2-5k9y/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/cku2-5k9y/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/cku2-5k9y/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/cku2-5k9y/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "elections", "king county", "voting" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://electionsdata.kingcounty.gov/api/views/k59d-q4u8/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-10-01",
+  "feed" : "https://electionsdata.kingcounty.gov/api/views/k59d-q4u8/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "k59d-q4u8",
+  "keyword" : "",
+  "license" : "Public Domain\nKing County Elections(http://kingcounty.gov/elections)",
+  "modified" : "2013-07-26",
+  "releaseDate" : "2012-10-01",
+  "title" : "Master KC Ballot Drop Box Dataset",
+  "webService" : "https://electionsdata.kingcounty.gov/resource/k59d-q4u8",
+  "distribution" : [ {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/k59d-q4u8/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/k59d-q4u8/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/k59d-q4u8/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/k59d-q4u8/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/k59d-q4u8/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/k59d-q4u8/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://electionsdata.kingcounty.gov/api/views/tpwv-jjdb/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-07-30",
+  "feed" : "https://electionsdata.kingcounty.gov/api/views/tpwv-jjdb/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "tpwv-jjdb",
+  "keyword" : "",
+  "modified" : "2013-08-05",
+  "releaseDate" : "2013-07-30",
+  "title" : "August lookup table",
+  "webService" : "https://electionsdata.kingcounty.gov/resource/tpwv-jjdb",
+  "distribution" : [ {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/tpwv-jjdb/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/tpwv-jjdb/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/tpwv-jjdb/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/tpwv-jjdb/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/tpwv-jjdb/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/tpwv-jjdb/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://electionsdata.kingcounty.gov/api/views/jy3x-9etq/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-07-18",
+  "feed" : "https://electionsdata.kingcounty.gov/api/views/jy3x-9etq/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "jy3x-9etq",
+  "keyword" : "king county,elections",
+  "license" : "Public Domain\nKing County Elections(http://kingcounty.gov/elections)",
+  "modified" : "2013-08-22",
+  "releaseDate" : "2013-07-18",
+  "title" : "August 6, 2013 Primary Results",
+  "webService" : "https://electionsdata.kingcounty.gov/resource/jy3x-9etq",
+  "distribution" : [ {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/jy3x-9etq/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/jy3x-9etq/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/jy3x-9etq/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/jy3x-9etq/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/jy3x-9etq/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/jy3x-9etq/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "king county", "elections" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://electionsdata.kingcounty.gov/api/views/5yjz-zt75/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-23",
+  "description" : "August 2013 Primary ECanvass",
+  "feed" : "https://electionsdata.kingcounty.gov/api/views/5yjz-zt75/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "5yjz-zt75",
+  "keyword" : "2013 primary election,ecanvass,election,2013 result",
+  "modified" : "2013-08-27",
+  "releaseDate" : "2013-08-23",
+  "title" : "August 2013 Primary ECanvass",
+  "webService" : "https://electionsdata.kingcounty.gov/resource/5yjz-zt75",
+  "distribution" : [ {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/5yjz-zt75/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/5yjz-zt75/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/5yjz-zt75/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/5yjz-zt75/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/5yjz-zt75/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://electionsdata.kingcounty.gov/api/views/5yjz-zt75/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "2013 primary election", "ecanvass", "election", "2013 result" ]
+} ]

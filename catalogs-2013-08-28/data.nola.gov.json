@@ -1,0 +1,2196 @@
+[ {
+  "accessLevel" : "Public",
+  "description" : "Lists the datasets for this domain.  The format should correspond to the spec at http://project-open-data.github.io/schema/",
+  "format" : "application/json",
+  "frequency" : "hourly",
+  "identifier" : "https://data.nola.gov/data.json",
+  "modified" : "2013-08-28",
+  "title" : "Project Open Data, /data.json file",
+  "webService" : "https://data.nola.gov/data.json"
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/esMomkG6xCSQksjTux37TrQtXPDbpVPFtNOyBgyTXcA?filename=NOLA_Addresses_20130823.zip",
+  "created" : "2011-07-12",
+  "description" : "City of New Orleans commercial and residential addresses.  ESRI shapefile format, GIS software required for viewing geometry (http://www.esri.com/software/arcgis/arcreader/).  Tabular data (DBF), included as part of the shapefile, are viewable in Excel.  Scheduled update: weekly",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "div8-5v7i",
+  "keyword" : "new orleans,address",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans - Department of Information Technology & Innovation\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-08-23",
+  "releaseDate" : "2011-07-12",
+  "title" : "NOLA Addresses",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/esMomkG6xCSQksjTux37TrQtXPDbpVPFtNOyBgyTXcA?filename=NOLA_Addresses_20130823.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "new orleans", "address" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/gl58NGL5XOAqKVnF2zH3qLnDO01ZOq_vhLCbVG6kjh4?filename=NOLA_Streets_20130823.zip",
+  "created" : "2011-07-13",
+  "description" : "City of New Orleans street centerlines.  ESRI shapefile format, GIS software required for viewing geometry (http://www.esri.com/software/arcgis/arcreader/).  Tabular data (DBF), included as part of the shapefile, are viewable in Excel.  Scheduled update: weekly",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "y66v-uj5w",
+  "keyword" : "new orleans,street,centerlines",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans - Department of Information Technology & Innovation\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-08-23",
+  "releaseDate" : "2011-07-13",
+  "title" : "NOLA Street Centerlines",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/gl58NGL5XOAqKVnF2zH3qLnDO01ZOq_vhLCbVG6kjh4?filename=NOLA_Streets_20130823.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "new orleans", "street", "centerlines" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/utVZ53NShfXYuJtpo7z8pG6JT4J0s2lBiRtEDyNtIiE?filename=NOLA_Parcels_20130823.zip",
+  "created" : "2011-07-13",
+  "description" : "City of New Orleans ownership parcels.  ESRI shapefile format, GIS software required for viewing geometry (http://www.esri.com/software/arcgis/arcreader/).  Tabular data (DBF), included as part of the shapefile, are viewable in Excel.  Scheduled update: weekly",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "xy5r-5rjk",
+  "keyword" : "new orleans,parcels",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans - Department of Information Technology & Innovation\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-08-23",
+  "releaseDate" : "2011-07-13",
+  "title" : "NOLA Parcels",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/utVZ53NShfXYuJtpo7z8pG6JT4J0s2lBiRtEDyNtIiE?filename=NOLA_Parcels_20130823.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "new orleans", "parcels" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/views/4uek-d54m/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-09-01",
+  "description" : "Location and basic information for New Orleans Public Libraries.",
+  "feed" : "https://data.nola.gov/api/views/4uek-d54m/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "4uek-d54m",
+  "keyword" : "",
+  "license" : "Creative Commons 1.0 Universal\nNew Orleans Public Library\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2011-10-05",
+  "releaseDate" : "2011-09-01",
+  "title" : "New Orleans Public Libraries",
+  "webService" : "https://data.nola.gov/resource/4uek-d54m",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/views/4uek-d54m/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/4uek-d54m/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/4uek-d54m/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/4uek-d54m/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/4uek-d54m/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/4uek-d54m/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/views/3utr-tkrh/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-02-27",
+  "description" : "The Hearings Bureau sets properties for public hearing for the following agencies: Code Enforcement, Historic District Landmarks Commission, Vieux Carre Commission, and Safety & Permits",
+  "feed" : "https://data.nola.gov/api/views/3utr-tkrh/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "3utr-tkrh",
+  "keyword" : "blight,hdlc,vcc,code enforcement,historic",
+  "modified" : "2013-03-25",
+  "releaseDate" : "2012-02-27",
+  "title" : "Upcoming Hearings",
+  "webService" : "https://data.nola.gov/resource/3utr-tkrh",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/views/3utr-tkrh/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/3utr-tkrh/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/3utr-tkrh/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/3utr-tkrh/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/3utr-tkrh/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/3utr-tkrh/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "blight", "hdlc", "vcc", "code enforcement", "historic" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/ScL16x82WwjqQfRf_aGShBVPf9TZ2o-wOKvNyvxUGuA?filename=Orleans+Census1990.zip",
+  "created" : "2011-07-11",
+  "description" : "1990 City of New Orleans/Orleans Parish Census data.  ESRI shapefile format, GIS software required for viewing geometry (http://www.esri.com/software/arcgis/arcreader/).  Tabular data (DBF), included as part of the shapefile, are viewable in Excel.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "c9gq-4kyr",
+  "keyword" : "census,orleans parish,new orleans",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans - Department of Information Technology & Innovation\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2011-12-28",
+  "releaseDate" : "2011-07-11",
+  "title" : "NOLA Census 1990",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/ScL16x82WwjqQfRf_aGShBVPf9TZ2o-wOKvNyvxUGuA?filename=Orleans+Census1990.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "census", "orleans parish", "new orleans" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.norpc.org/",
+  "created" : "2011-07-15",
+  "description" : "Census data (block, block group, tract) for New Orleans, compiled by the New Orleans Regional Planning Commission.\r\n\r\nScroll down to red Census tab then click on New Orleans tab.",
+  "format" : "application/octet-stream",
+  "identifier" : "aird-4z7g",
+  "keyword" : "new orleans,census,2010",
+  "modified" : "2011-08-10",
+  "releaseDate" : "2011-07-15",
+  "title" : "Census 2010 - New Orleans Regional Planning Commission",
+  "distribution" : [ {
+    "accessURL" : "http://www.norpc.org/",
+    "formats" : [ {
+      "label" : "link",
+      "value" : "application/octet-stream"
+    } ]
+  } ],
+  "keywords" : [ "new orleans", "census", "2010" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/Ff07tQu1AFYvbT2kHr9FwZb8ICgash3KXRJEYLa2V8w?filename=NOLA_Council_Districts_20120517.zip",
+  "created" : "2011-08-17",
+  "description" : "City of New Orleans City Council Districts.  ESRI shapefile format, GIS software required for viewing geometry (http://www.esri.com/software/arcgis/arcreader/).  Tabular data (DBF), included as part of the shapefile, are viewable in Excel.  Update: As Needed",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "hrqm-qv5r",
+  "keyword" : "new orleans,city council",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans - Department of Information Technology & Innovation\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2012-05-17",
+  "releaseDate" : "2011-08-17",
+  "title" : "NOLA City Council Districts",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/Ff07tQu1AFYvbT2kHr9FwZb8ICgash3KXRJEYLa2V8w?filename=NOLA_Council_Districts_20120517.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "new orleans", "city council" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/0eozgM0r2CqyAPTD6LBKCPwtxm78ooeDQYgfizCVEuY?filename=Council_District_Binder_ABCDE_letter.pdf",
+  "created" : "2011-08-18",
+  "description" : "City of New Orleans, Council Districts.  PDF binder containing individual 8.5 x 11 (letter size) maps for each of the five New Orleans City Council Districts.  Update: As Needed.  Individual poster size maps (ANSI-E, 34 x 44) are available in PDF format for each of the Council Districts.",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "5kp7-cxpd",
+  "keyword" : "new orleans,city council,map",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans - Department of Information Technology & Innovation\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2011-10-06",
+  "releaseDate" : "2011-08-18",
+  "title" : "NOLA City Council Districts maps - 8.5 x 11",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/0eozgM0r2CqyAPTD6LBKCPwtxm78ooeDQYgfizCVEuY?filename=Council_District_Binder_ABCDE_letter.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "new orleans", "city council", "map" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/qaU-oseBceR47gfJhLsSgZMLDL1J-uP2j_iQUmWkMTU?filename=NOLA_Parks_20110818.zip",
+  "created" : "2011-08-18",
+  "description" : "City of New Orleans Parks.  ESRI shapefile format, GIS software required for viewing geometry (http://www.esri.com/software/arcgis/arcreader/).  Tabular data (DBF), included as part of the shapefile, are viewable in Excel.  Update: As Needed",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "gsin-etzy",
+  "keyword" : "superbowl,city of new orleans,parks",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans - Department of Information Technology & Innovation\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-01-04",
+  "releaseDate" : "2011-08-18",
+  "title" : "NOLA Parks",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/qaU-oseBceR47gfJhLsSgZMLDL1J-uP2j_iQUmWkMTU?filename=NOLA_Parks_20110818.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "superbowl", "city of new orleans", "parks" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/7qdaS-f2qa7dUkbuxGOhEJecYA7jsBThjpS1ccxzZuA?filename=NOLA_curbs.zip",
+  "created" : "2011-08-26",
+  "description" : "City of New Orleans curb lines.  ESRI shapefile format, GIS software required for viewing geometry (http://www.esri.com/software/arcgis/arcreader/).  Tabular data (DBF), included as part of the shapefile, are viewable in Excel.  Update: As Needed",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "6tdr-yhxz",
+  "keyword" : "new orleans,curbs",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans - Department of Information Technology & Innovation\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2011-12-28",
+  "releaseDate" : "2011-08-26",
+  "title" : "NOLA Curb Lines",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/7qdaS-f2qa7dUkbuxGOhEJecYA7jsBThjpS1ccxzZuA?filename=NOLA_curbs.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "new orleans", "curbs" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/0g22SXtix9TXnCJmds_o0g_PQDRUC5N08GmiMhNOG3k?filename=NOLA_Permits_20120331.zip",
+  "created" : "2011-08-26",
+  "description" : "City of New Orleans Permits (March 2004 to March 2012).  ESRI shapefile format, GIS software required for viewing geometry (http://www.esri.com/software/arcgis/arcreader/).  Tabular data (DBF), included as part of the shapefile, are viewable in Excel.  Large dataset - 400,000+ records. Associated spreadsheet 'Permits_3PrimeDomain' lists domains for three of the primary permit fields. Scheduled update: Quarterly",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "rw6e-a9x3",
+  "keyword" : "new orleans,permits",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans - Department of Information Technology & Innovation\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-02-15",
+  "releaseDate" : "2011-08-26",
+  "title" : "NOLA Permits - Accela (Historic Data: 3/2004 - 3/2012)",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/0g22SXtix9TXnCJmds_o0g_PQDRUC5N08GmiMhNOG3k?filename=NOLA_Permits_20120331.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "new orleans", "permits" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/views/mbxb-ejdy/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-09-16",
+  "description" : "Simple call types for the Tropical Storm Lee 311 activation event.",
+  "feed" : "https://data.nola.gov/api/views/mbxb-ejdy/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "mbxb-ejdy",
+  "keyword" : "311,emergency",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans 311\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2011-09-16",
+  "releaseDate" : "2011-09-16",
+  "title" : "Tropical Storm Lee 311 Caller Needs",
+  "webService" : "https://data.nola.gov/resource/mbxb-ejdy",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/views/mbxb-ejdy/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/mbxb-ejdy/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/mbxb-ejdy/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/mbxb-ejdy/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/mbxb-ejdy/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/mbxb-ejdy/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "311", "emergency" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/i4-dTbNJpSkYF8f_FEhOFQmUFHR9N9guRczQgjNm4fE?filename=%5C%5Ccityofno.com%5CCNO-FS%5CUserData%5CHome1%5Cdwross%5CNO_Streetmap_NOEInset_20110721.pdf",
+  "created" : "2011-09-28",
+  "description" : "Poster-sized street map of New Orleans with New Orleans East inset. PDF format. Next update: July 2012.",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "vu74-j8jp",
+  "keyword" : "streets",
+  "license" : "Creative Commons 1.0 Universal\nCIty of New Orleans Department of Information Technology & Innovation\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2011-09-29",
+  "releaseDate" : "2011-09-28",
+  "title" : "General Map of New Orleans Streets -- Poster",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/i4-dTbNJpSkYF8f_FEhOFQmUFHR9N9guRczQgjNm4fE?filename=%5C%5Ccityofno.com%5CCNO-FS%5CUserData%5CHome1%5Cdwross%5CNO_Streetmap_NOEInset_20110721.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "streets" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/views/d9hd-x6nn/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-10-13",
+  "feed" : "https://data.nola.gov/api/views/d9hd-x6nn/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "d9hd-x6nn",
+  "keyword" : "",
+  "modified" : "2013-01-17",
+  "releaseDate" : "2011-10-13",
+  "title" : "Regional Hospitals Sep2011",
+  "webService" : "https://data.nola.gov/resource/d9hd-x6nn",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/views/d9hd-x6nn/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/d9hd-x6nn/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/d9hd-x6nn/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/d9hd-x6nn/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/d9hd-x6nn/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/d9hd-x6nn/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/hCKrAHg9dE2d0dAo4Y61SeOvzNCwkasb30fXSGVt8p8?filename=NOFD_Districts_20120615.zip",
+  "created" : "2011-10-24",
+  "description" : "New Orleans Fire Department Districts.  ESRI shapefile format, GIS software required for viewing geometry (http://www.esri.com/software/arcgis/arcreader/).  Tabular data (DBF), included as part of the shapefile, are viewable in Excel.  Note: 8.5 x 11 map attached.  Update: As Needed",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "zizw-dzmg",
+  "keyword" : "nofd,fire,districts",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans - Department of Information Technology & Innovation\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2012-06-15",
+  "releaseDate" : "2011-10-24",
+  "title" : "NOFD Districts",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/hCKrAHg9dE2d0dAo4Y61SeOvzNCwkasb30fXSGVt8p8?filename=NOFD_Districts_20120615.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "nofd", "fire", "districts" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/xkZnbGzvKYi5QevcJLw6xGa4mF9swnFLuX_s06FPFjY?filename=NOLA_Squares_20130823.zip",
+  "created" : "2011-10-24",
+  "description" : "City of New Orleans squares, 'Square' - A portion of property with specific street or other designated boundaries and a given alpha/numeric identification.  ESRI shapefile format, GIS software required for viewing geometry (http://www.esri.com/software/arcgis/arcreader/).  Tabular date (DBF), included as part of the shapefile, are viewable in Excel.  Update: weekly",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "67t2-it3c",
+  "keyword" : "new orleans,square,property",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans - Department of Information Technology & Innovation\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-08-23",
+  "releaseDate" : "2011-10-24",
+  "title" : "NOLA Squares",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/xkZnbGzvKYi5QevcJLw6xGa4mF9swnFLuX_s06FPFjY?filename=NOLA_Squares_20130823.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "new orleans", "square", "property" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/s2AHkmUjWQu68D2wbHc0hg8Xcjv6t0kr1V2sDN-6h7k?filename=Lots_Cuts_October+2011.pdf",
+  "created" : "2011-11-07",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "cz87-uixy",
+  "keyword" : "blight,lower 9",
+  "license" : "Public Domain\nCity of New Orleans Code Enforcement & Hearings Bureau",
+  "modified" : "2011-11-07",
+  "releaseDate" : "2011-11-07",
+  "title" : "Lots Cuts October 2011",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/s2AHkmUjWQu68D2wbHc0hg8Xcjv6t0kr1V2sDN-6h7k?filename=Lots_Cuts_October+2011.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "blight", "lower 9" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/views/65t6-gi32/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-11-08",
+  "description" : "New Orleans playgrounds that underwent extensive lead remediation.",
+  "feed" : "https://data.nola.gov/api/views/65t6-gi32/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "65t6-gi32",
+  "keyword" : "lead,parks,playgrounds",
+  "license" : "Creative Commons 1.0 Universal\nCharles E. Allen, III\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2011-11-08",
+  "releaseDate" : "2011-11-08",
+  "title" : "Playgrounds Remediated for Lead 2011",
+  "webService" : "https://data.nola.gov/resource/65t6-gi32",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/views/65t6-gi32/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/65t6-gi32/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/65t6-gi32/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/65t6-gi32/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/65t6-gi32/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/65t6-gi32/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "lead", "parks", "playgrounds" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/views/mesf-89bm/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-11-07",
+  "feed" : "https://data.nola.gov/api/views/mesf-89bm/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "mesf-89bm",
+  "keyword" : "",
+  "modified" : "2011-12-13",
+  "releaseDate" : "2011-11-07",
+  "title" : "Lower 9 Lot Maintenance Program",
+  "webService" : "https://data.nola.gov/resource/mesf-89bm",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/views/mesf-89bm/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/mesf-89bm/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/mesf-89bm/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/mesf-89bm/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/mesf-89bm/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/mesf-89bm/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/views/a6tx-de8c/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-04-19",
+  "description" : "Polling Places for April 21, 2012.",
+  "feed" : "https://data.nola.gov/api/views/a6tx-de8c/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "a6tx-de8c",
+  "keyword" : "voting,vote,poll,polling,election",
+  "license" : "Creative Commons 1.0 Universal\nNOHSEP - ITI\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2012-04-27",
+  "releaseDate" : "2012-04-19",
+  "title" : "Polling Place Locations April 21, 2012",
+  "webService" : "https://data.nola.gov/resource/a6tx-de8c",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/views/a6tx-de8c/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/a6tx-de8c/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/a6tx-de8c/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/a6tx-de8c/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/a6tx-de8c/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/a6tx-de8c/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "voting", "vote", "poll", "polling", "election" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/views/j4pt-mz93/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-03-06",
+  "description" : "This lists replaces the previous version of the New Orleans street name file.  It is a work-in-progress and will be updated as needed.  This version updates column names and corrects spellings of several streets.  It represents an inventory of official street name spellings in the City of New Orleans.  Note:  This list may not represent what is currently displayed on street signs. City of New Orleans official street list is derived from New Orleans street centerline file, 9-1-1 centerline file, and CPC plat maps. Fields include the full street name and the parsed elements along with abbreviations using US Postal Standards.",
+  "feed" : "https://data.nola.gov/api/views/j4pt-mz93/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "j4pt-mz93",
+  "keyword" : "streets",
+  "license" : "Public Domain\nCity of New Orleans",
+  "modified" : "2012-07-16",
+  "releaseDate" : "2012-03-06",
+  "title" : "NOLA Master Street List - DRAFT",
+  "webService" : "https://data.nola.gov/resource/j4pt-mz93",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/views/j4pt-mz93/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/j4pt-mz93/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/j4pt-mz93/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/j4pt-mz93/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/j4pt-mz93/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/j4pt-mz93/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "streets" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/views/aexs-y2ma/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-03-07",
+  "description" : "Detailed results info on the most recent adjudication action against property owners cited for violation of municipal code (mainly building code)",
+  "feed" : "https://data.nola.gov/api/views/aexs-y2ma/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "aexs-y2ma",
+  "keyword" : "hearings,blight,blightstat",
+  "modified" : "2013-07-19",
+  "releaseDate" : "2012-03-07",
+  "title" : "Hearings Docket; Status of Properties",
+  "webService" : "https://data.nola.gov/resource/aexs-y2ma",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/views/aexs-y2ma/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/aexs-y2ma/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/aexs-y2ma/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/aexs-y2ma/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/aexs-y2ma/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/aexs-y2ma/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hearings", "blight", "blightstat" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/views/2mq3-p3xc/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-02-16",
+  "description" : "Lists all inspections of private property completed by the New Orleans Code Enforcement and Hearings Bureau, with dates, case numbers, addresses, type and result of inspections. Each address has been assigned additional geographic attributes: council district, police district, census tract, inspection district, and neighborhood attributes.",
+  "feed" : "https://data.nola.gov/api/views/2mq3-p3xc/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "2mq3-p3xc",
+  "keyword" : "blight,code enforcement,inspections",
+  "license" : "Public Domain\nOPA(http://www.nola.gov/opa)",
+  "modified" : "2013-04-26",
+  "releaseDate" : "2012-02-16",
+  "title" : "Code Enforcement Inspections",
+  "webService" : "https://data.nola.gov/resource/2mq3-p3xc",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/views/2mq3-p3xc/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/2mq3-p3xc/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/2mq3-p3xc/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/2mq3-p3xc/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/2mq3-p3xc/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/2mq3-p3xc/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "blight", "code enforcement", "inspections" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/spU-ZR9TTqH_YtHpCipToO0QfW2BoItTjPEO8OHHnMY?filename=Pallas+Public+Letter-Size.pdf",
+  "created" : "2012-07-17",
+  "description" : "Showing details of Interstate 10 traffic closure and exclusion zone.",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "h3yb-9ury",
+  "keyword" : "pallas,implosion",
+  "modified" : "2012-07-17",
+  "releaseDate" : "2012-07-17",
+  "title" : "Pallas Implosion scheduled 7-22-12 8am",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/spU-ZR9TTqH_YtHpCipToO0QfW2BoItTjPEO8OHHnMY?filename=Pallas+Public+Letter-Size.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "pallas", "implosion" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://www.gnocdc.org/BenchmarksForBlight/index.html",
+  "created" : "2012-09-11",
+  "description" : "In 2006, the U.S. Department of Housing and Urban Development (HUD) began acquiring quarterly extracts of U.S. Postal Service (USPS) data and publishing this data as a possible indicator of blight and vacancy for cities nationwide. In this report, addresses coded as “no–stat” in the HUD data are used as proxies for blighted housing units in New Orleans because a parcel–by–parcel census of all properties in New Orleans is not available. (HUD data description available at: http://www.huduser.org/portal/datasets/usps.html)",
+  "format" : "text/html",
+  "identifier" : "3mrg-5stb",
+  "keyword" : "",
+  "license" : "Creative Commons 1.0 Universal\nGreater New Orleans Community Data Center (GNOCDC)(http://www.gnocdc.org)\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2012-09-11",
+  "releaseDate" : "2012-09-11",
+  "title" : "Benchmarks for Blight",
+  "distribution" : [ {
+    "accessURL" : "http://www.gnocdc.org/BenchmarksForBlight/index.html",
+    "formats" : [ {
+      "label" : "html",
+      "value" : "text/html"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/views/kpc9-4t3j/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-09-13",
+  "description" : "Buildings that experienced severe structural failure as a result of Hurricane Isaac, 8/28-8/30/12.  Many of these buildings were blighted before Isaac, but the storm exacerbated their condition to a point where they were deemed a threat to public safety, and were expedited as IDC cases, or \"Imminent Danger of Collapse\"",
+  "feed" : "https://data.nola.gov/api/views/kpc9-4t3j/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "kpc9-4t3j",
+  "keyword" : "blight,demolitions,code enforcement,blightstat",
+  "license" : "Italian Open Data License 2.0\nOPA\nhttp://www.dati.gov.it/iodl/2.0/",
+  "modified" : "2012-12-18",
+  "releaseDate" : "2012-09-13",
+  "title" : "Post- Isaac Emergency Demolitions",
+  "webService" : "https://data.nola.gov/resource/kpc9-4t3j",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/views/kpc9-4t3j/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/kpc9-4t3j/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/kpc9-4t3j/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/kpc9-4t3j/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/kpc9-4t3j/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/kpc9-4t3j/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "blight", "demolitions", "code enforcement", "blightstat" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/tsG08U7nqLAHcUHBPgPg5nmJMZEiWw-fyQw_q10LFxM?filename=NOLA_NRHP_Districts.zip",
+  "created" : "2012-09-28",
+  "description" : "A National Register historic district is a historic district that is listed in the National Register of Historic Places. The National Register is our country’s official list of historic properties and resources worthy of preservation. It includes individual buildings, structures, sites, and objects as well as historic districts that are considered to be significant in American history, architecture, engineering, archaeology, and culture.  This dataset is the result of collaboration between the Louisiana State Historic Preservation Office and City of New Orleans ITI-GIS.  Two E-size (34 x 44) maps (pdf) included as attachments, (1) Listed Districts only, (2) Listed and Proposed Districts or Extensions.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "4mw7-knsq",
+  "keyword" : "superbowl,new orleans,national register,historic,districts",
+  "license" : "Creative Commons 1.0 Universal\nof New Orleans - Department of Information Technology & Innovation\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2012-09-28",
+  "title" : "NOLA NRHP Districts",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/tsG08U7nqLAHcUHBPgPg5nmJMZEiWw-fyQw_q10LFxM?filename=NOLA_NRHP_Districts.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "superbowl", "new orleans", "national register", "historic", "districts" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/6_8DsBqH-tybKOpOphMmZlMIR8E8xnI75geYdwGPQx4?filename=BioDistrictNewOrleans.zip",
+  "created" : "2012-10-10",
+  "description" : "The Greater New Orleans Biosciences Economic Development District (GNOBEDD), now referred to as BioDistrict New Orleans, is a state-enabled economic development district (with taxing and bonding authority) that was created by the State of Louisiana in 2005 and charged with the responsibility of growing both the programmatic and physical development components of the biosciences sector of the New Orleans economy (Louisiana State Legislature, 2005, ACT 487).  Included in the .zip file are shapefiles for 'BioDistrict New Orleans' and 'BioDistrict Hospital Sites'.  Updated 11/02/2012",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "fmqa-q7ib",
+  "keyword" : "new orleans,biodistrict,economic development",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans – Office of Information Technology & Innovation, Enterprise Information Team\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2012-11-02",
+  "releaseDate" : "2012-10-10",
+  "title" : "Bio District New Orleans",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/6_8DsBqH-tybKOpOphMmZlMIR8E8xnI75geYdwGPQx4?filename=BioDistrictNewOrleans.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "new orleans", "biodistrict", "economic development" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/vbFzS0Dr4Mi_dyyYidaYLC3lz29cRk7z09SkFtPnVYw?filename=NOLA_Cultural_Products_Districts_20121018.zip",
+  "created" : "2012-10-26",
+  "description" : "Louisiana's Cultural Products Districts provide for tax free sales of original works of visual art, as well as tax credits for commercial and residential renovation within the specified district. The primary goal of this initiative is to spark community revitalization based on cultural activity though tax incentives. This dataset depicts boundaries, as of October 2012, for the 21 Cultural Products Districts within the City of New Orelans. This dataset is designed to be used in conjunction with the City of New Orleans 'Parcel' and 'Address' data to identify eligible properties. For specific information on eligibility, please contact the City of New Orelans Cultural Economy Project Coordinator. Update: As Needed",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "m7iz-wdrn",
+  "keyword" : "superbowl,new orleans,cultural,products,districts",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans – Office of Information Technology & Innovation, Enterprise Information Team\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-04-23",
+  "releaseDate" : "2012-10-26",
+  "title" : "NOLA Cultural Products Districts",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/vbFzS0Dr4Mi_dyyYidaYLC3lz29cRk7z09SkFtPnVYw?filename=NOLA_Cultural_Products_Districts_20121018.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "superbowl", "new orleans", "cultural", "products", "districts" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/1IETHWBNTH7n4yRRzWJLwSmhQ67avV7DfmQfrolVHCM?filename=NOLA_School_Board_Districts.zip",
+  "created" : "2012-10-26",
+  "description" : "New Orleans/Orleans Parish School Board Districts",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "9zdh-rzvg",
+  "keyword" : "new orleans,orleans parish,school board",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans – Office of Information Technology & Innovation, Enterprise Information Team\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2012-10-26",
+  "releaseDate" : "2012-10-26",
+  "title" : "NOLA School Board Districts",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/1IETHWBNTH7n4yRRzWJLwSmhQ67avV7DfmQfrolVHCM?filename=NOLA_School_Board_Districts.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "new orleans", "orleans parish", "school board" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/Lbyre0eTUlM5i_m8ZLjaKd13yR3S2fKqGVdGWRoAKX0?filename=NOLA_Lafitte_Greenway_Project.zip",
+  "created" : "2012-11-09",
+  "description" : "The Lafitte Greenway, a major part of the Lafitte Greenway Corridor, is a 3.1-mile long strip of land bounded by Basin Street, Lafitte Avenue, N. Jefferson Davis Parkway, and St. Louis Street and including the entire St. Louis Street right-of-way between N. Jefferson Davis Parkway and Canal Boulevard. http://lafittecorridorconnection.com/",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "qdze-iuzu",
+  "keyword" : "lafitte,greenway",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans – Office of Information Technology & Innovation, Enterprise Information Team\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2012-11-09",
+  "releaseDate" : "2012-11-09",
+  "title" : "NOLA Lafitte Greenway Project",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/Lbyre0eTUlM5i_m8ZLjaKd13yR3S2fKqGVdGWRoAKX0?filename=NOLA_Lafitte_Greenway_Project.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "lafitte", "greenway" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/BPTF1Li5RXhqH_8xRkH0Qgq6pAqEsxvxGJH7x6fdsPg?filename=NOLA_Historic_Districts_20120113.zip",
+  "created" : "2012-11-16",
+  "description" : "City of New Orleans Local Historic Districts. There are 14 local historic districts within New Orleans/Orleans Parish, ten administered by the New Orleans Historic District Landmarks Commission and four by the Central Business District Historic District Landmarks Commission. Two of the districts administrated by HDLC are split between full and partial control.\r\n\r\nUpdate: As Needed",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "6yxk-jztq",
+  "keyword" : "superbowl,new orleans,hdlc,cbdhdlc,historic district",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans – Office of Information Technology & Innovation, Enterprise Information Team\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-08-27",
+  "releaseDate" : "2012-11-16",
+  "title" : "NOLA Local Historic Districts",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/BPTF1Li5RXhqH_8xRkH0Qgq6pAqEsxvxGJH7x6fdsPg?filename=NOLA_Historic_Districts_20120113.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "superbowl", "new orleans", "hdlc", "cbdhdlc", "historic district" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/views/8tsm-38gz/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-12-04",
+  "description" : "City of New Orleans, Live Entertainment Permits. Data provided by Bureau of Revenue, 11/30/2012, dataset consisted of 447 records, 441 of which could be geocoded and displayed on the map. Closed/Open status was based on closing date being either pre or post 1/1/2012.",
+  "feed" : "https://data.nola.gov/api/views/8tsm-38gz/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "8tsm-38gz",
+  "keyword" : "superbowl",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans – Office of Information Technology & Innovation, Enterprise Information Team\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-04-05",
+  "releaseDate" : "2012-12-04",
+  "title" : "NOLA Live Entertainment Permits",
+  "webService" : "https://data.nola.gov/resource/8tsm-38gz",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/views/8tsm-38gz/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/8tsm-38gz/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/8tsm-38gz/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/8tsm-38gz/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/8tsm-38gz/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/8tsm-38gz/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "superbowl" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/t2QnzLhF7W1wbYAJbjcNJ_J75eTH0lrBkFQR435cz9c?filename=LiveEnt_Permits_Open_20121130_NAD83.zip",
+  "created" : "2012-12-05",
+  "description" : "City of New Orleans, Live Entertainment Permits. Data provided by Bureau of Revenue, 11/30/2012, dataset consisted of 447 records, 441 of which could be geocoded and displayed on the map. Closed/Open status was based on closing date being either pre or post 1/1/2012.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "35nr-d6pm",
+  "keyword" : "new orleans,live,entertainment",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans – Office of Information Technology & Innovation, Enterprise Information Team\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-04-05",
+  "releaseDate" : "2012-12-05",
+  "title" : "NOLA Live Entertainment Permits - Map",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/t2QnzLhF7W1wbYAJbjcNJ_J75eTH0lrBkFQR435cz9c?filename=LiveEnt_Permits_Open_20121130_NAD83.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "new orleans", "live", "entertainment" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/views/sgfw-jy2v/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-12-07",
+  "feed" : "https://data.nola.gov/api/views/sgfw-jy2v/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "sgfw-jy2v",
+  "keyword" : "",
+  "modified" : "2012-12-07",
+  "releaseDate" : "2012-12-07",
+  "title" : "Templates",
+  "webService" : "https://data.nola.gov/resource/templates",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/views/sgfw-jy2v/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/sgfw-jy2v/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/sgfw-jy2v/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/sgfw-jy2v/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/sgfw-jy2v/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/sgfw-jy2v/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/views/cba3-mptn/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-12-11",
+  "description" : "Scheduled adjudication hearings for the Code Enforcement Hearings Bureau. The owners of the properties listed will be heard to determine whether or not the properties are blighted and in violation of the City's housing code.",
+  "feed" : "https://data.nola.gov/api/views/cba3-mptn/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "cba3-mptn",
+  "keyword" : "code enforcement,housing code,administrative hearings,hearings,calendar,docket",
+  "modified" : "2013-01-03",
+  "releaseDate" : "2012-12-11",
+  "title" : "Code Enforcement Upcoming Hearings - 2012-12",
+  "webService" : "https://data.nola.gov/resource/cba3-mptn",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/views/cba3-mptn/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/cba3-mptn/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/cba3-mptn/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/cba3-mptn/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/cba3-mptn/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/cba3-mptn/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "code enforcement", "housing code", "administrative hearings", "hearings", "calendar", "docket" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/AkRRX2BW77iGwFRIZsb3WTCEBFCIzKeOCds4uKA0Nyc?filename=NOLA_Permits_2004-2011.zip",
+  "created" : "2012-12-14",
+  "description" : "City of New Orleans Permits (March 2004 thru December 2011).   Tabular data (DBF), Large dataset - 300,000+ records. Historic permit data transferred from Acella system to LAMA (Municipal Land Management Solution Framework)",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "fdhh-psg3",
+  "keyword" : "new orleans,permits",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans – Office of Information Technology & Innovation, Enterprise Information Team\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-02-15",
+  "releaseDate" : "2012-12-14",
+  "title" : "NOLA Permits - LAMA (Historic Data: 2004-2011)",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/AkRRX2BW77iGwFRIZsb3WTCEBFCIzKeOCds4uKA0Nyc?filename=NOLA_Permits_2004-2011.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "new orleans", "permits" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/D0fjFeaaDTak_EaFllvJ_pWQYO45gBnegNiVWRaYA10?filename=HDLC_Landmarks_both_20121206.zip",
+  "created" : "2012-12-26",
+  "description" : "City of New Orleans Local Historic Landmarks. Landmarks and/or Landmark Sites represent particular historic, architectural, or cultural significance and are subject to the jurisdiction of the Historic District Landmarks Commission (HDLC). Points shown have been either nominated or designated, by HDLC, for landmark status. Parcels shown are ownership parcels (Orleans Parish Assessor) associated with nominated or designated landmarks. Note: To access detailed information on individual landmark points, go to 'Layer Summary' and uncheck Parcel layer.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "srrj-xwma",
+  "keyword" : "superbowl,new orleans,landmarks,hdlc",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans – Office of Information Technology & Innovation, Enterprise Information Team\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-08-27",
+  "releaseDate" : "2012-12-26",
+  "title" : "NOLA Local Landmarks - 12/06/2012",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/D0fjFeaaDTak_EaFllvJ_pWQYO45gBnegNiVWRaYA10?filename=HDLC_Landmarks_both_20121206.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "superbowl", "new orleans", "landmarks", "hdlc" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/views/28ec-c8d6/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-02",
+  "description" : "Data Description and Disclaimer\r\nThis dataset reflects incidents that have been reported to the New Orleans Police Department in 2011. Data is provided by Orleans Parish Communication District (OPCD), the administrative office of 9-1-1 for the City of New Orleans. In the OPCD system, NOPD may reclassify or change the signal type for up to 36 hours after the incident is marked up. For information about an incident after this time period, citizens may request police reports from the NOPD Public Records Division.  In order to protect the privacy of victims, addresses are shown at the block level and the call types cruelty to juveniles, juvenile attachment and missing juvenile have been removed in accordance with the Louisiana Public Records Act, L.R.S. 44:1.  Map coordinates (X,Y) have been removed for the following call types: Aggravated Rape, Aggravated Rape - MA, Crime Against Nature, Mental Patient, Oral Sexual Battery, Prostitution, Sexual Battery, Simple Rape, and Soliciting for Prost.\r\n\r\nDisclaimer: These incidents may be based upon preliminary information supplied to the Police Department by the reporting parties that have not been verified. The preliminary crime classifications may be changed at a later date based upon additional investigation and there is always the possibility of mechanical or human error. Therefore, the New Orleans Police Department does not guarantee (either expressed or implied) the accuracy, completeness, timeliness, or correct sequencing of the information and the information should not be used for comparison purposes over time. The New Orleans Police Department will not be responsible for any error or omission, or for the use of, or the results obtained from the use of this information. All data visualizations on maps should be considered approximate and attempts to derive specific addresses are strictly prohibited. The New Orleans Police Department is not responsible for the content of any off-site pages that are referenced by or that reference this web page other than an official City of New Orleans or New Orleans Police Department web page. The user specifically acknowledges that the New Orleans Police Department is not responsible for any defamatory, offensive, misleading, or illegal conduct of other users, links, or third parties and that the risk of injury from the foregoing rests entirely with the user. Any use of the information for commercial purposes is strictly prohibited. The unauthorized use of the words \"New Orleans Police Department,\" \"NOPD,\" or any colorable imitation of these words or the unauthorized use of the New Orleans Police Department logo is unlawful. This web page does not, in any way, authorize such use.",
+  "feed" : "https://data.nola.gov/api/views/28ec-c8d6/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "28ec-c8d6",
+  "keyword" : "crime,police",
+  "modified" : "2013-05-31",
+  "releaseDate" : "2013-01-02",
+  "title" : "Calls for Service 2011",
+  "webService" : "https://data.nola.gov/resource/28ec-c8d6",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/views/28ec-c8d6/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/28ec-c8d6/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/28ec-c8d6/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/28ec-c8d6/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/28ec-c8d6/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/28ec-c8d6/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "crime", "police" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/views/rv3g-ypg7/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-03",
+  "description" : "Data Description and Disclaimer\r\nThis dataset reflects incidents that have been reported to the New Orleans Police Department in 2012. Data is provided by Orleans Parish Communication District (OPCD), the administrative office of 9-1-1 for the City of New Orleans. In the OPCD system, NOPD may reclassify or change the signal type for up to 36 hours after the incident is marked up. For information about an incident after this time period, citizens may request police reports from the NOPD Public Records Division.  In order to protect the privacy of victims, addresses are shown at the block level and the call types cruelty to juveniles, juvenile attachment and missing juvenile have been removed in accordance with the Louisiana Public Records Act, L.R.S. 44:1.  Map coordinates (X,Y) have been removed for the following call types: Aggravated Rape, Aggravated Rape - MA, Crime Against Nature, Mental Patient, Oral Sexual Battery, Prostitution, Sexual Battery, Simple Rape, Simple Rape - Male V, and Soliciting for Prost.\r\n\r\nDisclaimer: These incidents may be based upon preliminary information supplied to the Police Department by the reporting parties that have not been verified. The preliminary crime classifications may be changed at a later date based upon additional investigation and there is always the possibility of mechanical or human error. Therefore, the New Orleans Police Department does not guarantee (either expressed or implied) the accuracy, completeness, timeliness, or correct sequencing of the information and the information should not be used for comparison purposes over time. The New Orleans Police Department will not be responsible for any error or omission, or for the use of, or the results obtained from the use of this information. All data visualizations on maps should be considered approximate and attempts to derive specific addresses are strictly prohibited. The New Orleans Police Department is not responsible for the content of any off-site pages that are referenced by or that reference this web page other than an official City of New Orleans or New Orleans Police Department web page. The user specifically acknowledges that the New Orleans Police Department is not responsible for any defamatory, offensive, misleading, or illegal conduct of other users, links, or third parties and that the risk of injury from the foregoing rests entirely with the user. Any use of the information for commercial purposes is strictly prohibited. The unauthorized use of the words \"New Orleans Police Department,\" \"NOPD,\" or any colorable imitation of these words or the unauthorized use of the New Orleans Police Department logo is unlawful. This web page does not, in any way, authorize such use.",
+  "feed" : "https://data.nola.gov/api/views/rv3g-ypg7/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "rv3g-ypg7",
+  "keyword" : "crime,police",
+  "modified" : "2013-05-31",
+  "releaseDate" : "2013-01-03",
+  "title" : "Calls for Service 2012",
+  "webService" : "https://data.nola.gov/resource/rv3g-ypg7",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/views/rv3g-ypg7/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/rv3g-ypg7/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/rv3g-ypg7/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/rv3g-ypg7/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/rv3g-ypg7/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/rv3g-ypg7/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "crime", "police" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/JHAeXpT5ZFIPL8qjlXa1fQunSsSUMLtuwc_AFUFue2Q?filename=TRAFFIC.zip",
+  "created" : "2013-01-11",
+  "description" : "Downtown road closures for days leading up to Superbowl 2013.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "9zys-nyu9",
+  "keyword" : "superbowl",
+  "modified" : "2013-01-11",
+  "releaseDate" : "2013-01-11",
+  "title" : "Superbowl 2013 Road Closures",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/JHAeXpT5ZFIPL8qjlXa1fQunSsSUMLtuwc_AFUFue2Q?filename=TRAFFIC.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "superbowl" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/4xZx8pOd1bbFpTBhKKJrobBLlOgSktcWBMxyZVwaS4o?filename=VCC_Boundary.zip",
+  "created" : "2013-01-22",
+  "description" : "The Vieux Carre Commission (VCC) is the agency of the City of New Orleans whose charge is the preservation of the quaint and distinctive character of the historic French Quarter district of the city, also known as the Vieux Carré (Old Square.) The authority of the VCC is derived from the Louisiana Constitution and the 1995 Code of the City of New Orleans, Part II - Code, Chapter 166, Article I, Section 166-2",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "5u6q-caw5",
+  "keyword" : "new orleans,vieux carre,french quarter",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans – Office of Information Technology & Innovation, Enterprise Information Team\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-03-25",
+  "releaseDate" : "2013-01-22",
+  "title" : "Vieux Carre Commission Boundary",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/4xZx8pOd1bbFpTBhKKJrobBLlOgSktcWBMxyZVwaS4o?filename=VCC_Boundary.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "new orleans", "vieux carre", "french quarter" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/views/utqx-f83p/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-04",
+  "description" : "New Orleans restaurants as of 12/06/2012, source data Bureau of Revenue",
+  "feed" : "https://data.nola.gov/api/views/utqx-f83p/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "utqx-f83p",
+  "keyword" : "new orleans,restaurants",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans - Office of Information Technology & Innovation, Enterprise Information Team\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-03-04",
+  "releaseDate" : "2013-03-04",
+  "title" : "NOLA Restaurants",
+  "webService" : "https://data.nola.gov/resource/utqx-f83p",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/views/utqx-f83p/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/utqx-f83p/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/utqx-f83p/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/utqx-f83p/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/utqx-f83p/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/utqx-f83p/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "new orleans", "restaurants" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/flfv5EQl0rCsn0fmNu74r1sbtzYZuy7AesDKcGcYGjc?filename=Neighborhood_Conservation_District_20120410.zip",
+  "created" : "2013-03-15",
+  "description" : "The purpose of the NCD shall be:\r\n1. To attempt to preserve those buildings within the NCD having a historical or architectural value as defined by the historic district landmarks commission or buildings that contribute to the overall character of the neighborhood.\r\n2. To preserve and stabilize neighborhoods through the protection of those structures that represents the character and the quality of the neighborhood.\r\n3. To promote redevelopment that contributes to the historic character of the neighborhood.\r\n4. To discourage underutilization of property in an urban environment.\r\n5. To advise the City Council of New Orleans as it deems appropriate and necessary concerning issues related to the conservation of neighborhoods within the NCD.\r\n\r\nBasis: Code of the City of New Orleans; Part II - Code, Chapter 26, Article I, Sec. 26-3\r\n\r\nCurrent as of 20120410, Update as needed",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "phs2-i523",
+  "keyword" : "new orleans,ncd,conservation",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans – Office of Information Technology & Innovation, Enterprise Information Team\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-03-25",
+  "releaseDate" : "2013-03-15",
+  "title" : "NOLA Neighborhood Conservation District",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/flfv5EQl0rCsn0fmNu74r1sbtzYZuy7AesDKcGcYGjc?filename=Neighborhood_Conservation_District_20120410.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "new orleans", "ncd", "conservation" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/x9tl6TggMczLMWXs3lnmBEzdxyZRdRS7yQz_taOzot8?filename=NOLA_GIS_Planning_and_Zoning_data.zip",
+  "created" : "2013-03-15",
+  "description" : "Data layers supporting Planning & Zoning lookup tool",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "fhra-haa6",
+  "keyword" : "new orleans,planning,zoning,data",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans – Office of Information Technology & Innovation, Enterprise Information Team\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-03-15",
+  "releaseDate" : "2013-03-15",
+  "title" : "NOLA GIS Planning And Zoning Data",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/x9tl6TggMczLMWXs3lnmBEzdxyZRdRS7yQz_taOzot8?filename=NOLA_GIS_Planning_and_Zoning_data.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "new orleans", "planning", "zoning", "data" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/GNhp0m0zbS3G__nCaUEW4SSApLpDGTKGqnMKbzlJ-Q8?filename=NOPD_Districts_20130322.zip",
+  "created" : "2013-03-22",
+  "description" : "New Orleans Police Department Districts as of December 2011",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "q683-wc79",
+  "keyword" : "new orleans,police,districts,nopd",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans – Office of Information Technology & Innovation, Enterprise Information Team\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-05-26",
+  "releaseDate" : "2013-03-22",
+  "title" : "NOPD Districts",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/GNhp0m0zbS3G__nCaUEW4SSApLpDGTKGqnMKbzlJ-Q8?filename=NOPD_Districts_20130322.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "new orleans", "police", "districts", "nopd" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/kkV-M7jDAxNsZWMOcfb2l4-SuIeKHRjFA-ernMDIZ3Q?filename=Orleans_ZCTA_2010.zip",
+  "created" : "2013-03-25",
+  "description" : "IP Code Tabulation Areas (ZCTAs) are approximate area representations of U.S. Postal Service (USPS) ZIP Code service areas that the Census Bureau creates for tabulating summary statistics from census data. This entity was developed to overcome the difficulties in precisely defining the land area covered by each ZIP Code®.  Data users should not use ZCTAs to identify the official USPS ZIP Code for mail delivery.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "rgeq-44vf",
+  "keyword" : "census,zcta,zip code,tabulation",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans – Office of Information Technology & Innovation, Enterprise Information Team\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-03-25",
+  "releaseDate" : "2013-03-25",
+  "title" : "NOLA Zip Code Tabulation Areas - 2010",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/kkV-M7jDAxNsZWMOcfb2l4-SuIeKHRjFA-ernMDIZ3Q?filename=Orleans_ZCTA_2010.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "census", "zcta", "zip code", "tabulation" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/nVeZWxy-ihbmwAGWVwBrDs2Z1BoOKwEQwdeig6Xafmw?filename=Inner_City_Fire_District_20120516.zip",
+  "created" : "2013-03-25",
+  "description" : "The area included within the following described boundaries is hereby designated \"Fire District\". Commencing at the center line of John Churchill Chase Street at the Mississippi River, thence along the center line of John Churchill Chase Street to the center line of Camp Street, thence along the center line of Calliope Street to the center line of St. Charles Avenue, thence alone the center line of St. Charles Avenue to the intersection of Howard Avenue, thence along the center line of Howard Avenue to the center line of Claiborne Avenue, thence along the center line of Claiborne Avenue to the center line of St. Peter Street, thence along the center line of St Peter Street to the Mississippi River, thence along the Mississippi River to the point of commencement.\n\nBasis: Code of the City of New Orleans, Louisiana; Part II - Code, Chapter 26, Article I, Sec D101",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "tf5z-dhbr",
+  "keyword" : "new orleans,fire district",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans – Office of Information Technology & Innovation, Enterprise Information Team\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-03-25",
+  "releaseDate" : "2013-03-25",
+  "title" : "NOLA Inner City Fire District",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/nVeZWxy-ihbmwAGWVwBrDs2Z1BoOKwEQwdeig6Xafmw?filename=Inner_City_Fire_District_20120516.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "new orleans", "fire district" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/RGMJQ3edkV_jKk2tOvJuEFsj-ntxU3gm2iMRrrGCGog?filename=ClaiborneCorridorStudy.zip",
+  "created" : "2013-03-25",
+  "description" : "New Orleans has been awarded a $2 million federal grant to study ways to revitalize the Claiborne Avenue corridor, included in the .zip file are polygon shapefiles for: 'Claiborne Corridor Linear Extent', 'Claiborne Corridor Areal Extent', and 'Choice Neighborhood Initiative' (http://www.ibervilletreme.org/), and 'Claiborne Corridor Public Housing'.  Last update 11/09/2012",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "8d4t-mdkg",
+  "keyword" : "new orleans,claiborne corridor,revitalization",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans - Office of Information Technology & Innovation\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-03-25",
+  "releaseDate" : "2013-03-25",
+  "title" : "Claiborne Corridor Study",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/RGMJQ3edkV_jKk2tOvJuEFsj-ntxU3gm2iMRrrGCGog?filename=ClaiborneCorridorStudy.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "new orleans", "claiborne corridor", "revitalization" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/views/aned-jbk9/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-03",
+  "description" : "Post-Katrina damage assessment conducted by City inspectors, published by address with breakdown by category. These data formerly supported the \"Damage Assessment Wizard\" web tool. Also see attachment 'DA_Categories' for insight as to how damage was assessed.",
+  "feed" : "https://data.nola.gov/api/views/aned-jbk9/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "aned-jbk9",
+  "keyword" : "new orleans,damage,katrina",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans – Office of Information Technology & Innovation, Enterprise Information Team\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-04-03",
+  "releaseDate" : "2013-04-03",
+  "title" : "Post-Katrina Damage Assessment",
+  "webService" : "https://data.nola.gov/resource/aned-jbk9",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/views/aned-jbk9/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/aned-jbk9/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/aned-jbk9/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/aned-jbk9/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/aned-jbk9/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/aned-jbk9/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "new orleans", "damage", "katrina" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/hOFpIj6dI5ij1eEVp40lzUfrnn_sGWCM8s03n04tlVc?filename=NewOrleansMVA_FinalReport_3.25.2013.pdf",
+  "created" : "2013-04-09",
+  "description" : "The Market Value Analysis (MVA) is a tool designed to assist the private market and government officials to identify and comprehend the various elements of local real estate markets. It is based fundamentally on local administrative data sources. By using an MVA, public sector officials and private market actors can more precisely craft intervention strategies in weak markets and support sustainable growth in stronger market segments.",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "kex2-vq3e",
+  "keyword" : "real estate,markets,mva,nora,community development",
+  "license" : "Creative Commons Attribution-No Derivative Works 3.0 Unported\nThe Reinvestment Fund\nhttp://creativecommons.org/licenses/by-nd/3.0/legalcode",
+  "modified" : "2013-04-09",
+  "releaseDate" : "2013-04-09",
+  "title" : "New Orleans Market Value Analysis - Final Report 3.25.2013",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/hOFpIj6dI5ij1eEVp40lzUfrnn_sGWCM8s03n04tlVc?filename=NewOrleansMVA_FinalReport_3.25.2013.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "real estate", "markets", "mva", "nora", "community development" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/84-FqwwQ1sVtX8ypAilp4BFTT2pSj6wyKALlBm3ES7Y?filename=NursingHomes_NOLA.zip",
+  "created" : "2013-04-13",
+  "description" : "Nursing Homes within the City of New Orleans",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "w5xp-ktey",
+  "keyword" : "nursing home",
+  "modified" : "2013-04-13",
+  "releaseDate" : "2013-04-13",
+  "title" : "Nursing Homes",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/84-FqwwQ1sVtX8ypAilp4BFTT2pSj6wyKALlBm3ES7Y?filename=NursingHomes_NOLA.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "nursing home" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/views/rcm3-fn58/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-19",
+  "description" : "City of New Oreleans permit data, 1/01/2012-3/31/2013\r\nNote: For download of entire dataset, export as .csv",
+  "feed" : "https://data.nola.gov/api/views/rcm3-fn58/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "rcm3-fn58",
+  "keyword" : "city of new orleans,permits",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans – Office of Information Technology & Innovation, Enterprise Information Team\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-04-18",
+  "releaseDate" : "2013-02-19",
+  "title" : "NOLA Permits",
+  "webService" : "https://data.nola.gov/resource/rcm3-fn58",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/views/rcm3-fn58/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/rcm3-fn58/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/rcm3-fn58/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/rcm3-fn58/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/rcm3-fn58/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/rcm3-fn58/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "city of new orleans", "permits" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/MYH7faldW-qCGQdqUvCyuabuhmQDohGQ5Lm2mHT1evQ?filename=SchoolData20130321_Public.zip",
+  "created" : "2013-04-26",
+  "description" : "Private and public schools located within the City of New Orleans. This information is initially composed by the Louisiana Department of Education. Then this data is verified by the New Orleans Office of Homeland Security and Emergency Preparedness.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "yanw-8k4k",
+  "keyword" : "school",
+  "modified" : "2013-04-29",
+  "releaseDate" : "2013-04-26",
+  "title" : "Schools K-12",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/MYH7faldW-qCGQdqUvCyuabuhmQDohGQ5Lm2mHT1evQ?filename=SchoolData20130321_Public.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "school" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/jYYAezgXsl1DhXFcVp4XQFPj8CluJkeZoEM83ODP1VY?filename=Place_Based_Planning.zip",
+  "created" : "2013-05-28",
+  "description" : "Place-based developing leverages investments by focusing resources in targeted places and drawing on the compounding effect of well-coordinated action. Effective place-based development can influence how rural and metropolitan areas grow, how well they function as places to live, work, operate a business, preserve heritage, and more. Place-based policies can also streamline otherwise redundant and disconnected programs and maximize efficiencies of operation and budget.\n\nThe Direct Homebuyer Assistance Program in New Orleans provides down payment and closing costs subsidies to eligible first- time homebuyers.  The subsidies bridge the gap between the price of the home (including closing costs) and the maximum amount a homebuyer can borrow with a first mortgage loan.  The homebuyer receives only the amount of soft second funding that is needed to close the affordability gap. While all areas of the city are eligible for this program. Houses within the Place-Based Strategy Areas are eligible for slightly higher subsidies.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "ssw4-9pg7",
+  "keyword" : "new orleans,planning,place-based",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans – Office of Information Technology & Innovation, Enterprise Information Team\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-07-30",
+  "releaseDate" : "2013-05-28",
+  "title" : "Place Based Planning",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/jYYAezgXsl1DhXFcVp4XQFPj8CluJkeZoEM83ODP1VY?filename=Place_Based_Planning.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "new orleans", "planning", "place-based" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/views/pqgq-8it9/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-06-03",
+  "description" : "Alcohol Beverage Outlet licenses within the City of New Orleans as of 4/01/2013.  Data provided by City of New Orleans, Bureau of Revenue.  Scheduled Update: Quarterly",
+  "feed" : "https://data.nola.gov/api/views/pqgq-8it9/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "pqgq-8it9",
+  "keyword" : "new orleans,alcohol,abo",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans – Office of Information Technology & Innovation, Enterprise Information Team\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-06-03",
+  "releaseDate" : "2013-06-03",
+  "title" : "Alcohol Beverage Outlet (ABO) - Active Licenses",
+  "webService" : "https://data.nola.gov/resource/pqgq-8it9",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/views/pqgq-8it9/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/pqgq-8it9/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/pqgq-8it9/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/pqgq-8it9/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/pqgq-8it9/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/pqgq-8it9/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "new orleans", "alcohol", "abo" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/views/dasg-fxyv/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-12-18",
+  "description" : "Trade Names and Addresses of facilities, within the City of New Orleans, offering short term rental. Facilities include Hotels, Motels, Bed & Breakfasts and Rooming & Boarding Houses. Based Bureau of Revenue data 4/01/2013.  Update: Quarterly",
+  "feed" : "https://data.nola.gov/api/views/dasg-fxyv/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "dasg-fxyv",
+  "keyword" : "superbowl,city of new orleans,rental property,short term",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans – Office of Information Technology & Innovation, Enterprise Information Team\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-08-10",
+  "releaseDate" : "2012-12-18",
+  "title" : "NOLA Short Term Rentals",
+  "webService" : "https://data.nola.gov/resource/dasg-fxyv",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/views/dasg-fxyv/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/dasg-fxyv/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/dasg-fxyv/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/dasg-fxyv/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/dasg-fxyv/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/dasg-fxyv/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "superbowl", "city of new orleans", "rental property", "short term" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/views/hpm5-48nj/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-06",
+  "description" : "This data set is a listing of all former Road Home properties sold by NORA through the following disposition channels.\r\n-Auction: Properties put up for auction and sold to the highest bidder.\r\n-Development: Properties offered via request for proposals to create affordable housing.\r\n-Lot Next Door: Properties sold to adjacent owners.\r\n-Alternate Land Use: Properties sold for purposes of creating green space and used for activities such as community gardens.",
+  "feed" : "https://data.nola.gov/api/views/hpm5-48nj/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "hpm5-48nj",
+  "keyword" : "",
+  "modified" : "2013-07-11",
+  "releaseDate" : "2013-02-06",
+  "title" : "NORA Sold Properties",
+  "webService" : "https://data.nola.gov/resource/hpm5-48nj",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/views/hpm5-48nj/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/hpm5-48nj/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/hpm5-48nj/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/hpm5-48nj/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/hpm5-48nj/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/hpm5-48nj/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/views/xtav-rgc7/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-09",
+  "description" : "Expanded Lot Next Door Program\r\nPursuant to Ordinance No. 22605 M. C. S., also known as the “Lot Next Door Ordinance” the New Orleans Redevelopment Authority (NORA) hereby notifies the citizens of New Orleans of its intent to dispose of nearly 2000 eligible Lot Next Door Properties.  \r\n“Eligible Lot Next Door Buyers” MUST notify NORA of its intent to purchase a Lot Next Door Property by completing an EXPRESSION OF INTEREST (EOI) FORM.  The EOI form will be available on the NORA website at www.noraworks.org  beginning on May 1, 2013 through August 1, 2013. \r\n***THE DEADLINE TO COMPLETE AN EXPRESSION OF INTEREST (EOI) FORM IS AUGUST 1, 2013***\r\n***SUBMITTING AN EXPRESSION OF INTEREST DOES NOT GUARANTEE A PURCHASE ***\r\nIn order to be considered for the Lot Next Door Program you must share a common boundary to an eligible Lot Next Door Property and meet all other eligibility requirements.  For more information regarding qualifications and eligibility please visit the NORA website at www.noraworks.org or contact the Lot Next Door Program Office at 504.658.4422.",
+  "feed" : "https://data.nola.gov/api/views/xtav-rgc7/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "xtav-rgc7",
+  "keyword" : "lot next door,nora,properties",
+  "modified" : "2013-07-12",
+  "releaseDate" : "2013-04-09",
+  "title" : "List Of Properties Eligible For New Lot Next Door Ordinance",
+  "webService" : "https://data.nola.gov/resource/xtav-rgc7",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/views/xtav-rgc7/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/xtav-rgc7/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/xtav-rgc7/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/xtav-rgc7/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/xtav-rgc7/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/xtav-rgc7/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "lot next door", "nora", "properties" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/views/4ts9-u65y/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-03",
+  "description" : "Scheduled adjudication hearings for the Code Enforcement Hearings Bureau. The owners of the properties listed will be heard to determine whether or not the properties are blighted and in violation of the City's housing code.",
+  "feed" : "https://data.nola.gov/api/views/4ts9-u65y/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "4ts9-u65y",
+  "keyword" : "code enforcement,housing code,administrative hearings,hearings,calendar,docket",
+  "modified" : "2013-08-01",
+  "releaseDate" : "2013-01-03",
+  "title" : "Code Enforcement Upcoming Hearings",
+  "webService" : "https://data.nola.gov/resource/4ts9-u65y",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/views/4ts9-u65y/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/4ts9-u65y/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/4ts9-u65y/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/4ts9-u65y/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/4ts9-u65y/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/4ts9-u65y/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "code enforcement", "housing code", "administrative hearings", "hearings", "calendar", "docket" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/views/r82n-4xx7/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-04-27",
+  "description" : "The City of New Orleans official brake tag inspections will be available at these locations.\r\n\r\nBrake tag inspection fees are as follows:\r\n- All trucks over 6,000 pounds gross vehicle weight shall pay a fee of $40.00\r\n- All trucks, 6,000 pounds gross vehicle weight or less shall pay a fee of $30.00\r\n- All other vehicles (this includes: Motorcycles and Utility Trailers) shall pay a fee of $25.000).\r\n\r\nPlease call (504) 658-7186  with questions or concerns; also, if you are a business and are interested in applying for the brake tag program.\r\n\r\nThe list of vehicle inspection stations is subject to change as businesses come and go from the program. Check back to find additional locations as they become available.",
+  "feed" : "https://data.nola.gov/api/views/r82n-4xx7/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "r82n-4xx7",
+  "keyword" : "brake tags,safety and permits,inspections",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-08-06",
+  "releaseDate" : "2012-04-27",
+  "title" : "Brake Tag Stations",
+  "webService" : "https://data.nola.gov/resource/r82n-4xx7",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/views/r82n-4xx7/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/r82n-4xx7/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/r82n-4xx7/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/r82n-4xx7/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/r82n-4xx7/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/r82n-4xx7/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "brake tags", "safety and permits", "inspections" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/file_data/Ff07tQu1AFYvbT2kHr9FwZb8ICgash3KXRJEYLa2V8w?filename=NOLA_Council_Districts_20120517.zip",
+  "created" : "2013-08-07",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "suyx-59fs",
+  "keyword" : "",
+  "modified" : "2013-08-07",
+  "releaseDate" : "2013-08-07",
+  "title" : "NOLA Council Districts 20120517",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/file_data/Ff07tQu1AFYvbT2kHr9FwZb8ICgash3KXRJEYLa2V8w?filename=NOLA_Council_Districts_20120517.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/views/q4nv-wks6/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-07-22",
+  "description" : "Lien foreclosures as of 8/21/2013.  'Status Key' is available as attachment.",
+  "feed" : "https://data.nola.gov/api/views/q4nv-wks6/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "q4nv-wks6",
+  "keyword" : "lien,foreclosure",
+  "license" : "Creative Commons 1.0 Universal\nCity of New Orleans – Office of Information Technology & Innovation, Enterprise Information Team\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-08-22",
+  "releaseDate" : "2013-07-22",
+  "title" : "BlightStatus Lien Foreclosures",
+  "webService" : "https://data.nola.gov/resource/q4nv-wks6",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/views/q4nv-wks6/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/q4nv-wks6/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/q4nv-wks6/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/q4nv-wks6/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/q4nv-wks6/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/q4nv-wks6/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "lien", "foreclosure" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/views/e3wd-h7q2/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-11",
+  "description" : "Blighted structures that have been demolished since the inception of BlightStat on October 1, 2010.  BlightStat is a public meeting that tracks the City's progress in meeting Mayor Landrieu's stated goal of eliminating 10,000 blighted New Orleans properties in three years.  Data current through 7/31/2013",
+  "feed" : "https://data.nola.gov/api/views/e3wd-h7q2/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "e3wd-h7q2",
+  "keyword" : "blightstat,blight,demolition,demo",
+  "license" : "Creative Commons 1.0 Universal\nOffice of Performance and Accountability\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-08-26",
+  "releaseDate" : "2013-01-11",
+  "title" : "BlightStatus Demolitions",
+  "webService" : "https://data.nola.gov/resource/e3wd-h7q2",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/views/e3wd-h7q2/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/e3wd-h7q2/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/e3wd-h7q2/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/e3wd-h7q2/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/e3wd-h7q2/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/e3wd-h7q2/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "blightstat", "blight", "demolition", "demo" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.nola.gov/api/views/5fn8-vtui/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-04",
+  "description" : "Data Description and Disclaimer\nThis dataset reflects incidents that have been reported to the New Orleans Police Department in 2013. Data is provided by Orleans Parish Communication District (OPCD), the administrative office of 9-1-1 for the City of New Orleans. In the OPCD system, NOPD may reclassify or change the signal type for up to 36 hours after the incident is marked up. For information about an incident after this time period, citizens may request police reports from the NOPD Public Records Division.  In order to protect the privacy of victims, addresses are shown at the block level and the call types cruelty to juveniles, juvenile attachment and missing juvenile have been removed in accordance with the Louisiana Public Records Act, L.R.S. 44:1.  Map coordinates (X,Y) have been removed for the following call types: Aggravated Rape, Aggravated Rape - MA, Crime Against Nature, Mental Patient, Oral Sexual Battery, Prostitution, Sexual Battery, Simple Rape, Simple Rape - Male V, and Soliciting for Prost.\n\nDisclaimer: These incidents may be based upon preliminary information supplied to the Police Department by the reporting parties that have not been verified. The preliminary crime classifications may be changed at a later date based upon additional investigation and there is always the possibility of mechanical or human error. Therefore, the New Orleans Police Department does not guarantee (either expressed or implied) the accuracy, completeness, timeliness, or correct sequencing of the information and the information should not be used for comparison purposes over time. The New Orleans Police Department will not be responsible for any error or omission, or for the use of, or the results obtained from the use of this information. All data visualizations on maps should be considered approximate and attempts to derive specific addresses are strictly prohibited. The New Orleans Police Department is not responsible for the content of any off-site pages that are referenced by or that reference this web page other than an official City of New Orleans or New Orleans Police Department web page. The user specifically acknowledges that the New Orleans Police Department is not responsible for any defamatory, offensive, misleading, or illegal conduct of other users, links, or third parties and that the risk of injury from the foregoing rests entirely with the user. Any use of the information for commercial purposes is strictly prohibited. The unauthorized use of the words \"New Orleans Police Department,\" \"NOPD,\" or any colorable imitation of these words or the unauthorized use of the New Orleans Police Department logo is unlawful. This web page does not, in any way, authorize such use.",
+  "feed" : "https://data.nola.gov/api/views/5fn8-vtui/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "5fn8-vtui",
+  "keyword" : "crime,police",
+  "modified" : "2013-08-27",
+  "releaseDate" : "2013-02-04",
+  "title" : "Calls for Service 2013",
+  "webService" : "https://data.nola.gov/resource/5fn8-vtui",
+  "distribution" : [ {
+    "accessURL" : "https://data.nola.gov/api/views/5fn8-vtui/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/5fn8-vtui/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/5fn8-vtui/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/5fn8-vtui/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/5fn8-vtui/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.nola.gov/api/views/5fn8-vtui/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "crime", "police" ]
+} ]

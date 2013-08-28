@@ -1,0 +1,651 @@
+[ {
+  "accessLevel" : "Public",
+  "description" : "Lists the datasets for this domain.  The format should correspond to the spec at http://project-open-data.github.io/schema/",
+  "format" : "application/json",
+  "frequency" : "hourly",
+  "identifier" : "https://nmfs.socrata.com/data.json",
+  "modified" : "2013-08-28",
+  "title" : "Project Open Data, /data.json file",
+  "webService" : "https://nmfs.socrata.com/data.json"
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://nmfs.socrata.com/api/views/zg3h-r2t8/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-03-03",
+  "description" : "This data set contained the pre-approved comments collected by NOAA as part of the NOAA Aquaculture Listening Sessions held in 2010. This is now closed.",
+  "feed" : "https://nmfs.socrata.com/api/views/zg3h-r2t8/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "zg3h-r2t8",
+  "keyword" : "aquaculture,2010. noaa,listening sessions,public comments",
+  "license" : "Public Domain\nNOAA Aquaculture Program(http://aquaculture.noaa.gov)",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2010-03-03",
+  "title" : "Pre-Approval for Public Comments: NOAA Aquaculture Listening Sessions (2010)",
+  "webService" : "https://nmfs.socrata.com/resource/zg3h-r2t8",
+  "distribution" : [ {
+    "accessURL" : "https://nmfs.socrata.com/api/views/zg3h-r2t8/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/zg3h-r2t8/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/zg3h-r2t8/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/zg3h-r2t8/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/zg3h-r2t8/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/zg3h-r2t8/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "aquaculture", "2010. noaa", "listening sessions", "public comments" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://nmfs.socrata.com/api/views/8rfz-v8dm/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-10-20",
+  "feed" : "https://nmfs.socrata.com/api/views/8rfz-v8dm/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "8rfz-v8dm",
+  "keyword" : "",
+  "modified" : "2011-08-20",
+  "releaseDate" : "2010-10-20",
+  "title" : "West Coast Commercial Albacore Landings By State (2009)",
+  "webService" : "https://nmfs.socrata.com/resource/8rfz-v8dm",
+  "distribution" : [ {
+    "accessURL" : "https://nmfs.socrata.com/api/views/8rfz-v8dm/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/8rfz-v8dm/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/8rfz-v8dm/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/8rfz-v8dm/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/8rfz-v8dm/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/8rfz-v8dm/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://nmfs.socrata.com/api/views/rqsz-ptvn/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-10-20",
+  "feed" : "https://nmfs.socrata.com/api/views/rqsz-ptvn/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "rqsz-ptvn",
+  "keyword" : "",
+  "modified" : "2011-08-20",
+  "releaseDate" : "2010-10-20",
+  "title" : "West Coast Commercial Albacore Landings By State",
+  "webService" : "https://nmfs.socrata.com/resource/rqsz-ptvn",
+  "distribution" : [ {
+    "accessURL" : "https://nmfs.socrata.com/api/views/rqsz-ptvn/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/rqsz-ptvn/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/rqsz-ptvn/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/rqsz-ptvn/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/rqsz-ptvn/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/rqsz-ptvn/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://nmfs.socrata.com/api/views/myn8-s5jm/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-10-20",
+  "feed" : "https://nmfs.socrata.com/api/views/myn8-s5jm/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "myn8-s5jm",
+  "keyword" : "",
+  "modified" : "2011-08-20",
+  "releaseDate" : "2010-10-20",
+  "title" : "U.S. Seafood Imports from Major Areas, 2009, by Volume",
+  "webService" : "https://nmfs.socrata.com/resource/myn8-s5jm",
+  "distribution" : [ {
+    "accessURL" : "https://nmfs.socrata.com/api/views/myn8-s5jm/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/myn8-s5jm/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/myn8-s5jm/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/myn8-s5jm/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/myn8-s5jm/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/myn8-s5jm/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://nmfs.socrata.com/api/views/gpbx-iqtj/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-10-20",
+  "feed" : "https://nmfs.socrata.com/api/views/gpbx-iqtj/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "gpbx-iqtj",
+  "keyword" : "",
+  "modified" : "2011-08-20",
+  "releaseDate" : "2010-10-20",
+  "title" : "U.S. Seafood Imports and Exports, in Value (in thousands dollars)",
+  "webService" : "https://nmfs.socrata.com/resource/gpbx-iqtj",
+  "distribution" : [ {
+    "accessURL" : "https://nmfs.socrata.com/api/views/gpbx-iqtj/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/gpbx-iqtj/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/gpbx-iqtj/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/gpbx-iqtj/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/gpbx-iqtj/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/gpbx-iqtj/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://nmfs.socrata.com/api/views/pv29-y2nu/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-10-20",
+  "description" : "Female spawning stock",
+  "feed" : "https://nmfs.socrata.com/api/views/pv29-y2nu/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "pv29-y2nu",
+  "keyword" : "",
+  "modified" : "2011-08-20",
+  "releaseDate" : "2010-10-20",
+  "title" : "Biomass Population Abundance Atlantic Stripped Bass",
+  "webService" : "https://nmfs.socrata.com/resource/pv29-y2nu",
+  "distribution" : [ {
+    "accessURL" : "https://nmfs.socrata.com/api/views/pv29-y2nu/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/pv29-y2nu/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/pv29-y2nu/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/pv29-y2nu/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/pv29-y2nu/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/pv29-y2nu/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://nmfs.socrata.com/api/views/mpj3-7nzp/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-10-21",
+  "feed" : "https://nmfs.socrata.com/api/views/mpj3-7nzp/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "mpj3-7nzp",
+  "keyword" : "",
+  "modified" : "2011-08-20",
+  "releaseDate" : "2010-10-21",
+  "title" : "California Something or Other",
+  "webService" : "https://nmfs.socrata.com/resource/mpj3-7nzp",
+  "distribution" : [ {
+    "accessURL" : "https://nmfs.socrata.com/api/views/mpj3-7nzp/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/mpj3-7nzp/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/mpj3-7nzp/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/mpj3-7nzp/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/mpj3-7nzp/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/mpj3-7nzp/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://nmfs.socrata.com/api/views/z2uh-dsnk/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-11-17",
+  "feed" : "https://nmfs.socrata.com/api/views/z2uh-dsnk/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "z2uh-dsnk",
+  "keyword" : "",
+  "modified" : "2011-08-20",
+  "releaseDate" : "2010-11-17",
+  "title" : "Yellowfin Tuna Imports 2010",
+  "webService" : "https://nmfs.socrata.com/resource/z2uh-dsnk",
+  "distribution" : [ {
+    "accessURL" : "https://nmfs.socrata.com/api/views/z2uh-dsnk/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/z2uh-dsnk/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/z2uh-dsnk/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/z2uh-dsnk/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/z2uh-dsnk/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/z2uh-dsnk/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://nmfs.socrata.com/api/views/z28p-w6su/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-11-17",
+  "feed" : "https://nmfs.socrata.com/api/views/z28p-w6su/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "z28p-w6su",
+  "keyword" : "",
+  "modified" : "2011-08-20",
+  "releaseDate" : "2010-11-17",
+  "title" : "2009 Atlantic Striped Bass Landings",
+  "webService" : "https://nmfs.socrata.com/resource/z28p-w6su",
+  "distribution" : [ {
+    "accessURL" : "https://nmfs.socrata.com/api/views/z28p-w6su/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/z28p-w6su/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/z28p-w6su/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/z28p-w6su/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/z28p-w6su/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/z28p-w6su/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://nmfs.socrata.com/api/views/fbtr-8rgb/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-01-10",
+  "feed" : "https://nmfs.socrata.com/api/views/fbtr-8rgb/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "fbtr-8rgb",
+  "keyword" : "",
+  "modified" : "2011-08-20",
+  "releaseDate" : "2011-01-10",
+  "title" : "2009 Atlantic Cod Landings",
+  "webService" : "https://nmfs.socrata.com/resource/fbtr-8rgb",
+  "distribution" : [ {
+    "accessURL" : "https://nmfs.socrata.com/api/views/fbtr-8rgb/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/fbtr-8rgb/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/fbtr-8rgb/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/fbtr-8rgb/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/fbtr-8rgb/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/fbtr-8rgb/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://nmfs.socrata.com/api/views/ncry-xzwf/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-02-23",
+  "feed" : "https://nmfs.socrata.com/api/views/ncry-xzwf/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ncry-xzwf",
+  "keyword" : "",
+  "modified" : "2013-06-11",
+  "releaseDate" : "2011-02-23",
+  "title" : "Photo Directory Example",
+  "webService" : "https://nmfs.socrata.com/resource/ncry-xzwf",
+  "distribution" : [ {
+    "accessURL" : "https://nmfs.socrata.com/api/views/ncry-xzwf/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/ncry-xzwf/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/ncry-xzwf/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/ncry-xzwf/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/ncry-xzwf/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/ncry-xzwf/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://nmfs.socrata.com/api/views/ntiq-gbi7/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-03-10",
+  "feed" : "https://nmfs.socrata.com/api/views/ntiq-gbi7/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ntiq-gbi7",
+  "keyword" : "",
+  "modified" : "2011-08-20",
+  "releaseDate" : "2011-03-10",
+  "title" : "North Atlantic Swordfish Biomass And Landings 1950-2009",
+  "webService" : "https://nmfs.socrata.com/resource/ntiq-gbi7",
+  "distribution" : [ {
+    "accessURL" : "https://nmfs.socrata.com/api/views/ntiq-gbi7/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/ntiq-gbi7/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/ntiq-gbi7/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/ntiq-gbi7/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/ntiq-gbi7/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/ntiq-gbi7/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://nmfs.socrata.com/api/views/gsqd-3ptp/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-06-05",
+  "feed" : "https://nmfs.socrata.com/api/views/gsqd-3ptp/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "gsqd-3ptp",
+  "keyword" : "",
+  "modified" : "2012-09-10",
+  "releaseDate" : "2012-06-05",
+  "title" : "IWG-OA Public Comment",
+  "webService" : "https://nmfs.socrata.com/resource/gsqd-3ptp",
+  "distribution" : [ {
+    "accessURL" : "https://nmfs.socrata.com/api/views/gsqd-3ptp/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/gsqd-3ptp/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/gsqd-3ptp/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/gsqd-3ptp/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/gsqd-3ptp/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://nmfs.socrata.com/api/views/gsqd-3ptp/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+} ]

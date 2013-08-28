@@ -1,0 +1,1985 @@
+[ {
+  "accessLevel" : "Public",
+  "description" : "Lists the datasets for this domain.  The format should correspond to the spec at http://project-open-data.github.io/schema/",
+  "format" : "application/json",
+  "frequency" : "hourly",
+  "identifier" : "https://data.taxpayer.net/data.json",
+  "modified" : "2013-08-28",
+  "title" : "Project Open Data, /data.json file",
+  "webService" : "https://data.taxpayer.net/data.json"
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/3c67-qqqv/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-09-18",
+  "description" : "A complete list of all FY2008 earmarks from every appropriations",
+  "feed" : "https://data.taxpayer.net/api/views/3c67-qqqv/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "3c67-qqqv",
+  "keyword" : "earmarks",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2012-09-18",
+  "title" : "FY2008 Earmarks",
+  "webService" : "https://data.taxpayer.net/resource/3c67-qqqv",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/3c67-qqqv/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/3c67-qqqv/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/3c67-qqqv/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/3c67-qqqv/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/3c67-qqqv/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/3c67-qqqv/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "earmarks" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/5vfu-2qxu/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-26",
+  "description" : "Earmarks determined by TCS to be national in scope, and therefore not inclued in member earmark totals or in overall earmark computations",
+  "feed" : "https://data.taxpayer.net/api/views/5vfu-2qxu/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "5vfu-2qxu",
+  "keyword" : "earmarks",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2012-11-26",
+  "title" : "2010 National Earmarks",
+  "webService" : "https://data.taxpayer.net/resource/5vfu-2qxu",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/5vfu-2qxu/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/5vfu-2qxu/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/5vfu-2qxu/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/5vfu-2qxu/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/5vfu-2qxu/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/5vfu-2qxu/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "earmarks" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/si2k-atfz/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-26",
+  "description" : "Value and number of three classes of earmarks secured by members of the House: solo earmarks, solo and with other members, and solo and with other members and president; see glossary for an explanation of these classes",
+  "feed" : "https://data.taxpayer.net/api/views/si2k-atfz/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "si2k-atfz",
+  "keyword" : "earmarks",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2012-11-26",
+  "title" : "2010 Reps Earmarks",
+  "webService" : "https://data.taxpayer.net/resource/si2k-atfz",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/si2k-atfz/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/si2k-atfz/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/si2k-atfz/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/si2k-atfz/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/si2k-atfz/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/si2k-atfz/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "earmarks" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/nv4n-w73m/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-26",
+  "description" : "Value and number of three classes of earmarks secured by members of the Senate: solo earmarks, solo and with other members, and solo and with other members and president; see glossary for an explanation of these classes",
+  "feed" : "https://data.taxpayer.net/api/views/nv4n-w73m/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "nv4n-w73m",
+  "keyword" : "earmarks",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2012-11-26",
+  "title" : "2010 Senator Earmarks",
+  "webService" : "https://data.taxpayer.net/resource/nv4n-w73m",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/nv4n-w73m/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/nv4n-w73m/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/nv4n-w73m/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/nv4n-w73m/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/nv4n-w73m/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/nv4n-w73m/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "earmarks" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/7k29-dpng/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-26",
+  "description" : "A three-year comparison (FY08-FY10) of earmarks collapsed so that Congressional districts are matched up; items with a (*) in the notes column are those with multiple members listed for the period",
+  "feed" : "https://data.taxpayer.net/api/views/7k29-dpng/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "7k29-dpng",
+  "keyword" : "earmarks",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2012-11-26",
+  "title" : "3 Yr Combined Districts Earmarks",
+  "webService" : "https://data.taxpayer.net/resource/7k29-dpng",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/7k29-dpng/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/7k29-dpng/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/7k29-dpng/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/7k29-dpng/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/7k29-dpng/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/7k29-dpng/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "earmarks" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/cthc-xd9g/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-26",
+  "description" : "Value and number of earmarks by state, but the only earmarks included in these totals are those with only one state as recipient (note that there are large amounts of unknown earmarks (UNK) where the recipient state is unknown and for earmarks that go to multiple states (Multi)",
+  "feed" : "https://data.taxpayer.net/api/views/cthc-xd9g/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "cthc-xd9g",
+  "keyword" : "earmarks",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2012-11-26",
+  "title" : "2010 By State Earmarks",
+  "webService" : "https://data.taxpayer.net/resource/cthc-xd9g",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/cthc-xd9g/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/cthc-xd9g/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/cthc-xd9g/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/cthc-xd9g/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/cthc-xd9g/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/cthc-xd9g/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "earmarks" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/teva-n8sd/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-26",
+  "description" : "A breakdown of the number of earmarks in each of the individual appropations bills",
+  "feed" : "https://data.taxpayer.net/api/views/teva-n8sd/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "teva-n8sd",
+  "keyword" : "earmarks",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2012-11-26",
+  "title" : "2010 Number Earmarks By Bill",
+  "webService" : "https://data.taxpayer.net/resource/teva-n8sd",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/teva-n8sd/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/teva-n8sd/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/teva-n8sd/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/teva-n8sd/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/teva-n8sd/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/teva-n8sd/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "earmarks" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/xkib-q99q/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-26",
+  "description" : "Joint earmarks (solo and with other members) secured by members of the House and Senate appropriations committees; names highlighed in yellow are members of the defense subcommittees in each chamber",
+  "feed" : "https://data.taxpayer.net/api/views/xkib-q99q/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "xkib-q99q",
+  "keyword" : "",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2012-11-26",
+  "title" : "2010 Earmarks Cmte",
+  "webService" : "https://data.taxpayer.net/resource/xkib-q99q",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/xkib-q99q/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/xkib-q99q/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/xkib-q99q/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/xkib-q99q/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/xkib-q99q/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/xkib-q99q/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/xxha-fq5g/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-26",
+  "description" : "A three-year comparison of earmarks broken down by individual approprations bill",
+  "feed" : "https://data.taxpayer.net/api/views/xxha-fq5g/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "xxha-fq5g",
+  "keyword" : "earmarks",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2012-11-26",
+  "title" : "By Bill 3 Yr Earmarks",
+  "webService" : "https://data.taxpayer.net/resource/xxha-fq5g",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/xxha-fq5g/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/xxha-fq5g/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/xxha-fq5g/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/xxha-fq5g/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/xxha-fq5g/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/xxha-fq5g/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "earmarks" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/kptj-xt6m/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-26",
+  "description" : "A breakdown of the value of earmarks in each of the individual approprations bills",
+  "feed" : "https://data.taxpayer.net/api/views/kptj-xt6m/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "kptj-xt6m",
+  "keyword" : "earmarks",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2012-11-26",
+  "title" : "2010 Earmarks By Bill Amt",
+  "webService" : "https://data.taxpayer.net/resource/kptj-xt6m",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/kptj-xt6m/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/kptj-xt6m/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/kptj-xt6m/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/kptj-xt6m/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/kptj-xt6m/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/kptj-xt6m/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "earmarks" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/etmm-rpre/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-28",
+  "description" : "A breakdown of the value of earmarks in each of the individual approprations bills",
+  "feed" : "https://data.taxpayer.net/api/views/etmm-rpre/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "etmm-rpre",
+  "keyword" : "earmark",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2012-11-28",
+  "title" : "2009 Earmarks By Bill",
+  "webService" : "https://data.taxpayer.net/resource/etmm-rpre",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/etmm-rpre/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/etmm-rpre/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/etmm-rpre/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/etmm-rpre/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/etmm-rpre/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/etmm-rpre/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "earmark" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/nyy3-unix/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-28",
+  "description" : "A complete list and map of all FY2009 earmarks from every appropriations bill, including undisclosed earmarks as researched by TCS",
+  "feed" : "https://data.taxpayer.net/api/views/nyy3-unix/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "nyy3-unix",
+  "keyword" : "earmarks",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2012-11-28",
+  "title" : "Bigkahuna2009",
+  "webService" : "https://data.taxpayer.net/resource/nyy3-unix",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/nyy3-unix/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/nyy3-unix/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/nyy3-unix/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/nyy3-unix/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/nyy3-unix/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/nyy3-unix/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "earmarks" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/fb4n-q3as/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-28",
+  "description" : "Value and number of three classes of earmarks secured by members of the Senate: solo earmarks, solo and with other members, and solo and with other members and president; see glossary for an explanation of these classes",
+  "feed" : "https://data.taxpayer.net/api/views/fb4n-q3as/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "fb4n-q3as",
+  "keyword" : "earmarks",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2012-11-28",
+  "title" : "2009 Earmarks By Senator",
+  "webService" : "https://data.taxpayer.net/resource/fb4n-q3as",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/fb4n-q3as/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/fb4n-q3as/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/fb4n-q3as/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/fb4n-q3as/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/fb4n-q3as/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/fb4n-q3as/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "earmarks" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/8zbq-uhi4/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-28",
+  "description" : "Value and number of three classes of earmarks secured by members of the House: solo earmarks, solo and with other members, and solo and with other members and president; see glossary for an explanation of these classes",
+  "feed" : "https://data.taxpayer.net/api/views/8zbq-uhi4/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "8zbq-uhi4",
+  "keyword" : "earmarks",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2012-11-28",
+  "title" : "2009 Earmarks By Rep",
+  "webService" : "https://data.taxpayer.net/resource/8zbq-uhi4",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/8zbq-uhi4/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/8zbq-uhi4/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/8zbq-uhi4/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/8zbq-uhi4/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/8zbq-uhi4/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/8zbq-uhi4/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "earmarks" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/4qgj-uhzn/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-28",
+  "description" : "Value and number of earmarks by state, but the only earmarks included in these totals are those with only one state as recipient (note that there are large amounts of unknown earmarks (UNK) where the recipient state is unknown and for earmarks that go to multiple states (Multi)",
+  "feed" : "https://data.taxpayer.net/api/views/4qgj-uhzn/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "4qgj-uhzn",
+  "keyword" : "earmarks",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2012-11-28",
+  "title" : "2009 Earmarks By State",
+  "webService" : "https://data.taxpayer.net/resource/4qgj-uhzn",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/4qgj-uhzn/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/4qgj-uhzn/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/4qgj-uhzn/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/4qgj-uhzn/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/4qgj-uhzn/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/4qgj-uhzn/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "earmarks" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/82ie-zw37/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-28",
+  "description" : "Earmarks determined by TCS to be national in scope, and therefore not inclued in member earmark totals or in overall earmark computations",
+  "feed" : "https://data.taxpayer.net/api/views/82ie-zw37/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "82ie-zw37",
+  "keyword" : "earmarks",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2012-11-28",
+  "title" : "2009 National Earmarks",
+  "webService" : "https://data.taxpayer.net/resource/82ie-zw37",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/82ie-zw37/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/82ie-zw37/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/82ie-zw37/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/82ie-zw37/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/82ie-zw37/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/82ie-zw37/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "earmarks" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/2pu4-janm/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-29",
+  "description" : "A complete list and map of all FY2008 earmarks from every appropriations bill, including undisclosed earmarks as researched by TCS",
+  "feed" : "https://data.taxpayer.net/api/views/2pu4-janm/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "2pu4-janm",
+  "keyword" : "earmarks",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2012-11-29",
+  "title" : "2008 earmarks",
+  "webService" : "https://data.taxpayer.net/resource/2pu4-janm",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/2pu4-janm/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/2pu4-janm/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/2pu4-janm/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/2pu4-janm/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/2pu4-janm/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/2pu4-janm/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "earmarks" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/g7uq-bqbg/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-29",
+  "description" : "A breakdown of the value of earmarks in each of the individual appropriations bills",
+  "feed" : "https://data.taxpayer.net/api/views/g7uq-bqbg/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "g7uq-bqbg",
+  "keyword" : "earmarks",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2012-11-29",
+  "title" : "2008 Earmarks Bill Totals",
+  "webService" : "https://data.taxpayer.net/resource/g7uq-bqbg",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/g7uq-bqbg/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/g7uq-bqbg/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/g7uq-bqbg/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/g7uq-bqbg/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/g7uq-bqbg/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/g7uq-bqbg/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "earmarks" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/ncak-4uw3/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-29",
+  "description" : "Value and number of three classes of earmarks secured by members of the Senate: solo earmarks, solo and with other members, and solo and with other members and president; see glossary for an explanation of these classes",
+  "feed" : "https://data.taxpayer.net/api/views/ncak-4uw3/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ncak-4uw3",
+  "keyword" : "earmarks",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2012-11-29",
+  "title" : "2008 Earmarks Senators",
+  "webService" : "https://data.taxpayer.net/resource/ncak-4uw3",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/ncak-4uw3/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/ncak-4uw3/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/ncak-4uw3/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/ncak-4uw3/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/ncak-4uw3/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/ncak-4uw3/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "earmarks" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/nzhr-5bkw/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-29",
+  "description" : "Value and number of three classes of earmarks secured by members of the House: solo earmarks, solo and with other members, and solo and with other members and president; see glossary for an explanation of these classes",
+  "feed" : "https://data.taxpayer.net/api/views/nzhr-5bkw/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "nzhr-5bkw",
+  "keyword" : "earmarks",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2012-11-29",
+  "title" : "2008 Reps Earmarks",
+  "webService" : "https://data.taxpayer.net/resource/nzhr-5bkw",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/nzhr-5bkw/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/nzhr-5bkw/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/nzhr-5bkw/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/nzhr-5bkw/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/nzhr-5bkw/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/nzhr-5bkw/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "earmarks" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/4snt-cefw/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-29",
+  "description" : "Value and number of earmarks by state, but the only earmarks included in these totals are those with only one state as recipient (note that there are large amounts of unknown earmarks (UNK) where the recipient state is unknown and for earmarks that go to multiple states (Multi)",
+  "feed" : "https://data.taxpayer.net/api/views/4snt-cefw/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "4snt-cefw",
+  "keyword" : "earmarks",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2012-11-29",
+  "title" : "2008 Earmarks By State",
+  "webService" : "https://data.taxpayer.net/resource/4snt-cefw",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/4snt-cefw/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/4snt-cefw/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/4snt-cefw/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/4snt-cefw/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/4snt-cefw/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/4snt-cefw/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "earmarks" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/a856-7kwd/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-29",
+  "description" : "Taxpayers for Common Sense and the Center for Responsive Politics (www.opensecrets.org) joined to release a comprehensive database that links campaign contributions with earmarked spending by lawmakers.",
+  "feed" : "https://data.taxpayer.net/api/views/a856-7kwd/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "a856-7kwd",
+  "keyword" : "earmarks,contributions",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2012-11-29",
+  "title" : "Earmark-Contribution Data",
+  "webService" : "https://data.taxpayer.net/resource/a856-7kwd",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/a856-7kwd/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/a856-7kwd/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/a856-7kwd/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/a856-7kwd/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/a856-7kwd/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/a856-7kwd/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "earmarks", "contributions" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/cngp-743w/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-29",
+  "description" : "Taxpayers for Common Sense and the Center for Responsive Politics (www.opensecrets.org) joined to release a comprehensive database that links campaign contributions with earmarked spending by lawmakers.",
+  "feed" : "https://data.taxpayer.net/api/views/cngp-743w/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "cngp-743w",
+  "keyword" : "earmarks",
+  "modified" : "2013-06-07",
+  "releaseDate" : "2012-11-29",
+  "title" : "Earmark Contribution Data By Recipient",
+  "webService" : "https://data.taxpayer.net/resource/cngp-743w",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/cngp-743w/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/cngp-743w/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/cngp-743w/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/cngp-743w/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/cngp-743w/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/cngp-743w/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "earmarks" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/wdd7-cmfs/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-26",
+  "description" : "Three years of data (FY08-10) of joint earmarks (solo and with other members) secured by members of the House",
+  "feed" : "https://data.taxpayer.net/api/views/wdd7-cmfs/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "wdd7-cmfs",
+  "keyword" : "earmarks",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2012-11-26",
+  "title" : "3 Yr House Earmarks",
+  "webService" : "https://data.taxpayer.net/resource/wdd7-cmfs",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/wdd7-cmfs/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/wdd7-cmfs/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/wdd7-cmfs/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/wdd7-cmfs/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/wdd7-cmfs/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/wdd7-cmfs/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "earmarks" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/ngph-szab/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-12-04",
+  "description" : "TCS compiled the tariff relief database so taxpayers can research what their lawmaker is requesting. It includes the lawmaker, the product that is subject to the tariff, the benefiting company, the lobbyist behind it (if applicable) and the campaign cash involved (again, if applicable).",
+  "feed" : "https://data.taxpayer.net/api/views/ngph-szab/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ngph-szab",
+  "keyword" : "",
+  "modified" : "2013-04-16",
+  "releaseDate" : "2012-12-04",
+  "title" : "MTB 2012",
+  "webService" : "https://data.taxpayer.net/resource/ngph-szab",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/ngph-szab/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/ngph-szab/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/ngph-szab/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/ngph-szab/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/ngph-szab/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/ngph-szab/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/6gf7-c8ts/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-10",
+  "description" : "Comparison of relief packages for Superstorm Sandy.",
+  "feed" : "https://data.taxpayer.net/api/views/6gf7-c8ts/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "6gf7-c8ts",
+  "keyword" : "",
+  "modified" : "2013-05-16",
+  "releaseDate" : "2013-01-10",
+  "title" : "Sandy Supplemental",
+  "webService" : "https://data.taxpayer.net/resource/6gf7-c8ts",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/6gf7-c8ts/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/6gf7-c8ts/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/6gf7-c8ts/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/6gf7-c8ts/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/6gf7-c8ts/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/6gf7-c8ts/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/4h2e-z85c/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-20",
+  "feed" : "https://data.taxpayer.net/api/views/4h2e-z85c/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "4h2e-z85c",
+  "keyword" : "airports",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2013-03-20",
+  "title" : "United States Hub Airports",
+  "webService" : "https://data.taxpayer.net/resource/4h2e-z85c",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/4h2e-z85c/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/4h2e-z85c/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/4h2e-z85c/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/4h2e-z85c/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/4h2e-z85c/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/4h2e-z85c/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "airports" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/sjag-ae43/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-09-25",
+  "description" : "Term definitions and program descriptions can be found at www.taxpayer.net",
+  "feed" : "https://data.taxpayer.net/api/views/sjag-ae43/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "sjag-ae43",
+  "keyword" : "coal,energy subsidies",
+  "modified" : "2013-06-04",
+  "releaseDate" : "2012-09-25",
+  "title" : "Coal Subsidy Database (Data Only)",
+  "webService" : "https://data.taxpayer.net/resource/sjag-ae43",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/sjag-ae43/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/sjag-ae43/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/sjag-ae43/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/sjag-ae43/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/sjag-ae43/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/sjag-ae43/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "coal", "energy subsidies" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/s5j6-tsda/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-02",
+  "feed" : "https://data.taxpayer.net/api/views/s5j6-tsda/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "s5j6-tsda",
+  "keyword" : "golden scissors",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2013-05-02",
+  "title" : "Ag GS 2013",
+  "webService" : "https://data.taxpayer.net/resource/s5j6-tsda",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/s5j6-tsda/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/s5j6-tsda/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/s5j6-tsda/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/s5j6-tsda/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/s5j6-tsda/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/s5j6-tsda/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "golden scissors" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/ytg8-5hsi/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-07",
+  "feed" : "https://data.taxpayer.net/api/views/ytg8-5hsi/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ytg8-5hsi",
+  "keyword" : "",
+  "modified" : "2013-05-13",
+  "releaseDate" : "2013-05-07",
+  "title" : "Green Scissors 2012 by category",
+  "webService" : "https://data.taxpayer.net/resource/ytg8-5hsi",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/ytg8-5hsi/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/ytg8-5hsi/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/ytg8-5hsi/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/ytg8-5hsi/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/ytg8-5hsi/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/ytg8-5hsi/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/h72k-6w68/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-18",
+  "description" : "The most up-to-date overview of how much it costs taxpayers each year to maintain service to these rural airports.",
+  "feed" : "https://data.taxpayer.net/api/views/h72k-6w68/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "h72k-6w68",
+  "keyword" : "essential air service",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2013-03-18",
+  "title" : "Essential Air Service Subsidized Airports",
+  "webService" : "https://data.taxpayer.net/resource/h72k-6w68",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/h72k-6w68/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/h72k-6w68/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/h72k-6w68/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/h72k-6w68/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/h72k-6w68/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/h72k-6w68/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "essential air service" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/9rkt-xprt/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-13",
+  "description" : "Updated May 2013 with 113th Congressional districts and representatives",
+  "feed" : "https://data.taxpayer.net/api/views/9rkt-xprt/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "9rkt-xprt",
+  "keyword" : "military assets,nuclear,map",
+  "modified" : "2013-05-16",
+  "releaseDate" : "2013-05-13",
+  "title" : "Military Assets",
+  "webService" : "https://data.taxpayer.net/resource/9rkt-xprt",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/9rkt-xprt/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/9rkt-xprt/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/9rkt-xprt/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/9rkt-xprt/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/9rkt-xprt/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/9rkt-xprt/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "military assets", "nuclear", "map" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/juhj-skav/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-22",
+  "feed" : "https://data.taxpayer.net/api/views/juhj-skav/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "juhj-skav",
+  "keyword" : "",
+  "modified" : "2013-05-22",
+  "releaseDate" : "2013-05-22",
+  "title" : "National Levee Database",
+  "webService" : "https://data.taxpayer.net/resource/juhj-skav",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/juhj-skav/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/juhj-skav/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/juhj-skav/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/juhj-skav/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/juhj-skav/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/juhj-skav/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/jwqi-dvsg/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-04-16",
+  "description" : "Complete List of FY2010 Appropriations Earmarks",
+  "feed" : "https://data.taxpayer.net/api/views/jwqi-dvsg/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "jwqi-dvsg",
+  "keyword" : "earmarks,appropriations",
+  "modified" : "2013-05-29",
+  "releaseDate" : "2012-04-16",
+  "title" : "Earmarks 2010",
+  "webService" : "https://data.taxpayer.net/resource/jwqi-dvsg",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/jwqi-dvsg/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/jwqi-dvsg/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/jwqi-dvsg/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/jwqi-dvsg/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/jwqi-dvsg/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/jwqi-dvsg/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "earmarks", "appropriations" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/m4ce-4enn/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-06-25",
+  "description" : "All earmarks for fiscal years 2008 - 2010.",
+  "feed" : "https://data.taxpayer.net/api/views/m4ce-4enn/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "m4ce-4enn",
+  "keyword" : "earmarks",
+  "modified" : "2013-07-08",
+  "releaseDate" : "2013-06-25",
+  "title" : "FY08-FY10 Earmarks",
+  "webService" : "https://data.taxpayer.net/resource/m4ce-4enn",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/m4ce-4enn/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/m4ce-4enn/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/m4ce-4enn/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/m4ce-4enn/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/m4ce-4enn/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/m4ce-4enn/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "earmarks" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/6r6p-82cj/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-07-03",
+  "description" : "Three years of data (FY08-10) of joint earmarks (solo and with other members) secured by members of the Senate.",
+  "feed" : "https://data.taxpayer.net/api/views/6r6p-82cj/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "6r6p-82cj",
+  "keyword" : "earmarks",
+  "modified" : "2013-07-08",
+  "releaseDate" : "2013-07-03",
+  "title" : "3 Yr Senate Earmarks",
+  "webService" : "https://data.taxpayer.net/resource/6r6p-82cj",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/6r6p-82cj/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/6r6p-82cj/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/6r6p-82cj/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/6r6p-82cj/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/6r6p-82cj/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/6r6p-82cj/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "earmarks" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/ccb6-4cw2/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-07-09",
+  "description" : "Source: New York Stock Exchange",
+  "feed" : "https://data.taxpayer.net/api/views/ccb6-4cw2/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ccb6-4cw2",
+  "keyword" : "",
+  "modified" : "2013-07-10",
+  "releaseDate" : "2013-07-09",
+  "title" : "USEC Historic Financials",
+  "webService" : "https://data.taxpayer.net/resource/ccb6-4cw2",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/ccb6-4cw2/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/ccb6-4cw2/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/ccb6-4cw2/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/ccb6-4cw2/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/ccb6-4cw2/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/ccb6-4cw2/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/75hr-587t/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-07-11",
+  "feed" : "https://data.taxpayer.net/api/views/75hr-587t/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "75hr-587t",
+  "keyword" : "",
+  "modified" : "2013-07-11",
+  "releaseDate" : "2013-07-11",
+  "title" : "USDA Trade Program Recipients",
+  "webService" : "https://data.taxpayer.net/resource/75hr-587t",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/75hr-587t/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/75hr-587t/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/75hr-587t/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/75hr-587t/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/75hr-587t/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/75hr-587t/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.taxpayer.net/api/views/8bin-ktid/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-01",
+  "feed" : "https://data.taxpayer.net/api/views/8bin-ktid/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "8bin-ktid",
+  "keyword" : "",
+  "modified" : "2013-08-01",
+  "releaseDate" : "2013-08-01",
+  "title" : "It’s Time for Tax Reform Transparency",
+  "webService" : "https://data.taxpayer.net/resource/8bin-ktid",
+  "distribution" : [ {
+    "accessURL" : "https://data.taxpayer.net/api/views/8bin-ktid/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/8bin-ktid/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/8bin-ktid/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/8bin-ktid/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/8bin-ktid/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.taxpayer.net/api/views/8bin-ktid/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+} ]

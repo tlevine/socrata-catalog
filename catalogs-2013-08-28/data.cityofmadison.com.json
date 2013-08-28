@@ -1,0 +1,1965 @@
+[ {
+  "accessLevel" : "Public",
+  "description" : "Lists the datasets for this domain.  The format should correspond to the spec at http://project-open-data.github.io/schema/",
+  "format" : "application/json",
+  "frequency" : "hourly",
+  "identifier" : "https://data.cityofmadison.com/data.json",
+  "modified" : "2013-08-28",
+  "title" : "Project Open Data, /data.json file",
+  "webService" : "https://data.cityofmadison.com/data.json"
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/6ym2-385s/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-12-04",
+  "description" : "Police District and Fire Station Locations",
+  "feed" : "https://data.cityofmadison.com/api/views/6ym2-385s/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "6ym2-385s",
+  "keyword" : "police district and fire station locations",
+  "modified" : "2013-01-08",
+  "releaseDate" : "2012-12-04",
+  "title" : "Public Safety Locations: Police and Fire Stations",
+  "webService" : "https://data.cityofmadison.com/resource/6ym2-385s",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/6ym2-385s/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/6ym2-385s/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/6ym2-385s/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/6ym2-385s/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/6ym2-385s/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/6ym2-385s/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "police district and fire station locations" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/rtyh-6ucr/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-12-12",
+  "description" : "Ward; Aldermanic District; Polling Place; Polling Place Address; Handicap Accessible; Comments about location of polling place in building.",
+  "feed" : "https://data.cityofmadison.com/api/views/rtyh-6ucr/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "rtyh-6ucr",
+  "keyword" : "",
+  "modified" : "2013-01-08",
+  "releaseDate" : "2012-12-12",
+  "title" : "Polling Places",
+  "webService" : "https://data.cityofmadison.com/resource/rtyh-6ucr",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/rtyh-6ucr/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/rtyh-6ucr/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/rtyh-6ucr/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/rtyh-6ucr/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/rtyh-6ucr/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/rtyh-6ucr/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/iig4-49xp/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-29",
+  "description" : "Vacant Commercial Sales Determined to be Arms-Length and Verified by Assessor's Office Staff.",
+  "feed" : "https://data.cityofmadison.com/api/views/iig4-49xp/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "iig4-49xp",
+  "keyword" : "",
+  "modified" : "2013-01-08",
+  "releaseDate" : "2012-11-29",
+  "title" : "Vacant Land Sales",
+  "webService" : "https://data.cityofmadison.com/resource/iig4-49xp",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/iig4-49xp/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/iig4-49xp/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/iig4-49xp/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/iig4-49xp/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/iig4-49xp/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/iig4-49xp/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/7dbz-yi8h/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-12-14",
+  "description" : "Improved Commercial Sales Determined to be Arms-Length and Verified by Assessor's Office Staff; Information is subject to change upon further review by appraisal staff; Area; Parcel Number; Situs; Grantor; Sale Date; Sale Price; Description of Sale",
+  "feed" : "https://data.cityofmadison.com/api/views/7dbz-yi8h/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "7dbz-yi8h",
+  "keyword" : "",
+  "modified" : "2013-01-08",
+  "releaseDate" : "2012-12-14",
+  "title" : "Commercial Land Sales",
+  "webService" : "https://data.cityofmadison.com/resource/7dbz-yi8h",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/7dbz-yi8h/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/7dbz-yi8h/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/7dbz-yi8h/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/7dbz-yi8h/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/7dbz-yi8h/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/7dbz-yi8h/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/hb5z-buaz/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-12-05",
+  "feed" : "https://data.cityofmadison.com/api/views/hb5z-buaz/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "hb5z-buaz",
+  "keyword" : "library locations",
+  "modified" : "2013-08-05",
+  "releaseDate" : "2012-12-05",
+  "title" : "Madison Public Library Locations",
+  "webService" : "https://data.cityofmadison.com/resource/hb5z-buaz",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/hb5z-buaz/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/hb5z-buaz/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/hb5z-buaz/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/hb5z-buaz/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/hb5z-buaz/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/hb5z-buaz/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "library locations" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/gxhk-44q9/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-29",
+  "description" : "Date, Location, Categories: City Event, Elections, Environment, Holiday, City Offices Closed, Informational Meetings, Listening Session, Neighborhood Event/Meeting, Parks Events, Public Hearing/Meeting, Safety & Wellness, Seniors, Task Force; Cost; Aldermanic District; Contacts; Description of Event",
+  "feed" : "https://data.cityofmadison.com/api/views/gxhk-44q9/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "gxhk-44q9",
+  "keyword" : "city event calendar,city event,elections,environment,holiday,city offices closed,informational meetings,listening session,neighborhood event/meeting,parks events,public hearing/meeting,safety & wellness,seniors,task force",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2012-11-29",
+  "title" : "City Calendar of Events",
+  "webService" : "https://data.cityofmadison.com/resource/gxhk-44q9",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/gxhk-44q9/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/gxhk-44q9/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/gxhk-44q9/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/gxhk-44q9/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/gxhk-44q9/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/gxhk-44q9/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "city event calendar", "city event", "elections", "environment", "holiday", "city offices closed", "informational meetings", "listening session", "neighborhood event/meeting", "parks events", "public hearing/meeting", "safety & wellness", "seniors", "task force" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/d686-rvcw/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-12-14",
+  "description" : "Incidents listed are selected by the Officer In Charge of each shift that may have significant public interest. Incidents listed are not inclusive of all incidents.",
+  "feed" : "https://data.cityofmadison.com/api/views/d686-rvcw/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "d686-rvcw",
+  "keyword" : "police,incidents",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2012-12-14",
+  "title" : "Police Incident Reports",
+  "webService" : "https://data.cityofmadison.com/resource/d686-rvcw",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/d686-rvcw/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/d686-rvcw/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/d686-rvcw/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/d686-rvcw/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/d686-rvcw/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/d686-rvcw/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "police", "incidents" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/file_data/YJNVLuD-MJx8sodbz90OCofvWVk4WbxXEceNd16C-c4?filename=hydrants.kmz",
+  "created" : "2012-12-27",
+  "description" : "Location of fire hydrants",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "ctnu-yxh7",
+  "keyword" : "",
+  "modified" : "2013-01-10",
+  "releaseDate" : "2012-12-27",
+  "title" : "Fire Hydrants",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/file_data/YJNVLuD-MJx8sodbz90OCofvWVk4WbxXEceNd16C-c4?filename=hydrants.kmz",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/f5sy-kcer/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-12-05",
+  "description" : "Updated quarterly.",
+  "feed" : "https://data.cityofmadison.com/api/views/f5sy-kcer/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "f5sy-kcer",
+  "keyword" : "bus stops,madison metro,public transit",
+  "modified" : "2013-08-05",
+  "releaseDate" : "2012-12-05",
+  "title" : "Madison Metro Transit Bus Stops",
+  "webService" : "https://data.cityofmadison.com/resource/f5sy-kcer",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/f5sy-kcer/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/f5sy-kcer/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/f5sy-kcer/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/f5sy-kcer/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/f5sy-kcer/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/f5sy-kcer/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "bus stops", "madison metro", "public transit" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/4gss-84dk/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-30",
+  "description" : "October Calls for Service;  Type of Call; Descriptions; Date/Time; Location by 100 block; Incident Number",
+  "feed" : "https://data.cityofmadison.com/api/views/4gss-84dk/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "4gss-84dk",
+  "keyword" : "madison police department calls for service",
+  "modified" : "2013-06-11",
+  "releaseDate" : "2012-11-30",
+  "title" : "Madison Police Calls for Service",
+  "webService" : "https://data.cityofmadison.com/resource/4gss-84dk",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/4gss-84dk/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/4gss-84dk/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/4gss-84dk/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/4gss-84dk/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/4gss-84dk/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/4gss-84dk/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "madison police department calls for service" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/svr6-6gvb/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-12-12",
+  "description" : "Park name, address, acreage, type and the facilities available at each park.",
+  "feed" : "https://data.cityofmadison.com/api/views/svr6-6gvb/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "svr6-6gvb",
+  "keyword" : "",
+  "modified" : "2013-08-07",
+  "releaseDate" : "2012-12-12",
+  "title" : "Parks and Facilties",
+  "webService" : "https://data.cityofmadison.com/resource/svr6-6gvb",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/svr6-6gvb/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/svr6-6gvb/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/svr6-6gvb/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/svr6-6gvb/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/svr6-6gvb/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/svr6-6gvb/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/u7ns-6d4x/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-12-03",
+  "description" : "Parcels; Property Value; Property Information: Zoning; Property Class; Water Frontage; Assessment Area; TIF District; Frontage; Residential Building Information:  Home-Style; Stories; Year Built; Number of Garages; Driveway; Roof type and replacement; Interior Information: Number of bedrooms, Full Baths, Half Baths, Fireplaces; Living Areas: Floor and Size of rooms in square feet; Other Structures; Mechanicals.",
+  "feed" : "https://data.cityofmadison.com/api/views/u7ns-6d4x/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "u7ns-6d4x",
+  "keyword" : "residential and commercial  property information,commercial property information,parcels,property value,property information,zoning",
+  "modified" : "2013-08-27",
+  "releaseDate" : "2012-12-03",
+  "title" : "Assessor Property Information",
+  "webService" : "https://data.cityofmadison.com/resource/u7ns-6d4x",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/u7ns-6d4x/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/u7ns-6d4x/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/u7ns-6d4x/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/u7ns-6d4x/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/u7ns-6d4x/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/u7ns-6d4x/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "residential and commercial  property information", "commercial property information", "parcels", "property value", "property information", "zoning" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/kfv2-f9ss/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-12-05",
+  "description" : "Statistics on Report a Problem service requests.",
+  "feed" : "https://data.cityofmadison.com/api/views/kfv2-f9ss/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "kfv2-f9ss",
+  "keyword" : "statistics,service requests,report a problem",
+  "license" : "Public Domain\nCity of Madison(https://www.cityofmadison.com/reportaproblem/)",
+  "modified" : "2013-06-06",
+  "releaseDate" : "2012-12-05",
+  "title" : "2012 Report a Problem Stats",
+  "webService" : "https://data.cityofmadison.com/resource/kfv2-f9ss",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/kfv2-f9ss/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/kfv2-f9ss/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/kfv2-f9ss/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/kfv2-f9ss/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/kfv2-f9ss/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/kfv2-f9ss/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "statistics", "service requests", "report a problem" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/efhs-2ube/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-06-06",
+  "description" : "Statistics on Report a Problem service requests.",
+  "feed" : "https://data.cityofmadison.com/api/views/efhs-2ube/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "efhs-2ube",
+  "keyword" : "statistics,service requests,report a problem",
+  "license" : "Public Domain\nCity of Madison(https://www.cityofmadison.com/reportaproblem/)",
+  "modified" : "2013-06-06",
+  "releaseDate" : "2013-06-06",
+  "title" : "2011 Report a Problem Stats",
+  "webService" : "https://data.cityofmadison.com/resource/efhs-2ube",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/efhs-2ube/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/efhs-2ube/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/efhs-2ube/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/efhs-2ube/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/efhs-2ube/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/efhs-2ube/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "statistics", "service requests", "report a problem" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/7shu-mkhv/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-16",
+  "description" : "Voter turnout and absentee ballot statistics by election.",
+  "feed" : "https://data.cityofmadison.com/api/views/7shu-mkhv/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "7shu-mkhv",
+  "keyword" : "",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-08-16",
+  "title" : "Election Statistics",
+  "webService" : "https://data.cityofmadison.com/resource/7shu-mkhv",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/7shu-mkhv/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/7shu-mkhv/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/7shu-mkhv/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/7shu-mkhv/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/7shu-mkhv/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/7shu-mkhv/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/9wf4-wytn/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-16",
+  "feed" : "https://data.cityofmadison.com/api/views/9wf4-wytn/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "9wf4-wytn",
+  "keyword" : "",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-08-16",
+  "title" : "September 2010 Voter Turnout",
+  "webService" : "https://data.cityofmadison.com/resource/9wf4-wytn",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/9wf4-wytn/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/9wf4-wytn/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/9wf4-wytn/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/9wf4-wytn/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/9wf4-wytn/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/9wf4-wytn/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/qcfn-n3we/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-16",
+  "feed" : "https://data.cityofmadison.com/api/views/qcfn-n3we/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "qcfn-n3we",
+  "keyword" : "",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-08-16",
+  "title" : "November 2012 Voter Turnout",
+  "webService" : "https://data.cityofmadison.com/resource/qcfn-n3we",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/qcfn-n3we/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/qcfn-n3we/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/qcfn-n3we/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/qcfn-n3we/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/qcfn-n3we/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/qcfn-n3we/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/cq85-dipd/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-16",
+  "feed" : "https://data.cityofmadison.com/api/views/cq85-dipd/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "cq85-dipd",
+  "keyword" : "",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-08-16",
+  "title" : "September 2008 Voter Turnout",
+  "webService" : "https://data.cityofmadison.com/resource/cq85-dipd",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/cq85-dipd/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/cq85-dipd/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/cq85-dipd/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/cq85-dipd/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/cq85-dipd/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/cq85-dipd/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/j4t2-fn7a/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-16",
+  "feed" : "https://data.cityofmadison.com/api/views/j4t2-fn7a/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "j4t2-fn7a",
+  "keyword" : "",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-08-16",
+  "title" : "November 2010 Voter Turnout",
+  "webService" : "https://data.cityofmadison.com/resource/j4t2-fn7a",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/j4t2-fn7a/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/j4t2-fn7a/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/j4t2-fn7a/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/j4t2-fn7a/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/j4t2-fn7a/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/j4t2-fn7a/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/pveg-u4zq/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-16",
+  "feed" : "https://data.cityofmadison.com/api/views/pveg-u4zq/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "pveg-u4zq",
+  "keyword" : "",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-08-16",
+  "title" : "November 2008 Voter Turnout",
+  "webService" : "https://data.cityofmadison.com/resource/pveg-u4zq",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/pveg-u4zq/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/pveg-u4zq/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/pveg-u4zq/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/pveg-u4zq/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/pveg-u4zq/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/pveg-u4zq/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/ipd7-scz8/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-16",
+  "feed" : "https://data.cityofmadison.com/api/views/ipd7-scz8/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ipd7-scz8",
+  "keyword" : "",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-08-16",
+  "title" : "June 2012 Voter Turnout",
+  "webService" : "https://data.cityofmadison.com/resource/ipd7-scz8",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/ipd7-scz8/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/ipd7-scz8/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/ipd7-scz8/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/ipd7-scz8/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/ipd7-scz8/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/ipd7-scz8/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/38c6-a8m4/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-16",
+  "feed" : "https://data.cityofmadison.com/api/views/38c6-a8m4/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "38c6-a8m4",
+  "keyword" : "",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-08-16",
+  "title" : "July 2011 Voter Turnout",
+  "webService" : "https://data.cityofmadison.com/resource/38c6-a8m4",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/38c6-a8m4/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/38c6-a8m4/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/38c6-a8m4/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/38c6-a8m4/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/38c6-a8m4/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/38c6-a8m4/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/3a6w-jfnq/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-16",
+  "feed" : "https://data.cityofmadison.com/api/views/3a6w-jfnq/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "3a6w-jfnq",
+  "keyword" : "",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-08-16",
+  "title" : "February 2013 Voter Turnout",
+  "webService" : "https://data.cityofmadison.com/resource/3a6w-jfnq",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/3a6w-jfnq/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/3a6w-jfnq/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/3a6w-jfnq/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/3a6w-jfnq/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/3a6w-jfnq/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/3a6w-jfnq/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/kbjz-kaud/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-16",
+  "feed" : "https://data.cityofmadison.com/api/views/kbjz-kaud/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "kbjz-kaud",
+  "keyword" : "",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-08-16",
+  "title" : "February 2012 Voter Turnout",
+  "webService" : "https://data.cityofmadison.com/resource/kbjz-kaud",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/kbjz-kaud/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/kbjz-kaud/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/kbjz-kaud/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/kbjz-kaud/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/kbjz-kaud/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/kbjz-kaud/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/gqa8-dxgc/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-16",
+  "feed" : "https://data.cityofmadison.com/api/views/gqa8-dxgc/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "gqa8-dxgc",
+  "keyword" : "",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-08-16",
+  "title" : "February 2011 Voter Turnout",
+  "webService" : "https://data.cityofmadison.com/resource/gqa8-dxgc",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/gqa8-dxgc/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/gqa8-dxgc/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/gqa8-dxgc/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/gqa8-dxgc/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/gqa8-dxgc/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/gqa8-dxgc/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/hi83-zfb3/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-16",
+  "feed" : "https://data.cityofmadison.com/api/views/hi83-zfb3/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "hi83-zfb3",
+  "keyword" : "",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-08-16",
+  "title" : "February 2010 Voter Turnout",
+  "webService" : "https://data.cityofmadison.com/resource/hi83-zfb3",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/hi83-zfb3/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/hi83-zfb3/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/hi83-zfb3/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/hi83-zfb3/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/hi83-zfb3/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/hi83-zfb3/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/jvs7-37vw/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-16",
+  "feed" : "https://data.cityofmadison.com/api/views/jvs7-37vw/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "jvs7-37vw",
+  "keyword" : "",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-08-16",
+  "title" : "February 2009 Voter Turnout",
+  "webService" : "https://data.cityofmadison.com/resource/jvs7-37vw",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/jvs7-37vw/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/jvs7-37vw/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/jvs7-37vw/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/jvs7-37vw/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/jvs7-37vw/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/jvs7-37vw/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/r7yp-j3t7/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-16",
+  "feed" : "https://data.cityofmadison.com/api/views/r7yp-j3t7/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "r7yp-j3t7",
+  "keyword" : "",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-08-16",
+  "title" : "February 2008 Voter Turnout",
+  "webService" : "https://data.cityofmadison.com/resource/r7yp-j3t7",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/r7yp-j3t7/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/r7yp-j3t7/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/r7yp-j3t7/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/r7yp-j3t7/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/r7yp-j3t7/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/r7yp-j3t7/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/s9b5-pi49/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-16",
+  "feed" : "https://data.cityofmadison.com/api/views/s9b5-pi49/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "s9b5-pi49",
+  "keyword" : "",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-08-16",
+  "title" : "August 2012 Voter Turnout",
+  "webService" : "https://data.cityofmadison.com/resource/s9b5-pi49",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/s9b5-pi49/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/s9b5-pi49/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/s9b5-pi49/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/s9b5-pi49/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/s9b5-pi49/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/s9b5-pi49/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/wz7i-taa5/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-16",
+  "feed" : "https://data.cityofmadison.com/api/views/wz7i-taa5/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "wz7i-taa5",
+  "keyword" : "",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-08-16",
+  "title" : "August 2011 Voter Turnout",
+  "webService" : "https://data.cityofmadison.com/resource/wz7i-taa5",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/wz7i-taa5/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/wz7i-taa5/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/wz7i-taa5/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/wz7i-taa5/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/wz7i-taa5/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/wz7i-taa5/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/5eh3-n3ms/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-16",
+  "feed" : "https://data.cityofmadison.com/api/views/5eh3-n3ms/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "5eh3-n3ms",
+  "keyword" : "",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-08-16",
+  "title" : "April 2013 Voter Turnout",
+  "webService" : "https://data.cityofmadison.com/resource/5eh3-n3ms",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/5eh3-n3ms/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/5eh3-n3ms/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/5eh3-n3ms/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/5eh3-n3ms/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/5eh3-n3ms/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/5eh3-n3ms/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/r98k-9799/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-16",
+  "feed" : "https://data.cityofmadison.com/api/views/r98k-9799/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "r98k-9799",
+  "keyword" : "",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-08-16",
+  "title" : "April 2012 Voter Turnout",
+  "webService" : "https://data.cityofmadison.com/resource/r98k-9799",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/r98k-9799/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/r98k-9799/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/r98k-9799/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/r98k-9799/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/r98k-9799/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/r98k-9799/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/bgrv-wya2/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-16",
+  "feed" : "https://data.cityofmadison.com/api/views/bgrv-wya2/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "bgrv-wya2",
+  "keyword" : "",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-08-16",
+  "title" : "April 2011 Voter Turnout",
+  "webService" : "https://data.cityofmadison.com/resource/bgrv-wya2",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/bgrv-wya2/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/bgrv-wya2/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/bgrv-wya2/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/bgrv-wya2/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/bgrv-wya2/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/bgrv-wya2/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/4kgp-uj2z/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-16",
+  "feed" : "https://data.cityofmadison.com/api/views/4kgp-uj2z/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "4kgp-uj2z",
+  "keyword" : "",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-08-16",
+  "title" : "April 2010 Voter Turnout",
+  "webService" : "https://data.cityofmadison.com/resource/4kgp-uj2z",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/4kgp-uj2z/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/4kgp-uj2z/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/4kgp-uj2z/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/4kgp-uj2z/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/4kgp-uj2z/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/4kgp-uj2z/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/t6n5-id96/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-16",
+  "feed" : "https://data.cityofmadison.com/api/views/t6n5-id96/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "t6n5-id96",
+  "keyword" : "",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-08-16",
+  "title" : "April 2009 Voter Turnout",
+  "webService" : "https://data.cityofmadison.com/resource/t6n5-id96",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/t6n5-id96/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/t6n5-id96/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/t6n5-id96/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/t6n5-id96/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/t6n5-id96/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/t6n5-id96/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/mz4p-68jd/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-16",
+  "feed" : "https://data.cityofmadison.com/api/views/mz4p-68jd/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "mz4p-68jd",
+  "keyword" : "",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-08-16",
+  "title" : "April 2008 Voter Turnout",
+  "webService" : "https://data.cityofmadison.com/resource/mz4p-68jd",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/mz4p-68jd/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/mz4p-68jd/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/mz4p-68jd/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/mz4p-68jd/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/mz4p-68jd/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/mz4p-68jd/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/q5sg-7k3x/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-16",
+  "description" : "Table of City of Madison Wards by School District, Aldermanic District, County Supervisor District, Assembly District, and Senate District.",
+  "feed" : "https://data.cityofmadison.com/api/views/q5sg-7k3x/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "q5sg-7k3x",
+  "keyword" : "",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-08-16",
+  "title" : "Wards and Districts",
+  "webService" : "https://data.cityofmadison.com/resource/q5sg-7k3x",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/q5sg-7k3x/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/q5sg-7k3x/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/q5sg-7k3x/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/q5sg-7k3x/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/q5sg-7k3x/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/q5sg-7k3x/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/mser-b9tq/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-16",
+  "description" : "Statistics compiled only as time permits.",
+  "feed" : "https://data.cityofmadison.com/api/views/mser-b9tq/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "mser-b9tq",
+  "keyword" : "",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-08-16",
+  "title" : "Daily Clerk's Office Election Statistics",
+  "webService" : "https://data.cityofmadison.com/resource/mser-b9tq",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/mser-b9tq/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/mser-b9tq/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/mser-b9tq/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/mser-b9tq/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/mser-b9tq/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/mser-b9tq/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/3syz-mw6z/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-16",
+  "feed" : "https://data.cityofmadison.com/api/views/3syz-mw6z/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "3syz-mw6z",
+  "keyword" : "",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-08-16",
+  "title" : "Voter Turnout 2001-2009",
+  "webService" : "https://data.cityofmadison.com/resource/3syz-mw6z",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/3syz-mw6z/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/3syz-mw6z/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/3syz-mw6z/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/3syz-mw6z/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/3syz-mw6z/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/3syz-mw6z/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.cityofmadison.com/api/views/vb36-v77y/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-16",
+  "feed" : "https://data.cityofmadison.com/api/views/vb36-v77y/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "vb36-v77y",
+  "keyword" : "",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-08-16",
+  "title" : "In-Person Absentee Voting Statistics for November 2012",
+  "webService" : "https://data.cityofmadison.com/resource/vb36-v77y",
+  "distribution" : [ {
+    "accessURL" : "https://data.cityofmadison.com/api/views/vb36-v77y/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/vb36-v77y/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/vb36-v77y/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/vb36-v77y/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/vb36-v77y/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.cityofmadison.com/api/views/vb36-v77y/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+} ]

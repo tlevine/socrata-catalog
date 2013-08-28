@@ -2,7 +2,7 @@
 set -e
 
 dir=catalogs-$(date --rfc-3339 date)
-mkdir $dir
+mkdir -p $dir
 rm -f catalogs
 ln -s $dir catalogs
 

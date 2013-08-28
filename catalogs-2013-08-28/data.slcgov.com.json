@@ -1,0 +1,1145 @@
+[ {
+  "accessLevel" : "Public",
+  "description" : "Lists the datasets for this domain.  The format should correspond to the spec at http://project-open-data.github.io/schema/",
+  "format" : "application/json",
+  "frequency" : "hourly",
+  "identifier" : "https://data.slcgov.com/data.json",
+  "modified" : "2013-08-28",
+  "title" : "Project Open Data, /data.json file",
+  "webService" : "https://data.slcgov.com/data.json"
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.slcgov.com/api/file_data/_Ws-B8iq95eGjcxqBeB78U8vfHoim9dPAKKOVMqh6W8?filename=SLC_Bike_Routes.kmz",
+  "created" : "2012-06-27",
+  "format" : "application/xml; charset=us-ascii",
+  "identifier" : "s6zn-ha6i",
+  "keyword" : "bike,transportation,gis",
+  "modified" : "2012-06-27",
+  "releaseDate" : "2012-06-27",
+  "title" : "SLC Bike Routes",
+  "distribution" : [ {
+    "accessURL" : "https://data.slcgov.com/api/file_data/_Ws-B8iq95eGjcxqBeB78U8vfHoim9dPAKKOVMqh6W8?filename=SLC_Bike_Routes.kmz",
+    "formats" : [ {
+      "label" : "application/xml; charset=us-ascii",
+      "value" : "application/xml; charset=us-ascii"
+    } ]
+  } ],
+  "keywords" : [ "bike", "transportation", "gis" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.slcgov.com/api/file_data/A0lZZl8Rw1QTfp5I5KnGBdPlobGp2co6g7l9R22EOPo?filename=SmartMeters.kmz",
+  "created" : "2012-06-27",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "g3x5-95h3",
+  "keyword" : "utilities,gis",
+  "modified" : "2012-06-27",
+  "releaseDate" : "2012-06-27",
+  "title" : "Smart Meters",
+  "distribution" : [ {
+    "accessURL" : "https://data.slcgov.com/api/file_data/A0lZZl8Rw1QTfp5I5KnGBdPlobGp2co6g7l9R22EOPo?filename=SmartMeters.kmz",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "utilities", "gis" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.slcgov.com/api/views/9b2y-pidk/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-16",
+  "description" : "Salt Lake City Revenue 2013 1st quarter",
+  "feed" : "https://data.slcgov.com/api/views/9b2y-pidk/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "9b2y-pidk",
+  "keyword" : "revenue",
+  "modified" : "2012-11-20",
+  "releaseDate" : "2012-11-16",
+  "title" : "Revenue 2013 Qtr 1",
+  "webService" : "https://data.slcgov.com/resource/9b2y-pidk",
+  "distribution" : [ {
+    "accessURL" : "https://data.slcgov.com/api/views/9b2y-pidk/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/9b2y-pidk/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/9b2y-pidk/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/9b2y-pidk/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/9b2y-pidk/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/9b2y-pidk/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "revenue" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.slcgov.com/api/views/usi3-xfks/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-16",
+  "description" : "Salt Lake City Expenditure 2013 1st Quarter",
+  "feed" : "https://data.slcgov.com/api/views/usi3-xfks/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "usi3-xfks",
+  "keyword" : "expenditure",
+  "modified" : "2012-11-20",
+  "releaseDate" : "2012-11-16",
+  "title" : "Expenditure 2013 Qtr 1",
+  "webService" : "https://data.slcgov.com/resource/usi3-xfks",
+  "distribution" : [ {
+    "accessURL" : "https://data.slcgov.com/api/views/usi3-xfks/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/usi3-xfks/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/usi3-xfks/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/usi3-xfks/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/usi3-xfks/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/usi3-xfks/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "expenditure" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.slcgov.com/api/views/3kgt-vcwy/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-19",
+  "feed" : "https://data.slcgov.com/api/views/3kgt-vcwy/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "3kgt-vcwy",
+  "keyword" : "payroll,reimbursements",
+  "modified" : "2012-11-20",
+  "releaseDate" : "2012-11-19",
+  "title" : "Payroll Reimbursements 2012 Qtr2",
+  "webService" : "https://data.slcgov.com/resource/3kgt-vcwy",
+  "distribution" : [ {
+    "accessURL" : "https://data.slcgov.com/api/views/3kgt-vcwy/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/3kgt-vcwy/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/3kgt-vcwy/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/3kgt-vcwy/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/3kgt-vcwy/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/3kgt-vcwy/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "payroll", "reimbursements" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.slcgov.com/api/views/tn2w-p83j/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-19",
+  "feed" : "https://data.slcgov.com/api/views/tn2w-p83j/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "tn2w-p83j",
+  "keyword" : "payroll",
+  "modified" : "2012-11-20",
+  "releaseDate" : "2012-11-19",
+  "title" : "Payroll 2012 Qtr3",
+  "webService" : "https://data.slcgov.com/resource/tn2w-p83j",
+  "distribution" : [ {
+    "accessURL" : "https://data.slcgov.com/api/views/tn2w-p83j/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/tn2w-p83j/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/tn2w-p83j/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/tn2w-p83j/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/tn2w-p83j/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/tn2w-p83j/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "payroll" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.slcgov.com/api/views/qcea-2qur/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-19",
+  "feed" : "https://data.slcgov.com/api/views/qcea-2qur/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "qcea-2qur",
+  "keyword" : "payroll",
+  "modified" : "2012-11-20",
+  "releaseDate" : "2012-11-19",
+  "title" : "Payroll Benefits 2012 Qtr4",
+  "webService" : "https://data.slcgov.com/resource/qcea-2qur",
+  "distribution" : [ {
+    "accessURL" : "https://data.slcgov.com/api/views/qcea-2qur/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/qcea-2qur/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/qcea-2qur/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/qcea-2qur/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/qcea-2qur/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/qcea-2qur/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "payroll" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.slcgov.com/api/views/vhm2-rnvr/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-19",
+  "feed" : "https://data.slcgov.com/api/views/vhm2-rnvr/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "vhm2-rnvr",
+  "keyword" : "payroll",
+  "modified" : "2012-11-20",
+  "releaseDate" : "2012-11-19",
+  "title" : "Payroll Benefits 2012 Qtr1",
+  "webService" : "https://data.slcgov.com/resource/vhm2-rnvr",
+  "distribution" : [ {
+    "accessURL" : "https://data.slcgov.com/api/views/vhm2-rnvr/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/vhm2-rnvr/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/vhm2-rnvr/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/vhm2-rnvr/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/vhm2-rnvr/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/vhm2-rnvr/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "payroll" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.slcgov.com/api/views/wng6-vv2r/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-19",
+  "feed" : "https://data.slcgov.com/api/views/wng6-vv2r/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "wng6-vv2r",
+  "keyword" : "payroll,reimbursements",
+  "modified" : "2012-11-20",
+  "releaseDate" : "2012-11-19",
+  "title" : "Payroll Reimbursements 2012 Qtr4",
+  "webService" : "https://data.slcgov.com/resource/wng6-vv2r",
+  "distribution" : [ {
+    "accessURL" : "https://data.slcgov.com/api/views/wng6-vv2r/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/wng6-vv2r/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/wng6-vv2r/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/wng6-vv2r/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/wng6-vv2r/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/wng6-vv2r/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "payroll", "reimbursements" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.slcgov.com/api/views/fthp-f7h3/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-19",
+  "feed" : "https://data.slcgov.com/api/views/fthp-f7h3/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "fthp-f7h3",
+  "keyword" : "payroll,reimbursements",
+  "modified" : "2012-11-20",
+  "releaseDate" : "2012-11-19",
+  "title" : "Payroll Reimbursements 2012 Qtr1",
+  "webService" : "https://data.slcgov.com/resource/fthp-f7h3",
+  "distribution" : [ {
+    "accessURL" : "https://data.slcgov.com/api/views/fthp-f7h3/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/fthp-f7h3/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/fthp-f7h3/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/fthp-f7h3/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/fthp-f7h3/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/fthp-f7h3/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "payroll", "reimbursements" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.slcgov.com/api/views/kz9n-dpay/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-19",
+  "feed" : "https://data.slcgov.com/api/views/kz9n-dpay/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "kz9n-dpay",
+  "keyword" : "payroll",
+  "modified" : "2012-11-20",
+  "releaseDate" : "2012-11-19",
+  "title" : "Payroll 2012 Qtr2",
+  "webService" : "https://data.slcgov.com/resource/kz9n-dpay",
+  "distribution" : [ {
+    "accessURL" : "https://data.slcgov.com/api/views/kz9n-dpay/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/kz9n-dpay/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/kz9n-dpay/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/kz9n-dpay/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/kz9n-dpay/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/kz9n-dpay/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "payroll" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.slcgov.com/api/views/5h33-khmk/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-19",
+  "feed" : "https://data.slcgov.com/api/views/5h33-khmk/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "5h33-khmk",
+  "keyword" : "payroll",
+  "modified" : "2012-11-20",
+  "releaseDate" : "2012-11-19",
+  "title" : "Payroll Benefits 2012 Qtr3",
+  "webService" : "https://data.slcgov.com/resource/5h33-khmk",
+  "distribution" : [ {
+    "accessURL" : "https://data.slcgov.com/api/views/5h33-khmk/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/5h33-khmk/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/5h33-khmk/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/5h33-khmk/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/5h33-khmk/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/5h33-khmk/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "payroll" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.slcgov.com/api/views/uh9c-a9zt/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-19",
+  "feed" : "https://data.slcgov.com/api/views/uh9c-a9zt/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "uh9c-a9zt",
+  "keyword" : "payroll,reimbursements",
+  "modified" : "2012-11-20",
+  "releaseDate" : "2012-11-19",
+  "title" : "Payroll Reimbursements 2012 Qtr3",
+  "webService" : "https://data.slcgov.com/resource/uh9c-a9zt",
+  "distribution" : [ {
+    "accessURL" : "https://data.slcgov.com/api/views/uh9c-a9zt/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/uh9c-a9zt/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/uh9c-a9zt/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/uh9c-a9zt/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/uh9c-a9zt/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/uh9c-a9zt/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "payroll", "reimbursements" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.slcgov.com/api/views/s62m-p2ci/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-19",
+  "feed" : "https://data.slcgov.com/api/views/s62m-p2ci/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "s62m-p2ci",
+  "keyword" : "payroll",
+  "modified" : "2012-12-05",
+  "releaseDate" : "2012-11-19",
+  "title" : "Payroll 2012 Qtr4",
+  "webService" : "https://data.slcgov.com/resource/s62m-p2ci",
+  "distribution" : [ {
+    "accessURL" : "https://data.slcgov.com/api/views/s62m-p2ci/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/s62m-p2ci/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/s62m-p2ci/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/s62m-p2ci/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/s62m-p2ci/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/s62m-p2ci/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "payroll" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.slcgov.com/api/views/7faz-pyum/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-19",
+  "feed" : "https://data.slcgov.com/api/views/7faz-pyum/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "7faz-pyum",
+  "keyword" : "payroll",
+  "modified" : "2012-11-20",
+  "releaseDate" : "2012-11-19",
+  "title" : "Payroll 2012 Qtr1",
+  "webService" : "https://data.slcgov.com/resource/7faz-pyum",
+  "distribution" : [ {
+    "accessURL" : "https://data.slcgov.com/api/views/7faz-pyum/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/7faz-pyum/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/7faz-pyum/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/7faz-pyum/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/7faz-pyum/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/7faz-pyum/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "payroll" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.slcgov.com/api/views/dait-ivxs/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-12-04",
+  "feed" : "https://data.slcgov.com/api/views/dait-ivxs/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "dait-ivxs",
+  "keyword" : "payroll,benefits",
+  "modified" : "2012-12-04",
+  "releaseDate" : "2012-12-04",
+  "title" : "Payroll Benefits 2012 Qtr2",
+  "webService" : "https://data.slcgov.com/resource/dait-ivxs",
+  "distribution" : [ {
+    "accessURL" : "https://data.slcgov.com/api/views/dait-ivxs/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/dait-ivxs/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/dait-ivxs/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/dait-ivxs/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/dait-ivxs/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/dait-ivxs/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "payroll", "benefits" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.slcgov.com/api/file_data/1-stB7Z2NFmNXK5bEJm5X6may1Zr-zzCYfMYuojD0bs?filename=sidewalks.zip",
+  "created" : "2013-03-04",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "xeug-iy5n",
+  "keyword" : "sidewalks",
+  "modified" : "2013-03-17",
+  "releaseDate" : "2013-03-04",
+  "title" : "Sidewalks",
+  "distribution" : [ {
+    "accessURL" : "https://data.slcgov.com/api/file_data/1-stB7Z2NFmNXK5bEJm5X6may1Zr-zzCYfMYuojD0bs?filename=sidewalks.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "sidewalks" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.slcgov.com/api/file_data/L8pyi4lFlNWDOT2tYptCrbrXVMo-iZh_eDMgdHCT1TQ?filename=SLC_xwalks2013.zip",
+  "created" : "2013-03-05",
+  "description" : "Salt Lake City Crosswalks",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "5sre-9a84",
+  "keyword" : "crosswalk",
+  "modified" : "2013-03-05",
+  "releaseDate" : "2013-03-05",
+  "title" : "SLC Xwalks2013",
+  "distribution" : [ {
+    "accessURL" : "https://data.slcgov.com/api/file_data/L8pyi4lFlNWDOT2tYptCrbrXVMo-iZh_eDMgdHCT1TQ?filename=SLC_xwalks2013.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "crosswalk" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.slcgov.com/api/views/myq9-p4zu/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-07",
+  "description" : "Salt Lake City Planning Permits",
+  "feed" : "https://data.slcgov.com/api/views/myq9-p4zu/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "myq9-p4zu",
+  "keyword" : "salt lake city planning permits",
+  "license" : "Public Domain\nSalt Lake City Corp",
+  "modified" : "2013-07-15",
+  "releaseDate" : "2013-04-07",
+  "title" : "Planning Permits",
+  "webService" : "https://data.slcgov.com/resource/myq9-p4zu",
+  "distribution" : [ {
+    "accessURL" : "https://data.slcgov.com/api/views/myq9-p4zu/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/myq9-p4zu/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/myq9-p4zu/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/myq9-p4zu/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/myq9-p4zu/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/myq9-p4zu/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "salt lake city planning permits" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.slcgov.com/api/views/5gsj-w587/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-07",
+  "description" : "Salt Lake City Building Permits",
+  "feed" : "https://data.slcgov.com/api/views/5gsj-w587/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "5gsj-w587",
+  "keyword" : "salt lake city building permits",
+  "license" : "Public Domain\nSalt Lake City Corp",
+  "modified" : "2013-07-15",
+  "releaseDate" : "2013-04-07",
+  "title" : "Building Permits",
+  "webService" : "https://data.slcgov.com/resource/5gsj-w587",
+  "distribution" : [ {
+    "accessURL" : "https://data.slcgov.com/api/views/5gsj-w587/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/5gsj-w587/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/5gsj-w587/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/5gsj-w587/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/5gsj-w587/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/5gsj-w587/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "salt lake city building permits" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.slcgov.com/api/views/wrtx-pisx/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-06",
+  "description" : "Salt Lake City Current Business Liceses",
+  "feed" : "https://data.slcgov.com/api/views/wrtx-pisx/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "wrtx-pisx",
+  "keyword" : "salt lake city current business licenses",
+  "license" : "Public Domain\nSalt Lake City Corp",
+  "modified" : "2013-07-15",
+  "releaseDate" : "2013-04-06",
+  "title" : "Current Business Licenses",
+  "webService" : "https://data.slcgov.com/resource/wrtx-pisx",
+  "distribution" : [ {
+    "accessURL" : "https://data.slcgov.com/api/views/wrtx-pisx/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/wrtx-pisx/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/wrtx-pisx/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/wrtx-pisx/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/wrtx-pisx/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/wrtx-pisx/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "salt lake city current business licenses" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.slcgov.com/api/views/q9gq-vb9z/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-06-05",
+  "description" : "Water consumption by census tract and service type and month",
+  "feed" : "https://data.slcgov.com/api/views/q9gq-vb9z/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "q9gq-vb9z",
+  "keyword" : "water,consumption",
+  "modified" : "2013-08-09",
+  "releaseDate" : "2013-06-05",
+  "title" : "Water Consumption  (based on meter read date)",
+  "webService" : "https://data.slcgov.com/resource/q9gq-vb9z",
+  "distribution" : [ {
+    "accessURL" : "https://data.slcgov.com/api/views/q9gq-vb9z/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/q9gq-vb9z/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/q9gq-vb9z/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/q9gq-vb9z/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/q9gq-vb9z/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/q9gq-vb9z/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "water", "consumption" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.slcgov.com/api/views/syic-a6rq/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-02",
+  "description" : "LISTING OF POLICE CASES FOR 2012",
+  "feed" : "https://data.slcgov.com/api/views/syic-a6rq/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "syic-a6rq",
+  "keyword" : "cases,police,incidents",
+  "modified" : "2013-08-09",
+  "releaseDate" : "2013-01-02",
+  "title" : "POLICE CASES 2012",
+  "webService" : "https://data.slcgov.com/resource/syic-a6rq",
+  "distribution" : [ {
+    "accessURL" : "https://data.slcgov.com/api/views/syic-a6rq/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/syic-a6rq/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/syic-a6rq/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/syic-a6rq/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/syic-a6rq/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/syic-a6rq/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "cases", "police", "incidents" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.slcgov.com/api/views/rtcx-we7f/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-08",
+  "description" : "Police cases 2013   year to date",
+  "feed" : "https://data.slcgov.com/api/views/rtcx-we7f/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "rtcx-we7f",
+  "keyword" : "police,cases",
+  "modified" : "2013-08-09",
+  "releaseDate" : "2013-04-08",
+  "title" : "POLICE CASES 2013 -YTD",
+  "webService" : "https://data.slcgov.com/resource/rtcx-we7f",
+  "distribution" : [ {
+    "accessURL" : "https://data.slcgov.com/api/views/rtcx-we7f/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/rtcx-we7f/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/rtcx-we7f/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/rtcx-we7f/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/rtcx-we7f/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/rtcx-we7f/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "police", "cases" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.slcgov.com/api/views/duwd-wq3e/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-08",
+  "description" : "Police call for service 2013 (ytd)",
+  "feed" : "https://data.slcgov.com/api/views/duwd-wq3e/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "duwd-wq3e",
+  "keyword" : "police,calls",
+  "modified" : "2013-08-09",
+  "releaseDate" : "2013-04-08",
+  "title" : "POLICE CALLS FOR SERVICE 2013 YTD",
+  "webService" : "https://data.slcgov.com/resource/duwd-wq3e",
+  "distribution" : [ {
+    "accessURL" : "https://data.slcgov.com/api/views/duwd-wq3e/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/duwd-wq3e/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/duwd-wq3e/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/duwd-wq3e/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/duwd-wq3e/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.slcgov.com/api/views/duwd-wq3e/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "police", "calls" ]
+} ]

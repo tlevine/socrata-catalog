@@ -1,0 +1,2206 @@
+[ {
+  "accessLevel" : "Public",
+  "description" : "Lists the datasets for this domain.  The format should correspond to the spec at http://project-open-data.github.io/schema/",
+  "format" : "application/json",
+  "frequency" : "hourly",
+  "identifier" : "https://health.data.ny.gov/data.json",
+  "modified" : "2013-08-28",
+  "title" : "Project Open Data, /data.json file",
+  "webService" : "https://health.data.ny.gov/data.json"
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/ivw2-k53g/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-29",
+  "description" : "The Statewide Planning and Research Cooperative System (SPARCS) is a comprehensive data reporting system which collects patient level detail on patient characteristics, diagnoses, treatments, services, and charges for every hospital discharge from an Article 28 facility; ambulatory surgery discharges from hospital-based ambulatory surgery centers and all other facilities providing ambulatory surgery services; and emergency department visits in New York State.  This dataset is a summary of the SPARCS discharge data.\r\n\r\nThe SPARCS data has been divided into two distinct datasets, Hospital Discharges by Patient County of Residence and Hospital Discharges by Facility to preserve the confidentiality of identifiable individual information. \r\n\r\nFor more information check out http://www.health.ny.gov/statistics/sparcs/, or go to the \"About\" tab.",
+  "feed" : "https://health.data.ny.gov/api/views/ivw2-k53g/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ivw2-k53g",
+  "keyword" : "sparcs,hospital",
+  "modified" : "2013-08-14",
+  "releaseDate" : "2013-01-29",
+  "title" : "Hospital Discharges by Facility (SPARCS): Beginning 2010",
+  "webService" : "https://health.data.ny.gov/resource/ivw2-k53g",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/ivw2-k53g/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/ivw2-k53g/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/ivw2-k53g/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/ivw2-k53g/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/ivw2-k53g/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/ivw2-k53g/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "sparcs", "hospital" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/file_data/PU2z4nn0QqXtGVnAiV3F__0IckD2227H5kqRU_mGSps?filename=NYSDOH_BRFSS_Survey_2011.zip",
+  "created" : "2013-01-30",
+  "description" : "The Behavioral Risk Factor Surveillance System (BRFSS) is an annual statewide telephone surveillance system designed by the Centers for Disease Control and Prevention (CDC). BRFSS monitors modifiable risk behaviors and other factors contributing to the leading causes of morbidity and mortality in the population. New York State's BRFSS sample represents the non-institutionalized adult household population, aged 18 years and older.\r\n\r\nAlthough the overall number of respondents in the BRFSS is more than sufficiently large for statistical inference purposes, subgroup analyses can lead to estimates that are unreliable. Interpreting and reporting weighted numbers that are based on a small, unweighted number of respondents can mislead the reader into believing that a given finding is much more precise than it actually is. The BRFSS follows a rule of not reporting or interpreting percentages based upon a denominator of fewer than 50 respondents (unweighted sample). Both a csv and sas data files are available.\r\n\r\nFor more information, check out http://www.health.ny.gov/statistics/brfss/.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "wg5m-7zi8",
+  "keyword" : "2011,brfss,behavior,cdc,chronic disease,risk factor,survey,oph,public health",
+  "modified" : "2013-04-18",
+  "releaseDate" : "2013-01-30",
+  "title" : "Behavioral Risk Factor Surveillance Survey: 2011",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/file_data/PU2z4nn0QqXtGVnAiV3F__0IckD2227H5kqRU_mGSps?filename=NYSDOH_BRFSS_Survey_2011.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "2011", "brfss", "behavior", "cdc", "chronic disease", "risk factor", "survey", "oph", "public health" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/file_data/9jbgTJ69mke4eXzRnBJqttMcuL2aqHVseeW5kFzaY3w?filename=NYSDOH_BRFSS_Survey_2010.zip",
+  "created" : "2013-01-30",
+  "description" : "The Behavioral Risk Factor Surveillance System (BRFSS) is an annual statewide telephone surveillance system designed by the Centers for Disease Control and Prevention (CDC). BRFSS monitors modifiable risk behaviors and other factors contributing to the leading causes of morbidity and mortality in the population. New York State's BRFSS sample represents the non-institutionalized adult household population, aged 18 years and older. \r\n\r\nAlthough the overall number of respondents in the BRFSS is more than sufficiently large for statistical inference purposes, subgroup analyses can lead to estimates that are unreliable. Interpreting and reporting weighted numbers that are based on a small, unweighted number of respondents can mislead the reader into believing that a given finding is much more precise than it actually is. The BRFSS follows a rule of not reporting or interpreting percentages based upon a denominator of fewer than 50 respondents (unweighted sample). Both a csv and sas data files are available.\r\n\r\nFor more information, check out http://www.health.ny.gov/statistics/brfss/.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "hb5k-887e",
+  "keyword" : "2010,brfss,behavior,cdc,chronic disease,risk factor,survey,oph,public health",
+  "modified" : "2013-04-18",
+  "releaseDate" : "2013-01-30",
+  "title" : "Behavioral Risk Factor Surveillance Survey: 2010",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/file_data/9jbgTJ69mke4eXzRnBJqttMcuL2aqHVseeW5kFzaY3w?filename=NYSDOH_BRFSS_Survey_2010.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "2010", "brfss", "behavior", "cdc", "chronic disease", "risk factor", "survey", "oph", "public health" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/hbu9-xsrx/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-31",
+  "description" : "The DOH Radon Program contracts with a radon testing laboratory to provide short-term charcoal radon test kits, radon test kit analysis and results to residents.   The contract laboratory provides the radon test results to the individual home owner and the DOH Radon Program. All testing data is entered into our database. From this database, we are able to create radon prevalence maps, design special outreach activities and campaigns, and track the location in the home where the detector was placed.  \r\n\r\nThe radon test results obtained from this database may not be reflective of all radon tests completed in New York State. There are approximately 30,000-40,000 radon tests completed each year in New York State that are not purchased through the NYSDOH Radon Program. These tests are completed by resident home owners, inspectors, schools, etc. across the state.  A map by town is currently not available, but users can view a map by county.  The county map is Radon Test Results By County: Beginning 1987 and can be accessed from the main catalog.\r\n\r\nFor more information, check out http://www.health.ny.gov/environmental/radiological/radon/radon.htm or go to the \"About\" tab.",
+  "feed" : "https://health.data.ny.gov/api/views/hbu9-xsrx/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "hbu9-xsrx",
+  "keyword" : "test kit,town,oph,public health",
+  "modified" : "2013-04-18",
+  "releaseDate" : "2013-01-31",
+  "title" : "Radon Test Results By Town: Beginning 1987",
+  "webService" : "https://health.data.ny.gov/resource/hbu9-xsrx",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/hbu9-xsrx/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/hbu9-xsrx/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/hbu9-xsrx/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/hbu9-xsrx/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/hbu9-xsrx/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/hbu9-xsrx/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "test kit", "town", "oph", "public health" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/file_data/f76X_5j55Lcy29epo9DSLDGENINXRcmqmp4wTJY2Pu4?filename=NYSDOH_BRFSS_Survey_2009.zip",
+  "created" : "2013-02-04",
+  "description" : "The Behavioral Risk Factor Surveillance System (BRFSS) is an annual statewide telephone surveillance system designed by the Centers for Disease Control and Prevention (CDC). BRFSS monitors modifiable risk behaviors and other factors contributing to the leading causes of morbidity and mortality in the population. New York State's BRFSS sample represents the non-institutionalized adult household population, aged 18 years and older.\r\n\r\nAlthough the overall number of respondents in the BRFSS is more than sufficiently large for statistical inference purposes, subgroup analyses can lead to estimates that are unreliable. Interpreting and reporting weighted numbers that are based on a small, unweighted number of respondents can mislead the reader into believing that a given finding is much more precise than it actually is. The BRFSS follows a rule of not reporting or interpreting percentages based upon a denominator of fewer than 50 respondents (unweighted sample). Both a csv and sas data files are available.\r\n\r\nFor more information, check out http://www.health.ny.gov/statistics/brfss/.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "rivb-kr3f",
+  "keyword" : "2009,brfss,behavior,cdc,chronic disease,risk factor,survey,oph,public health",
+  "modified" : "2013-04-18",
+  "releaseDate" : "2013-02-04",
+  "title" : "Behavioral Risk Factor Surveillance Survey: 2009",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/file_data/f76X_5j55Lcy29epo9DSLDGENINXRcmqmp4wTJY2Pu4?filename=NYSDOH_BRFSS_Survey_2009.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "2009", "brfss", "behavior", "cdc", "chronic disease", "risk factor", "survey", "oph", "public health" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/file_data/ZXp9g_wGie4UTkP6D4IQqWX1ceUBnBSI6FpZkefgYv0?filename=NYSDOH_ICR_Data_2010_Edited.zip",
+  "created" : "2013-02-07",
+  "description" : "The Institutional Cost Report (ICR) is a uniform report completed by New York hospitals to report income, expenses, assets, liabilities, and statistics to the Department of Health (DOH). Under DOH regulations, (Part 86-1.2), Article 28 hospitals are required to file financial and statistical data with DOH annually. The data filed is part of the ICR and is received electronically through a secured network. This data is used to develop Medicaid rates, assist in the formulation of reimbursement methodologies, and analyze trends. The ICR is a comprehensive compilation of exhibits that have been modified over time that users should consider when using the ICR dataset. It is possible that data is updated subsequent to posting on this website; therefore the data could become obsolete. To get the details related to the exhibits and data elements, please refer to the blank ICR form, the ICR Table of Contents, the ICR Instructions and the Glossary of Terms, Acronyms, and Abbreviations which are in the Supporting Information section of this site. The data posted as edited contains desk edit adjustments by DOH personnel. In 2009, this information was not audited; however effective with the 2010 ICR, all ICRs will be audited by a Certified Public Accounting Firm annually.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "fjur-9b7f",
+  "keyword" : "cost reports,financial,hospital,reimbursement,statistical data",
+  "modified" : "2013-03-11",
+  "releaseDate" : "2013-02-07",
+  "title" : "Hospital Cost Report Edited Data: 2010",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/file_data/ZXp9g_wGie4UTkP6D4IQqWX1ceUBnBSI6FpZkefgYv0?filename=NYSDOH_ICR_Data_2010_Edited.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "cost reports", "financial", "hospital", "reimbursement", "statistical data" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/file_data/HMzdJv2yhthKWznnuUiNtmeWDbneUFWUy2Zdpk_peaM?filename=NYSDOH_ICR_Data_2009_Edited.zip",
+  "created" : "2013-02-07",
+  "description" : "The Institutional Cost Report (ICR) is a uniform report completed by New York hospitals to report income, expenses, assets, liabilities, and statistics to the Department of Health (DOH). Under DOH regulations, (Part 86-1.2), Article 28 hospitals are required to file financial and statistical data with DOH annually. The data filed is part of the ICR and is received electronically through a secured network. This data is used to develop Medicaid rates, assist in the formulation of reimbursement methodologies, and analyze trends. The ICR is a comprehensive compilation of exhibits that have been modified over time that users should consider when using the ICR dataset. It is possible that data is updated subsequent to posting on this website; therefore the data could become obsolete. To get the details related to the exhibits and data elements, please refer to the blank ICR form, the ICR Table of Contents, the ICR Instructions and the Glossary of Terms, Acronyms, and Abbreviations which are in the Supporting Information section of this site. The data posted as edited contains desk edit adjustments by DOH personnel. In 2009, this information was not audited; however effective with the 2010 ICR, all ICRs will be audited by a Certified Public Accounting Firm annually.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "7gdc-3e6q",
+  "keyword" : "cost reports,financial,hospital,reimbursement,statistical data",
+  "modified" : "2013-03-11",
+  "releaseDate" : "2013-02-07",
+  "title" : "Hospital Cost Report Edited Data: 2009",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/file_data/HMzdJv2yhthKWznnuUiNtmeWDbneUFWUy2Zdpk_peaM?filename=NYSDOH_ICR_Data_2009_Edited.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "cost reports", "financial", "hospital", "reimbursement", "statistical data" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/8e6u-9695/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-05",
+  "description" : "The DOH Radon Program contracts with a radon testing laboratory to provide short-term charcoal radon test kits, radon test kit analysis and results to residents.   The contract laboratory provides the radon test results to the individual home owner and the DOH Radon Program. All testing data is entered into our database. From this database, we are able to create radon prevalence maps, design special outreach activities and campaigns, and track the location in the home where the detector was placed.  \r\n\r\nThe radon test results obtained from this database may not be reflective of all radon tests completed in New York State. There are approximately 30,000-40,000 radon tests completed each year in New York State that are not purchased through the NYSDOH Radon Program. These tests are completed by resident home owners, inspectors, schools, etc. across the state.\r\n\r\nFor more information check out, http://www.health.ny.gov/environmental/radiological/radon/radon.htm ,or go to the \"About\" tab.",
+  "feed" : "https://health.data.ny.gov/api/views/8e6u-9695/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "8e6u-9695",
+  "keyword" : "county,test kit,town,radon,oph,public health",
+  "modified" : "2013-06-03",
+  "releaseDate" : "2013-02-05",
+  "title" : "Radon Test Results By County: Beginning 1987",
+  "webService" : "https://health.data.ny.gov/resource/8e6u-9695",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/8e6u-9695/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/8e6u-9695/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/8e6u-9695/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/8e6u-9695/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/8e6u-9695/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/8e6u-9695/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "county", "test kit", "town", "radon", "oph", "public health" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/file_data/EIvOf61obd8z6irwRN4q9O3Tx5bY0H_2tejplTy2jEE?filename=NYSDOH_NHProfile_Data.mdb",
+  "created" : "2013-02-20",
+  "description" : "The Nursing Home Profile dataset supports the New York State Department of Health Nursing Home Profile public website. The dataset includes facility demographic information, inspection results, and complaint summary and state enforcement fine data.\r\n\r\nInformation is self-reported, and is not audited by the NYSDOH. This data does not reflect the quality of services provided by any specific provider.  To get more specific information about the quality of service delivery for a specific provider, please contact the provider and ask about its performance on quality indicators and on surveys conducted by the Department of Health.  Please also ask the provider the five questions provided in  http://www.health.ny.gov/facilities/nursing/select_nh/docs/select_nh.pdf\r\n\r\nFor more information, check out http://nursinghomes.nyhealth.gov/.",
+  "format" : "application/x-msaccess; charset=binary",
+  "identifier" : "dypu-nabu",
+  "keyword" : "complaint,enforcement,inspection,nursing homes",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-02-20",
+  "title" : "Nursing Home Profile",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/file_data/EIvOf61obd8z6irwRN4q9O3Tx5bY0H_2tejplTy2jEE?filename=NYSDOH_NHProfile_Data.mdb",
+    "formats" : [ {
+      "label" : "application/x-msaccess; charset=binary",
+      "value" : "application/x-msaccess; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "complaint", "enforcement", "inspection", "nursing homes" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/file_data/cFlEpJCltwweMAvhcdu_hVoaR2zwsW-fqCT_lb_FHSI?filename=NYSDOH_CancerMapping_Data_2005_2009.csv",
+  "created" : "2013-02-20",
+  "description" : "The Cancer Mapping data consists of counts of newly diagnosed cancer among New York State residents and is in response to legislation regarding \"Cancer incidence and environmental facility maps\" signed into law in 2010 (Public Health Law §2401-B). The law specifies the publication of maps showing cancer counts for small geographic areas along with certain facilities regulated by the State Department of Environmental Conservation. The official web site is called Environmental Facilities and Cancer Mapping.\r\n\r\nThe dataset is ONLY for the cancer-related data fields on the Environmental Facilities and Cancer Mapping web site.  This dataset includes observed counts for 23 separate anatomical sites at the level of census block group. Block groups are small geographic areas typically averaging 1,000 to 1,500 people. To protect confidentiality, each area contains a minimum of 6 total cancers among males and 6 total cancers among females.\r\n\r\nFor more information, check out http://www.health.ny.gov/statistics/cancer/registry/about.htm.",
+  "format" : "text/plain; charset=us-ascii",
+  "identifier" : "cw3n-fkji",
+  "keyword" : "tumor,cancer,map,oph,public health",
+  "modified" : "2013-04-18",
+  "releaseDate" : "2013-02-20",
+  "title" : "Cancer Mapping Data: 2005-2009",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/file_data/cFlEpJCltwweMAvhcdu_hVoaR2zwsW-fqCT_lb_FHSI?filename=NYSDOH_CancerMapping_Data_2005_2009.csv",
+    "formats" : [ {
+      "label" : "text/plain; charset=us-ascii",
+      "value" : "text/plain; charset=us-ascii"
+    } ]
+  } ],
+  "keywords" : [ "tumor", "cancer", "map", "oph", "public health" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/file_data/VAKtwsXfLIU3JLkCFqwj2Ao3Ro9Ew57FKPQntpST-MI?filename=NYSDOH_HNP_All_dwellings_Initial_visit_data.xls",
+  "created" : "2013-02-21",
+  "description" : "The New York State Healthy Neighborhoods Program (NYS HNP) is a healthy homes program that seeks to reduce the burden of housing-related illness and injury. Local health departments (LHDs) are funded to implement the program in selected, high-risk target areas. A surveyor assesses conditions in each home and provides interventions and guidance to address identified hazards. A quarter of homes receive an optional follow-up visit (revisit). The dataset includes information about dwelling characteristics, primary respondent demographics and the presence/absence of 42 specific housing conditions for dwellings visited by each LHD.\r\n\r\nFor more information, check out: http://www.health.ny.gov/environmental/indoors/healthy_neighborhoods/.",
+  "format" : "application/vnd.ms-office; charset=binary",
+  "identifier" : "hfzi-bmh8",
+  "keyword" : "carbon monoxide,environmental health,fire safety,healthy homes,homes,housing,indoor air,intervention,mold,lead,pests,program evaluation,smoking,tobacco,oph,public health",
+  "modified" : "2013-04-18",
+  "releaseDate" : "2013-02-21",
+  "title" : "Healthy Neighborhoods: All Dwellings Initial Visit Data",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/file_data/VAKtwsXfLIU3JLkCFqwj2Ao3Ro9Ew57FKPQntpST-MI?filename=NYSDOH_HNP_All_dwellings_Initial_visit_data.xls",
+    "formats" : [ {
+      "label" : "application/vnd.ms-office; charset=binary",
+      "value" : "application/vnd.ms-office; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "carbon monoxide", "environmental health", "fire safety", "healthy homes", "homes", "housing", "indoor air", "intervention", "mold", "lead", "pests", "program evaluation", "smoking", "tobacco", "oph", "public health" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/file_data/QIZWiNWnkGMDJklduha7aWYLs7ACwMHE0gn9tBWKcbk?filename=NYSDOH_HNP_Revisited_dwellings_Initial_visit_and_Revisit_data.xls",
+  "created" : "2013-02-21",
+  "description" : "The New York State Healthy Neighborhoods Program (NYS HNP) is a healthy homes program that seeks to reduce the burden of housing-related illness and injury. Local health departments (LHDs) are funded to implement the program in selected, high-risk target areas. A surveyor assesses conditions in each home and provides interventions and guidance to address identified hazards. A quarter of homes receive an optional follow-up visit (revisit). The dataset includes information about dwelling characteristics, primary respondent demographics and the presence/absence of 42 specific housing conditions for dwellings visited by each LHD.\r\n\r\nFor more information, check out: http://www.health.ny.gov/environmental/indoors/healthy_neighborhoods/.",
+  "format" : "application/vnd.ms-office; charset=binary",
+  "identifier" : "49ua-zw9a",
+  "keyword" : "carbon monoxide,environmental health,fire safety,healthy homes,homes,housing,indoor air,intervention,mold,lead,pests,program evaluation,smoking,tobacco,oph,public health",
+  "modified" : "2013-04-18",
+  "releaseDate" : "2013-02-21",
+  "title" : "Healthy Neighborhoods: Revisited Dwellings Initial Visit And Revisit Data",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/file_data/QIZWiNWnkGMDJklduha7aWYLs7ACwMHE0gn9tBWKcbk?filename=NYSDOH_HNP_Revisited_dwellings_Initial_visit_and_Revisit_data.xls",
+    "formats" : [ {
+      "label" : "application/vnd.ms-office; charset=binary",
+      "value" : "application/vnd.ms-office; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "carbon monoxide", "environmental health", "fire safety", "healthy homes", "homes", "housing", "indoor air", "intervention", "mold", "lead", "pests", "program evaluation", "smoking", "tobacco", "oph", "public health" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/file_data/QkIY0lnvw6P1aN_uuPbLX-td9fC8aopKYDuRI_DFEqg?filename=NYSDOH_ACFAnnualBedCensus_Data_2009.xls",
+  "created" : "2013-02-21",
+  "description" : "The Department of Health requires adult care facilities (ACFs) to complete an electronic filing of each facility's licensed adult home and enriched housing program bed census on an annual basis. These facilities include adult homes (AHs), enriched housing programs (EHPs), assisted living programs (ALPs), assisted living residences (ALRs), special needs assisted living residences (SNALR), and enhanced assisted living residences (EALR). \r\n\r\nAvailable bed and occupancy information in ACFs are self-reported and is not audited by the NYSDOH. This dataset is refreshed on a annual basis. For more information, check out http://www.health.ny.gov/facilities/adult_care/.",
+  "format" : "application/vnd.ms-excel; charset=binary",
+  "identifier" : "cnq9-qe4e",
+  "keyword" : "adult care facility,adult home,assisted living program,assisted living residence,beds,capacity,census,enhanched assisted living residence,enriched housing program,special needs assisted living residence",
+  "modified" : "2013-03-11",
+  "releaseDate" : "2013-02-21",
+  "title" : "Adult Care Facility Annual Bed Census Data: 2009",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/file_data/QkIY0lnvw6P1aN_uuPbLX-td9fC8aopKYDuRI_DFEqg?filename=NYSDOH_ACFAnnualBedCensus_Data_2009.xls",
+    "formats" : [ {
+      "label" : "application/vnd.ms-excel; charset=binary",
+      "value" : "application/vnd.ms-excel; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "adult care facility", "adult home", "assisted living program", "assisted living residence", "beds", "capacity", "census", "enhanched assisted living residence", "enriched housing program", "special needs assisted living residence" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/file_data/IdGb7dW0_2l3W4EGCmrQ_VRqEu1hoNqZFAFrBiElbM4?filename=NYSDOH_ACFAnnualBedCensus_Data_2010.xls",
+  "created" : "2013-02-21",
+  "description" : "The Department of Health requires adult care facilities (ACFs) to complete an electronic filing of each facility's licensed adult home and enriched housing program bed census on an annual basis. These facilities include adult homes (AHs), enriched housing programs (EHPs), assisted living programs (ALPs), assisted living residences (ALRs), special needs assisted living residences (SNALR), and enhanced assisted living residences (EALR). \r\n\r\nAvailable bed and occupancy information in ACFs are self-reported and is not audited by the NYSDOH. This dataset is refreshed on a annual basis. For more information, check out http://www.health.ny.gov/facilities/adult_care/.",
+  "format" : "application/vnd.ms-excel; charset=binary",
+  "identifier" : "877f-b8wz",
+  "keyword" : "adult care facility,adult home,assisted living program,assisted living residence,beds,capacity,census,enhanched assisted living residence,enriched housing program,special needs assisted living residence",
+  "modified" : "2013-03-11",
+  "releaseDate" : "2013-02-21",
+  "title" : "Adult Care Facility Annual Bed Census Data: 2010",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/file_data/IdGb7dW0_2l3W4EGCmrQ_VRqEu1hoNqZFAFrBiElbM4?filename=NYSDOH_ACFAnnualBedCensus_Data_2010.xls",
+    "formats" : [ {
+      "label" : "application/vnd.ms-excel; charset=binary",
+      "value" : "application/vnd.ms-excel; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "adult care facility", "adult home", "assisted living program", "assisted living residence", "beds", "capacity", "census", "enhanched assisted living residence", "enriched housing program", "special needs assisted living residence" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/file_data/c931gaankiCqZfcPCLq18IQFFjRFthCLCL0LXR9_dp0?filename=NYSDOH_ACFAnnualBedCensus_Data_2011.xls",
+  "created" : "2013-02-21",
+  "description" : "The Department of Health requires adult care facilities (ACFs) to complete an electronic filing of each facility's licensed adult home and enriched housing program bed census on an annual basis. These facilities include adult homes (AHs), enriched housing programs (EHPs), assisted living programs (ALPs), assisted living residences (ALRs), special needs assisted living residences (SNALR), and enhanced assisted living residences (EALR). \r\n\r\nAvailable bed and occupancy information in ACFs are self-reported and is not audited by the NYSDOH. This dataset is refreshed on an annual basis. For more information, check out http://www.health.ny.gov/facilities/adult_care/.",
+  "format" : "application/vnd.ms-excel; charset=binary",
+  "identifier" : "ddnn-kxm4",
+  "keyword" : "adult care facility,adult home,assisted living program,assisted living residence,beds,capacity,census,enhanched assisted living residence,enriched housing program,special needs assisted living residence",
+  "modified" : "2013-04-18",
+  "releaseDate" : "2013-02-21",
+  "title" : "Adult Care Facility Annual Bed Census Data: 2011",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/file_data/c931gaankiCqZfcPCLq18IQFFjRFthCLCL0LXR9_dp0?filename=NYSDOH_ACFAnnualBedCensus_Data_2011.xls",
+    "formats" : [ {
+      "label" : "application/vnd.ms-excel; charset=binary",
+      "value" : "application/vnd.ms-excel; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "adult care facility", "adult home", "assisted living program", "assisted living residence", "beds", "capacity", "census", "enhanched assisted living residence", "enriched housing program", "special needs assisted living residence" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/file_data/4pou-OVd9OUzcWczL1YZgBUEcSh_Em1GH4VZgSX06Ig?filename=NYSDOH_ICR_Data_2009_Edited_PI.zip",
+  "created" : "2013-02-21",
+  "description" : "The Institutional Cost Report (ICR) is a uniform report completed by New York hospitals to report income, expenses, assets, liabilities, and statistics to the Department of Health (DOH). Under DOH regulations, (Part 86-1.2), Article 28 hospitals are required to file financial and statistical data with DOH annually. The data filed is part of the ICR and is received electronically through a secured network. This data is used to develop Medicaid rates, assist in the formulation of reimbursement methodologies, and analyze trends. This dataset includes the print image of the edited data.  The ICR is a comprehensive compilation of exhibits that have been modified over time that users should consider when using the ICR dataset. It is possible that data is updated subsequent to posting on this website; therefore the data could become obsolete. To get the details related to the exhibits and data elements, please refer to the blank ICR form, the ICR Table of Contents, the ICR Instructions and the Glossary of Terms, Acronyms, and Abbreviations which are in the Supporting Information section of this site. The data posted as edited contains desk edit adjustments by DOH personnel. In 2009, this information was not audited; however effective with the 2010 ICR, all ICRs will be audited by a Certified Public Accounting Firm annually.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "wxqu-nncd",
+  "keyword" : "cost reports,financial,hospital,reimbursement,statistical data",
+  "modified" : "2013-03-11",
+  "releaseDate" : "2013-02-21",
+  "title" : "Hospital Cost Report Print Image: 2009",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/file_data/4pou-OVd9OUzcWczL1YZgBUEcSh_Em1GH4VZgSX06Ig?filename=NYSDOH_ICR_Data_2009_Edited_PI.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "cost reports", "financial", "hospital", "reimbursement", "statistical data" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/file_data/Mb5KxJT366jx0TlZao6CZZ21LiUCFVA00T-2vd20nhY?filename=NYSDOH_ICR_Data_2010_Edited_PI.zip",
+  "created" : "2013-02-21",
+  "description" : "The Institutional Cost Report (ICR) is a uniform report completed by New York hospitals to report income, expenses, assets, liabilities, and statistics to the Department of Health (DOH). Under DOH regulations, (Part 86-1.2), Article 28 hospitals are required to file financial and statistical data with DOH annually. The data filed is part of the ICR and is received electronically through a secured network. This data is used to develop Medicaid rates, assist in the formulation of reimbursement methodologies, and analyze trends. This dataset includes the print image of the edited data.  The ICR is a comprehensive compilation of exhibits that have been modified over time that users should consider when using the ICR dataset. It is possible that data is updated subsequent to posting on this website; therefore the data could become obsolete. To get the details related to the exhibits and data elements, please refer to the blank ICR form, the ICR Table of Contents, the ICR Instructions and the Glossary of Terms, Acronyms, and Abbreviations which are in the Supporting Information section of this site. The data posted as edited contains desk edit adjustments by DOH personnel. In 2009, this information was not audited; however effective with the 2010 ICR, all ICRs will be audited by a Certified Public Accounting Firm annually.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "cf7i-99p5",
+  "keyword" : "cost reports,financial,hospital,reimbursement,statistical data",
+  "modified" : "2013-03-11",
+  "releaseDate" : "2013-02-21",
+  "title" : "Hospital Cost Report Print Image: 2010",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/file_data/Mb5KxJT366jx0TlZao6CZZ21LiUCFVA00T-2vd20nhY?filename=NYSDOH_ICR_Data_2010_Edited_PI.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "cost reports", "financial", "hospital", "reimbursement", "statistical data" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/file_data/OsgKaCHLYC3985X0LQwuRzD391G1HEJ6zsByRTBg-jk?filename=NYSDOH_AdultTobaccoSurvey_2009.sas7bdat",
+  "created" : "2013-02-22",
+  "description" : "The Adult Tobacco Survey (ATS) was developed by the New York Tobacco Control Program (NY TCP) in partnership with RTI International, the independent evaluator for the NY TCP. The survey has been fielded continually since June 2003 to the non-institutionalized adult population of New York State, aged 18 years or older. Researchers agree to: 1. Use the data for statistical reporting and analysis only. 2. Make no attempt to re-identify survey respondents by any means including but not limited to linking the data with any other data set that may provide the ability to identify a participant in the survey. 3. Data tables produced will protect confidentiality of the survey respondent following acceptable practices. 4. The requester will include a disclaimer that credits any analyses, interpretations, or conclusions reached to the author and not New York State Department of Health (NYSDOH). For more information, check out http://www.health.ny.gov/prevention/tobacco_control/.",
+  "format" : "application/octet-stream; charset=binary",
+  "identifier" : "yksx-hcwm",
+  "keyword" : "adult,smoking,tobacco,survey,oph,public health",
+  "modified" : "2013-04-18",
+  "releaseDate" : "2013-02-22",
+  "title" : "Adult Tobacco Survey: 2009",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/file_data/OsgKaCHLYC3985X0LQwuRzD391G1HEJ6zsByRTBg-jk?filename=NYSDOH_AdultTobaccoSurvey_2009.sas7bdat",
+    "formats" : [ {
+      "label" : "application/octet-stream; charset=binary",
+      "value" : "application/octet-stream; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "adult", "smoking", "tobacco", "survey", "oph", "public health" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/file_data/nlx9THqFoGGLUcXTLsagOmVoVfv6-pbQDvjYeGRMfVE?filename=NYSDOH_AdultTobaccoSurvey_2010.sas7bdat",
+  "created" : "2013-02-22",
+  "description" : "The Adult Tobacco Survey (ATS) was developed by the New York Tobacco Control Program (NY TCP) in partnership with RTI International, the independent evaluator for the NY TCP. The survey has been fielded continually since June 2003 to the non-institutionalized adult population of New York State, aged 18 years or older.\r\n\r\nResearchers agree to:\r\n1.  Use the data for statistical reporting and analysis only.\r\n2.  Make no attempt to re-identify survey respondents by any means including but not limited to linking the data with any other data set that may provide the ability to identify a participant in the survey.\r\n3.  Data tables produced will protect confidentiality of the survey respondent following acceptable practices.\r\n4.  The requester will include a disclaimer that credits any analyses, interpretations, or conclusions reached to the author and not New York State Department of Health (NYSDOH).\r\n\r\nFor more information, check out http://www.health.ny.gov/prevention/tobacco_control/.",
+  "format" : "application/octet-stream; charset=binary",
+  "identifier" : "q939-gsvj",
+  "keyword" : "adult,smoking,tobacco,survey,oph,public health",
+  "modified" : "2013-04-18",
+  "releaseDate" : "2013-02-22",
+  "title" : "Adult Tobacco Survey: 2010",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/file_data/nlx9THqFoGGLUcXTLsagOmVoVfv6-pbQDvjYeGRMfVE?filename=NYSDOH_AdultTobaccoSurvey_2010.sas7bdat",
+    "formats" : [ {
+      "label" : "application/octet-stream; charset=binary",
+      "value" : "application/octet-stream; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "adult", "smoking", "tobacco", "survey", "oph", "public health" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/file_data/7zSJ9sleSaleNPo85KABvM5oczSB2HOfIffwgxSO8iE?filename=NYSDOH_NYNATS_2009.sas7bdat",
+  "created" : "2013-02-22",
+  "description" : "The New York National Comparison Adult Tobacco Survey (NY NATS) was developed by the New York Tobacco Control Program (NY TCP) in partnership with Research Triangle Institute. Similar to the NY Adult Tobacco Survey, the NY NATS is administered to a nationwide sample of the non-institutionalized adult population, aged 18 years or older. Since the data are used as a comparison sample, the NY NATS represent the nation minus New York State.",
+  "format" : "application/octet-stream; charset=binary",
+  "identifier" : "ujms-gcsm",
+  "keyword" : "adult,smoking,tobacco,survey,oph,public health",
+  "modified" : "2013-04-18",
+  "releaseDate" : "2013-02-22",
+  "title" : "National Comparison Adult Tobacco Survey: 2009",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/file_data/7zSJ9sleSaleNPo85KABvM5oczSB2HOfIffwgxSO8iE?filename=NYSDOH_NYNATS_2009.sas7bdat",
+    "formats" : [ {
+      "label" : "application/octet-stream; charset=binary",
+      "value" : "application/octet-stream; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "adult", "smoking", "tobacco", "survey", "oph", "public health" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/file_data/stxZHhi4cez0WtL8Qh7Einyg9l60gvK7Np-v8Jo-U4E?filename=NYSDOH_NYNATS_2010.sas7bdat",
+  "created" : "2013-02-22",
+  "description" : "The New York National Comparison Adult Tobacco Survey (NY NATS) was developed by the New York Tobacco Control Program (NY TCP) in partnership with Research Triangle Institute. Similar to the NY Adult Tobacco Survey, the NY NATS is administered to a nationwide sample of the non-institutionalized adult population, aged 18 years or older. Since the data are used as a comparison sample, the NY NATS represent the nation minus New York State.",
+  "format" : "application/octet-stream; charset=binary",
+  "identifier" : "8w6u-7ezw",
+  "keyword" : "adult,smoking,tobacco,survey,oph,public health",
+  "modified" : "2013-04-18",
+  "releaseDate" : "2013-02-22",
+  "title" : "National Comparison Adult Tobacco Survey: 2010",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/file_data/stxZHhi4cez0WtL8Qh7Einyg9l60gvK7Np-v8Jo-U4E?filename=NYSDOH_NYNATS_2010.sas7bdat",
+    "formats" : [ {
+      "label" : "application/octet-stream; charset=binary",
+      "value" : "application/octet-stream; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "adult", "smoking", "tobacco", "survey", "oph", "public health" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/file_data/LsRm6-HvK9kOR_eQ8AEGkuqAX6dwe35PsRDm-yPt62I?filename=NYSDOH_PNDS_IndividualProviderData_2012Q1.zip",
+  "created" : "2013-02-26",
+  "description" : "The primary purpose for the Provider Network Data System is to collect data needed to evaluate the provider networks including physicians, hospitals, labs, home health agencies, durable medical equipment providers, etc., for all types of Managed Care plans in New York State, including HIV Special Need Plans (SNP), Family Health Plus (FHP) Buy-In, Programs of All-Inclusive Care for the Elderly (PACE), and Non-PACE Managed Long-Term Care (MLTC) plans.\r\n\r\nThis dataset reflects individual provider data.\r\n\r\nProvider Network Data System information is self-reported.\r\n\r\nFor more information, check out: http://www.health.ny.gov/health_care/managed_care/.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "cnjt-w4ef",
+  "keyword" : "directory,managed care,medicaid,plan,provider",
+  "modified" : "2013-03-11",
+  "releaseDate" : "2013-02-26",
+  "title" : "Managed Care Individual Provider Network Data: March 31, 2012",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/file_data/LsRm6-HvK9kOR_eQ8AEGkuqAX6dwe35PsRDm-yPt62I?filename=NYSDOH_PNDS_IndividualProviderData_2012Q1.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "directory", "managed care", "medicaid", "plan", "provider" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/file_data/lr1wEH6XoQNHnzNYeyyTLKvC-WF9iIjW3CTnnpNM94Y?filename=NYSDOH_PNDS_IndividualProviderData_2012Q2.zip",
+  "created" : "2013-02-26",
+  "description" : "The primary purpose for the Provider Network Data System is to collect data needed to evaluate the provider networks including physicians, hospitals, labs, home health agencies, durable medical equipment providers, etc., for all types of Managed Care plans in New York State, including HIV Special Need Plans (SNP), Family Health Plus (FHP) Buy-In, Programs of All-Inclusive Care for the Elderly (PACE), and Non-PACE Managed Long-Term Care (MLTC) plans.\r\n\r\nThis dataset reflects individual provider data.\r\n\r\nProvider Network Data System information is self-reported.\r\n\r\nFor more information, check out http://www.health.ny.gov/health_care/managed_care/.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "h2ix-fi3j",
+  "keyword" : "directory,managed care,medicaid,plan,provider",
+  "modified" : "2013-03-11",
+  "releaseDate" : "2013-02-26",
+  "title" : "Managed Care Individual Provider Network Data: June 30, 2012",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/file_data/lr1wEH6XoQNHnzNYeyyTLKvC-WF9iIjW3CTnnpNM94Y?filename=NYSDOH_PNDS_IndividualProviderData_2012Q2.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "directory", "managed care", "medicaid", "plan", "provider" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/file_data/YVXY8Bgjhj2772GxtGl4v26dAuWpGOqlOQuVdIz3mJ0?filename=NYSDOH_PNDS_IndividualProviderData_2012Q3.zip",
+  "created" : "2013-02-26",
+  "description" : "The primary purpose for the Provider Network Data System is to collect data needed to evaluate the provider networks including physicians, hospitals, labs, home health agencies, durable medical equipment providers, etc., for all types of Managed Care plans in New York State, including HIV Special Need Plans (SNP), Family Health Plus (FHP) Buy-In, Programs of All-Inclusive Care for the Elderly (PACE), and Non-PACE Managed Long-Term Care (MLTC) plans.\r\n\r\nThis dataset reflects individual provider data.\r\n\r\nProvider Network Data System information is self reported.\r\n\r\nFor more information, go to http://www.health.ny.gov/health_care/managed_care/.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "d46y-f56x",
+  "keyword" : "directory,managed care,medicaid,plan,provider",
+  "modified" : "2013-03-11",
+  "releaseDate" : "2013-02-26",
+  "title" : "Managed Care Individual Provider Network Data: September 30, 2012",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/file_data/YVXY8Bgjhj2772GxtGl4v26dAuWpGOqlOQuVdIz3mJ0?filename=NYSDOH_PNDS_IndividualProviderData_2012Q3.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "directory", "managed care", "medicaid", "plan", "provider" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/file_data/Hlyd7J4DO88fpQIQSJtNE9AZn4UXAVhzzrIKdgJy1gM?filename=NYSDOH_PNDS_InstitutionalProviderData_2012Q1.zip",
+  "created" : "2013-02-26",
+  "description" : "The primary purpose for the Provider Network Data System is to collect data needed to evaluate the provider networks including physicians, hospitals, labs, home health agencies, durable medical equipment providers, etc., for all types of Managed Care plans in New York State, including HIV Special Need Plans (SNP), Family Health Plus (FHP) Buy-In, Programs of All-Inclusive Care for the Elderly (PACE), and Non-PACE Managed Long-Term Care (MLTC) plans.\r\n\r\nThis dataset reflects institutional provider data.\r\n Provider Network Data System information is self reported. For more information, go to http://www.health.ny.gov/health_care/managed_care/.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "xj2b-qpzy",
+  "keyword" : "directory,managed care,medicaid,plan,provider",
+  "modified" : "2013-03-11",
+  "releaseDate" : "2013-02-26",
+  "title" : "Managed Care Institutional Provider Network Data: March 31, 2012",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/file_data/Hlyd7J4DO88fpQIQSJtNE9AZn4UXAVhzzrIKdgJy1gM?filename=NYSDOH_PNDS_InstitutionalProviderData_2012Q1.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "directory", "managed care", "medicaid", "plan", "provider" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/file_data/DRPhHhY2vZqI_vyaQEj7JLVkSa-dMnVgzgLgXpMuDAk?filename=NYSDOH_PNDS_InstitutionalProviderData_2012Q2.zip",
+  "created" : "2013-02-26",
+  "description" : "The primary purpose for the Provider Network Data System is to collect data needed to evaluate the provider networks including physicians, hospitals, labs, home health agencies, durable medical equipment providers, etc., for all types of Managed Care plans in New York State, including HIV Special Need Plans (SNP), Family Health Plus (FHP) Buy-In, Programs of All-Inclusive Care for the Elderly (PACE), and Non-PACE Managed Long-Term Care (MLTC) plans.\r\n\r\nThis dataset reflects institutional provider data.\r\n\r\n Provider Network Data System information is self reported. For more information, go to http://www.health.ny.gov/health_care/managed_care/.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "f8n5-tjfd",
+  "keyword" : "directory,managed care,medicaid,plan,provider",
+  "modified" : "2013-03-11",
+  "releaseDate" : "2013-02-26",
+  "title" : "Managed Care Institutional Provider Network Data: June 30, 2012",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/file_data/DRPhHhY2vZqI_vyaQEj7JLVkSa-dMnVgzgLgXpMuDAk?filename=NYSDOH_PNDS_InstitutionalProviderData_2012Q2.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "directory", "managed care", "medicaid", "plan", "provider" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/file_data/3yrMrjzv27xrvyHiV21cGkQF-YDcl5ooZ0FUVr1UwR8?filename=NYSDOH_PNDS_InstitutionalProviderData_2012Q3.zip",
+  "created" : "2013-02-26",
+  "description" : "The primary purpose for the Provider Network Data System is to collect data needed to evaluate the provider networks including physicians, hospitals, labs, home health agencies, durable medical equipment providers, etc., for all types of Managed Care plans in New York State, including HIV Special Need Plans (SNP), Family Health Plus (FHP) Buy-In, Programs of All-Inclusive Care for the Elderly (PACE), and Non-PACE Managed Long-Term Care (MLTC) plans.\r\n\r\nThis dataset reflects institutional provider data.\r\n\r\nProvider Network Data System information is self-reported.\r\n\r\nFor more information, check out http://www.health.ny.gov/health_care/managed_care/.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "pkp3-5xqa",
+  "keyword" : "directory,managed care,medicaid,plan,provider",
+  "modified" : "2013-03-11",
+  "releaseDate" : "2013-02-26",
+  "title" : "Managed Care Institutional Provider Network Data: September 30, 2012",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/file_data/3yrMrjzv27xrvyHiV21cGkQF-YDcl5ooZ0FUVr1UwR8?filename=NYSDOH_PNDS_InstitutionalProviderData_2012Q3.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "directory", "managed care", "medicaid", "plan", "provider" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/file_data/HT3rA5mtqB0lgvegT3QIo4wLjDJT8hHrRGH_T2MaaQA?filename=NYSDOH_PNDS_InstitutionalProviderData_2012Q4.zip",
+  "created" : "2013-02-26",
+  "description" : "The primary purpose for the Provider Network Data System is to collect data needed to evaluate the provider networks including physicians, hospitals, labs, home health agencies, durable medical equipment providers, etc., for all types of Managed Care plans in New York State, including HIV Special Need Plans (SNP), Family Health Plus (FHP) Buy-In, Programs of All-Inclusive Care for the Elderly (PACE), and Non-PACE Managed Long-Term Care (MLTC) plans. \r\n\r\nThis dataset reflects institutional provider data.\r\nProvider Network Data System information is self reported. For more information, go to http://www.health.ny.gov/health_care/managed_care/.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "ivv7-qybs",
+  "keyword" : "directory,managed care,medicaid,plan,provider",
+  "modified" : "2013-03-11",
+  "releaseDate" : "2013-02-26",
+  "title" : "Managed Care Institutional Provider Network Data: December 31, 2012",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/file_data/HT3rA5mtqB0lgvegT3QIo4wLjDJT8hHrRGH_T2MaaQA?filename=NYSDOH_PNDS_InstitutionalProviderData_2012Q4.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "directory", "managed care", "medicaid", "plan", "provider" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/file_data/xRu958rkOknkbaCMgm88eYho1KQDevE-iUBxA-ang8Q?filename=2008_2010+Student+Weight+Status+Category+Reporting+System.zip",
+  "created" : "2013-02-27",
+  "description" : "The Student Weight Status Category Reporting System (SWSCR) collects weight status category data (underweight, healthy weight, overweight or obese, based on BMI-for-age percentile) at school entry (pre-kindergarten or kindergarten) and in grades 2, 4, 7 and 10 for students attending all public schools outside of the five boroughs of New York City.\r\n\r\nBecause of restrictions in reporting due to the Family Educational Rights and Privacy Act (FERPA) there was wide variation in how much of the student population was represented in the data schools submitted during 2008-2010. Therefore the percentage of the student population represented in the county-level estimates varies from county to county.  This limits researchers' ability to draw absolute conclusions about observed differences in student weight status among counties.\r\n\r\nFor more information check out http://www.health.ny.gov/prevention/obesity/.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "rygz-8yax",
+  "keyword" : "2008,2009,2010,bmi,chronic disease,obesity,overweight,swscr,weight,oph,public health",
+  "modified" : "2013-08-12",
+  "releaseDate" : "2013-02-27",
+  "title" : "Student Weight Status Category Reporting System: 2008-2010",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/file_data/xRu958rkOknkbaCMgm88eYho1KQDevE-iUBxA-ang8Q?filename=2008_2010+Student+Weight+Status+Category+Reporting+System.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "2008", "2009", "2010", "bmi", "chronic disease", "obesity", "overweight", "swscr", "weight", "oph", "public health" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/file_data/RrmmrC4gdEiQkFwfLKCjuUP98u-PEDISOHGt2Hreync?filename=NYSDOH_PNDS_IndividualProviderData_2012Q4.zip",
+  "created" : "2013-02-28",
+  "description" : "The primary purpose for the Provider Network Data System is to collect data needed to evaluate the provider networks including physicians, hospitals, labs, home health agencies, durable medical equipment providers, etc., for all types of Managed Care plans in New York State, including HIV Special Need Plans (SNP), Family Health Plus (FHP) Buy-In, Programs of All-Inclusive Care for the Elderly (PACE), and Non-PACE Managed Long-Term Care (MLTC) plans.\r\n\r\nThis dataset reflects individual provider data.\r\n\r\nProvider Network Data System information is self-reported.\r\n\r\nFor more information, check out http://www.health.ny.gov/health_care/managed_care/.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "97uk-ctjs",
+  "keyword" : "directory,managed care,medicaid,plan,provider",
+  "modified" : "2013-03-11",
+  "releaseDate" : "2013-02-28",
+  "title" : "Managed Care Individual Provider Network Data: December 31, 2012",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/file_data/RrmmrC4gdEiQkFwfLKCjuUP98u-PEDISOHGt2Hreync?filename=NYSDOH_PNDS_IndividualProviderData_2012Q4.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "directory", "managed care", "medicaid", "plan", "provider" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/utrt-zdsi/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-09",
+  "description" : "All acute care hospitals are required to report certain hospital-acquired infections (HAIs) to the New York State Department of Health (NYSDOH).  This includes central line-associated blood stream infections in intensive care units; surgical site infections following colon, hip replacement/revision, and coronary artery bypass graft; and Clostridium difficile infections.\r\n\r\n\r\nPLEASE NOTE: Because of the complicated nature of the risk-adjustment methodology used to produce the HAI rates, the advice of a statistician is recommended before attempting to manipulate the data.  Hospital-specific risk-adjusted rates cannot simply be combined. \r\n\r\nIn addition, due to NYSDOH validation audits which may involve data from both the current and previous calendar year, a revised data file will be published the year after the original data file was released.\r\n\r\nFor more information, check out http://www.health.ny.gov/statistics/facilities/hospital/hospital_acquired_infections/, or go to the \"About\" tab.",
+  "feed" : "https://health.data.ny.gov/api/views/utrt-zdsi/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "utrt-zdsi",
+  "keyword" : "infection,hospital,surgery,oph,public health",
+  "modified" : "2013-08-14",
+  "releaseDate" : "2013-01-09",
+  "title" : "Hospital-Acquired Infections: Beginning 2008",
+  "webService" : "https://health.data.ny.gov/resource/utrt-zdsi",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/utrt-zdsi/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/utrt-zdsi/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/utrt-zdsi/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/utrt-zdsi/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/utrt-zdsi/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/utrt-zdsi/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "infection", "hospital", "surgery", "oph", "public health" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/vbkk-tipq/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-08",
+  "description" : "As a way of monitoring managed care plan performance and improving the quality of care provided to New York State residents, the New York State Department of Health (NYSDOH) collects data for four types of managed care insurance (commercial HMO, commercial Preferred Provider Organization, Medicaid managed care, and Child Health Plus) on an annual basis. Not all measures are collected each year. Some services require more resource intensive methods of collection, and these measures are collected every other year to reduce the burden associated with reviewing patient records. Refer to the Health Measures Descriptions document to learn about the specific measures included in this dataset. Measure specification changes and health plan mergers and closures preclude the ability to trend this data over time. Please use caution when attempting to compare measures and/or health plans over time. For more information, check out http://www.health.ny.gov/health_care/managed_care/reports/quality_performance_improvement.htm, or go to the \"About\" tab.",
+  "feed" : "https://health.data.ny.gov/api/views/vbkk-tipq/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "vbkk-tipq",
+  "keyword" : "managed care,medicaid,plan performance",
+  "modified" : "2013-08-14",
+  "releaseDate" : "2013-03-08",
+  "title" : "Quality Assurance Reporting Requirements: Beginning 2008",
+  "webService" : "https://health.data.ny.gov/resource/vbkk-tipq",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/vbkk-tipq/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/vbkk-tipq/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/vbkk-tipq/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/vbkk-tipq/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/vbkk-tipq/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/vbkk-tipq/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "managed care", "medicaid", "plan performance" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/h8yk-ufg9/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-29",
+  "description" : "The New York State Department of Health (NYSDOH) collects annual data on children’s and adults’ use of health services. This information complements the quality of care and member satisfaction information collected through an annual public reporting system called the Quality Assurance Reporting Requirements (QARR).  Utilization measures are designed to capture the frequency of certain services provided by health plans. NCQA does not view higher or lower services counts as better or worse performance. Plans with fewer than 30 eligible events are excluded from the statistical calculations of the percentiles.  For more information please visit, http://www.health.ny.gov/health_care/managed_care/qarrfull/qarr_2012/supplement_intro.htm or go to the \"About\" tab.",
+  "feed" : "https://health.data.ny.gov/api/views/h8yk-ufg9/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "h8yk-ufg9",
+  "keyword" : "managed care,qarr,plan performance report,medicaid access,utilization",
+  "modified" : "2013-08-14",
+  "releaseDate" : "2013-03-29",
+  "title" : "Managed Care Plan Utilization Data: Beginning 2009",
+  "webService" : "https://health.data.ny.gov/resource/h8yk-ufg9",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/h8yk-ufg9/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/h8yk-ufg9/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/h8yk-ufg9/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/h8yk-ufg9/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/h8yk-ufg9/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/h8yk-ufg9/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "managed care", "qarr", "plan performance report", "medicaid access", "utilization" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/w43m-6kfj/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-29",
+  "description" : "This dataset promotes community collaborations and increases partnerships with non-traditional, non-health focused partners.  Users can explore where the Department of Health funded coalitions are located and the service areas they cover.  A health coalition is defined as \"a group involving multiple sectors of the community; coming together to identify community needs and solve community problems.\"  The information is useful for program planning, as well as to develop targeted interventions.  Additionally, the general public is able to identify projects within or near their communities.  For more information please visit http://www.health.ny.gov/community/minority/, or go to the \"About\" tab.",
+  "feed" : "https://health.data.ny.gov/api/views/w43m-6kfj/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "w43m-6kfj",
+  "keyword" : "coalitions,community collaboration,partnerships,minority health,health disparities,public health",
+  "modified" : "2013-05-29",
+  "releaseDate" : "2013-03-29",
+  "title" : "Health Coalitions: A Resource for Community Collaboration",
+  "webService" : "https://health.data.ny.gov/resource/w43m-6kfj",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/w43m-6kfj/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/w43m-6kfj/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/w43m-6kfj/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/w43m-6kfj/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/w43m-6kfj/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/w43m-6kfj/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "coalitions", "community collaboration", "partnerships", "minority health", "health disparities", "public health" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/es3k-2aus/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-19",
+  "description" : "The Student Weight Status Category Reporting System (SWSCR) collects weight status category data (underweight, healthy weight, overweight or obese, based on BMI-for-age percentile).  The dataset includes separate estimates of the percent of students overweight, obese and overweight or obese for all reportable grades within the county and/or region and by grade groups (elementary and middle/high).   The rates of overweight and obesity reported are percentages based on counts of students in selected grades (Pre-K, K, 2, 4, 7, 10) reported to the NYSDOH. Because these rates reflect a broad range of factors that vary by school district, to make comparisons about observed differences in the rates of obesity and overweight between school districts requires the use of multivariate statistics.  For more information check out http://www.health.ny.gov/prevention/obesity/, see our Instruction Guide on How to Create Visualizations https://health.data.ny.gov/api/assets/6490BDA9-AE4D-406F-BA5A-703793526B9F or go to the \"About\" tab.",
+  "feed" : "https://health.data.ny.gov/api/views/es3k-2aus/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "es3k-2aus",
+  "keyword" : "bmi,chronic disease,childhood obesity,swscr",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-03-19",
+  "title" : "Student Weight Status Category Reporting Results: Beginning 2010",
+  "webService" : "https://health.data.ny.gov/resource/es3k-2aus",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/es3k-2aus/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/es3k-2aus/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/es3k-2aus/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/es3k-2aus/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/es3k-2aus/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/es3k-2aus/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "bmi", "chronic disease", "childhood obesity", "swscr" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/8npw-hpyp/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-08",
+  "description" : "This dataset contains the names, contact information, and county location for the federally authorized Organ Procurement Organizations (OPOs), as well as the New York State regulated Eye Banks and Tissue Banks. These organizations work closely with the Department of Health (DOH) to educate the public regarding the need for organ and tissue donation and to facilitate the enrollment of individuals in the New York State Donate Life Organ and Tissue Donor Registry. The contact information and service areas provided in this dataset are subject to change without DOH’s knowledge since the data is provided by independent OPOs, Eye Banks and Tissue Banks.  For more information please visit, http://www.health.ny.gov/professionals/patients/donation/organ/, or go to the \"About\" tab.",
+  "feed" : "https://health.data.ny.gov/api/views/8npw-hpyp/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "8npw-hpyp",
+  "keyword" : "organ procurement,eye bank,tissue bank,organ donation,tissue donation",
+  "modified" : "2013-05-15",
+  "releaseDate" : "2013-04-08",
+  "title" : "Organ Procurement Organizations, Eye Banks and Tissue Banks Information",
+  "webService" : "https://health.data.ny.gov/resource/8npw-hpyp",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/8npw-hpyp/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/8npw-hpyp/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/8npw-hpyp/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/8npw-hpyp/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/8npw-hpyp/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/8npw-hpyp/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "organ procurement", "eye bank", "tissue bank", "organ donation", "tissue donation" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/bbkg-kmnd/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-22",
+  "description" : "This dataset represents self‐reported performance data by HIV ambulatory care programs.  All HIV ambulatory programs throughout New York State with a significant HIV caseload (a total caseload of at least 30 HIV‐infected patients receiving ambulatory HIV care at one or more sites) are expected to self‐report their annual quality of care performance data using standardized submission tools and methodologies. With the assistance of the online eHIVQUAL application, performance data results are instantly available to HIV programs, allowing them to immediately utilize their data findings to prioritize upcoming quality activities, and are available for generating benchmarking reports across New York State. See Limitations regarding redaction of small‐population data.\r\n\r\nFor more information, check out http://www.health.ny.gov/diseases/aids/about/, or go to the \"About\" tab.",
+  "feed" : "https://health.data.ny.gov/api/views/bbkg-kmnd/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "bbkg-kmnd",
+  "keyword" : "hiv,aids,ambulatory care,outpatient,quality improvement,quality management,qi,qm,quality",
+  "modified" : "2013-07-24",
+  "releaseDate" : "2013-04-22",
+  "title" : "HIV Ambulatory Care Quality of Care Performance Results: Beginning 2011",
+  "webService" : "https://health.data.ny.gov/resource/bbkg-kmnd",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/bbkg-kmnd/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/bbkg-kmnd/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/bbkg-kmnd/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/bbkg-kmnd/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/bbkg-kmnd/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/bbkg-kmnd/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hiv", "aids", "ambulatory care", "outpatient", "quality improvement", "quality management", "qi", "qm", "quality" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/h55x-hu6n/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-08",
+  "description" : "This dataset provides gamma radiation readings collected through  Environmental Thermoluminescent Dosimeter (TLDs) devices placed at various facilities and locations in New York State. The Environmental TLDs provide a quantitative measurement of the radiation levels in the area in which they are placed.   This dataset can be used by the general public, researchers and facility staff to evaluate environmental radiation levels at various locations. Facility operators may use data for inter-comparison and trending purposes.  Please note that this program is not designed, or intended to monitor releases from discharge points at a specific facility (e.g., a stack). The facility operator performs this type of monitoring to meet the requirements of its licensing agency (e.g., a federal agency or the New York State Department of Environmental Conservation).  For more information please visit www.nyhealth.gov/radiation or go to the \"About\" tab.",
+  "feed" : "https://health.data.ny.gov/api/views/h55x-hu6n/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "h55x-hu6n",
+  "keyword" : "nuclear,power plants,radiation,environmental monitoring",
+  "modified" : "2013-08-14",
+  "releaseDate" : "2013-04-08",
+  "title" : "Environmental Radiation Surveillance Gamma Radiation Readings: Beginning 1995",
+  "webService" : "https://health.data.ny.gov/resource/h55x-hu6n",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/h55x-hu6n/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/h55x-hu6n/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/h55x-hu6n/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/h55x-hu6n/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/h55x-hu6n/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/h55x-hu6n/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "nuclear", "power plants", "radiation", "environmental monitoring" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/fxaa-q2wy/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-23",
+  "description" : "This dataset contains the partners working on prevention agenda priority and focus areas. The dataset is organized by county, priority area and focus area. Each partner’s address, phone number and in many cases e-mail contact are provided.The Prevention Agenda 2013-17 is New York State’s health improvement plan for 2013 through 2017. This plan involves a unique mix of organizations including local health departments, health care providers, health plans, community based organizations, advocacy groups, academia, employers as well as state agencies, schools, and businesses whose activities can influence the health of individuals and communities and address health disparities. This unprecedented collaboration is designed to demonstrate how communities across the state can work together to improve the health and quality of life for all New Yorkers. The purpose of the dataset is to provide the public, health providers and tentative DOH partners with some basic information about who in NYS is working on prevention agenda related items.  For more information check out http://www.health.ny.gov/prevention/prevention_agenda/2013-2017/, or go to the \"About\" tab.",
+  "feed" : "https://health.data.ny.gov/api/views/fxaa-q2wy/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "fxaa-q2wy",
+  "keyword" : "prevention,public health,contact information,state health improvement plan",
+  "modified" : "2013-08-12",
+  "releaseDate" : "2013-04-23",
+  "title" : "Prevention Agenda Partner Contact Information: 2013",
+  "webService" : "https://health.data.ny.gov/resource/fxaa-q2wy",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/fxaa-q2wy/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/fxaa-q2wy/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/fxaa-q2wy/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/fxaa-q2wy/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/fxaa-q2wy/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/fxaa-q2wy/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "prevention", "public health", "contact information", "state health improvement plan" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/uve2-wvjp/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-06-05",
+  "description" : "This dataset consists of 58 state-level health tracking indicators and 31 sub-indicators for the Prevention Agenda 2013-2017: New York State’s Health Improvement Plan.  A health tracking indicator is a metric through which progress on a certain area of health improvement can be assessed.  The indicators are organized by the Priority Area of the Prevention Agenda as well as the Focus Area under each Priority Area.  Priority areas include Chronic Disease; Health and Safe Environment; Healthy Women, Infants and Children; Mental Health and Substance Abuse; and HIV, STDs, Vaccine Preventable Diseases and Healthcare Associated Infections.  Along with the name of each indicator are given the baseline year, the baseline year value of the indicator, and the Prevention Agenda 2017 target for the indicator. Sub-indicators are included in this dataset to measure health disparities among racial, ethnic, and socioeconomic groups and persons with disabilities. For more information check out: http://www.health.ny.gov/prevention/prevention_agenda/2013-2017/ or go to the \"About\" tab.",
+  "feed" : "https://health.data.ny.gov/api/views/uve2-wvjp/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "uve2-wvjp",
+  "keyword" : "prevention agenda,tracking indicator,prevention",
+  "modified" : "2013-07-11",
+  "releaseDate" : "2013-06-05",
+  "title" : "Prevention Agenda 2013-2017 Tracking Indicators: State Baselines and Targets",
+  "webService" : "https://health.data.ny.gov/resource/uve2-wvjp",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/uve2-wvjp/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/uve2-wvjp/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/uve2-wvjp/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/uve2-wvjp/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/uve2-wvjp/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/uve2-wvjp/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "prevention agenda", "tracking indicator", "prevention" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/vafa-pf2s/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-30",
+  "description" : "The Genealogical Research Death Index assists individuals with locating New York State (NYS) death records that fall within defined genealogy years, exclusive of New York City recorded death records. This Index contains information on decedents, parents, date of death, gender, age at death and NYS file number that will allow the public to search for individuals on a variety of genealogy criteria; if on file for at least 50 years.\r\n\r\nFor more information, check out http://www.health.ny.gov/vital_records/genealogy.",
+  "feed" : "https://health.data.ny.gov/api/views/vafa-pf2s/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "vafa-pf2s",
+  "keyword" : "death",
+  "modified" : "2013-08-17",
+  "releaseDate" : "2013-01-30",
+  "title" : "Genealogical Research Death Index:  Beginning 1957",
+  "webService" : "https://health.data.ny.gov/resource/vafa-pf2s",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/vafa-pf2s/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/vafa-pf2s/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/vafa-pf2s/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/vafa-pf2s/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/vafa-pf2s/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/vafa-pf2s/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "death" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/jxy9-yhdk/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-12-28",
+  "description" : "New York State Baby names are aggregated and displayed by the year, county or borough where the mother resided as stated on a New York State or New York City (NYC) birth certificate.\r\n\r\nThe frequency of the Baby Name is listed, if there are: 5 or more of the same baby name in a county outside of  NYC; or 10 or more of the same baby name in a NYC borough.\r\n\r\nFor more information, check out http://www.health.ny.gov/statistics/vital_statistics/, or go to the \"About\" tab.",
+  "feed" : "https://health.data.ny.gov/api/views/jxy9-yhdk/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "jxy9-yhdk",
+  "keyword" : "baby,names",
+  "modified" : "2013-08-14",
+  "releaseDate" : "2012-12-28",
+  "title" : "Baby Names: Beginning 2007",
+  "webService" : "https://health.data.ny.gov/resource/jxy9-yhdk",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/jxy9-yhdk/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/jxy9-yhdk/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/jxy9-yhdk/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/jxy9-yhdk/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/jxy9-yhdk/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/jxy9-yhdk/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "baby", "names" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/swz6-xxvm/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-29",
+  "description" : "This dataset is a summary of hospital discharges from every hospital including Article 28 facilities; Ambulatory Surgery and Emergency Department visits, from the Statewide Planning and Research Cooperative System (SPARCS).  The data is rolled up by patient county of residence.  \r\n\r\nThe SPARCS data has been divided into two distinct datasets, Hospital Discharges by Patient County of Residence and Hospital Discharges by Facility to preserve the confidentiality of identifiable individual information. \r\nThis dataset does not include facility names.\r\n\r\nFor more information, check out http://www.health.ny.gov/statistics/sparcs/ or go to the \"About\" tab.",
+  "feed" : "https://health.data.ny.gov/api/views/swz6-xxvm/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "swz6-xxvm",
+  "keyword" : "sparcs,patient,hospital",
+  "modified" : "2013-08-14",
+  "releaseDate" : "2013-01-29",
+  "title" : "Hospital Discharges by Patient County of Residence (SPARCS): Beginning 2010",
+  "webService" : "https://health.data.ny.gov/resource/swz6-xxvm",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/swz6-xxvm/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/swz6-xxvm/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/swz6-xxvm/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/swz6-xxvm/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/swz6-xxvm/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/swz6-xxvm/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "sparcs", "patient", "hospital" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/dmn7-mpa8/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-25",
+  "description" : "The Child and Adult Care Food Program (CACFP) is a nutrition education and meal reimbursement program helping providers serve nutritious and safely prepared meals and snacks to children and adults in day care settings. This dataset includes the names and locations of participating day care sites and whether or not the site is Breastfeeding Friendly Certified with CACFP, participating in the Eat Well Play Hard in Child Care Settings (EWPHCCS) project, or participating in the Eat Well Play Hard in Day Care Homes (EWPHDCH) project.   This dataset excludes Child and Adult Care Food Program participation provided at homeless shelters and legally-exempt day care home providers.  \r\n\r\nNot all counties in NYS are serviced by the grantees implementing the project EWPHCSS. \r\n\r\nThe EWPHDCH project is currently limited to the areas served by the contracted agencies. \r\n\r\nThe Child and Adult Care Food Program dataset is related to the Child Care Related Programs dataset on the www.Open.ny.gov website, however this dataset includes additional nutrition information.  The Office of Children and Family Services (OCFS) is currently working to update the Child Care Related Programs dataset on a more frequent schedule with the OPEN NY team.  OCFS and DOH will then be able to synchronize in the near future.  Temporarily, DOH has omitted addresses for regulated child care providers that provide home care since this information is available on www.Open.ny.gov by using this link: https://data.ny.gov/Human-Services/Child-Care-Regulated-Programs/cb42-qumz.   \r\n\r\n For more information, please visit http://www.health.ny.gov/prevention/nutrition/cacfp/ or go to the \"About\" tab.",
+  "feed" : "https://health.data.ny.gov/api/views/dmn7-mpa8/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "dmn7-mpa8",
+  "keyword" : "cacfp,day care,child care,adult care,afterschool,nutrition,breastfeeding,childhood obesity,obesity,eat well play hard,ewph",
+  "modified" : "2013-08-22",
+  "releaseDate" : "2013-03-25",
+  "title" : "Child And Adult Care Food Program Participation: Beginning 2007",
+  "webService" : "https://health.data.ny.gov/resource/dmn7-mpa8",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/dmn7-mpa8/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/dmn7-mpa8/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/dmn7-mpa8/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/dmn7-mpa8/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/dmn7-mpa8/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/dmn7-mpa8/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "cacfp", "day care", "child care", "adult care", "afterschool", "nutrition", "breastfeeding", "childhood obesity", "obesity", "eat well play hard", "ewph" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/dk4z-k3xb/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-20",
+  "description" : "This dataset contains the number of cases, number of in hospital/30 day deaths, observed, expected and risk- adjusted mortality rates for cardiac surgery by surgeon. Physician information is presented for each physician who a) performed 200 or more procedures during the three year analysis and/or b) performed at least one cardiac surgery in each of the three years. The results for physicians not meeting the above criteria are grouped together and reported as “All others” in the hospital in which the procedures are performed.  The initial Health Data NY dataset includes patients discharged between January 1, 2008, and December 31, 2010. Analyses of risk-adjusted mortality rates and associated risk factors are provided for 2010 and for the three-year period from 2008 through 2010. Regions represent where the hospitals are located. Subsequent year reports data will be appended to this dataset.   For more information check out: http://www.health.ny.gov/health_care/consumer_information/cardiac_surgery/ or go to the “About” tab.",
+  "feed" : "https://health.data.ny.gov/api/views/dk4z-k3xb/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "dk4z-k3xb",
+  "keyword" : "cardiac,pci,cabg,coronary artery bypass graft,valve,coronary,revascularization,cardiac surgery",
+  "modified" : "2013-08-15",
+  "releaseDate" : "2013-05-20",
+  "title" : "Cardiac Surgery by Surgeon: Beginning 2008",
+  "webService" : "https://health.data.ny.gov/resource/dk4z-k3xb",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/dk4z-k3xb/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/dk4z-k3xb/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/dk4z-k3xb/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/dk4z-k3xb/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/dk4z-k3xb/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/dk4z-k3xb/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "cardiac", "pci", "cabg", "coronary artery bypass graft", "valve", "coronary", "revascularization", "cardiac surgery" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/ekig-i57g/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-20",
+  "description" : "This dataset contains the number of cases, number of in hospital/30 day deaths, observed, expected and risk- adjusted mortality rates for Percutaneous Coronary Interventions (PCI) by cardiologist. Physician information is presented for each physician who a) performed 200 or more procedures during the three year analysis and/or b) performed at least one PCI in each of the three years. The results for physicians not meeting the above criteria are grouped together and reported as “All others” in the hospital in which the procedures are performed. Regions represent where the hospitals are located.  The initial Health Data NY dataset includes patients discharged between January 1, 2008, and December 31, 2010. Analyses of risk-adjusted mortality rates and associated risk factors are provided for the three-year period from 2008 through 2010. Analyses of all cases and non-emergency cases (which represent the majority of procedures) are included. Subsequent year reports data will be appended to this dataset. For more information check out: http://www.health.ny.gov/health_care/consumer_information/cardiac_surgery/ or go to the “About” tab.",
+  "feed" : "https://health.data.ny.gov/api/views/ekig-i57g/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ekig-i57g",
+  "keyword" : "cardiac,pci,cabg,coronary artery bypass graft,valve,coronary,revascularization,cardiac surgery",
+  "modified" : "2013-08-15",
+  "releaseDate" : "2013-05-20",
+  "title" : "Percutaneous Coronary Interventions by Cardiologist: Beginning 2008",
+  "webService" : "https://health.data.ny.gov/resource/ekig-i57g",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/ekig-i57g/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/ekig-i57g/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/ekig-i57g/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/ekig-i57g/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/ekig-i57g/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/ekig-i57g/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "cardiac", "pci", "cabg", "coronary artery bypass graft", "valve", "coronary", "revascularization", "cardiac surgery" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/jtip-2ccj/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-20",
+  "description" : "This dataset contains the number of cases, number of in hospital/30 day deaths, observed, expected and risk- adjusted mortality rates for cardiac surgery and percutaneous coronary interventions (PCI) by hospital.  Regions represent where the hospitals are located.  The initial Health Data NY dataset  includes patients discharged between January 1, 2008, and December 31, 2010. Analyses of risk-adjusted mortality rates and associated risk factors are provided for 2010 and for the three-year period from 2008 through 2010.  For PCI, analyses of all cases, non-emergency cases (which represent the majority of procedures) and emergency cases are included.  Subsequent year reports data will be appended to this dataset.  For more information check out: http://www.health.ny.gov/health_care/consumer_information/cardiac_surgery/ or go to the “About” tab.",
+  "feed" : "https://health.data.ny.gov/api/views/jtip-2ccj/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "jtip-2ccj",
+  "keyword" : "cardiac,pci,cabg,coronary artery bypass graft,valve,coronary,revascularization,cardiac surgery",
+  "modified" : "2013-08-15",
+  "releaseDate" : "2013-05-20",
+  "title" : "Cardiac Surgery and Percutaneous Coronary Interventions by Hospital:  Beginning 2008",
+  "webService" : "https://health.data.ny.gov/resource/jtip-2ccj",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/jtip-2ccj/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/jtip-2ccj/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/jtip-2ccj/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/jtip-2ccj/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/jtip-2ccj/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/jtip-2ccj/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "cardiac", "pci", "cabg", "coronary artery bypass graft", "valve", "coronary", "revascularization", "cardiac surgery" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/ms7x-sfpf/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-01",
+  "description" : "This dataset measures the air and water near Indian Point and other locations(background) around NYS to determine the normal levels of radioactivity and monitors the influence of human activities on these levels.  The site numbers represent the location from which samples are collected.  \r\n\r\nThis dataset is not designed, or intended to monitor releases from discharge points at a specific facility (e.g., a stack). The facility operator performs this type of monitoring to meet the requirements of its licensing agency (e.g., a federal agency or the New York State Department of Environmental Conservation).   A column has been added for values which can be graphed.  Readings where a less than value is displayed show a value that is less than the detection limit of the measurement method and are essentially equivalent to 0.  Variations in detection limit are due to variations in sample collection and measurement instrument performance.  For more information please visit, http://www.nyhealth.gov/radiation or go to the \"About\" tab.",
+  "feed" : "https://health.data.ny.gov/api/views/ms7x-sfpf/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ms7x-sfpf",
+  "keyword" : "nuclear,power plants,radiation,environmental monitoring",
+  "modified" : "2013-08-14",
+  "releaseDate" : "2013-04-01",
+  "title" : "Environmental Radiation Surveillance Indian Point Readings: Beginning 2009",
+  "webService" : "https://health.data.ny.gov/resource/ms7x-sfpf",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/ms7x-sfpf/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/ms7x-sfpf/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/ms7x-sfpf/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/ms7x-sfpf/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/ms7x-sfpf/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/ms7x-sfpf/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "nuclear", "power plants", "radiation", "environmental monitoring" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/87gk-g3zt/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-07-11",
+  "description" : "This dataset measures the air, water, milk, fish, sediment, and fruit/veg near Ginna Station and other locations(background) around NYS to determine the normal levels of radioactivity and monitors the influence of human activities on these levels. The site numbers represent the location from which samples are collected. This dataset is not designed, or intended to monitor releases from discharge points at a specific facility (e.g., a stack). The facility operator performs this type of monitoring to meet the requirements of its licensing agency (e.g., a federal agency or the New York State Department of Environmental Conservation). A column has been added for values which can be graphed. Readings where a less than value is displayed show a value that is less than the detection limit of the measurement method and are essentially equivalent to 0. Variations in detection limit are due to variations in sample collection and measurement instrument performance. For more information please visit http://www.health.ny.gov/environmental/radiological/radon/ , or go to the \"About\" tab.",
+  "feed" : "https://health.data.ny.gov/api/views/87gk-g3zt/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "87gk-g3zt",
+  "keyword" : "nuclear,power plants,radiation,environmental monitoring",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-07-11",
+  "title" : "Environmental Radiation Surveillance Ginna Station Readings: Beginning 2009",
+  "webService" : "https://health.data.ny.gov/resource/87gk-g3zt",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/87gk-g3zt/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/87gk-g3zt/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/87gk-g3zt/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/87gk-g3zt/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/87gk-g3zt/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/87gk-g3zt/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "nuclear", "power plants", "radiation", "environmental monitoring" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/m8u7-8n8i/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-07-10",
+  "description" : "This dataset measures the air, water, milk, and fallout at Background sites around NYS to determine the normal levels of radioactivity and monitors the influence of human activities on these levels. Background samples are collected statewide from several sites which are not expected to be influenced by discharges of radionuclides to the environment.  The site numbers represent the location from which samples are collected. This dataset is not designed, or intended to monitor releases from discharge points at a specific facility (e.g., a stack). The facility operator performs this type of monitoring to meet the requirements of its licensing agency (e.g., a federal agency or the New York State Department of Environmental Conservation). A column has been added for values which can be graphed. Readings where a less than value is displayed show a value that is less than the detection limit of the measurement method and are essentially equivalent to 0. Variations in detection limit are due to variations in sample collection and measurement instrument performance. For more information check out:  http://www.health.ny.gov/environmental/radiological/radon/ go, or to the \"About\" tab.",
+  "feed" : "https://health.data.ny.gov/api/views/m8u7-8n8i/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "m8u7-8n8i",
+  "keyword" : "nuclear,power plants,radiation,environmental monitoring",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-07-10",
+  "title" : "Environmental Radiation Surveillance Background Site Readings: Beginning 2009",
+  "webService" : "https://health.data.ny.gov/resource/m8u7-8n8i",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/m8u7-8n8i/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/m8u7-8n8i/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/m8u7-8n8i/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/m8u7-8n8i/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/m8u7-8n8i/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/m8u7-8n8i/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "nuclear", "power plants", "radiation", "environmental monitoring" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/cekp-nqfv/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-06-21",
+  "description" : "This data consists of county level data for nine health tracking indicators and sub-indicators for the Prevention Agenda 2013-2017: New York State’s Health Improvement Plan.  A health tracking indicator is a metric through which progress on a certain area of health improvement can be assessed.  The indicators are organized by the Priority Area of the Prevention Agenda as well as the Focus Area under each Priority Area.  This dataset includes tracking indicators for Prevent Chronic Diseases priority area and focus areas, but tracking indicators for the other priority areas will be added.  Along with the name of each indicator are given the baseline year, the baseline year county value of the indicator, and the Prevention Agenda 2017 state target for the indicator. Sub-indicators are included in this dataset to measure health disparities among socioeconomic groups. . For more information check out: http://www.health.ny.gov/prevention/prevention_agenda/2013-2017/ or go to the “about” tab.",
+  "feed" : "https://health.data.ny.gov/api/views/cekp-nqfv/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "cekp-nqfv",
+  "keyword" : "prevention agenda,tracking indicator",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-06-21",
+  "title" : "Prevention Agenda 2013 - 2017 Tracking Indicators: County Baselines and State Targets",
+  "webService" : "https://health.data.ny.gov/resource/cekp-nqfv",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/cekp-nqfv/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/cekp-nqfv/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/cekp-nqfv/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/cekp-nqfv/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/cekp-nqfv/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/cekp-nqfv/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "prevention agenda", "tracking indicator" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/2hcc-shji/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-09",
+  "description" : "This data includes the name and location of active food service establishments and the violations that were found at the time of the inspection.  Active food service establishments include only establishments that are currently operating.  This dataset excludes inspections conducted in New York City (http://www.nyc.gov/html/doh/html/rii/index.shtml), Suffolk County (http://apps.suffolkcountyny.gov/health/Restaurant/intro.html) and Erie County. Inspections are a “snapshot” in time and are not always reflective of the day-to-day operations and overall condition of an establishment. Occasionally, remediation may not appear until the following month due to the timing of the updates. Update frequencies and availability of historical inspection data may vary from county to county. Some counties provide this information on their own websites and information found there may be updated more frequently. This dataset is refreshed on a monthly basis. The inspection data contained in this dataset was not collected in a manner intended for use as a restaurant grading system, and should not be construed or interpreted as such. Any use of this data to develop a restaurant grading system is not supported or endorsed by the New York State Department of Health.  For more information, visit http://www.health.ny.gov/regulations/nycrr/title_10/part_14/subpart_14-1.htm or go to the “About” tab.",
+  "feed" : "https://health.data.ny.gov/api/views/2hcc-shji/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "2hcc-shji",
+  "keyword" : "restaurant,food,inspection,violation,oph,public health",
+  "modified" : "2013-08-15",
+  "releaseDate" : "2013-04-09",
+  "title" : "Food Service Establishment Inspections: Beginning 2005 (ACTIVE)",
+  "webService" : "https://health.data.ny.gov/resource/2hcc-shji",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/2hcc-shji/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/2hcc-shji/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/2hcc-shji/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/2hcc-shji/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/2hcc-shji/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/2hcc-shji/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "restaurant", "food", "inspection", "violation", "oph", "public health" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/aaxz-j6pj/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-10",
+  "description" : "This data includes the name and location of inactive food service establishments and the violations that were found at the time of the inspection.  Inactive food service establishments include only establishments that are no longer in business or have not operated for an extended period of time.  This dataset excludes inspections conducted in New York City (http://www.nyc.gov/html/doh/html/rii/index.shtml), Suffolk County (http://apps.suffolkcountyny.gov/health/Restaurant/intro.html) and Erie County. Inspections are a “snapshot” in time and are not always reflective of the day-to-day operations and overall condition of an establishment. Occasionally, remediation may not appear until the following month due to the timing of the updates. Update frequencies and availability of historical inspection data may vary from county to county. Some counties provide this information on their own websites and information found there may be updated more frequently. This dataset is refreshed on a monthly basis. The inspection data contained in this dataset was not collected in a manner intended for use as a restaurant grading system, and should not be construed or interpreted as such. Any use of this data to develop a restaurant grading system is not supported or endorsed by the New York State Department of Health.  For more information, visit http://www.health.ny.gov/regulations/nycrr/title_10/part_14/subpart_14-1.htm or go to the “About” tab.",
+  "feed" : "https://health.data.ny.gov/api/views/aaxz-j6pj/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "aaxz-j6pj",
+  "keyword" : "restaurant,food,inspection,violation,oph,public health",
+  "modified" : "2013-08-15",
+  "releaseDate" : "2013-04-10",
+  "title" : "Food Service Establishment Inspections: Beginning 2005 (INACTIVE)",
+  "webService" : "https://health.data.ny.gov/resource/aaxz-j6pj",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/aaxz-j6pj/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/aaxz-j6pj/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/aaxz-j6pj/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/aaxz-j6pj/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/aaxz-j6pj/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/aaxz-j6pj/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "restaurant", "food", "inspection", "violation", "oph", "public health" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/cnih-y5dw/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-29",
+  "description" : "This data includes the name and location of food service establishments and the violations that were found at the time of their last inspection. This dataset excludes inspections conducted in New York City (see: https://nycopendata.socrata.com/), Suffolk County (http://apps.suffolkcountyny.gov/health/Restaurant/intro.html) and Erie County. Inspections are a “snapshot” in time and are not always reflective of the day-to-day operations and overall condition of an establishment. Occasionally, remediation may not appear until the following month due to the timing of the updates. Some counties provide this information on their own websites and information found there may be updated more frequently. This dataset is refreshed on a monthly basis. \r\n\r\nLast inspection data is the most recently submitted and available data.\r\n\r\nFor more information, check out http://www.health.ny.gov/regulations/nycrr/title_10/part_14/subpart_14-1.htm, or go to the \"About\" tab.",
+  "feed" : "https://health.data.ny.gov/api/views/cnih-y5dw/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "cnih-y5dw",
+  "keyword" : "restaurant,food,inspection,violation,oph,public health",
+  "modified" : "2013-08-22",
+  "releaseDate" : "2013-01-29",
+  "title" : "Food Service Establishment: Last Inspection",
+  "webService" : "https://health.data.ny.gov/resource/cnih-y5dw",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/cnih-y5dw/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/cnih-y5dw/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/cnih-y5dw/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/cnih-y5dw/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/cnih-y5dw/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/cnih-y5dw/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "restaurant", "food", "inspection", "violation", "oph", "public health" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/ebmi-8ctw/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-12",
+  "description" : "The Professional Medical Conduct Board Actions data consist of all public actions taken against physicians, physician assistants, specialist assistants, and medical professional corporations pursuant to Section 230 of the New York State Public Health Law and Section 6530 of the New York State Education Law.\r\n\r\nFor more information, check out http://www.health.ny.gov/professionals/doctors/conduct/ , or go to the \"About\" tab.",
+  "feed" : "https://health.data.ny.gov/api/views/ebmi-8ctw/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ebmi-8ctw",
+  "keyword" : "board actions,doctor,medical,misconduct,physician,professional,sanctioned,specialist,integrity",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-02-12",
+  "title" : "Professional Medical Conduct Board Actions: Beginning 1990",
+  "webService" : "https://health.data.ny.gov/resource/ebmi-8ctw",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/ebmi-8ctw/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/ebmi-8ctw/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/ebmi-8ctw/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/ebmi-8ctw/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/ebmi-8ctw/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/ebmi-8ctw/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "board actions", "doctor", "medical", "misconduct", "physician", "professional", "sanctioned", "specialist", "integrity" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/x67s-agqg/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-07-11",
+  "description" : "This dataset measures the air, water, milk, fish, sediment, fruit/veg, and vegetation at Nine Mile Point and James A Fitzpatrick and other locations(background) around NYS to determine the normal levels of radioactivity and monitors the influence of human activities on these levels. The site numbers represent the location from which samples are collected. This dataset is not designed, or intended to monitor releases from discharge points at a specific facility (e.g., a stack). The facility operator performs this type of monitoring to meet the requirements of its licensing agency (e.g., a federal agency or the New York State Department of Environmental Conservation). A column has been added for values which can be graphed. Readings where a less than value is displayed show a value that is less than the detection limit of the measurement method and are essentially equivalent to 0. Variations in detection limit are due to variations in sample collection and measurement instrument performance. For more information check out: http://www.health.ny.gov/environmental/radiological/radon/  or go to the \"About\" tab.",
+  "feed" : "https://health.data.ny.gov/api/views/x67s-agqg/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "x67s-agqg",
+  "keyword" : "nuclear,power plants,radiation,environmental monitoring",
+  "modified" : "2013-08-17",
+  "releaseDate" : "2013-07-11",
+  "title" : "Environmental Radiation Surveillance Nine Mile Point and James A Fitzpatrick Readings: Beginning 2009",
+  "webService" : "https://health.data.ny.gov/resource/x67s-agqg",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/x67s-agqg/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/x67s-agqg/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/x67s-agqg/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/x67s-agqg/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/x67s-agqg/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/x67s-agqg/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "nuclear", "power plants", "radiation", "environmental monitoring" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/uhyy-xp9s/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-28",
+  "description" : "The Department of Health requires nursing homes to complete electronic filing of each facility's licensed nursing home beds and availability by bed category on a weekly basis. All nursing homes are requested to submit their Weekly Bed Census between Wednesday and Friday of each week, based on the census at 12:00 AM on Wednesday night.\r\n\r\nThe Nursing Home Census- Historic data is the most comprehensive nursing home data available and is suitable for trending.\r\n\r\nAvailable Bed and Occupancy information is self-reported, and is not audited by the NYSDOH.\r\n\r\nFor more information, check out http://nursinghomes.nyhealth.gov/, or go to the \"About\" tab.",
+  "feed" : "https://health.data.ny.gov/api/views/uhyy-xp9s/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "uhyy-xp9s",
+  "keyword" : "beds,census,nursing homes,occupancy",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-01-28",
+  "title" : "Nursing Home Weekly Bed Census: Beginning 2009",
+  "webService" : "https://health.data.ny.gov/resource/uhyy-xp9s",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/uhyy-xp9s/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/uhyy-xp9s/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/uhyy-xp9s/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/uhyy-xp9s/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/uhyy-xp9s/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/uhyy-xp9s/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "beds", "census", "nursing homes", "occupancy" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/izta-vnpq/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-28",
+  "description" : "The Department of Health requires nursing homes to complete electronic filing of each facility's licensed nursing home beds and availability by bed category on a weekly basis. All nursing homes are requested to submit their Weekly Bed Census between Wednesday and Friday of each week, based on the census at 12:00 AM on Wednesday night.\r\n\r\nThe Nursing Home Weekly Bed Census data is the most recent data available.\r\n\r\nAvailable Bed and Occupancy information is self-reported, and is not audited by the NYSDOH.\r\n\r\nFor more information, check out http://nursinghomes.nyhealth.gov/, or go to the \"About\" tab.",
+  "feed" : "https://health.data.ny.gov/api/views/izta-vnpq/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "izta-vnpq",
+  "keyword" : "beds,census,nursing homes,occupancy",
+  "modified" : "2013-08-22",
+  "releaseDate" : "2013-01-28",
+  "title" : "Nursing Home Weekly Bed Census: Last Submission",
+  "webService" : "https://health.data.ny.gov/resource/izta-vnpq",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/izta-vnpq/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/izta-vnpq/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/izta-vnpq/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/izta-vnpq/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/izta-vnpq/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/izta-vnpq/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "beds", "census", "nursing homes", "occupancy" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/m4hz-kzn3/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-20",
+  "description" : "This dataset aggregates and displays the number of New York State Medicaid enrollees by eligibility year and month within each NYS Economic Region;  health insurance plan information; and enrollee demographics.  For more information, check out http://www.health.ny.gov/health_care/medicaid/, or go to the \"About\" tab.",
+  "feed" : "https://health.data.ny.gov/api/views/m4hz-kzn3/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "m4hz-kzn3",
+  "keyword" : "medicaid,enrollment",
+  "modified" : "2013-08-25",
+  "releaseDate" : "2013-05-20",
+  "title" : "Medicaid Program Enrollment by Month:  Beginning 2009",
+  "webService" : "https://health.data.ny.gov/resource/m4hz-kzn3",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/m4hz-kzn3/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/m4hz-kzn3/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/m4hz-kzn3/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/m4hz-kzn3/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/m4hz-kzn3/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/m4hz-kzn3/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "medicaid", "enrollment" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://health.data.ny.gov/api/views/e4fz-kg9u/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-07-16",
+  "description" : "This dataset contains information regarding the number of enrollments by population in the New York State Donate Life Registry. The registry is a confidential database that records a person’s consent to organ/tissue donation upon death. The database is used by donation professionals to determine a person donation status at the time of their death.  For more information, check out: www.health.ny.gov/donatelife or go to the “About” tab.",
+  "feed" : "https://health.data.ny.gov/api/views/e4fz-kg9u/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "e4fz-kg9u",
+  "keyword" : "enrollment,county,population,organ procurement",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-07-16",
+  "title" : "Donate Life Organ and Tissue Donor Registry Enrollment by County: Latest Month",
+  "webService" : "https://health.data.ny.gov/resource/e4fz-kg9u",
+  "distribution" : [ {
+    "accessURL" : "https://health.data.ny.gov/api/views/e4fz-kg9u/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/e4fz-kg9u/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/e4fz-kg9u/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/e4fz-kg9u/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/e4fz-kg9u/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://health.data.ny.gov/api/views/e4fz-kg9u/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "enrollment", "county", "population", "organ procurement" ]
+} ]

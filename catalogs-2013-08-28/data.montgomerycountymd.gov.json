@@ -1,0 +1,1239 @@
+[ {
+  "accessLevel" : "Public",
+  "description" : "Lists the datasets for this domain.  The format should correspond to the spec at http://project-open-data.github.io/schema/",
+  "format" : "application/json",
+  "frequency" : "hourly",
+  "identifier" : "https://data.montgomerycountymd.gov/data.json",
+  "modified" : "2013-08-28",
+  "title" : "Project Open Data, /data.json file",
+  "webService" : "https://data.montgomerycountymd.gov/data.json"
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.montgomerycountymd.gov/api/views/apsf-4yms/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-02-28",
+  "description" : "Address and Locations for all Fire Stations in Montgomery County, MD.",
+  "feed" : "https://data.montgomerycountymd.gov/api/views/apsf-4yms/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "apsf-4yms",
+  "keyword" : "fire",
+  "modified" : "2012-09-17",
+  "releaseDate" : "2012-02-28",
+  "title" : "Fire Stations",
+  "webService" : "https://data.montgomerycountymd.gov/resource/apsf-4yms",
+  "distribution" : [ {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/apsf-4yms/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/apsf-4yms/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/apsf-4yms/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/apsf-4yms/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/apsf-4yms/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/apsf-4yms/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "fire" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.montgomerycountymd.gov/api/views/sqip-urmr/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-02-28",
+  "description" : "Address and Locations for Post Offices in Montgomery County, MD.",
+  "feed" : "https://data.montgomerycountymd.gov/api/views/sqip-urmr/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "sqip-urmr",
+  "keyword" : "mail,post office,usps",
+  "modified" : "2012-09-13",
+  "releaseDate" : "2012-02-28",
+  "title" : "Post Offices",
+  "webService" : "https://data.montgomerycountymd.gov/resource/sqip-urmr",
+  "distribution" : [ {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/sqip-urmr/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/sqip-urmr/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/sqip-urmr/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/sqip-urmr/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/sqip-urmr/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/sqip-urmr/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "mail", "post office", "usps" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.montgomerycountymd.gov/api/views/es5m-4wf9/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-10-03",
+  "description" : "The Levy Year 2012 real property tax rate dataset reflects all the rates per $100 set each year by the County Council.  These rates are applied to the assessed value of the real property to derive the applicable ad valorem tax.  The fully phased-in assessed value equals the full cash value of the property. The real property tax is levied annually on all taxable land and improvements.  The tax rate schedule is updated annually. A detailed tax rate schedule for all tax classes is available by clicking on “Tax Rates” under the link for “County Taxes” when visiting the County website at www.montgomerycountymd.gov/finance or by calling 311 (240-777-0311).\r\n\r\nUpdate Frequency:  Annually",
+  "feed" : "https://data.montgomerycountymd.gov/api/views/es5m-4wf9/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "es5m-4wf9",
+  "keyword" : "real,property,tax,rates",
+  "modified" : "2012-11-30",
+  "releaseDate" : "2012-10-03",
+  "title" : "Real Property Tax Rates",
+  "webService" : "https://data.montgomerycountymd.gov/resource/es5m-4wf9",
+  "distribution" : [ {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/es5m-4wf9/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/es5m-4wf9/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/es5m-4wf9/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/es5m-4wf9/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/es5m-4wf9/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/es5m-4wf9/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "real", "property", "tax", "rates" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.montgomerycountymd.gov/api/views/tzyi-s757/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-08",
+  "description" : "Information on Cable Inspections performed by the Montgomery County Cable Office since September 1, 2010.  This dataset will be updated on a quarterly basis.",
+  "feed" : "https://data.montgomerycountymd.gov/api/views/tzyi-s757/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "tzyi-s757",
+  "keyword" : "cable,inspections",
+  "license" : "Public Domain\nMontgomery County, MD Government",
+  "modified" : "2013-02-21",
+  "releaseDate" : "2012-08-08",
+  "title" : "Cable Inspections",
+  "webService" : "https://data.montgomerycountymd.gov/resource/tzyi-s757",
+  "distribution" : [ {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/tzyi-s757/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/tzyi-s757/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/tzyi-s757/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/tzyi-s757/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/tzyi-s757/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/tzyi-s757/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "cable", "inspections" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.montgomerycountymd.gov/api/views/r89j-py2p/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-09-11",
+  "description" : "This dataset includes the Fiscal Year* 2013 Council-approved operating budget for Montgomery County.  The dataset does not include revenues and agency budget information; each agency, such as Montgomery County Public Schools, maintain their individual budget information.   The data can be sorted, filtered, and exported by the following elements:  Function (grouping, such as “Public Safety”), Department, Program, Cost Center (activity within a program), Fund Type , Fund Subtype, Fund Name, Subfund Name, Personnel & Operating Expenses, Object Name, and Account Name.\r\n\r\n\r\n*The 12-month period to which the annual operating and capital budgets and their respective appropriations apply.  The Montgomery County fiscal year starts on July 1st and ends on June 30th.\r\n\r\nUpdate Frequency:  Annually",
+  "feed" : "https://data.montgomerycountymd.gov/api/views/r89j-py2p/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "r89j-py2p",
+  "keyword" : "budget,operating budget,county budget,fiscal year",
+  "modified" : "2012-12-20",
+  "releaseDate" : "2012-09-11",
+  "title" : "Budget",
+  "webService" : "https://data.montgomerycountymd.gov/resource/r89j-py2p",
+  "distribution" : [ {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/r89j-py2p/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/r89j-py2p/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/r89j-py2p/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/r89j-py2p/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/r89j-py2p/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/r89j-py2p/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "budget", "operating budget", "county budget", "fiscal year" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.montgomerycountymd.gov/api/views/qgb4-jpr6/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-10-23",
+  "description" : "This dataset includes the Internal Service Fund data included in the annual operating budget.  Internal Service Funds (ISF) are proprietary funds used to record activity (primarily goods and services) provided by one department to other departments of the County government on a cost-reimbursable basis.  The County uses this type of fund to account for Motor Pool, Central Duplicating, Liability and Property Coverage Self-Insurance, and Employee Health Benefits Self-Insurance.\r\n\r\nUpdate Frequency:  Annual",
+  "feed" : "https://data.montgomerycountymd.gov/api/views/qgb4-jpr6/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "qgb4-jpr6",
+  "keyword" : "budget,internal,service,funds,internal service funds",
+  "modified" : "2012-11-30",
+  "releaseDate" : "2012-10-23",
+  "title" : "Budget - Internal Service Funds",
+  "webService" : "https://data.montgomerycountymd.gov/resource/qgb4-jpr6",
+  "distribution" : [ {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/qgb4-jpr6/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/qgb4-jpr6/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/qgb4-jpr6/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/qgb4-jpr6/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/qgb4-jpr6/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/qgb4-jpr6/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "budget", "internal", "service", "funds", "internal service funds" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.montgomerycountymd.gov/api/views/ar4t-tnkq/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-06-11",
+  "description" : "Locations of all Montgomery County, MD Public Libraries.",
+  "feed" : "https://data.montgomerycountymd.gov/api/views/ar4t-tnkq/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ar4t-tnkq",
+  "keyword" : "library",
+  "license" : "Public Domain\nMontgomery County, MD Government",
+  "modified" : "2012-09-14",
+  "releaseDate" : "2012-06-11",
+  "title" : "Libraries",
+  "webService" : "https://data.montgomerycountymd.gov/resource/ar4t-tnkq",
+  "distribution" : [ {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/ar4t-tnkq/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/ar4t-tnkq/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/ar4t-tnkq/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/ar4t-tnkq/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/ar4t-tnkq/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/ar4t-tnkq/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "library" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.montgomerycountymd.gov/api/views/j2i5-vax9/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-08",
+  "description" : "Information on all transmission facility applications (new tower or attachments) filed with the Montgomery County Cable Office for telecommunications and radio & TV transmission sites, including the location of the tower and the disposition of the application.  This dataset will be updated on a quarterly basis.",
+  "feed" : "https://data.montgomerycountymd.gov/api/views/j2i5-vax9/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "j2i5-vax9",
+  "keyword" : "cable,application,location",
+  "license" : "Public Domain\nMontgomery County, MD Government",
+  "modified" : "2013-01-24",
+  "releaseDate" : "2012-08-08",
+  "title" : "Transmission Facilities Application Status & Location",
+  "webService" : "https://data.montgomerycountymd.gov/resource/j2i5-vax9",
+  "distribution" : [ {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/j2i5-vax9/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/j2i5-vax9/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/j2i5-vax9/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/j2i5-vax9/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/j2i5-vax9/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/j2i5-vax9/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "cable", "application", "location" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.montgomerycountymd.gov/api/views/ie8m-t54q/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-02-28",
+  "description" : "Address and locations for Health & Human Services (HHS) Facilities in Montgomery County, MD.",
+  "feed" : "https://data.montgomerycountymd.gov/api/views/ie8m-t54q/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ie8m-t54q",
+  "keyword" : "health,services",
+  "modified" : "2012-09-17",
+  "releaseDate" : "2012-02-28",
+  "title" : "Health & Human Services (HHS) Facilities",
+  "webService" : "https://data.montgomerycountymd.gov/resource/ie8m-t54q",
+  "distribution" : [ {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/ie8m-t54q/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/ie8m-t54q/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/ie8m-t54q/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/ie8m-t54q/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/ie8m-t54q/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/ie8m-t54q/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "health", "services" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.montgomerycountymd.gov/api/views/677d-kzp6/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-02-28",
+  "description" : "Address and Locations for Hospitals in Montgomery County, MD and the immediate vicinity.",
+  "feed" : "https://data.montgomerycountymd.gov/api/views/677d-kzp6/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "677d-kzp6",
+  "keyword" : "hospital,health",
+  "modified" : "2013-04-16",
+  "releaseDate" : "2012-02-28",
+  "title" : "Hospitals",
+  "webService" : "https://data.montgomerycountymd.gov/resource/677d-kzp6",
+  "distribution" : [ {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/677d-kzp6/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/677d-kzp6/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/677d-kzp6/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/677d-kzp6/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/677d-kzp6/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/677d-kzp6/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital", "health" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.montgomerycountymd.gov/api/views/v2ei-xfce/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-03-09",
+  "description" : "All cable complaints filed with the Montgomery County Cable Office since January 2010.  This data will be updated on a quarterly basis.",
+  "feed" : "https://data.montgomerycountymd.gov/api/views/v2ei-xfce/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "v2ei-xfce",
+  "keyword" : "cable,complaints",
+  "license" : "Public Domain\nMontgomery County, MD",
+  "modified" : "2013-02-21",
+  "releaseDate" : "2012-03-09",
+  "title" : "Cable Complaints",
+  "webService" : "https://data.montgomerycountymd.gov/resource/v2ei-xfce",
+  "distribution" : [ {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/v2ei-xfce/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/v2ei-xfce/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/v2ei-xfce/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/v2ei-xfce/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/v2ei-xfce/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/v2ei-xfce/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "cable", "complaints" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.montgomerycountymd.gov/api/views/3b5m-syzr/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-03-13",
+  "description" : "Location of all 2012 Election Polling Places, including the Early Voting Centers.",
+  "feed" : "https://data.montgomerycountymd.gov/api/views/3b5m-syzr/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "3b5m-syzr",
+  "keyword" : "election,polling place,vote",
+  "license" : "Public Domain\nMontgomery County, MD",
+  "modified" : "2012-09-17",
+  "releaseDate" : "2012-03-13",
+  "title" : "2012 Election Polling Places",
+  "webService" : "https://data.montgomerycountymd.gov/resource/3b5m-syzr",
+  "distribution" : [ {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/3b5m-syzr/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/3b5m-syzr/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/3b5m-syzr/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/3b5m-syzr/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/3b5m-syzr/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/3b5m-syzr/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "election", "polling place", "vote" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.montgomerycountymd.gov/api/views/jydr-f7vx/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-13",
+  "description" : "Salary information for all active, permanent employees of Montgomery County, MD as of January 15, 2013.  This data will be updated annually.",
+  "feed" : "https://data.montgomerycountymd.gov/api/views/jydr-f7vx/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "jydr-f7vx",
+  "keyword" : "salary employee government",
+  "license" : "Public Domain\nMontgomery County, MD Government",
+  "modified" : "2013-06-15",
+  "releaseDate" : "2012-11-13",
+  "title" : "Employee Salaries",
+  "webService" : "https://data.montgomerycountymd.gov/resource/jydr-f7vx",
+  "distribution" : [ {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/jydr-f7vx/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/jydr-f7vx/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/jydr-f7vx/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/jydr-f7vx/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/jydr-f7vx/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/jydr-f7vx/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "salary employee government" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.montgomerycountymd.gov/api/views/772q-4wm8/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-02-29",
+  "description" : "Address and Locations of all Public Schools in Montgomery County, MD.",
+  "feed" : "https://data.montgomerycountymd.gov/api/views/772q-4wm8/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "772q-4wm8",
+  "keyword" : "schools",
+  "license" : "Public Domain\nMontgomery County, MD",
+  "modified" : "2013-08-07",
+  "releaseDate" : "2012-02-29",
+  "title" : "Public Schools",
+  "webService" : "https://data.montgomerycountymd.gov/resource/772q-4wm8",
+  "distribution" : [ {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/772q-4wm8/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/772q-4wm8/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/772q-4wm8/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/772q-4wm8/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/772q-4wm8/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/772q-4wm8/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "schools" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.montgomerycountymd.gov/api/views/b6ht-fw3x/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-06-11",
+  "description" : "Data for all Demolition Permit applications, including status and work performed.\r\n\r\nUpdate Frequency:  Daily",
+  "feed" : "https://data.montgomerycountymd.gov/api/views/b6ht-fw3x/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "b6ht-fw3x",
+  "keyword" : "permits,demolition,residential",
+  "modified" : "2013-08-27",
+  "releaseDate" : "2013-06-11",
+  "title" : "Demolition Permits",
+  "webService" : "https://data.montgomerycountymd.gov/resource/b6ht-fw3x",
+  "distribution" : [ {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/b6ht-fw3x/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/b6ht-fw3x/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/b6ht-fw3x/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/b6ht-fw3x/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/b6ht-fw3x/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/b6ht-fw3x/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "permits", "demolition", "residential" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.montgomerycountymd.gov/api/views/m88u-pqki/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-01",
+  "description" : "Data for all Residential Building Permits issued since 2000, including status and work performed.\r\n\r\nUpdate Frequency:  Daily",
+  "feed" : "https://data.montgomerycountymd.gov/api/views/m88u-pqki/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "m88u-pqki",
+  "keyword" : "",
+  "modified" : "2013-08-27",
+  "releaseDate" : "2012-08-01",
+  "title" : "Residential Permit",
+  "webService" : "https://data.montgomerycountymd.gov/resource/m88u-pqki",
+  "distribution" : [ {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/m88u-pqki/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/m88u-pqki/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/m88u-pqki/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/m88u-pqki/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/m88u-pqki/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/m88u-pqki/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.montgomerycountymd.gov/api/views/vmu2-pnrc/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-10-04",
+  "description" : "The following dataset is a listing of all active County contracts.  This list is updated daily.\r\n\r\nUpdate Frequency:  Daily",
+  "feed" : "https://data.montgomerycountymd.gov/api/views/vmu2-pnrc/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "vmu2-pnrc",
+  "keyword" : "contracts,procurement",
+  "modified" : "2013-08-27",
+  "releaseDate" : "2012-10-04",
+  "title" : "Contracts",
+  "webService" : "https://data.montgomerycountymd.gov/resource/vmu2-pnrc",
+  "distribution" : [ {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/vmu2-pnrc/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/vmu2-pnrc/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/vmu2-pnrc/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/vmu2-pnrc/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/vmu2-pnrc/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/vmu2-pnrc/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "contracts", "procurement" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.montgomerycountymd.gov/api/views/5pue-gfbe/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-29",
+  "description" : "The Licensure & Regulatory Services Program inspects all licensed retail food establishments in Montgomery County for a variety of reasons (e.g. obtaining a permit, regular check-ups, or in response to complaints.) Included in this overall surveillance are two types of inspections that are conducted on a routine basis. The first type, a comprehensive inspection, is a thorough inspection that evaluates the sanitation, maintenance, and food service operations for the facility. This inspection includes many of the items found in the monitoring inspection, such as critical temperatures and food handling procedures. The second type, a monitoring inspection, involves checking the food service operation for critical food temperatures, equipment temperatures, and general food handling / cleanliness practices. While monitoring inspections are not as detailed as environmental inspections, they help ensure that the facility is operating safely throughout the year.\r\n\r\nThe frequency of inspections is based on the food-borne illness risks associated with the food being processed at a facility. Based on the risk each facility is designated as high, medium, or low priority. High priority risk facilities prepare food products a day or more in advance or utilize any combination of two or more processes such as a cooking, cooling, reheating and hot holding food over four hours. Moderate priority risk facilities prepare and cook food products which are served immediately or within four hours. A low priority risk facility serve prepackage foods that are not potentially hazardous.\r\n\r\nFor high risk facilities, a monitoring inspection is conducted at least twice a year, and moderate risk facilities are inspected at least once a year. High and moderate risk facilities also receive at least one comprehensive inspection every year. Low risk priority facilities typically receive one comprehensive inspection every two years.\r\n\r\n(C) Denotes a Critical Violation. A Critical Violation means a food safety requirement that requires immediate correction. Failure for immediate correction results in cessation of some or all food operations or closure of the facility until violation is able to be corrected.\r\n\r\nUpdate Frequency:  Daily",
+  "feed" : "https://data.montgomerycountymd.gov/api/views/5pue-gfbe/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "5pue-gfbe",
+  "keyword" : "food,inspection,violations,closures",
+  "modified" : "2013-08-27",
+  "releaseDate" : "2012-08-29",
+  "title" : "Food Inspection",
+  "webService" : "https://data.montgomerycountymd.gov/resource/5pue-gfbe",
+  "distribution" : [ {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/5pue-gfbe/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/5pue-gfbe/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/5pue-gfbe/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/5pue-gfbe/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/5pue-gfbe/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/5pue-gfbe/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "food", "inspection", "violations", "closures" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.montgomerycountymd.gov/api/views/qxie-8qnp/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-06-11",
+  "description" : "Data for all Electrical Permit applications, including status and work performed.",
+  "feed" : "https://data.montgomerycountymd.gov/api/views/qxie-8qnp/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "qxie-8qnp",
+  "keyword" : "permit,residential,status",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-06-11",
+  "title" : "Electrical Building Permits",
+  "webService" : "https://data.montgomerycountymd.gov/resource/qxie-8qnp",
+  "distribution" : [ {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/qxie-8qnp/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/qxie-8qnp/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/qxie-8qnp/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/qxie-8qnp/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/qxie-8qnp/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/qxie-8qnp/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "permit", "residential", "status" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.montgomerycountymd.gov/api/views/ydri-y5u9/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-06-11",
+  "description" : "Data for all Electrical Business License Permit applications.  Update Frequency:  Daily",
+  "feed" : "https://data.montgomerycountymd.gov/api/views/ydri-y5u9/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ydri-y5u9",
+  "keyword" : "electrical,license,permit,applications",
+  "modified" : "2013-08-27",
+  "releaseDate" : "2013-06-11",
+  "title" : "Electrical Business Licenses",
+  "webService" : "https://data.montgomerycountymd.gov/resource/ydri-y5u9",
+  "distribution" : [ {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/ydri-y5u9/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/ydri-y5u9/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/ydri-y5u9/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/ydri-y5u9/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/ydri-y5u9/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/ydri-y5u9/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "electrical", "license", "permit", "applications" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.montgomerycountymd.gov/api/views/i26v-w6bd/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-01",
+  "description" : "Data for all Commercial Building Permits issued since 2000, including status and work performed.\r\n\r\nUpdate Frequency:  Daily",
+  "feed" : "https://data.montgomerycountymd.gov/api/views/i26v-w6bd/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "i26v-w6bd",
+  "keyword" : "",
+  "modified" : "2013-08-27",
+  "releaseDate" : "2012-08-01",
+  "title" : "Commercial Permits",
+  "webService" : "https://data.montgomerycountymd.gov/resource/i26v-w6bd",
+  "distribution" : [ {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/i26v-w6bd/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/i26v-w6bd/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/i26v-w6bd/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/i26v-w6bd/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/i26v-w6bd/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/i26v-w6bd/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.montgomerycountymd.gov/api/views/ih88-a6aa/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-06-11",
+  "description" : "Data for all Mechanical Permit applications, including status and work performed.  Update Frequency:  Daily",
+  "feed" : "https://data.montgomerycountymd.gov/api/views/ih88-a6aa/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ih88-a6aa",
+  "keyword" : "mechanical,permit,residential",
+  "modified" : "2013-08-26",
+  "releaseDate" : "2013-06-11",
+  "title" : "Mechanical Permits",
+  "webService" : "https://data.montgomerycountymd.gov/resource/ih88-a6aa",
+  "distribution" : [ {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/ih88-a6aa/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/ih88-a6aa/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/ih88-a6aa/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/ih88-a6aa/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/ih88-a6aa/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/ih88-a6aa/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "mechanical", "permit", "residential" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.montgomerycountymd.gov/api/views/2b9e-mbxk/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-06-11",
+  "description" : "Data for all Public Right of Way Permit applications, including status and work performed.  Update Frequency:  Daily",
+  "feed" : "https://data.montgomerycountymd.gov/api/views/2b9e-mbxk/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "2b9e-mbxk",
+  "keyword" : "permit,right of way,residential",
+  "modified" : "2013-08-26",
+  "releaseDate" : "2013-06-11",
+  "title" : "Public Right Of Way Permits",
+  "webService" : "https://data.montgomerycountymd.gov/resource/2b9e-mbxk",
+  "distribution" : [ {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/2b9e-mbxk/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/2b9e-mbxk/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/2b9e-mbxk/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/2b9e-mbxk/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/2b9e-mbxk/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/2b9e-mbxk/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "permit", "right of way", "residential" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.montgomerycountymd.gov/api/views/xtyh-brr2/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-20",
+  "description" : "Information on all MC311 Service Requests received (via email or phone) since July 1, 2012.  This data is updated daily.",
+  "feed" : "https://data.montgomerycountymd.gov/api/views/xtyh-brr2/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "xtyh-brr2",
+  "keyword" : "mc311,services",
+  "modified" : "2013-08-27",
+  "releaseDate" : "2012-08-20",
+  "title" : "MC311 Service Requests",
+  "webService" : "https://data.montgomerycountymd.gov/resource/xtyh-brr2",
+  "distribution" : [ {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/xtyh-brr2/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/xtyh-brr2/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/xtyh-brr2/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/xtyh-brr2/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/xtyh-brr2/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.montgomerycountymd.gov/api/views/xtyh-brr2/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "mc311", "services" ]
+} ]

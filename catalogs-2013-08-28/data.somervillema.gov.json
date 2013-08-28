@@ -1,0 +1,703 @@
+[ {
+  "accessLevel" : "Public",
+  "description" : "Lists the datasets for this domain.  The format should correspond to the spec at http://project-open-data.github.io/schema/",
+  "format" : "application/json",
+  "frequency" : "hourly",
+  "identifier" : "https://data.somervillema.gov/data.json",
+  "modified" : "2013-08-28",
+  "title" : "Project Open Data, /data.json file",
+  "webService" : "https://data.somervillema.gov/data.json"
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.somervillema.gov/api/views/6ssq-xzqu/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-05-10",
+  "feed" : "https://data.somervillema.gov/api/views/6ssq-xzqu/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "6ssq-xzqu",
+  "keyword" : "",
+  "modified" : "2012-06-25",
+  "releaseDate" : "2012-05-10",
+  "title" : "Catalog",
+  "webService" : "https://data.somervillema.gov/resource/datasets",
+  "distribution" : [ {
+    "accessURL" : "https://data.somervillema.gov/api/views/6ssq-xzqu/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/6ssq-xzqu/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/6ssq-xzqu/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/6ssq-xzqu/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/6ssq-xzqu/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/6ssq-xzqu/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.somervillema.gov/api/views/pjhx-dusc/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-02",
+  "feed" : "https://data.somervillema.gov/api/views/pjhx-dusc/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "pjhx-dusc",
+  "keyword" : "",
+  "modified" : "2013-02-26",
+  "releaseDate" : "2012-08-02",
+  "title" : "Results of 2011 Wellbeing Study",
+  "webService" : "https://data.somervillema.gov/resource/pjhx-dusc",
+  "distribution" : [ {
+    "accessURL" : "https://data.somervillema.gov/api/views/pjhx-dusc/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/pjhx-dusc/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/pjhx-dusc/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/pjhx-dusc/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/pjhx-dusc/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/pjhx-dusc/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.somervillema.gov/api/views/8y4j-ucsg/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-07",
+  "feed" : "https://data.somervillema.gov/api/views/8y4j-ucsg/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "8y4j-ucsg",
+  "keyword" : "budget",
+  "modified" : "2013-02-01",
+  "releaseDate" : "2012-08-07",
+  "title" : "Appropriations Budget - 2010 thru 2013",
+  "webService" : "https://data.somervillema.gov/resource/8y4j-ucsg",
+  "distribution" : [ {
+    "accessURL" : "https://data.somervillema.gov/api/views/8y4j-ucsg/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/8y4j-ucsg/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/8y4j-ucsg/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/8y4j-ucsg/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/8y4j-ucsg/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/8y4j-ucsg/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "budget" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.somervillema.gov/api/views/m7ah-26yy/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-07",
+  "feed" : "https://data.somervillema.gov/api/views/m7ah-26yy/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "m7ah-26yy",
+  "keyword" : "",
+  "modified" : "2012-08-07",
+  "releaseDate" : "2012-08-07",
+  "title" : "Revenue Budget - 2010 thru 2013",
+  "webService" : "https://data.somervillema.gov/resource/m7ah-26yy",
+  "distribution" : [ {
+    "accessURL" : "https://data.somervillema.gov/api/views/m7ah-26yy/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/m7ah-26yy/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/m7ah-26yy/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/m7ah-26yy/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/m7ah-26yy/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/m7ah-26yy/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.somervillema.gov/api/views/caa8-adi3/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-24",
+  "description" : "This dataset represents 311 call center requests and powers the 311 data explorer.",
+  "feed" : "https://data.somervillema.gov/api/views/caa8-adi3/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "caa8-adi3",
+  "keyword" : "",
+  "modified" : "2012-08-30",
+  "releaseDate" : "2012-08-24",
+  "title" : "311 Call Center Data",
+  "webService" : "https://data.somervillema.gov/resource/caa8-adi3",
+  "distribution" : [ {
+    "accessURL" : "https://data.somervillema.gov/api/views/caa8-adi3/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/caa8-adi3/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/caa8-adi3/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/caa8-adi3/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/caa8-adi3/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/caa8-adi3/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.somervillema.gov/api/views/vfqx-2vkk/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-30",
+  "description" : "Under Massachusetts G. L. c. 66, § 10(d), an employee’s name and place of employment  may be exempt from public records disclosure if the employee or a family member was a victim of an adjudicated crime or is a victim of domestic violence, including but not limited to sexual assault or rape, or provide family planning services or provide training in family planning services, or have a court order protecting you from having your name disclosed in such a manner",
+  "feed" : "https://data.somervillema.gov/api/views/vfqx-2vkk/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "vfqx-2vkk",
+  "keyword" : "",
+  "modified" : "2012-08-30",
+  "releaseDate" : "2012-08-30",
+  "title" : "2011 Gross Wages Over 50 K",
+  "webService" : "https://data.somervillema.gov/resource/vfqx-2vkk",
+  "distribution" : [ {
+    "accessURL" : "https://data.somervillema.gov/api/views/vfqx-2vkk/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/vfqx-2vkk/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/vfqx-2vkk/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/vfqx-2vkk/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/vfqx-2vkk/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/vfqx-2vkk/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.somervillema.gov/api/views/sebz-uihb/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-09-18",
+  "feed" : "https://data.somervillema.gov/api/views/sebz-uihb/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "sebz-uihb",
+  "keyword" : "",
+  "modified" : "2012-09-19",
+  "releaseDate" : "2012-09-18",
+  "title" : "Somerville ACE Program Scorecard",
+  "webService" : "https://data.somervillema.gov/resource/sebz-uihb",
+  "distribution" : [ {
+    "accessURL" : "https://data.somervillema.gov/api/views/sebz-uihb/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/sebz-uihb/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/sebz-uihb/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/sebz-uihb/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/sebz-uihb/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/sebz-uihb/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.somervillema.gov/api/views/kja3-3jiv/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-29",
+  "description" : "This dataset represents 311 call center requests and powers the 311 data explorer.",
+  "feed" : "https://data.somervillema.gov/api/views/kja3-3jiv/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "kja3-3jiv",
+  "keyword" : "311,work orders,call center",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2012-08-29",
+  "title" : "311 Call Center",
+  "webService" : "https://data.somervillema.gov/resource/kja3-3jiv",
+  "distribution" : [ {
+    "accessURL" : "https://data.somervillema.gov/api/views/kja3-3jiv/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/kja3-3jiv/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/kja3-3jiv/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/kja3-3jiv/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/kja3-3jiv/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/kja3-3jiv/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "311", "work orders", "call center" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.somervillema.gov/api/views/ecmw-4hgh/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-06-28",
+  "feed" : "https://data.somervillema.gov/api/views/ecmw-4hgh/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ecmw-4hgh",
+  "keyword" : "",
+  "modified" : "2013-07-08",
+  "releaseDate" : "2013-06-28",
+  "title" : "Somerville 2010 Census Demographics",
+  "webService" : "https://data.somervillema.gov/resource/ecmw-4hgh",
+  "distribution" : [ {
+    "accessURL" : "https://data.somervillema.gov/api/views/ecmw-4hgh/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/ecmw-4hgh/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/ecmw-4hgh/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/ecmw-4hgh/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/ecmw-4hgh/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/ecmw-4hgh/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.somervillema.gov/api/views/4wyh-gtfb/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-06-28",
+  "feed" : "https://data.somervillema.gov/api/views/4wyh-gtfb/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "4wyh-gtfb",
+  "keyword" : "",
+  "modified" : "2013-07-08",
+  "releaseDate" : "2013-06-28",
+  "title" : "Somerville Block Level Building Permits Construction Costs 2004-2010",
+  "webService" : "https://data.somervillema.gov/resource/4wyh-gtfb",
+  "distribution" : [ {
+    "accessURL" : "https://data.somervillema.gov/api/views/4wyh-gtfb/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/4wyh-gtfb/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/4wyh-gtfb/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/4wyh-gtfb/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/4wyh-gtfb/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/4wyh-gtfb/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.somervillema.gov/api/views/97w8-xar9/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-06-28",
+  "feed" : "https://data.somervillema.gov/api/views/97w8-xar9/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "97w8-xar9",
+  "keyword" : "",
+  "modified" : "2013-07-08",
+  "releaseDate" : "2013-06-28",
+  "title" : "Somerville Block Level Parcel Value 2003-2013",
+  "webService" : "https://data.somervillema.gov/resource/97w8-xar9",
+  "distribution" : [ {
+    "accessURL" : "https://data.somervillema.gov/api/views/97w8-xar9/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/97w8-xar9/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/97w8-xar9/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/97w8-xar9/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/97w8-xar9/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/97w8-xar9/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.somervillema.gov/api/views/qa92-wva4/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-06-28",
+  "feed" : "https://data.somervillema.gov/api/views/qa92-wva4/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "qa92-wva4",
+  "keyword" : "",
+  "modified" : "2013-07-08",
+  "releaseDate" : "2013-06-28",
+  "title" : "Somerville 2011 5-year ACS Statistics",
+  "webService" : "https://data.somervillema.gov/resource/qa92-wva4",
+  "distribution" : [ {
+    "accessURL" : "https://data.somervillema.gov/api/views/qa92-wva4/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/qa92-wva4/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/qa92-wva4/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/qa92-wva4/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/qa92-wva4/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/qa92-wva4/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.somervillema.gov/api/views/rzd3-6sat/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-07-08",
+  "description" : "The number of building permits issued each year for each assessor block.",
+  "feed" : "https://data.somervillema.gov/api/views/rzd3-6sat/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "rzd3-6sat",
+  "keyword" : "",
+  "modified" : "2013-07-09",
+  "releaseDate" : "2013-07-08",
+  "title" : "Building Permits Count 2004-2010",
+  "webService" : "https://data.somervillema.gov/resource/rzd3-6sat",
+  "distribution" : [ {
+    "accessURL" : "https://data.somervillema.gov/api/views/rzd3-6sat/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/rzd3-6sat/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/rzd3-6sat/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/rzd3-6sat/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/rzd3-6sat/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/rzd3-6sat/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.somervillema.gov/api/views/dtkn-fv7f/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-10-19",
+  "description" : "This dataset powers the 311 Explorer",
+  "feed" : "https://data.somervillema.gov/api/views/dtkn-fv7f/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "dtkn-fv7f",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2012-10-19",
+  "title" : "311 Call Center Raw Data",
+  "webService" : "https://data.somervillema.gov/resource/dtkn-fv7f",
+  "distribution" : [ {
+    "accessURL" : "https://data.somervillema.gov/api/views/dtkn-fv7f/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/dtkn-fv7f/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/dtkn-fv7f/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/dtkn-fv7f/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/dtkn-fv7f/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.somervillema.gov/api/views/dtkn-fv7f/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+} ]

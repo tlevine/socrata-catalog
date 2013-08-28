@@ -1,0 +1,956 @@
+[ {
+  "accessLevel" : "Public",
+  "description" : "Lists the datasets for this domain.  The format should correspond to the spec at http://project-open-data.github.io/schema/",
+  "format" : "application/json",
+  "frequency" : "hourly",
+  "identifier" : "https://data.wellingtonfl.gov/data.json",
+  "modified" : "2013-08-28",
+  "title" : "Project Open Data, /data.json file",
+  "webService" : "https://data.wellingtonfl.gov/data.json"
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.wellingtonfl.gov/api/views/ezn9-g8km/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-05-03",
+  "description" : "List of Building Permits",
+  "feed" : "https://data.wellingtonfl.gov/api/views/ezn9-g8km/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ezn9-g8km",
+  "keyword" : "building permits",
+  "modified" : "2012-05-03",
+  "releaseDate" : "2012-05-03",
+  "title" : "Building-permits",
+  "webService" : "https://data.wellingtonfl.gov/resource/ezn9-g8km",
+  "distribution" : [ {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/ezn9-g8km/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/ezn9-g8km/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/ezn9-g8km/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/ezn9-g8km/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/ezn9-g8km/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/ezn9-g8km/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "building permits" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.wellingtonfl.gov/api/views/ckeq-6y99/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-05-08",
+  "description" : "Listing, with contact information, for businesses with 2012 Business Licenses.",
+  "feed" : "https://data.wellingtonfl.gov/api/views/ckeq-6y99/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ckeq-6y99",
+  "keyword" : "license,business,wellington",
+  "license" : "Public Domain\nVillage of Wellington(http://www.wellingtonfl.gov)",
+  "modified" : "2012-08-06",
+  "releaseDate" : "2012-05-08",
+  "title" : "2012 Wellington Business Licenses (Non-Contractor)",
+  "webService" : "https://data.wellingtonfl.gov/resource/ckeq-6y99",
+  "distribution" : [ {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/ckeq-6y99/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/ckeq-6y99/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/ckeq-6y99/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/ckeq-6y99/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/ckeq-6y99/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/ckeq-6y99/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "license", "business", "wellington" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.wellingtonfl.gov/api/views/fg2a-eh5h/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-05-08",
+  "description" : "Listing of active buisness licenses in Wellington for Fiscal Year 2012.  Includes license and contact information.",
+  "feed" : "https://data.wellingtonfl.gov/api/views/fg2a-eh5h/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "fg2a-eh5h",
+  "keyword" : "wellington,license,business",
+  "license" : "Public Domain\nVillage of Wellington(http://www.wellingtonfl.gov)",
+  "modified" : "2012-05-08",
+  "releaseDate" : "2012-05-08",
+  "title" : "2012 Business Licenses - Non-Contractor",
+  "webService" : "https://data.wellingtonfl.gov/resource/fg2a-eh5h",
+  "distribution" : [ {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/fg2a-eh5h/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/fg2a-eh5h/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/fg2a-eh5h/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/fg2a-eh5h/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/fg2a-eh5h/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/fg2a-eh5h/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "wellington", "license", "business" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.wellingtonfl.gov/api/file_data/2DGHCdaRE8HHyEbNGPLuQtcYqSW24nbd-WOH8CIUwQk?filename=Wellington+Parcels.zip",
+  "created" : "2012-05-08",
+  "description" : "Wellington Parcels",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "yqre-p89d",
+  "keyword" : "wellington,parcels",
+  "modified" : "2012-05-08",
+  "releaseDate" : "2012-05-08",
+  "title" : "Parcels",
+  "distribution" : [ {
+    "accessURL" : "https://data.wellingtonfl.gov/api/file_data/2DGHCdaRE8HHyEbNGPLuQtcYqSW24nbd-WOH8CIUwQk?filename=Wellington+Parcels.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "wellington", "parcels" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.wellingtonfl.gov/api/views/6aei-bxzm/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-05-08",
+  "description" : "This dataset list all of the Code Enforcement Cases in Wellington since 2000.  This list only includes publically available cases.",
+  "feed" : "https://data.wellingtonfl.gov/api/views/6aei-bxzm/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "6aei-bxzm",
+  "keyword" : "wellington,code enforcement,case",
+  "license" : "Public Domain\nVillage of Wellington(http://www.wellingtonfl.gov)",
+  "modified" : "2012-05-09",
+  "releaseDate" : "2012-05-08",
+  "title" : "Code Enforcement Cases",
+  "webService" : "https://data.wellingtonfl.gov/resource/6aei-bxzm",
+  "distribution" : [ {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/6aei-bxzm/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/6aei-bxzm/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/6aei-bxzm/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/6aei-bxzm/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/6aei-bxzm/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/6aei-bxzm/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "wellington", "code enforcement", "case" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.wellingtonfl.gov/api/views/6snd-rfqw/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-06",
+  "description" : "Listing of all Certificate of Occupancy issued since January 1, 2000.",
+  "feed" : "https://data.wellingtonfl.gov/api/views/6snd-rfqw/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "6snd-rfqw",
+  "keyword" : "wellington,village,building,department,permit,co,certificate of occupancy,inspection",
+  "modified" : "2012-08-06",
+  "releaseDate" : "2012-08-06",
+  "title" : "CO",
+  "webService" : "https://data.wellingtonfl.gov/resource/6snd-rfqw",
+  "distribution" : [ {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/6snd-rfqw/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/6snd-rfqw/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/6snd-rfqw/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/6snd-rfqw/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/6snd-rfqw/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/6snd-rfqw/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "wellington", "village", "building", "department", "permit", "co", "certificate of occupancy", "inspection" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.wellingtonfl.gov/api/views/9yb5-p9fa/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-10",
+  "description" : "Listing of rgistered vendors with Wellington through July 31, 2012",
+  "feed" : "https://data.wellingtonfl.gov/api/views/9yb5-p9fa/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "9yb5-p9fa",
+  "keyword" : "wellington,village,vendors,purchasing,list,business",
+  "license" : "Public Domain\nWellington, Florida(http://www.wellingtonfl.gov)",
+  "modified" : "2012-08-10",
+  "releaseDate" : "2012-08-10",
+  "title" : "Vendor Listing",
+  "webService" : "https://data.wellingtonfl.gov/resource/9yb5-p9fa",
+  "distribution" : [ {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/9yb5-p9fa/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/9yb5-p9fa/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/9yb5-p9fa/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/9yb5-p9fa/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/9yb5-p9fa/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/9yb5-p9fa/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "wellington", "village", "vendors", "purchasing", "list", "business" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.wellingtonfl.gov/api/views/wkzt-vhm6/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-10",
+  "description" : "Listing of all purchase orders issued in Wellington as of July 31, 2012",
+  "feed" : "https://data.wellingtonfl.gov/api/views/wkzt-vhm6/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "wkzt-vhm6",
+  "keyword" : "wellington,village,purchase orders,listing,vendors",
+  "license" : "Public Domain\nWellington, Florida(http://www.wellingtonfl.gov)",
+  "modified" : "2012-08-10",
+  "releaseDate" : "2012-08-10",
+  "title" : "Purchase Order Listing",
+  "webService" : "https://data.wellingtonfl.gov/resource/wkzt-vhm6",
+  "distribution" : [ {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/wkzt-vhm6/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/wkzt-vhm6/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/wkzt-vhm6/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/wkzt-vhm6/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/wkzt-vhm6/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/wkzt-vhm6/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "wellington", "village", "purchase orders", "listing", "vendors" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.wellingtonfl.gov/api/views/duvw-hfu5/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-10",
+  "description" : "Listing of all Roof Inspections recorded in Wellington as of 8/9/2012",
+  "feed" : "https://data.wellingtonfl.gov/api/views/duvw-hfu5/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "duvw-hfu5",
+  "keyword" : "wellington,building,roof,inspection,insurance",
+  "license" : "Public Domain\nWellington, Florida(http://www.wellingtonfl.gov)",
+  "modified" : "2012-08-10",
+  "releaseDate" : "2012-08-10",
+  "title" : "Roof Inspections",
+  "webService" : "https://data.wellingtonfl.gov/resource/duvw-hfu5",
+  "distribution" : [ {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/duvw-hfu5/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/duvw-hfu5/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/duvw-hfu5/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/duvw-hfu5/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/duvw-hfu5/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/duvw-hfu5/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "wellington", "building", "roof", "inspection", "insurance" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.wellingtonfl.gov/api/views/e5tv-z73h/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-10",
+  "description" : "Listing of all active Rental Unit licenses in Wellington",
+  "feed" : "https://data.wellingtonfl.gov/api/views/e5tv-z73h/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "e5tv-z73h",
+  "keyword" : "wellington,village,rental,house,license",
+  "license" : "Public Domain\nWellington, Florida(http://www.wellingtonfl.gov)",
+  "modified" : "2012-08-10",
+  "releaseDate" : "2012-08-10",
+  "title" : "Rental Unit Licenses",
+  "webService" : "https://data.wellingtonfl.gov/resource/e5tv-z73h",
+  "distribution" : [ {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/e5tv-z73h/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/e5tv-z73h/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/e5tv-z73h/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/e5tv-z73h/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/e5tv-z73h/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/e5tv-z73h/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "wellington", "village", "rental", "house", "license" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.wellingtonfl.gov/api/views/hcqt-5rjv/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-10",
+  "description" : "Listing of all active contractor registrations - meaning these contractors have registered to do business in Wellington.  NOTE: Wellington does not warrant or recommend any of these contractors.  This list simple shows those contractors that have completed the registration process",
+  "feed" : "https://data.wellingtonfl.gov/api/views/hcqt-5rjv/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "hcqt-5rjv",
+  "keyword" : "wellington,village,building,electrical,plumbing,contractors,license,registration",
+  "license" : "Public Domain\nWellington, Florida(http://www.wellingtonfl.gov)",
+  "modified" : "2012-08-10",
+  "releaseDate" : "2012-08-10",
+  "title" : "Active Contractor Registrations",
+  "webService" : "https://data.wellingtonfl.gov/resource/hcqt-5rjv",
+  "distribution" : [ {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/hcqt-5rjv/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/hcqt-5rjv/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/hcqt-5rjv/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/hcqt-5rjv/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/hcqt-5rjv/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/hcqt-5rjv/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "wellington", "village", "building", "electrical", "plumbing", "contractors", "license", "registration" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.wellingtonfl.gov/api/views/nrbt-ch4g/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-23",
+  "feed" : "https://data.wellingtonfl.gov/api/views/nrbt-ch4g/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "nrbt-ch4g",
+  "keyword" : "",
+  "modified" : "2012-09-05",
+  "releaseDate" : "2012-08-23",
+  "title" : "Meter Read With Address 72012",
+  "webService" : "https://data.wellingtonfl.gov/resource/nrbt-ch4g",
+  "distribution" : [ {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/nrbt-ch4g/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/nrbt-ch4g/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/nrbt-ch4g/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/nrbt-ch4g/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/nrbt-ch4g/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/nrbt-ch4g/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.wellingtonfl.gov/api/views/3wx5-9qcg/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-09-07",
+  "description" : "Listing of Inspections completed by Wellington Building Department",
+  "feed" : "https://data.wellingtonfl.gov/api/views/3wx5-9qcg/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "3wx5-9qcg",
+  "keyword" : "wellington,building,permit,inspections",
+  "license" : "Public Domain\nWellington, Florida(http://www.wellingtonfl.gov)",
+  "modified" : "2012-09-08",
+  "releaseDate" : "2012-09-07",
+  "title" : "Inspections-2",
+  "webService" : "https://data.wellingtonfl.gov/resource/3wx5-9qcg",
+  "distribution" : [ {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/3wx5-9qcg/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/3wx5-9qcg/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/3wx5-9qcg/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/3wx5-9qcg/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/3wx5-9qcg/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/3wx5-9qcg/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "wellington", "building", "permit", "inspections" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.wellingtonfl.gov/api/views/sb7m-xbq5/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-09-08",
+  "description" : "Listing of owners, contractors and sub contractors associated with building permits in Wellington",
+  "feed" : "https://data.wellingtonfl.gov/api/views/sb7m-xbq5/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "sb7m-xbq5",
+  "keyword" : "wellington,village,permits,names,building,contractor,owner,sub",
+  "license" : "Public Domain\nWellington, Florida(http://www.wellingtonfl.gov)",
+  "modified" : "2012-09-08",
+  "releaseDate" : "2012-09-08",
+  "title" : "Permit Names",
+  "webService" : "https://data.wellingtonfl.gov/resource/sb7m-xbq5",
+  "distribution" : [ {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/sb7m-xbq5/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/sb7m-xbq5/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/sb7m-xbq5/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/sb7m-xbq5/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/sb7m-xbq5/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/sb7m-xbq5/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "wellington", "village", "permits", "names", "building", "contractor", "owner", "sub" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.wellingtonfl.gov/api/views/sxvy-f7ph/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-10-11",
+  "description" : "Listing of budgeted fixed asset items for the 2012/2013 budget.",
+  "feed" : "https://data.wellingtonfl.gov/api/views/sxvy-f7ph/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "sxvy-f7ph",
+  "keyword" : "wellington,village,data,fixed assets,budget,computers,florida",
+  "license" : "Public Domain\nVillage of Wellington(http://www.wellingtonfl.gov)",
+  "modified" : "2012-10-11",
+  "releaseDate" : "2012-10-11",
+  "title" : "2012 Fixed Assets Accounts",
+  "webService" : "https://data.wellingtonfl.gov/resource/sxvy-f7ph",
+  "distribution" : [ {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/sxvy-f7ph/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/sxvy-f7ph/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/sxvy-f7ph/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/sxvy-f7ph/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/sxvy-f7ph/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/sxvy-f7ph/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "wellington", "village", "data", "fixed assets", "budget", "computers", "florida" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.wellingtonfl.gov/api/views/yukt-pbhp/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-10-30",
+  "description" : "Test dataset Building Permits by Mahesh",
+  "feed" : "https://data.wellingtonfl.gov/api/views/yukt-pbhp/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "yukt-pbhp",
+  "keyword" : "",
+  "license" : "Public Domain\nWellington, Florida(http://www.wellingtonfl.gov)",
+  "modified" : "2012-10-30",
+  "releaseDate" : "2012-10-30",
+  "title" : "Test_Building_Permits",
+  "webService" : "https://data.wellingtonfl.gov/resource/yukt-pbhp",
+  "distribution" : [ {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/yukt-pbhp/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/yukt-pbhp/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/yukt-pbhp/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/yukt-pbhp/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/yukt-pbhp/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/yukt-pbhp/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.wellingtonfl.gov/api/views/njsp-pbsx/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-10-30",
+  "description" : "Test dataset for Active Rental Licenses by Mahesh",
+  "feed" : "https://data.wellingtonfl.gov/api/views/njsp-pbsx/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "njsp-pbsx",
+  "keyword" : "",
+  "license" : "Public Domain\nWellington, Florida(http://www.wellingtonfl.gov)",
+  "modified" : "2012-10-31",
+  "releaseDate" : "2012-10-30",
+  "title" : "Test_Active_Rental_Licenses",
+  "webService" : "https://data.wellingtonfl.gov/resource/njsp-pbsx",
+  "distribution" : [ {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/njsp-pbsx/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/njsp-pbsx/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/njsp-pbsx/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/njsp-pbsx/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/njsp-pbsx/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/njsp-pbsx/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.wellingtonfl.gov/api/views/fykz-53hw/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-10-30",
+  "description" : "Test Dataset by mahesh",
+  "feed" : "https://data.wellingtonfl.gov/api/views/fykz-53hw/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "fykz-53hw",
+  "keyword" : "",
+  "license" : "Public Domain\nWellington, Florida(http://www.wellingtonfl.gov)",
+  "modified" : "2012-11-08",
+  "releaseDate" : "2012-10-30",
+  "title" : "Test_Dataset1",
+  "webService" : "https://data.wellingtonfl.gov/resource/fykz-53hw",
+  "distribution" : [ {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/fykz-53hw/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/fykz-53hw/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/fykz-53hw/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/fykz-53hw/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/fykz-53hw/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/fykz-53hw/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.wellingtonfl.gov/api/views/gria-8rsx/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-08",
+  "description" : "test dataset by Mahesh",
+  "feed" : "https://data.wellingtonfl.gov/api/views/gria-8rsx/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "gria-8rsx",
+  "keyword" : "",
+  "license" : "Public Domain\nWellington, Florida(http://www.wellingtonfl.gov)",
+  "modified" : "2012-12-24",
+  "releaseDate" : "2012-11-08",
+  "title" : "Test SD Active Rental Licenses",
+  "webService" : "https://data.wellingtonfl.gov/resource/gria-8rsx",
+  "distribution" : [ {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/gria-8rsx/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/gria-8rsx/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/gria-8rsx/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/gria-8rsx/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/gria-8rsx/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.wellingtonfl.gov/api/views/gria-8rsx/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+} ]

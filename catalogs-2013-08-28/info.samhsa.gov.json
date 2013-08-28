@@ -1,0 +1,1438 @@
+[ {
+  "accessLevel" : "Public",
+  "description" : "Lists the datasets for this domain.  The format should correspond to the spec at http://project-open-data.github.io/schema/",
+  "format" : "application/json",
+  "frequency" : "hourly",
+  "identifier" : "https://info.samhsa.gov/data.json",
+  "modified" : "2013-08-28",
+  "title" : "Project Open Data, /data.json file",
+  "webService" : "https://info.samhsa.gov/data.json"
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://info.samhsa.gov/api/views/x5xv-b42b/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-03-03",
+  "description" : "Provides physical inventory distribution data by title (active only) for resources available on the SAMHSA Store (http://store.samhsa.gov).  Data do not include electronic distribution (e.g., PDF downloads) or distribution of archived resources.",
+  "feed" : "https://info.samhsa.gov/api/views/x5xv-b42b/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "x5xv-b42b",
+  "keyword" : "inventory",
+  "license" : "Public Domain\nSAMHSA Knowledge Management Platform",
+  "modified" : "2011-10-12",
+  "releaseDate" : "2011-03-03",
+  "title" : "SAMHSA Master Inventory Report",
+  "webService" : "https://info.samhsa.gov/resource/x5xv-b42b",
+  "distribution" : [ {
+    "accessURL" : "https://info.samhsa.gov/api/views/x5xv-b42b/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/x5xv-b42b/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/x5xv-b42b/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/x5xv-b42b/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/x5xv-b42b/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/x5xv-b42b/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "inventory" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://info.samhsa.gov/api/views/ia84-vcve/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-03-03",
+  "description" : "Mental health and substance abuse support services, including the state-level mental health and substance abuse agencies, protection and advocacy groups, and Medicaid and Medicare services agencies, as well as other advocacy groups.",
+  "feed" : "https://info.samhsa.gov/api/views/ia84-vcve/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ia84-vcve",
+  "keyword" : "mental health,substance abuse,advocacy,support",
+  "license" : "Public Domain\nSAMHSA Knowledge Base",
+  "modified" : "2011-10-12",
+  "releaseDate" : "2011-03-03",
+  "title" : "State-by-State Behavioral Health Resources",
+  "webService" : "https://info.samhsa.gov/resource/ia84-vcve",
+  "distribution" : [ {
+    "accessURL" : "https://info.samhsa.gov/api/views/ia84-vcve/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/ia84-vcve/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/ia84-vcve/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/ia84-vcve/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/ia84-vcve/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/ia84-vcve/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "mental health", "substance abuse", "advocacy", "support" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://info.samhsa.gov/api/views/as4v-e434/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-03-07",
+  "description" : "Provides the hierarchical classification scheme used to organize SAMHSA's products and resources on http://store.samhsa.gov.",
+  "feed" : "https://info.samhsa.gov/api/views/as4v-e434/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "as4v-e434",
+  "keyword" : "",
+  "license" : "Public Domain\nSAMHSA Knowledge Management Platform",
+  "modified" : "2011-12-15",
+  "releaseDate" : "2011-03-07",
+  "title" : "SAMHSA Store Taxonomy",
+  "webService" : "https://info.samhsa.gov/resource/as4v-e434",
+  "distribution" : [ {
+    "accessURL" : "https://info.samhsa.gov/api/views/as4v-e434/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/as4v-e434/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/as4v-e434/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/as4v-e434/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/as4v-e434/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/as4v-e434/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://info.samhsa.gov/api/views/y8ub-8msh/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-03-07",
+  "description" : "Provides metadata, including taxonomy facet terms, for SAMHSA publications.",
+  "feed" : "https://info.samhsa.gov/api/views/y8ub-8msh/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "y8ub-8msh",
+  "keyword" : "",
+  "license" : "Public Domain\nSAMHSA Knowledge Management Platform",
+  "modified" : "2013-08-08",
+  "releaseDate" : "2011-03-07",
+  "title" : "SAMHSA Publications",
+  "webService" : "https://info.samhsa.gov/resource/y8ub-8msh",
+  "distribution" : [ {
+    "accessURL" : "https://info.samhsa.gov/api/views/y8ub-8msh/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/y8ub-8msh/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/y8ub-8msh/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/y8ub-8msh/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/y8ub-8msh/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/y8ub-8msh/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://info.samhsa.gov/api/views/idna-wkgm/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-04-29",
+  "description" : "A directory of the Twitter hashtags, and related resources, that @samhsagov uses on a frequent basis. Note: SAMHSA is not responsible for the content using these hashtags aside from posting from SAMHSA's official Twitter account.",
+  "feed" : "https://info.samhsa.gov/api/views/idna-wkgm/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "idna-wkgm",
+  "keyword" : "twitter,hashtags,social media,behavioral health",
+  "modified" : "2011-08-20",
+  "releaseDate" : "2011-04-29",
+  "title" : "SAMHSA Hashtag Directory",
+  "webService" : "https://info.samhsa.gov/resource/idna-wkgm",
+  "distribution" : [ {
+    "accessURL" : "https://info.samhsa.gov/api/views/idna-wkgm/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/idna-wkgm/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/idna-wkgm/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/idna-wkgm/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/idna-wkgm/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/idna-wkgm/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "twitter", "hashtags", "social media", "behavioral health" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://info.samhsa.gov/api/views/khmp-n2xu/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-09-22",
+  "description" : "A list of the prevention activities being taken by States with Prevention Public Health Fund established by the Affordable Care Act.",
+  "feed" : "https://info.samhsa.gov/api/views/khmp-n2xu/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "khmp-n2xu",
+  "keyword" : "",
+  "modified" : "2011-10-17",
+  "releaseDate" : "2011-09-22",
+  "title" : "Prevention and Public Health Fund Grants",
+  "webService" : "https://info.samhsa.gov/resource/khmp-n2xu",
+  "distribution" : [ {
+    "accessURL" : "https://info.samhsa.gov/api/views/khmp-n2xu/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/khmp-n2xu/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/khmp-n2xu/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/khmp-n2xu/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/khmp-n2xu/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/khmp-n2xu/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://info.samhsa.gov/api/views/camb-yby3/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-05-09",
+  "description" : "A list of primary care and behavioral health care integration sites.",
+  "feed" : "https://info.samhsa.gov/api/views/camb-yby3/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "camb-yby3",
+  "keyword" : "primary care and behavioral health care integration,integration,health home",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2011-05-09",
+  "title" : "Primary Care and Behavioral Health Care Integration Sites",
+  "webService" : "https://info.samhsa.gov/resource/camb-yby3",
+  "distribution" : [ {
+    "accessURL" : "https://info.samhsa.gov/api/views/camb-yby3/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/camb-yby3/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/camb-yby3/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/camb-yby3/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/camb-yby3/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/camb-yby3/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "primary care and behavioral health care integration", "integration", "health home" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://info.samhsa.gov/api/views/5zwq-8nhy/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-10-21",
+  "description" : "Lists basic social media metrics aggregated on a weekly basis. Metrics include SAMHSA's Facebook fans, comments, likes, and posts; and Twitter followers and mentions.",
+  "feed" : "https://info.samhsa.gov/api/views/5zwq-8nhy/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "5zwq-8nhy",
+  "keyword" : "facebook,twitter,social media",
+  "modified" : "2012-07-02",
+  "releaseDate" : "2011-10-21",
+  "title" : "Social Media Monitoring Metrics",
+  "webService" : "https://info.samhsa.gov/resource/5zwq-8nhy",
+  "distribution" : [ {
+    "accessURL" : "https://info.samhsa.gov/api/views/5zwq-8nhy/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/5zwq-8nhy/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/5zwq-8nhy/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/5zwq-8nhy/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/5zwq-8nhy/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/5zwq-8nhy/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "facebook", "twitter", "social media" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://info.samhsa.gov/api/views/5w5q-zjzt/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-05-03",
+  "feed" : "https://info.samhsa.gov/api/views/5w5q-zjzt/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "5w5q-zjzt",
+  "keyword" : "",
+  "modified" : "2013-02-26",
+  "releaseDate" : "2012-05-03",
+  "title" : "SAMHSA State Activities",
+  "webService" : "https://info.samhsa.gov/resource/5w5q-zjzt",
+  "distribution" : [ {
+    "accessURL" : "https://info.samhsa.gov/api/views/5w5q-zjzt/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/5w5q-zjzt/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/5w5q-zjzt/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/5w5q-zjzt/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/5w5q-zjzt/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/5w5q-zjzt/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://info.samhsa.gov/api/views/urpw-zg29/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-04-11",
+  "description" : "State profiles for prevalence of serious mental illness and substance use disorders among States for individuals eligible for Medicaid and Affordable Health Insurance Exchanges.",
+  "feed" : "https://info.samhsa.gov/api/views/urpw-zg29/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "urpw-zg29",
+  "keyword" : "",
+  "modified" : "2012-08-15",
+  "releaseDate" : "2012-04-11",
+  "title" : "National and State Estimates on Prevalence of Behavioral Health Conditions",
+  "webService" : "https://info.samhsa.gov/resource/urpw-zg29",
+  "distribution" : [ {
+    "accessURL" : "https://info.samhsa.gov/api/views/urpw-zg29/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/urpw-zg29/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/urpw-zg29/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/urpw-zg29/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/urpw-zg29/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/urpw-zg29/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://info.samhsa.gov/api/views/9zt9-sne5/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-23",
+  "description" : "Anonymous SAMHSA card sort participant data (SAMHSA staff and support staff) including time, duration, % cards sorted.",
+  "feed" : "https://info.samhsa.gov/api/views/9zt9-sne5/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "9zt9-sne5",
+  "keyword" : "",
+  "modified" : "2012-08-24",
+  "releaseDate" : "2012-08-23",
+  "title" : "SAMHSA Card Sort Participants - SAMHSA Staff",
+  "webService" : "https://info.samhsa.gov/resource/9zt9-sne5",
+  "distribution" : [ {
+    "accessURL" : "https://info.samhsa.gov/api/views/9zt9-sne5/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/9zt9-sne5/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/9zt9-sne5/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/9zt9-sne5/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/9zt9-sne5/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/9zt9-sne5/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://info.samhsa.gov/api/views/2f5n-2uik/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-23",
+  "description" : "Anonymous SAMHSA card sort participant data (general public) including time, duration, % cards sorted.",
+  "feed" : "https://info.samhsa.gov/api/views/2f5n-2uik/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "2f5n-2uik",
+  "keyword" : "",
+  "modified" : "2012-08-23",
+  "releaseDate" : "2012-08-23",
+  "title" : "SAMHSA Card Sort Participants - General Public",
+  "webService" : "https://info.samhsa.gov/resource/2f5n-2uik",
+  "distribution" : [ {
+    "accessURL" : "https://info.samhsa.gov/api/views/2f5n-2uik/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/2f5n-2uik/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/2f5n-2uik/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/2f5n-2uik/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/2f5n-2uik/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/2f5n-2uik/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://info.samhsa.gov/api/views/cpfs-trb3/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-23",
+  "description" : "Anonymous SAMHSA card sort participant data (behavioral health workforce) including time, duration, % cards sorted.",
+  "feed" : "https://info.samhsa.gov/api/views/cpfs-trb3/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "cpfs-trb3",
+  "keyword" : "",
+  "modified" : "2012-08-23",
+  "releaseDate" : "2012-08-23",
+  "title" : "SAMHSA Card Sort Participants - Behavioral Health Workforce",
+  "webService" : "https://info.samhsa.gov/resource/cpfs-trb3",
+  "distribution" : [ {
+    "accessURL" : "https://info.samhsa.gov/api/views/cpfs-trb3/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/cpfs-trb3/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/cpfs-trb3/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/cpfs-trb3/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/cpfs-trb3/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/cpfs-trb3/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://info.samhsa.gov/api/views/5sgu-ivpr/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-23",
+  "description" : "SAMHSA card sort results (SAMHSA staff and support staff) dataset including card labels and category assignment.",
+  "feed" : "https://info.samhsa.gov/api/views/5sgu-ivpr/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "5sgu-ivpr",
+  "keyword" : "",
+  "modified" : "2012-08-23",
+  "releaseDate" : "2012-08-23",
+  "title" : "SAMHSA Card Sort Results - SAMHSA Staff",
+  "webService" : "https://info.samhsa.gov/resource/5sgu-ivpr",
+  "distribution" : [ {
+    "accessURL" : "https://info.samhsa.gov/api/views/5sgu-ivpr/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/5sgu-ivpr/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/5sgu-ivpr/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/5sgu-ivpr/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/5sgu-ivpr/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/5sgu-ivpr/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://info.samhsa.gov/api/views/jezx-a93q/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-23",
+  "description" : "SAMHSA card sort results (general public) dataset including card labels and category assignment.",
+  "feed" : "https://info.samhsa.gov/api/views/jezx-a93q/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "jezx-a93q",
+  "keyword" : "",
+  "modified" : "2012-08-28",
+  "releaseDate" : "2012-08-23",
+  "title" : "SAMHSA Card Sort Results - General Public",
+  "webService" : "https://info.samhsa.gov/resource/jezx-a93q",
+  "distribution" : [ {
+    "accessURL" : "https://info.samhsa.gov/api/views/jezx-a93q/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/jezx-a93q/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/jezx-a93q/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/jezx-a93q/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/jezx-a93q/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/jezx-a93q/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://info.samhsa.gov/api/views/qkn9-wbeq/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-23",
+  "description" : "SAMHSA card sort results (behavioral health workforce) dataset including card labels and category assignment.",
+  "feed" : "https://info.samhsa.gov/api/views/qkn9-wbeq/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "qkn9-wbeq",
+  "keyword" : "",
+  "modified" : "2012-12-22",
+  "releaseDate" : "2012-08-23",
+  "title" : "SAMHSA Card Sort Results - Behavioral Health Workforce",
+  "webService" : "https://info.samhsa.gov/resource/qkn9-wbeq",
+  "distribution" : [ {
+    "accessURL" : "https://info.samhsa.gov/api/views/qkn9-wbeq/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/qkn9-wbeq/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/qkn9-wbeq/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/qkn9-wbeq/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/qkn9-wbeq/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/qkn9-wbeq/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://info.samhsa.gov/api/views/nszz-zta2/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-09-22",
+  "description" : "An aggregated list of webinars regarding health reform hosted by SAMHSA or SAMHSA's stakeholders.",
+  "feed" : "https://info.samhsa.gov/api/views/nszz-zta2/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "nszz-zta2",
+  "keyword" : "",
+  "license" : "Public Domain\nSAMHSA(http://samhsa.gov/healthreform)",
+  "modified" : "2013-01-07",
+  "releaseDate" : "2011-09-22",
+  "title" : "Health Reform Webinars",
+  "webService" : "https://info.samhsa.gov/resource/nszz-zta2",
+  "distribution" : [ {
+    "accessURL" : "https://info.samhsa.gov/api/views/nszz-zta2/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/nszz-zta2/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/nszz-zta2/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/nszz-zta2/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/nszz-zta2/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/nszz-zta2/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://info.samhsa.gov/api/views/wdnv-m6rc/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-14",
+  "feed" : "https://info.samhsa.gov/api/views/wdnv-m6rc/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "wdnv-m6rc",
+  "keyword" : "",
+  "modified" : "2013-03-14",
+  "releaseDate" : "2013-03-14",
+  "title" : "Templates",
+  "webService" : "https://info.samhsa.gov/resource/templates",
+  "distribution" : [ {
+    "accessURL" : "https://info.samhsa.gov/api/views/wdnv-m6rc/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/wdnv-m6rc/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/wdnv-m6rc/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/wdnv-m6rc/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/wdnv-m6rc/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/wdnv-m6rc/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://info.samhsa.gov/api/views/6aqj-n47x/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-22",
+  "description" : "The Behavioral Health Treatment Needs Assessment Toolkit is intended to provide states and other payers with information on the prevalence and use of behavioral health services; step-by-step instructions to generate projects of utilization under insurance expansions; and factors to consider when deciding the appropriate mix of behavioral health benefits, services, and providers to meet the needs of newly eligible populations. The Toolkit has been developed by the Substance Abuse and Mental Health Services Administration (SAMHSA).",
+  "feed" : "https://info.samhsa.gov/api/views/6aqj-n47x/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "6aqj-n47x",
+  "keyword" : "behavioral health treatment needs assessment toolkit for states",
+  "license" : "Public Domain\nSubstance Abuse and Mental Health Services Administration(http://www.samhsa.gov/data/NSDUH.aspx)",
+  "modified" : "2013-05-28",
+  "releaseDate" : "2013-05-22",
+  "title" : "Prevalence of Behavioral Health Conditions in Past Year Among Adults Aged 18–64 Years",
+  "webService" : "https://info.samhsa.gov/resource/6aqj-n47x",
+  "distribution" : [ {
+    "accessURL" : "https://info.samhsa.gov/api/views/6aqj-n47x/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/6aqj-n47x/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/6aqj-n47x/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/6aqj-n47x/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/6aqj-n47x/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/6aqj-n47x/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "behavioral health treatment needs assessment toolkit for states" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://info.samhsa.gov/api/views/fep7-5w4k/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-22",
+  "description" : "The Behavioral Health Treatment Needs Assessment Toolkit is intended to provide states and other payers with information on the prevalence and use of behavioral health services; step-by-step instructions to generate projects of utilization under insurance expansions; and factors to consider when deciding the appropriate mix of behavioral health benefits, services, and providers to meet the needs of newly eligible populations. The Toolkit has been developed by the Substance Abuse and Mental Health Services Administration (SAMHSA).",
+  "feed" : "https://info.samhsa.gov/api/views/fep7-5w4k/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "fep7-5w4k",
+  "keyword" : "behavioral health treatment needs assessment toolkit for states",
+  "license" : "Public Domain\nSubstance Abuse and Mental Health Services Administration(http://www.samhsa.gov/data/NSDUH.aspx)",
+  "modified" : "2013-05-28",
+  "releaseDate" : "2013-05-22",
+  "title" : "Prevalence of Behavioral Health Conditions in Past Year Among Adults Aged 18–64 Years with Current Medicaid Coverage, by State",
+  "webService" : "https://info.samhsa.gov/resource/fep7-5w4k",
+  "distribution" : [ {
+    "accessURL" : "https://info.samhsa.gov/api/views/fep7-5w4k/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/fep7-5w4k/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/fep7-5w4k/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/fep7-5w4k/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/fep7-5w4k/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/fep7-5w4k/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "behavioral health treatment needs assessment toolkit for states" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://info.samhsa.gov/api/views/r9uj-7zdh/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-22",
+  "description" : "The Behavioral Health Treatment Needs Assessment Toolkit is intended to provide states and other payers with information on the prevalence and use of behavioral health services; step-by-step instructions to generate projects of utilization under insurance expansions; and factors to consider when deciding the appropriate mix of behavioral health benefits, services, and providers to meet the needs of newly eligible populations. The Toolkit has been developed by the Substance Abuse and Mental Health Services Administration (SAMHSA).",
+  "feed" : "https://info.samhsa.gov/api/views/r9uj-7zdh/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "r9uj-7zdh",
+  "keyword" : "behavioral health needs assessment toolkit for states",
+  "license" : "Public Domain\nSubstance Abuse and Mental Health Services Administration(http://www.samhsa.gov/data/NSDUH.aspx)",
+  "modified" : "2013-05-28",
+  "releaseDate" : "2013-05-22",
+  "title" : "Prevalence of Behavioral Health Conditions in Past Year Among Adults Aged 18–64 Years Who Are Uninsured and Have Annual Family Incomes < 139 Percent of Federal Poverty Level, by State",
+  "webService" : "https://info.samhsa.gov/resource/r9uj-7zdh",
+  "distribution" : [ {
+    "accessURL" : "https://info.samhsa.gov/api/views/r9uj-7zdh/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/r9uj-7zdh/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/r9uj-7zdh/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/r9uj-7zdh/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/r9uj-7zdh/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/r9uj-7zdh/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "behavioral health needs assessment toolkit for states" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://info.samhsa.gov/api/views/daja-m5ut/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-22",
+  "description" : "The Behavioral Health Treatment Needs Assessment Toolkit is intended to provide states and other payers with information on the prevalence and use of behavioral health services; step-by-step instructions to generate projects of utilization under insurance expansions; and factors to consider when deciding the appropriate mix of behavioral health benefits, services, and providers to meet the needs of newly eligible populations. The Toolkit has been developed by the Substance Abuse and Mental Health Services Administration (SAMHSA).",
+  "feed" : "https://info.samhsa.gov/api/views/daja-m5ut/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "daja-m5ut",
+  "keyword" : "behavioral health needs assessment toolkit for states",
+  "license" : "Public Domain\nSubstance Abuse and Mental Health Services Administration(http://www.samhsa.gov/data/NSDUH.aspx)",
+  "modified" : "2013-05-28",
+  "releaseDate" : "2013-05-22",
+  "title" : "Receipt of Mental Health and Substance Use Treatment in Past Year Among Adults Aged 18–64 Years",
+  "webService" : "https://info.samhsa.gov/resource/daja-m5ut",
+  "distribution" : [ {
+    "accessURL" : "https://info.samhsa.gov/api/views/daja-m5ut/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/daja-m5ut/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/daja-m5ut/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/daja-m5ut/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/daja-m5ut/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/daja-m5ut/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "behavioral health needs assessment toolkit for states" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://info.samhsa.gov/api/views/hczp-khdr/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-22",
+  "description" : "The Behavioral Health Treatment Needs Assessment Toolkit is intended to provide states and other payers with information on the prevalence and use of behavioral health services; step-by-step instructions to generate projects of utilization under insurance expansions; and factors to consider when deciding the appropriate mix of behavioral health benefits, services, and providers to meet the needs of newly eligible populations. The Toolkit has been developed by the Substance Abuse and Mental Health Services Administration (SAMHSA).",
+  "feed" : "https://info.samhsa.gov/api/views/hczp-khdr/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "hczp-khdr",
+  "keyword" : "behavioral health needs assessment toolkit for states",
+  "license" : "Public Domain\nSubstance Abuse and Mental Health Services Administration(http://www.samhsa.gov/data/NSDUH.aspx)",
+  "modified" : "2013-05-28",
+  "releaseDate" : "2013-05-22",
+  "title" : "Receipt of Mental Health and Substance Use Treatment in Past Year Among Adults Aged 18–64 Years with Medicaid Coverage, by State",
+  "webService" : "https://info.samhsa.gov/resource/hczp-khdr",
+  "distribution" : [ {
+    "accessURL" : "https://info.samhsa.gov/api/views/hczp-khdr/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/hczp-khdr/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/hczp-khdr/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/hczp-khdr/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/hczp-khdr/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/hczp-khdr/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "behavioral health needs assessment toolkit for states" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://info.samhsa.gov/api/views/n7h2-ygab/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-22",
+  "description" : "The Behavioral Health Treatment Needs Assessment Toolkit is intended to provide states and other payers with information on the prevalence and use of behavioral health services; step-by-step instructions to generate projects of utilization under insurance expansions; and factors to consider when deciding the appropriate mix of behavioral health benefits, services, and providers to meet the needs of newly eligible populations. The Toolkit has been developed by the Substance Abuse and Mental Health Services Administration (SAMHSA).",
+  "feed" : "https://info.samhsa.gov/api/views/n7h2-ygab/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "n7h2-ygab",
+  "keyword" : "behavioral health treatment needs assessment toolkit for states",
+  "license" : "Public Domain\nSubstance Abuse and Mental Health Services Administration(http://www.samhsa.gov/data/NSDUH.aspx)",
+  "modified" : "2013-05-28",
+  "releaseDate" : "2013-05-22",
+  "title" : "Prevalence of Behavioral Health Conditions in Past Year Among Adults Aged 18–64 Years Who Are Uninsured and Have Annual Family Incomes Between 133 and 399 Percent of Federal Poverty Level, by State",
+  "webService" : "https://info.samhsa.gov/resource/n7h2-ygab",
+  "distribution" : [ {
+    "accessURL" : "https://info.samhsa.gov/api/views/n7h2-ygab/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/n7h2-ygab/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/n7h2-ygab/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/n7h2-ygab/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/n7h2-ygab/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/n7h2-ygab/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "behavioral health treatment needs assessment toolkit for states" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://info.samhsa.gov/api/views/fjye-8rcn/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-22",
+  "description" : "The Behavioral Health Treatment Needs Assessment Toolkit is intended to provide states and other payers with information on the prevalence and use of behavioral health services; step-by-step instructions to generate projects of utilization under insurance expansions; and factors to consider when deciding the appropriate mix of behavioral health benefits, services, and providers to meet the needs of newly eligible populations. The Toolkit has been developed by the Substance Abuse and Mental Health Services Administration (SAMHSA).",
+  "feed" : "https://info.samhsa.gov/api/views/fjye-8rcn/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "fjye-8rcn",
+  "keyword" : "behavioral health treatment needs assessment toolkit for states",
+  "license" : "Public Domain\nSubstance Abuse and Mental Health Services Administration(http://www.samhsa.gov/data/NSDUH.aspx)",
+  "modified" : "2013-05-28",
+  "releaseDate" : "2013-05-22",
+  "title" : "Receipt of Mental Health and Substance Use Treatment in Past Year Among Adults Aged 18–64 Years Who Are Uninsured and Have Annual Family Incomes < 139 Percent of Federal Poverty Level, by State",
+  "webService" : "https://info.samhsa.gov/resource/fjye-8rcn",
+  "distribution" : [ {
+    "accessURL" : "https://info.samhsa.gov/api/views/fjye-8rcn/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/fjye-8rcn/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/fjye-8rcn/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/fjye-8rcn/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/fjye-8rcn/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/fjye-8rcn/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "behavioral health treatment needs assessment toolkit for states" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://info.samhsa.gov/api/views/y86t-xgsg/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-22",
+  "description" : "The Behavioral Health Treatment Needs Assessment Toolkit is intended to provide states and other payers with information on the prevalence and use of behavioral health services; step-by-step instructions to generate projects of utilization under insurance expansions; and factors to consider when deciding the appropriate mix of behavioral health benefits, services, and providers to meet the needs of newly eligible populations. The Toolkit has been developed by the Substance Abuse and Mental Health Services Administration (SAMHSA).",
+  "feed" : "https://info.samhsa.gov/api/views/y86t-xgsg/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "y86t-xgsg",
+  "keyword" : "behavioral health treatment needs assessment toolkit for states",
+  "license" : "Public Domain\nSubstance Abuse and Mental Health Services Administration(http://www.samhsa.gov/data/NSDUH.aspx)",
+  "modified" : "2013-05-28",
+  "releaseDate" : "2013-05-22",
+  "title" : "Receipt of Mental Health and Substance Use Treatment in Past Year Among Adults Aged 18–64 Years Who are Uninsured and Have Annual Family Incomes Between 133 and 399 Percent of Federal Poverty Level, by State",
+  "webService" : "https://info.samhsa.gov/resource/y86t-xgsg",
+  "distribution" : [ {
+    "accessURL" : "https://info.samhsa.gov/api/views/y86t-xgsg/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/y86t-xgsg/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/y86t-xgsg/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/y86t-xgsg/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/y86t-xgsg/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/y86t-xgsg/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "behavioral health treatment needs assessment toolkit for states" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://info.samhsa.gov/api/views/uvi8-7tt9/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-22",
+  "description" : "The Behavioral Health Treatment Needs Assessment Toolkit is intended to provide states and other payers with information on the prevalence and use of behavioral health services; step-by-step instructions to generate projects of utilization under insurance expansions; and factors to consider when deciding the appropriate mix of behavioral health benefits, services, and providers to meet the needs of newly eligible populations. The Toolkit has been developed by the Substance Abuse and Mental Health Services Administration (SAMHSA).",
+  "feed" : "https://info.samhsa.gov/api/views/uvi8-7tt9/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "uvi8-7tt9",
+  "keyword" : "behavioral health treatment needs assessment toolkit for states",
+  "license" : "Public Domain\nSubstance Abuse and Mental Health Services Administration(http://www.samhsa.gov/data/NSDUH.aspx)",
+  "modified" : "2013-05-28",
+  "releaseDate" : "2013-05-22",
+  "title" : "Adults Aged 18–64 Years Who Have Annual Family Incomes < 139 Percent of Federal Poverty Level, by Insurance Status, Nationally and by State",
+  "webService" : "https://info.samhsa.gov/resource/uvi8-7tt9",
+  "distribution" : [ {
+    "accessURL" : "https://info.samhsa.gov/api/views/uvi8-7tt9/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/uvi8-7tt9/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/uvi8-7tt9/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/uvi8-7tt9/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/uvi8-7tt9/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/uvi8-7tt9/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "behavioral health treatment needs assessment toolkit for states" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://info.samhsa.gov/api/views/9cv5-cuk9/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-05-22",
+  "description" : "The Behavioral Health Treatment Needs Assessment Toolkit is intended to provide states and other payers with information on the prevalence and use of behavioral health services; step-by-step instructions to generate projects of utilization under insurance expansions; and factors to consider when deciding the appropriate mix of behavioral health benefits, services, and providers to meet the needs of newly eligible populations. The Toolkit has been developed by the Substance Abuse and Mental Health Services Administration (SAMHSA).",
+  "feed" : "https://info.samhsa.gov/api/views/9cv5-cuk9/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "9cv5-cuk9",
+  "keyword" : "behavioral health treatment needs assessment toolkit for states",
+  "license" : "Public Domain\nSubstance Abuse and Mental Health Services Administration(http://www.samhsa.gov/data/NSDUH.aspx)",
+  "modified" : "2013-05-28",
+  "releaseDate" : "2013-05-22",
+  "title" : "Adults Aged 18–64 Years Who Have Annual Family Incomes Between 133 and 399 Percent of Federal Poverty Level, by Insurance Status, Nationally and by State",
+  "webService" : "https://info.samhsa.gov/resource/9cv5-cuk9",
+  "distribution" : [ {
+    "accessURL" : "https://info.samhsa.gov/api/views/9cv5-cuk9/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/9cv5-cuk9/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/9cv5-cuk9/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/9cv5-cuk9/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/9cv5-cuk9/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://info.samhsa.gov/api/views/9cv5-cuk9/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "behavioral health treatment needs assessment toolkit for states" ]
+} ]

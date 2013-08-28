@@ -1,0 +1,333 @@
+[ {
+  "accessLevel" : "Public",
+  "description" : "Lists the datasets for this domain.  The format should correspond to the spec at http://project-open-data.github.io/schema/",
+  "format" : "application/json",
+  "frequency" : "hourly",
+  "identifier" : "https://www.halifaxopendata.ca/data.json",
+  "modified" : "2013-08-28",
+  "title" : "Project Open Data, /data.json file",
+  "webService" : "https://www.halifaxopendata.ca/data.json"
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.halifaxopendata.ca/api/file_data/l7c4J6Efj2HM4bQoMrkFiea0o1cbxbkEpMK3UhcfSpw?filename=building.zip",
+  "created" : "2013-03-08",
+  "description" : "Geographic outlines (polygons) that represent a two-dimensional view of buildings in HRM. \r\nClick on link below for Metadata: https://www.halifaxopendata.ca/api/assets/7F873A08-C7DB-4CBB-866F-2C1C5EA13514",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "94qi-yw3a",
+  "keyword" : "building,footprint,roofline",
+  "modified" : "2013-08-26",
+  "releaseDate" : "2013-03-08",
+  "title" : "Building",
+  "distribution" : [ {
+    "accessURL" : "https://www.halifaxopendata.ca/api/file_data/l7c4J6Efj2HM4bQoMrkFiea0o1cbxbkEpMK3UhcfSpw?filename=building.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "building", "footprint", "roofline" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.halifaxopendata.ca/api/file_data/ZwegDMoHnGv1MDmzhSAXxLb59X3LA2RRLIfFN1MGo2Q?filename=building_symbol.zip",
+  "created" : "2013-03-08",
+  "description" : "Points representing the geographic location of specific building use types (e.g. fire stations, police stations, schools, community centres, etc.). \r\nClick on link below for Metadata:\r\nhttps://www.halifaxopendata.ca/api/assets/C0B80727-2E96-4FAA-B6F8-61D3A086BD5E",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "247k-hbu8",
+  "keyword" : "buildings",
+  "modified" : "2013-08-25",
+  "releaseDate" : "2013-03-08",
+  "title" : "Building Symbols",
+  "distribution" : [ {
+    "accessURL" : "https://www.halifaxopendata.ca/api/file_data/ZwegDMoHnGv1MDmzhSAXxLb59X3LA2RRLIfFN1MGo2Q?filename=building_symbol.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "buildings" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.halifaxopendata.ca/api/file_data/daCYsuGT4QV6ksZt_eYpJ0hfQ8dUbLTfxUw0NdQ1L2c?filename=crime.zip",
+  "created" : "2013-03-08",
+  "description" : "Points that represent crimes that have occurred in HRM within the last 7 days. Includes the type of crime, the date of the crime and the general location (the location of the point is not the true location of the crime, but a generalization to protect the victims).\r\nClick on link below for Metadata:\r\nhttps://www.halifaxopendata.ca/api/assets/6B3FE650-5978-4B35-913D-ADCB837DE812",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "kxfq-iuxg",
+  "keyword" : "crime",
+  "modified" : "2013-08-25",
+  "releaseDate" : "2013-03-08",
+  "title" : "Crime",
+  "distribution" : [ {
+    "accessURL" : "https://www.halifaxopendata.ca/api/file_data/daCYsuGT4QV6ksZt_eYpJ0hfQ8dUbLTfxUw0NdQ1L2c?filename=crime.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "crime" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.halifaxopendata.ca/api/file_data/9AOdiMav3kllZneWDExqlqChXdKgeE7chHnaGMjIGyI?filename=bus_route.zip",
+  "created" : "2013-03-08",
+  "description" : "Single line representations of all bus routes in HRM. Includes route number, route name and route classification (e.g. peak, weekday regular, etc.). Click on link below for Metadata:\r\nhttps://www.halifaxopendata.ca/api/assets/50FC1910-9EC3-4094-9BB6-BF5C0520A637",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "y3cf-ivzs",
+  "keyword" : "bus routes",
+  "modified" : "2013-08-25",
+  "releaseDate" : "2013-03-08",
+  "title" : "Bus Routes",
+  "distribution" : [ {
+    "accessURL" : "https://www.halifaxopendata.ca/api/file_data/9AOdiMav3kllZneWDExqlqChXdKgeE7chHnaGMjIGyI?filename=bus_route.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "bus routes" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.halifaxopendata.ca/api/file_data/ghWR9__jcaShDzeW6BZSoWjCP11ikHhUbOmgsHERPBA?filename=bus_stop.zip",
+  "created" : "2013-03-08",
+  "description" : "Points representing the geographic location of Metro Transit bus stops. Includes information on the type of bus stop (shelter, accessible, etc.) and GOTIME number. Click on link below for Metadata:\r\nhttps://www.halifaxopendata.ca/api/assets/7C3AFD6F-164F-4583-8221-45596F9250DF",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "xus8-fjzt",
+  "keyword" : "bus stops",
+  "modified" : "2013-08-25",
+  "releaseDate" : "2013-03-08",
+  "title" : "Bus Stops",
+  "distribution" : [ {
+    "accessURL" : "https://www.halifaxopendata.ca/api/file_data/ghWR9__jcaShDzeW6BZSoWjCP11ikHhUbOmgsHERPBA?filename=bus_stop.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "bus stops" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.halifaxopendata.ca/api/file_data/FUbLZa57n9xq2obW0u6J9zM2Tt6mHbw1fgLCuitkWIA?filename=bylaw_area.zip",
+  "created" : "2013-03-08",
+  "description" : "Geographic outlines (polygons) that represent the land use bylaw areas within HRM. To be used in conjunction with the zoning boundaries for correct interpretation of the zone code.\r\nClick on link below for Metadata:\r\nhttps://www.halifaxopendata.ca/api/assets/A7826A40-6A6A-4126-BBD7-9F1BE388BC34",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "4qdy-cd8n",
+  "keyword" : "zoning",
+  "modified" : "2013-08-25",
+  "releaseDate" : "2013-03-08",
+  "title" : "Bylaw Areas",
+  "distribution" : [ {
+    "accessURL" : "https://www.halifaxopendata.ca/api/file_data/FUbLZa57n9xq2obW0u6J9zM2Tt6mHbw1fgLCuitkWIA?filename=bylaw_area.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "zoning" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.halifaxopendata.ca/api/file_data/IOORiCfqz35TIfChvy-NGatkQEjXFEUkNkmGiCXPVgc?filename=civic_address.zip",
+  "created" : "2013-03-08",
+  "description" : "Points representing the geographic location of civic addresses that includes civic number, street name and community information. \r\nClick on link below for Metadata:\r\nhttps://www.halifaxopendata.ca/api/assets/B3863243-8E10-4456-AB9E-6796B75C2D1F",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "98mm-gs3f",
+  "keyword" : "civic address",
+  "modified" : "2013-08-25",
+  "releaseDate" : "2013-03-08",
+  "title" : "Civic Addresses",
+  "distribution" : [ {
+    "accessURL" : "https://www.halifaxopendata.ca/api/file_data/IOORiCfqz35TIfChvy-NGatkQEjXFEUkNkmGiCXPVgc?filename=civic_address.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "civic address" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.halifaxopendata.ca/api/file_data/MByyu9kaa7ICv8DpzbpjLJYo5Vi7dMNyoyHeJyjdVq8?filename=park.zip",
+  "created" : "2013-03-08",
+  "description" : "Geographic outlines (polygons) that represent developed and undeveloped HRM park land. This data set includes parks at the neighbourhood, community, district and regional level.\r\nClick on link below for Metadata:\r\nhttps://www.halifaxopendata.ca/api/assets/13F5151D-28A8-4083-A0E9-1AE4B6E845A9",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "wvsx-48r2",
+  "keyword" : "parks",
+  "modified" : "2013-08-25",
+  "releaseDate" : "2013-03-08",
+  "title" : "HRM Parks",
+  "distribution" : [ {
+    "accessURL" : "https://www.halifaxopendata.ca/api/file_data/MByyu9kaa7ICv8DpzbpjLJYo5Vi7dMNyoyHeJyjdVq8?filename=park.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "parks" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.halifaxopendata.ca/api/file_data/9f7-PpAU5c1yB-lsXrmYr3SeGyvWLhlk60MhJ0jMiEA?filename=park_feature.zip",
+  "created" : "2013-03-08",
+  "description" : "Points representing the geographic location of recreational features that are owned or maintained by HRM (e.g. playgrounds, sports fields, boat facilities, outdoor rinks, etc.).\r\nClick the link below for Metadata:\r\nhttps://www.halifaxopendata.ca/api/assets/06B565DF-1A4C-440E-BB48-FB9B62760434",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "wbeb-n6zy",
+  "keyword" : "parks",
+  "modified" : "2013-08-26",
+  "releaseDate" : "2013-03-08",
+  "title" : "HRM Park Recreation Features",
+  "distribution" : [ {
+    "accessURL" : "https://www.halifaxopendata.ca/api/file_data/9f7-PpAU5c1yB-lsXrmYr3SeGyvWLhlk60MhJ0jMiEA?filename=park_feature.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "parks" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.halifaxopendata.ca/api/file_data/rmgJCumf0EAArRGje3QnKX_0hEfQwsUfurZ1P1JQh1s?filename=polling_district.zip",
+  "created" : "2013-03-08",
+  "description" : "Geographic outlines (polygons) that represent the polling districts as approved by the Nova Scotia Utility And Review Board (UARB). Includes the current councillor and the school board district information. Click on link below for Metadata:\r\nhttps://www.halifaxopendata.ca/api/assets/A01F3F0D-D493-4D61-A520-6EBE4670D9D3",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "e7u6-by35",
+  "keyword" : "polling",
+  "modified" : "2013-08-25",
+  "releaseDate" : "2013-03-08",
+  "title" : "Polling District",
+  "distribution" : [ {
+    "accessURL" : "https://www.halifaxopendata.ca/api/file_data/rmgJCumf0EAArRGje3QnKX_0hEfQwsUfurZ1P1JQh1s?filename=polling_district.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "polling" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.halifaxopendata.ca/api/file_data/K3uWMfAy7nz2d9QCGKXKzPNnrWLlnL_5RfpL5Og3u2Q?filename=trail.zip",
+  "created" : "2013-03-08",
+  "description" : "Single line representations of trails that are either owned, maintained, or of interest to HRM. <<Work in Progress>>\r\n\r\nClick on link below for Metadata:\r\nhttps://www.halifaxopendata.ca/api/assets/96D35B7D-5CC9-4F0D-9B74-C6568C00F2EA",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "qsxs-hn7a",
+  "keyword" : "trails",
+  "modified" : "2013-08-25",
+  "releaseDate" : "2013-03-08",
+  "title" : "Trails",
+  "distribution" : [ {
+    "accessURL" : "https://www.halifaxopendata.ca/api/file_data/K3uWMfAy7nz2d9QCGKXKzPNnrWLlnL_5RfpL5Og3u2Q?filename=trail.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "trails" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.halifaxopendata.ca/api/file_data/znFE6nOOZuUAVuq0TvmFj9TWf9WbbAgGYP-HF4OB2Lk?filename=waste_coll_area.zip",
+  "created" : "2013-03-08",
+  "description" : "Geographic outlines (polygons) that represent the solid waste (garbage and recycling) collection areas. Includes the current contractor, day of the week for collection and collection frequency.\r\nClick on link below for Metadata:\r\nhttps://www.halifaxopendata.ca/api/assets/32A94409-4B6F-4C36-97F5-BC6F4FDB38CC",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "4t8v-ds8m",
+  "keyword" : "waste collection",
+  "modified" : "2013-08-25",
+  "releaseDate" : "2013-03-08",
+  "title" : "Solid Waste Collection Areas",
+  "distribution" : [ {
+    "accessURL" : "https://www.halifaxopendata.ca/api/file_data/znFE6nOOZuUAVuq0TvmFj9TWf9WbbAgGYP-HF4OB2Lk?filename=waste_coll_area.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "waste collection" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.halifaxopendata.ca/api/file_data/CmgNpPO--tCMTDZwR3GW6140ybEd1Ez6IGVD-vS9mAI?filename=street.zip",
+  "created" : "2013-03-08",
+  "description" : "Single line representation of every street in HRM with associated street name, block face ranges and community names. \r\nClick on link below for Metadata:\r\nhttps://www.halifaxopendata.ca/api/assets/ACA19715-FA7E-4DD2-A9C0-3A8A7E98A20C",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "svb3-ubya",
+  "keyword" : "streets",
+  "modified" : "2013-08-25",
+  "releaseDate" : "2013-03-08",
+  "title" : "Street Network",
+  "distribution" : [ {
+    "accessURL" : "https://www.halifaxopendata.ca/api/file_data/CmgNpPO--tCMTDZwR3GW6140ybEd1Ez6IGVD-vS9mAI?filename=street.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "streets" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.halifaxopendata.ca/api/file_data/nbKqqLGoBpT-2mVtvqaJf6-EgAWNgLGrRB3fGW3W2As?filename=zoning.zip",
+  "created" : "2013-03-08",
+  "description" : "Geographic outlines (polygons) that represent the land use zone applied to a particular area of land within a land use bylaw (LUB) area. Zoning designations differ between LUB areas, so each zone must be interpreted within the context of the LUB area in which it is applied.\r\nClick on link below for Metadata:\r\nhttps://www.halifaxopendata.ca/api/assets/99F6A9E5-4AC3-42DA-BD4E-4C268CC212D9",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "p32d-4suh",
+  "keyword" : "zoning",
+  "modified" : "2013-08-25",
+  "releaseDate" : "2013-03-08",
+  "title" : "Zoning Boundaries",
+  "distribution" : [ {
+    "accessURL" : "https://www.halifaxopendata.ca/api/file_data/nbKqqLGoBpT-2mVtvqaJf6-EgAWNgLGrRB3fGW3W2As?filename=zoning.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "zoning" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.halifaxopendata.ca/api/file_data/XB54kOWVuAg-EJ24KsBL0YbF-K8p6JVtbCR75GZkOms?filename=gsa.zip",
+  "created" : "2013-03-08",
+  "description" : "Geographic outlines (polygons) of all of the official community boundaries within HRM.\r\nClick on link below for Metadata:\r\nhttps://www.halifaxopendata.ca/api/assets/3C2BFA43-3FB4-4796-9042-93C2F77AF1D7",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "fprb-j2h4",
+  "keyword" : "zoning",
+  "modified" : "2013-08-25",
+  "releaseDate" : "2013-03-08",
+  "title" : "Community Boundaries",
+  "distribution" : [ {
+    "accessURL" : "https://www.halifaxopendata.ca/api/file_data/XB54kOWVuAg-EJ24KsBL0YbF-K8p6JVtbCR75GZkOms?filename=gsa.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "zoning" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.halifaxopendata.ca/api/file_data/0z8ZJRFZVdpB-2JaEt_6DZ48hCGUaD-kiPy2vBYQElY?filename=google_transit.zip",
+  "created" : "2013-03-14",
+  "description" : "Metro Transit bus scheduling information, released in Google Transit Feed Specification (GTFS) format.\r\nClick on link below for Metadata:\r\nhttps://www.halifaxopendata.ca/api/assets/E7940EC5-6310-4E4D-AACC-D32F0ABF650C",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "5hmm-vkca",
+  "keyword" : "transit",
+  "modified" : "2013-08-25",
+  "releaseDate" : "2013-03-14",
+  "title" : "Transit Time Scheduling Data",
+  "distribution" : [ {
+    "accessURL" : "https://www.halifaxopendata.ca/api/file_data/0z8ZJRFZVdpB-2JaEt_6DZ48hCGUaD-kiPy2vBYQElY?filename=google_transit.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "transit" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://www.halifaxopendata.ca/api/file_data/0Svlq9JDp311kuOQbKaeCriC8znlFguvIZdfZKqCluk?filename=DEM.zip",
+  "created" : "2013-03-25",
+  "description" : "A digital elevation model (DEM) that shows the topography of the land. This DEM is what is called a bare earth model; in that the elevation model is representative of the land without taking into account the trees and buildings.\r\nClick on link below for Metadata:\r\nhttps://www.halifaxopendata.ca/api/assets/C479999A-2699-475D-B480-EEE73BEF044C",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "eedr-6dvi",
+  "keyword" : "digital elevation model",
+  "modified" : "2013-04-08",
+  "releaseDate" : "2013-03-25",
+  "title" : "LIDAR DEM 5M",
+  "distribution" : [ {
+    "accessURL" : "https://www.halifaxopendata.ca/api/file_data/0Svlq9JDp311kuOQbKaeCriC8znlFguvIZdfZKqCluk?filename=DEM.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "digital elevation model" ]
+} ]

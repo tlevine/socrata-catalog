@@ -1,0 +1,1868 @@
+[ {
+  "accessLevel" : "Public",
+  "description" : "Lists the datasets for this domain.  The format should correspond to the spec at http://project-open-data.github.io/schema/",
+  "format" : "application/json",
+  "frequency" : "hourly",
+  "identifier" : "https://data.oaklandnet.com/data.json",
+  "modified" : "2013-08-28",
+  "title" : "Project Open Data, /data.json file",
+  "webService" : "https://data.oaklandnet.com/data.json"
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/views/h2rc-b7xm/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-09",
+  "feed" : "https://data.oaklandnet.com/api/views/h2rc-b7xm/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "h2rc-b7xm",
+  "keyword" : "",
+  "license" : "Creative Commons 1.0 Universal\nCity of Oakland\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-01-09",
+  "releaseDate" : "2013-01-09",
+  "title" : "Head Start Locations",
+  "webService" : "https://data.oaklandnet.com/resource/h2rc-b7xm",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/views/h2rc-b7xm/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/h2rc-b7xm/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/h2rc-b7xm/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/h2rc-b7xm/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/h2rc-b7xm/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/h2rc-b7xm/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/views/dxdg-872h/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-09",
+  "feed" : "https://data.oaklandnet.com/api/views/dxdg-872h/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "dxdg-872h",
+  "keyword" : "",
+  "license" : "Creative Commons 1.0 Universal\nCity of Oakland\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-01-10",
+  "releaseDate" : "2013-01-09",
+  "title" : "Oakland Unified Schools",
+  "webService" : "https://data.oaklandnet.com/resource/dxdg-872h",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/views/dxdg-872h/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/dxdg-872h/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/dxdg-872h/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/dxdg-872h/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/dxdg-872h/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/dxdg-872h/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/views/aahx-6i3p/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-10",
+  "feed" : "https://data.oaklandnet.com/api/views/aahx-6i3p/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "aahx-6i3p",
+  "keyword" : "",
+  "license" : "Creative Commons 1.0 Universal\nCity of Oakland, Department of Human Services\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-01-10",
+  "releaseDate" : "2013-01-10",
+  "title" : "Senior Centers",
+  "webService" : "https://data.oaklandnet.com/resource/aahx-6i3p",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/views/aahx-6i3p/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/aahx-6i3p/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/aahx-6i3p/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/aahx-6i3p/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/aahx-6i3p/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/aahx-6i3p/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/file_data/w3UgcfyPPSHdoy1IN6bSnWWyfAqbaUv3IJN13L7lQyY?filename=CouncilDistricts.Zip",
+  "created" : "2013-01-10",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "byvq-sy7z",
+  "keyword" : "",
+  "license" : "Creative Commons 1.0 Universal\nCity of Oakland\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-02-05",
+  "releaseDate" : "2013-01-10",
+  "title" : "Oakland City Council Districts",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/file_data/w3UgcfyPPSHdoy1IN6bSnWWyfAqbaUv3IJN13L7lQyY?filename=CouncilDistricts.Zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/file_data/gD8YZOj1qBzrpaIvoc-usZ6OnS3x4oZXAS-SYwj983U?filename=Oak_CommunityPoliceBeats.zip",
+  "created" : "2013-01-17",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "tp8r-5gzs",
+  "keyword" : "",
+  "modified" : "2013-06-19",
+  "releaseDate" : "2013-01-17",
+  "title" : "Oakland Community Police Beats",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/file_data/gD8YZOj1qBzrpaIvoc-usZ6OnS3x4oZXAS-SYwj983U?filename=Oak_CommunityPoliceBeats.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/views/7quj-zssa/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-18",
+  "description" : "Alameda County Certified Green Businesses",
+  "feed" : "https://data.oaklandnet.com/api/views/7quj-zssa/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "7quj-zssa",
+  "keyword" : "",
+  "license" : "Creative Commons 1.0 Universal\nAlameda County(https://data.acgov.org/Government/Certified-Green-Businesses)\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-01-18",
+  "releaseDate" : "2013-01-18",
+  "title" : "Oakland Certified Green Businesses",
+  "webService" : "https://data.oaklandnet.com/resource/7quj-zssa",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/views/7quj-zssa/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/7quj-zssa/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/7quj-zssa/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/7quj-zssa/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/7quj-zssa/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/7quj-zssa/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/file_data/dWpWrOVQpA5HqnFYyMlK7fE0DvJl9Z6QR_lvM-FkG8M?filename=Alameda_County_US_Census_Tracts_2010.zip",
+  "created" : "2013-01-22",
+  "description" : "The Census Bureau conducts nearly one hundred surveys and censuses every year. By law, no one is permitted to reveal information from these censuses and surveys that could identify any person, household, or business. The Decennial Census collects data every 10 years about households, income, education, homeownership, and more.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "9yqf-qvfi",
+  "keyword" : "census",
+  "license" : "Public Domain\nU.S. Census Bureau",
+  "modified" : "2013-01-22",
+  "releaseDate" : "2013-01-22",
+  "title" : "Alameda County US Census Tracts 2010",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/file_data/dWpWrOVQpA5HqnFYyMlK7fE0DvJl9Z6QR_lvM-FkG8M?filename=Alameda_County_US_Census_Tracts_2010.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "census" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/file_data/yF2n4GzwzjgXvJ8TOGqGytkeaUXKp63Ot2tfEYo53nY?filename=Alameda_County_Census_Tract_Results_2010.zip",
+  "created" : "2013-01-22",
+  "description" : "Alameda County US Census Results 2010",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "az9z-tyn9",
+  "keyword" : "census",
+  "license" : "Public Domain\nU.S. Census Bureau",
+  "modified" : "2013-01-22",
+  "releaseDate" : "2013-01-22",
+  "title" : "Alameda County Census Tract Results 2010",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/file_data/yF2n4GzwzjgXvJ8TOGqGytkeaUXKp63Ot2tfEYo53nY?filename=Alameda_County_Census_Tract_Results_2010.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "census" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/views/creu-dzki/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-22",
+  "description" : "2010 Demographic Profile Data",
+  "feed" : "https://data.oaklandnet.com/api/views/creu-dzki/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "creu-dzki",
+  "keyword" : "census",
+  "license" : "Public Domain\nU.S. Census Bureau",
+  "modified" : "2013-01-22",
+  "releaseDate" : "2013-01-22",
+  "title" : "2010 Profile of General Population by Sex and Age Groups",
+  "webService" : "https://data.oaklandnet.com/resource/creu-dzki",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/views/creu-dzki/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/creu-dzki/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/creu-dzki/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/creu-dzki/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/creu-dzki/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/creu-dzki/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "census" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/views/wm75-yhqe/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-22",
+  "feed" : "https://data.oaklandnet.com/api/views/wm75-yhqe/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "wm75-yhqe",
+  "keyword" : "",
+  "license" : "Creative Commons 1.0 Universal\nCity of Oakland Public Works Agency\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-01-22",
+  "releaseDate" : "2013-01-22",
+  "title" : "Traffic Signals",
+  "webService" : "https://data.oaklandnet.com/resource/wm75-yhqe",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/views/wm75-yhqe/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/wm75-yhqe/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/wm75-yhqe/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/wm75-yhqe/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/wm75-yhqe/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/wm75-yhqe/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/views/4jcx-enxf/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-22",
+  "feed" : "https://data.oaklandnet.com/api/views/4jcx-enxf/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "4jcx-enxf",
+  "keyword" : "",
+  "license" : "Creative Commons 1.0 Universal\nCity of Oakland Public Works Agency\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-01-22",
+  "releaseDate" : "2013-01-22",
+  "title" : "Oakland Street Trees",
+  "webService" : "https://data.oaklandnet.com/resource/4jcx-enxf",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/views/4jcx-enxf/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/4jcx-enxf/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/4jcx-enxf/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/4jcx-enxf/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/4jcx-enxf/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/4jcx-enxf/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/views/wakt-xmha/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-22",
+  "feed" : "https://data.oaklandnet.com/api/views/wakt-xmha/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "wakt-xmha",
+  "keyword" : "",
+  "license" : "Creative Commons 1.0 Universal\nOakland Public Library\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-01-22",
+  "releaseDate" : "2013-01-22",
+  "title" : "Oakland Public Library Branch Locations And Hours",
+  "webService" : "https://data.oaklandnet.com/resource/wakt-xmha",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/views/wakt-xmha/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/wakt-xmha/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/wakt-xmha/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/wakt-xmha/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/wakt-xmha/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/wakt-xmha/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/file_data/d-RcxKBxnsVr_q3l4oIjeLTuPIx5EVQlthtDD9SPTKE?filename=BIDs.zip",
+  "created" : "2013-01-23",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "jnp6-5xtc",
+  "keyword" : "",
+  "license" : "Creative Commons 1.0 Universal\nCity of Oakland Economic and Workforce Development\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-01-23",
+  "releaseDate" : "2013-01-23",
+  "title" : "Oakland's Business Improvement Districts as of 2010",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/file_data/d-RcxKBxnsVr_q3l4oIjeLTuPIx5EVQlthtDD9SPTKE?filename=BIDs.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/file_data/z3n9FMdv-P3DxMveed8YiPTR9sqvMsy4bwA2ctu0-Tg?filename=VehicularFoodVending.kml",
+  "created" : "2013-01-23",
+  "description" : "Food Trucks Permitted Through O.M.C. Chapter 8.09 Vehicular Food Vending (on private property only)",
+  "format" : "application/xml; charset=us-ascii",
+  "identifier" : "aww7-qe2x",
+  "keyword" : "food trucks",
+  "license" : "Creative Commons 1.0 Universal\nCity of Oakland Department of Planning, Building & Neighborhood Preservation\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-01-23",
+  "releaseDate" : "2013-01-23",
+  "title" : "Vehicular Food Vending",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/file_data/z3n9FMdv-P3DxMveed8YiPTR9sqvMsy4bwA2ctu0-Tg?filename=VehicularFoodVending.kml",
+    "formats" : [ {
+      "label" : "application/xml; charset=us-ascii",
+      "value" : "application/xml; charset=us-ascii"
+    } ]
+  } ],
+  "keywords" : [ "food trucks" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/file_data/ttzVfSz9uVT--zCzQp6A-KIXBwsaRGz_DYhNUbmHveU?filename=MobileFoodVendingGroupSites.kml",
+  "created" : "2013-01-23",
+  "description" : "List of all currently permitted mobile food vending group sites in Oakland. For questions and concerns, call Nancy Marcus at (510) 238-3294.",
+  "format" : "application/xml; charset=us-ascii",
+  "identifier" : "waih-8ek2",
+  "keyword" : "food trucks",
+  "license" : "Public Domain(http://www2.oaklandnet.com/Government/o/PBN/OurOrganization/PlanningZoning/OAK032864#FeedMe)",
+  "modified" : "2013-01-23",
+  "releaseDate" : "2013-01-23",
+  "title" : "Mobile Food Vending Group Sites",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/file_data/ttzVfSz9uVT--zCzQp6A-KIXBwsaRGz_DYhNUbmHveU?filename=MobileFoodVendingGroupSites.kml",
+    "formats" : [ {
+      "label" : "application/xml; charset=us-ascii",
+      "value" : "application/xml; charset=us-ascii"
+    } ]
+  } ],
+  "keywords" : [ "food trucks" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/views/65yj-mc7w/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-23",
+  "feed" : "https://data.oaklandnet.com/api/views/65yj-mc7w/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "65yj-mc7w",
+  "keyword" : "",
+  "license" : "Public Domain\nOakland Police Department",
+  "modified" : "2013-01-29",
+  "releaseDate" : "2013-01-23",
+  "title" : "Problem Solving Officer Directory",
+  "webService" : "https://data.oaklandnet.com/resource/65yj-mc7w",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/views/65yj-mc7w/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/65yj-mc7w/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/65yj-mc7w/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/65yj-mc7w/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/65yj-mc7w/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/65yj-mc7w/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/file_data/hnHdblxs6EWqr5ZMbKturxFoVQWszTHxUUU78QSA11k?filename=streams.zip",
+  "created" : "2013-01-28",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "fz84-7e6j",
+  "keyword" : "",
+  "license" : "Public Domain",
+  "modified" : "2013-02-06",
+  "releaseDate" : "2013-01-28",
+  "title" : "Oakland Centerline of Streams",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/file_data/hnHdblxs6EWqr5ZMbKturxFoVQWszTHxUUU78QSA11k?filename=streams.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/file_data/hzCGcKWo6R6-E5OxVjCVRbbS2pFyNbHFTO1XfVO0iiY?filename=ebmud-meters.zip",
+  "created" : "2013-01-29",
+  "description" : "Utility meter locations with addresses",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "4kvt-8avt",
+  "keyword" : "",
+  "license" : "Creative Commons 1.0 Universal\nEast Bay Municipal Utility District\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-01-29",
+  "releaseDate" : "2013-01-29",
+  "title" : "EBMUD Meters",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/file_data/hzCGcKWo6R6-E5OxVjCVRbbS2pFyNbHFTO1XfVO0iiY?filename=ebmud-meters.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/file_data/y7e3RAisKV1LORWXUM95yX_aJuxh4G2BGV5TN2SnKDU?filename=alameda-blocks-2010.zip",
+  "created" : "2013-01-29",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "2xt9-7837",
+  "keyword" : "",
+  "license" : "Creative Commons 1.0 Universal\nU.S. Census Bureau\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-01-29",
+  "releaseDate" : "2013-01-29",
+  "title" : "Alameda County Census Blocks 2010",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/file_data/y7e3RAisKV1LORWXUM95yX_aJuxh4G2BGV5TN2SnKDU?filename=alameda-blocks-2010.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/file_data/bMB8FM9PwLrFeDthdapUFPYOLHsRlvMzEZ-VNm0yr_E?filename=GeneralPlan_Eff20110302_Res83244.zip",
+  "created" : "2013-01-30",
+  "description" : "Illustrates the City's General Plan Land Use Classifications. Includes General Plan Corrections, effective on March 2, 2011 (Resolution 83244)",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "7xy4-dv3x",
+  "keyword" : "general plan,land use,planning",
+  "license" : "Public Domain\nCity of Oakland, Department of Planning and Building, Planning and Zoning Division(http://www.oaklandnet.com/planning)",
+  "modified" : "2013-01-30",
+  "releaseDate" : "2013-01-30",
+  "title" : "General Plan Land Use",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/file_data/bMB8FM9PwLrFeDthdapUFPYOLHsRlvMzEZ-VNm0yr_E?filename=GeneralPlan_Eff20110302_Res83244.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "general plan", "land use", "planning" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/file_data/R1iV6xm0Me9bxqtcx9OygXZt6LBatBQmI3VCMow8gtM?filename=Zoning_Eff20111103_Ord13090.zip",
+  "created" : "2013-01-30",
+  "description" : "Illustrates the City's Zoning Districts. Includes minor changes made effective on November 3, 2011, which includes a new Chinatown overlay zone (CH). Ordinance 13090.",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "q8sz-29u5",
+  "keyword" : "zoning,land use,planning",
+  "license" : "Public Domain\nCity of Oakland, Department of Planning and Building, Planning and Zoning Division(http://www.oaklandnet.com/planning)",
+  "modified" : "2013-01-30",
+  "releaseDate" : "2013-01-30",
+  "title" : "Zoning",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/file_data/R1iV6xm0Me9bxqtcx9OygXZt6LBatBQmI3VCMow8gtM?filename=Zoning_Eff20111103_Ord13090.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "zoning", "land use", "planning" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/views/fw6y-ui8e/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-10",
+  "feed" : "https://data.oaklandnet.com/api/views/fw6y-ui8e/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "fw6y-ui8e",
+  "keyword" : "art",
+  "license" : "Creative Commons 1.0 Universal\nCity of Oakland, Cultural Arts and Marketing\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-02-08",
+  "releaseDate" : "2013-01-10",
+  "title" : "City of Oakland Public Art Collection",
+  "webService" : "https://data.oaklandnet.com/resource/fw6y-ui8e",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/views/fw6y-ui8e/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/fw6y-ui8e/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/fw6y-ui8e/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/fw6y-ui8e/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/fw6y-ui8e/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/fw6y-ui8e/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "art" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/views/qyh9-i9dw/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-30",
+  "feed" : "https://data.oaklandnet.com/api/views/qyh9-i9dw/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "qyh9-i9dw",
+  "keyword" : "",
+  "modified" : "2013-01-30",
+  "releaseDate" : "2013-01-30",
+  "title" : "Parks and Recreation Facilities",
+  "webService" : "https://data.oaklandnet.com/resource/qyh9-i9dw",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/views/qyh9-i9dw/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/qyh9-i9dw/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/qyh9-i9dw/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/qyh9-i9dw/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/qyh9-i9dw/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/qyh9-i9dw/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/views/sduu-bfki/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-17",
+  "description" : "Opportunities abound for volunteers to help clean and beautify public spaces throughout the city.",
+  "feed" : "https://data.oaklandnet.com/api/views/sduu-bfki/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "sduu-bfki",
+  "keyword" : "",
+  "license" : "Creative Commons 1.0 Universal\nOakland Public Works Agency\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-07-17",
+  "releaseDate" : "2013-01-17",
+  "title" : "Public Works Volunteer Opportunities",
+  "webService" : "https://data.oaklandnet.com/resource/sduu-bfki",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/views/sduu-bfki/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/sduu-bfki/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/sduu-bfki/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/sduu-bfki/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/sduu-bfki/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/sduu-bfki/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/file_data/RS-UeAxGSdmfrBepKze9RDCSjMpoaY-ie41FEmWX78A?filename=Alameda_County_Parcel_Boundaries.zip",
+  "created" : "2013-02-01",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "dnp4-5zvt",
+  "keyword" : "",
+  "modified" : "2013-02-01",
+  "releaseDate" : "2013-02-01",
+  "title" : "Alameda County Parcel Boundaries",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/file_data/RS-UeAxGSdmfrBepKze9RDCSjMpoaY-ie41FEmWX78A?filename=Alameda_County_Parcel_Boundaries.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/file_data/CuQMttE-wGJc0vUx5rNtAGl3r-6jM_9fy_vVHufxXPg?filename=CityFacilities.zip",
+  "created" : "2013-02-04",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "y4t8-v2kh",
+  "keyword" : "",
+  "modified" : "2013-02-04",
+  "releaseDate" : "2013-02-04",
+  "title" : "City Facilities",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/file_data/CuQMttE-wGJc0vUx5rNtAGl3r-6jM_9fy_vVHufxXPg?filename=CityFacilities.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/file_data/Oz4idnXLBAanT9fGlxrmR4mXeLqXoBmDvUfde_ttu0Y?filename=Parks_and_Medians.zip",
+  "created" : "2013-02-04",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "dzmg-hg6v",
+  "keyword" : "",
+  "modified" : "2013-02-04",
+  "releaseDate" : "2013-02-04",
+  "title" : "Parks and Medians",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/file_data/Oz4idnXLBAanT9fGlxrmR4mXeLqXoBmDvUfde_ttu0Y?filename=Parks_and_Medians.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/file_data/QEanbE-VfqfdhfFIwvmMyUW2XZf6XdODjMGahG1jH64?filename=TrafficSignals.zip",
+  "created" : "2013-02-04",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "v2dk-7tzs",
+  "keyword" : "",
+  "modified" : "2013-02-04",
+  "releaseDate" : "2013-02-04",
+  "title" : "Traffic Signals",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/file_data/QEanbE-VfqfdhfFIwvmMyUW2XZf6XdODjMGahG1jH64?filename=TrafficSignals.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/file_data/w5qTNkJOFPgFHLJN4aSuHGAquggbCcc_6Yjvy13ahaA?filename=TreesGIS.zip",
+  "created" : "2013-02-04",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "9e7e-63pp",
+  "keyword" : "",
+  "modified" : "2013-02-04",
+  "releaseDate" : "2013-02-04",
+  "title" : "Street Trees",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/file_data/w5qTNkJOFPgFHLJN4aSuHGAquggbCcc_6Yjvy13ahaA?filename=TreesGIS.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/views/67wz-betr/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-22",
+  "feed" : "https://data.oaklandnet.com/api/views/67wz-betr/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "67wz-betr",
+  "keyword" : "",
+  "modified" : "2013-02-22",
+  "releaseDate" : "2013-02-22",
+  "title" : "Boards & Commissions",
+  "webService" : "https://data.oaklandnet.com/resource/67wz-betr",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/views/67wz-betr/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/67wz-betr/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/67wz-betr/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/67wz-betr/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/67wz-betr/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/67wz-betr/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/views/58ik-33wk/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-22",
+  "feed" : "https://data.oaklandnet.com/api/views/58ik-33wk/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "58ik-33wk",
+  "keyword" : "",
+  "modified" : "2013-02-22",
+  "releaseDate" : "2013-02-22",
+  "title" : "Fire Station Locations",
+  "webService" : "https://data.oaklandnet.com/resource/58ik-33wk",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/views/58ik-33wk/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/58ik-33wk/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/58ik-33wk/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/58ik-33wk/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/58ik-33wk/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/58ik-33wk/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/views/tt6i-5mkh/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-22",
+  "description" : "These streets have been resurfaced within the last five years. Cutting trenches in streets leads to early deterioration.  To help preserve newly resurfaced streets, Oakland requires any entity that cuts into streets that are on the Five-Year Moratorium to restore the streets per City standards and requirements.",
+  "feed" : "https://data.oaklandnet.com/api/views/tt6i-5mkh/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "tt6i-5mkh",
+  "keyword" : "streets",
+  "modified" : "2013-02-22",
+  "releaseDate" : "2013-02-22",
+  "title" : "5-Yr Moratorium for City Streets",
+  "webService" : "https://data.oaklandnet.com/resource/tt6i-5mkh",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/views/tt6i-5mkh/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/tt6i-5mkh/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/tt6i-5mkh/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/tt6i-5mkh/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/tt6i-5mkh/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/tt6i-5mkh/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "streets" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/views/vrkv-jmjc/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-02-22",
+  "description" : "These are the streets on the current paving contracts.",
+  "feed" : "https://data.oaklandnet.com/api/views/vrkv-jmjc/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "vrkv-jmjc",
+  "keyword" : "streets",
+  "modified" : "2013-02-22",
+  "releaseDate" : "2013-02-22",
+  "title" : "Current Paving Contracts",
+  "webService" : "https://data.oaklandnet.com/resource/vrkv-jmjc",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/views/vrkv-jmjc/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/vrkv-jmjc/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/vrkv-jmjc/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/vrkv-jmjc/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/vrkv-jmjc/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/vrkv-jmjc/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "streets" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/views/uyih-vzuc/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-23",
+  "feed" : "https://data.oaklandnet.com/api/views/uyih-vzuc/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "uyih-vzuc",
+  "keyword" : "",
+  "license" : "Public Domain",
+  "modified" : "2013-02-26",
+  "releaseDate" : "2013-01-23",
+  "title" : "NCPC Meeting Roster",
+  "webService" : "https://data.oaklandnet.com/resource/uyih-vzuc",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/views/uyih-vzuc/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/uyih-vzuc/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/uyih-vzuc/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/uyih-vzuc/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/uyih-vzuc/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/uyih-vzuc/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/views/pvzf-dbpc/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-19",
+  "description" : "FY 2011-12 Actual Expenditure",
+  "feed" : "https://data.oaklandnet.com/api/views/pvzf-dbpc/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "pvzf-dbpc",
+  "keyword" : "",
+  "modified" : "2013-03-19",
+  "releaseDate" : "2013-03-19",
+  "title" : "Wildfire Prevention Assessment District Expenditures",
+  "webService" : "https://data.oaklandnet.com/resource/pvzf-dbpc",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/views/pvzf-dbpc/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/pvzf-dbpc/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/pvzf-dbpc/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/pvzf-dbpc/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/pvzf-dbpc/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/pvzf-dbpc/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/file_data/Bcl6NACnyl2aB634daseMtJDyMlZk9OHEypbfbE94uE?filename=WildfireAssesment+%282%29.zip",
+  "created" : "2013-03-19",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "yacb-iw3m",
+  "keyword" : "fire,wpad",
+  "modified" : "2013-03-19",
+  "releaseDate" : "2013-03-19",
+  "title" : "Wildfire Prevention Assessment District Boundries",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/file_data/Bcl6NACnyl2aB634daseMtJDyMlZk9OHEypbfbE94uE?filename=WildfireAssesment+%282%29.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "fire", "wpad" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/views/j4xf-2t25/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-19",
+  "description" : "REQUESTID = The service request number. This should be shown as an integer without decimals. 5-digit \nREQUESTIDs were imported from the Recycling Hotline’s prior tracking system when they switched to the same system as the rest of Public Works in August 2012. All others are 6 digits.\n\nDATETIMEINIT = The Date/Time that the request was initiated.\n\nDESCRIPTION = Type of issue. Most of these are self-explanatory. Notes:\n“test template” and “This is a test subject. Ignore this ticket.” were for testing/training purposes only.\nDescriptions starting with “Business” “City Services” “CityBldg” (no space) “Events” “Misc” are/were used by the Recycling Hotline\n“TE” means “Traffic Engineering”\n\nREQCATEGORY = Request Category\n\nREQADDRESS = Request Address\nAn address of ZZ indicates that the address was not recorded, usually this is for general inquiries to the Recycling Hotline.\n\nSTATUS = The status as of 1/30/13. \nPending: Request received for review\n\nOPEN: Request assigned to work unit \n\nWOCREATE: Work Order created for work to be done (not all work units use this status, so Open service requests may also have work orders created for work to be done)\n\nCLOSED: Request is resolved\n\nREFERRED: Public Works received the request and forwarded it to another entity (see REFERREDTO)\n\nUNFUNDED: Request is for an service that Public Works is not funded to provide\nCANCEL: Request was canceled, generally because it was created erroneously, it was used for testing/training, or it is a request that was received that duplicated an existing unresolved request\n\nDATETIMECLOSED = The Date/Time that the request was closed\nSRX, SRY= Coordinates of the issue. Note that this is in NAD_1983_StatePlane_California_III_FIPS_0403_Feet, not latitude/longitude.\nREFERREDTO = If the status is Referred, this shows who it was referred to.",
+  "feed" : "https://data.oaklandnet.com/api/views/j4xf-2t25/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "j4xf-2t25",
+  "keyword" : "public works,service requests,pot holes,illegal dumping",
+  "modified" : "2013-03-20",
+  "releaseDate" : "2013-03-19",
+  "title" : "Service requests received by Public Works",
+  "webService" : "https://data.oaklandnet.com/resource/j4xf-2t25",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/views/j4xf-2t25/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/j4xf-2t25/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/j4xf-2t25/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/j4xf-2t25/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/j4xf-2t25/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/j4xf-2t25/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "public works", "service requests", "pot holes", "illegal dumping" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/views/b9mi-cs4z/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-19",
+  "description" : "FY 2012-13 Budget by Programs",
+  "feed" : "https://data.oaklandnet.com/api/views/b9mi-cs4z/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "b9mi-cs4z",
+  "keyword" : "wpad,budget",
+  "modified" : "2013-03-19",
+  "releaseDate" : "2013-03-19",
+  "title" : "Wildfire Prevention Assessment District Engineering Budget",
+  "webService" : "https://data.oaklandnet.com/resource/b9mi-cs4z",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/views/b9mi-cs4z/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/b9mi-cs4z/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/b9mi-cs4z/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/b9mi-cs4z/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/b9mi-cs4z/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/b9mi-cs4z/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "wpad", "budget" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/file_data/3nvp3cYd_cFv6_LfQzPWKLZjpPTrqtxFvxnKoSJby90?filename=OaklandNeighborhoodsCEDA2002.kml",
+  "created" : "2013-03-20",
+  "description" : "Compiled by the Community & Economic Development Department in 2002",
+  "format" : "application/xml; charset=us-ascii",
+  "identifier" : "7zky-kcq9",
+  "keyword" : "",
+  "modified" : "2013-03-20",
+  "releaseDate" : "2013-03-20",
+  "title" : "Oakland Neighborhoods",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/file_data/3nvp3cYd_cFv6_LfQzPWKLZjpPTrqtxFvxnKoSJby90?filename=OaklandNeighborhoodsCEDA2002.kml",
+    "formats" : [ {
+      "label" : "application/xml; charset=us-ascii",
+      "value" : "application/xml; charset=us-ascii"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/views/4rrq-475h/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-09",
+  "feed" : "https://data.oaklandnet.com/api/views/4rrq-475h/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "4rrq-475h",
+  "keyword" : "website",
+  "modified" : "2013-04-09",
+  "releaseDate" : "2013-04-09",
+  "title" : "Oakland Analytics Landing Pages 2012",
+  "webService" : "https://data.oaklandnet.com/resource/4rrq-475h",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/views/4rrq-475h/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/4rrq-475h/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/4rrq-475h/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/4rrq-475h/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/4rrq-475h/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/4rrq-475h/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "website" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/views/rbqz-eaj4/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-09",
+  "feed" : "https://data.oaklandnet.com/api/views/rbqz-eaj4/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "rbqz-eaj4",
+  "keyword" : "website",
+  "modified" : "2013-04-09",
+  "releaseDate" : "2013-04-09",
+  "title" : "Oakland Website Analytics Page Visits 2012",
+  "webService" : "https://data.oaklandnet.com/resource/rbqz-eaj4",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/views/rbqz-eaj4/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/rbqz-eaj4/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/rbqz-eaj4/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/rbqz-eaj4/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/rbqz-eaj4/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/rbqz-eaj4/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "website" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/views/fvtg-s7gp/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-09",
+  "feed" : "https://data.oaklandnet.com/api/views/fvtg-s7gp/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "fvtg-s7gp",
+  "keyword" : "website",
+  "modified" : "2013-04-09",
+  "releaseDate" : "2013-04-09",
+  "title" : "Oakland Website Analytics Search Term Overview 2012",
+  "webService" : "https://data.oaklandnet.com/resource/fvtg-s7gp",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/views/fvtg-s7gp/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/fvtg-s7gp/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/fvtg-s7gp/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/fvtg-s7gp/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/fvtg-s7gp/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/fvtg-s7gp/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "website" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/views/b8mb-8tti/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-17",
+  "feed" : "https://data.oaklandnet.com/api/views/b8mb-8tti/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "b8mb-8tti",
+  "keyword" : "budget",
+  "modified" : "2013-04-17",
+  "releaseDate" : "2013-04-17",
+  "title" : "City of Oakland Proposed Policy Budget FY2013-15",
+  "webService" : "https://data.oaklandnet.com/resource/b8mb-8tti",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/views/b8mb-8tti/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/b8mb-8tti/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/b8mb-8tti/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/b8mb-8tti/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/b8mb-8tti/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/b8mb-8tti/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "budget" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/views/az7b-di6w/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-06-06",
+  "description" : "City Administrator Coliseum Tickets",
+  "feed" : "https://data.oaklandnet.com/api/views/az7b-di6w/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "az7b-di6w",
+  "keyword" : "",
+  "modified" : "2013-06-06",
+  "releaseDate" : "2013-06-06",
+  "title" : "Coliseum Event Ticket Distribution List",
+  "webService" : "https://data.oaklandnet.com/resource/az7b-di6w",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/views/az7b-di6w/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/az7b-di6w/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/az7b-di6w/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/az7b-di6w/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/az7b-di6w/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/az7b-di6w/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/views/quth-gb8e/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-16",
+  "description" : "REQUESTID = The service request number. This should be shown as an integer without decimals. 5-digit REQUESTIDs were imported from the Recycling Hotline’s prior tracking system when they switched to the same system as the rest of Public Works in August 2012. All others are 6 digits. \r\n\r\nDATETIMEINIT = The Date/Time that the request was initiated. \r\n\r\nSOURCE = Indicates if the request was received via SeeClickFix, via the Report A Problem website at www.oaklandpw.com, or via (Phone or Email). \r\n\r\nDESCRIPTION = Type of issue. Most of these are self-explanatory. Notes: “test template” and “This is a test subject. Ignore this ticket.” were for testing/training purposes only. Descriptions starting with “Business” “City Services” “CityBldg” (no space) “Events” “Misc” are/were used by the Recycling Hotline “TE” means “Traffic Engineering” \r\n\r\nREQCATEGORY = Request Category \r\n\r\nREQADDRESS = Request Address An address of ZZ indicates that the address was not recorded, usually this is for general inquiries to the Recycling Hotline. \r\n\r\n\r\nSTATUS = The status as of June 6, 2013. Pending: Request received for review OPEN: Request assigned to work unit WOCREATE: Work Order created for work to be done (not all work units use this status, so Open service requests may also have work orders created for work to be done) CLOSED: Request is resolved REFERRED: Public Works received the request and forwarded it to another entity (see REFERREDTO) UNFUNDED: Request is for an service that Public Works is not funded to provide CANCEL: Request was canceled, generally because it was created erroneously, it was used for testing/training, or it is a request that was received that duplicated an existing unresolved request \r\n\r\nDATETIMECLOSED = The Date/Time that the request was closed \r\n\r\nSRX, SRY= Coordinates of the issue. Note that this is in NAD_1983_StatePlane_California_III_FIPS_0403_Feet, not latitude/longitude. \r\n\r\nREFERREDTO = If the status is Referred, this shows who it was referred to. \r\n\r\nCOUNCILDISTRICT = City Council District of the REQADDRESS.",
+  "feed" : "https://data.oaklandnet.com/api/views/quth-gb8e/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "quth-gb8e",
+  "keyword" : "public works,service requests,pot holes,illegal dumping,maintenance",
+  "modified" : "2013-06-10",
+  "releaseDate" : "2013-04-16",
+  "title" : "Service requests received by Public Works through June 6, 2013",
+  "webService" : "https://data.oaklandnet.com/resource/quth-gb8e",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/views/quth-gb8e/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/quth-gb8e/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/quth-gb8e/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/quth-gb8e/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/quth-gb8e/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/quth-gb8e/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "public works", "service requests", "pot holes", "illegal dumping", "maintenance" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/file_data/xoqZgfE10W5SzMy602gjyxSmqzzmQOW3yu8blpWhdbU?filename=policedistricts.zip",
+  "created" : "2013-06-18",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "ykcy-5r55",
+  "keyword" : "",
+  "modified" : "2013-06-18",
+  "releaseDate" : "2013-06-18",
+  "title" : "Oakland Police Districts",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/file_data/xoqZgfE10W5SzMy602gjyxSmqzzmQOW3yu8blpWhdbU?filename=policedistricts.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/file_data/LyJFHd5Vlp_4S1E921Vtc7mebEF4-48Tf10d1gE899Q?filename=CityLimits.zip",
+  "created" : "2013-07-03",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "9bhq-yt6w",
+  "keyword" : "",
+  "modified" : "2013-07-08",
+  "releaseDate" : "2013-07-03",
+  "title" : "City of Oakland City Limits",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/file_data/LyJFHd5Vlp_4S1E921Vtc7mebEF4-48Tf10d1gE899Q?filename=CityLimits.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/file_data/yF2n4GzwzjgXvJ8TOGqGytkeaUXKp63Ot2tfEYo53nY?filename=Alameda_County_Census_Tract_Results_2010.zip",
+  "created" : "2013-07-03",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "xxpe-g8mm",
+  "keyword" : "",
+  "modified" : "2013-07-08",
+  "releaseDate" : "2013-07-03",
+  "title" : "Alameda County Census Tract Results 2010",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/file_data/yF2n4GzwzjgXvJ8TOGqGytkeaUXKp63Ot2tfEYo53nY?filename=Alameda_County_Census_Tract_Results_2010.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/views/udg4-vz9p/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-06",
+  "feed" : "https://data.oaklandnet.com/api/views/udg4-vz9p/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "udg4-vz9p",
+  "keyword" : "",
+  "modified" : "2013-08-06",
+  "releaseDate" : "2013-08-06",
+  "title" : "2013 Large National Night Out Parties By Organization",
+  "webService" : "https://data.oaklandnet.com/resource/udg4-vz9p",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/views/udg4-vz9p/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/udg4-vz9p/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/udg4-vz9p/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/udg4-vz9p/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/udg4-vz9p/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/udg4-vz9p/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/views/68fg-z9fi/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-08-27",
+  "description" : "E-Filed FPPC forms from 2012 to present. Excludes forms filed on paper.",
+  "feed" : "https://data.oaklandnet.com/api/views/68fg-z9fi/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "68fg-z9fi",
+  "keyword" : "public ethics,campaign finance",
+  "modified" : "2013-08-27",
+  "releaseDate" : "2013-08-27",
+  "title" : "E-Filed FPPC Form 460, 496, 497, 461 & 465 transactions",
+  "webService" : "https://data.oaklandnet.com/resource/68fg-z9fi",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/views/68fg-z9fi/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/68fg-z9fi/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/68fg-z9fi/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/68fg-z9fi/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/68fg-z9fi/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/68fg-z9fi/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "public ethics", "campaign finance" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.oaklandnet.com/api/views/ym6k-rx7a/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-23",
+  "description" : "The Oakland Police Department provides crime data to the public through the City of Oakland’s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. \r\n\r\nThe file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",
+  "feed" : "https://data.oaklandnet.com/api/views/ym6k-rx7a/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ym6k-rx7a",
+  "keyword" : "",
+  "license" : "Creative Commons 1.0 Universal\nOakland Police Department(http://gismaps.oaklandnet.com/crimewatch/)\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-01-23",
+  "title" : "CrimeWatch Maps Past 90-Days",
+  "webService" : "https://data.oaklandnet.com/resource/ym6k-rx7a",
+  "distribution" : [ {
+    "accessURL" : "https://data.oaklandnet.com/api/views/ym6k-rx7a/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/ym6k-rx7a/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/ym6k-rx7a/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/ym6k-rx7a/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/ym6k-rx7a/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.oaklandnet.com/api/views/ym6k-rx7a/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+} ]

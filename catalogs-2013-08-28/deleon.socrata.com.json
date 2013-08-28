@@ -1,0 +1,250 @@
+[ {
+  "accessLevel" : "Public",
+  "description" : "Lists the datasets for this domain.  The format should correspond to the spec at http://project-open-data.github.io/schema/",
+  "format" : "application/json",
+  "frequency" : "hourly",
+  "identifier" : "https://deleon.socrata.com/data.json",
+  "modified" : "2013-08-28",
+  "title" : "Project Open Data, /data.json file",
+  "webService" : "https://deleon.socrata.com/data.json"
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://deleon.socrata.com/api/views/ehs9-mzvg/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-09-14",
+  "description" : "A shared calendar of citywide events.",
+  "feed" : "https://deleon.socrata.com/api/views/ehs9-mzvg/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ehs9-mzvg",
+  "keyword" : "calendar,events,dates,festivals",
+  "license" : "Public Domain",
+  "modified" : "2011-08-20",
+  "releaseDate" : "2010-09-14",
+  "title" : "De Leon City Calendar",
+  "webService" : "https://deleon.socrata.com/resource/ehs9-mzvg",
+  "distribution" : [ {
+    "accessURL" : "https://deleon.socrata.com/api/views/ehs9-mzvg/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://deleon.socrata.com/api/views/ehs9-mzvg/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://deleon.socrata.com/api/views/ehs9-mzvg/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://deleon.socrata.com/api/views/ehs9-mzvg/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://deleon.socrata.com/api/views/ehs9-mzvg/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://deleon.socrata.com/api/views/ehs9-mzvg/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "calendar", "events", "dates", "festivals" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://deleon.socrata.com/api/views/xbf3-af3b/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-09-15",
+  "description" : "Individuals with outstanding warrants in the City of De Leon.",
+  "feed" : "https://deleon.socrata.com/api/views/xbf3-af3b/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "xbf3-af3b",
+  "keyword" : "crime,warrants,police",
+  "modified" : "2011-08-20",
+  "releaseDate" : "2010-09-15",
+  "title" : "Outstanding Warrants",
+  "webService" : "https://deleon.socrata.com/resource/xbf3-af3b",
+  "distribution" : [ {
+    "accessURL" : "https://deleon.socrata.com/api/views/xbf3-af3b/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://deleon.socrata.com/api/views/xbf3-af3b/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://deleon.socrata.com/api/views/xbf3-af3b/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://deleon.socrata.com/api/views/xbf3-af3b/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://deleon.socrata.com/api/views/xbf3-af3b/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://deleon.socrata.com/api/views/xbf3-af3b/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "crime", "warrants", "police" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://deleon.socrata.com/api/views/igce-t68e/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-09-20",
+  "feed" : "https://deleon.socrata.com/api/views/igce-t68e/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "igce-t68e",
+  "keyword" : "",
+  "modified" : "2011-08-24",
+  "releaseDate" : "2010-09-20",
+  "title" : "Outstanding Warrants",
+  "webService" : "https://deleon.socrata.com/resource/igce-t68e",
+  "distribution" : [ {
+    "accessURL" : "https://deleon.socrata.com/api/views/igce-t68e/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://deleon.socrata.com/api/views/igce-t68e/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://deleon.socrata.com/api/views/igce-t68e/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://deleon.socrata.com/api/views/igce-t68e/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://deleon.socrata.com/api/views/igce-t68e/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://deleon.socrata.com/api/views/igce-t68e/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://deleon.socrata.com/api/file_data/DFCPeVnO-Ng6Hmhxv_SZX_K6g5ZG9oIual1gHTHEnOE?filename=2010+-+2011+Proposed+Budget.pdf",
+  "created" : "2010-09-30",
+  "description" : "2010 - 2011 Operating Fiscal Year Budget",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "q6ay-bbsa",
+  "keyword" : "financials",
+  "modified" : "2010-09-30",
+  "releaseDate" : "2010-09-30",
+  "title" : "2010 - 2011 Budget",
+  "distribution" : [ {
+    "accessURL" : "https://deleon.socrata.com/api/file_data/DFCPeVnO-Ng6Hmhxv_SZX_K6g5ZG9oIual1gHTHEnOE?filename=2010+-+2011+Proposed+Budget.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ],
+  "keywords" : [ "financials" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://deleon.socrata.com/api/file_data/xrcn-_qI8lnk0ZemTf_VbpE91tLbj-CmXQRWVSVKC0s?filename=Communityprofile.pdf",
+  "created" : "2010-11-04",
+  "format" : "application/pdf; charset=binary",
+  "identifier" : "ebc4-7c6f",
+  "keyword" : "",
+  "modified" : "2010-11-04",
+  "releaseDate" : "2010-11-04",
+  "title" : "De Leon Community Profile",
+  "distribution" : [ {
+    "accessURL" : "https://deleon.socrata.com/api/file_data/xrcn-_qI8lnk0ZemTf_VbpE91tLbj-CmXQRWVSVKC0s?filename=Communityprofile.pdf",
+    "formats" : [ {
+      "label" : "application/pdf; charset=binary",
+      "value" : "application/pdf; charset=binary"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://deleon.socrata.com/api/views/zqcq-psjf/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-03-21",
+  "description" : "This is the history of De Leon's Sales & Use Allocation for the past 10+ years",
+  "feed" : "https://deleon.socrata.com/api/views/zqcq-psjf/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "zqcq-psjf",
+  "keyword" : "sales tax",
+  "license" : "Public Domain\nMunicipal Advisory Council of Texas(http://www.mactexas.com/open/SalesTaxCharts/SalesTaxCharts/110508/1018795)",
+  "modified" : "2011-08-20",
+  "releaseDate" : "2011-03-21",
+  "title" : "Sales & Use Allocation",
+  "webService" : "https://deleon.socrata.com/resource/zqcq-psjf",
+  "distribution" : [ {
+    "accessURL" : "https://deleon.socrata.com/api/views/zqcq-psjf/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://deleon.socrata.com/api/views/zqcq-psjf/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://deleon.socrata.com/api/views/zqcq-psjf/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://deleon.socrata.com/api/views/zqcq-psjf/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://deleon.socrata.com/api/views/zqcq-psjf/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://deleon.socrata.com/api/views/zqcq-psjf/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "sales tax" ]
+} ]

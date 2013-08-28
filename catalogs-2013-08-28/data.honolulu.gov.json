@@ -1,0 +1,1499 @@
+[ {
+  "accessLevel" : "Public",
+  "description" : "Lists the datasets for this domain.  The format should correspond to the spec at http://project-open-data.github.io/schema/",
+  "format" : "application/json",
+  "frequency" : "hourly",
+  "identifier" : "https://data.honolulu.gov/data.json",
+  "modified" : "2013-08-28",
+  "title" : "Project Open Data, /data.json file",
+  "webService" : "https://data.honolulu.gov/data.json"
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=706881cd2a1341569509fbc499cc4f37",
+  "created" : "2012-07-24",
+  "description" : "Land zoning designations within the City & County of Honolulu along with special zoning districts, height limits, and zoning amendment locations.",
+  "format" : "application/octet-stream",
+  "identifier" : "qv9z-7saf",
+  "keyword" : "",
+  "modified" : "2013-02-11",
+  "releaseDate" : "2012-07-24",
+  "title" : "Zoning Map",
+  "distribution" : [ {
+    "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=706881cd2a1341569509fbc499cc4f37",
+    "formats" : [ {
+      "label" : "html?id=706881cd2a1341569509fbc499cc4f37",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.honolulu.gov/api/views/2swm-eusf/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-06-22",
+  "feed" : "https://data.honolulu.gov/api/views/2swm-eusf/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "2swm-eusf",
+  "keyword" : "",
+  "modified" : "2012-06-22",
+  "releaseDate" : "2012-06-22",
+  "title" : "Automated external defibrillator Locations",
+  "webService" : "https://data.honolulu.gov/resource/2swm-eusf",
+  "distribution" : [ {
+    "accessURL" : "https://data.honolulu.gov/api/views/2swm-eusf/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/2swm-eusf/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/2swm-eusf/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/2swm-eusf/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/2swm-eusf/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/2swm-eusf/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.honolulu.gov/api/views/dcdf-43kn/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-06-22",
+  "feed" : "https://data.honolulu.gov/api/views/dcdf-43kn/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "dcdf-43kn",
+  "keyword" : "",
+  "modified" : "2012-06-22",
+  "releaseDate" : "2012-06-22",
+  "title" : "Traffic Camera Locations",
+  "webService" : "https://data.honolulu.gov/resource/dcdf-43kn",
+  "distribution" : [ {
+    "accessURL" : "https://data.honolulu.gov/api/views/dcdf-43kn/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/dcdf-43kn/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/dcdf-43kn/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/dcdf-43kn/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/dcdf-43kn/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/dcdf-43kn/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.honolulu.gov/api/file_data/mFWoEMvZ8pwgSODk8mMST9swNnvXC-Dd3J2qGmImtqg?filename=sirens.zip",
+  "created" : "2012-06-22",
+  "format" : "application/zip; charset=binary",
+  "identifier" : "jtmr-aw46",
+  "keyword" : "",
+  "modified" : "2012-06-22",
+  "releaseDate" : "2012-06-22",
+  "title" : "Warning Sirens",
+  "distribution" : [ {
+    "accessURL" : "https://data.honolulu.gov/api/file_data/mFWoEMvZ8pwgSODk8mMST9swNnvXC-Dd3J2qGmImtqg?filename=sirens.zip",
+    "formats" : [ {
+      "label" : "application/zip; charset=binary",
+      "value" : "application/zip; charset=binary"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.honolulu.gov/api/views/pvti-pwka/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-06-22",
+  "feed" : "https://data.honolulu.gov/api/views/pvti-pwka/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "pvti-pwka",
+  "keyword" : "",
+  "modified" : "2012-06-22",
+  "releaseDate" : "2012-06-22",
+  "title" : "Sister Cities",
+  "webService" : "https://data.honolulu.gov/resource/pvti-pwka",
+  "distribution" : [ {
+    "accessURL" : "https://data.honolulu.gov/api/views/pvti-pwka/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/pvti-pwka/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/pvti-pwka/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/pvti-pwka/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/pvti-pwka/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/pvti-pwka/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.honolulu.gov/api/views/3dxw-z8rr/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-06-22",
+  "feed" : "https://data.honolulu.gov/api/views/3dxw-z8rr/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "3dxw-z8rr",
+  "keyword" : "",
+  "modified" : "2012-06-22",
+  "releaseDate" : "2012-06-22",
+  "title" : "Neighborhood Boards",
+  "webService" : "https://data.honolulu.gov/resource/3dxw-z8rr",
+  "distribution" : [ {
+    "accessURL" : "https://data.honolulu.gov/api/views/3dxw-z8rr/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/3dxw-z8rr/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/3dxw-z8rr/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/3dxw-z8rr/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/3dxw-z8rr/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/3dxw-z8rr/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.honolulu.gov/api/views/w4ir-s4fd/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-06-04",
+  "feed" : "https://data.honolulu.gov/api/views/w4ir-s4fd/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "w4ir-s4fd",
+  "keyword" : "",
+  "modified" : "2012-06-22",
+  "releaseDate" : "2012-06-04",
+  "title" : "Neighborhood Boards Election 2011",
+  "webService" : "https://data.honolulu.gov/resource/w4ir-s4fd",
+  "distribution" : [ {
+    "accessURL" : "https://data.honolulu.gov/api/views/w4ir-s4fd/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/w4ir-s4fd/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/w4ir-s4fd/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/w4ir-s4fd/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/w4ir-s4fd/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/w4ir-s4fd/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.honolulu.gov/api/views/ifzd-2k3p/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-06-04",
+  "feed" : "https://data.honolulu.gov/api/views/ifzd-2k3p/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ifzd-2k3p",
+  "keyword" : "",
+  "modified" : "2012-06-22",
+  "releaseDate" : "2012-06-04",
+  "title" : "HART Proposed Budget 2012",
+  "webService" : "https://data.honolulu.gov/resource/ifzd-2k3p",
+  "distribution" : [ {
+    "accessURL" : "https://data.honolulu.gov/api/views/ifzd-2k3p/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/ifzd-2k3p/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/ifzd-2k3p/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/ifzd-2k3p/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/ifzd-2k3p/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/ifzd-2k3p/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.honolulu.gov/api/views/yef5-h88r/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-06-14",
+  "description" : "Location and descriptions of public works of art",
+  "feed" : "https://data.honolulu.gov/api/views/yef5-h88r/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "yef5-h88r",
+  "keyword" : "",
+  "modified" : "2012-07-08",
+  "releaseDate" : "2012-06-14",
+  "title" : "Public Art",
+  "webService" : "https://data.honolulu.gov/resource/yef5-h88r",
+  "distribution" : [ {
+    "accessURL" : "https://data.honolulu.gov/api/views/yef5-h88r/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/yef5-h88r/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/yef5-h88r/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/yef5-h88r/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/yef5-h88r/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/yef5-h88r/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=4adbb9b743c6499583bb19b3f7eabc16",
+  "created" : "2012-07-24",
+  "description" : "Official Polling Places and Election Districts for 2012 elections for U.S. Congress, State of Hawaii House and Senate and Honolulu Council",
+  "format" : "application/octet-stream",
+  "identifier" : "3a9s-vekf",
+  "keyword" : "",
+  "modified" : "2012-07-24",
+  "releaseDate" : "2012-07-24",
+  "title" : "Polling Places And Election Precincts",
+  "distribution" : [ {
+    "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=4adbb9b743c6499583bb19b3f7eabc16",
+    "formats" : [ {
+      "label" : "html?id=4adbb9b743c6499583bb19b3f7eabc16",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=d03afd858da94e34934459a644c9006e",
+  "created" : "2012-07-24",
+  "description" : "Realtor neighborhoods and Neighborhood boards of Oahu",
+  "format" : "application/octet-stream",
+  "identifier" : "92uh-qeb5",
+  "keyword" : "",
+  "modified" : "2012-07-24",
+  "releaseDate" : "2012-07-24",
+  "title" : "Realtor and Neighborhood Boards",
+  "distribution" : [ {
+    "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=d03afd858da94e34934459a644c9006e",
+    "formats" : [ {
+      "label" : "html?id=d03afd858da94e34934459a644c9006e",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=2961d747e3284d6098eeaa446e42c97a",
+  "created" : "2012-07-24",
+  "description" : "Basemap for City and County of Honolulu",
+  "format" : "application/octet-stream",
+  "identifier" : "ys6n-eqkx",
+  "keyword" : "",
+  "modified" : "2012-07-24",
+  "releaseDate" : "2012-07-24",
+  "title" : "Basemap for City and County of Honolulu",
+  "distribution" : [ {
+    "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=2961d747e3284d6098eeaa446e42c97a",
+    "formats" : [ {
+      "label" : "html?id=2961d747e3284d6098eeaa446e42c97a",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=f0dd206e304b47d895a61eb069d944a6",
+  "created" : "2012-07-24",
+  "description" : "City & County Lessee Lands on the island of Oahu",
+  "format" : "application/octet-stream",
+  "identifier" : "8bxx-m279",
+  "keyword" : "",
+  "modified" : "2012-07-24",
+  "releaseDate" : "2012-07-24",
+  "title" : "City & County Lessee Land",
+  "distribution" : [ {
+    "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=f0dd206e304b47d895a61eb069d944a6",
+    "formats" : [ {
+      "label" : "html?id=f0dd206e304b47d895a61eb069d944a6",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=2da5ef2700d241bcbb751e298811ac94",
+  "created" : "2012-07-24",
+  "description" : "City & County owned land on the island of Oahu",
+  "format" : "application/octet-stream",
+  "identifier" : "2wz2-h4kn",
+  "keyword" : "",
+  "modified" : "2012-07-24",
+  "releaseDate" : "2012-07-24",
+  "title" : "City & County Owned Land",
+  "distribution" : [ {
+    "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=2da5ef2700d241bcbb751e298811ac94",
+    "formats" : [ {
+      "label" : "html?id=2da5ef2700d241bcbb751e298811ac94",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=8fd4d2b8121740eb8e812c968a99cca3",
+  "created" : "2012-07-24",
+  "description" : "State Owned Lands on the island of Oahu",
+  "format" : "application/octet-stream",
+  "identifier" : "xj6c-uzj9",
+  "keyword" : "",
+  "modified" : "2012-07-24",
+  "releaseDate" : "2012-07-24",
+  "title" : "State Owned Land",
+  "distribution" : [ {
+    "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=8fd4d2b8121740eb8e812c968a99cca3",
+    "formats" : [ {
+      "label" : "html?id=8fd4d2b8121740eb8e812c968a99cca3",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=373cd34419d14dcbb7f154ac6770cff5",
+  "created" : "2012-07-24",
+  "description" : "State Lessee Land on the island of Oahu",
+  "format" : "application/octet-stream",
+  "identifier" : "jnhf-ieui",
+  "keyword" : "",
+  "modified" : "2012-07-24",
+  "releaseDate" : "2012-07-24",
+  "title" : "State Lessee Land",
+  "distribution" : [ {
+    "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=373cd34419d14dcbb7f154ac6770cff5",
+    "formats" : [ {
+      "label" : "html?id=373cd34419d14dcbb7f154ac6770cff5",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=74be6782595f4c549076703a52934e08",
+  "created" : "2012-07-24",
+  "description" : "Federal owned lands on the island of Oahu",
+  "format" : "application/octet-stream",
+  "identifier" : "fbqz-69qn",
+  "keyword" : "",
+  "modified" : "2012-07-24",
+  "releaseDate" : "2012-07-24",
+  "title" : "Federal Owned Land",
+  "distribution" : [ {
+    "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=74be6782595f4c549076703a52934e08",
+    "formats" : [ {
+      "label" : "html?id=74be6782595f4c549076703a52934e08",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=03e78e3cc79f49a297d86c4c561204bc",
+  "created" : "2012-07-24",
+  "description" : "Federal Lessee Land for the island of Oahu",
+  "format" : "application/octet-stream",
+  "identifier" : "vyfm-7pxd",
+  "keyword" : "",
+  "modified" : "2012-07-24",
+  "releaseDate" : "2012-07-24",
+  "title" : "Federal Lessee Land",
+  "distribution" : [ {
+    "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=03e78e3cc79f49a297d86c4c561204bc",
+    "formats" : [ {
+      "label" : "html?id=03e78e3cc79f49a297d86c4c561204bc",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=27cc181ad2c7449ebd25a4365d1a0480",
+  "created" : "2012-07-24",
+  "description" : "This map is used to publish information about parks and recreation areas in a community as both points and polygons. The polygons, including some proposed parks, were originally built from parcels. The point location of the parks are derived from a subset of Facility Sites and related to a table that contains information about parks and recreation activities",
+  "format" : "application/octet-stream",
+  "identifier" : "tg29-p63i",
+  "keyword" : "",
+  "modified" : "2012-08-11",
+  "releaseDate" : "2012-07-24",
+  "title" : "Parks",
+  "distribution" : [ {
+    "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=27cc181ad2c7449ebd25a4365d1a0480",
+    "formats" : [ {
+      "label" : "esri feature service",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=3196bc87b31c443a92a425e409771b7c",
+  "created" : "2012-07-24",
+  "description" : "Parking facilities in the City & County of Honolulu.",
+  "format" : "application/octet-stream",
+  "identifier" : "383v-jhbi",
+  "keyword" : "",
+  "modified" : "2012-07-24",
+  "releaseDate" : "2012-07-24",
+  "title" : "Parking Facilties",
+  "distribution" : [ {
+    "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=3196bc87b31c443a92a425e409771b7c",
+    "formats" : [ {
+      "label" : "html?id=3196bc87b31c443a92a425e409771b7c",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=ed706eef00d948ccb8dfbf127ed6a309",
+  "created" : "2012-07-24",
+  "description" : "Emergency shelters for the City & County of Honolulu. Based on data from the Department of Emergency Management (DEM) Ver2 (May18 2012)",
+  "format" : "application/octet-stream",
+  "identifier" : "gxrb-rbvm",
+  "keyword" : "",
+  "modified" : "2012-07-24",
+  "releaseDate" : "2012-07-24",
+  "title" : "Emergency Shelter",
+  "distribution" : [ {
+    "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=ed706eef00d948ccb8dfbf127ed6a309",
+    "formats" : [ {
+      "label" : "html?id=ed706eef00d948ccb8dfbf127ed6a309",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=7f5f502bb13b4fd8a5597c28a51b2bf0",
+  "created" : "2012-07-24",
+  "description" : "Feature Service of Honolulu Fire Department Stations on the Island of Oahu",
+  "format" : "application/octet-stream",
+  "identifier" : "9wbz-g4gv",
+  "keyword" : "",
+  "modified" : "2012-07-24",
+  "releaseDate" : "2012-07-24",
+  "title" : "Fire Stations",
+  "distribution" : [ {
+    "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=7f5f502bb13b4fd8a5597c28a51b2bf0",
+    "formats" : [ {
+      "label" : "html?id=7f5f502bb13b4fd8a5597c28a51b2bf0",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=b1b6b5191fd547caa5dfe03d15b3520d",
+  "created" : "2012-07-24",
+  "description" : "Feature Service of Hospitals/Medical Centers within the City & County of Honolulu.",
+  "format" : "application/octet-stream",
+  "identifier" : "k3km-g7pi",
+  "keyword" : "",
+  "modified" : "2012-07-24",
+  "releaseDate" : "2012-07-24",
+  "title" : "Hospitals",
+  "distribution" : [ {
+    "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=b1b6b5191fd547caa5dfe03d15b3520d",
+    "formats" : [ {
+      "label" : "html?id=b1b6b5191fd547caa5dfe03d15b3520d",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=22f2a7fffbd34b1fbc3b1be2e31c8837",
+  "created" : "2012-07-24",
+  "description" : "Feature Service of Lifeguard Tower locations island of Oahu",
+  "format" : "application/octet-stream",
+  "identifier" : "nwuh-qh82",
+  "keyword" : "",
+  "modified" : "2012-07-24",
+  "releaseDate" : "2012-07-24",
+  "title" : "Lifeguard Towers",
+  "distribution" : [ {
+    "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=22f2a7fffbd34b1fbc3b1be2e31c8837",
+    "formats" : [ {
+      "label" : "html?id=22f2a7fffbd34b1fbc3b1be2e31c8837",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=16db0fd2f517432f86909c9c105d06a5",
+  "created" : "2012-07-24",
+  "description" : "Honolulu Police Department station locations for the City & County of Honolulu",
+  "format" : "application/octet-stream",
+  "identifier" : "9drw-8skx",
+  "keyword" : "",
+  "modified" : "2012-07-24",
+  "releaseDate" : "2012-07-24",
+  "title" : "Police Stations",
+  "distribution" : [ {
+    "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=16db0fd2f517432f86909c9c105d06a5",
+    "formats" : [ {
+      "label" : "html?id=16db0fd2f517432f86909c9c105d06a5",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=a980d1c9a5a14f38ae00643231d0243c",
+  "created" : "2012-07-24",
+  "description" : "Tsunami shelters for the island of Oahu",
+  "format" : "application/octet-stream",
+  "identifier" : "8uk2-gka6",
+  "keyword" : "",
+  "modified" : "2012-07-24",
+  "releaseDate" : "2012-07-24",
+  "title" : "Shelters - Tsunami",
+  "distribution" : [ {
+    "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=a980d1c9a5a14f38ae00643231d0243c",
+    "formats" : [ {
+      "label" : "html?id=a980d1c9a5a14f38ae00643231d0243c",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=784d8529375949fc9e8eccdd809a0581",
+  "created" : "2012-07-24",
+  "description" : "Feature Service of Tsunami Evacuation Zones, island of Oahu.",
+  "format" : "application/octet-stream",
+  "identifier" : "8t8u-ez86",
+  "keyword" : "",
+  "modified" : "2012-07-24",
+  "releaseDate" : "2012-07-24",
+  "title" : "Tsunami Evacuation Zone",
+  "distribution" : [ {
+    "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=784d8529375949fc9e8eccdd809a0581",
+    "formats" : [ {
+      "label" : "html?id=784d8529375949fc9e8eccdd809a0581",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=ec4359b4dd9f434dafc6756533c20278",
+  "created" : "2012-07-24",
+  "description" : "Feature Service of Zoning use for the City & County of Honolulu.",
+  "format" : "application/octet-stream",
+  "identifier" : "q74m-pv4v",
+  "keyword" : "",
+  "modified" : "2012-07-24",
+  "releaseDate" : "2012-07-24",
+  "title" : "Zoning Use",
+  "distribution" : [ {
+    "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=ec4359b4dd9f434dafc6756533c20278",
+    "formats" : [ {
+      "label" : "html?id=ec4359b4dd9f434dafc6756533c20278",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=5291471b4c404584b22f8161d30b9864",
+  "created" : "2012-07-24",
+  "description" : "The City and County of Honolulu, Department of Transportation Services, operates Hawaii Kai, Mililani, and Royal Kunia Park & Ride facilities. Park & Ride facilities are transit stations where bus patrons, and future rail patrons, may drive to the facility, leave their car during the day and catch TheBus.",
+  "format" : "application/octet-stream",
+  "identifier" : "k3by-p7wg",
+  "keyword" : "",
+  "modified" : "2012-07-24",
+  "releaseDate" : "2012-07-24",
+  "title" : "Park & Ride",
+  "distribution" : [ {
+    "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=5291471b4c404584b22f8161d30b9864",
+    "formats" : [ {
+      "label" : "html?id=5291471b4c404584b22f8161d30b9864",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=a08e80c560cb4d988b801374cd3e4ec3",
+  "created" : "2012-07-24",
+  "description" : "The 20-mile HRT (Honolulu Rail Transit) guideway preliminary engineering alignment from East Kapolei to Ala Moana Center.\n\nApril 2012 data.",
+  "format" : "application/octet-stream",
+  "identifier" : "4qje-2k4n",
+  "keyword" : "",
+  "modified" : "2012-07-24",
+  "releaseDate" : "2012-07-24",
+  "title" : "Rail Line",
+  "distribution" : [ {
+    "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=a08e80c560cb4d988b801374cd3e4ec3",
+    "formats" : [ {
+      "label" : "html?id=a08e80c560cb4d988b801374cd3e4ec3",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=8285c317f22a484d8154fb5a8b5804b0",
+  "created" : "2012-07-24",
+  "description" : "21 HRT station platform area centroids from East Kapolei to Ala Moana Center based on preliminary engineering (PE).",
+  "format" : "application/octet-stream",
+  "identifier" : "e9p7-tydn",
+  "keyword" : "",
+  "modified" : "2012-07-24",
+  "releaseDate" : "2012-07-24",
+  "title" : "Rail Station Centroid",
+  "distribution" : [ {
+    "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=8285c317f22a484d8154fb5a8b5804b0",
+    "formats" : [ {
+      "label" : "html?id=8285c317f22a484d8154fb5a8b5804b0",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=5c147d4f921b450eb809e2d0e1ba372c",
+  "created" : "2012-07-24",
+  "description" : "Station envelope footprints for the 21 HHCTCP stations from East Kapolei to Ala Moana Center as presented in preliminary engineering (PE) drawings prepared for RTD/HART by Parsons Brinckerhoff and subconsultants in 2009/2010. These footrpints were traced in ArcMap over rubber-sheeted PE station area, architectural, and civil site plan drawings, and are not intended to be exact.\nTo be used principally for station area land use planning.",
+  "format" : "application/octet-stream",
+  "identifier" : "7gw6-brtj",
+  "keyword" : "",
+  "modified" : "2012-07-24",
+  "releaseDate" : "2012-07-24",
+  "title" : "Rail Station Footprints",
+  "distribution" : [ {
+    "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=5c147d4f921b450eb809e2d0e1ba372c",
+    "formats" : [ {
+      "label" : "html?id=5c147d4f921b450eb809e2d0e1ba372c",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=f0263ac4e64141c891bee19735159d95",
+  "created" : "2012-07-24",
+  "description" : "Feature Service of the Streets for the City & County of Honolulu",
+  "format" : "application/octet-stream",
+  "identifier" : "yam3-5uy3",
+  "keyword" : "",
+  "modified" : "2012-07-24",
+  "releaseDate" : "2012-07-24",
+  "title" : "Streets",
+  "distribution" : [ {
+    "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=f0263ac4e64141c891bee19735159d95",
+    "formats" : [ {
+      "label" : "html?id=f0263ac4e64141c891bee19735159d95",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=c97a60d240a547f98fe0a2bff58289d8",
+  "created" : "2012-07-24",
+  "description" : "Refuse Auto Pickup Routes Feature Service",
+  "format" : "application/octet-stream",
+  "identifier" : "8iva-4xfs",
+  "keyword" : "",
+  "modified" : "2012-07-24",
+  "releaseDate" : "2012-07-24",
+  "title" : "Refuse Auto Pickup Routes",
+  "distribution" : [ {
+    "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=c97a60d240a547f98fe0a2bff58289d8",
+    "formats" : [ {
+      "label" : "html?id=c97a60d240a547f98fe0a2bff58289d8",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=83044aad561246899978432c8ea0142d",
+  "created" : "2012-07-24",
+  "description" : "Feature Service of refuse bulky pickup route",
+  "format" : "application/octet-stream",
+  "identifier" : "gu3g-ie7a",
+  "keyword" : "",
+  "modified" : "2012-07-24",
+  "releaseDate" : "2012-07-24",
+  "title" : "Refuse Bulky Pickup Routes",
+  "distribution" : [ {
+    "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=83044aad561246899978432c8ea0142d",
+    "formats" : [ {
+      "label" : "html?id=83044aad561246899978432c8ea0142d",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=06ff156f4d4b482e87819761f81b1c90",
+  "created" : "2012-07-24",
+  "description" : "Location of Refuse Collection yards for City & County of Honolulu",
+  "format" : "application/octet-stream",
+  "identifier" : "fze2-h37x",
+  "keyword" : "",
+  "modified" : "2012-07-24",
+  "releaseDate" : "2012-07-24",
+  "title" : "Refuse Collection Yard",
+  "distribution" : [ {
+    "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=06ff156f4d4b482e87819761f81b1c90",
+    "formats" : [ {
+      "label" : "html?id=06ff156f4d4b482e87819761f81b1c90",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=5d4947b2089a440d949b00d0b9d2cb2d",
+  "created" : "2012-07-24",
+  "description" : "Feature Service of locations of Community Recycling Bins.",
+  "format" : "application/octet-stream",
+  "identifier" : "i2d5-7umd",
+  "keyword" : "",
+  "modified" : "2012-07-24",
+  "releaseDate" : "2012-07-24",
+  "title" : "Refuse - Community Recycle Bins",
+  "distribution" : [ {
+    "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=5d4947b2089a440d949b00d0b9d2cb2d",
+    "formats" : [ {
+      "label" : "html?id=5d4947b2089a440d949b00d0b9d2cb2d",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=d633f12849f944f8af01ff9c63c9baf0",
+  "created" : "2012-07-24",
+  "description" : "Location of HI5 redemption centers island center.",
+  "format" : "application/octet-stream",
+  "identifier" : "hnww-9ree",
+  "keyword" : "",
+  "modified" : "2012-07-24",
+  "releaseDate" : "2012-07-24",
+  "title" : "Refuse HI5 Redemption Centers",
+  "distribution" : [ {
+    "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=d633f12849f944f8af01ff9c63c9baf0",
+    "formats" : [ {
+      "label" : "html?id=d633f12849f944f8af01ff9c63c9baf0",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=8899508c943a4b85abcfcf68f664321b",
+  "created" : "2012-07-24",
+  "description" : "Feature Service of refuse manual pick up routes.",
+  "format" : "application/octet-stream",
+  "identifier" : "6mix-hwjf",
+  "keyword" : "",
+  "modified" : "2012-07-24",
+  "releaseDate" : "2012-07-24",
+  "title" : "Refuse Manual Pick Up Routes",
+  "distribution" : [ {
+    "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=8899508c943a4b85abcfcf68f664321b",
+    "formats" : [ {
+      "label" : "html?id=8899508c943a4b85abcfcf68f664321b",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=5370e1819b1d44b2af44e5637d250d5d",
+  "created" : "2012-07-24",
+  "description" : "Feature Service of Drop Off and Refuse Transfer Stations",
+  "format" : "application/octet-stream",
+  "identifier" : "rm2f-q6mh",
+  "keyword" : "",
+  "modified" : "2012-07-24",
+  "releaseDate" : "2012-07-24",
+  "title" : "Refuse Drop-off and Transfer Stations",
+  "distribution" : [ {
+    "accessURL" : "http://cchnl.maps.arcgis.com/home/item.html?id=5370e1819b1d44b2af44e5637d250d5d",
+    "formats" : [ {
+      "label" : "html?id=5370e1819b1d44b2af44e5637d250d5d",
+      "value" : "application/octet-stream"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.honolulu.gov/api/views/fdx8-nih6/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-06-22",
+  "feed" : "https://data.honolulu.gov/api/views/fdx8-nih6/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "fdx8-nih6",
+  "keyword" : "",
+  "modified" : "2012-07-31",
+  "releaseDate" : "2012-06-22",
+  "title" : "Honolulu 311 Reports",
+  "webService" : "https://data.honolulu.gov/resource/fdx8-nih6",
+  "distribution" : [ {
+    "accessURL" : "https://data.honolulu.gov/api/views/fdx8-nih6/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/fdx8-nih6/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/fdx8-nih6/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/fdx8-nih6/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/fdx8-nih6/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/fdx8-nih6/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.honolulu.gov/api/views/a96q-gyhq/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-29",
+  "feed" : "https://data.honolulu.gov/api/views/a96q-gyhq/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "a96q-gyhq",
+  "keyword" : "",
+  "modified" : "2013-08-27",
+  "releaseDate" : "2012-08-29",
+  "title" : "Crime Incidents",
+  "webService" : "https://data.honolulu.gov/resource/a96q-gyhq",
+  "distribution" : [ {
+    "accessURL" : "https://data.honolulu.gov/api/views/a96q-gyhq/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/a96q-gyhq/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/a96q-gyhq/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/a96q-gyhq/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/a96q-gyhq/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/a96q-gyhq/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.honolulu.gov/api/views/ix32-iw26/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-08-29",
+  "feed" : "https://data.honolulu.gov/api/views/ix32-iw26/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ix32-iw26",
+  "keyword" : "",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2012-08-29",
+  "title" : "Traffic Incidents",
+  "webService" : "https://data.honolulu.gov/resource/ix32-iw26",
+  "distribution" : [ {
+    "accessURL" : "https://data.honolulu.gov/api/views/ix32-iw26/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/ix32-iw26/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/ix32-iw26/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/ix32-iw26/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/ix32-iw26/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/ix32-iw26/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.honolulu.gov/api/views/std8-yakc/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-05-31",
+  "description" : "Actual spending 2010&2011\r\nBudget 2012\r\nProposed Budget 2013",
+  "feed" : "https://data.honolulu.gov/api/views/std8-yakc/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "std8-yakc",
+  "keyword" : "",
+  "modified" : "2013-04-04",
+  "releaseDate" : "2012-05-31",
+  "title" : "City spending",
+  "webService" : "https://data.honolulu.gov/resource/std8-yakc",
+  "distribution" : [ {
+    "accessURL" : "https://data.honolulu.gov/api/views/std8-yakc/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/std8-yakc/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/std8-yakc/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/std8-yakc/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/std8-yakc/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/std8-yakc/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.honolulu.gov/api/views/a3ah-kpkr/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-20",
+  "feed" : "https://data.honolulu.gov/api/views/a3ah-kpkr/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "a3ah-kpkr",
+  "keyword" : "",
+  "modified" : "2013-03-07",
+  "releaseDate" : "2012-11-20",
+  "title" : "Data Catalog",
+  "webService" : "https://data.honolulu.gov/resource/datasets",
+  "distribution" : [ {
+    "accessURL" : "https://data.honolulu.gov/api/views/a3ah-kpkr/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/a3ah-kpkr/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/a3ah-kpkr/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/a3ah-kpkr/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/a3ah-kpkr/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/a3ah-kpkr/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.honolulu.gov/api/views/ab7c-s2jr/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-21",
+  "description" : "Bike Rack Data",
+  "feed" : "https://data.honolulu.gov/api/views/ab7c-s2jr/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ab7c-s2jr",
+  "keyword" : "bike,bicycles,racks",
+  "license" : "Open Database License\nDept of Transportation",
+  "modified" : "2012-11-21",
+  "releaseDate" : "2012-11-21",
+  "title" : "Bike Rack Locations By Area",
+  "webService" : "https://data.honolulu.gov/resource/ab7c-s2jr",
+  "distribution" : [ {
+    "accessURL" : "https://data.honolulu.gov/api/views/ab7c-s2jr/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/ab7c-s2jr/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/ab7c-s2jr/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/ab7c-s2jr/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/ab7c-s2jr/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/ab7c-s2jr/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "bike", "bicycles", "racks" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.honolulu.gov/api/views/7kck-y29a/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-12-11",
+  "description" : "Top Ten Sites from each department in Dec 2012",
+  "feed" : "https://data.honolulu.gov/api/views/7kck-y29a/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "7kck-y29a",
+  "keyword" : "",
+  "modified" : "2012-12-11",
+  "releaseDate" : "2012-12-11",
+  "title" : "2012 Dec Top Ten Sites",
+  "webService" : "https://data.honolulu.gov/resource/7kck-y29a",
+  "distribution" : [ {
+    "accessURL" : "https://data.honolulu.gov/api/views/7kck-y29a/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/7kck-y29a/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/7kck-y29a/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/7kck-y29a/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/7kck-y29a/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/7kck-y29a/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.honolulu.gov/api/views/rh9s-z3mn/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-07",
+  "description" : "Mayor's Proposed City Budget FY14",
+  "feed" : "https://data.honolulu.gov/api/views/rh9s-z3mn/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "rh9s-z3mn",
+  "keyword" : "budget",
+  "license" : "Open Database License",
+  "modified" : "2013-03-07",
+  "releaseDate" : "2013-03-07",
+  "title" : "City FY14 Proposed",
+  "webService" : "https://data.honolulu.gov/resource/rh9s-z3mn",
+  "distribution" : [ {
+    "accessURL" : "https://data.honolulu.gov/api/views/rh9s-z3mn/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/rh9s-z3mn/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/rh9s-z3mn/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/rh9s-z3mn/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/rh9s-z3mn/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/rh9s-z3mn/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "budget" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.honolulu.gov/api/views/t6ff-mewd/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-07",
+  "feed" : "https://data.honolulu.gov/api/views/t6ff-mewd/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "t6ff-mewd",
+  "keyword" : "",
+  "modified" : "2013-03-07",
+  "releaseDate" : "2013-03-07",
+  "title" : "Templates",
+  "webService" : "https://data.honolulu.gov/resource/templates",
+  "distribution" : [ {
+    "accessURL" : "https://data.honolulu.gov/api/views/t6ff-mewd/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/t6ff-mewd/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/t6ff-mewd/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/t6ff-mewd/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/t6ff-mewd/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/t6ff-mewd/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.honolulu.gov/api/views/g5bc-jnuv/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-23",
+  "description" : "Honolulu 311 (data as of 4/15/13)",
+  "feed" : "https://data.honolulu.gov/api/views/g5bc-jnuv/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "g5bc-jnuv",
+  "keyword" : "311",
+  "license" : "Creative Commons 1.0 Universal\nC&C Honolulu\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-04-25",
+  "releaseDate" : "2013-04-23",
+  "title" : "Honolulu 311 (April 2013)",
+  "webService" : "https://data.honolulu.gov/resource/g5bc-jnuv",
+  "distribution" : [ {
+    "accessURL" : "https://data.honolulu.gov/api/views/g5bc-jnuv/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/g5bc-jnuv/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/g5bc-jnuv/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/g5bc-jnuv/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/g5bc-jnuv/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/g5bc-jnuv/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "311" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.honolulu.gov/api/views/84fd-3fzf/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-30",
+  "description" : "City & County exceptional tree database",
+  "feed" : "https://data.honolulu.gov/api/views/84fd-3fzf/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "84fd-3fzf",
+  "keyword" : "",
+  "license" : "Creative Commons 1.0 Universal\nC&C Honolulu(http://www1.honolulu.gov/parks/exceptionaltrees.htm)\nhttp://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "modified" : "2013-04-30",
+  "releaseDate" : "2013-04-30",
+  "title" : "Exceptional Trees On Oahu",
+  "webService" : "https://data.honolulu.gov/resource/84fd-3fzf",
+  "distribution" : [ {
+    "accessURL" : "https://data.honolulu.gov/api/views/84fd-3fzf/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/84fd-3fzf/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/84fd-3fzf/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/84fd-3fzf/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/84fd-3fzf/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.honolulu.gov/api/views/84fd-3fzf/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+} ]

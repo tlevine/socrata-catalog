@@ -1,0 +1,4128 @@
+[ {
+  "accessLevel" : "Public",
+  "description" : "Lists the datasets for this domain.  The format should correspond to the spec at http://project-open-data.github.io/schema/",
+  "format" : "application/json",
+  "frequency" : "hourly",
+  "identifier" : "https://data.medicare.gov/data.json",
+  "modified" : "2013-08-28",
+  "title" : "Project Open Data, /data.json file",
+  "webService" : "https://data.medicare.gov/data.json"
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/uy9i-rbhv/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-12-03",
+  "feed" : "https://data.medicare.gov/api/views/uy9i-rbhv/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "uy9i-rbhv",
+  "keyword" : "",
+  "modified" : "2013-07-18",
+  "releaseDate" : "2012-12-03",
+  "title" : "CASPER / ASPEN Contacts",
+  "webService" : "https://data.medicare.gov/resource/uy9i-rbhv",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/uy9i-rbhv/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/uy9i-rbhv/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/uy9i-rbhv/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/uy9i-rbhv/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/uy9i-rbhv/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/uy9i-rbhv/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/mzav-drsq/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-09-07",
+  "feed" : "https://data.medicare.gov/api/views/mzav-drsq/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "mzav-drsq",
+  "keyword" : "",
+  "modified" : "2013-02-04",
+  "releaseDate" : "2012-09-07",
+  "title" : "Map Points - Location By Separate Latitutde Longitude Columns",
+  "webService" : "https://data.medicare.gov/resource/mzav-drsq",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/mzav-drsq/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/mzav-drsq/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/mzav-drsq/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/mzav-drsq/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/mzav-drsq/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/mzav-drsq/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/9n3s-kdb3/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-07-26",
+  "description" : "In October 2012, CMS began reducing Medicare payments for Inpatient Prospective Payment System hospitals with excess readmissions. Excess readmissions are measured by a ratio, by dividing a hospital’s number of “predicted” 30-day readmissions for heart attack, heart failure, and pneumonia by the number that would be “expected,” based on an average hospital with similar patients. A ratio greater than 1 indicates excess readmissions.",
+  "feed" : "https://data.medicare.gov/api/views/9n3s-kdb3/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "9n3s-kdb3",
+  "keyword" : "hospital compare,linking quality to payment",
+  "modified" : "2013-08-26",
+  "releaseDate" : "2012-07-26",
+  "title" : "Hospital Readmission Reduction",
+  "webService" : "https://data.medicare.gov/resource/9n3s-kdb3",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/9n3s-kdb3/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/9n3s-kdb3/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/9n3s-kdb3/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/9n3s-kdb3/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/9n3s-kdb3/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/9n3s-kdb3/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "linking quality to payment" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/nrth-mfg3/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-07-06",
+  "description" : "Also known as Medicare Spending per Beneficiary (MSPB) Spending Breakdowns by Claim Type",
+  "feed" : "https://data.medicare.gov/api/views/nrth-mfg3/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "nrth-mfg3",
+  "keyword" : "hospital compare,medicare payment",
+  "modified" : "2013-07-29",
+  "releaseDate" : "2012-07-06",
+  "title" : "Spending Breakdown by Claim",
+  "webService" : "https://data.medicare.gov/resource/nrth-mfg3",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/nrth-mfg3/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/nrth-mfg3/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/nrth-mfg3/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/nrth-mfg3/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/nrth-mfg3/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/nrth-mfg3/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "medicare payment" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/fqah-awe3/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-10-23",
+  "description" : "Total Performance Scores by facility for Payment Year 2013 of the ESRD QIP",
+  "feed" : "https://data.medicare.gov/api/views/fqah-awe3/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "fqah-awe3",
+  "keyword" : "dfc,dialysis,dialysis facilities,linking quality to payment - qip",
+  "modified" : "2013-07-09",
+  "releaseDate" : "2012-10-23",
+  "title" : "Total Performance Scores",
+  "webService" : "https://data.medicare.gov/resource/fqah-awe3",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/fqah-awe3/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/fqah-awe3/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/fqah-awe3/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/fqah-awe3/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/fqah-awe3/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/fqah-awe3/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "dfc", "dialysis", "dialysis facilities", "linking quality to payment - qip" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/965w-87dq/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-10-23",
+  "description" : "Payment Year 2013 QIP data by facility: % patients with Hgb >12",
+  "feed" : "https://data.medicare.gov/api/views/965w-87dq/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "965w-87dq",
+  "keyword" : "dfc,dialysis,dialysis facilities,linking quality to payment - qip",
+  "modified" : "2013-07-09",
+  "releaseDate" : "2012-10-23",
+  "title" : "Anemia",
+  "webService" : "https://data.medicare.gov/resource/965w-87dq",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/965w-87dq/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/965w-87dq/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/965w-87dq/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/965w-87dq/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/965w-87dq/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/965w-87dq/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "dfc", "dialysis", "dialysis facilities", "linking quality to payment - qip" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/qg5v-bgia/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-10-23",
+  "description" : "Complete QIP data by facility for Payment Year 2013. Includes data for number of eligible patients by measure, % patients with Hemoglobin >12, % patients with median URR >=65%, Hemoglobin measure score, URR measure score, the Total Performance Score, and payment reduction percentage.",
+  "feed" : "https://data.medicare.gov/api/views/qg5v-bgia/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "qg5v-bgia",
+  "keyword" : "dfc,dialysis,dialysis facilities,linking quality to payment - qip",
+  "modified" : "2013-07-09",
+  "releaseDate" : "2012-10-23",
+  "title" : "Complete QIP Data - Payment Year 2013",
+  "webService" : "https://data.medicare.gov/resource/qg5v-bgia",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/qg5v-bgia/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/qg5v-bgia/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/qg5v-bgia/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/qg5v-bgia/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/qg5v-bgia/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/qg5v-bgia/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "dfc", "dialysis", "dialysis facilities", "linking quality to payment - qip" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/85f7-fdqf/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-10-23",
+  "description" : "Payment Year 2013 QIP data by facility: % patients with median URR >=65%",
+  "feed" : "https://data.medicare.gov/api/views/85f7-fdqf/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "85f7-fdqf",
+  "keyword" : "dfc,dialysis,dialysis facilities,linking quality to payment - qip",
+  "modified" : "2013-07-09",
+  "releaseDate" : "2012-10-23",
+  "title" : "Dialysis Adequacy",
+  "webService" : "https://data.medicare.gov/resource/85f7-fdqf",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/85f7-fdqf/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/85f7-fdqf/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/85f7-fdqf/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/85f7-fdqf/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/85f7-fdqf/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/85f7-fdqf/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "dfc", "dialysis", "dialysis facilities", "linking quality to payment - qip" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/q3u6-ati9/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-03-14",
+  "feed" : "https://data.medicare.gov/api/views/q3u6-ati9/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "q3u6-ati9",
+  "keyword" : "",
+  "modified" : "2013-03-14",
+  "releaseDate" : "2013-03-14",
+  "title" : "Templates",
+  "webService" : "https://data.medicare.gov/resource/templates",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/q3u6-ati9/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/q3u6-ati9/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/q3u6-ati9/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/q3u6-ati9/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/q3u6-ati9/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/q3u6-ati9/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/akfs-5dgr/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-07-26",
+  "description" : "These \"Outcome of Care Surgical Measures\" show whether hospitals differ in what happens to patients after they have one of three types of surgeries.",
+  "feed" : "https://data.medicare.gov/api/views/akfs-5dgr/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "akfs-5dgr",
+  "keyword" : "hospital compare,readmissions complications and death",
+  "modified" : "2013-07-18",
+  "releaseDate" : "2012-07-26",
+  "title" : "Hospital ACS Measures",
+  "webService" : "https://data.medicare.gov/resource/akfs-5dgr",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/akfs-5dgr/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/akfs-5dgr/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/akfs-5dgr/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/akfs-5dgr/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/akfs-5dgr/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/akfs-5dgr/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "readmissions complications and death" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/md6f-wqvv/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-26",
+  "description" : "A list of hospitals participating in the Hospital VBP Program and their performance rates and scores for the Clinical Process of Care Pneumonia measures.",
+  "feed" : "https://data.medicare.gov/api/views/md6f-wqvv/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "md6f-wqvv",
+  "keyword" : "hospital compare,hospital value-based purchasing,value-based,purchasing,hvbp,ratings,quality,process of care,pneumonia,pn,scores,rates,linking quality to payment",
+  "modified" : "2013-07-17",
+  "releaseDate" : "2012-11-26",
+  "title" : "Hospital Value-Based Purchasing (HVBP) – Pneumonia Scores",
+  "webService" : "https://data.medicare.gov/resource/md6f-wqvv",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/md6f-wqvv/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/md6f-wqvv/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/md6f-wqvv/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/md6f-wqvv/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/md6f-wqvv/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/md6f-wqvv/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "hospital value-based purchasing", "value-based", "purchasing", "hvbp", "ratings", "quality", "process of care", "pneumonia", "pn", "scores", "rates", "linking quality to payment" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/avtz-f2ge/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-26",
+  "description" : "A list of hospitals participating in the Hospital VBP Program and their scores for the Patient Experience of Care HCAHPS dimensions.",
+  "feed" : "https://data.medicare.gov/api/views/avtz-f2ge/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "avtz-f2ge",
+  "keyword" : "hospital compare,hospital value-based purchasing,value-based purchasing,hvbp,ratings,quality,patient survey,hcahps,scores,rates,patient experience of care,linking quality to payment",
+  "modified" : "2013-07-17",
+  "releaseDate" : "2012-11-26",
+  "title" : "Hospital Value-Based Purchasing (HVBP) – Patient Experience of Care Domain Scores (HCAHPS)",
+  "webService" : "https://data.medicare.gov/resource/avtz-f2ge",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/avtz-f2ge/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/avtz-f2ge/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/avtz-f2ge/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/avtz-f2ge/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/avtz-f2ge/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/avtz-f2ge/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "hospital value-based purchasing", "value-based purchasing", "hvbp", "ratings", "quality", "patient survey", "hcahps", "scores", "rates", "patient experience of care", "linking quality to payment" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/waqh-8uyi/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-26",
+  "description" : "A list of hospitals participating in the Hospital VBP Program and their performance rates and scores for the Clinical Process of Care Heart Failure measures.",
+  "feed" : "https://data.medicare.gov/api/views/waqh-8uyi/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "waqh-8uyi",
+  "keyword" : "hospital compare,hospital value-based purchasing,value-based purchasing,hvbp,ratings,quality,process of care,heart failure,hf,scores,rates,linking quality to payment",
+  "modified" : "2013-08-05",
+  "releaseDate" : "2012-11-26",
+  "title" : "Hospital Value-Based Purchasing (HVBP) – Heart Failure Scores",
+  "webService" : "https://data.medicare.gov/resource/waqh-8uyi",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/waqh-8uyi/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/waqh-8uyi/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/waqh-8uyi/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/waqh-8uyi/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/waqh-8uyi/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/waqh-8uyi/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "hospital value-based purchasing", "value-based purchasing", "hvbp", "ratings", "quality", "process of care", "heart failure", "hf", "scores", "rates", "linking quality to payment" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/aae7-dzxe/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-26",
+  "description" : "A list of hospitals participating in the Hospital VBP Program and their performance rates and scores for the Clinical Process of Care SCIP measures.",
+  "feed" : "https://data.medicare.gov/api/views/aae7-dzxe/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "aae7-dzxe",
+  "keyword" : "hospital compare,hospital value-based purchasing,value-based purchasing,hvbp,ratings,quality,process of care,scip,surgery,scores,rates,linking quality to payment",
+  "modified" : "2013-08-05",
+  "releaseDate" : "2012-11-26",
+  "title" : "Hospital Value-Based Purchasing (HVBP) – Surgical Care Improvement Project Scores",
+  "webService" : "https://data.medicare.gov/resource/aae7-dzxe",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/aae7-dzxe/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/aae7-dzxe/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/aae7-dzxe/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/aae7-dzxe/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/aae7-dzxe/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/aae7-dzxe/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "hospital value-based purchasing", "value-based purchasing", "hvbp", "ratings", "quality", "process of care", "scip", "surgery", "scores", "rates", "linking quality to payment" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/rm5p-8gae/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-26",
+  "description" : "A list of hospitals participating in the Hospital VBP Program and their performance rates and scores for the Clinical Process of Care AMI measures.",
+  "feed" : "https://data.medicare.gov/api/views/rm5p-8gae/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "rm5p-8gae",
+  "keyword" : "hospital compare,hospital value-based purchasing,value-based purchasing,hvbp,ratings,quality,process of care,acute myocardial infarction,ami,heart attack,scores,rates,linking quality to payment",
+  "modified" : "2013-07-17",
+  "releaseDate" : "2012-11-26",
+  "title" : "Hospital Value-Based Purchasing (HVBP) – Acute Myocardial Infarction Scores",
+  "webService" : "https://data.medicare.gov/resource/rm5p-8gae",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/rm5p-8gae/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/rm5p-8gae/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/rm5p-8gae/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/rm5p-8gae/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/rm5p-8gae/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/rm5p-8gae/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "hospital value-based purchasing", "value-based purchasing", "hvbp", "ratings", "quality", "process of care", "acute myocardial infarction", "ami", "heart attack", "scores", "rates", "linking quality to payment" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/qmeg-skqq/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-26",
+  "description" : "A list of hospitals participating in the Hospital VBP Program and their performance rates and scores for the Clinical Process of Care HAI measures.",
+  "feed" : "https://data.medicare.gov/api/views/qmeg-skqq/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "qmeg-skqq",
+  "keyword" : "hospital compare,hospital value-based purchasing,value-based purchasing,hvbp,ratings,quality,process of care,healthcare-associated infection,hai,scores,rates,infection,linking quality to payment",
+  "modified" : "2013-07-17",
+  "releaseDate" : "2012-11-26",
+  "title" : "Hospital Value-Based Purchasing (HVBP) – Healthcare-Associated Infection Scores",
+  "webService" : "https://data.medicare.gov/resource/qmeg-skqq",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/qmeg-skqq/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/qmeg-skqq/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/qmeg-skqq/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/qmeg-skqq/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/qmeg-skqq/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/qmeg-skqq/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "hospital value-based purchasing", "value-based purchasing", "hvbp", "ratings", "quality", "process of care", "healthcare-associated infection", "hai", "scores", "rates", "infection", "linking quality to payment" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/ypbt-wvdk/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-11-26",
+  "description" : "A list of hospitals participating in the Hospital VBP Program and their Clinical Process of Care domain scores, Patient Experience of Care dimension scores, and Total Performance Scores.",
+  "feed" : "https://data.medicare.gov/api/views/ypbt-wvdk/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ypbt-wvdk",
+  "keyword" : "hospital compare,hospital value-based purchasing,value-based purchasing,hvbp,ratings,quality,process of care,patient survey,hcahps,scores,rates,tps,total performance score,linking quality to payment",
+  "modified" : "2013-08-22",
+  "releaseDate" : "2012-11-26",
+  "title" : "Hospital Value-Based Purchasing (HVBP) – Total Performance Scores",
+  "webService" : "https://data.medicare.gov/resource/ypbt-wvdk",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/ypbt-wvdk/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ypbt-wvdk/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ypbt-wvdk/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ypbt-wvdk/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ypbt-wvdk/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ypbt-wvdk/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "hospital value-based purchasing", "value-based purchasing", "hvbp", "ratings", "quality", "process of care", "patient survey", "hcahps", "scores", "rates", "tps", "total performance score", "linking quality to payment" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/k5pr-ta2p/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-11",
+  "description" : "Process of care measures - emergency department - national data.  These measures show how often a hospital gives recommended care; that is, the treatment known to give the best results for most patients in the Emergency Department.",
+  "feed" : "https://data.medicare.gov/api/views/k5pr-ta2p/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "k5pr-ta2p",
+  "keyword" : "hospital compare,emergency department,timely and effective care",
+  "modified" : "2013-07-17",
+  "releaseDate" : "2013-01-11",
+  "title" : "Emergency Department Care Measures - National",
+  "webService" : "https://data.medicare.gov/resource/k5pr-ta2p",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/k5pr-ta2p/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/k5pr-ta2p/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/k5pr-ta2p/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/k5pr-ta2p/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/k5pr-ta2p/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/k5pr-ta2p/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "emergency department", "timely and effective care" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/ihvx-zkyp/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-01-27",
+  "description" : "The Healthcare-Associated Infection (HAI) measures - provider data. These measures are developed by Centers for Disease Control and Prevention (CDC) and collected through the National Healthcare Safety Network (NHSN). They provide information on infections that occur while the patient is in the hospital. These infections can be related to devices, such as central lines and urinary catheters, or spread from patient to patient after contact with an infected person or surface. Many healthcare associated infections can be prevented when the hospitals use CDC-recommended infection control steps.",
+  "feed" : "https://data.medicare.gov/api/views/ihvx-zkyp/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ihvx-zkyp",
+  "keyword" : "hospital compare,readmissions complications and death",
+  "modified" : "2013-08-07",
+  "releaseDate" : "2012-01-27",
+  "title" : "Healthcare Associated Infections",
+  "webService" : "https://data.medicare.gov/resource/ihvx-zkyp",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/ihvx-zkyp/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ihvx-zkyp/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ihvx-zkyp/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ihvx-zkyp/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ihvx-zkyp/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ihvx-zkyp/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "readmissions complications and death" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/93gb-qu26/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-01-27",
+  "description" : "The Healthcare-Associated Infections (HAI) measures - state data.  These measures are developed by Centers for Disease Control and Prevention (CDC) and collected through the National Healthcare Safety Network (NHSN). They provide information on infections that occur while the patient is in the hospital. These infections can be related to devices, such as central lines and urinary catheters, or spread from patient to patient after contact with an infected person or surface. Many healthcare associated infections can be prevented when the hospitals use CDC-recommended infection control steps.",
+  "feed" : "https://data.medicare.gov/api/views/93gb-qu26/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "93gb-qu26",
+  "keyword" : "hospital compare,readmissions complications and death",
+  "modified" : "2013-07-17",
+  "releaseDate" : "2012-01-27",
+  "title" : "Healthcare Associated Infections - State Measures",
+  "webService" : "https://data.medicare.gov/resource/93gb-qu26",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/93gb-qu26/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/93gb-qu26/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/93gb-qu26/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/93gb-qu26/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/93gb-qu26/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/93gb-qu26/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "readmissions complications and death" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/6kcz-q57c/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-22",
+  "description" : "The Healthcare-Associated Infections (HAI) measures - national data.  These measures are developed by Centers for Disease Control and Prevention (CDC) and collected through the National Healthcare Safety Network (NHSN). They provide information on infections that occur while the patient is in the hospital. These infections can be related to devices, such as central lines and urinary catheters, or spread from patient to patient after contact with an infected person or surface. Many healthcare associated infections can be prevented when the hospitals use CDC-recommended infection control steps.",
+  "feed" : "https://data.medicare.gov/api/views/6kcz-q57c/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "6kcz-q57c",
+  "keyword" : "hospital compare,readmissions complications and death",
+  "modified" : "2013-07-17",
+  "releaseDate" : "2013-04-22",
+  "title" : "Healthcare Associated Infections National",
+  "webService" : "https://data.medicare.gov/resource/6kcz-q57c",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/6kcz-q57c/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/6kcz-q57c/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/6kcz-q57c/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/6kcz-q57c/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/6kcz-q57c/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/6kcz-q57c/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "readmissions complications and death" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/zqjn-m8m8/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-10-20",
+  "description" : "Hospital Acquired Conditions - national data.  These measures show certain injuries, infections, or other serious conditions that patients with Original Medicare got while they were in the hospital. These conditions, also known as hospital-acquired conditions (HACs), are usually very rare. If they ever occur, hospital staff should identify and correct the problems that caused them.",
+  "feed" : "https://data.medicare.gov/api/views/zqjn-m8m8/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "zqjn-m8m8",
+  "keyword" : "hospital compare,readmissions complications and death",
+  "modified" : "2013-07-17",
+  "releaseDate" : "2011-10-20",
+  "title" : "Hospital Acquired Condition - National Measures",
+  "webService" : "https://data.medicare.gov/resource/zqjn-m8m8",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/zqjn-m8m8/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/zqjn-m8m8/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/zqjn-m8m8/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/zqjn-m8m8/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/zqjn-m8m8/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/zqjn-m8m8/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "readmissions complications and death" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/qd2y-qcgs/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-10-20",
+  "description" : "Hospital Acquired Conditions - provider data.  These measures show certain injuries, infections, or other serious conditions that patients with Original Medicare got while they were in the hospital. These conditions, also known as hospital-acquired conditions (HACs), are usually very rare. If they ever occur, hospital staff should identify and correct the problems that caused them.",
+  "feed" : "https://data.medicare.gov/api/views/qd2y-qcgs/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "qd2y-qcgs",
+  "keyword" : "hospital compare,readmissions complications and death",
+  "modified" : "2013-07-26",
+  "releaseDate" : "2011-10-20",
+  "title" : "Hospital Acquired Condition Measures",
+  "webService" : "https://data.medicare.gov/resource/qd2y-qcgs",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/qd2y-qcgs/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/qd2y-qcgs/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/qd2y-qcgs/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/qd2y-qcgs/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/qd2y-qcgs/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/qd2y-qcgs/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "readmissions complications and death" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/bg3e-vbhp/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-14",
+  "feed" : "https://data.medicare.gov/api/views/bg3e-vbhp/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "bg3e-vbhp",
+  "keyword" : "hospital compare,footnote,general information",
+  "modified" : "2013-07-17",
+  "releaseDate" : "2013-01-14",
+  "title" : "Hospital Footnote Crosswalk",
+  "webService" : "https://data.medicare.gov/resource/bg3e-vbhp",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/bg3e-vbhp/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/bg3e-vbhp/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/bg3e-vbhp/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/bg3e-vbhp/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/bg3e-vbhp/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/bg3e-vbhp/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "footnote", "general information" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/v287-28n3/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-09-23",
+  "description" : "A list of all Hospitals that have been registered with Medicare. The list includes addresses, phone numbers, and hospital type.",
+  "feed" : "https://data.medicare.gov/api/views/v287-28n3/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "v287-28n3",
+  "keyword" : "hospital compare,hospital list,emergency services,hospital type,general information",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2011-09-23",
+  "title" : "Hospital General Information",
+  "webService" : "https://data.medicare.gov/resource/hospital",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/v287-28n3/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/v287-28n3/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/v287-28n3/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/v287-28n3/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/v287-28n3/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/v287-28n3/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "hospital list", "emergency services", "hospital type", "general information" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/7aac-tz9t/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-03-08",
+  "description" : "The number of Medicare patients treated for each medical condition or surgical procedure - by provider",
+  "feed" : "https://data.medicare.gov/api/views/7aac-tz9t/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "7aac-tz9t",
+  "keyword" : "hospital compare,mpv,hc,quality,ratings,comparison,number of medicare patients",
+  "modified" : "2013-08-27",
+  "releaseDate" : "2010-03-08",
+  "title" : "Hospital Medicare Volume Measures",
+  "webService" : "https://data.medicare.gov/resource/7aac-tz9t",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/7aac-tz9t/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/7aac-tz9t/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/7aac-tz9t/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/7aac-tz9t/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/7aac-tz9t/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/7aac-tz9t/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "mpv", "hc", "quality", "ratings", "comparison", "number of medicare patients" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/ux4p-jnm7/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-03-08",
+  "description" : "The number of Medicare patients treated for each medical condition or surgical procedure - nationally.",
+  "feed" : "https://data.medicare.gov/api/views/ux4p-jnm7/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ux4p-jnm7",
+  "keyword" : "hospital compare,mpv,quality,ratings,national average,number of medicare patients",
+  "modified" : "2013-07-17",
+  "releaseDate" : "2010-03-08",
+  "title" : "Hospital Medicare Volume Measures - National Average",
+  "webService" : "https://data.medicare.gov/resource/ux4p-jnm7",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/ux4p-jnm7/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ux4p-jnm7/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ux4p-jnm7/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ux4p-jnm7/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ux4p-jnm7/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ux4p-jnm7/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "mpv", "quality", "ratings", "national average", "number of medicare patients" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/etdv-qsyk/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-03-08",
+  "description" : "The number of Medicare patients treated for each medical condition or surgical procedure by state.",
+  "feed" : "https://data.medicare.gov/api/views/etdv-qsyk/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "etdv-qsyk",
+  "keyword" : "hospital compare,mpv,quality,ratings,state average,number of medicare patients",
+  "modified" : "2013-07-17",
+  "releaseDate" : "2010-03-08",
+  "title" : "Hospital Medicare Volume Measures - State Average",
+  "webService" : "https://data.medicare.gov/resource/etdv-qsyk",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/etdv-qsyk/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/etdv-qsyk/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/etdv-qsyk/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/etdv-qsyk/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/etdv-qsyk/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/etdv-qsyk/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "mpv", "quality", "ratings", "state average", "number of medicare patients" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/i2h8-79qx/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-03-10",
+  "description" : "30 day outcome of care measures for readmissions and deaths - national data",
+  "feed" : "https://data.medicare.gov/api/views/i2h8-79qx/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "i2h8-79qx",
+  "keyword" : "hospital compare,outcome of care,ooc,quality,ratings,readmission rates,mortality rates,national average,readmissions complications and death",
+  "modified" : "2013-07-17",
+  "releaseDate" : "2010-03-10",
+  "title" : "Hospital Outcome Of Care Measures - National Average",
+  "webService" : "https://data.medicare.gov/resource/i2h8-79qx",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/i2h8-79qx/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/i2h8-79qx/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/i2h8-79qx/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/i2h8-79qx/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/i2h8-79qx/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/i2h8-79qx/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "outcome of care", "ooc", "quality", "ratings", "readmission rates", "mortality rates", "national average", "readmissions complications and death" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/jxrx-2hyt/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-03-10",
+  "description" : "30 day outcome of care measures for readmissions and deaths- state data",
+  "feed" : "https://data.medicare.gov/api/views/jxrx-2hyt/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "jxrx-2hyt",
+  "keyword" : "hospital compare,outcome of care,ooc,quality,ratings,readmission rates,mortality rates,state average,readmissions complications and death",
+  "modified" : "2013-07-17",
+  "releaseDate" : "2010-03-10",
+  "title" : "Hospital Outcome Of Care Measures - State",
+  "webService" : "https://data.medicare.gov/resource/jxrx-2hyt",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/jxrx-2hyt/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/jxrx-2hyt/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/jxrx-2hyt/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/jxrx-2hyt/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/jxrx-2hyt/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/jxrx-2hyt/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "outcome of care", "ooc", "quality", "ratings", "readmission rates", "mortality rates", "state average", "readmissions complications and death" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/nymf-dpgw/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-03-10",
+  "description" : "Process of care measures - heart attack - provider data. These measures show how often a hospital gives recommended care; that is, the treatment known to give the best results for most patients with heart attack.",
+  "feed" : "https://data.medicare.gov/api/views/nymf-dpgw/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "nymf-dpgw",
+  "keyword" : "hospital compare,process of care,poc,quality,ratings,heart attack,timely and effective care",
+  "modified" : "2013-07-26",
+  "releaseDate" : "2010-03-10",
+  "title" : "Hospital Process Of Care Measures - Heart Attack",
+  "webService" : "https://data.medicare.gov/resource/nymf-dpgw",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/nymf-dpgw/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/nymf-dpgw/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/nymf-dpgw/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/nymf-dpgw/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/nymf-dpgw/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/nymf-dpgw/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "process of care", "poc", "quality", "ratings", "heart attack", "timely and effective care" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/hcmr-nx8t/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-03-10",
+  "description" : "Process of care measures - heart failure - provider data.  These measures show how often a hospital gives recommended care; that is, the treatment known to give the best results for most patients with heart failure.",
+  "feed" : "https://data.medicare.gov/api/views/hcmr-nx8t/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "hcmr-nx8t",
+  "keyword" : "hospital compare,process of care,poc,quality,ratings,heart failure,timely and effective care",
+  "modified" : "2013-08-11",
+  "releaseDate" : "2010-03-10",
+  "title" : "Hospital Process Of Care Measures - Heart Failure",
+  "webService" : "https://data.medicare.gov/resource/hcmr-nx8t",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/hcmr-nx8t/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/hcmr-nx8t/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/hcmr-nx8t/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/hcmr-nx8t/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/hcmr-nx8t/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/hcmr-nx8t/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "process of care", "poc", "quality", "ratings", "heart failure", "timely and effective care" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/rnb4-peed/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-03-10",
+  "description" : "Process of care measures - pneumonia - provider data. These measures show how often a hospital gives recommended care, that is, treatment known to give the best results for most patients with pneumonia.",
+  "feed" : "https://data.medicare.gov/api/views/rnb4-peed/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "rnb4-peed",
+  "keyword" : "hospital compare,process of care,poc,quality,ratings,pneumonia,timely and effective care",
+  "modified" : "2013-07-26",
+  "releaseDate" : "2010-03-10",
+  "title" : "Hospital Process Of Care Measures - Pneumonia",
+  "webService" : "https://data.medicare.gov/resource/rnb4-peed",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/rnb4-peed/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/rnb4-peed/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/rnb4-peed/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/rnb4-peed/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/rnb4-peed/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/rnb4-peed/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "process of care", "poc", "quality", "ratings", "pneumonia", "timely and effective care" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/88j3-pn2g/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-03-10",
+  "description" : "Process of care measures - children's asthma care - provider data.  These measures show how often a hospital gives recommended care; that is, the treatment known to give the best results for most children with asthma.",
+  "feed" : "https://data.medicare.gov/api/views/88j3-pn2g/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "88j3-pn2g",
+  "keyword" : "hospital compare,process of care,poc,quality,ratings,cac,timely and effective care",
+  "modified" : "2013-07-17",
+  "releaseDate" : "2010-03-10",
+  "title" : "Hospital Process of Care Measures – Children’s Asthma",
+  "webService" : "https://data.medicare.gov/resource/88j3-pn2g",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/88j3-pn2g/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/88j3-pn2g/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/88j3-pn2g/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/88j3-pn2g/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/88j3-pn2g/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/88j3-pn2g/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "process of care", "poc", "quality", "ratings", "cac", "timely and effective care" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/2jjc-dc2m/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-03-10",
+  "description" : "Process of care measures - national data. These measures show how often a hospital gives recommended care; that is, the treatment known to give the best results for most patients with certain conditions or procedures.",
+  "feed" : "https://data.medicare.gov/api/views/2jjc-dc2m/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "2jjc-dc2m",
+  "keyword" : "hospital compare,process of care,poc,quality,ratings,national average,heart attack,heart failure,pneumonia,cac,scip,timely and effective care",
+  "modified" : "2013-07-18",
+  "releaseDate" : "2010-03-10",
+  "title" : "Hospital Process of Care Measures – National Average",
+  "webService" : "https://data.medicare.gov/resource/2jjc-dc2m",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/2jjc-dc2m/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/2jjc-dc2m/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/2jjc-dc2m/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/2jjc-dc2m/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/2jjc-dc2m/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/2jjc-dc2m/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "process of care", "poc", "quality", "ratings", "national average", "heart attack", "heart failure", "pneumonia", "cac", "scip", "timely and effective care" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/w899-qjgt/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-03-10",
+  "description" : "Process of care measures (HA, HF, PN, SCIP, CAC) - state rates.  These measures show how often a hospital gives recommended care; that is, the treatment known to give the best results for most patients with certain conditions or procedures.",
+  "feed" : "https://data.medicare.gov/api/views/w899-qjgt/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "w899-qjgt",
+  "keyword" : "hospital compare,process of care,poc,quality,ratings,state average,heart attack,heart failure,pneumonia,cac,scip,timely and effective care",
+  "modified" : "2013-07-23",
+  "releaseDate" : "2010-03-10",
+  "title" : "Hospital Process of Care Measures – State Average",
+  "webService" : "https://data.medicare.gov/resource/w899-qjgt",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/w899-qjgt/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/w899-qjgt/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/w899-qjgt/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/w899-qjgt/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/w899-qjgt/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/w899-qjgt/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "process of care", "poc", "quality", "ratings", "state average", "heart attack", "heart failure", "pneumonia", "cac", "scip", "timely and effective care" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/iz5u-4mk2/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-03-10",
+  "description" : "Process of Care measures - Surgical Care Improvement Project - provider data.  These measures show how often a hospital gives recommended care, that is, treatment known to give the best results for most patients with certain conditions or procedures.",
+  "feed" : "https://data.medicare.gov/api/views/iz5u-4mk2/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "iz5u-4mk2",
+  "keyword" : "hospital compare,process of care,poc,quality,ratings,scip,surgery,timely and effective care",
+  "modified" : "2013-08-22",
+  "releaseDate" : "2010-03-10",
+  "title" : "Hospital Process of Care Measures – Surgical Care Improvement Project",
+  "webService" : "https://data.medicare.gov/resource/iz5u-4mk2",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/iz5u-4mk2/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/iz5u-4mk2/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/iz5u-4mk2/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/iz5u-4mk2/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/iz5u-4mk2/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/iz5u-4mk2/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "process of care", "poc", "quality", "ratings", "scip", "surgery", "timely and effective care" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/easc-zwde/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-03-10",
+  "description" : "A list of hospitals and the availability of structural measures at that hospital. A structural measure reflects the environment in which hospitals care for patients. For example, whether or not a hospital participates in a Cardiac Surgery Registry.",
+  "feed" : "https://data.medicare.gov/api/views/easc-zwde/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "easc-zwde",
+  "keyword" : "hospital compare,structural measures,quality,ratings,cardiac,heart,surgery,general information",
+  "modified" : "2013-07-18",
+  "releaseDate" : "2010-03-10",
+  "title" : "Hospital Structural Measures – Cardiac Surgery Registry",
+  "webService" : "https://data.medicare.gov/resource/easc-zwde",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/easc-zwde/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/easc-zwde/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/easc-zwde/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/easc-zwde/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/easc-zwde/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/easc-zwde/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "structural measures", "quality", "ratings", "cardiac", "heart", "surgery", "general information" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/fhse-gisv/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-04-30",
+  "description" : "The \"Spending per Hospital Patient with Medicare\" measure shows whether Medicare spends more, less or about the same per Medicare patient treated in a specific hospital, compared to how much Medicare spends per patient nationally. This measure includes any Medicare Part A and Part B payments made for services provided to a patient during the 3 days prior to the hospital stay, during the stay, and during the 30 days after discharge from the hospital.",
+  "feed" : "https://data.medicare.gov/api/views/fhse-gisv/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "fhse-gisv",
+  "keyword" : "hospital compare,medicare payment",
+  "modified" : "2013-07-17",
+  "releaseDate" : "2012-04-30",
+  "title" : "Medicare Spending Per Patient",
+  "webService" : "https://data.medicare.gov/resource/fhse-gisv",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/fhse-gisv/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/fhse-gisv/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/fhse-gisv/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/fhse-gisv/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/fhse-gisv/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/fhse-gisv/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "medicare payment" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/wabv-iuyd/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-22",
+  "description" : "The \"Spending per Hospital Patient with Medicare\" measure shows whether Medicare spends more, less or about the same per Medicare patient treated in a specific hospital, compared to how much Medicare spends per patient nationally. This measure includes any Medicare Part A and Part B payments made for services provided to a patient during the 3 days prior to the hospital stay, during the stay, and during the 30 days after discharge from the hospital.",
+  "feed" : "https://data.medicare.gov/api/views/wabv-iuyd/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "wabv-iuyd",
+  "keyword" : "hospital compare,medicare payment",
+  "modified" : "2013-07-17",
+  "releaseDate" : "2013-04-22",
+  "title" : "Medicare Spending Per Patient - National",
+  "webService" : "https://data.medicare.gov/resource/wabv-iuyd",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/wabv-iuyd/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/wabv-iuyd/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/wabv-iuyd/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/wabv-iuyd/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/wabv-iuyd/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/wabv-iuyd/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "medicare payment" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/a4yu-u7t6/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-22",
+  "description" : "The \"Spending per Hospital Patient with Medicare\" measure shows whether Medicare spends more, less or about the same per Medicare patient treated in a specific hospital, compared to how much Medicare spends per patient nationally. This measure includes any Medicare Part A and Part B payments made for services provided to a patient during the 3 days prior to the hospital stay, during the stay, and during the 30 days after discharge from the hospital.",
+  "feed" : "https://data.medicare.gov/api/views/a4yu-u7t6/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "a4yu-u7t6",
+  "keyword" : "hospital compare,medicare payment",
+  "modified" : "2013-07-17",
+  "releaseDate" : "2013-04-22",
+  "title" : "Medicare Spending Per Patient - State",
+  "webService" : "https://data.medicare.gov/resource/a4yu-u7t6",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/a4yu-u7t6/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/a4yu-u7t6/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/a4yu-u7t6/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/a4yu-u7t6/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/a4yu-u7t6/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/a4yu-u7t6/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "medicare payment" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/ic7k-y2dn/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-11",
+  "description" : "Process of care measures - preventive care - national data. These measures show how often a hospital gives recommended care; that is, the treatment known to give the best results for most patients with certain conditions or procedures.",
+  "feed" : "https://data.medicare.gov/api/views/ic7k-y2dn/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ic7k-y2dn",
+  "keyword" : "hospital compare,timely and effective care",
+  "modified" : "2013-07-17",
+  "releaseDate" : "2013-01-11",
+  "title" : "Preventive Care Measures - National",
+  "webService" : "https://data.medicare.gov/resource/ic7k-y2dn",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/ic7k-y2dn/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ic7k-y2dn/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ic7k-y2dn/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ic7k-y2dn/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ic7k-y2dn/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ic7k-y2dn/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "timely and effective care" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/9a56-q2g6/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-11",
+  "description" : "Process of Care measures - preventive care - state data.  These measures show how often a hospital gives recommended care, that is, treatment known to give the best results for most patients with certain conditions or procedures.",
+  "feed" : "https://data.medicare.gov/api/views/9a56-q2g6/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "9a56-q2g6",
+  "keyword" : "hospital compare,timely and effective care",
+  "modified" : "2013-07-22",
+  "releaseDate" : "2013-01-11",
+  "title" : "Preventive Care Measures - State",
+  "webService" : "https://data.medicare.gov/resource/9a56-q2g6",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/9a56-q2g6/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/9a56-q2g6/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/9a56-q2g6/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/9a56-q2g6/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/9a56-q2g6/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/9a56-q2g6/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "timely and effective care" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/89u8-shx4/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-03-08",
+  "description" : "The national average for the HCAHPS survey categories. HCAHPS is a national, standardized survey of hospital patients about their experiences during a recent inpatient hospital stay.",
+  "feed" : "https://data.medicare.gov/api/views/89u8-shx4/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "89u8-shx4",
+  "keyword" : "hospital compare,hcahps,quality,ratings,national average,patient survey,patient survey results",
+  "modified" : "2013-08-05",
+  "releaseDate" : "2010-03-08",
+  "title" : "Survey of Patients’ Hospital Experiences (HCAHPS) – National Average",
+  "webService" : "https://data.medicare.gov/resource/89u8-shx4",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/89u8-shx4/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/89u8-shx4/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/89u8-shx4/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/89u8-shx4/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/89u8-shx4/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/89u8-shx4/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "hcahps", "quality", "ratings", "national average", "patient survey", "patient survey results" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/rj76-22dk/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-09-23",
+  "description" : "A list of hospital ratings for the Hospital Consumer Assessment of Healthcare Providers and Systems (HCAHPS). HCAHPS is a national, standardized survey of hospital patients about their experiences during a recent inpatient hospital stay.",
+  "feed" : "https://data.medicare.gov/api/views/rj76-22dk/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "rj76-22dk",
+  "keyword" : "hospital compare,hcahps,quality,ratings,patient survey,patient survey results",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2011-09-23",
+  "title" : "Survey of Patients’ Hospital Experiences (HCAHPS)",
+  "webService" : "https://data.medicare.gov/resource/rj76-22dk",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/rj76-22dk/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/rj76-22dk/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/rj76-22dk/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/rj76-22dk/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/rj76-22dk/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/rj76-22dk/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "hcahps", "quality", "ratings", "patient survey", "patient survey results" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/fhk8-g4vc/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-03-08",
+  "description" : "A list of the state averages for the HCAHPS survey responses. HCAHPS is a national, standardized survey of hospital patients about their experiences during a recent inpatient hospital stay.",
+  "feed" : "https://data.medicare.gov/api/views/fhk8-g4vc/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "fhk8-g4vc",
+  "keyword" : "hospital compare,hcahps,quality,ratings,state list,patient survey,patient survey results",
+  "modified" : "2013-08-15",
+  "releaseDate" : "2010-03-08",
+  "title" : "Survey of Patients’ Hospital Experiences (HCAHPS) – State Average",
+  "webService" : "https://data.medicare.gov/resource/fhk8-g4vc",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/fhk8-g4vc/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/fhk8-g4vc/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/fhk8-g4vc/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/fhk8-g4vc/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/fhk8-g4vc/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/fhk8-g4vc/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "hcahps", "quality", "ratings", "state list", "patient survey", "patient survey results" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/udjs-pzqm/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-11-02",
+  "description" : "Use of medical imaging - national data. These measures give you information about hospitals' use of medical imaging tests for outpatients. Examples of medical imaging tests include CT Scans, MRIs, and mammograms.",
+  "feed" : "https://data.medicare.gov/api/views/udjs-pzqm/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "udjs-pzqm",
+  "keyword" : "hospital compare,medical imaging,quality,ratings,mri,ct,mammogram,ultrasound,national average,use of medical imaging",
+  "modified" : "2013-07-17",
+  "releaseDate" : "2010-11-02",
+  "title" : "Use Of Medical Imaging Measures - National",
+  "webService" : "https://data.medicare.gov/resource/udjs-pzqm",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/udjs-pzqm/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/udjs-pzqm/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/udjs-pzqm/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/udjs-pzqm/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/udjs-pzqm/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/udjs-pzqm/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "medical imaging", "quality", "ratings", "mri", "ct", "mammogram", "ultrasound", "national average", "use of medical imaging" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/5mwm-p9j5/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-11-02",
+  "description" : "Use of medical imaging - state data. These measures give you information about hospitals' use of medical imaging tests for outpatients. Examples of medical imaging tests include CT Scans, MRIs, and mammograms.",
+  "feed" : "https://data.medicare.gov/api/views/5mwm-p9j5/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "5mwm-p9j5",
+  "keyword" : "hospital compare,medical imaging,quality,ratings,mri,ct,mammogram,ultrasound,state average,use of medical imaging",
+  "modified" : "2013-07-17",
+  "releaseDate" : "2010-11-02",
+  "title" : "Use Of Medical Imaging Measures - State",
+  "webService" : "https://data.medicare.gov/resource/5mwm-p9j5",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/5mwm-p9j5/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/5mwm-p9j5/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/5mwm-p9j5/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/5mwm-p9j5/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/5mwm-p9j5/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/5mwm-p9j5/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "medical imaging", "quality", "ratings", "mri", "ct", "mammogram", "ultrasound", "state average", "use of medical imaging" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/s9va-g2uz/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-11",
+  "description" : "Process of Care measures - preventive care - provider data.  These measures show how often a hospital gives recommended care, that is, treatment known to give the best results for most patients with certain conditions or procedures.",
+  "feed" : "https://data.medicare.gov/api/views/s9va-g2uz/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "s9va-g2uz",
+  "keyword" : "hospital compare,timely and effective care",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-01-11",
+  "title" : "Preventive Care Measures",
+  "webService" : "https://data.medicare.gov/resource/s9va-g2uz",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/s9va-g2uz/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/s9va-g2uz/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/s9va-g2uz/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/s9va-g2uz/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/s9va-g2uz/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/s9va-g2uz/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "timely and effective care" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/vs3q-rxc5/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-10-20",
+  "description" : "Agency for Healthcare Research and Quality Outcome measures - provider data. These data show serious complications that patients with Original Medicare experienced during a hospital stay, and how often patients who were admitted with certain conditions died while they were in the hospital. These complications can often be prevented if hospitals follow procedures based on best practices and scientific evidence.",
+  "feed" : "https://data.medicare.gov/api/views/vs3q-rxc5/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "vs3q-rxc5",
+  "keyword" : "hospital compare,readmissions complications and death",
+  "modified" : "2013-07-24",
+  "releaseDate" : "2011-10-20",
+  "title" : "Agency For Healthcare Research And Quality Measures",
+  "webService" : "https://data.medicare.gov/resource/vs3q-rxc5",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/vs3q-rxc5/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/vs3q-rxc5/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/vs3q-rxc5/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/vs3q-rxc5/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/vs3q-rxc5/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/vs3q-rxc5/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "readmissions complications and death" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/pd9z-jx9d/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-10-20",
+  "description" : "Agency for Healthcare Research and Quality Outcome measures - state data.  These data show serious complications that patients with Original Medicare experienced during a hospital stay, and how often patients who were admitted with certain condition",
+  "feed" : "https://data.medicare.gov/api/views/pd9z-jx9d/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "pd9z-jx9d",
+  "keyword" : "hospital compare,readmissions complications and death",
+  "modified" : "2013-07-17",
+  "releaseDate" : "2011-10-20",
+  "title" : "Agency For Healthcare Research And Quality - State Measures",
+  "webService" : "https://data.medicare.gov/resource/pd9z-jx9d",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/pd9z-jx9d/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/pd9z-jx9d/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/pd9z-jx9d/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/pd9z-jx9d/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/pd9z-jx9d/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/pd9z-jx9d/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "readmissions complications and death" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/sdhm-um6i/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-10-20",
+  "description" : "Agency for Healthcare Research and Quality Outcome measures - national data.  These data show serious complications that patients with Original Medicare experienced during a hospital stay, and how often patients who were admitted with certain conditions died while they were in the hospital. These complications can often be prevented if hospitals follow procedures based on best practices and scientific evidence.",
+  "feed" : "https://data.medicare.gov/api/views/sdhm-um6i/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "sdhm-um6i",
+  "keyword" : "hospital compare,readmissions complications and death",
+  "modified" : "2013-07-17",
+  "releaseDate" : "2011-10-20",
+  "title" : "Agency For Healthcare Research And Quality - National Measures",
+  "webService" : "https://data.medicare.gov/resource/sdhm-um6i",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/sdhm-um6i/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/sdhm-um6i/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/sdhm-um6i/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/sdhm-um6i/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/sdhm-um6i/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/sdhm-um6i/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "readmissions complications and death" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/sv6n-mnq5/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-10-31",
+  "feed" : "https://data.medicare.gov/api/views/sv6n-mnq5/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "sv6n-mnq5",
+  "keyword" : "nhc,nursing home,general information",
+  "modified" : "2013-07-17",
+  "releaseDate" : "2012-10-31",
+  "title" : "Nursing Home Compare - Measure Dates",
+  "webService" : "https://data.medicare.gov/resource/sv6n-mnq5",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/sv6n-mnq5/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/sv6n-mnq5/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/sv6n-mnq5/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/sv6n-mnq5/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/sv6n-mnq5/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/sv6n-mnq5/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "nhc", "nursing home", "general information" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/m5eg-upu5/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-10-17",
+  "feed" : "https://data.medicare.gov/api/views/m5eg-upu5/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "m5eg-upu5",
+  "keyword" : "hhc,general information",
+  "modified" : "2013-08-12",
+  "releaseDate" : "2012-10-17",
+  "title" : "Home Health Care - Zip Codes",
+  "webService" : "https://data.medicare.gov/resource/m5eg-upu5",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/m5eg-upu5/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/m5eg-upu5/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/m5eg-upu5/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/m5eg-upu5/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/m5eg-upu5/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/m5eg-upu5/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hhc", "general information" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/tee5-ixt5/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-03-03",
+  "description" : "State averages of several home health agency quality measures for Home Health Facilities.",
+  "feed" : "https://data.medicare.gov/api/views/tee5-ixt5/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "tee5-ixt5",
+  "keyword" : "hhc,facilities,quality,ratings,comparison,home health agencies,state average,quality measures",
+  "modified" : "2013-08-14",
+  "releaseDate" : "2010-03-03",
+  "title" : "Home Health Care - State by State Data",
+  "webService" : "https://data.medicare.gov/resource/tee5-ixt5",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/tee5-ixt5/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/tee5-ixt5/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/tee5-ixt5/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/tee5-ixt5/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/tee5-ixt5/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/tee5-ixt5/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hhc", "facilities", "quality", "ratings", "comparison", "home health agencies", "state average", "quality measures" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/6jpm-sxkc/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-02-08",
+  "description" : "A list of all Home Health Facilities that have been registered with Medicare. The list includes addresses, phone numbers, and quality measure ratings for each facility.",
+  "feed" : "https://data.medicare.gov/api/views/6jpm-sxkc/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "6jpm-sxkc",
+  "keyword" : "hhc,facilities,quality,ratings,comparison,home health agencies,quality measures",
+  "modified" : "2013-08-22",
+  "releaseDate" : "2010-02-08",
+  "title" : "Home Health Care Facilities",
+  "webService" : "https://data.medicare.gov/resource/6jpm-sxkc",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/6jpm-sxkc/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/6jpm-sxkc/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/6jpm-sxkc/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/6jpm-sxkc/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/6jpm-sxkc/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/6jpm-sxkc/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hhc", "facilities", "quality", "ratings", "comparison", "home health agencies", "quality measures" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/97z8-de96/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-03-03",
+  "description" : "The national averages for critical quality measures of Home Health Facilities.",
+  "feed" : "https://data.medicare.gov/api/views/97z8-de96/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "97z8-de96",
+  "keyword" : "hhc,facilities,quality,ratings,comparison,national average,quality measures",
+  "modified" : "2013-07-25",
+  "releaseDate" : "2010-03-03",
+  "title" : "Home Health Care - National Data",
+  "webService" : "https://data.medicare.gov/resource/97z8-de96",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/97z8-de96/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/97z8-de96/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/97z8-de96/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/97z8-de96/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/97z8-de96/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/97z8-de96/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hhc", "facilities", "quality", "ratings", "comparison", "national average", "quality measures" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/c886-nwpj/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-10-17",
+  "feed" : "https://data.medicare.gov/api/views/c886-nwpj/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "c886-nwpj",
+  "keyword" : "hhc,general information",
+  "modified" : "2013-07-17",
+  "releaseDate" : "2012-10-17",
+  "title" : "Home Health Care - Measure Date Range",
+  "webService" : "https://data.medicare.gov/resource/c886-nwpj",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/c886-nwpj/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/c886-nwpj/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/c886-nwpj/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/c886-nwpj/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/c886-nwpj/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/c886-nwpj/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hhc", "general information" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/m5jg-jg7i/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-04-16",
+  "feed" : "https://data.medicare.gov/api/views/m5jg-jg7i/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "m5jg-jg7i",
+  "keyword" : "hhc,facilities,quality,ratings,comparison,home health agencies,state average,hhcahps,patient survey results",
+  "modified" : "2013-07-17",
+  "releaseDate" : "2012-04-16",
+  "title" : "Home Health Care - HHCAHPS State Data",
+  "webService" : "https://data.medicare.gov/resource/m5jg-jg7i",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/m5jg-jg7i/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/m5jg-jg7i/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/m5jg-jg7i/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/m5jg-jg7i/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/m5jg-jg7i/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/m5jg-jg7i/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hhc", "facilities", "quality", "ratings", "comparison", "home health agencies", "state average", "hhcahps", "patient survey results" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/ccn4-8vby/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-04-16",
+  "feed" : "https://data.medicare.gov/api/views/ccn4-8vby/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ccn4-8vby",
+  "keyword" : "hhc,facilities,quality,ratings,comparison,home health agencies,hhcahps,patient survey results",
+  "modified" : "2013-08-22",
+  "releaseDate" : "2012-04-16",
+  "title" : "Home Health Care - HHCAHPS",
+  "webService" : "https://data.medicare.gov/resource/ccn4-8vby",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/ccn4-8vby/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ccn4-8vby/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ccn4-8vby/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ccn4-8vby/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ccn4-8vby/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ccn4-8vby/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hhc", "facilities", "quality", "ratings", "comparison", "home health agencies", "hhcahps", "patient survey results" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/vxub-6swi/rows.csv?accessType=DOWNLOAD",
+  "created" : "2012-04-16",
+  "feed" : "https://data.medicare.gov/api/views/vxub-6swi/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "vxub-6swi",
+  "keyword" : "hhc,facilities,quality,ratings,comparison,home health agencies,hhcahps,patient survey results",
+  "modified" : "2013-07-25",
+  "releaseDate" : "2012-04-16",
+  "title" : "Home Health Care - HHCAHPS National Data",
+  "webService" : "https://data.medicare.gov/resource/vxub-6swi",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/vxub-6swi/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/vxub-6swi/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/vxub-6swi/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/vxub-6swi/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/vxub-6swi/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/vxub-6swi/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hhc", "facilities", "quality", "ratings", "comparison", "home health agencies", "hhcahps", "patient survey results" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/23ew-n7w9/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-01-19",
+  "description" : "A list of all dialysis facilities registered with Medicare that includes addresses and phone numbers, as well as services and quality of care provided.",
+  "feed" : "https://data.medicare.gov/api/views/23ew-n7w9/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "23ew-n7w9",
+  "keyword" : "dfc,dialysis,dialysis facilities,quality measures",
+  "modified" : "2013-08-14",
+  "releaseDate" : "2010-01-19",
+  "title" : "Dialysis Facility Compare - Listing by Facility",
+  "webService" : "https://data.medicare.gov/resource/23ew-n7w9",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/23ew-n7w9/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/23ew-n7w9/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/23ew-n7w9/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/23ew-n7w9/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/23ew-n7w9/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/23ew-n7w9/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "dfc", "dialysis", "dialysis facilities", "quality measures" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/2rkq-ygai/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-09",
+  "description" : "National averages of common dialysis quality measures.",
+  "feed" : "https://data.medicare.gov/api/views/2rkq-ygai/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "2rkq-ygai",
+  "keyword" : "dfc,dialysis,medicare,comparison,statistics,national,quality measures",
+  "modified" : "2013-07-17",
+  "releaseDate" : "2013-01-09",
+  "title" : "Dialysis Facility Compare - National Averages",
+  "webService" : "https://data.medicare.gov/resource/2rkq-ygai",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/2rkq-ygai/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/2rkq-ygai/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/2rkq-ygai/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/2rkq-ygai/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/2rkq-ygai/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/2rkq-ygai/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "dfc", "dialysis", "medicare", "comparison", "statistics", "national", "quality measures" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/2fpu-cgbb/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-01-20",
+  "description" : "State averages of common dialysis quality measures.",
+  "feed" : "https://data.medicare.gov/api/views/2fpu-cgbb/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "2fpu-cgbb",
+  "keyword" : "dfc,dialysis,medicare,comparison,statistics,state list,quality measures",
+  "license" : "Public Domain\nMedicare.gov(http://www.medicare.gov)",
+  "modified" : "2013-07-17",
+  "releaseDate" : "2010-01-20",
+  "title" : "Dialysis Facility Compare - State Averages",
+  "webService" : "https://data.medicare.gov/resource/2fpu-cgbb",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/2fpu-cgbb/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/2fpu-cgbb/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/2fpu-cgbb/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/2fpu-cgbb/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/2fpu-cgbb/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/2fpu-cgbb/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "dfc", "dialysis", "medicare", "comparison", "statistics", "state list", "quality measures" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/s63f-csi6/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-06-24",
+  "description" : "The Physician Compare downloadable file is organized at the individual provider level; each line is unique at the provider/enrollment/organization/address level. Providers with multiple enrollments and/or single enrollments linking to multiple practice location addresses are listed on multiple lines.",
+  "feed" : "https://data.medicare.gov/api/views/s63f-csi6/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "s63f-csi6",
+  "keyword" : "",
+  "modified" : "2013-08-27",
+  "releaseDate" : "2013-06-24",
+  "title" : "National Downloadable File",
+  "webService" : "https://data.medicare.gov/resource/s63f-csi6",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/s63f-csi6/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/s63f-csi6/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/s63f-csi6/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/s63f-csi6/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/s63f-csi6/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/s63f-csi6/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/rcw8-6swd/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-07-18",
+  "description" : "30 day outcome of care measures for readmissions and deaths - provider data",
+  "feed" : "https://data.medicare.gov/api/views/rcw8-6swd/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "rcw8-6swd",
+  "keyword" : "hospital compare,outcome of care,ooc,quality,ratings,readmission rates,mortality rates,readmissions complications and death",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-07-18",
+  "title" : "Hospital Outcome Of Care Measures",
+  "webService" : "https://data.medicare.gov/resource/rcw8-6swd",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/rcw8-6swd/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/rcw8-6swd/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/rcw8-6swd/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/rcw8-6swd/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/rcw8-6swd/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/rcw8-6swd/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "outcome of care", "ooc", "quality", "ratings", "readmission rates", "mortality rates", "readmissions complications and death" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/ee3i-x2ic/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-11",
+  "description" : "Process of care measures - emergency department - provider data.  These measures show how often a hospital gives recommended care; that is, the treatment known to give the best results for most patients in the Emergency Department.",
+  "feed" : "https://data.medicare.gov/api/views/ee3i-x2ic/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ee3i-x2ic",
+  "keyword" : "hospital compare,emergency department,timely and effective care",
+  "modified" : "2013-08-22",
+  "releaseDate" : "2013-01-11",
+  "title" : "Emergency Department Care Measures",
+  "webService" : "https://data.medicare.gov/resource/ee3i-x2ic",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/ee3i-x2ic/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ee3i-x2ic/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ee3i-x2ic/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ee3i-x2ic/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ee3i-x2ic/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ee3i-x2ic/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "emergency department", "timely and effective care" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/hecb-qwf6/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-01-11",
+  "description" : "Process of care measures - emergency department - state data.  These measures show how often a hospital gives recommended care; that is, the treatment known to give the best results for most patients in the Emergency Department.",
+  "feed" : "https://data.medicare.gov/api/views/hecb-qwf6/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "hecb-qwf6",
+  "keyword" : "hospital compare,emergency department,timely and effective care",
+  "modified" : "2013-07-18",
+  "releaseDate" : "2013-01-11",
+  "title" : "Emergency Department Care Measures - State",
+  "webService" : "https://data.medicare.gov/resource/hecb-qwf6",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/hecb-qwf6/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/hecb-qwf6/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/hecb-qwf6/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/hecb-qwf6/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/hecb-qwf6/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/hecb-qwf6/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "emergency department", "timely and effective care" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/c3ut-52yp/rows.csv?accessType=DOWNLOAD",
+  "created" : "2011-10-20",
+  "description" : "Data Collection Periods for all measures on Hospital Compare.",
+  "feed" : "https://data.medicare.gov/api/views/c3ut-52yp/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "c3ut-52yp",
+  "keyword" : "hospital compare,general information",
+  "modified" : "2013-08-22",
+  "releaseDate" : "2011-10-20",
+  "title" : "Measure Dates",
+  "webService" : "https://data.medicare.gov/resource/c3ut-52yp",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/c3ut-52yp/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/c3ut-52yp/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/c3ut-52yp/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/c3ut-52yp/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/c3ut-52yp/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/c3ut-52yp/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "general information" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/vvxj-cvqh/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-03-12",
+  "description" : "A database of agencies listed by state and organization to provide you with contact information for specific organizations.",
+  "feed" : "https://data.medicare.gov/api/views/vvxj-cvqh/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "vvxj-cvqh",
+  "keyword" : "helpful contacts,organizations,state,websites",
+  "modified" : "2013-07-26",
+  "releaseDate" : "2010-03-12",
+  "title" : "Helpful Contacts - Agency List By Organization",
+  "webService" : "https://data.medicare.gov/resource/vvxj-cvqh",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/vvxj-cvqh/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/vvxj-cvqh/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/vvxj-cvqh/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/vvxj-cvqh/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/vvxj-cvqh/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/vvxj-cvqh/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "helpful contacts", "organizations", "state", "websites" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/tinc-envn/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-03-12",
+  "description" : "A database of agencies listed by state and topic to provide you with contact information for specific organizations or help you get answers to your Medicare related questions.",
+  "feed" : "https://data.medicare.gov/api/views/tinc-envn/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "tinc-envn",
+  "keyword" : "helpful contacts,organizations,agencies",
+  "modified" : "2013-08-23",
+  "releaseDate" : "2010-03-12",
+  "title" : "Helpful Contacts - Agency List By Topic",
+  "webService" : "https://data.medicare.gov/resource/tinc-envn",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/tinc-envn/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/tinc-envn/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/tinc-envn/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/tinc-envn/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/tinc-envn/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/tinc-envn/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "helpful contacts", "organizations", "agencies" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/hr7k-zqey/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-03-12",
+  "description" : "A list of common questions and topics asked by Medicare beneficiaries, and the specific organization that can help you get the answers to your question.",
+  "feed" : "https://data.medicare.gov/api/views/hr7k-zqey/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "hr7k-zqey",
+  "keyword" : "helpful contacts,organizations,questions,hc,quality,billing,health information",
+  "modified" : "2013-07-26",
+  "releaseDate" : "2010-03-12",
+  "title" : "Helpful Contacts - Question List By Organization",
+  "webService" : "https://data.medicare.gov/resource/hr7k-zqey",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/hr7k-zqey/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/hr7k-zqey/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/hr7k-zqey/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/hr7k-zqey/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/hr7k-zqey/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/hr7k-zqey/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "helpful contacts", "organizations", "questions", "hc", "quality", "billing", "health information" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/96ug-zvyz/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-06-14",
+  "description" : "The PCI readmission measure shows how often Medicare fee-for-service (FFS) patients are readmitted to a hospital after a PCI procedure.",
+  "feed" : "https://data.medicare.gov/api/views/96ug-zvyz/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "96ug-zvyz",
+  "keyword" : "hospital compare,readmissions complications and death",
+  "modified" : "2013-07-30",
+  "releaseDate" : "2013-06-14",
+  "title" : "American College of Cardiology Percutaneous Coronary Intervention (PCI) Readmission Measure",
+  "webService" : "https://data.medicare.gov/resource/96ug-zvyz",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/96ug-zvyz/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/96ug-zvyz/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/96ug-zvyz/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/96ug-zvyz/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/96ug-zvyz/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/96ug-zvyz/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "readmissions complications and death" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/djen-97ju/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-07-11",
+  "description" : "A list of the quality measure scores currently displayed on Nursing Home Compare for each nursing home. Each row contains a specific quality measure for a specific nursing home and includes the three-quarter score average and the score for each individual quarter.",
+  "feed" : "https://data.medicare.gov/api/views/djen-97ju/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "djen-97ju",
+  "keyword" : "nhc,nursing home,quality,measures,ratings,quality measures",
+  "modified" : "2013-08-27",
+  "releaseDate" : "2013-07-11",
+  "title" : "Quality Measures",
+  "webService" : "https://data.medicare.gov/resource/djen-97ju",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/djen-97ju/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/djen-97ju/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/djen-97ju/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/djen-97ju/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/djen-97ju/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/djen-97ju/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "nhc", "nursing home", "quality", "measures", "ratings", "quality measures" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/xcdc-v8bm/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-07-11",
+  "description" : "A list of a variety of averages for each state or territory as well as the national average, including each quality measure, staffing, fine amount and number of deficiencies. Each row displays a specific state or territory, the associated measure and average.",
+  "feed" : "https://data.medicare.gov/api/views/xcdc-v8bm/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "xcdc-v8bm",
+  "keyword" : "nursing home,nhc,general information",
+  "modified" : "2013-08-23",
+  "releaseDate" : "2013-07-11",
+  "title" : "State Averages",
+  "webService" : "https://data.medicare.gov/resource/xcdc-v8bm",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/xcdc-v8bm/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/xcdc-v8bm/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/xcdc-v8bm/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/xcdc-v8bm/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/xcdc-v8bm/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/xcdc-v8bm/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "nursing home", "nhc", "general information" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/y2hd-n93e/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-07-11",
+  "description" : "A list of ownership information for currently active nursing homes.",
+  "feed" : "https://data.medicare.gov/api/views/y2hd-n93e/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "y2hd-n93e",
+  "keyword" : "nursing home,nhc,general information",
+  "modified" : "2013-08-16",
+  "releaseDate" : "2013-07-11",
+  "title" : "Ownership",
+  "webService" : "https://data.medicare.gov/resource/y2hd-n93e",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/y2hd-n93e/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/y2hd-n93e/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/y2hd-n93e/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/y2hd-n93e/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/y2hd-n93e/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/y2hd-n93e/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "nursing home", "nhc", "general information" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/g6vv-u9sr/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-07-11",
+  "description" : "A list of the fines and payment denials currently displayed on Nursing Home Compare.",
+  "feed" : "https://data.medicare.gov/api/views/g6vv-u9sr/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "g6vv-u9sr",
+  "keyword" : "nhc,nursing home,enforcement,penalties",
+  "modified" : "2013-08-15",
+  "releaseDate" : "2013-07-11",
+  "title" : "Penalties",
+  "webService" : "https://data.medicare.gov/resource/g6vv-u9sr",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/g6vv-u9sr/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/g6vv-u9sr/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/g6vv-u9sr/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/g6vv-u9sr/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/g6vv-u9sr/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/g6vv-u9sr/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "nhc", "nursing home", "enforcement", "penalties" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/hq9i-23gr/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-07-11",
+  "description" : "General information on currently active nursing homes, including number of certified beds, quality measure scores, staffing and other information used in the Five-Star Rating System. Data are presented as one row per nursing home.",
+  "feed" : "https://data.medicare.gov/api/views/hq9i-23gr/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "hq9i-23gr",
+  "keyword" : "nursing home,nhc,general information",
+  "modified" : "2013-08-27",
+  "releaseDate" : "2013-07-11",
+  "title" : "Provider Info",
+  "webService" : "https://data.medicare.gov/resource/hq9i-23gr",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/hq9i-23gr/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/hq9i-23gr/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/hq9i-23gr/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/hq9i-23gr/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/hq9i-23gr/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/hq9i-23gr/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "nursing home", "nhc", "general information" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/r5ix-sfxw/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-07-11",
+  "description" : "A list of all deficiencies currently listed on Nursing Home Compare, including the nursing home that received the deficiency, the associated inspection date, deficiency tag number, scope and severity, the current status of the deficiency and the correction date.  Data are presented as one deficiency per row.",
+  "feed" : "https://data.medicare.gov/api/views/r5ix-sfxw/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "r5ix-sfxw",
+  "keyword" : "nhc,nursing home,complaints,safety,inspection results",
+  "modified" : "2013-08-26",
+  "releaseDate" : "2013-07-11",
+  "title" : "Deficiencies",
+  "webService" : "https://data.medicare.gov/resource/r5ix-sfxw",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/r5ix-sfxw/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/r5ix-sfxw/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/r5ix-sfxw/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/r5ix-sfxw/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/r5ix-sfxw/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/r5ix-sfxw/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "nhc", "nursing home", "complaints", "safety", "inspection results" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/b8rp-pr7k/rows.csv?accessType=DOWNLOAD",
+  "created" : "2013-04-28",
+  "description" : "A list of Suppliers that indicates the supplies carried at that location and the supplier's Medicare participation status.",
+  "feed" : "https://data.medicare.gov/api/views/b8rp-pr7k/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "b8rp-pr7k",
+  "keyword" : "supplier,directory,supplies,medical equipment",
+  "modified" : "2013-08-28",
+  "releaseDate" : "2013-04-28",
+  "title" : "Supplier Directory Data",
+  "webService" : "https://data.medicare.gov/resource/b8rp-pr7k",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/b8rp-pr7k/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/b8rp-pr7k/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/b8rp-pr7k/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/b8rp-pr7k/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/b8rp-pr7k/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/b8rp-pr7k/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "supplier", "directory", "supplies", "medical equipment" ]
+}, {
+  "accessLevel" : "Public",
+  "accessURL" : "https://data.medicare.gov/api/views/ctux-x8vy/rows.csv?accessType=DOWNLOAD",
+  "created" : "2010-11-02",
+  "description" : "Use of medical imaging - provider data. These measures give you information about hospitals' use of medical imaging tests for outpatients. Examples of medical imaging tests include CT Scans, MRIs, and mammograms.",
+  "feed" : "https://data.medicare.gov/api/views/ctux-x8vy/rows.rss",
+  "format" : "text/csv",
+  "identifier" : "ctux-x8vy",
+  "keyword" : "hospital compare,medical imaging,quality,ratings,mri,ct,mammogram,ultrasound,use of medical imaging",
+  "modified" : "2013-08-27",
+  "releaseDate" : "2010-11-02",
+  "title" : "Use Of Medical Imaging Measures",
+  "webService" : "https://data.medicare.gov/resource/ctux-x8vy",
+  "distribution" : [ {
+    "accessURL" : "https://data.medicare.gov/api/views/ctux-x8vy/rows.csv?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "csv",
+      "value" : "text/csv"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ctux-x8vy/rows.json?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "json",
+      "value" : "application/json"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ctux-x8vy/rows.xml?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xml",
+      "value" : "application/xml"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ctux-x8vy/rows.rdf?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "rdf",
+      "value" : "application/xml+rdf"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ctux-x8vy/rows.xls?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xls",
+      "value" : "application/excel"
+    } ]
+  }, {
+    "accessURL" : "https://data.medicare.gov/api/views/ctux-x8vy/rows.xlsx?accessType=DOWNLOAD",
+    "formats" : [ {
+      "label" : "xlsx",
+      "value" : "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    } ]
+  } ],
+  "keywords" : [ "hospital compare", "medical imaging", "quality", "ratings", "mri", "ct", "mammogram", "ultrasound", "use of medical imaging" ]
+} ]
