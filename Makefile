@@ -1,3 +1,3 @@
 .PHONY: download
 download:
-	bin/download.sh
+	src/download.sh
