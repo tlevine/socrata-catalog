@@ -37,3 +37,7 @@ p.cum <- ggplot(csv.cum) + aes(x = created, y = prop.csv, group = portal, size =
   scale_x_date('Data') + scale_y_continuous('Proportion of datasets that are CSV') + scale_size_continuous('Datasets on the portal') +
   theme(title = element_text('Dataset formats by portal over time'))
 
+# Why does Missouri have so few CSVs?
+data.mo.gov <- subset(datasets, portal == 'data.mo.gov')
+data.mo.gov$format <- factor(data.mo.gov$format, levels = names(sort(table(data.mo.gov$format), decreasing = TRUE)))
+p.data.mo.gov <- ggplot(data.mo.gov) + aes(x = format) + geom_bar()
