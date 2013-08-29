@@ -17,4 +17,4 @@ csv <- ddply(datasets, c('portal', 'csv'), function(df) {
   df
 })
 
-# p <- ggplot(csv) + aes(x = created, y = count, group = portal) + geom_line()
+p <- ggplot(csv) + aes(x = created, y = count, group = portal, color = csv) + geom_line()
