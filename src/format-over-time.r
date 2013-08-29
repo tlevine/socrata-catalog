@@ -22,4 +22,12 @@ csv.monthly <- ddply(datasets, c('portal', 'month'), function(df) {
     count = nrow(df)
   )
 })
-p.monthly <- ggplot(monthly) + aes(x = month, y = prop.csv, group = portal, size = count) + geom_point()
+p.monthly <- ggplot(csv.monthly) + aes(x = month, y = prop.csv, group = portal, size = count) + geom_point()
+
+# Cumulative CSV and non-csv
+csv.cum <- ddply(datasets, c('portal', 'csv'), function(df) {
+  df <- df[order(df$created),]
+  df$count <- 1:nrow(df)
+  df
+})
+p.cum <- ggplot(subset(csv.cum, portal == 'data.hawaii.gov')) + aes(x = created, y = count, color = csv) + geom_point()
