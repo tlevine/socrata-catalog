@@ -4,3 +4,5 @@ download:
 
 db: download
 	src/db.py
+
+formats: db

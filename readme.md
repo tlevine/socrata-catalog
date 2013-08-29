@@ -27,3 +27,4 @@ SELECT 'https://' || portal || '/-/-/' || identifier AS url, title FROM catalog 
 Run any of the various analyses.
 
 * `make formats`: What file formats do source data come from?
+* `make external`: What external files are linked?
