@@ -33,11 +33,46 @@ csv.cum <- ddply(datasets, c('portal'), function(df) {
 })
 csv.cum$prop.csv <- csv.cum$count.csv / csv.cum$count
 
-p.cum <- ggplot(csv.cum) + aes(x = created, y = prop.csv, group = portal, size = count) + geom_line() +
+p.csv.cum <- ggplot(csv.cum) + aes(x = created, y = prop.csv, group = portal, size = count) + geom_line() +
   scale_x_date('Data') + scale_y_continuous('Proportion of datasets that are CSV') + scale_size_continuous('Datasets on the portal') +
   theme(title = element_text('Dataset formats by portal over time'))
+p.csv.cum.facet <- p.csv.cum + facet_wrap(~portal)
 
 # Why does Missouri have so few CSVs?
 data.mo.gov <- subset(datasets, portal == 'data.mo.gov')
 data.mo.gov$format <- factor(data.mo.gov$format, levels = names(sort(table(data.mo.gov$format), decreasing = TRUE)))
 p.data.mo.gov <- ggplot(data.mo.gov) + aes(x = format) + geom_bar()
+
+
+# Cumulative CSV and PDF
+datasets$csv.pdf <- datasets$format == 'csv' | datasets$format == 'pdf'
+csv.pdf.cum <- ddply(datasets, c('portal'), function(df) {
+  df <- df[order(df$created),]
+  df$count.csv.pdf <- cumsum(df$csv.pdf)
+  df$count <- 1:nrow(df)
+  df
+})
+csv.pdf.cum$prop.csv.pdf <- csv.pdf.cum$count.csv.pdf / csv.cum$count
+
+p.csv.pdf.cum <- ggplot(csv.pdf.cum) + aes(x = created, y = prop.csv.pdf, group = portal, size = count) + geom_line() +
+  scale_x_date('Data') + scale_y_continuous('Proportion of datasets that are CSV or PDF') + scale_size_continuous('Datasets on the portal') +
+  theme(title = element_text('Dataset formats by portal over time'))
+p.csv.pdf.cum.facet <- p.csv.pdf.cum + facet_wrap(~portal)
+
+# Hawaii
+data.hawaii.gov <- subset(datasets, portal == 'data.hawaii.gov')
+data.hawaii.gov$format <- factor(data.hawaii.gov$format, levels = names(sort(table(data.hawaii.gov$format), decreasing = TRUE)))
+p.data.hawaii.gov <- ggplot(data.hawaii.gov) + aes(x = format) + geom_bar()
+
+# Lehman College
+bronx.lehman.cuny.edu <- subset(datasets, portal == 'bronx.lehman.cuny.edu')
+bronx.lehman.cuny.edu$format <- factor(bronx.lehman.cuny.edu$format, levels = names(sort(table(bronx.lehman.cuny.edu$format), decreasing = TRUE)))
+p.bronx.lehman.cuny.edu <- ggplot(bronx.lehman.cuny.edu) + aes(x = format) + geom_bar()
+
+# All of them
+# dlply(datasets, 'portal', function(df) {
+#   df$format <- factor(df$format, levels = names(sort(table(df$format), decreasing = TRUE)))
+#   gplot(df) + aes(x = format) + geom_bar() 
+# })
+
+p.all <- ggplot(datasets) + aes(x = format) + geom_bar() + facet_wrap(~portal)
