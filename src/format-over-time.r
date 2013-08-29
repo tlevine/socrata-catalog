@@ -76,3 +76,8 @@ p.bronx.lehman.cuny.edu <- ggplot(bronx.lehman.cuny.edu) + aes(x = format) + geo
 # })
 
 p.all <- ggplot(datasets) + aes(x = format) + geom_bar() + facet_wrap(~portal)
+
+
+data.sfgov.org <- subset(datasets, portal == 'data.sfgov.org')
+data.sfgov.org$format <- factor(data.sfgov.org$format, levels = names(sort(table(data.sfgov.org$format), decreasing = TRUE)))
+p.data.sfgov.org <- ggplot(data.sfgov.org) + aes(x = format) + geom_bar()

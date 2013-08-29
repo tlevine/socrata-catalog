@@ -20,6 +20,7 @@ SELECT format, count(*) FROM catalog GROUP BY format ORDER BY count(*);
 SELECT portal, format, count(*) FROM catalog GROUP BY portal, format ORDER BY count(*);
 SELECT portal, count(*) FROM catalog WHERE format = 'application/vnd.ms-excel' GROUP BY portal ORDER BY portal;
 SELECT 'https://' || portal || '/-/-/' || identifier AS url, title from catalog where format LIKE '%excel%';
+SELECT 'https://' || portal || '/-/-/' || identifier AS url, title FROM catalog WHERE portal = 'data.sfgov.org' AND format = 'application/octet-stream';
 ```
 
 ## Analyses
