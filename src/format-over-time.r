@@ -33,4 +33,7 @@ csv.cum <- ddply(datasets, c('portal'), function(df) {
 })
 csv.cum$prop.csv <- csv.cum$count.csv / csv.cum$count
 
-p.cum <- ggplot(csv.cum) + aes(x = created, y = prop.csv, group = portal, size = count) + geom_line()
+p.cum <- ggplot(csv.cum) + aes(x = created, y = prop.csv, group = portal, size = count) + geom_line() +
+  scale_x_date('Data') + scale_y_continuous('Proportion of datasets that are CSV') + scale_size_continuous('Datasets on the portal') +
+  theme(title = element_text('Dataset formats by portal over time'))
+
