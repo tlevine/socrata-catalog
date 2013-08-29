@@ -1,0 +1,43 @@
+---
+title: What file formats are on the data portals?
+---
+
+```{r monthly}
+p.monthly
+```
+
+```{r csv-cum}
+p.csv.cum
+```
+
+```{r csv-cum-facet}
+p.csv.cum.facet
+```
+
+```{r mo}
+p.data.mo.gov
+```
+
+```{r csv-pdf-cum}
+p.csv.pdf.cum
+```
+
+```{r csv-pdf-cum-facet}
+p.csv.pdf.cum.facet
+```
+
+```{r hawaii}
+p.data.hawaii.gov
+```
+
+```{r lehman}
+p.bronx.lehman.cuny.edu
+```
+
+```{r all-formats}
+p.all
+```
+
+```{r sf}
+p.data.sfgov.org
+```
