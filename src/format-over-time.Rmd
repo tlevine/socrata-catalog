@@ -5,13 +5,25 @@ title: What file formats are on the data portals?
 opts_chunk$set(fig.width=10, fig.height=5, dpi = 42 * 5)
 ```
 
+This `data.json` endpoint contains only the official, source datasets
+uploaded by the data publisher; it doesn't contain all of the other
+views that are based on these source datasets.
+
+Socrata portals have [50,000 different views](), but only
+`r nrow(datasets)` are.
+
 ```{r portal-counts, fig.width = 10, fig.height = 15}
 p.portal.counts
 ```
 
+CSV
+
 ```{r csv-cum-facet, fig.width = 20, fig.height = 10}
 p.csv.cum.facet
 ```
+
+
+Some interesting portals
 
 ```{r mo}
 p.data.mo.gov
