@@ -1,6 +1,9 @@
 ---
 title: What file formats are on the data portals?
 ---
+```{r configure, echo = F}
+opts_chunk$set(fig.width=10, fig.height=5, dpi = 42 * 5)
+```
 
 ```{r monthly}
 p.monthly
@@ -10,7 +13,11 @@ p.monthly
 p.csv.cum
 ```
 
-```{r csv-cum-facet}
+```{r csv-cum-facet-small, fig.width = 10, fig.height = 10}
+p.csv.cum.facet
+```
+
+```{r csv-cum-facet, fig.width = 40, fig.height = 40}
 p.csv.cum.facet
 ```
 
@@ -22,7 +29,11 @@ p.data.mo.gov
 p.csv.pdf.cum
 ```
 
-```{r csv-pdf-cum-facet}
+```{r csv-pdf-cum-facet-small, fig.width = 10, fig.height = 10}
+p.csv.pdf.cum.facet
+```
+
+```{r csv-pdf-cum-facet, fig.width = 40, fig.height = 40}
 p.csv.pdf.cum.facet
 ```
 
@@ -34,7 +45,11 @@ p.data.hawaii.gov
 p.bronx.lehman.cuny.edu
 ```
 
-```{r all-formats}
+```{r all-formats-small, fig.width = 10, fig.height = 10}
+p.all
+```
+
+```{r all-formats, fig.width = 40, fig.height = 40}
 p.all
 ```
 
