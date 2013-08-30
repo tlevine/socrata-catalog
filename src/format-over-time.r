@@ -1,6 +1,7 @@
 library(sqldf)
 library(ggplot2)
 library(plyr)
+library(scales)
 
 datasets <- sqldf("SELECT portal, format, created FROM catalog ORDER BY created;", dbname = '/tmp/catalog.db')
 datasets$format <- sub(';.*$', '', datasets$format)
@@ -75,7 +76,16 @@ p.bronx.lehman.cuny.edu <- ggplot(bronx.lehman.cuny.edu) + aes(x = format) + geo
 #   gplot(df) + aes(x = format) + geom_bar() 
 # })
 
-p.all <- ggplot(datasets) + aes(x = format) + geom_bar() + facet_wrap(~portal)
+# p.all <- ggplot(datasets) + aes(x = format) + geom_bar() + facet_wrap(~portal)
+datasets$main.formats <- factor(datasets$format,
+  levels = c('csv', 'pdf', 'msword', 'octet-stream', 'vnd.ms-excel', 'xml', 'other')
+)
+datasets$main.formats[is.na(datasets$main.formats)] <- 'other'
+
+p.all <- ggplot(datasets) + aes(x = portal, fill = main.formats) +
+  geom_bar() + scale_y_continuous('Number of datasets') +
+  scale_x_discrete('Portal') + scale_fill_discrete('Dataset format') +
+  coord_flip()
 
 # San Francisco has external links.
 data.sfgov.org <- subset(datasets, portal == 'data.sfgov.org')
@@ -83,4 +93,4 @@ data.sfgov.org$format <- factor(data.sfgov.org$format, levels = names(sort(table
 p.data.sfgov.org <- ggplot(data.sfgov.org) + aes(x = format) + geom_bar()
 
 library(knitr)
-knit('format-over-time.Rmd')
+# knit('format-over-time.Rmd')
