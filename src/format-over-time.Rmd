@@ -5,20 +5,12 @@ title: What file formats are on the data portals?
 opts_chunk$set(fig.width=10, fig.height=5, dpi = 42 * 5)
 ```
 
-```{r csv-cum}
-p.csv.cum
-```
-
 ```{r csv-cum-facet, fig.width = 20, fig.height = 10}
 p.csv.cum.facet
 ```
 
 ```{r mo}
 p.data.mo.gov
-```
-
-```{r csv-pdf-cum}
-p.csv.pdf.cum
 ```
 
 ```{r csv-pdf-cum-facet, fig.width = 20, fig.height = 10}
