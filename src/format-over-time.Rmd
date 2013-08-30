@@ -33,7 +33,7 @@ p.data.hawaii.gov
 p.bronx.lehman.cuny.edu
 ```
 
-```{r all-formats, fig.width = 20, fig.height = 10}
+```{r all-formats, fig.width = 5, fig.height = 10}
 p.all
 ```
 

@@ -93,4 +93,4 @@ data.sfgov.org$format <- factor(data.sfgov.org$format, levels = names(sort(table
 p.data.sfgov.org <- ggplot(data.sfgov.org) + aes(x = format) + geom_bar()
 
 library(knitr)
-# knit('format-over-time.Rmd')
+knit('format-over-time.Rmd')
