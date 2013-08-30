@@ -5,6 +5,10 @@ title: What file formats are on the data portals?
 opts_chunk$set(fig.width=10, fig.height=5, dpi = 42 * 5)
 ```
 
+```{r portal-counts, fig.width = 10, fig.height = 15}
+p.portal.counts
+```
+
 ```{r csv-cum-facet, fig.width = 20, fig.height = 10}
 p.csv.cum.facet
 ```
