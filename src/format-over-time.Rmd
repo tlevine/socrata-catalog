@@ -13,7 +13,7 @@ p.monthly
 p.csv.cum
 ```
 
-```{r csv-cum-facet-small, fig.width = 10, fig.height = 10}
+```{r csv-cum-facet-small, fig.width = 5, fig.height = 5}
 p.csv.cum.facet
 ```
 
@@ -29,7 +29,7 @@ p.data.mo.gov
 p.csv.pdf.cum
 ```
 
-```{r csv-pdf-cum-facet-small, fig.width = 10, fig.height = 10}
+```{r csv-pdf-cum-facet-small, fig.width = 5, fig.height = 5}
 p.csv.pdf.cum.facet
 ```
 
@@ -45,7 +45,7 @@ p.data.hawaii.gov
 p.bronx.lehman.cuny.edu
 ```
 
-```{r all-formats-small, fig.width = 10, fig.height = 10}
+```{r all-formats-small, fig.width = 5, fig.height = 5}
 p.all
 ```
 
