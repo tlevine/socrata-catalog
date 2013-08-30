@@ -16,8 +16,8 @@ datasets$csv <- datasets$format == 'csv'
 datasets$portal <- factor(datasets$portal, levels = 
   names(sort(table(datasets$portal))))
 p.portal.counts <- ggplot(datasets) + aes(x = portal) + geom_bar() + coord_flip() +
-  scale_x_continuous('Number of official datasets') +
-  scale_y_discrete('Portal') +
+  scale_y_continuous('Number of official datasets') +
+  scale_x_discrete('Portal') +
   theme(title = element_text('Datasets per portal, based on the data.json file'))
 
 # Proportion CSV by month
