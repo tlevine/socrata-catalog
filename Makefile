@@ -1,6 +1,6 @@
 .PHONY: download
 download:
-	src/download.sh
+	test -e catalogs || src/download.sh
 
 db: download
 	src/db.py
