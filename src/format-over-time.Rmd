@@ -16,15 +16,32 @@ And it has [this format](http://project-open-data.github.io/schema/).
 Socrata portals have [50,000 different views](), but only
 `r nrow(datasets)` are original datasets, with a median of
 `r median(table(datasets$portal))` datasets per portal.
-This is much lower than my [earlier figure]()
-that included [derived views]() (map, charts, &c.) and
-[federated data]() (duplicates).
 
 ```{r portal-counts, fig.width = 10, fig.height = 15}
 p.portal.counts
 ```
 
-CSV
+This is much lower than my [earlier figure]()
+that included [derived views]() (map, charts, &c.) and
+[federated data]() (duplicates).
+
+I'd like some time to compare the within-portal counts of original datasets
+and derived datasets. But not right now.
+
+## File formats
+I've recently become curious about what formats the datasets come from. When
+tabular data get loaded into a Socrata data portal, they get converted to a
+tabular representation within the portal software. From that, they get converted
+to a range of different tabular formats.
+
+The Socrata data portal doesn't explicitly store the source format because of
+how the import process works. Most of the data [probably come from Excel](scraperwiki),
+and the data that aren't from Excel typically come from inside of a government
+network where policies would make it inconvenient to expose the database to the
+world. Because of this, Socrata doesn't query database servers. Instead, data
+publishers write middlemen that act as both database clients and Socrata clients.
+They query the database and then make [web requests](api)
+to the Socrata portal.
 
 ```{r csv-cum-facet, fig.width = 20, fig.height = 10}
 p.csv.cum.facet
