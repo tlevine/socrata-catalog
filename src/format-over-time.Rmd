@@ -127,10 +127,10 @@ Here are some examples.
 * b
 * c
 
-## CSV, zip and octet-stream
+## CSV, pdf, zip and octet-stream
 
-```{r csv-pdf-cum-facet, fig.width = 20, fig.height = 10}
-p.csv.pdf.cum.facet
+```{r csv-pdf-zip-octet-cum-facet, fig.width = 20, fig.height = 10}
+p.csv.pdf.zip.octet.cum.facet
 ```
 
 ## Dates of significant changes

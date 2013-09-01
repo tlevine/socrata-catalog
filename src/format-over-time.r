@@ -53,20 +53,20 @@ data.mo.gov$format <- factor(data.mo.gov$format, levels = names(sort(table(data.
 p.data.mo.gov <- ggplot(data.mo.gov) + aes(x = format) + geom_bar()
 
 
-# Cumulative CSV and PDF
-datasets$csv.pdf <- datasets$format == 'csv' | datasets$format == 'pdf'
-csv.pdf.cum <- ddply(datasets, c('portal'), function(df) {
+# Cumulative CSV and PDF and zip and octet-stream
+datasets$csv.pdf.zip.octet <- datasets$format == 'csv' | datasets$format == 'pdf' | datasets$format == 'zip' | datasets$format == 'octet-stream'
+csv.pdf.zip.octet.cum <- ddply(datasets, c('portal'), function(df) {
   df <- df[order(df$created),]
-  df$count.csv.pdf <- cumsum(df$csv.pdf)
+  df$count.csv.pdf.zip.octet <- cumsum(df$csv.pdf.zip.octet)
   df$count <- 1:nrow(df)
   df
 })
-csv.pdf.cum$prop.csv.pdf <- csv.pdf.cum$count.csv.pdf / csv.cum$count
+csv.pdf.zip.octet.cum$prop.csv.pdf.zip.octet <- csv.pdf.zip.octet.cum$count.csv.pdf.zip.octet / csv.cum$count
 
-p.csv.pdf.cum <- ggplot(csv.pdf.cum) + aes(x = created, y = prop.csv.pdf, group = portal, size = count) + geom_line() +
+p.csv.pdf.zip.octet.cum <- ggplot(csv.pdf.zip.octet.cum) + aes(x = created, y = prop.csv.pdf.zip.octet, group = portal, size = count) + geom_line() +
   scale_x_date('Data') + scale_y_continuous('Proportion of datasets that are CSV or PDF') + scale_size_continuous('Datasets on the portal') +
   theme(title = element_text('Dataset formats by portal over time'))
-p.csv.pdf.cum.facet <- p.csv.pdf.cum + facet_wrap(~portal)
+p.csv.pdf.zip.octet.cum.facet <- p.csv.pdf.zip.octet.cum + facet_wrap(~portal)
 
 # Hawaii
 data.hawaii.gov <- subset(datasets, portal == 'data.hawaii.gov')
