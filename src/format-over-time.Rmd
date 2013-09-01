@@ -28,7 +28,7 @@ that included [derived views]() (map, charts, &c.) and
 I'd like some time to compare the within-portal counts of original datasets
 and derived datasets. But not right now.
 
-## File formats
+## My curiousity about file formats
 I've recently become curious about what formats the datasets come from. When
 tabular data get loaded into a Socrata data portal, they get converted to a
 tabular representation within the portal software. From that, they get converted
@@ -42,6 +42,18 @@ world. Because of this, Socrata doesn't query database servers. Instead, data
 publishers write middlemen that act as both database clients and Socrata clients.
 They query the database and then make [web requests](api)
 to the Socrata portal.
+
+## `/data.json` contains file format information
+The `/data.json` endpoint contains a file format field per the Project Open Data
+schema. This refers to the format of the data as served from the Socrata portal,
+not the format it was stored in before it got to the Socrata portal. But this
+still tells us something about the source file formats.
+
+People sometimes upload things that Socrata doesn't interpret as tables. PDFs are
+a major example. Other times, people upload or [link to]()
+files that could be tables but don't specify that they are tables. Here are some
+of the main types.
+
 
 ```{r csv-cum-facet, fig.width = 20, fig.height = 10}
 p.csv.cum.facet
