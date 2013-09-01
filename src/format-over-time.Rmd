@@ -54,6 +54,14 @@ a major example. Other times, people upload or [link to]()
 files that could be tables but don't specify that they are tables. Here are the
 different types.
 
+Data formats are represented in two fields, `format` and `distribution`. `distribution`
+seems to contain all of the different available formats. If the data are imported as
+tabular data, it contains CSV, JSON, XML, &c., all served from the Socrata site.
+And if the data are external links, it will contain a few external links, still
+specifying the file types. The `format` field contains one of the formats that are
+specified in the `distribution` field. I think it's just the first of the formats.
+For the present analysis, I'm using the `format` field.
+
 (image of counts across portal)
 
 And here are some of the main types by portal.
@@ -62,14 +70,12 @@ And here are some of the main types by portal.
 p.all
 ```
 
-`csv` appears to refer
+`csv` mostly refers
 to data that Socrata represents as a table; this is the sort of data that Socrata
 can convert to a range of different tabular data formats.
 It is also my [preferred file format](http://csvsoundsystem.com).
 
-The other formats appear to be external links. They're sometimes available in a few
-formats, as specified in the `distribution` field of `/data.json`, but one of them
-gets chosen for the `format` field.
+The other formats appear to be external links.
 
 ## CSV
 Most datasets are CSV (`r sum(na.omit(datasets$format == 'csv'))' of `r nrow(datasets`).
@@ -109,6 +115,9 @@ p.bronx.lehman.cuny.edu
 ```{r sf}
 p.data.sfgov.org
 ```
+
+
+It looks like the format, if it's not CSV, is
 
 
 [^proportion]: It's actually a tad bit more complicated than that. These dates are the
