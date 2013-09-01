@@ -67,13 +67,17 @@ The other formats appear to be external links. They're sometimes available in a 
 formats, as specified in the `distribution` field of `/data.json`, but one of them
 gets chosen for the `format` field.
 
+## CSV
+Most datasets are CSV (`r sum(na.omit(datasets$format == 'csv'))' of `r nrow(datasets`).
+I was curious as to how this varies by portal and over time, and the following image
+addresses that. It contains one plot per data portal. The x-axis of each plot is the date,
+and the y-axis is the proportion[^proportion] of datasets that are CSV. For example, if
 
 ```{r csv-cum-facet, fig.width = 20, fig.height = 10}
 p.csv.cum.facet
 ```
 
-
-Some interesting portals
+## Some interesting portals
 
 ```{r mo}
 p.data.mo.gov
@@ -94,3 +98,8 @@ p.bronx.lehman.cuny.edu
 ```{r sf}
 p.data.sfgov.org
 ```
+
+
+[^proportion]: It's actually a tad bit more complicated than that. These dates are the
+    creation dates of the datasets that are available today; I do not know about datasets
+    that were historically on the portal and have since been deleted.
