@@ -96,29 +96,44 @@ Some portals have only CSV data (like `data.medicare.gov`), but most contain
 other data. I am curious both as to what other data formats they have and what
 prompted the shifts in dataset format.
 
+Missouri mostly has PDFs.
+
 ```{r mo}
 p.data.mo.gov
 ```
 
-```{r csv-pdf-cum-facet, fig.width = 20, fig.height = 10}
-p.csv.pdf.cum.facet
+Lehman College has some zipped files.
+
+```{r lehman}
+p.bronx.lehman.cuny.edu
+```
+
+San Francisco has a lot of CSVs, a lot of externally linked zip files,
+and a lot of externally linked files of unknown format.
+
+```{r sf}
+p.data.sfgov.org
 ```
 
 ```{r hawaii}
 p.data.hawaii.gov
 ```
 
-```{r lehman}
-p.bronx.lehman.cuny.edu
+## Determination of external link file formats
+It looks like the format of external links is determined by the file name.
+Here are some examples.
+
+* a
+* b
+* c
+
+## CSV, zip and octet-stream
+
+```{r csv-pdf-cum-facet, fig.width = 20, fig.height = 10}
+p.csv.pdf.cum.facet
 ```
 
-```{r sf}
-p.data.sfgov.org
-```
-
-
-It looks like the format, if it's not CSV, is
-
+## Dates
 
 ## More study of file formats
 This got me thinking about other ways of studying file formats.
