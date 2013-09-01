@@ -86,7 +86,7 @@ p.bronx.lehman.cuny.edu <- ggplot(bronx.lehman.cuny.edu) + aes(x = format) + geo
 
 # p.all <- ggplot(datasets) + aes(x = format) + geom_bar() + facet_wrap(~portal)
 datasets$main.formats <- factor(datasets$format,
-  levels = c('csv', 'pdf', 'msword', 'octet-stream', 'vnd.ms-excel', 'xml', 'other')
+  levels = c('csv', 'pdf', 'octet-stream', 'vnd.ms-excel', 'xml', 'other')
 )
 datasets$main.formats[is.na(datasets$main.formats)] <- 'other'
 

@@ -12,8 +12,13 @@ uploaded by the data publisher; it doesn't contain all of the other
 views that are based on these source datasets.
 And it has [this format](http://project-open-data.github.io/schema/).
 
+## How many datasets?
 Socrata portals have [50,000 different views](), but only
-`r nrow(datasets)` are.
+`r nrow(datasets)` are original datasets, with a median of
+`r median(table(datasets$portal))` datasets per portal.
+This is much lower than my [earlier figure]()
+that included [derived views]() (map, charts, &c.) and
+[federated data]() (duplicates).
 
 ```{r portal-counts, fig.width = 10, fig.height = 15}
 p.portal.counts
