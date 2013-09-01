@@ -133,7 +133,32 @@ Here are some examples.
 p.csv.pdf.cum.facet
 ```
 
-## Dates
+## Dates of significant changes
+A few portals have only CSV data since the beginning, but most have had other formats.
+Looking at the plots, we can see dates where there was a sudden change in the proportion
+of datasets that were CSV.
+
+### Sudden changes at the beginning
+When the first dataset gets uploaded, the proportion of datasets that are CSV is either
+zero or one. Thus, the line for all of these datasets starts either at zero or one.
+Most datasets sharply change after that; `data.austintexas.gov` and `data.mo.gov` are
+examples.
+
+Others stay at this level for quite a while because no datasets were uploaded for a
+while. (Is that true?) `data.raleighnc.gov` is an example of this; its first dataset...
+its next dataset...   `data.illinois.gov`
+
+### Sudden changes after the beginning
+`data.cityofchicago.gov`
+`data.sfgov.org`
+
+
+### Bursts of dataset upload
+It's not the main point of the plots, but we can also see whether portals uploaded
+a bunch of data at once or gradually uploaded data
+
+`data.illinois.gov`
+`data.sunlightlabs.com`
 
 ## More study of file formats
 This got me thinking about other ways of studying file formats.
