@@ -92,8 +92,8 @@ p.csv.cum.facet
 ```
 
 ## Some interesting portals
-Some portals have only tabular data (like `data.medicare.gov`), but most contain
-non-tabular data. I am curious both as to what other data formats they have and what
+Some portals have only CSV data (like `data.medicare.gov`), but most contain
+other data. I am curious both as to what other data formats they have and what
 prompted the shifts in dataset format.
 
 ```{r mo}
@@ -119,6 +119,28 @@ p.data.sfgov.org
 
 It looks like the format, if it's not CSV, is
 
+
+## More study of file formats
+This got me thinking about other ways of studying file formats.
+
+### The attribution field
+Socrata's SODA 1 API [contains]() an `attribution` field, which references the URL from
+which the dataset was taken. (I presume that this is entered manually.) This would be one
+way of figuring out the source format, or at least some related information about the source.
+
+### Externally linked CSVs
+Not all of the CSV-formatted datasets necessarily come from Socrata; some might be links
+to external CSV files. There is enough information in `/data.json` to determine which of
+these categories a CSV dataset falls into.
+
+### Determining the formats of external links
+It looks to me like the format type of external links is determined based on the file
+extension of the URL; `octet-stream` datasets seem to correspond to URLs without file
+extensions or with file extensions like `aspx` that don't clearly correspond to a
+particular file types. One could determine the formats of these datasets by
+downloading the files.
+
+## Footnotes
 
 [^proportion]: It's actually a tad bit more complicated than that. These dates are the
     creation dates of the datasets that are available today; I do not know about datasets
