@@ -5,9 +5,12 @@ title: What file formats are on the data portals?
 opts_chunk$set(fig.width=10, fig.height=5, dpi = 42 * 5)
 ```
 
-This `data.json` endpoint contains only the official, source datasets
+While [at Socrata's office]() on Friday,
+I learned of the [`/data.json`](https://data.oregon.gov/data.json) endpoint.
+It contains an entry for each [dataset](),
 uploaded by the data publisher; it doesn't contain all of the other
 views that are based on these source datasets.
+And it has [this format](http://project-open-data.github.io/schema/).
 
 Socrata portals have [50,000 different views](), but only
 `r nrow(datasets)` are.
