@@ -54,6 +54,19 @@ a major example. Other times, people upload or [link to]()
 files that could be tables but don't specify that they are tables. Here are some
 of the main types.
 
+```{r all-formats, fig.width = 10, fig.height = 15}
+p.all
+```
+
+`csv` appears to refer
+to data that Socrata represents as a table; this is the sort of data that Socrata
+can convert to a range of different tabular data formats.
+It is also my [preferred file format](http://csvsoundsystem.com).
+
+The other formats appear to be external links. They're sometimes available in a few
+formats, as specified in the `distribution` field of `/data.json`, but one of them
+gets chosen for the `format` field.
+
 
 ```{r csv-cum-facet, fig.width = 20, fig.height = 10}
 p.csv.cum.facet
@@ -76,10 +89,6 @@ p.data.hawaii.gov
 
 ```{r lehman}
 p.bronx.lehman.cuny.edu
-```
-
-```{r all-formats, fig.width = 10, fig.height = 15}
-p.all
 ```
 
 ```{r sf}
