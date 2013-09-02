@@ -111,13 +111,17 @@ levels(data.sfgov.org$shapefile) <- c('Yes', 'No')
 
 p.sf.changes <- ggplot(data.sfgov.org) + aes(x = created, fill = csv) +
   geom_histogram(binwidth = 365.25 / 12) +
-  scale_x_date(breaks = date_breaks(width = '3 months'), minor_breaks = date_breaks(width = '1 month'), labels = date_format('%B 1, %Y')) +
-  scale_fill_discrete('Format')
+  scale_x_date('Date (Month)', breaks = date_breaks(width = '3 months'), minor_breaks = date_breaks(width = '1 month'), labels = date_format('%B 1, %Y')) +
+  scale_fill_discrete('Format') +
+  theme(title = element_text('Formats of newly open San Francisco datasets over time'))
 
-p.sf.changes.shapefiles <- ggplot(data.sfgov.org) + aes(x = created, fill = shapefile) +
+
+p.sf.shapefiles <- ggplot(data.sfgov.org) + aes(x = created, fill = shapefile) +
   geom_histogram(binwidth = 365.25 / 12) +
-  scale_x_date(breaks = date_breaks(width = '3 months'), minor_breaks = date_breaks(width = '1 month'), labels = date_format('%B 1, %Y')) +
-  scale_fill_discrete('Says "Shapefile"?')
+  scale_x_date('Date (Month)', breaks = date_breaks(width = '3 months'), minor_breaks = date_breaks(width = '1 month'), labels = date_format('%B 1, %Y')) +
+  scale_fill_discrete('Says "Shapefile"?') +
+  scale_y_continuous('New datasets per month') +
+  theme(title = element_text('Formats of newly open San Francisco datasets over time'))
 
 
 

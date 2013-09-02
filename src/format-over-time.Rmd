@@ -200,7 +200,7 @@ It looks like January is mostly externally linked, zipped shapefiles. Most of th
 datasets say "shapefile" in their `title`, `description` or [`distribution`](#distribution] fields.
 
 ```{r sf-shapefile}
-p.sf.changes.shapefile
+p.sf.shapefile
 ```
 
 And a lot of the rest of the January files look like zipped shapefiles, even though the
