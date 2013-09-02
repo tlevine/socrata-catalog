@@ -186,6 +186,9 @@ at once. Let's look at when datasets were uploaded.
 p.sf.changes
 ```
 
+This has the quite similar information to the earlier plots, but it's a bit more precise.
+San Francisco added lots of datasets in January 2012, and December 2012, and proportionately
+few of these datasets were CSV.
 
 ### Bursts of dataset upload
 Some of the plots make it look like lots of datasets were suddenly uploaded one day
