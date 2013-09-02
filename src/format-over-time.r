@@ -3,7 +3,7 @@ library(ggplot2)
 library(plyr)
 library(scales)
 
-datasets <- sqldf("SELECT portal, identifier, format, created FROM catalog ORDER BY created;", dbname = '/tmp/catalog.db')
+datasets <- sqldf("SELECT portal, identifier, title, format, created FROM catalog ORDER BY created;", dbname = '/tmp/catalog.db')
 datasets$format <- sub(';.*$', '', datasets$format)
 datasets$format <- sub('^.*/', '', datasets$format)
 datasets$format <- sub('^x-',  '', datasets$format)
@@ -103,10 +103,21 @@ p.data.sfgov.org <- ggplot(data.sfgov.org) + aes(x = format) + geom_bar()
 # San Francisco has sudden changes.
 data.sfgov.org$csv <- factor(data.sfgov.org$format == 'csv', levels = c(T, F))
 levels(data.sfgov.org$csv) <- c('CSV', 'Not CSV')
+
+data.sfgov.org$shapefile <- factor(grepl('Shapefile', data.sfgov.org$title, ignore.case = T), levels = c(T, F))
+levels(data.sfgov.org$shapefile) <- c('Yes', 'No')
+
 p.sf.changes <- ggplot(data.sfgov.org) + aes(x = created, fill = csv) +
   geom_histogram(binwidth = 365.25 / 12) +
   scale_x_date(breaks = date_breaks(width = '3 months'), minor_breaks = date_breaks(width = '1 month'), labels = date_format('%B 1, %Y')) +
   scale_fill_discrete('Format')
+
+p.sf.changes.shapefiles <- ggplot(data.sfgov.org) + aes(x = created, fill = shapefile) +
+  geom_histogram(binwidth = 365.25 / 12) +
+  scale_x_date(breaks = date_breaks(width = '3 months'), minor_breaks = date_breaks(width = '1 month'), labels = date_format('%B 1, %Y')) +
+  scale_fill_discrete('Says "Shapefile"?')
+
+
 
 library(knitr)
 knit('format-over-time.Rmd')

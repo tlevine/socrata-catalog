@@ -188,7 +188,15 @@ p.sf.changes
 
 This has the quite similar information to the earlier plots, but it's a bit more precise.
 San Francisco added lots of datasets in January 2012, and December 2012, and proportionately
-few of these datasets were CSV.
+few of these datasets were CSV. What were they?
+
+Here are ten of the January datasets.
+
+```{r sf-ten-february}
+sqldf("select title, created, format, 'https://' || portal || '/d/' || identifier as url from catalog where portal = 'data.sfgov.org' and created >= '2012-01-01' and created < '2012-02-01' order by created limit 10;", dbname = '/tmp/catalog.db')
+```
+
+It looks like they're all externally linked, zipped shapefiles.
 
 ### Bursts of dataset upload
 Some of the plots make it look like lots of datasets were suddenly uploaded one day
