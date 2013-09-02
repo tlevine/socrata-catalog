@@ -229,8 +229,21 @@ Most of the curves are pretty straight and stay near 1, meaning that the proport
 change much and that the proportion is quite high. Thus, it looks like most datasets are
 either CSV, pdf, zip or external links of unknown format.
 
-## More study of file formats
-This got me thinking about other ways of studying file formats and other things.
+### Conclusions
+
+### Formats
+I was mainly wondering about the source formats of the data. It turns out that most datasets
+are tables. Aside from tables, there are lots of externally linked files, mostly PDFs and zip archives.
+
+### Shapefiles
+I've been thinking recently about how to infer the organizational structure of a municipality
+based on the open data that they release, and the finding with the San Francisco shapefiles
+alludes to this. It might be that one department within the San Francisco government manages
+and uses most of the geospatial data and that the open data team happened to work with them
+in January, November and December of 2012.
+
+## Future study
+This got me thinking about other ways of studying file formats.
 
 ### The attribution field
 Socrata's SODA 1 API [contains]() an `attribution` field, which references the URL from
