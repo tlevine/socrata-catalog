@@ -22,10 +22,12 @@ p.portal.counts
 ```
 
 This is much lower than my [earlier figure]()
-that included [derived views]() (map, charts, &c.) and
-[federated data]() (duplicates).
+that included [derived views]() (map, charts, &c.).
+This still includes [federated data]() (duplicates),
+however, and I haven't come up with a great way of determining which direction
+the federation is in beyond just downloading the data.
 
-I'd like some time to compare the within-portal counts of original datasets
+Some time, I'll compare the within-portal counts of original datasets
 and derived datasets. But not right now.
 
 ## My curiousity about file formats
@@ -154,14 +156,14 @@ its next dataset...   `data.illinois.gov`
 
 
 ### Bursts of dataset upload
-It's not the main point of the plots, but we can also see whether portals uploaded
-a bunch of data at once or gradually uploaded data
+It's not the main point of the plots, but we can also how gradually or suddenly portals
+uploaded their data.
 
 `data.illinois.gov`
 `data.sunlightlabs.com`
 
 ## More study of file formats
-This got me thinking about other ways of studying file formats.
+This got me thinking about other ways of studying file formats and other things.
 
 ### The attribution field
 Socrata's SODA 1 API [contains]() an `attribution` field, which references the URL from
@@ -179,6 +181,11 @@ extension of the URL; `octet-stream` datasets seem to correspond to URLs without
 extensions or with file extensions like `aspx` that don't clearly correspond to a
 particular file types. One could determine the formats of these datasets by
 downloading the files.
+
+### Federation
+I need to find a good way of determining the federation direction. Obvious approaches
+include reading it from the home page of the portals and following the links in the
+`/data.json` file.
 
 ## Footnotes
 
