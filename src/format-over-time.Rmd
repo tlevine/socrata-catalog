@@ -21,16 +21,28 @@ Socrata portals have [50,000 different views](), but only
 p.portal.counts
 ```
 
+### No derived datasets
 This is much lower than my [earlier figure]()
 because the present figure does not include [derived views]() (map, charts, &c.).
+
+Some time, I'll compare the within-portal counts of original datasets
+and derived datasets. But not right now.
+
+### Federated data
 It still includes [federated data]() (duplicates),
 however, and this file doesn't make it easy to determine which direction
 the federation is in. Some day, I'll look more at federation, probably by 
 include reading the federation information from home pages of the portals
 or by following the links in the `/data.json` file.
 
-Some time, I'll compare the within-portal counts of original datasets
-and derived datasets. But not right now.
+### Cutoff at 1000?
+I find it highly suspicious that multiple portals have exactly 1000
+datasets. These portals ()
+all federate `explore.data.gov`, which has quite a few datasets, and the JSON
+files seem to just include some of the `explore.data.gov` data. I think these
+files have only the first 1000 datasets, and I haven't figured out how to look
+at the next pages, so I'll focus the present analysis on portals with fewer
+than 1000 datasets.
 
 ## My curiousity about file formats
 I've recently become curious about what formats the datasets come from. When
