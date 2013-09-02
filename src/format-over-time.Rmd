@@ -74,7 +74,7 @@ People sometimes upload things that Socrata doesn't interpret as tables. PDFs ar
 a major example. Other times, people upload or [link to]()
 files that could be tables but don't specify that they are tables.
 
-Data formats are represented in two fields, `format` and `distribution`. `distribution`
+Data formats are represented in two fields, `format` and `distribution`. `distribution`{#distribution}
 seems to contain all of the different available formats. If the data are imported as
 tabular data, it contains CSV, JSON, XML, &c., all served from the Socrata site.
 And if the data are external links, it will contain a few external links, still
@@ -196,17 +196,15 @@ Here are ten of the January datasets.
 sqldf("select title, created, format, 'https://' || portal || '/d/' || identifier as url from catalog where portal = 'data.sfgov.org' and created >= '2012-01-01' and created < '2012-02-01' order by created limit 10;", dbname = '/tmp/catalog.db')
 ```
 
-It looks like January is mostly externally linked, zipped shapefiles. Half of the
-datasets say "shapefile" in their titles or descriptions.
+It looks like January is mostly externally linked, zipped shapefiles. Most of the
+datasets say "shapefile" in their `title`, `description` or [`distribution`](#distribution] fields.
 
 ```{r sf-shapefile}
 p.sf.changes.shapefile
 ```
 
-And a lot of the rest look like zipped shapefiles, even though the titles and
-descriptions don't say so.
-
-What about November and December?
+And a lot of the rest of the January files look like zipped shapefiles, even though the
+titles and descriptions don't say so.
 
 ### Bursts of dataset upload
 Some of the plots make it look like lots of datasets were suddenly uploaded one day
