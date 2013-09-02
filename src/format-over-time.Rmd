@@ -122,7 +122,11 @@ Missouri mostly has PDFs.
 p.data.mo.gov
 ```
 
-Lehman College has some zipped files.
+Also interesting about Missouri is that it federates [Kansas City](https://data.kcmo.org/),
+which didn't appear in my list of portals.
+
+I know I said I'd focus on portals with fewer than 1000 datasets, but Lehman College is
+interesting because it has lots of zipped files.
 
 ```{r lehman}
 p.bronx.lehman.cuny.edu
@@ -133,10 +137,6 @@ and a lot of externally linked files of unknown format.
 
 ```{r sf}
 p.data.sfgov.org
-```
-
-```{r hawaii}
-p.data.hawaii.gov
 ```
 
 ## Determination of external link file formats
