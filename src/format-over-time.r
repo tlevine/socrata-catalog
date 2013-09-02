@@ -116,7 +116,7 @@ p.sf.changes <- ggplot(data.sfgov.org) + aes(x = created, fill = csv) +
   theme(title = element_text('Formats of newly open San Francisco datasets over time'))
 
 
-p.sf.shapefiles <- ggplot(data.sfgov.org) + aes(x = created, fill = shapefile) +
+p.sf.shapefile <- ggplot(data.sfgov.org) + aes(x = created, fill = shapefile) +
   geom_histogram(binwidth = 365.25 / 12) +
   scale_x_date('Date (Month)', breaks = date_breaks(width = '3 months'), minor_breaks = date_breaks(width = '1 month'), labels = date_format('%B 1, %Y')) +
   scale_fill_discrete('Says "Shapefile"?') +
