@@ -173,12 +173,14 @@ sqldf("select title, created, format, 'https://' || portal || '/d/' || identifie
 ```
 
 The first two datasets were uploaded in the middle of March 2012 and were CSV format,
-making the proportion CSV
-The next was uploaded in February 2013 and was also CSV.
+making the datasets 100% CSV. The next was uploaded in the middle of February 2013 and
+was also CSV, so the proportion was still 100% CSV. At the end of the month, six
+zip files were uploaded, reducing the proportion to 33% CSV.
 
 ### Sudden changes after the beginning
-`data.cityofchicago.gov`
-`data.sfgov.org`
+`data.sfgov.org` had a sudden change in the proportion of datasets that were CSV, but
+it was after a long while, so a lot of related datasets might have been uploaded all
+at once.
 
 ### Bursts of dataset upload
 Some of the plots make it look like lots of datasets were suddenly uploaded one day
