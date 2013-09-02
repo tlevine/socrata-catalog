@@ -206,8 +206,10 @@ p.sf.changes.shapefile
 And a lot of the rest of the January files look like zipped shapefiles, even though the
 titles and descriptions don't say so.
 
-### Bursts of dataset upload
-Some of the plots make it look like lots of datasets were suddenly uploaded one day
+So San Francisco suddenly uploaded a bunch of shapefiles in January and November/December.
+
+### Plateaus of dataset counts
+Some of the plots make it look like lots of datasets were suddenly uploaded one time
 and no datasets were uploaded again. This is mainly for the
 [portals with more than 1000 datasets](#cutoff-at-1000),
 so I think this is because we're seeing only the first 1000 datasets.
