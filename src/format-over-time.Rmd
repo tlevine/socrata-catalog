@@ -188,13 +188,11 @@ its next dataset...   `data.illinois.gov`
 `data.cityofchicago.gov`
 `data.sfgov.org`
 
-
 ### Bursts of dataset upload
-It's not the main point of the plots, but we can also how gradually or suddenly portals
-uploaded their data.
-
-`data.illinois.gov`
-`data.sunlightlabs.com`
+Some of the plots make it look like lots of datasets were suddenly uploaded one day
+and no datasets were uploaded again. This is mainly for the
+[portals with more than 1000 datasets](#cutoff-at-1000),
+so I think this is because we're seeing only the first 1000 datasets.
 
 ## More study of file formats
 This got me thinking about other ways of studying file formats and other things.
