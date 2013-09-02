@@ -36,9 +36,14 @@ include reading the federation information from home pages of the portals
 or by following the links in the `/data.json` file.
 
 ### Cutoff at 1000?
-I find it highly suspicious that multiple portals have exactly 1000
-datasets. These portals ()
-all federate `explore.data.gov`, which has quite a few datasets, and the JSON
+I find it highly suspicious the following nine portals have exactly 1000
+datasets and no portals have more than 1000.
+
+```{r cutoff}
+paste(names(sort(table(datasets$portal), decreasing = T)[1:9]), collapse = '\n')
+```
+
+Half of these portals federate `explore.data.gov`, which has quite a few datasets, and the JSON
 files seem to just include some of the `explore.data.gov` data. I think these
 files have only the first 1000 datasets, and I haven't figured out how to look
 at the next pages, so I'll focus the present analysis on portals with fewer
