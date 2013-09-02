@@ -32,7 +32,7 @@ and derived datasets. But not right now.
 It still includes [federated data]() (duplicates),
 however, and this file doesn't make it easy to determine which direction
 the federation is in. Some day, I'll look more at federation, probably by 
-include reading the federation information from home pages of the portals
+reading the federation information from home pages of the portals
 or by following the links in the `/data.json` file.
 
 ### Cutoff at 1000?
@@ -72,8 +72,7 @@ still tells us something about the source file formats.
 
 People sometimes upload things that Socrata doesn't interpret as tables. PDFs are
 a major example. Other times, people upload or [link to]()
-files that could be tables but don't specify that they are tables. Here are the
-different types.
+files that could be tables but don't specify that they are tables.
 
 Data formats are represented in two fields, `format` and `distribution`. `distribution`
 seems to contain all of the different available formats. If the data are imported as
