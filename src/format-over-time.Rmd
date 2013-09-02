@@ -154,21 +154,6 @@ ends in `.shtml`.
 
 <!-- sqldf("select title, 'https://' || portal || '/d/' || identifier AS portalURL, accessURL from catalog where identifier = 'ywbg-ptfh'", dbname = '/tmp/catalog.db') -->
 
-## CSV, pdf, zip and octet-stream
-Based on the examples above, it seems like a lot of datasets are PDF, zip or unknown
-external links. I made the following series of plots to check it. It is just like the
-[similar image above](#csv) except for the y-axes; instead of representing the
-proportion of datasets that are CSV, each y-axis represents the proportion of datasets
-that are CSV, PDF, zip or unknown external links.
-
-```{r csv-pdf-zip-octet-cum-facet, fig.width = 20, fig.height = 10}
-p.csv.pdf.zip.octet.cum.facet
-```
-
-Most of the curves are pretty straight and stay near 1, meaning that the proportion doesn't
-change much and that the proportion is quite high. Thus, it looks like most datasets are
-either CSV, pdf, zip or external links of unknown format.
-
 ## Dates of significant changes
 A few portals have only CSV data since the beginning, but most have had other formats.
 Looking at the plots, we can see dates where there was a sudden change in the proportion
@@ -200,6 +185,21 @@ Some of the plots make it look like lots of datasets were suddenly uploaded one 
 and no datasets were uploaded again. This is mainly for the
 [portals with more than 1000 datasets](#cutoff-at-1000),
 so I think this is because we're seeing only the first 1000 datasets.
+
+## CSV, pdf, zip and octet-stream
+Based on the examples above, it seems like a lot of datasets are PDF, zip or unknown
+external links. I made the following series of plots to check it. It is just like the
+[similar image above](#csv) except for the y-axes; instead of representing the
+proportion of datasets that are CSV, each y-axis represents the proportion of datasets
+that are CSV, PDF, zip or unknown external links.
+
+```{r csv-pdf-zip-octet-cum-facet, fig.width = 20, fig.height = 10}
+p.csv.pdf.zip.octet.cum.facet
+```
+
+Most of the curves are pretty straight and stay near 1, meaning that the proportion doesn't
+change much and that the proportion is quite high. Thus, it looks like most datasets are
+either CSV, pdf, zip or external links of unknown format.
 
 ## More study of file formats
 This got me thinking about other ways of studying file formats and other things.
