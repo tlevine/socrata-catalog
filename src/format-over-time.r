@@ -101,9 +101,12 @@ data.sfgov.org$format <- factor(data.sfgov.org$format, levels = names(sort(table
 p.data.sfgov.org <- ggplot(data.sfgov.org) + aes(x = format) + geom_bar()
 
 # San Francisco has sudden changes.
-p.sf.changes <- ggplot(data.sfgov.org) + aes(x = created) +
+data.sfgov.org$csv <- factor(data.sfgov.org$format == 'csv', levels = c(T, F))
+levels(data.sfgov.org$csv) <- c('CSV', 'Not CSV')
+p.sf.changes <- ggplot(data.sfgov.org) + aes(x = created, fill = csv) +
   geom_histogram(binwidth = 365.25 / 12) +
-  scale_x_date(breaks = date_breaks(width = '3 months'), minor_breaks = date_breaks(width = '1 month'), labels = date_format('%B 1, %Y'))
+  scale_x_date(breaks = date_breaks(width = '3 months'), minor_breaks = date_breaks(width = '1 month'), labels = date_format('%B 1, %Y')) +
+  scale_fill_discrete('Format')
 
 library(knitr)
 knit('format-over-time.Rmd')

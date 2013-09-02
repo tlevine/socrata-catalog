@@ -180,7 +180,12 @@ zip files were uploaded, reducing the proportion to 33% CSV.
 ### Sudden changes after the beginning
 `data.sfgov.org` had a sudden change in the proportion of datasets that were CSV, but
 it was after a long while, so a lot of related datasets might have been uploaded all
-at once.
+at once. Let's look at when datasets were uploaded.
+
+```{r sf-changes}
+p.sf.changes
+```
+
 
 ### Bursts of dataset upload
 Some of the plots make it look like lots of datasets were suddenly uploaded one day
