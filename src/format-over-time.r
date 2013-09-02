@@ -3,7 +3,7 @@ library(ggplot2)
 library(plyr)
 library(scales)
 
-datasets <- sqldf("SELECT portal, identifier, title, format, created FROM catalog ORDER BY created;", dbname = '/tmp/catalog.db')
+datasets <- sqldf("SELECT portal, identifier, title, description, format, created FROM catalog ORDER BY created;", dbname = '/tmp/catalog.db')
 datasets$format <- sub(';.*$', '', datasets$format)
 datasets$format <- sub('^.*/', '', datasets$format)
 datasets$format <- sub('^x-',  '', datasets$format)
@@ -104,7 +104,9 @@ p.data.sfgov.org <- ggplot(data.sfgov.org) + aes(x = format) + geom_bar()
 data.sfgov.org$csv <- factor(data.sfgov.org$format == 'csv', levels = c(T, F))
 levels(data.sfgov.org$csv) <- c('CSV', 'Not CSV')
 
-data.sfgov.org$shapefile <- factor(grepl('Shapefile', data.sfgov.org$title, ignore.case = T), levels = c(T, F))
+data.sfgov.org$shapefile <- factor(
+  grepl('Shapefile', data.sfgov.org$title, ignore.case = T) | grepl('Shapefile', data.sfgov.org$description, ignore.case = T),
+  levels = c(T, F))
 levels(data.sfgov.org$shapefile) <- c('Yes', 'No')
 
 p.sf.changes <- ggplot(data.sfgov.org) + aes(x = created, fill = csv) +
