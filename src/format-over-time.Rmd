@@ -22,10 +22,12 @@ p.portal.counts
 ```
 
 This is much lower than my [earlier figure]()
-that included [derived views]() (map, charts, &c.).
-This still includes [federated data]() (duplicates),
-however, and I haven't come up with a great way of determining which direction
-the federation is in beyond just downloading the data.
+because the present figure does not include [derived views]() (map, charts, &c.).
+It still includes [federated data]() (duplicates),
+however, and this file doesn't make it easy to determine which direction
+the federation is in. Some day, I'll look more at federation, probably by 
+include reading the federation information from home pages of the portals
+or by following the links in the `/data.json` file.
 
 Some time, I'll compare the within-portal counts of original datasets
 and derived datasets. But not right now.
@@ -181,11 +183,6 @@ extension of the URL; `octet-stream` datasets seem to correspond to URLs without
 extensions or with file extensions like `aspx` that don't clearly correspond to a
 particular file types. One could determine the formats of these datasets by
 downloading the files.
-
-### Federation
-I need to find a good way of determining the federation direction. Obvious approaches
-include reading it from the home page of the portals and following the links in the
-`/data.json` file.
 
 ## Footnotes
 
