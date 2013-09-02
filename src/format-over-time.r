@@ -3,7 +3,7 @@ library(ggplot2)
 library(plyr)
 library(scales)
 
-datasets <- sqldf("SELECT portal, format, created FROM catalog ORDER BY created;", dbname = '/tmp/catalog.db')
+datasets <- sqldf("SELECT portal, identifier, format, created FROM catalog ORDER BY created;", dbname = '/tmp/catalog.db')
 datasets$format <- sub(';.*$', '', datasets$format)
 datasets$format <- sub('^.*/', '', datasets$format)
 datasets$format <- sub('^x-',  '', datasets$format)
