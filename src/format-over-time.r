@@ -100,5 +100,10 @@ data.sfgov.org <- subset(datasets, portal == 'data.sfgov.org')
 data.sfgov.org$format <- factor(data.sfgov.org$format, levels = names(sort(table(data.sfgov.org$format), decreasing = TRUE)))
 p.data.sfgov.org <- ggplot(data.sfgov.org) + aes(x = format) + geom_bar()
 
+# San Francisco has sudden changes.
+p.sf.changes <- ggplot(data.sfgov.org) + aes(x = created) +
+  geom_histogram(binwidth = 365.25 / 12) +
+  scale_x_date(breaks = date_breaks(width = '3 months'), minor_breaks = date_breaks(width = '1 month'), labels = date_format('%B 1, %Y'))
+
 library(knitr)
 knit('format-over-time.Rmd')
