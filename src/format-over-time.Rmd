@@ -141,11 +141,18 @@ p.data.sfgov.org
 
 ## Determination of external link file formats
 It looks like the format of external links is determined by the file name.
-Here are some examples.
+For example, Edmonton's
+[Road and Traffic Updates](https://data.edmonton.ca/Transportation/Road-and-Traffic-Updates/5ggc-prfp?)
+are marked as `application/rss+xml` because the external link,
+[http://www.trumba.com/calendars/construction-and-special-events-road-closures.rss](http://www.trumba.com/calendars/construction-and-special-events-road-closures.rss),
+ends in `.rss`.
 
-* a
-* b
-* c
+In contrast, the [Maryland Land Use/ Land Cover: 1973, 2002, 2010](https://data.maryland.gov/d/ywbg-ptfh)
+dataset is marked as having the format `application/octet-stream` because the
+external link, [http://planning.maryland.gov/OurWork/landUseDownload.shtml](http://planning.maryland.gov/OurWork/landUseDownload.shtml),
+ends in `.shtml`.
+
+<!-- sqldf("select title, 'https://' || portal || '/d/' || identifier AS portalURL, accessURL from catalog where identifier = 'ywbg-ptfh'", dbname = '/tmp/catalog.db') -->
 
 ## CSV, pdf, zip and octet-stream
 
