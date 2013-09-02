@@ -28,4 +28,5 @@ SELECT portal, format, count(*) FROM catalog GROUP BY portal, format ORDER BY po
 Run any of the various analyses.
 
 * `make formats`: What file formats do source data come from?
-* `make external`: What external files are linked?
+
+<!-- * `make external`: What external files are linked? -->
