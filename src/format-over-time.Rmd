@@ -181,8 +181,15 @@ Most datasets sharply change after that; `data.austintexas.gov` and `data.mo.gov
 examples.
 
 Others stay at this level for quite a while because no datasets were uploaded for a
-while. (Is that true?) `data.raleighnc.gov` is an example of this; its first dataset...
-its next dataset...   `data.illinois.gov`
+while. `data.raleighnc.gov` is an example of this. Here are its first ten datasets.
+
+```{r raleigh}
+sqldf("select title, created, format, 'https://' || portal || '/d/' || identifier as url from catalog where portal like '%ralei%' order by created limit 10;", dbname = '/tmp/catalog.db')
+```
+
+The first two datasets were uploaded in the middle of March 2012 and were CSV format,
+making the proportion CSV
+The next was uploaded in February 2013 and was also CSV.
 
 ### Sudden changes after the beginning
 `data.cityofchicago.gov`
