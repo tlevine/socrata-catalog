@@ -6,3 +6,4 @@ db: download
 	src/db.py
 
 formats: db
+	cd src && Rscript format-over-time.r
