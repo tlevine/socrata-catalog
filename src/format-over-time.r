@@ -129,8 +129,13 @@ datasets.deduplicated <- ddply(datasets, 'identifier', function(df) {
   top.row$count = nrow(df)
   top.row
 })
+datasets.deduplicated$format <- factor(datasets.deduplicated$format,
+  levels = names(sort(table(datasets.deduplicated$format), decreasing = T)))
 p.format.deduplicated <- ggplot(datasets.deduplicated) +
-  aes(x = format) + geom_bar()
+  aes(x = format) + geom_bar() +
+  scale_x_discrete('Dataset format') + scale_y_continuous('Number of datasets') +
+  theme(title = element_text('Formats of datasets across data portals')) +
+  coord_flip()
 
 
 library(knitr)
