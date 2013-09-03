@@ -99,21 +99,24 @@ to data that Socrata represents as a table; this is the sort of data that Socrat
 can convert to a range of different tabular data formats.
 It is also my [preferred file format](http://csvsoundsystem.com).
 
-The other formats appear to be external links.
+Everything that is not CSV appears to be an external link.
 
 ## CSV
-Most datasets are CSV (`r sum(na.omit(datasets$format == 'csv'))` of `r nrow(datasets)`.
+Most datasets are CSV (`r sum(na.omit(datasets$format == 'csv'))` of `r nrow(datasets)`).
 I was curious as to how this varies by portal and over time, and the following image
-addresses that. It contains one plot per data portal. The x-axis of each plot is the date,
-the y-axis is the proportion[^proportion] of datasets that are tabular (CSV), and the
-width of the line is the number of datasets on the portal.
-
-For example, if there were 100 datasets on a portal in June 2011 and 80 were CSV, the
-line would be near the top of the graph and quite skinny at June 2011.
+addresses that.
 
 ```{r csv-cum-facet, fig.width = 20, fig.height = 10}
 p.csv.cum.facet
 ```
+
+The image above contains one plot per data portal. The x-axis of each plot is the date,
+the y-axis is the proportion[^proportion] of datasets that are tabular (CSV), and the
+width of the line is the number of datasets on the portal.
+For example, if there were 100 datasets on a portal in June 2011 and 80 were CSV, the
+line would be near the top of the graph and quite skinny at June 2011.
+
+We can thus see how many datasets each portal has and what the different formats are.
 
 ## Some interesting portals
 Some portals have only CSV data (like `data.medicare.gov`), but most contain
