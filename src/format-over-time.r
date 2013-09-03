@@ -18,7 +18,7 @@ datasets$portal <- factor(datasets$portal, levels =
 p.portal.counts <- ggplot(datasets) + aes(x = portal) + geom_bar() + coord_flip() +
   scale_y_continuous('Number of official datasets') +
   scale_x_discrete('Portal') +
-  theme(title = element_text('Datasets per portal, based on the data.json file'))
+  ggtitle('Datasets per portal, based on the data.json file')
 
 # Proportion CSV by month
 datasets$month <- as.Date(paste0(strftime(datasets$created, format = '%Y-%m'), '-01'))
@@ -44,7 +44,7 @@ csv.cum$prop.csv <- csv.cum$count.csv / csv.cum$count
 
 p.csv.cum <- ggplot(csv.cum) + aes(x = created, y = prop.csv, group = portal, size = count) + geom_line() +
   scale_x_date('Data') + scale_y_continuous('Proportion of datasets that are CSV') + scale_size_continuous('Datasets on the portal') +
-  theme(title = element_text('Dataset formats by portal over time'))
+  ggtitle('Dataset formats by portal over time')
 p.csv.cum.facet <- p.csv.cum + facet_wrap(~portal)
 
 # Why does Missouri have so few CSVs?
@@ -65,7 +65,7 @@ csv.pdf.zip.octet.cum$prop.csv.pdf.zip.octet <- csv.pdf.zip.octet.cum$count.csv.
 
 p.csv.pdf.zip.octet.cum <- ggplot(csv.pdf.zip.octet.cum) + aes(x = created, y = prop.csv.pdf.zip.octet, group = portal, size = count) + geom_line() +
   scale_x_date('Data') + scale_y_continuous('Proportion of datasets that are CSV or PDF') + scale_size_continuous('Datasets on the portal') +
-  theme(title = element_text('Dataset formats by portal over time'))
+  ggtitle('Dataset formats by portal over time')
 p.csv.pdf.zip.octet.cum.facet <- p.csv.pdf.zip.octet.cum + facet_wrap(~portal)
 
 # Hawaii
@@ -113,7 +113,7 @@ p.sf.changes <- ggplot(data.sfgov.org) + aes(x = created, fill = csv) +
   geom_histogram(binwidth = 365.25 / 12) +
   scale_x_date('Date (Month)', breaks = date_breaks(width = '3 months'), minor_breaks = date_breaks(width = '1 month'), labels = date_format('%B 1, %Y')) +
   scale_fill_discrete('Format') +
-  theme(title = element_text('Formats of newly open San Francisco datasets over time'))
+  ggtitle('Formats of newly open San Francisco datasets over time')
 
 
 p.sf.shapefiles <- ggplot(data.sfgov.org) + aes(x = created, fill = shapefile) +
@@ -121,7 +121,7 @@ p.sf.shapefiles <- ggplot(data.sfgov.org) + aes(x = created, fill = shapefile) +
   scale_x_date('Date (Month)', breaks = date_breaks(width = '3 months'), minor_breaks = date_breaks(width = '1 month'), labels = date_format('%B 1, %Y')) +
   scale_fill_discrete('Says "Shapefile"?') +
   scale_y_continuous('New datasets per month') +
-  theme(title = element_text('Formats of newly open San Francisco datasets over time'))
+  ggtitle('Formats of newly open San Francisco datasets over time')
 
 
 datasets.deduplicated <- ddply(datasets, 'identifier', function(df) {
@@ -134,13 +134,13 @@ datasets.deduplicated$format <- factor(datasets.deduplicated$format,
 p.format.deduplicated <- ggplot(datasets.deduplicated) +
   aes(x = format) + geom_bar() +
   scale_x_discrete('Dataset format') + scale_y_continuous('Number of datasets') +
-  theme(title = element_text('Formats of datasets across data portals')) +
+  ggtitle('Formats of datasets across data portals') +
   coord_flip()
 
 p.federation <- ggplot(datasets.deduplicated) + aes(x = count) + geom_histogram(binwidth = 1) +
   scale_x_continuous('Number of different portals that contain the dataset') +
   scale_y_continuous('Number of datasets') +
-  theme(title = element_text('The scale of data federation within this subset of Socrata datasets'))
+  ggtitle('The scale of data federation within this subset of Socrata datasets')
 
 library(knitr)
 knit('format-over-time.Rmd')

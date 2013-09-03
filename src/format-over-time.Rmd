@@ -226,7 +226,7 @@ sqldf("select title, created, format, 'https://' || portal || '/d/' || identifie
 ```
 
 It looks like January is mostly externally linked, zipped shapefiles. Most of the
-datasets say "shapefile" in their `title`, `description` or [`distribution`](#distribution] fields.
+datasets say "shapefile" in their `title`, `description` or [`distribution`](#distribution) fields.
 
 ```{r sf-shapefile}
 p.sf.shapefiles
