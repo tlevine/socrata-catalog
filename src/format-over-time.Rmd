@@ -35,7 +35,16 @@ and derived datasets. But not right now.
 ### Federated data
 It still includes [federated data]() (duplicates),
 however, and this file doesn't make it easy to determine which direction
-the federation is in. Some day, I'll look more at federation, probably by 
+the federation is in. The following plot gives us an idea of how many of
+these datasets are duplicates.
+
+```{r federation}
+p.federation
+```
+
+Most of the datasets are not duplicates, but some are duplicated many times.
+
+Some day, I'll look more at federation, probably by 
 reading the federation information from home pages of the portals
 or by following the links in the `/data.json` file.
 
@@ -86,7 +95,9 @@ specifying the file types. The `format` field contains one of the formats that a
 specified in the `distribution` field. I think it's just the first of the formats.
 For the present analysis, I'm using the `format` field.
 
-(image of counts across portal)
+```{r deduplicated}
+p.format.deduplicated
+```
 
 And here are some of the main types by portal.
 
