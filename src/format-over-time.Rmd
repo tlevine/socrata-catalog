@@ -102,11 +102,15 @@ specifying the file types. The `format` field contains one of the formats that a
 specified in the `distribution` field. I think it's just the first of the formats.
 For the present analysis, I'm using the `format` field.
 
+Recall that the present dataset of datasets counts federated datasets multiple times.
+The following plot shows the file types of the deduplicated dataset dataset, across
+all portals.
+
 ```{r deduplicated}
 p.format.deduplicated
 ```
 
-And here are some of the main types by portal.
+And here are some of the main types by portal, counting federated datasets in all of their portals.
 
 ```{r all-formats, fig.width = 10, fig.height = 15}
 p.all
