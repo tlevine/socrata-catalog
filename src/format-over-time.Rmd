@@ -14,7 +14,11 @@ And it has [this format](http://project-open-data.github.io/schema/).
 
 ## How many datasets?
 Socrata portals have [50,000 different views](), but only
-`r nrow(datasets)` are original datasets, with a median of
+`r length(unique(datasets$identifier))` are original datasets.
+
+The `/data.json` files include federated datasets, so some of these
+datasets are duplicated. I did not remove duplicates, so I'm working
+with `r nrow(datasets)` datasets, with a median of
 `r median(table(datasets$portal))` datasets per portal.
 
 ```{r portal-counts, fig.width = 10, fig.height = 15}
@@ -98,7 +102,7 @@ It is also my [preferred file format](http://csvsoundsystem.com).
 The other formats appear to be external links.
 
 ## CSV
-Most datasets are CSV (`r sum(na.omit(datasets$format == 'csv'))` of `r nrow(datasets`).
+Most datasets are CSV (`r sum(na.omit(datasets$format == 'csv'))` of `r nrow(datasets)`.
 I was curious as to how this varies by portal and over time, and the following image
 addresses that. It contains one plot per data portal. The x-axis of each plot is the date,
 the y-axis is the proportion[^proportion] of datasets that are tabular (CSV), and the
