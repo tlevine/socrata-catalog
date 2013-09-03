@@ -124,6 +124,14 @@ p.sf.shapefiles <- ggplot(data.sfgov.org) + aes(x = created, fill = shapefile) +
   theme(title = element_text('Formats of newly open San Francisco datasets over time'))
 
 
+datasets.deduplicated <- ddply(datasets, 'identifier', function(df) {
+  top.row <- df[1,]
+  top.row$count = nrow(df)
+  top.row
+})
+p.format.deduplicated <- ggplot(datasets.deduplicated) +
+  aes(x = format) + geom_bar()
+
 
 library(knitr)
 knit('format-over-time.Rmd')
