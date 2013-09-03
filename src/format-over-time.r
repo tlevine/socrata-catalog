@@ -137,6 +137,10 @@ p.format.deduplicated <- ggplot(datasets.deduplicated) +
   theme(title = element_text('Formats of datasets across data portals')) +
   coord_flip()
 
+p.federation <- ggplot(datasets.deduplicated) + aes(x = count) + geom_histogram(binwidth = 1) +
+  scale_x_continuous('Number of different portals that contain the dataset') +
+  scale_y_continuous('Number of datasets') +
+  theme(title = element_text('The scale of data federation within this subset of Socrata datasets'))
 
 library(knitr)
 knit('format-over-time.Rmd')
