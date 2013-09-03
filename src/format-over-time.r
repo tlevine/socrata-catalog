@@ -50,8 +50,10 @@ p.csv.cum.facet <- p.csv.cum + facet_wrap(~portal)
 # Why does Missouri have so few CSVs?
 data.mo.gov <- subset(datasets, portal == 'data.mo.gov')
 data.mo.gov$format <- factor(data.mo.gov$format, levels = names(sort(table(data.mo.gov$format), decreasing = TRUE)))
-p.data.mo.gov <- ggplot(data.mo.gov) + aes(x = format) + geom_bar()
-
+p.data.mo.gov <- ggplot(data.mo.gov) + aes(x = format) + geom_bar() +
+  scale_x_discrete('Dataset format') +
+  scale_y_continuous('Count on data.mo.gov') +
+  ggtitle('Data formats on data.mo.gov')
 
 # Cumulative CSV and PDF and zip and octet-stream
 datasets$csv.pdf.zip.octet <- datasets$format == 'csv' | datasets$format == 'pdf' | datasets$format == 'zip' | datasets$format == 'octet-stream'
@@ -71,12 +73,18 @@ p.csv.pdf.zip.octet.cum.facet <- p.csv.pdf.zip.octet.cum + facet_wrap(~portal)
 # Hawaii
 data.hawaii.gov <- subset(datasets, portal == 'data.hawaii.gov')
 data.hawaii.gov$format <- factor(data.hawaii.gov$format, levels = names(sort(table(data.hawaii.gov$format), decreasing = TRUE)))
-p.data.hawaii.gov <- ggplot(data.hawaii.gov) + aes(x = format) + geom_bar()
+p.data.hawaii.gov <- ggplot(data.hawaii.gov) + aes(x = format) + geom_bar() +
+  scale_x_discrete('Dataset format') +
+  scale_y_continuous('Count on data.hawaii.gov') +
+  ggtitle('Data formats on data.hawaii.gov')
 
 # Lehman College
 bronx.lehman.cuny.edu <- subset(datasets, portal == 'bronx.lehman.cuny.edu')
 bronx.lehman.cuny.edu$format <- factor(bronx.lehman.cuny.edu$format, levels = names(sort(table(bronx.lehman.cuny.edu$format), decreasing = TRUE)))
-p.bronx.lehman.cuny.edu <- ggplot(bronx.lehman.cuny.edu) + aes(x = format) + geom_bar()
+p.bronx.lehman.cuny.edu <- ggplot(bronx.lehman.cuny.edu) + aes(x = format) + geom_bar() +
+  scale_x_discrete('Dataset format') +
+  scale_y_continuous('Count on bronx.lehman.cuny.edu') +
+  ggtitle('Data formats on bronx.lehman.cuny.edu')
 
 # All of them
 # dlply(datasets, 'portal', function(df) {
@@ -93,12 +101,16 @@ datasets$main.formats[is.na(datasets$main.formats)] <- 'other'
 p.all <- ggplot(datasets) + aes(x = portal, fill = main.formats) +
   geom_bar() + scale_y_continuous('Number of datasets') +
   scale_x_discrete('Portal') + scale_fill_discrete('Dataset format') +
-  coord_flip()
+  coord_flip() +
+  ggtitle('Data formats on all the portals')
 
 # San Francisco has external links.
 data.sfgov.org <- subset(datasets, portal == 'data.sfgov.org')
 data.sfgov.org$format <- factor(data.sfgov.org$format, levels = names(sort(table(data.sfgov.org$format), decreasing = TRUE)))
-p.data.sfgov.org <- ggplot(data.sfgov.org) + aes(x = format) + geom_bar()
+p.data.sfgov.org <- ggplot(data.sfgov.org) + aes(x = format) + geom_bar() +
+  scale_x_discrete('Dataset format') +
+  scale_y_continuous('Count on data.sfgov.org') +
+  ggtitle('Dataset formats on data.sfgov.org')
 
 # San Francisco has sudden changes.
 data.sfgov.org$csv <- factor(data.sfgov.org$format == 'csv', levels = c(T, F))
