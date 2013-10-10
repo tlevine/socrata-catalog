@@ -84,3 +84,9 @@ cross.tabulations.sparse <- subset(cross.tabulations, Freq > 0)[c((ncol(cross.ta
 #
 p1 <- ggplot(missouri) + aes(x = pdf, fill = public.domain) + geom_bar() +
   scale_x_discrete('PDF file?') + scale_y_continuous('Number of datasets')
+  ggtitle('PDF datasets in the public domain are quite common')
+
+p2 <- ggplot(missouri) + aes(x = traffic.data, fill = pdf) + geom_bar() +
+  scale_fill_discrete('PDF file?') + scale_y_continuous('Number of datasets') +
+  scale_x_discrete('Traffic survey?') +
+  ggtitle('Most of the PDF files on data.mo.gov are traffic surveys.')
