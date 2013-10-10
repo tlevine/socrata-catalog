@@ -41,6 +41,12 @@ catalog$building.permits <- grepl('Building Permit', catalog$title)
 catalog$census.block.map <- grepl('Census Block', catalog$title)
 
 
+
+
+
+
+
+
 # Datasets that should have licenses
 interesting <- subset(catalog, !public.domain & pdf & missouri &
   !traffic.data & !travel.to.work & !acs & !building.permits & !census.block.map)
@@ -52,3 +58,28 @@ row.names(interesting) <- interesting$identifier
 interesting$report <- grepl('^20[0-9][0-9]', interesting$title)
 
 subset(interesting, !report)['title']
+
+
+
+
+
+
+# Missouri statistics
+missouri <- subset(catalog, missouri)
+.binary <- c('pdf','traffic.data','travel.to.work','acs','building.permits','census.block.map','public.domain')
+for (i in .binary) {
+  missouri[,i] <- factor(missouri[,i], levels = c(TRUE, FALSE))
+  levels(missouri[,i]) <- c('Yes','No')
+}
+
+table(missouri$pdf, missouri$traffic.data, missouri$travel.to.work, missouri$acs, missouri$building.permits, missouri$census.block.map, missouri$public.domain)
+
+cross.tabulations <- as.data.frame.table(xtabs(~ traffic.data + travel.to.work + acs + building.permits + census.block.map + pdf + public.domain, data = missouri))
+
+# Make this table really fancy with bar graphs on the side
+cross.tabulations.sparse <- subset(cross.tabulations, Freq > 0)[c((ncol(cross.tabulations)-1):1, ncol(cross.tabulations))]
+
+
+#
+p1 <- ggplot(missouri) + aes(x = pdf, fill = public.domain) + geom_bar() +
+  scale_x_discrete('PDF file?') + scale_y_continuous('Number of datasets')
