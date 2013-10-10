@@ -21,8 +21,8 @@ catalog$traffic.data <- grepl('traffic data', catalog$title, ignore.case = TRUE)
 # ACS data. Lots of facts, but maybe the report can be copyrighted
 # https://data.mo.gov/Census/1940-2010-Census-ACS-Council-District-1-Data/wdnq-qmt4?
 # https://data.mo.gov/api/file_data/Qrn-OBDtt9fjLzeryhE8uytBNSB7ZndUOisWUwKeIRU?filename=0-0-1980To2010Census_And_2007-2011ACS_Profile_District1.pdf
-catalog$acs <- grepl('ACS', catalog$title)
+catalog$acs <- grepl('ACS|American Community Survey', catalog$title)
 
 # Datasets that should have licenses
-interesting <- subset(catalog, !public.domain & pdf & missouri & !traffic.data)
+interesting <- subset(catalog, !public.domain & pdf & missouri & !traffic.data & !acs)
 row.names(interesting) <- interesting$identifier
