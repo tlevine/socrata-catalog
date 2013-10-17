@@ -1,4 +1,5 @@
 library(sqldf)
+library(ggplot2)
 
 if (!('catalog' %in% ls())) {
   catalog <- sqldf('select * from catalog', dbname = '/tmp/catalog.db')
