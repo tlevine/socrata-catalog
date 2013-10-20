@@ -41,8 +41,7 @@ catalog$building.permits <- grepl('Building Permit', catalog$title)
 # they might not be public domain anymore.
 # https://data.mo.gov/Census/2010-Census-Predominant-Ethnicity-by-Census-Block-/6sa7-c4bx?
 catalog$census.block.map <- grepl('Census Block', catalog$title)
-
-
+catalog$census <- grepl('Census', catalog$title)
 
 
 
@@ -64,19 +63,30 @@ subset(interesting, !report)['title']
 
 
 
-
-
 # Missouri statistics
 missouri <- subset(catalog, missouri)
-.binary <- c('pdf','traffic.data','travel.to.work','acs','building.permits','census.block.map','public.domain')
+
+missouri$expenditures <- grepl('Expenditures',missouri$title) & grepl('20[0-9]{2}',missouri$title)
+missouri$employee.pay <- grepl('Employee Pay',missouri$title) & grepl('20[0-9]{2}',missouri$title)
+missouri$grants <- grepl('Grant Revenues',missouri$title) & grepl('20[0-9]{2}',missouri$title)
+missouri$unemployment <- grepl('Unemployment',missouri$title)
+missouri$liquor.licenses <- grepl('(Liquor|Alcohol)', missouri$title)
+missouri$injury <- grepl('First Reports of Injury', missouri$title)
+missouri$says.missouri <- grepl('Missouri', missouri$title)
+
+a <- subset(missouri, !public.domain & !pdf & !traffic.data & !travel.to.work & !acs & !building.permits & !census &
+  !expenditures & !employee.pay & !grants & !unemployment & !liquor.licenses & !injury & !says.missouri)
+
+.binary <- c('pdf','traffic.data','travel.to.work','acs','building.permits','census.block.map','public.domain',
+  'expenditures','employee.pay','grantsa','unemployment','liquor.licenses','injury','says.missouri')
 for (i in .binary) {
   missouri[,i] <- factor(missouri[,i], levels = c(TRUE, FALSE))
   levels(missouri[,i]) <- c('Yes','No')
 }
 
-table(missouri$pdf, missouri$traffic.data, missouri$travel.to.work, missouri$acs, missouri$building.permits, missouri$census.block.map, missouri$public.domain)
+cross.tabulations <- as.data.frame.table(xtabs(~ traffic.data + travel.to.work + acs + building.permits + census.block.map + pdf + public.domain + expenditures + employee.pay + grants + unemployment + liquor.licenses + injury, data = missouri))
+cross.tabulations.2 <- as.data.frame.table(xtabs(~ traffic.data + travel.to.work + acs + building.permits + census.block.map + pdf + public.domain + expenditures + employee.pay + grants + unemployment + liquor.licenses + injury + says.missouri, data = missouri))
 
-cross.tabulations <- as.data.frame.table(xtabs(~ traffic.data + travel.to.work + acs + building.permits + census.block.map + pdf + public.domain, data = missouri))
 
 # Make this table really fancy with bar graphs on the side
 cross.tabulations.sparse <- subset(cross.tabulations, Freq > 0)[c((ncol(cross.tabulations)-1):1, ncol(cross.tabulations))]
@@ -91,3 +101,6 @@ p2 <- ggplot(missouri) + aes(x = traffic.data, fill = pdf) + geom_bar() +
   scale_fill_discrete('PDF file?') + scale_y_continuous('Number of datasets') +
   scale_x_discrete('Traffic survey?') +
   ggtitle('Most of the PDF files on data.mo.gov are traffic surveys.')
+
+# All no in cross-tabulation
+more.interesting <- subset(catalog, missouri & !public.domain & !pdf & !census.block.map & !building.permits & !acs & !travel.to.work & !traffic.data)
