@@ -13,7 +13,8 @@ I recently [found](/!/open-data-licensing) that most datasets on the
 open data portals I've been looking at don't have open licenses.
 But a lot of datasets do have licenses, and licensing does vary within
 a portal. So I wanted to see which datasets get licenses and which ones
-don't.
+don't. I started looking at this on the Missouri Data Portal, but I
+wound up going down a slightly different rabbit hole.
 
 ## The Missouri Data Portal
 I went about this by looking at one data portal,
@@ -81,7 +82,23 @@ field in the dataset that really told me much about this was the
 `title` field, which is what I used above to find the traffic surveys.
 I kept going with that for different datasets.
 
-This is 
+I just used a bunch of reasonably simple
+[string matches](https://github.com/tlevine/socrata-catalog/blob/master/src/missouri.license.r).
+For example, a bunch of datasets came from the American Community Survey,
+and these said "ACS" or "American Community Survey" in the title.
+Data from the federal said "Census". And liquor license data said either
+"Liquor" or "Alcohol".
+
+In the tree below, I map out the different kinds of datasets, whether
+they are PDF files and whether they have public domain licenses.
+
+## Something
+Anticlimactically, I don't think this really tells us more about licensing.
+On the other hand, I feel like this is a reasonably complete grouping of
+the different kinds of datasets. In the less granular groupings, I think
+I've arrived at datasets that could naturally be combined into one data
+table. This is even true for the traffic survey data; each particular PDF
+traffic survey report could be converted into a single row in a data table.
 
 ## Future study
 In the Missouri portal, I used only title to group datasets; I didn't
