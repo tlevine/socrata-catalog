@@ -155,4 +155,6 @@ p7 <- ggplot(tree.reshapen) +
   xlab('File format') + ylab('Count of datasets of the type') +
   ggtitle('Licences by dataset content and format')
 
+p8 <- ggplot(subset(tree.reshapen, dataset.type == 'other')) + aes(x = interaction(pdf, public.domain), fill = says.missouri, y = Freq) + geom_bar(stat = 'identity') 
+
 # knit('missouri.license.Rmd')
