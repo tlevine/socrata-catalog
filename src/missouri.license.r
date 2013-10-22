@@ -82,8 +82,8 @@ a <- subset(missouri, !public.domain & !pdf & !traffic.data & !travel.to.work & 
   !expenditures & !employee.pay & !grants & !unemployment & !liquor.licenses & !injury & !says.missouri)
 
 .binary <- c('pdf','traffic.data','travel.to.work','acs','building.permits','census.block.map','public.domain',
-  'expenditures','employee.pay','grants','unemployment','liquor.licenses','injury','says.missouri')
-for (i in .binary) {
+  'expenditures','employee.pay','grants','unemployment','liquor.licenses','injury')
+for (i in c(.binary,'says.missouri')) {
   missouri[,i] <- factor(missouri[,i], levels = c(TRUE, FALSE))
   levels(missouri[,i]) <- c('Yes','No')
 }
@@ -111,7 +111,7 @@ p2 <- ggplot(missouri) + aes(x = traffic.data, fill = pdf) + geom_bar() +
   ggtitle('Most of the PDF files on data.mo.gov are traffic surveys.')
 
 # All-no in cross-tabulation
-more.interesting <- subset(catalog, missouri & !public.domain & !pdf & !census.block.map & !building.permits & !acs & !travel.to.work & !traffic.data)
+more.interesting <- subset(missouri, ('No' == public.domain) & ('No' == pdf) & ('No' == census.block.map) & ('No' == building.permits) & ('No' == acs) & ('No' == travel.to.work) & ('No' == traffic.data) & ('No' == census) & ('No' == expenditures) & ('No' == employee.pay) & ('No' == grants) & ('No' == unemployment) & ('No' == liquor.licenses) & ('No' == injury))
 
 tree <- cross.tabulations.sparse
 levels(tree$pdf) <- c('PDF','Not PDF')
@@ -123,7 +123,6 @@ tree.reshapen <- ddply(tree, .binary, function(a){
   # It turns out that these types are mutually exclusive
   dataset.type <- names(a)[a[1,] == 'Yes']
   if (length(dataset.type) > 0) {
-    print(dataset.type)
     a$dataset.type <- dataset.type
 #   b$dataset.type <- dataset.type
   } else {
@@ -148,4 +147,12 @@ p5 <- ggplot(tree.reshapen) + aes(group = public.domain, x = pdf, fill = public.
 
 p6 <- ggplot(tree.reshapen) + aes(group = public.domain, x = pdf, fill = public.domain, y = prop) + geom_bar(stat = 'identity', position = 'dodge') + facet_wrap(~ dataset.type) + xlab('File format') + ylab('Proportion of datasets of the type') + ggtitle('Licences by dataset content and format')
 
-knit('missouri.license.Rmd')
+# Not interesting
+p7 <- ggplot(tree.reshapen) +
+  aes(group = public.domain, x = pdf, fill = public.domain, y = Freq) +
+  geom_bar(stat = 'identity', position = 'dodge') +
+  facet_grid(dataset.type ~ says.missouri) +
+  xlab('File format') + ylab('Count of datasets of the type') +
+  ggtitle('Licences by dataset content and format')
+
+# knit('missouri.license.Rmd')
