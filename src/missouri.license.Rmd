@@ -1,0 +1,11 @@
+---
+title: Kinds of datasets and their licenses in Missouri's data portal
+twitter_title: Missouri's data portal has lots of traffic surveys
+tags: ['open-data']
+---
+<% root = 'https://github.com/tlevine/socrata-analysis/tree/master/' %>
+```{r configure, echo = F}
+opts_chunk$set(fig.width=10, fig.height=5, dpi = 42 * 5)
+```
+
+

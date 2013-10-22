@@ -102,5 +102,5 @@ p2 <- ggplot(missouri) + aes(x = traffic.data, fill = pdf) + geom_bar() +
   scale_x_discrete('Traffic survey?') +
   ggtitle('Most of the PDF files on data.mo.gov are traffic surveys.')
 
-# All no in cross-tabulation
+# All-no in cross-tabulation
 more.interesting <- subset(catalog, missouri & !public.domain & !pdf & !census.block.map & !building.permits & !acs & !travel.to.work & !traffic.data)
