@@ -103,7 +103,15 @@ the small bars more apparent.
 print(p6)
 ```
 
-I didn't manage to get it much more precise than this, but 
+I didn't manage to get it much more precise than this, but I did find that
+the uncategorized datasets containing the word "Missouri" tended not to
+have a license.
+
+```{r says_missouri}
+print(p8)
+```
+
+## Why license traffic surveys
 
 ## Something
 Anticlimactically, I don't think this really tells us more about licensing.
