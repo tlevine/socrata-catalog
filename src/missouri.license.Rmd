@@ -46,14 +46,14 @@ print(p0)
 Public domain is actually the only license; if a dataset isn't licensed
 public domain, it isn't licensed at all.
 
-```{r na.table}
+```{r na_table}
 table(missouri$public.domain, is.na(missouri$license))
 ```
 
 ## Formats
 Proportionately more PDF files are public domain.
 
-```{r publicdomain.pdf}
+```{r publicdomain_pdf}
 print(p1)
 ```
 
@@ -71,7 +71,7 @@ I noticed a bunch of PDF files with names like these.
 
 These are all traffic surveys, and it turns out that most PDFs.
 
-```{r pdf.trafficsurvey}
+```{r pdf_trafficsurvey}
 print(p2)
 ```
 

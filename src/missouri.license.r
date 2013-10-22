@@ -87,8 +87,8 @@ for (i in .binary) {
   levels(missouri[,i]) <- c('Yes','No')
 }
 
-cross.tabulations <- as.data.frame.table(xtabs(~ traffic.data + travel.to.work + acs + building.permits + census.block.map + pdf + public.domain + expenditures + employee.pay + grants + unemployment + liquor.licenses + injury, data = missouri))
-cross.tabulations.2 <- as.data.frame.table(xtabs(~ traffic.data + travel.to.work + acs + building.permits + census.block.map + pdf + public.domain + expenditures + employee.pay + grants + unemployment + liquor.licenses + injury + says.missouri, data = missouri))
+cross.tabulations <- as.data.frame.table(xtabs(~ pdf + public.domain + traffic.data + travel.to.work + acs + building.permits + census.block.map + expenditures + employee.pay + grants + unemployment + liquor.licenses + injury, data = missouri))
+cross.tabulations.2 <- as.data.frame.table(xtabs(~ pdf + public.domain + traffic.data + travel.to.work + acs + building.permits + census.block.map + expenditures + employee.pay + grants + unemployment + liquor.licenses + injury + says.missouri, data = missouri))
 
 
 # Make this table really fancy with bar graphs on the side
