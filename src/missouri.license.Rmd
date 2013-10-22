@@ -36,8 +36,33 @@ I went about this by looking at one data portal,
 I wound up categorizing the datasets quite a bit more than I originally
 intended, so now I know a lot about the sorts of data on the portal.
 
-##
+## Licenses
+Most datasets on the missouri portal are public domain.
 
+```{r publicdomain}
+print(p0)
+```
+
+Proportionately more PDF files are public domain.
+
+```{r publicdomain.pdf}
+print(p1)
+```
+
+And most PDFs are traffic surveys.
+
+```{r pdf.trafficsurvey}
+print(p2)
+```
+
+Also, public domain is the only license; if a dataset isn't licensed
+public domain, it isn't licensed at all.
+
+```{r na.table}
+table(missouri$public.domain, is.na(missouri$license))
+```
+
+## Dataset kinds
 
 ## Future study
 In the Missouri portal, I used only title to group datasets; I didn't
