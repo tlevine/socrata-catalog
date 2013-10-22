@@ -1,5 +1,6 @@
 library(sqldf)
 library(ggplot2)
+library(knitr)
 
 if (!('catalog' %in% ls())) {
   catalog <- sqldf('select * from catalog', dbname = '/tmp/catalog.db')
@@ -106,3 +107,6 @@ p2 <- ggplot(missouri) + aes(x = traffic.data, fill = pdf) + geom_bar() +
 
 # All-no in cross-tabulation
 more.interesting <- subset(catalog, missouri & !public.domain & !pdf & !census.block.map & !building.permits & !acs & !travel.to.work & !traffic.data)
+
+
+knit('missouri.license.Rmd')
