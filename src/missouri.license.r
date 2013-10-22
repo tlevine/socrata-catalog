@@ -1,6 +1,7 @@
 library(sqldf)
 library(ggplot2)
 library(knitr)
+library(reshape2)
 
 if (!('catalog' %in% ls())) {
   catalog <- sqldf('select * from catalog', dbname = '/tmp/catalog.db')
@@ -111,6 +112,15 @@ p2 <- ggplot(missouri) + aes(x = traffic.data, fill = pdf) + geom_bar() +
 
 # All-no in cross-tabulation
 more.interesting <- subset(catalog, missouri & !public.domain & !pdf & !census.block.map & !building.permits & !acs & !travel.to.work & !traffic.data)
+
+tree <- cross.tabulations.sparse
+levels(tree$pdf) <- c('pdf','not.pdf')
+levels(tree$public.domain) <- c('public.domain','not.licensed')
+tree.reshapen <- ddply(tree, c('injury','liquor.licenses','unemployment','grants','employee.pay','expenditures','census.block.map','building.permits','acs','travel.to.work','traffic.data'), function(a){
+  b <- dcast(a, Freq ~ public.domain + pdf, fun.aggregate = sum, value.var = 'Freq')
+  b$Freq <- NULL
+  b
+})
 
 
 knit('missouri.license.Rmd')
