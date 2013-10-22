@@ -56,15 +56,32 @@ Proportionately more PDF files are public domain.
 print(p1)
 ```
 
-And most PDFs are traffic surveys.
+I noticed a bunch of PDF files with names like these.
+
+* [  SWTWESTP EW 5 HR 2009 A PCW](https://data.mo.gov/d/nfur-xwk2)
+* [  SHAWNEEWARD 5 HR 2009 A TMC](https://data.mo.gov/d/5zv3-u47y)
+* [PROSPECTSWOPE 5 HR 2009 A TMC](https://data.mo.gov/d/i2ip-cykb)
+* [    OAKVOLKER 5 HR 2009 A TMC](https://data.mo.gov/d/6gz3-267n)
+* [         OAK9 5 HR 2009 A TMC](https://data.mo.gov/d/yjr5-e96s)
+* [        OAK12 5 HR 2009 A TMC](https://data.mo.gov/d/sqpd-738e)
+* [       MAIN13 5 HR 2009 A TMC](https://data.mo.gov/d/9ddu-xy68)
+* [        MAIN8 5 HR 2009 A TMC](https://data.mo.gov/d/eyii-3nuq)
+* [    MADISON43 5 HR 2009 A TMC](https://data.mo.gov/d/n2kq-rg69)
+
+These are all traffic surveys, and it turns out that most PDFs.
 
 ```{r pdf.trafficsurvey}
 print(p2)
 ```
 
 ## Dataset kinds
-A lot of PDF files had public domain licenses, but it's not clear-cut;
-let's look more specifically.
+A lot of PDF files had public domain licenses, but it's not clear-cut,
+so I more specifically at what datasets are on the portal. The only
+field in the dataset that really told me much about this was the
+`title` field, which is what I used above to find the traffic surveys.
+I kept going with that for different datasets.
+
+This is 
 
 ## Future study
 In the Missouri portal, I used only title to group datasets; I didn't
