@@ -42,7 +42,14 @@ Most datasets on the missouri portal are public domain.
 ```{r publicdomain}
 print(p0)
 ```
+Public domain is actually the only license; if a dataset isn't licensed
+public domain, it isn't licensed at all.
 
+```{r na.table}
+table(missouri$public.domain, is.na(missouri$license))
+```
+
+## Formats
 Proportionately more PDF files are public domain.
 
 ```{r publicdomain.pdf}
@@ -55,14 +62,9 @@ And most PDFs are traffic surveys.
 print(p2)
 ```
 
-Also, public domain is the only license; if a dataset isn't licensed
-public domain, it isn't licensed at all.
-
-```{r na.table}
-table(missouri$public.domain, is.na(missouri$license))
-```
-
 ## Dataset kinds
+A lot of PDF files had public domain licenses, but it's not clear-cut;
+let's look more specifically.
 
 ## Future study
 In the Missouri portal, I used only title to group datasets; I didn't
