@@ -81,7 +81,7 @@ a <- subset(missouri, !public.domain & !pdf & !traffic.data & !travel.to.work & 
   !expenditures & !employee.pay & !grants & !unemployment & !liquor.licenses & !injury & !says.missouri)
 
 .binary <- c('pdf','traffic.data','travel.to.work','acs','building.permits','census.block.map','public.domain',
-  'expenditures','employee.pay','grantsa','unemployment','liquor.licenses','injury','says.missouri')
+  'expenditures','employee.pay','grants','unemployment','liquor.licenses','injury','says.missouri')
 for (i in .binary) {
   missouri[,i] <- factor(missouri[,i], levels = c(TRUE, FALSE))
   levels(missouri[,i]) <- c('Yes','No')
