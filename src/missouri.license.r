@@ -8,6 +8,8 @@ if (!('catalog' %in% ls())) {
 # Public domain
 catalog$public.domain <- grepl('Public Domain', catalog$license, ignore.case = TRUE)
 
+# table(missouri$public.domain, is.na(missouri$license))
+
 # Missouri, because it has a lot of PDFs
 catalog$missouri <- catalog$portal == 'data.mo.gov'
 

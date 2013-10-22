@@ -7,7 +7,7 @@ rm -f catalogs
 ln -s $dir catalogs
 
 for portal in \
-  data.kcmo.gov \
+  data.kcmo.org \
   data.colorado.gov \
   data.nola.gov \
   healthmeasures.aspe.hhs.gov \

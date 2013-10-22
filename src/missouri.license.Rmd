@@ -8,4 +8,40 @@ tags: ['open-data']
 opts_chunk$set(fig.width=10, fig.height=5, dpi = 42 * 5)
 ```
 
+## Which specific datasets have licenses?
+I recently [found](/!/open-data-licensing) that most datasets on the
+open data portals I've been looking at don't have open licenses.
+But a lot of datasets do have licenses, and licensing does vary within
+a portal. So I wanted to see which datasets get licenses and which ones
+don't.
 
+## The Missouri Data Portal
+I went about this by looking at one data portal,
+[data.mo.gov](https://data.mo.gov). Here's why I chose it.
+
+1. To make it easy to download the license information, I wanted to use
+    Socrata's DCAT endpoint. This endpoint only returns up to 1000
+    datasets, so I needed a portal with no more than 1000 datasets.
+    Missouri's portal has `r nrow(missouri)` datasets.
+2. I think I've figured out how to
+    [deduplicate federated datasets](/!/),
+    but I didn't want to deal with that.
+    The Missouri portal federates only the
+    [Kansas City data portal](https://data.kcmo.org).
+3. Missouri has [a lot of PDF files](/!/),
+    so I thought there might be something in there that would be more
+    original than mere facts and covered under copyright; this would
+    make a license more important.
+
+I wound up categorizing the datasets quite a bit more than I originally
+intended, so now I know a lot about the sorts of data on the portal.
+
+##
+
+
+## Future study
+In the Missouri portal, I used only title to group datasets; I didn't
+look at the long-form description, the author or the schema. There were
+pretty clear-cut divisions between titles, but I would like to see how
+reasonable this approach really is; I want to whether groups of similarly
+named datasets tend to have similar schemas.
