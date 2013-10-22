@@ -155,6 +155,17 @@ p7 <- ggplot(tree.reshapen) +
   xlab('File format') + ylab('Count of datasets of the type') +
   ggtitle('Licences by dataset content and format')
 
-p8 <- ggplot(subset(tree.reshapen, dataset.type == 'other')) + aes(x = interaction(pdf, public.domain), fill = says.missouri, y = Freq) + geom_bar(stat = 'identity') 
+tree.reshapen$other <- tree.reshapen$dataset.type == 'other'
+tree.reshapen$other <- factor(tree.reshapen$other, levels = c(FALSE,TRUE))
+levels(tree.reshapen$other) <- c('Categorized datasets','Uncategorized datasets')
+p8 <- ggplot(tree.reshapen) +
+  aes(x = says.missouri, fill = public.domain, y = Freq) +
+  geom_bar(stat = 'identity', position = 'dodge') +
+  facet_grid(pdf ~ other) +
+  scale_x_discrete(drop = FALSE) +
+  scale_y_continuous('Number of datasets') +
+  scale_fill_discrete('License', drop = FALSE) +
+  xlab('Does the dataset title say "Missouri"?')
+  ggtitle('Datasets that I didn\'t manage to categorize are less likely to have a license if they say "Missouri".')
 
 # knit('missouri.license.Rmd')

@@ -5,7 +5,7 @@ tags: ['open-data']
 ---
 <% root = 'https://github.com/tlevine/socrata-analysis/tree/master/' %>
 ```{r configure, echo = F}
-opts_chunk$set(fig.width=10, fig.height=5, dpi = 42 * 5)
+opts_chunk$set(fig.width=10, fig.height=10, dpi = 42 * 5)
 ```
 
 ## Which specific datasets have licenses?
@@ -89,8 +89,21 @@ and these said "ACS" or "American Community Survey" in the title.
 Data from the federal said "Census". And liquor license data said either
 "Liquor" or "Alcohol".
 
-In the tree below, I map out the different kinds of datasets, whether
+In the plot below, I map out the different kinds of datasets, whether
 they are PDF files and whether they have public domain licenses.
+
+```{r kinds}
+print(p5)
+```
+
+Here's the same plot but with proportions instead of counts. This makes
+the small bars more apparent.
+
+```{r kinds}
+print(p6)
+```
+
+I didn't manage to get it much more precise than this, but 
 
 ## Something
 Anticlimactically, I don't think this really tells us more about licensing.
