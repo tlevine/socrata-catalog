@@ -118,9 +118,32 @@ levels(tree$pdf) <- c('pdf','not.pdf')
 levels(tree$public.domain) <- c('public.domain','not.licensed')
 tree.reshapen <- ddply(tree, c('injury','liquor.licenses','unemployment','grants','employee.pay','expenditures','census.block.map','building.permits','acs','travel.to.work','traffic.data'), function(a){
   b <- dcast(a, Freq ~ public.domain + pdf, fun.aggregate = sum, value.var = 'Freq')
+
+  # It turns out that these types are mutually exclusive
+  dataset.type <- names(a)[a[1,] == 'Yes']
+  if (length(dataset.type) > 0) {
+    a$dataset.type <- dataset.type
+    b$dataset.type <- dataset.type
+  } else {
+    a$dataset.type <- 'other'
+    b$dataset.type <- 'other'
+  }
+
   b$Freq <- NULL
   b
-})
 
+  a$prop <- a$Freq / sum(a$Freq)
+  
+  a
+})
+tree.reshapen[is.na(tree.reshapen)] <- 0
+
+p3 <- ggplot(tree.reshapen) + aes(x = dataset.type, group = interaction(pdf, public.domain), fill = interaction(pdf, public.domain), y = Freq) + geom_bar(stat = 'identity', position = 'dodge') + scale_y_log10('Number of datasets')
+
+# p4 <- ggplot(tree.reshapen) + aes(x = dataset.type, group = interaction(pdf, public.domain), fill = interaction(pdf, public.domain), y = prop) + geom_bar(stat = 'identity', position = 'stack')
+
+p5 <- ggplot(tree.reshapen) + aes(group = public.domain, x = pdf, fill = public.domain, y = Freq) + geom_bar(stat = 'identity', position = 'dodge') + facet_wrap(~ dataset.type)
+
+p6 <- ggplot(tree.reshapen) + aes(group = public.domain, x = pdf, fill = public.domain, y = prop) + geom_bar(stat = 'identity', position = 'dodge') + facet_wrap(~ dataset.type)
 
 knit('missouri.license.Rmd')
