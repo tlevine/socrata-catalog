@@ -22,7 +22,7 @@ catalog$pdf <- grepl('pdf', catalog$format, ignore.case = TRUE)
 # https://data.mo.gov/Traffic/2012-Traffic-Data-St-John-Ave-and-Topping-Av-PED-X/f8qf-7is2?
 # https://data.mo.gov/api/file_data/RUHsZRBZ1NEZZzmMODqg7pXeg911Vsj3ekdk0FovPhk?filename=STJOHNTOPPING_PED-X_12HR_2012B_TMC.pdf
 catalog$traffic.data <- grepl('traffic data', catalog$title, ignore.case = TRUE) |
-  grepl('^[A-Z0-9]* 1?[0-9] HR 20[0-9][0-9] [AB] (TMC|PCW)$', catalog$title)
+  grepl('^[A-Z0-9]*( I?[0-9])?( [A-Z0-9]*)? 1?[0-9] H[rR][ -]200?[0-9][0-9] [AB]-? (TMC|PCW)$', catalog$title)
 
 # Travel to work patterns! Maybe just facts
 # https://data.mo.gov/Transportation/1990-Travel-to-Work-Patterns-Summary-Example-Repor/phgg-ybif?
@@ -111,7 +111,7 @@ p2 <- ggplot(missouri) + aes(x = traffic.data, fill = pdf) + geom_bar() +
   ggtitle('Most of the PDF files on data.mo.gov are traffic surveys.')
 
 # All-no in cross-tabulation
-more.interesting <- subset(missouri, ('No' == public.domain) & ('No' == pdf) & ('No' == census.block.map) & ('No' == building.permits) & ('No' == acs) & ('No' == travel.to.work) & ('No' == traffic.data) & ('No' == census) & ('No' == expenditures) & ('No' == employee.pay) & ('No' == grants) & ('No' == unemployment) & ('No' == liquor.licenses) & ('No' == injury))
+more.interesting <- subset(missouri, ('No' == census.block.map) & ('No' == building.permits) & ('No' == acs) & ('No' == travel.to.work) & ('No' == traffic.data) & (!census) & ('No' == expenditures) & ('No' == employee.pay) & ('No' == grants) & ('No' == unemployment) & ('No' == liquor.licenses) & ('No' == injury))
 
 tree <- cross.tabulations.sparse
 levels(tree$pdf) <- c('PDF','Not PDF')
