@@ -1,5 +1,5 @@
 ---
-title: Datasets in Missouri's data portal, and their licenses
+title: Which datasets in Missouri's data portal are in the public domain?
 descriptions: I grouped the datasets in Missouri's data portal and looked at licensing by dataset group.
 twitter_title: Missouri's data portal has lots of traffic surveys
 twitter_image:
@@ -10,16 +10,21 @@ tags: ['open-data']
 opts_chunk$set(fig.width=10, fig.height=10, dpi = 42 * 5)
 ```
 
-## Which specific datasets have licenses?
+## Which specific datasets have license metadata?
 I recently [found](/!/open-data-licensing) that most datasets on the
-open data portals I've been looking at don't have open licenses.
-But a lot of datasets do have licenses, and licensing does vary within
-a portal. So I wanted to see which datasets get licenses and which ones
-don't. I started looking at this on the Missouri Data Portal, but I
+open data portals I've been looking at don't have open licenses or.
+public domain dedications.
+
+But a lot of datasets do have licenses or public domain dedication, and
+licensing this varies within portals. I wanted to see which datasets get
+have some sort of licensing metadata and which ones
+don't.
+Or this is what I thought I wanted;
+I started looking at this on one data portal, and I
 wound up going down a slightly different rabbit hole.
 
 ## The Missouri Data Portal
-I went about this by looking at one data portal,
+I looked at the Missouri Data Portal,
 [data.mo.gov](https://data.mo.gov). Here's why I chose it.
 
 1. To make it easy to download the license information, I wanted to use
@@ -113,8 +118,16 @@ have a license.
 ```{r says_missouri}
 print(p8)
 ```
+## Why be explicit that traffic surveys are in the public domain
+The /unitedstates project explains the merits of being explicit about
+a public domain dedication
 
-## Why license traffic surveys
+http://theunitedstates.io/licensing/
+
+Copyright applies to some government data but not others (and never to U.S. law). When it applies, it must be waived by the agency (or owner if not the agency) for the data to meet the “license-free” principle. In this case, data is dedicated to the public domain, not licensed.
+
+> Data is more valuable when its copyright status is clear through an explicit statement.
+
 
 ## Something
 Anticlimactically, I don't think this really tells us more about licensing.
