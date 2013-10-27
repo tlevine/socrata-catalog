@@ -169,4 +169,4 @@ p8 <- ggplot(tree.reshapen) +
   xlab('Does the dataset title say "Missouri"?')
   ggtitle('Datasets that I didn\'t manage to categorize are less likely to have a license if they say "Missouri".')
 
-# knit('missouri.license.Rmd')
+knit('src/missouri.license.Rmd')

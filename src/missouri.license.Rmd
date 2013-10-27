@@ -101,14 +101,14 @@ Data from the federal said "Census". And liquor license data said either
 In the plot below, I map out the different kinds of datasets, whether
 they are PDF files and whether they have public domain licenses.
 
-```{r kinds}
+```{r kinds_counts}
 print(p5)
 ```
 
 Here's the same plot but with proportions instead of counts. This makes
 the small bars more apparent.
 
-```{r kinds}
+```{r kinds_prop}
 print(p6)
 ```
 
@@ -168,10 +168,10 @@ to works produced by contractors. From the file on the data portal website,
 we can't tell whether it was produced entirely by government workers, so
 we can't use this law for assurance that the data are free of a license.
 
-### Explicit statement
+### Yay for explicit statement
 Given the potential ambiguities above, it is quite important that these traffic
-survey files have explicit notices regarding their public domain dedication,
-and I commend the state of Missouri for providing such notices.
+survey files have explicit notices where it's possible. I commend the state of
+Missouri for providing such notices.
 
 ## What I really learned from this
 I used this analysis to provide an example of a situation where it is
