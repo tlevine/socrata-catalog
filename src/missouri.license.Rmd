@@ -1,6 +1,8 @@
 ---
-title: Kinds of datasets and their licenses in Missouri's data portal
+title: Datasets in Missouri's data portal, and their licenses
+descriptions: I grouped the datasets in Missouri's data portal and looked at licensing by dataset group.
 twitter_title: Missouri's data portal has lots of traffic surveys
+twitter_image:
 tags: ['open-data']
 ---
 <% root = 'https://github.com/tlevine/socrata-analysis/tree/master/' %>
@@ -43,8 +45,8 @@ Most datasets on the missouri portal are public domain.
 ```{r publicdomain}
 print(p0)
 ```
-Public domain is actually the only license; if a dataset isn't licensed
-public domain, it isn't licensed at all.
+Public domain is actually the only license; if a dataset "license" isn't
+listed as public domain, it isn't licensed at all.
 
 ```{r na_table}
 table(missouri$public.domain, is.na(missouri$license))
@@ -69,7 +71,8 @@ I noticed a bunch of PDF files with names like these.
 * [        MAIN8 5 HR 2009 A TMC](https://data.mo.gov/d/eyii-3nuq)
 * [    MADISON43 5 HR 2009 A TMC](https://data.mo.gov/d/n2kq-rg69)
 
-These are all traffic surveys, and it turns out that most PDFs.
+These are all traffic surveys, and it turns out that they account for
+almost all of the PDF files on the portal.
 
 ```{r pdf_trafficsurvey}
 print(p2)
@@ -77,10 +80,10 @@ print(p2)
 
 ## Dataset kinds
 A lot of PDF files had public domain licenses, but it's not clear-cut,
-so I more specifically at what datasets are on the portal. The only
+so I looked more specifically at what datasets are on the portal. The only
 field in the dataset that really told me much about this was the
 `title` field, which is what I used above to find the traffic surveys.
-I kept going with that for different datasets.
+I kept going with that for the other datasets.
 
 I just used a bunch of reasonably simple
 [string matches](https://github.com/tlevine/socrata-catalog/blob/master/src/missouri.license.r).
