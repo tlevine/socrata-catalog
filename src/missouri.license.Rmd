@@ -192,7 +192,7 @@ but the groupings seem to relate to trends in other variables, like the
 license field of the dataset. I've been wanting to come up with methods for
 relating datasets to each other. I thought these methods would need to be
 [somewhat involved](/!/open-data-plans#better-search-and-linked-data), but
-maybe I can start with something simpler.
+maybe we can start with something simpler.
 
 ## Future study
 In the Missouri portal, I used only title to group datasets; I didn't
