@@ -2,6 +2,7 @@ library(sqldf)
 library(ggplot2)
 library(knitr)
 library(reshape2)
+library(plyr)
 
 if (!('catalog' %in% ls())) {
   catalog <- sqldf('select * from catalog', dbname = '/tmp/catalog.db')
