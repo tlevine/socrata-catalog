@@ -152,9 +152,9 @@ In some cases, copyright might not apply to a dataset simply because the
 dataset isn't sufficiently original; if the dataset contains only facts,
 copyright won't apply. This might be okay for parts of the traffic survey
 files. Here's part of a page from
-[this traffic survey](https://data.mo.gov/Traffic/OAKVOLKER-5-HR-2009-A-TMC/6gz3-267n?)
+[this traffic survey](https://data.mo.gov/Traffic/OAKVOLKER-5-HR-2009-A-TMC/6gz3-267n?).
 
-![A data table](OAKVOLKER-5-HR-2009-A-TMC-table.png)
+![A data table](OAKVOLKER-5-HR-2009-A-TMC-table.png){:.wide}
 
 The page above just has a table of numbers. This might count as facts, so
 it is possible that it would not be original enough for copyright to apply.
