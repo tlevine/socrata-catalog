@@ -32,11 +32,12 @@ I looked at the Missouri Data Portal,
     datasets, so I needed a portal with no more than 1000 datasets.
     Missouri's portal has `r nrow(missouri)` datasets.
 2. I think I've figured out how to
-    [deduplicate federated datasets](/!/),
+    [deduplicate federated datasets](/!/socrata-deduplicate),
     but I didn't want to deal with that.
     The Missouri portal federates only the
-    [Kansas City data portal](https://data.kcmo.org).
-3. Missouri has [a lot of PDF files](/!/),
+    [Kansas City data portal](https://data.kcmo.org),
+    so no federal data should be duplicated in this portal.
+3. Missouri has [a lot of PDF files](/!/socrata-formats),
     so I thought there might be something in there that would be more
     original than mere facts and covered under copyright; this would
     make a license more important.
@@ -45,13 +46,13 @@ I wound up categorizing the datasets quite a bit more than I originally
 intended, so now I know a lot about the sorts of data on the portal.
 
 ## Licenses
-Most datasets on the missouri portal are public domain.
+Most datasets (`r sum(missouri$public.domain)`) on the missouri portal are public domain.
 
 ```{r publicdomain}
 print(p0)
 ```
-Public domain is actually the only license; if a dataset "license" isn't
-listed as public domain, it isn't licensed at all.
+
+The rest (`r sum(is.na(missouri$license))` datasets) have nothing in the "license" metadata field.
 
 ```{r na_table}
 table(missouri$public.domain, is.na(missouri$license))
@@ -119,15 +120,26 @@ have a license.
 print(p8)
 ```
 ## Why be explicit that traffic surveys are in the public domain
-The /unitedstates project explains the merits of being explicit about
-a public domain dedication
+A few years ago, a few open government advocates came up with
+[eight principles of open government data](http://www.opengovdata.org/home/8principles).
+Among these is the principle that the data be free of license.
 
-http://theunitedstates.io/licensing/
+> Data are not subject to any copyright, patent, trademark or trade secret regulation. Reasonable privacy, security and privilege restrictions may be allowed as governed by other statutes.
 
-Copyright applies to some government data but not others (and never to U.S. law). When it applies, it must be waived by the agency (or owner if not the agency) for the data to meet the “license-free” principle. In this case, data is dedicated to the public domain, not licensed.
+In some cases, government data already meet this criterion by default.
+As the /unitedstates project [explains](http://theunitedstates.io/licensing/),
+
+> Copyright applies to some government data but not others (and never to U.S. law). When it applies, it must be waived by the agency (or owner if not the agency) for the data to meet the "license-free" principle. In this case, data is dedicated to the public domain, not licensed.
+
+In some cases, copyright does not apply at all because it is a government
+product. In other cases, it might not apply because the data might be
+facts, which can't be copyrighted. However, it can be quite difficult for
+a consumer of data to determine whether copyright applies to a dataset.
+Thus, it makes sense to be explicit. As the /unitedstates project explains,
 
 > Data is more valuable when its copyright status is clear through an explicit statement.
 
+Traffic surveys are a perfect example of where you need to be explicit.
 
 ## Something
 Anticlimactically, I don't think this really tells us more about licensing.
