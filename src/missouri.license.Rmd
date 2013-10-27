@@ -173,13 +173,26 @@ Given the potential ambiguities above, it is quite important that these traffic
 survey files have explicit notices regarding their public domain dedication,
 and I commend the state of Missouri for providing such notices.
 
-## Something
-Anticlimactically, I don't think this really tells us more about licensing.
-On the other hand, I feel like this is a reasonably complete grouping of
-the different kinds of datasets. In the less granular groupings, I think
+## What I really learned from this
+I used this analysis to provide an example of a situation where it is
+important to have an explicit statement about the license of a dataset
+or about the absense of license. Beyond that, this analysis doesn't
+really tell us much about licensing.
+
+On the other hand, I feel like I've come up with a reasonably complete
+grouping of the datasets in the Missouri data portal.
+
+In the more granular groupings, I think
 I've arrived at datasets that could naturally be combined into one data
 table. This is even true for the traffic survey data; each particular PDF
 traffic survey report could be converted into a single row in a data table.
+
+I arrived at these groupings pretty much entirely by looking at the tables,
+but the groupings seem to relate to trends in other variables, like the
+license field of the dataset. I've been wanting to come up with methods for
+relating datasets to each other. I thought these methods would need to be
+[somewhat involved](/!/open-data-plans#better-search-and-linked-data), but
+maybe I can start with something simpler.
 
 ## Future study
 In the Missouri portal, I used only title to group datasets; I didn't
