@@ -59,10 +59,6 @@ print(p0)
 
 The rest (`r sum(is.na(missouri$license))` datasets) have nothing in the "license" metadata field.
 
-```{r na_table, echo = FALSE}
-table(missouri$public.domain, is.na(missouri$license))
-```
-
 ## Formats
 Proportionately more PDF files are public domain.
 
