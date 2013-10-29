@@ -104,12 +104,12 @@ p0 <- ggplot(missouri) + aes(x = pdf) + geom_bar() +
 
 p1 <- ggplot(missouri) + aes(x = pdf, fill = public.domain) + geom_bar() +
   scale_x_discrete('PDF file?') + scale_y_continuous('Number of datasets') +
-  ggtitle('PDF datasets in the public domain are quite common')
+  ggtitle('PDF datasets in the public domain\nare quite common')
 
 p2 <- ggplot(missouri) + aes(x = traffic.data, fill = pdf) + geom_bar() +
   scale_fill_discrete('PDF file?') + scale_y_continuous('Number of datasets') +
   scale_x_discrete('Traffic survey?') +
-  ggtitle('Most of the PDF files on data.mo.gov are traffic surveys.')
+  ggtitle('Most of the PDF files on data.mo.gov\nare traffic surveys.')
 
 # All-no in cross-tabulation
 more.interesting <- subset(missouri, ('No' == census.block.map) & ('No' == building.permits) & ('No' == acs) & ('No' == travel.to.work) & ('No' == traffic.data) & (!census) & ('No' == expenditures) & ('No' == employee.pay) & ('No' == grants) & ('No' == unemployment) & ('No' == liquor.licenses) & ('No' == injury))

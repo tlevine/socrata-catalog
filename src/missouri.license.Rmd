@@ -11,7 +11,7 @@ tags: ['open-data']
 ---
 <% root = 'https://github.com/tlevine/socrata-catalog/tree/master/' %>
 ```{r configure, echo = F}
-opts_chunk$set(fig.width=10, fig.height=10, dpi = 42 * 5)
+opts_chunk$set(fig.width=5, fig.height=5, dpi = 42 * 5)
 ```
 
 ## Which specific datasets have license metadata?
@@ -106,14 +106,14 @@ Data from the federal said "Census". And liquor license data said either
 In the plot below, I map out the different kinds of datasets, whether
 they are PDF files and whether they have public domain licenses.
 
-```{r kinds_counts, echo = FALSE}
+```{r kinds_counts, echo = FALSE, fig.width = 10}
 print(p5)
 ```
 
 Here's the same plot but with proportions instead of counts. This makes
 the small bars more apparent.
 
-```{r kinds_prop, echo = FALSE}
+```{r kinds_prop, echo = FALSE, fig.width = 10}
 print(p6)
 ```
 
@@ -121,7 +121,7 @@ I didn't manage to get it much more precise than this, but I did find that
 the uncategorized datasets containing the word "Missouri" tended not to
 have a license.
 
-```{r says_missouri, echo = FALSE}
+```{r says_missouri, echo = FALSE, fig.width = 10}
 print(p8)
 ```
 ## The merits of explicitly stating that a dataset is in the public domain
